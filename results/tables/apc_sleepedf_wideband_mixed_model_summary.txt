@@ -1,0 +1,28 @@
+Sleep-EDF shared-wideband mixed-effects analysis
+Model: outcome ~ channel * stage + (1|participant_id) + (1|recording_id), REML.
+Outcomes: APC surrogate-normalized score and slow-carrier fP only. fA is excluded because boundary-hit quality control failed.
+Reference levels: channel EEGFpz_Cz; stage N2.
+
+           <strong>channel_stage</strong>           <strong>n_recordings</strong>    <strong>n_participants</strong>    <strong>n_valid_rows</strong>    <strong>n_one_night_participants</strong>    <strong>n_two_night_participants</strong>
+    <strong>___________________________</strong>    <strong>____________</strong>    <strong>______________</strong>    <strong>____________</strong>    <strong>________________________</strong>    <strong>________________________</strong>
+
+    "EEGFpz_Cz_N2"                     196              100              196                    0                            0           
+    "EEGFpz_Cz_N3"                     177               94              177                    0                            0           
+    "EEGPz_Oz_N2"                      196              100              196                    0                            0           
+    "EEGPz_Oz_N3"                      177               94              177                    0                            0           
+    "participant_night_mapping"        197              100              NaN                    3                           97           
+
+
+       <strong>outcome</strong>                  <strong>term</strong>                 <strong>estimate</strong>     <strong>estimate_ci_low</strong>    <strong>estimate_ci_high</strong>    <strong>estimate_se</strong>    <strong>t_statistic</strong>    <strong>df</strong>       <strong>p_value</strong>      <strong>n_rows</strong>    <strong>n_participants</strong>    <strong>n_recordings</strong>    <strong>standardized_estimate</strong>    <strong>standardized_estimate_ci_low</strong>    <strong>standardized_estimate_ci_high</strong>
+    <strong>_____________</strong>    <strong>___________________________</strong>    <strong>__________</strong>    <strong>_______________</strong>    <strong>________________</strong>    <strong>___________</strong>    <strong>___________</strong>    <strong>___</strong>    <strong>___________</strong>    <strong>______</strong>    <strong>______________</strong>    <strong>____________</strong>    <strong>_____________________</strong>    <strong>____________________________</strong>    <strong>_____________________________</strong>
+
+    "apc_score_z"    "(Intercept)"                      7.7611          6.8425             8.6797          0.46792         16.587      742     8.5988e-53     746           100              196                 0.49497                     0.36025                          0.62968          
+    "apc_score_z"    "channel_EEGPz_Oz"                -5.6792         -6.7416            -4.6168          0.54117        -10.494      742     4.0671e-24     746           100              196                -0.83286                    -0.98866                         -0.67705          
+    "apc_score_z"    "channel_EEGPz_Oz:stage_N3"       0.47845         -1.0638             2.0207           0.7856        0.60902      742         0.5427     746           100              196                0.070164                    -0.15601                          0.29634          
+    "apc_score_z"    "stage_N3"                        -1.3779         -2.4747           -0.28106           0.5587        -2.4662      742       0.013879     746           100              196                -0.20207                    -0.36291                        -0.041218          
+    "apc_fp_hz"      "(Intercept)"                     0.63968         0.61683            0.66252         0.011635         54.978      742    6.9723e-264     746           100              196                 0.15384                    0.011437                          0.29624          
+    "apc_fp_hz"      "channel_EEGPz_Oz"              -0.052814       -0.080642          -0.024986         0.014175        -3.7258      742     0.00020948     746           100              196                -0.32926                    -0.50275                         -0.15577          
+    "apc_fp_hz"      "channel_EEGPz_Oz:stage_N3"    -0.0089797       -0.049377           0.031418         0.020578       -0.43638      742        0.66269     746           100              196               -0.055982                    -0.30783                          0.19587          
+    "apc_fp_hz"      "stage_N3"                       0.010671       -0.018036           0.039377         0.014623        0.72974      742        0.46578     746           100              196                0.066525                    -0.11244                          0.24549          
+
+

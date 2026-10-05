@@ -1,0 +1,13 @@
+Figure 5 exact APC run/rest statistics (EC013 R2)
+Primary inferential unit: one unweighted observation per bout (12 run and 12 rest bouts).
+Welch two-sample t tests are two-sided; Hedges g is signed as run minus rest.
+Unequal bout durations were retained; duration-weighted means are provided separately in apc_ec013_lfp_apc_vs_pac_state_method_summary.csv as a sensitivity analysis.
+
+pac_strength: run mean/median=0.00285531/0.00300875; rest mean/median=0.00182641/0.00176676
+  Welch t(17.98)=2.797, p=0.01193, Hedges g=1.102, mean difference=0.00102889, bootstrap 95% CI=[0.000327026, 0.0017122]
+phase_frequency_hz: run mean/median=7.62939/7.62939; rest mean/median=7.01904/6.71387
+  Welch t(15.82)=2.872, p=0.01116, Hedges g=1.132, mean difference=0.610352, bootstrap 95% CI=[0.203451, 1.01725]
+amplitude_frequency_hz: run mean/median=106.667/110; rest mean/median=102.667/102
+  Welch t(20.38)=0.643, p=0.5274, Hedges g=0.253, mean difference=4, bootstrap 95% CI=[-7.66667, 15.6667]
+duration_s: run mean/median=10.3398/10.4856; rest mean/median=11.1221/11.1372
+  Welch t(14.28)=-0.778, p=0.4493, Hedges g=-0.307, mean difference=-0.782333, bootstrap 95% CI=[-2.66787, 1.09827]

@@ -1,0 +1,6 @@
+Figure 3 reviewer-control inferential summary
+
+Recovery proportions use Wilson 95% confidence intervals (n = 25 per method and scale).
+Paired APC-minus-comparator differences and oracle AUC intervals use 10,000 percentile bootstrap samples.
+
+Known-pair positive control: MVL and GLM reliably distinguish coupled from null trials; KLMI is weaker.

@@ -1,0 +1,63 @@
+EC013 rodent LFP APC-versus-standard-PAC analysis | recording R2
+Analysis window: 32.639 to 298.000 s
+Run bouts: 12 | Rest bouts: 12
+Primary inferential unit: bout (one observation per bout).
+Unequal bout durations are retained in the dataset; duration-weighted state means are also reported for sensitivity.
+
+State/method summary:
+  APC | run | n=12 | raw PAC median=0.002777 | zPAC median=2.204 | fP median=7.629 Hz | fA median=110.0 Hz | pref=-0.9 deg | R=0.927 | weighted zPAC=2.325
+  APC | rest | n=12 | raw PAC median=0.001982 | zPAC median=2.140 | fP median=6.714 Hz | fA median=102.0 Hz | pref=6.6 deg | R=0.935 | weighted zPAC=2.104
+  MVL-scan | run | n=12 | raw PAC median=0.020176 | zPAC median=-0.015 | fP median=4.000 Hz | fA median=80.0 Hz | pref=89.0 deg | R=0.165 | weighted zPAC=0.085
+  MVL-scan | rest | n=12 | raw PAC median=0.017098 | zPAC median=1.520 | fP median=4.000 Hz | fA median=80.0 Hz | pref=-87.4 deg | R=0.332 | weighted zPAC=1.692
+  KLMI-scan | run | n=12 | raw PAC median=0.003753 | zPAC median=1.953 | fP median=4.000 Hz | fA median=114.0 Hz | pref=4.9 deg | R=0.281 | weighted zPAC=3.603
+  KLMI-scan | rest | n=12 | raw PAC median=0.003759 | zPAC median=2.087 | fP median=4.000 Hz | fA median=114.0 Hz | pref=-95.6 deg | R=0.101 | weighted zPAC=2.238
+  GLM-scan | run | n=12 | raw PAC median=0.053177 | zPAC median=6.328 | fP median=6.000 Hz | fA median=110.0 Hz | pref=0.9 deg | R=0.723 | weighted zPAC=6.009
+  GLM-scan | rest | n=12 | raw PAC median=0.063625 | zPAC median=3.234 | fP median=4.000 Hz | fA median=114.0 Hz | pref=-9.4 deg | R=0.329 | weighted zPAC=3.861
+
+Within-method run-vs-rest tests:
+  APC | PAC strength | run median=0.0027767 | rest median=0.00198214 | p=0.09988 | effect=0.4028 | 95% CI=[-3.18055e-05, 0.0011593]
+  APC | PAC z-score | run median=2.20401 | rest median=2.1404 | p=0.7075 | effect=0.0972 | 95% CI=[-0.858738, 1.32505]
+  APC | fP | run median=7.62939 | rest median=6.71387 | p=0.02865 | effect=0.5139 | 95% CI=[0.203451, 1.01725]
+  APC | fA | run median=110 | rest median=102 | p=0.7278 | effect=0.0903 | 95% CI=[-7.66667, 15.3333]
+  APC | Preferred phase | diff=7.5 deg | p=0.4233 | Rrun=0.927 | Rrest=0.935
+  MVL-scan | PAC strength | run median=0.0201765 | rest median=0.0170975 | p=0.2855 | effect=0.2639 | 95% CI=[-0.00144729, 0.00500183]
+  MVL-scan | PAC z-score | run median=-0.0152892 | rest median=1.51966 | p=0.002437 | effect=-0.7361 | 95% CI=[-2.19736, -0.809245]
+  MVL-scan | fP | run median=4 | rest median=4 | p=NaN | effect=0.0000 | 95% CI=[0, 0]
+  MVL-scan | fA | run median=80 | rest median=80 | p=0.5582 | effect=0.1250 | 95% CI=[-3.66667, 5]
+  MVL-scan | Preferred phase | diff=176.4 deg | p=0.2762 | Rrun=0.165 | Rrest=0.332
+  KLMI-scan | PAC strength | run median=0.00375252 | rest median=0.00375943 | p=0.977 | effect=-0.0139 | 95% CI=[-0.00098515, 0.000583686]
+  KLMI-scan | PAC z-score | run median=1.95329 | rest median=2.08732 | p=0.8852 | effect=0.0417 | 95% CI=[-0.698998, 3.6977]
+  KLMI-scan | fP | run median=4 | rest median=4 | p=0.03649 | effect=0.3333 | 95% CI=[0.125, 1.625]
+  KLMI-scan | fA | run median=114 | rest median=114 | p=0.5415 | effect=-0.1528 | 95% CI=[-20, 10.6667]
+  KLMI-scan | Preferred phase | diff=100.5 deg | p=0.5519 | Rrun=0.281 | Rrest=0.101
+  GLM-scan | PAC strength | run median=0.0531768 | rest median=0.0636247 | p=0.141 | effect=-0.3611 | 95% CI=[-0.0211817, 0.000597328]
+  GLM-scan | PAC z-score | run median=6.32763 | rest median=3.23429 | p=0.1939 | effect=0.3194 | 95% CI=[-0.33605, 4.56685]
+  GLM-scan | fP | run median=6 | rest median=4 | p=0.04711 | effect=0.4444 | 95% CI=[0.166667, 2.29167]
+  GLM-scan | fA | run median=110 | rest median=114 | p=0.9535 | effect=-0.0208 | 95% CI=[-15.6667, 14.3333]
+  GLM-scan | Preferred phase | diff=10.3 deg | p=0.7339 | Rrun=0.723 | Rrest=0.329
+
+APC versus scanned PAC on matched bouts:
+  run | APC vs MVL-scan | PAC strength | delta=-0.0176013 | p=0.0002 | 95% CI=[-0.0193468, -0.0159111]
+  run | APC vs MVL-scan | PAC z-score | delta=2.1998 | p=0.0002 | 95% CI=[1.25275, 3.2872]
+  run | APC vs MVL-scan | fP absolute deviation | delta=0.305176 | p=0.0002 | 95% CI=[0.305176, 0.305176]
+  run | APC vs MVL-scan | fA absolute deviation | delta=5.66667 | p=0.1673 | 95% CI=[-1, 12.6667]
+  run | APC vs KLMI-scan | PAC strength | delta=-0.00135454 | p=0.0002 | 95% CI=[-0.00194632, -0.000822104]
+  run | APC vs KLMI-scan | PAC z-score | delta=-1.40266 | p=0.2595 | 95% CI=[-3.67902, 0.691479]
+  run | APC vs KLMI-scan | fP absolute deviation | delta=-0.528158 | p=0.2946 | 95% CI=[-1.27816, 0.180176]
+  run | APC vs KLMI-scan | fA absolute deviation | delta=-6 | p=0.1684 | 95% CI=[-13, 1]
+  run | APC vs GLM-scan | PAC strength | delta=-0.050457 | p=0.0002 | 95% CI=[-0.0554303, -0.0452474]
+  run | APC vs GLM-scan | PAC z-score | delta=-3.78389 | p=0.0049 | 95% CI=[-5.92477, -1.7169]
+  run | APC vs GLM-scan | fP absolute deviation | delta=-0.944824 | p=0.0102 | 95% CI=[-1.44482, -0.403158]
+  run | APC vs GLM-scan | fA absolute deviation | delta=-5 | p=0.3355 | 95% CI=[-13, 4.33333]
+  rest | APC vs MVL-scan | PAC strength | delta=-0.0163734 | p=0.0002 | 95% CI=[-0.0190824, -0.0135851]
+  rest | APC vs MVL-scan | PAC z-score | delta=0.466593 | p=0.3832 | 95% CI=[-0.512764, 1.45798]
+  rest | APC vs MVL-scan | fP absolute deviation | delta=0.508626 | p=0.0066 | 95% CI=[0.254313, 0.762939]
+  rest | APC vs MVL-scan | fA absolute deviation | delta=12.3333 | p=0.0002 | 95% CI=[8, 16.6667]
+  rest | APC vs KLMI-scan | PAC strength | delta=-0.00209034 | p=0.0002 | 95% CI=[-0.00298674, -0.00134007]
+  rest | APC vs KLMI-scan | PAC z-score | delta=-0.237369 | p=0.7056 | 95% CI=[-1.34576, 0.994253]
+  rest | APC vs KLMI-scan | fP absolute deviation | delta=0.508626 | p=0.0066 | 95% CI=[0.254313, 0.762939]
+  rest | APC vs KLMI-scan | fA absolute deviation | delta=-2.66667 | p=0.586 | 95% CI=[-11, 5.34167]
+  rest | APC vs GLM-scan | PAC strength | delta=-0.0611589 | p=0.0002 | 95% CI=[-0.0709583, -0.0512928]
+  rest | APC vs GLM-scan | PAC z-score | delta=-1.87997 | p=0.0412 | 95% CI=[-3.39949, -0.417531]
+  rest | APC vs GLM-scan | fP absolute deviation | delta=-0.074707 | p=0.8222 | 95% CI=[-0.699707, 0.490017]
+  rest | APC vs GLM-scan | fA absolute deviation | delta=-2 | p=0.6967 | 95% CI=[-10, 5.66667]

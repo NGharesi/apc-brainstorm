@@ -1,0 +1,14 @@
+# Raw recordings and private working artifacts must not be committed.
+*.edf
+*.bdf
+*.eeg
+*.vhdr
+*.vmrk
+*.set
+*.fif
+*.mat
+*.fig
+*.docx
+*.zip
+__pycache__/
+.DS_Store

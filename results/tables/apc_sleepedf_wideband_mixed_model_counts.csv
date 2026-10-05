@@ -1,0 +1,6 @@
+channel_stage,n_recordings,n_participants,n_valid_rows,n_one_night_participants,n_two_night_participants
+EEGFpz_Cz_N2,196,100,196,0,0
+EEGFpz_Cz_N3,177,94,177,0,0
+EEGPz_Oz_N2,196,100,196,0,0
+EEGPz_Oz_N3,177,94,177,0,0
+participant_night_mapping,197,100,NaN,3,97

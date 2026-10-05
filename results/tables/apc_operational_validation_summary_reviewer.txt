@@ -1,0 +1,21 @@
+APC operational validation (reviewer)
+Operational count criterion: >= 12 burst epochs and >= 8 phase events.
+A full-pipeline null false-positive rate is the null/baseline significant_z rate (z > 1.96).
+
+       <strong>condition</strong>           <strong>setting</strong>         <strong>n</strong>     <strong>valid_count_rate</strong>    <strong>significant_rate</strong>    <strong>median_bursts</strong>    <strong>median_phase_events</strong>    <strong>median_fP_hz</strong>    <strong>median_fA_hz</strong>    <strong>median_z</strong>     <strong>min_burst_threshold</strong>    <strong>min_phase_event_threshold</strong>
+    <strong>_______________</strong>    <strong>________________</strong>    <strong>__</strong>    <strong>________________</strong>    <strong>________________</strong>    <strong>_____________</strong>    <strong>___________________</strong>    <strong>____________</strong>    <strong>____________</strong>    <strong>_________</strong>    <strong>___________________</strong>    <strong>_________________________</strong>
+
+    "coupled"          "band_narrow"       25             1                   0                96                 95                7.8125           116          -0.16703            12                         8            
+    "coupled"          "band_wide"         25             1                   0                98                 95                7.8125           116          -0.13094            12                         8            
+    "coupled"          "baseline"          25             1                   0                98                 95                7.8125           116          -0.13539            12                         8            
+    "coupled"          "split_first"       25          0.92                   0                44                 47                7.8125           116           -0.1594            12                         8            
+    "coupled"          "split_second"      25          0.96                   0                43                 47                7.8125           116          -0.20977            12                         8            
+    "coupled"          "threshold_high"    25             1                   0                91                 95                7.8125           116          -0.15179            12                         8            
+    "coupled"          "threshold_low"     25             1                   0               112                 95                7.8125           116           -0.1774            12                         8            
+    "harmonic"         "baseline"          25             1                   0               102                 95                7.8125           116          -0.27907            12                         8            
+    "no_oscillator"    "baseline"          25             1                0.08                48                 14                1.4648           129           0.35815            12                         8            
+    "null"             "baseline"          25             1                0.04                56                 95                7.8125           113           0.24993            12                         8            
+    "transient"        "baseline"          25             1                0.08                49                 15                1.4648           112         -0.093758            12                         8            
+
+
+Split-half median fP difference: 0.488 Hz; median fA difference: 9.000 Hz.

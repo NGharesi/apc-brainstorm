@@ -1,0 +1,16 @@
+Figure 4 reviewer-control inference summary
+All conditions contain n = 25 paired simulation repeats per method.
+Recovery intervals are two-sided 95% Wilson binomial intervals.
+Mean-error and paired-difference intervals are percentile 95% bootstrap intervals (10,000 resamples).
+
+Sparsest keep rate (0.15):
+APC: pair 12/25 (0.48; 0.30-0.67); fA 12/25; fP zero error 0/25.
+MVL-scan: pair 0/25 (0.00; 0.00-0.13); fA 22/25; fP zero error 0/25.
+KLMI-scan: pair 0/25 (0.00; 0.00-0.13); fA 8/25; fP zero error 0/25.
+GLM-scan: pair 0/25 (0.00; 0.00-0.13); fA 5/25; fP zero error 1/25.
+
+Densest keep rate (1.00):
+APC: pair 25/25 (1.00; 0.87-1.00); fA mean error 0.80 Hz [0.16, 1.44].
+MVL-scan: pair 5/25 (0.20; 0.09-0.39); fA mean error 5.44 Hz [1.92, 9.60].
+KLMI-scan: pair 2/25 (0.08; 0.02-0.25); fA mean error 16.96 Hz [13.76, 20.48].
+GLM-scan: pair 4/25 (0.16; 0.06-0.35); fA mean error 11.20 Hz [8.00, 15.04].
