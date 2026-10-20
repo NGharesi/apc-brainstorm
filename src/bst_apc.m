@@ -340,17 +340,27 @@ end
 
 function phaseFreq = estimate_phase_frequency_fft(epochSignal, fs, options)
     maxPhaseHz = min([options.fA(1) - 0.5, fs / 3, options.maxPhaseHz]);
-    if maxPhaseHz <= options.minPhaseHz
+    epochDurationSec = max((numel(epochSignal) - 1) ./ fs, eps);
+    % A spectral peak must contain enough cycles within the burst-triggered
+    % average to be interpretable. This rejects the first Welch bin when a
+    % short epoch cannot support a low-frequency carrier estimate.
+    minSupportedHz = options.minPhaseCycles ./ epochDurationSec;
+    minPhaseHz = max(options.minPhaseHz, minSupportedHz);
+    if maxPhaseHz <= minPhaseHz
         phaseFreq = nan;
         return;
     end
 
-    signal = epochSignal(:) - mean(epochSignal, 'omitnan');
+    % Remove endpoint-driven linear drift before spectral peak selection.
+    % Burst-triggered averages are short and can otherwise favor the first
+    % nonzero Welch bin even when that component is not oscillatory.
+    signal = detrend(epochSignal(:), 'linear');
+    signal = signal - mean(signal, 'omitnan');
     nfft = max(256, 2^nextpow2(numel(signal)));
     % Fallback phase estimate: dominant spectral peak below the
     % high-frequency search band.
     [pxx, f] = pwelch(signal, [], [], nfft, fs);
-    valid = (f >= options.minPhaseHz) & (f <= maxPhaseHz);
+    valid = (f >= minPhaseHz) & (f <= maxPhaseHz);
     if ~any(valid)
         phaseFreq = nan;
         return;
@@ -739,6 +749,7 @@ function options = normalize_options(optionsIn)
     options.phaseTimeBandwidth = get_option(optionsIn, 'phaseTimeBandwidth', 20);
     options.phaseEpochCycles = get_option(optionsIn, 'phaseEpochCycles', 3);
     options.minPhaseHz = get_option(optionsIn, 'minPhaseHz', 1);
+    options.minPhaseCycles = get_option(optionsIn, 'minPhaseCycles', 3);
     options.maxPhaseHz = get_option(optionsIn, 'maxPhaseHz', 30);
     options.flipTroughs = parse_flag(get_option(optionsIn, 'flipTroughs', true));
     options.burstProminenceScale = get_option(optionsIn, 'burstProminenceScale', 0.75);
@@ -757,6 +768,10 @@ function options = normalize_options(optionsIn)
     if ~isscalar(options.burstProminenceScale) || ~isfinite(options.burstProminenceScale) || options.burstProminenceScale <= 0
         error('bst_apc:InvalidBurstProminenceScale', ...
             'OPTIONS.burstProminenceScale must be a positive finite scalar.');
+    end
+    if ~isscalar(options.minPhaseCycles) || ~isfinite(options.minPhaseCycles) || options.minPhaseCycles < 0
+        error('bst_apc:InvalidMinPhaseCycles', ...
+            'OPTIONS.minPhaseCycles must be a nonnegative finite scalar.');
     end
     if ~ismember(options.surrogateMethod, ["circular_shift", "phase_scramble"])
         error('bst_apc:InvalidSurrogateMethod', ...

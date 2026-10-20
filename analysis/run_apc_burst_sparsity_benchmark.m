@@ -7,6 +7,12 @@ function results = run_apc_burst_sparsity_benchmark(profileName)
 %   results = run_apc_burst_sparsity_benchmark
 %   results = run_apc_burst_sparsity_benchmark('fast')
 %   results = run_apc_burst_sparsity_benchmark('full')
+%   results = run_apc_burst_sparsity_benchmark('matched_development')
+%   results = run_apc_burst_sparsity_benchmark('matched_holdout')
+%   results = run_apc_burst_sparsity_benchmark('matched_smoke')
+%   results = run_apc_burst_sparsity_benchmark('matched_hybrid_smoke')
+%   results = run_apc_burst_sparsity_benchmark('matched_hybrid_development')
+%   results = run_apc_burst_sparsity_benchmark('matched_hybrid_holdout')
 %
 % OUTPUT FILES:
 %   apc_burst_sparsity_benchmark_<profile>.mat
@@ -30,7 +36,11 @@ function results = run_apc_burst_sparsity_benchmark(profileName)
     cfg = local_get_profile(profileName);
     rng(cfg.random_seed, 'twister');
 
-    methods = ["APC","MVL-scan","KLMI-scan","GLM-scan"];
+    methods = ["APC","MVL-scan","Ozkurt-MVL-scan","KLMI-scan", ...
+        "GLM-scan","Event-phase-scan"];
+    if cfg.include_hybrid
+        methods = [methods, "APC-event-carrier"];
+    end
     runRows = {};
 
     fprintf('APC burst sparsity benchmark\n');
@@ -127,14 +137,60 @@ function cfg = local_get_profile(profileName)
     cfg.fp_tolerance_hz = 1.0;
     cfg.coupling_level = 0.60;
     cfg.background_burst_scale = 0.18;
+    cfg.min_phase_cycles = 3;
+    cfg.include_hybrid = false;
 
     switch profileName
+        case "matched_smoke"
+            % One-repeat syntax and output smoke test; never report.
+            cfg.n_repeats = 1;
+            cfg.random_seed = 20261015;
+            cfg.burst_keep_rates = 0.40;
+            cfg.phase_scan_hz = 1:1:30;
+            cfg.amplitude_scan_hz = 88:4:148;
+            cfg.broad_fa_band_hz = [80 152];
+        case {"matched_hybrid_smoke", "matched_hybrid_development", "matched_hybrid_holdout"}
+            cfg.include_hybrid = true;
+            cfg.burst_keep_rates = [1.00 0.70 0.40 0.15];
+            cfg.phase_scan_hz = 1:1:30;
+            cfg.amplitude_scan_hz = 88:4:148;
+            cfg.broad_fa_band_hz = [80 152];
+            switch profileName
+                case "matched_hybrid_smoke"
+                    cfg.n_repeats = 1;
+                    cfg.random_seed = 20261017;
+                    cfg.burst_keep_rates = 0.40;
+                case "matched_hybrid_development"
+                    cfg.n_repeats = 15;
+                    cfg.random_seed = 20261017;
+                case "matched_hybrid_holdout"
+                    cfg.n_repeats = 100;
+                    cfg.random_seed = 20261018;
+            end
         case "fast"
             cfg.n_repeats = 10;
             cfg.burst_keep_rates = [1.00 0.75 0.50 0.35 0.25 0.15];
         case "full"
             cfg.n_repeats = 25;
             cfg.burst_keep_rates = [1.00 0.85 0.70 0.55 0.40 0.25 0.15];
+        case "matched_development"
+            % Development-only fairness check. All scans use the same
+            % broad candidate ranges as APC; do not report this profile.
+            cfg.n_repeats = 15;
+            cfg.random_seed = 20261015;
+            cfg.burst_keep_rates = [1.00 0.70 0.40 0.15];
+            cfg.phase_scan_hz = 1:1:30;
+            cfg.amplitude_scan_hz = 88:4:148;
+            cfg.broad_fa_band_hz = [80 152];
+        case "matched_holdout"
+            % Independent locked evaluation with new seeds and no further
+            % APC parameter changes after matched_development completes.
+            cfg.n_repeats = 100;
+            cfg.random_seed = 20261016;
+            cfg.burst_keep_rates = [1.00 0.70 0.40 0.15];
+            cfg.phase_scan_hz = 1:1:30;
+            cfg.amplitude_scan_hz = 88:4:148;
+            cfg.broad_fa_band_hz = [80 152];
         otherwise
             error('Unknown profileName: %s', profileName);
     end
@@ -148,14 +204,28 @@ function trialRows = local_run_trial(cfg, keepRate, repIdx)
 
     apcResult = local_run_apc(signal, t, cfg);
     mvlScan = local_scan_standard_pac(signal, cfg, 'canolty');
+    ozkurtScan = local_scan_standard_pac(signal, cfg, 'ozkurt');
     klmiScan = local_scan_standard_pac(signal, cfg, 'tort');
     glmScan = local_scan_standard_pac(signal, cfg, 'glm');
+    eventScan = local_scan_standard_pac(signal, cfg, 'event');
 
     trialRows = {
         local_pack_row("APC", keepRate, repIdx, apcResult, cfg), ...
         local_pack_row("MVL-scan", keepRate, repIdx, mvlScan, cfg), ...
+        local_pack_row("Ozkurt-MVL-scan", keepRate, repIdx, ozkurtScan, cfg), ...
         local_pack_row("KLMI-scan", keepRate, repIdx, klmiScan, cfg), ...
-        local_pack_row("GLM-scan", keepRate, repIdx, glmScan, cfg)};
+        local_pack_row("GLM-scan", keepRate, repIdx, glmScan, cfg), ...
+        local_pack_row("Event-phase-scan", keepRate, repIdx, eventScan, cfg)};
+    if cfg.include_hybrid
+        hybrid = local_apc_event_carrier(signal, cfg, apcResult);
+        trialRows{end+1} = local_pack_row("APC-event-carrier", keepRate, repIdx, hybrid, cfg);
+    end
+end
+
+
+function out = local_apc_event_carrier(signal, cfg, apcResult)
+    out = apc_event_carrier(signal, cfg.fs_hz, apcResult, ...
+        cfg.amplitude_scan_hz, 6, 1.5, 0.020);
 end
 
 
@@ -267,7 +337,8 @@ function out = local_run_apc(signal, time, cfg)
         'diagm', false, ...
         'surrogates', false, ...
         'num_perm', 0, ...
-        'numPhaseBins', 18);
+        'numPhaseBins', 18, ...
+        'minPhaseCycles', cfg.min_phase_cycles);
 
     sApc = bst_apc(sMatrix, options);
     out = struct();
@@ -309,6 +380,14 @@ function out = local_scan_standard_pac(signal, cfg, metricName)
             switch lower(metricName)
                 case 'glm'
                     [scoreVal, prefDeg] = local_glm_pac_metric(lowPhase{iFp}, highEnv{iFa});
+                case 'event'
+                    eventIdx = local_envelope_events(highEnv{iFa}, fs);
+                    if isempty(eventIdx)
+                        scoreVal = 0;
+                    else
+                        scoreVal = abs(mean(exp(1i * lowPhase{iFp}(eventIdx))));
+                    end
+                    prefDeg = NaN;
                 otherwise
                     [scoreVal, prefDeg] = calc_MI_all_methods(lowPhase{iFp}, highEnv{iFa}, metricName, false, 0, 1, false, 18);
             end
@@ -336,6 +415,15 @@ function out = local_scan_standard_pac(signal, cfg, metricName)
 end
 
 
+function indices = local_envelope_events(envelope, fs)
+    threshold = median(envelope) + 0.75 * std(envelope);
+    [~, indices] = findpeaks(envelope, ...
+        'MinPeakProminence', 0.25 * std(envelope), ...
+        'MinPeakDistance', max(1, round(0.020 * fs)));
+    indices = indices(envelope(indices) >= threshold);
+end
+
+
 function x = local_bandpass(signal, fs, lowHz, highHz)
     wn = [lowHz, highHz] ./ (fs / 2);
     wn(1) = max(wn(1), 1e-4);
@@ -344,8 +432,10 @@ function x = local_bandpass(signal, fs, lowHz, highHz)
         x = zeros(size(signal));
         return;
     end
-    [b, a] = butter(4, wn, 'bandpass');
-    x = filtfilt(b, a, double(signal(:)));
+    d = designfilt('bandpassiir', 'FilterOrder', 4, ...
+        'HalfPowerFrequency1', wn(1) * fs / 2, ...
+        'HalfPowerFrequency2', wn(2) * fs / 2, 'SampleRate', fs);
+    x = filtfilt(d, double(signal(:)));
 end
 
 
@@ -367,7 +457,7 @@ end
 
 
 function summaryTable = local_build_summary(runTable, methods)
-    rows = cell(0, 22);
+    rows = cell(0, 21);
     condValues = unique(runTable.burst_keep_rate);
     for iCond = 1:numel(condValues)
         val = condValues(iCond);
@@ -584,7 +674,11 @@ function local_plot_summary_curve(ax, summaryTable, methods, xValues, fieldName,
     xlabel(ax, xLabelText);
     ylabel(ax, yLabelText);
     title(ax, titleText, 'FontWeight', 'bold', 'FontSize', 13);
-    xlim(ax, [min(xValues) max(xValues)]);
+    if numel(xValues) == 1
+        xlim(ax, xValues + [-0.05 0.05]);
+    else
+        xlim(ax, [min(xValues) max(xValues)]);
+    end
     if showLegend
         legend(ax, 'Location', 'southwest', 'Box', 'off', 'FontSize', 11);
     end
@@ -697,6 +791,10 @@ function style = local_method_styles()
     style.MVLscan.line = '-';
     style.MVLscan.marker = '+';
 
+    style.OzkurtMVLscan.color = [0.49 0.18 0.56];
+    style.OzkurtMVLscan.line = '-';
+    style.OzkurtMVLscan.marker = 's';
+
     style.KLMIscan.color = [0.10 0.10 0.10];
     style.KLMIscan.line = '-';
     style.KLMIscan.marker = '*';
@@ -704,6 +802,14 @@ function style = local_method_styles()
     style.GLMscan.color = [0.00 0.62 0.45];
     style.GLMscan.line = '-';
     style.GLMscan.marker = '>';
+
+    style.Eventphasescan.color = [0.30 0.30 0.30];
+    style.Eventphasescan.line = '--';
+    style.Eventphasescan.marker = 'd';
+
+    style.APCeventcarrier.color = [0.69 0.16 0.20];
+    style.APCeventcarrier.line = '--';
+    style.APCeventcarrier.marker = '^';
 end
 
 
@@ -713,10 +819,16 @@ function key = local_style_key(methodName)
             key = 'APC';
         case "MVL-scan"
             key = 'MVLscan';
+        case "Ozkurt-MVL-scan"
+            key = 'OzkurtMVLscan';
         case "KLMI-scan"
             key = 'KLMIscan';
         case "GLM-scan"
             key = 'GLMscan';
+        case "Event-phase-scan"
+            key = 'Eventphasescan';
+        case "APC-event-carrier"
+            key = 'APCeventcarrier';
         otherwise
             error('Unknown method name: %s', methodName);
     end

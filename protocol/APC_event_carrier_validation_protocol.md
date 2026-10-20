@@ -1,0 +1,27 @@
+# APC event-carrier validation protocol
+
+Date frozen: 2026-10-16. The `matched_hybrid_smoke` profile checks code only and is excluded from inference. The earlier `matched_development` results motivated this variant. The `matched_hybrid_development` profile is diagnostic. Only `matched_hybrid_holdout` (seed 20261018) is eligible for a new performance claim.
+
+The smoke test identified numerical ill-conditioning in the direct-form low-frequency comparator filter. Before development and holdout evaluation, all comparator bands were changed to MATLAB's stable `designfilt` IIR implementation, matching the filter form already used inside APC. Earlier broad-grid comparator results using direct-form `butter`/`filtfilt` are provisional and must not be cited as fair rankings until rerun.
+
+## Method and comparators
+
+The experimental APC-event-carrier variant takes the phase carrier estimated by APC's burst-triggered average. It then uses the same +/-1.5-Hz phase band as the event-phase comparator. At each prespecified 88:4:148 Hz amplitude candidate, it extracts the envelope with a 12-Hz-wide bandpass, detects envelope peaks, and selects the carrier with the greatest concentration of phase at those events. Original APC and five scans (MVL, Ozkurt-MVL, KLMI, GLM, event-phase) are evaluated on exactly the same simulated signal in each repeat. The variant is a method change and must be named separately from original APC in reporting.
+
+## Simulations and endpoints
+
+Sampling rate 500 Hz; duration 8 s; true phase and amplitude carriers 8 and 120 Hz; SNR -3 dB; burst keep rates 1.00, 0.70, 0.40, and 0.15. The background burst scale is 0.18, burst timing jitter is 10 ms, and burst width sigma is 28 ms. Search candidates are 1:1:30 Hz for phase and 88:4:148 Hz for amplitude, with the shared amplitude search bounds 80-152 Hz. The event-phase and hybrid amplitude candidates and event detector are identical. APC's minimum resolvable phase candidate contains three cycles within its 1.2-s burst-triggered average.
+
+The primary endpoint is correct recovery of *both* carriers within 1 Hz for phase and 8 Hz for amplitude. Report exact counts for each method and keep rate, plus the mean recovery across the four rates. Secondary endpoints are absolute phase and amplitude errors and phase-only/amplitude-only recovery. Each paired method contrast uses differences within the same simulated repeat, with 95% intervals calculated by resampling repeats within keep rate. No claim of superiority is made unless the prespecified holdout paired interval versus a comparator excludes zero in the favorable direction. Also report conditions where the variant loses.
+
+The original matched-grid continuous/distractor benchmark, continuous-PAC benchmark, full-pipeline null calibration, and real-data analyses remain separate evidence. Changing the APC carrier rule does not update their results; they require rerunning with the variant before any cross-analysis claim.
+
+## Follow-up tests frozen before inspection
+
+The independent sparse-burst holdout completed on 2026-10-16. The follow-up tests below are not used to tune the hybrid rule. The shared implementation is `apc_event_carrier.m`; it uses the APC phase-carrier estimate, a fourth-order stable IIR bandpass, envelope-peak threshold of median plus 0.75 SD, peak prominence of 0.25 SD, and minimum peak separation of 20 ms. It chooses the candidate with greatest event-phase concentration. The raw concentration score has no calibrated interpretation by itself.
+
+Full-pipeline null calibration uses `run_apc_full_pipeline_null_calibration('hybrid_reviewer')`, with 100 calibration and 100 independent holdout signals per condition. Conditions are colored noise, uncoupled bursts, transient artifacts, harmonic null, and coupled positive. Each replicate reruns original APC phase selection and the hybrid carrier search. A single 95th-percentile threshold is set from the four pooled calibration-null conditions and applied once to holdout. Report each condition's holdout exceedance count and Wilson interval, including sensitivity for the coupled control and transient-artifact false positives. The 1-repeat `hybrid_smoke` profile is a syntax check only.
+
+For the human EEG external check, run `run_apc_dreams_spindle_external_validation('hybrid')` on all 360 prespecified 30-s DREAMS windows, six excerpts, scorer-2 annotations. Candidate amplitude centers are 4:2:30 Hz with a +/-2-Hz filter and Nyquist-safe exclusions; the APC-derived phase carrier is filtered at +/-1.5 Hz as in the simulation variant. The search range is modality-adapted before looking at outcomes, not a claim that high-gamma and spindle carriers are identical. Compare hybrid, original APC, raw scanned PAC, and normalized scanned PAC on the same windows. The prespecified outcomes are fraction of selected carriers in the 11-16 Hz sigma range, annotation precision, recall, and precision above a 200-shift time null. Average first within excerpt; use paired excerpt-level differences with bootstrap 95% intervals and exact sign-flip tests. This is an external physiological validation, not an independent discovery set for changing the algorithm.
+
+No manuscript claim of broad method superiority follows from the sparse-burst holdout alone. A separate manuscript copy will distinguish simulation recovery, null calibration, and real-data external validity; the current submission draft remains untouched.
