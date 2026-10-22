@@ -6,6 +6,9 @@ function [sApc, runInfo] = bst_apc(sMatrix, OPTIONS)
 % runInfo contains version, full normalized options, per-signal route,
 % candidate/effective final half-widths and actual clipped final band edges.
 % stepFourMode: v1 (default), oct2026, june2026_clipped.
+% OPTIONS.version='v2' selects event-PPC phase selection and raw-MVL carrier
+% selection. Default/version='v1' preserves the frozen v1 calculations.
+% v2 adds event PPC/z/p, normalized MVL, burst times and diagnostic flags.
 % fPRefine: true (default), or false for the preserved Welch-bin estimate.
 % fPMaxBinSpacingHz: 0.05 (maximum refined spectral-bin spacing).
 %
@@ -46,6 +49,14 @@ function [sApc, runInfo] = bst_apc(sMatrix, OPTIONS)
 %   Niloofar Gharesi
 %   Refactored for publication packaging by OpenAI Codex, 2026
 
+    requestedVersion=lower(char(string(get_option(OPTIONS,'version','v1'))));
+    if ~ismember(requestedVersion,{'v1','v1.0','v2'})
+        error('bst_apc:Version','version must be v1, v1.0 or v2.');
+    end
+    if strcmp(requestedVersion,'v2')
+        [sApc,runInfo]=compute_matrix_apc_v2(sMatrix,OPTIONS);
+        return;
+    end
     options = normalize_options(OPTIONS);
     [data, time] = validate_input_matrix(sMatrix);
 
@@ -1010,4 +1021,152 @@ function signalOut=carrier_bandpass(signal,fs,band,mode)
     % change with continuous fP; design the same IIR family directly.
     [z,p,k]=butter(2,band/(fs/2),'bandpass');[sos,g]=zp2sos(z,p,k);
     signalOut=filtfilt(sos,g,double(signal(:).'));
+end
+
+function [sApc,runInfo]=compute_matrix_apc_v2(sMatrix,optionsIn)
+% Fixed v2 specification. All v1 helpers/calculations remain selectable.
+if ~isfield(optionsIn,'fA') || isempty(optionsIn.fA),optionsIn.fA=[80 160];end
+options=normalize_options(optionsIn);options.version='v2';
+options.phaseGridStepHz=.1;options.minUsableBursts=10;options.phaseMinimumRecordCycles=10;
+options.amplitudeGridStepHz=1;options.amplitudeScoreSmoothPoints=3;options.eventSurrogateCount=200;
+options.eventSurrogateSeed=get_option(optionsIn,'eventSurrogateSeed',20261022);
+options.eventSurrogateSubstream=get_option(optionsIn,'eventSurrogateSubstream',1);
+options.eventSurrogateGenerator='mrg32k3a';
+assert(isscalar(options.minPhaseHz)&&isfinite(options.minPhaseHz)&&options.minPhaseHz>0 && ...
+ isscalar(options.maxPhaseHz)&&isfinite(options.maxPhaseHz)&&options.maxPhaseHz>=options.minPhaseHz,'bst_apc:V2PhaseLimits','Invalid phase limits');
+assert(isscalar(options.eventSurrogateSeed)&&options.eventSurrogateSeed>=0&&options.eventSurrogateSeed<2^32&&fix(options.eventSurrogateSeed)==options.eventSurrogateSeed,'bst_apc:V2Seed','Invalid surrogate seed');
+assert(isscalar(options.eventSurrogateSubstream)&&options.eventSurrogateSubstream>=1&&fix(options.eventSurrogateSubstream)==options.eventSurrogateSubstream,'bst_apc:V2Substream','Invalid surrogate substream');
+[data,time]=validate_input_matrix(sMatrix);n=size(data,1);
+runInfo=struct('version','v2.0','options',options,'route',strings(n,1),'candidate_half_width_hz',nan(n,1), ...
+ 'final_half_width_hz',nan(n,1),'effective_half_width_hz',nan(n,1),'final_band_hz',nan(n,2), ...
+ 'burst_times_s',{cell(n,1)},'usable_burst_times_s',{cell(n,1)},'diagnostics',{cell(n,1)}, ...
+ 'surrogate_ppc',{cell(n,1)},'surrogate_seed',repmat(options.eventSurrogateSeed,n,1), ...
+ 'surrogate_substream',(options.eventSurrogateSubstream:options.eventSurrogateSubstream+n-1).');
+names={'pac_strength','phase_frequency_hz','amplitude_frequency_hz','preferred_phase_deg','n_bursts','n_phase_events', ...
+ 'status_code','ozkurt_mvl','event_ppc','event_z','event_p','n_usable_bursts','diagnostic_flags'};
+values=nan(n,numel(names));
+for j=1:n
+ local=options;local.eventSurrogateSubstream=runInfo.surrogate_substream(j);
+ [m,d]=compute_signal_apc_v2(data(j,:),time,local);
+ for k=1:numel(names),values(j,k)=m.(names{k});end
+ runInfo.route(j)=m.route;runInfo.candidate_half_width_hz(j)=m.phase_frequency_hz;
+ runInfo.final_half_width_hz(j)=m.phase_frequency_hz;runInfo.effective_half_width_hz(j)=m.phase_frequency_hz;
+ runInfo.final_band_hz(j,:)=m.final_band_hz;runInfo.burst_times_s{j}=d.burst_times_s;
+ runInfo.usable_burst_times_s{j}=d.usable_burst_times_s;runInfo.diagnostics{j}=d;runInfo.surrogate_ppc{j}=d.surrogate_ppc;
+ if options.showPlots,plot_signal_diagnostics(j,d,m,options);end
+end
+units={'a.u.','Hz','Hz','deg','count','count','code','a.u.','a.u.','z','p','count','bitmask'};
+for k=1:numel(names),sApc.(names{k})=pack_feature(values(:,k),units{k},['APC v2 fixed specification: ' names{k}]);end
+sApc.burst_count=sApc.n_bursts;
+end
+
+function [m,d]=compute_signal_apc_v2(signal,time,options)
+m=struct('pac_strength',nan,'phase_frequency_hz',nan,'amplitude_frequency_hz',nan,'preferred_phase_deg',nan, ...
+ 'n_bursts',0,'n_phase_events',0,'status_code',0,'ozkurt_mvl',nan,'event_ppc',nan,'event_z',nan,'event_p',nan, ...
+ 'n_usable_bursts',0,'diagnostic_flags',0,'route',"not_reached",'final_band_hz',[nan nan]);
+d=struct('burst_times_s',[],'usable_burst_times_s',[],'burst_locations',[],'burst_trace',[], ...
+ 'phase_grid_hz',[],'ppc_grid',[],'usable_count_grid',[],'selected_grid_fp_hz',nan,'parabolic_delta_bins',0, ...
+ 'phase_band_hz',[],'final_phase',[],'observed_burst_phases',[],'amplitude_grid_hz',[],'amplitude_scores_raw',[], ...
+ 'amplitude_scores_smoothed',[],'surrogate_ppc',[],'time_epoch',[],'burst_average',[], ...
+ 'phase_epoch_time',[],'phase_locked_average',[],'phase_locked_tf',[],'phase_locked_freqs',[], ...
+ 'trough_locations',[],'diagnostic_error_identifier','','diagnostic_error_message','');
+signal=double(signal(:).');time=double(time(:).');
+if numel(signal)<10 || all(~isfinite(signal)),m.status_code=1;return;end
+signal=fillmissing(signal,'linear','EndValues','nearest');signal=signal-mean(signal,'omitnan');
+fs=1/median(diff(time));duration=numel(signal)/fs;
+if ~isfinite(fs)||fs<=0,m.status_code=1;return;end
+ampRange=[options.fA(1),min(options.fA(2),fs/2-eps)];
+if ampRange(2)<=ampRange(1),m.status_code=1;return;end
+
+% Step 1 is exactly the frozen v1 burst trace and peak detection.
+[burstTrace,~]=compute_burst_trace(signal,fs,ampRange,options.burstTimeBandwidth);
+burstTrace=smoothdata(burstTrace,'movmean',max(3,round(.02*fs)));
+burstLocs=detect_peaks_with_defaults(burstTrace,max(1,round(.9*fs/max(ampRange(1),eps))), ...
+ options.burstProminenceScale*std(burstTrace,0,2));
+m.n_bursts=numel(burstLocs);d.burst_locations=burstLocs;d.burst_times_s=time(burstLocs);d.burst_trace=burstTrace;
+
+% Step 2: event-phase PPC, without a burst-average frequency estimate.
+fmin=max(options.minPhaseHz,10/duration);fmax=min([options.maxPhaseHz,ampRange(1)/2,fs/3]);
+grid=fmin:.1:fmax;ppc=nan(size(grid));counts=zeros(size(grid));
+for k=1:numel(grid)
+ f=grid(k);use=(time(burstLocs)>=time(1)+1/f)&(time(burstLocs)<=time(end)-1/f);counts(k)=sum(use);
+ if counts(k)<10,continue;end
+ band=v2_phase_band(f);filtered=carrier_bandpass(signal,fs,band,'v1');
+ if isempty(filtered),continue;end
+ phase=angle(hilbert(filtered));ppc(k)=v2_ppc(phase(burstLocs(use)));
+end
+d.phase_grid_hz=grid;d.ppc_grid=ppc;d.usable_count_grid=counts;
+if isempty(grid)||~any(isfinite(ppc)),m.status_code=3;return;end
+[~,best]=max(ppc,[],'omitnan');fp=grid(best);d.selected_grid_fp_hz=fp;
+if best>1 && best<numel(grid) && all(isfinite(ppc(best-1:best+1)))
+ y=ppc(best-1:best+1);den=y(1)-2*y(2)+y(3);
+ if isfinite(den)&&den<0
+  delta=.5*(y(1)-y(3))/den;delta=max(-.5,min(.5,delta));fp=fp+delta*.1;d.parabolic_delta_bins=delta;
+ end
+end
+phaseBand=v2_phase_band(fp);phaseSignal=carrier_bandpass(signal,fs,phaseBand,'v1');
+if isempty(phaseSignal),m.status_code=3;return;end
+phase=angle(hilbert(phaseSignal));use=(time(burstLocs)>=time(1)+1/fp)&(time(burstLocs)<=time(end)-1/fp);
+usable=burstLocs(use);m.n_usable_bursts=numel(usable);d.phase_band_hz=phaseBand;d.final_phase=phase;
+d.usable_burst_times_s=time(usable);d.observed_burst_phases=phase(usable);
+if numel(usable)<10,m.status_code=3;return;end
+observed=v2_ppc(phase(usable));if ~isfinite(observed),m.status_code=3;return;end
+m.phase_frequency_hz=fp;m.event_ppc=observed;
+
+% Step 3 affects diagnostics only. A failed profile never stops Step 4.
+try
+ [epochs,epochTime]=collect_burst_epochs(signal,burstLocs,fs,options.epoch,options.flipTroughs);
+ d.time_epoch=epochTime;
+ if isempty(epochs),m.diagnostic_flags=bitor(m.diagnostic_flags,1);else,d.burst_average=mean(epochs,1,'omitnan');end
+ troughs=detect_troughs(phaseSignal,fs,fp);d.trough_locations=troughs;m.n_phase_events=numel(troughs);
+ if isempty(troughs)
+  m.diagnostic_flags=bitor(m.diagnostic_flags,2);
+ else
+  local=options;local.fA=ampRange;
+  [avg,tf,freqs,epochTime]=collect_phase_locked_tf(signal,troughs,fs,fp,local);
+  if isempty(avg)||isempty(tf)
+   m.diagnostic_flags=bitor(m.diagnostic_flags,4);
+  else
+   d.phase_locked_average=avg;d.phase_locked_tf=tf;d.phase_locked_freqs=freqs;d.phase_epoch_time=epochTime;
+  end
+ end
+catch err
+ m.diagnostic_flags=bitor(m.diagnostic_flags,8);d.diagnostic_error_identifier=err.identifier;d.diagnostic_error_message=err.message;
+end
+
+% Step 4: raw MVL selection; smoothing chooses fA, not the reported score.
+faGrid=ampRange(1):1:ampRange(2);scores=nan(size(faGrid));
+for k=1:numel(faGrid)
+ band=[max(ampRange(1),faGrid(k)-fp),min([ampRange(2),fs/2-eps,faGrid(k)+fp])];
+ filtered=carrier_bandpass(signal,fs,band,'v1');if isempty(filtered),continue;end
+ envelope=abs(hilbert(filtered));scores(k)=abs(mean(envelope.*exp(1i*phase)));
+end
+smoothed=smoothdata(scores,'movmean',3);d.amplitude_grid_hz=faGrid;d.amplitude_scores_raw=scores;d.amplitude_scores_smoothed=smoothed;
+if isempty(smoothed)||~any(isfinite(smoothed)),m.status_code=5;return;end
+[~,best]=max(smoothed,[],'omitnan');fa=faGrid(best);
+band=[max(ampRange(1),fa-fp),min([ampRange(2),fs/2-eps,fa+fp])];filtered=carrier_bandpass(signal,fs,band,'v1');
+envelope=abs(hilbert(filtered));vector=mean(envelope.*exp(1i*phase));raw=abs(vector);rmsAmp=sqrt(mean(envelope.^2));
+m.amplitude_frequency_hz=fa;m.pac_strength=raw;m.preferred_phase_deg=rad2deg(angle(vector));
+if rmsAmp>0,m.ozkurt_mvl=raw/rmsAmp;else,m.ozkurt_mvl=0;end
+m.route="raw_mvl_scan";m.final_band_hz=band;
+
+% Event coupling test: local RNG only; fixed observed-event count.
+stream=RandStream(options.eventSurrogateGenerator,'Seed',options.eventSurrogateSeed);stream.Substream=options.eventSurrogateSubstream;
+unwrapped=unwrap(phase);surr=nan(1,200);observedTimes=time(usable);
+for k=1:200
+ jittered=observedTimes+(2*rand(stream,size(observedTimes))-1)/fp;
+ assert(all(jittered>=time(1)&jittered<=time(end)),'bst_apc:V2JitterBounds','Event surrogate escaped record');
+ surrogatePhases=interp1(time,unwrapped,jittered,'linear');surr(k)=v2_ppc(surrogatePhases);
+end
+d.surrogate_ppc=surr;sd=std(surr,0);
+if isfinite(sd)&&sd>0,m.event_z=(observed-mean(surr))/sd;else,m.diagnostic_flags=bitor(m.diagnostic_flags,16);end
+m.event_p=(1+sum(surr>=observed))/201;
+end
+
+function band=v2_phase_band(fp)
+half=max(.5,.25*fp);band=[fp-half,fp+half];
+end
+function value=v2_ppc(phases)
+phases=phases(isfinite(phases));n=numel(phases);
+if n<2,value=nan;else,value=(abs(sum(exp(1i*phases)))^2-n)/(n*(n-1));end
 end
