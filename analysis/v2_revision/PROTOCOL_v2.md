@@ -122,3 +122,138 @@ IMPLEMENTATION DETAILS FIXED BEFORE UNIT OR HELD-OUT OUTCOMES
 - If gates pass, build and commit the held-out execution scripts and full
   comparator/decision bookkeeping before tagging and generating any data.
   Additional bookkeeping choices must not alter the fixed method or criteria.
+
+## Candidate history
+
+Candidate 1 (commit 7848af05ada722971769da856e970d0737820169) failed unit
+gate (a): fP=10.631999875603938 Hz, fA=120 Hz. The user identified that PPC
+is flat across filter centers whose passband contains the coupled rhythm;
+the recorded curve is unit_attempt_01/unit_a_ppc_curve.csv. The five v1
+compatibility cases and implementation invariants passed. No v2.0 tag or
+held-out data were created. Candidate-1 protocol/report/manifest copies are
+preserved in revision_checks/v2/candidate_01 and its unit records are unchanged.
+
+Candidate 2 is the final candidate authorized by the user. The following
+amendment replaces only Step 2, the event test, and the additional ordered
+unit gate (a2). All earlier Step-2/PPC-event implementation notes above are
+historical candidate-1 notes and are superseded by this amendment. All other
+method settings, generators, unit profiles/seeds, held-out suite and C1-C4
+remain exactly as committed in 7848af0. No further candidates will be made.
+
+### Candidate 2: Step 2 replacement (burst-locked power)
+
+- L=2 seconds. Usable burst centers have the complete half-open window
+  [t_k-L/2,t_k+L/2) in the half-open record [t0,t0+T). Status 1 for T<4 s;
+  status 3 for fewer than ten usable bursts.
+- Extract L*fs samples at relative times -L/2:1/fs:L/2-1/fs; demean each
+  segment and multiply by a symmetric Hann window of that length.
+- Evaluate X_k(f)=sum_t w(t)*s_k(t)*exp(-i*2*pi*f*t) directly, on the grid
+  fmin:0.05:fmax, fmin=max(minPhaseHz,10/T,3/L), fmax as originally specified.
+- BLP(f)=(abs(sum_k X_k(f))^2-sum_k abs(X_k(f))^2)/(N*(N-1)). Select its
+  grid maximum; refine with a three-point parabola on raw BLP when both
+  neighbors are finite and on the grid. Use the inherited half-bin bound.
+- PPC of the X_k phases is diagnostic only, on the entire grid and at the
+  refined fP. No polarity flip is applied anywhere in Step 2.
+- The phase reference for Steps 3-4 remains the original fourth-order
+  zero-phase Butterworth at fP, half-width=max(0.5,0.25*fP).
+
+### Candidate 2: event test replacement
+
+- Primary statistic: maximum BLP on the full candidate grid. For each of
+  200 surrogates, independently jitter each usable burst by uniform
+  +/-1/fP seconds, conditioned on remaining within the window-usable center
+  range. Implement this conditional uniform draw using its truncated interval
+  per burst, which is equivalent to rejecting out-of-range uniform jitters.
+- Recompute BLP on the entire grid for each surrogate and use its maximum.
+  z=(observed maximum-mean surrogate maxima)/sample SD; empirical
+  p=(1+number of surrogate maxima >= observed maximum)/201.
+- Secondary uncorrected statistic: BLP at the refined observed fP, evaluated
+  at that same fixed frequency in each surrogate. Report separate z and p.
+- Jitter times are continuous. Segment samples use linear interpolation of
+  x at those centers. Demeaning, Hann multiplication and direct Fourier
+  evaluation are linear: batch the direct coefficient computation at unique
+  bracketing sample centers and interpolate coefficients. Validate against
+  independently extracted/interpolated segments and direct sums. No FFT-bin
+  approximation or frequency interpolation is used.
+- Record the local RNG seed/substream and both 200-element surrogate
+  statistic vectors. No change to signal RNG state is permitted.
+
+### Candidate 2: ordered unit gates and freeze
+
+1. (a) unchanged high-SNR 8/120-Hz trial and seed 20260618; phase tolerance
+   0.1 Hz, amplitude tolerance 4 Hz.
+2. (a2) the same unit generator, each initialized with the same original
+   seed 20260618, at fP in [5.3,6.7,9.4,10.8] Hz, in that order. All four
+   require absolute fP error <=0.1 Hz. All other unit parameters are unchanged.
+3. (b), (c), (d) unchanged, in that order.
+
+Save BLP and PPC curves for every completed unit trial, including null and
+existing-benchmark trials. Stop at the first failed gate; no further
+candidates. Test candidate-2 working sources before committing; record the
+candidate-1 base commit plus exact working-source/protocol/script hashes.
+Only if all gates pass, commit candidate 2 with its protocol and execution
+scripts, verify the tested source hashes, tag v2.0, then generate and run the
+original held-out suite at seed 20261022. In the held-out event test, the
+primary statistic and z/p are now the max-BLP statistics above. C1-C4 are
+unchanged, including every threshold and paired decision calculation.
+New candidate-2 outputs are under revision_checks/v2/candidate_02; candidate-1
+saved results remain unchanged.
+
+### Candidate history: candidate 2 and final candidate 3
+
+Candidate 2 failed gate (a) only on fA: fP=7.9996901239320914 Hz passed;
+fA=115 Hz had error 5 Hz, exceeding the allowed 4 Hz. The user's diagnosis
+is that the Step-4 score versus center frequency is bimodal, with peaks near
+fA +/- fP and a dip at fA, because a flat-top Butterworth band of half-width
+fP puts the modulation sidebands at its edges. The candidate-2 source and
+its unit report/curves remain preserved in revision_checks/v2/candidate_02.
+
+The user has now authorized candidate 3 as the final candidate. This later
+authorization supersedes the candidate-2 instruction that no further
+candidate would be made. Only Step 4 and the specified a2 pairs change.
+Candidate-2 Step 2 (BLP), both event-test statistics, Steps 1/3, the unit
+profiles/seeds, the held-out suite and C1-C4 remain unchanged. No further
+candidate is authorized after candidate 3.
+
+### Candidate 3: Step 4 replacement (peaked kernel)
+
+- Candidate centers fc are the unchanged 1-Hz grid within ampRange.
+- Reflect x for one second at each end. The precise reflection convention
+  excludes a repeated endpoint: x(p+1:-1:2), x, x(end-1:-1:end-p), p=round(fs).
+- FFT the padded signal at its actual length. On the signed-frequency grid,
+  multiply by G(f)=2*exp(-(f-fc)^2/(2*sigma^2)) for f>0 and zero for f<=0,
+  sigma=1.5*fP; inverse FFT and crop exactly p samples at each end. The
+  positive Nyquist bin, when present, follows the literal positive-frequency
+  formula. Do not clip the Gaussian tails to ampRange.
+- Envelope=absolute analytic band signal; score=raw Canolty MVL with the
+  unchanged fP phase reference. No moving-mean smoothing.
+- Select the grid maximum and refine with a three-point parabola on raw
+  score when both neighbors are inside ampRange and the maximum is concave.
+  Retain the inherited half-bin bound and first-grid-point tie handling.
+- Recompute the Gaussian envelope at the refined fA. Report raw C_APC and
+  conventional Ozkurt MVL from that same envelope. Gaussian sigma is output
+  explicitly; obsolete finite rectangular-band-width fields are NaN.
+- Save the raw fA score curve for every completed unit trial, alongside its
+  BLP and PPC curves. If Step 4 was not reached, save the prescribed center
+  grid with NaN scores and an explicit step4_reached=false flag.
+
+### Candidate 3: unit gates and conditional freeze
+
+Run the same sequential stopping rule: (a), (a2), (b), (c), (d).
+(a) remains |fP-8|<=0.1 Hz and |fA-120|<=4 Hz.
+(a2) now uses the four true pairs in order: (5.3,95), (6.7,108), (9.4,131),
+(10.8,142), each with the same unchanged generator and seed scheme; both
+|fP error|<=0.1 Hz and |fA error|<=4 Hz are required for every trial.
+(b), (c), (d) remain exactly as specified for candidate 2.
+
+Before the performance gates, retain the inherited mathematical/compatibility
+checks and verify Step-2 and event outputs match the saved candidate-2 unit
+(a) exactly on its unchanged signal. Validate the Gaussian envelope/score
+against the literal FFT formula. These checks do not change any method.
+
+Only if all gates pass, commit candidate 3 with its protocol and execution
+scripts, verify tested source hashes, tag v2.0, then generate/run the original
+held-out suite and unchanged comparators/criteria at seed 20261022. On any
+gate failure, stop and report; no further candidates. Candidate-3 outputs
+are kept separately under revision_checks/v2/candidate_03. Earlier saved
+candidate reports, curves, inputs and source snapshots are not overwritten.
