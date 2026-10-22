@@ -101,7 +101,7 @@ def main() -> None:
             f"Hedges g={row['hedges_g']:.3f}, mean difference={row['mean_difference_run_minus_rest']:.6g}, "
             f"bootstrap 95% CI=[{row['bootstrap_ci_low']:.6g}, {row['bootstrap_ci_high']:.6g}]",
         ])
-    (ROOT / "apc_ec013_figure5_exact_stats.txt").write_text("\n".join(lines) + "\n")
+    (ROOT / "apc_ec013_figure5_exact_stats.txt").write_text("\n".join(lines) + "\n",encoding="utf-8")
 
 
 if __name__ == "__main__":

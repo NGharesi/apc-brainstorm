@@ -1,8 +1,13 @@
-function sApc = bst_apc(sMatrix, OPTIONS)
+function [sApc, runInfo] = bst_apc(sMatrix, OPTIONS)
 % BST_APC  Burst-triggered amplitude-phase coupling estimation.
 %
 % USAGE:
-%   sApc = bst_apc(sMatrix, OPTIONS)
+%   [sApc, runInfo] = bst_apc(sMatrix, OPTIONS)
+% runInfo contains version, full normalized options, per-signal route,
+% candidate/effective final half-widths and actual clipped final band edges.
+% stepFourMode: v1 (default), oct2026, june2026_clipped.
+% fPRefine: true (default), or false for the preserved Welch-bin estimate.
+% fPMaxBinSpacingHz: 0.05 (maximum refined spectral-bin spacing).
 %
 % INPUT:
 %   sMatrix.data : [nSignals x nTime] matrix of time series
@@ -21,7 +26,8 @@ function sApc = bst_apc(sMatrix, OPTIONS)
 %                                  candidate burst peak prominence (0.75)
 %   OPTIONS.surrogateMethod : {'circular_shift','phase_scramble'} null
 %                            generator used when surrogates are enabled
-%   OPTIONS.amplitudeBandWidthHz : final carrier-band width in Hz (4)
+%   OPTIONS.amplitudeBandWidthHz : fixed oct2026 width in Hz (4).
+%                                  v1 uses 2*recovered fP; June uses 12 Hz.
 %
 % OUTPUT:
 %   sApc is a structure with one field per exported feature. Each field has:
@@ -44,6 +50,9 @@ function sApc = bst_apc(sMatrix, OPTIONS)
     [data, time] = validate_input_matrix(sMatrix);
 
     nSignals = size(data, 1);
+    runInfo=struct('version','v1.0','options',options,'route',strings(nSignals,1), ...
+        'candidate_half_width_hz',nan(nSignals,1),'final_half_width_hz',nan(nSignals,1), ...
+        'effective_half_width_hz',nan(nSignals,1),'final_band_hz',nan(nSignals,2));
     pacStrength = nan(nSignals, 1);
     phaseFreq = nan(nSignals, 1);
     amplitudeFreq = nan(nSignals, 1);
@@ -63,6 +72,11 @@ function sApc = bst_apc(sMatrix, OPTIONS)
         nBursts(iSignal)       = metrics.n_bursts;
         nPhaseEvents(iSignal)  = metrics.n_phase_events;
         statusCode(iSignal)    = metrics.status_code;
+        runInfo.route(iSignal) = metrics.route;
+        runInfo.candidate_half_width_hz(iSignal)=metrics.candidate_half_width_hz;
+        runInfo.final_half_width_hz(iSignal)=metrics.final_half_width_hz;
+        runInfo.effective_half_width_hz(iSignal)=metrics.final_half_width_hz;
+        runInfo.final_band_hz(iSignal,:)=metrics.final_band_hz;
 
         if options.showPlots
             plot_signal_diagnostics(iSignal, diagnostics, metrics, options);
@@ -110,7 +124,8 @@ function [metrics, diagnostics] = compute_signal_apc(signal, time, options)
         'preferred_phase_deg', nan, ...
         'n_bursts', 0, ...
         'n_phase_events', 0, ...
-        'status_code', 0);
+        'status_code', 0, 'route', "not_reached", ...
+        'candidate_half_width_hz',nan,'final_half_width_hz',nan,'final_band_hz',[nan nan]);
 
     diagnostics = struct( ...
         'time_epoch', [], ...
@@ -206,7 +221,7 @@ function [metrics, diagnostics] = compute_signal_apc(signal, time, options)
 
     % Pick the amplitude carrier from the frequency profile that shows the
     % strongest phase-locked structure around the troughs.
-    [ampFreq, ampWidth] = estimate_amplitude_frequency( ...
+    [ampFreq, ampWidth, metrics.route] = estimate_amplitude_frequency( ...
         signal, ...
         troughLocs, ...
         phaseLockedAverage, ...
@@ -215,15 +230,27 @@ function [metrics, diagnostics] = compute_signal_apc(signal, time, options)
         fs, ...
         phaseFreq, ...
         localOptions.fA, ...
-        options.amplitudeBandWidthHz);
+        options.amplitudeBandWidthHz, options.stepFourMode);
+
+    if strcmp(options.stepFourMode,'v1')
+        metrics.candidate_half_width_hz=phaseFreq;
+        metrics.final_half_width_hz=phaseFreq;
+    elseif strcmp(options.stepFourMode,'june2026_clipped')
+        metrics.candidate_half_width_hz=6;
+        metrics.final_half_width_hz=max(2,ampWidth/2);
+    else
+        metrics.candidate_half_width_hz=options.amplitudeBandWidthHz/2;
+        metrics.final_half_width_hz=max(2,ampWidth/2);
+    end
 
     if ~isfinite(ampFreq)
         metrics.status_code = 5;
         return;
     end
 
-    ampBand = get_amplitude_band(ampFreq, ampWidth, fs, localOptions.fA);
-    ampSignal = bandpass_signal(signal, fs, ampBand);
+    ampBand = get_amplitude_band(ampFreq, ampWidth, fs, localOptions.fA, options.stepFourMode);
+    if numel(ampBand)==2,metrics.final_band_hz=ampBand;end
+    ampSignal = carrier_bandpass(signal, fs, ampBand, options.stepFourMode);
     if isempty(ampSignal)
         metrics.status_code = 5;
         return;
@@ -339,36 +366,24 @@ end
 
 
 function phaseFreq = estimate_phase_frequency_fft(epochSignal, fs, options)
-    maxPhaseHz = min([options.fA(1) - 0.5, fs / 3, options.maxPhaseHz]);
-    epochDurationSec = max((numel(epochSignal) - 1) ./ fs, eps);
-    % A spectral peak must contain enough cycles within the burst-triggered
-    % average to be interpretable. This rejects the first Welch bin when a
-    % short epoch cannot support a low-frequency carrier estimate.
-    minSupportedHz = options.minPhaseCycles ./ epochDurationSec;
-    minPhaseHz = max(options.minPhaseHz, minSupportedHz);
-    if maxPhaseHz <= minPhaseHz
-        phaseFreq = nan;
-        return;
+    maxPhaseHz=min([options.fA(1)-0.5, fs/3, options.maxPhaseHz]);
+    if maxPhaseHz<=options.minPhaseHz, phaseFreq=nan; return; end
+    signal=epochSignal(:)-mean(epochSignal,'omitnan');
+    nfft=max(256,2^nextpow2(numel(signal)));
+    if options.fPRefine
+        nfft=max(nfft,2^nextpow2(ceil(fs/options.fPMaxBinSpacingHz)));
     end
-
-    % Remove endpoint-driven linear drift before spectral peak selection.
-    % Burst-triggered averages are short and can otherwise favor the first
-    % nonzero Welch bin even when that component is not oscillatory.
-    signal = detrend(epochSignal(:), 'linear');
-    signal = signal - mean(signal, 'omitnan');
-    nfft = max(256, 2^nextpow2(numel(signal)));
-    % Fallback phase estimate: dominant spectral peak below the
-    % high-frequency search band.
-    [pxx, f] = pwelch(signal, [], [], nfft, fs);
-    valid = (f >= minPhaseHz) & (f <= maxPhaseHz);
-    if ~any(valid)
-        phaseFreq = nan;
-        return;
+    [pxx,f]=pwelch(signal,[],[],nfft,fs);
+    valid=(f>=options.minPhaseHz)&(f<=maxPhaseHz);
+    if ~any(valid), phaseFreq=nan; return; end
+    indices=find(valid);[~,iMax]=max(pxx(valid));i=indices(iMax);phaseFreq=f(i);
+    if options.fPRefine && i>1 && i<numel(f) && valid(i-1) && valid(i+1)
+        y=log(max(pxx(i-1:i+1),realmin));den=y(1)-2*y(2)+y(3);
+        if isfinite(den) && den<0
+            delta=0.5*(y(1)-y(3))/den;delta=max(-0.5,min(0.5,delta));
+            phaseFreq=min(max(f(i)+delta*(fs/nfft),options.minPhaseHz),maxPhaseHz);
+        end
     end
-
-    [~, iMax] = max(pxx(valid));
-    fValid = f(valid);
-    phaseFreq = fValid(iMax);
 end
 
 
@@ -474,12 +489,20 @@ function signalOut = bandpass_signal(signalIn, fs, band)
 
     % A compact IIR bandpass is sufficient here because PAC is measured
     % from Hilbert phase/amplitude after the candidate bands are chosen.
+    persistent filterKeys filterObjects
+    if isempty(filterKeys),filterKeys={};filterObjects={};end
+    key=sprintf('%.17g,%.17g,%.17g',fs,band(1),band(2));j=find(strcmp(filterKeys,key),1);
+    if isempty(j)
     d = designfilt( ...
         'bandpassiir', ...
         'FilterOrder', 4, ...
         'HalfPowerFrequency1', band(1), ...
         'HalfPowerFrequency2', band(2), ...
         'SampleRate', fs);
+        filterKeys{end+1}=key;filterObjects{end+1}=d;
+    else
+        d=filterObjects{j};
+    end
     signalOut = filtfilt(d, double(signalIn(:).'));
 end
 
@@ -552,11 +575,19 @@ function dataOut = zscore_rows(dataIn)
 end
 
 
-function [ampFreq, ampWidth] = estimate_amplitude_frequency(signal, troughLocs, meanEpoch, meanTf, freqs, fs, phaseFreq, inputBand, candidateBandWidthHz)
+function [ampFreq, ampWidth, route] = estimate_amplitude_frequency(signal, troughLocs, meanEpoch, meanTf, freqs, fs, phaseFreq, inputBand, candidateBandWidthHz, mode)
     % Match the Python prototype more directly by scanning candidate
     % high-frequency bands, averaging their envelopes around troughs, and
     % selecting the band whose envelope is most locked to the trough
     % waveform. Keep the TF-based rule as a fallback.
+    route="not_attempted";
+    if strcmp(mode,'june2026_clipped')
+        [ampFreq,~,~,fallbackTrace]=estimate_amplitude_frequency_debug(signal,troughLocs,meanEpoch,meanTf,freqs,fs,phaseFreq,inputBand);
+        ampWidth=12;
+        if isempty(fallbackTrace),route="direct_envelope_scan";else,route="tf_fallback";end
+        return;
+    end
+    if strcmp(mode,'v1'),candidateBandWidthHz=2*phaseFreq;end
     ampFreq = nan;
     ampWidth = nan;
 
@@ -585,7 +616,10 @@ function [ampFreq, ampWidth] = estimate_amplitude_frequency(signal, troughLocs, 
             halfWidth = candidateBandWidthHz / 2;
             thisBand = [max(inputBand(1), candidateFreqs(iFreq) - halfWidth), ...
                 min([inputBand(2), fs / 2 - 1.0, candidateFreqs(iFreq) + halfWidth])];
-            ampSignal = bandpass_signal(signal, fs, thisBand);
+            if strcmp(mode,'v1')
+                thisBand=[max(inputBand(1),candidateFreqs(iFreq)-phaseFreq),min([inputBand(2),fs/2-eps,candidateFreqs(iFreq)+phaseFreq])];
+            end
+            ampSignal = carrier_bandpass(signal, fs, thisBand, mode);
             if isempty(ampSignal)
                 continue;
             end
@@ -604,13 +638,16 @@ function [ampFreq, ampWidth] = estimate_amplitude_frequency(signal, troughLocs, 
 
     scoreTrace = smoothdata(scoreTrace, 'movmean', min(5, numel(scoreTrace)));
     if any(isfinite(scoreTrace))
+        route="direct_envelope_scan";
         [~, iBest] = max(scoreTrace);
         ampFreq = candidateFreqs(iBest);
         ampWidth = candidateBandWidthHz;
         return;
     end
 
+    route="tf_fallback";
     [ampFreq, ampWidth] = estimate_amplitude_frequency_tf_fallback(meanEpoch, meanTf, freqs, fs, phaseFreq, inputBand);
+    if strcmp(mode,'v1'),ampWidth=2*phaseFreq;end
 end
 
 
@@ -690,14 +727,14 @@ function epochs = collect_event_epochs_by_index(signal, eventLocs, sampleIdx)
 end
 
 
-function band = get_amplitude_band(centerHz, widthHz, fs, inputBand)
+function band = get_amplitude_band(centerHz, widthHz, fs, inputBand, mode)
     % Translate the selected amplitude carrier into a practical bandpass
     % while staying inside the original user-defined search band.
     if ~isfinite(widthHz) || widthHz <= 0
         widthHz = max(4, diff(inputBand) / 6);
     end
 
-    halfWidth = max(2, widthHz / 2);
+    if strcmp(mode,'v1'),halfWidth=widthHz/2;else,halfWidth=max(2,widthHz/2);end
     lowHz = max([inputBand(1), centerHz - halfWidth, eps]);
     highHz = min([inputBand(2), centerHz + halfWidth, fs / 2 - eps]);
 
@@ -737,7 +774,7 @@ function options = normalize_options(optionsIn)
     % Fill in missing options so direct script calls and Brainstorm GUI
     % calls both reach the computational code in a uniform format.
     options = struct();
-    options.fA = get_option(optionsIn, 'fA', [16 250]);
+    options.fA = get_option(optionsIn, 'fA', [80 150]);
     options.epoch = get_option(optionsIn, 'epoch', [-0.6 0.6]);
     options.decomposition = get_option(optionsIn, 'decomposition', 'fft_peak');
     options.metric = lower(get_option(optionsIn, 'metric', 'canolty'));
@@ -749,12 +786,20 @@ function options = normalize_options(optionsIn)
     options.phaseTimeBandwidth = get_option(optionsIn, 'phaseTimeBandwidth', 20);
     options.phaseEpochCycles = get_option(optionsIn, 'phaseEpochCycles', 3);
     options.minPhaseHz = get_option(optionsIn, 'minPhaseHz', 1);
-    options.minPhaseCycles = get_option(optionsIn, 'minPhaseCycles', 3);
     options.maxPhaseHz = get_option(optionsIn, 'maxPhaseHz', 30);
     options.flipTroughs = parse_flag(get_option(optionsIn, 'flipTroughs', true));
     options.burstProminenceScale = get_option(optionsIn, 'burstProminenceScale', 0.75);
     options.surrogateMethod = lower(string(get_option(optionsIn, 'surrogateMethod', 'circular_shift')));
     options.amplitudeBandWidthHz = get_option(optionsIn, 'amplitudeBandWidthHz', 4);
+    options.stepFourMode=lower(char(string(get_option(optionsIn,'stepFourMode','v1'))));
+    options.fPRefine=parse_flag(get_option(optionsIn,'fPRefine',true));
+    options.fPMaxBinSpacingHz=get_option(optionsIn,'fPMaxBinSpacingHz',0.05);
+    if ~ismember(options.stepFourMode,{'v1','oct2026','june2026_clipped'})
+        error('bst_apc:StepFourMode','Unknown Step 4 mode.');
+    end
+    if ~isscalar(options.fPMaxBinSpacingHz)||~isfinite(options.fPMaxBinSpacingHz)||options.fPMaxBinSpacingHz<=0||options.fPMaxBinSpacingHz>0.05
+        error('bst_apc:SpectralSpacing','fPMaxBinSpacingHz must be positive and <=0.05 Hz.');
+    end
 
     options.fA = double(options.fA(:).');
     options.epoch = double(options.epoch(:).');
@@ -768,10 +813,6 @@ function options = normalize_options(optionsIn)
     if ~isscalar(options.burstProminenceScale) || ~isfinite(options.burstProminenceScale) || options.burstProminenceScale <= 0
         error('bst_apc:InvalidBurstProminenceScale', ...
             'OPTIONS.burstProminenceScale must be a positive finite scalar.');
-    end
-    if ~isscalar(options.minPhaseCycles) || ~isfinite(options.minPhaseCycles) || options.minPhaseCycles < 0
-        error('bst_apc:InvalidMinPhaseCycles', ...
-            'OPTIONS.minPhaseCycles must be a nonnegative finite scalar.');
     end
     if ~ismember(options.surrogateMethod, ["circular_shift", "phase_scramble"])
         error('bst_apc:InvalidSurrogateMethod', ...
@@ -861,4 +902,112 @@ function plot_signal_diagnostics(iSignal, diagnostics, metrics, options)
             metrics.amplitude_frequency_hz, options.metric));
         colorbar;
     end
+end
+
+function [fa, scoreTrace, candidateFreqs, fallbackTrace] = estimate_amplitude_frequency_debug(signal, troughLocs, meanEpoch, meanTf, freqs, fs, fp, inputBand)
+    candidateFreqs = inputBand(1):4:inputBand(2);
+    if isempty(candidateFreqs) || (candidateFreqs(end) ~= inputBand(2))
+        candidateFreqs = [candidateFreqs, inputBand(2)];
+    end
+
+    fallbackTrace = [];
+    scoreTrace = nan(size(candidateFreqs));
+
+    maxLag = max(1, min(round(0.8 * fs / max(fp, eps)), numel(meanEpoch) - 1));
+    sampleIdx = -(floor((numel(meanEpoch) - 1) / 2)):floor((numel(meanEpoch) - 1) / 2);
+    meanEpoch = meanEpoch(:).' - mean(meanEpoch, 'omitnan');
+
+    for iFreq = 1:numel(candidateFreqs)
+        band = [max(1.0, candidateFreqs(iFreq) - 6.0), min(fs / 2 - 1.0, candidateFreqs(iFreq) + 6.0)];
+        ampSignal = bandpass_signal_local(signal, fs, band);
+        if isempty(ampSignal)
+            continue;
+        end
+
+        ampEnv = abs(hilbert(ampSignal));
+        envEpochs = collect_epochs_local(ampEnv, troughLocs, sampleIdx);
+        if isempty(envEpochs)
+            continue;
+        end
+
+        avgEnv = mean(envEpochs, 1, 'omitnan');
+        xc = xcorr(avgEnv - mean(avgEnv, 'omitnan'), meanEpoch, maxLag, 'coeff');
+        scoreTrace(iFreq) = max(abs(xc), [], 'omitnan');
+    end
+
+    scoreTrace = smoothdata(scoreTrace, 'movmean', min(5, numel(scoreTrace)));
+    if any(isfinite(scoreTrace))
+        [~, iBest] = max(scoreTrace);
+        fa = candidateFreqs(iBest);
+        return;
+    end
+
+    if freqs(1) > freqs(end)
+        freqs = fliplr(freqs);
+        meanTf = flipud(meanTf);
+    end
+
+    couplingTrace = zeros(1, size(meanTf, 1));
+    for iFreq = 1:size(meanTf, 1)
+        xc = xcorr(meanTf(iFreq, :), meanEpoch, maxLag, 'coeff');
+        couplingTrace(iFreq) = sum(abs(xc), 'omitnan');
+    end
+
+    couplingTrace = smoothdata(couplingTrace, 'movmean', min(7, numel(couplingTrace)));
+    energyTrace = smoothdata(mean(abs(meanTf), 2, 'omitnan').', 'movmean', min(7, numel(couplingTrace)));
+    fallbackTrace = normalize_01_debug(couplingTrace) .* normalize_01_debug(energyTrace);
+    fallbackTrace = smoothdata(fallbackTrace, 'movmean', min(7, numel(fallbackTrace)));
+    [~, iMax] = max(fallbackTrace);
+    fa = freqs(iMax);
+    fa = min(max(fa, inputBand(1)), inputBand(2));
+end
+
+
+function y = normalize_01_debug(x)
+    x = double(x(:).');
+    xmin = min(x, [], 'omitnan');
+    xmax = max(x, [], 'omitnan');
+    if ~isfinite(xmin) || ~isfinite(xmax) || xmax <= xmin
+        y = zeros(size(x));
+    else
+        y = (x - xmin) ./ (xmax - xmin);
+    end
+end
+
+
+function epochs = collect_epochs_local(signal, eventLocs, sampleIdx)
+    eventLocs = round(eventLocs(:).');
+    sampleIdx = round(sampleIdx(:).');
+    epochList = {};
+
+    for iEvent = 1:numel(eventLocs)
+        idx = eventLocs(iEvent) + sampleIdx;
+        if idx(1) < 1 || idx(end) > numel(signal)
+            continue;
+        end
+        epochList{end+1} = signal(idx); %#ok<AGROW>
+    end
+
+    if isempty(epochList)
+        epochs = [];
+    else
+        epochs = vertcat(epochList{:});
+    end
+end
+
+
+function signalOut = bandpass_signal_local(signalIn,fs,band)
+    signalOut=bandpass_signal(signalIn,fs,band);
+end
+
+
+
+function signalOut=carrier_bandpass(signal,fs,band,mode)
+    if ~strcmp(mode,'v1'),signalOut=bandpass_signal(signal,fs,band);return;end
+    signalOut=[];
+    if numel(band)~=2||any(~isfinite(band))||band(1)<=0||band(2)>=fs/2||band(1)>=band(2),return;end
+    % Fourth-order Butterworth bandpass, in SOS form. The v1 carrier bands
+    % change with continuous fP; design the same IIR family directly.
+    [z,p,k]=butter(2,band/(fs/2),'bandpass');[sos,g]=zp2sos(z,p,k);
+    signalOut=filtfilt(sos,g,double(signal(:).'));
 end

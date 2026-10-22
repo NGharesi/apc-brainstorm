@@ -53,6 +53,6 @@ def main() -> None:
            "Amplitude-frequency outcomes are quality-control outputs only because boundary-hit rates remain high; they are not interpreted physiologically.", ""]
     for _,r in out.iterrows():
         lines.append(f"{r['contrast']} | {r['channel']} | {r['metric']} | n={int(r.n_participants)} | diff={r.mean_difference_right_minus_left:.4g} | 95% CI [{r.ci_low:.4g}, {r.ci_high:.4g}] | p={r.p_two_sided_signflip:.5g} | dz={r.cohens_dz:.3g}")
-    (ROOT / "apc_sleepedf_wideband_participant_level_summary.txt").write_text("\n".join(lines)+"\n")
+    (ROOT / "apc_sleepedf_wideband_participant_level_summary.txt").write_text("\n".join(lines)+"\n",encoding="utf-8")
 
 if __name__ == "__main__": main()

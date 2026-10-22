@@ -125,7 +125,7 @@ def main() -> None:
             f"fA mean error {row.fa_error_mean_hz:.2f} Hz "
             f"[{row.fa_error_mean_ci_low:.2f}, {row.fa_error_mean_ci_high:.2f}]."
         )
-    (ROOT / "apc_burst_sparsity_reviewer_inference_summary.txt").write_text("\n".join(lines) + "\n")
+    (ROOT / "apc_burst_sparsity_reviewer_inference_summary.txt").write_text("\n".join(lines) + "\n",encoding="utf-8")
 
 
 if __name__ == "__main__":
