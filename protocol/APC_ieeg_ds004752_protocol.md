@@ -155,3 +155,16 @@ Folder `C:\Users\nghare\.brainstorm\process\revision_checks\ieeg_ds004752\`:
 3. Compute each candidate's 4-8/1-4 Hz power ratio from its own retained trials across all sessions (section 3.3 Welch settings). Select the highest-ratio candidate; ties go to the deeper pair.
 4. The selected candidate's mask is the final trial inclusion for all later steps. Session (>= 20 trials) and patient (>= 2 sessions) eligibility are then applied.
 5. Report the retained-trial counts for every candidate and for the selected pair.
+
+## Amendment 4 (2026-10-23): analysis window, evoked-response removal, scan phase grid
+
+**Reason.** Attempt 1 stopped under rule 6.4. APC v1.0 returned status 4 (no complete trough epochs) in 154 of 208 completed primary trials (2 patients, 6 sessions). In the valid trials, APC's fP was 2.3-5 Hz, and the MVL-Ozkurt scan chose 2-3.5 Hz in most trials, selecting the lower edge of its grid (2 Hz) in 72 of 208. APC's Step 3 needs complete epochs of +/-3 cycles around troughs (+/-1.2 s at 2.5 Hz). A 3-s window therefore leaves almost no room for slow rhythms of 2-4 Hz, which are typical of human hippocampus. The 2-Hz lower edge of the scan grid truncates the same range. The change is made for feasibility: no endpoint (section 5) was computed, and the only outcome-related information seen is the range of slow-rhythm frequencies above. Attempt 1 outputs are kept and are reported in full as a failed first attempt.
+
+**Changes.**
+1. **Analysis window (replaces "maintenance period, 3.0-6.0 s" in 3.2):** 0.0-6.0 s of each trial (fixation, encoding and maintenance; 12,000 samples at 2000 Hz). The probe and button response (from 6 s) are excluded.
+2. **Evoked-response removal (new step after 3.4):** for each patient x session x analysed signal (bipolar for primary; referential for sensitivity b), compute the mean over that session's included trials of the notch-filtered 0-6-s window. Subtract it from every included trial before APC, the scans, spectra and nulls. This removes stimulus-locked activity at the encoding onset.
+3. **Trial inclusion:** the contact pairs and per-candidate masks from Amendment 3 are kept unchanged. In addition, the section 3.5 robust 6-SD amplitude and first-difference rules are applied to the selected signal's 0-6-s window, with the robust SD computed per session over trials not flagged by the dataset. A trial is included only if it passes both the Amendment 3 mask and this rule. Session (>= 20) and patient (>= 2 sessions) eligibility are then reapplied. Report counts removed by each rule.
+4. **Scan phase grid (section 4.2):** 1:0.5:12 Hz, half-width 1.5 Hz (lower band edge clipped at 0.5 Hz, as in the original code). The amplitude grid, half-width, metrics and selection rules are unchanged. Boundary flags become fP = 1 or 12 Hz.
+5. **APC:** unchanged (src/bst_apc.m default v1, fA = [80 150], minPhaseHz = 1).
+6. **Secondary 5 (spectral peak):** the search range becomes 1-12 Hz; spectra are computed from the evoked-subtracted 0-6-s windows with the same Welch settings.
+7. All other sections (endpoints, statistics, seeds, sensitivity analyses a-c, exploratory load model, stop rules) are unchanged. Rule 6.4 still applies: if most trials are invalid for a method again, stop and report.
