@@ -122,3 +122,16 @@ Folder `C:\Users\nghare\.brainstorm\process\revision_checks\ieeg_ds004752\`:
   - B: paired within-patient across-session SD;
   - C: APC session mean fP vs session spectral peak;
   - D: observed vs null coupling.
+
+## Amendment 1 (2026-10-23): sampling rates
+
+**Reason.** The reading gate (section 3.1) stopped at sub-11/ses-01, which is sampled at 4000 Hz. The protocol wrongly assumed 2000 Hz for every file; that assumption came from the first subject's sidecar only. From the metadata (JSON sidecars, EDF headers, events.tsv), 38 of the 68 iEEG files are at 2000 Hz. Twenty files (sub-11, sub-12, sub-14) are at 4000 Hz, and ten files (sub-13, sub-15) are at 4096 Hz. The scalp EEG files of those subjects use the same rates. The hardware filters are the same in all files (0.5-1000 Hz). This amendment was written after the gate failure and before any signal-derived quantity (spectra, contact selection, APC or scan output) was computed for any file. No outcome informed it.
+
+**Change to section 3.1.** The fs check becomes: fs equals the JSON sidecar, channels.tsv and EDF header, and is one of 2000, 4000 or 4096 Hz. Stop if any file has another rate or the sources disagree. Each trial must span exactly 8 x fs samples in events.tsv.
+
+**New step 3.0, applied before section 3.2.**
+- Every iEEG and scalp-EEG trial recorded at 4000 or 4096 Hz is resampled to 2000 Hz.
+- Each 8-s trial is resampled separately (trials are discontinuous): it is cut at its native begSample-endSample, then resampled with MATLAB resample() (default anti-aliasing FIR) using p/q = 1/2 for 4000 Hz and 125/256 for 4096 Hz. Each trial must give exactly 16,000 samples.
+- Files at 2000 Hz are not resampled. All later steps are unchanged and operate on 2000-Hz trials.
+- Record the native rate per file in the outputs and report the number of patients and sessions at each native rate.
+- Sensitivity (c): repeat the primary endpoint without the patients recorded at a native rate other than 2000 Hz.
