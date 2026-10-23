@@ -115,3 +115,9 @@ Folder `C:\Users\nghare\.brainstorm\process\revision_checks\ecog_miller_motor\`:
   - B: rest and movement normalized MVL;
   - C: movement minus rest differences per patient with bootstrap CIs;
   - D: rest fP vs rest spectral peak.
+
+## Amendment 1 (2026-10-23): APC phase search range matched to the scans
+
+**Reason.** The run stopped under rule 9.4 at the first combined check: APC v1.0 returned status 4 (no complete trough epochs) in 127 of 200 bouts. 225 bouts were complete when the workers halted: movement 36 of 143 valid, rest 40 of 82 valid. Valid APC fP values were about 3-6 Hz or about 13-17 Hz. APC searched phase frequencies from 1 Hz (default minPhaseHz), whereas the scans search 6-30 Hz. In 2-s bouts, Step 2 was drawn to slow components, including the 1-2 Hz repetitive movements; at those frequencies the +/-3-cycle trough epochs of Step 3 cannot fit in a bout. No endpoint was computed. Attempt 1 outputs are kept (revision_checks/ecog_miller_motor/attempt1_minphase1/) and will be reported.
+
+**Change (section 7).** APC options become `fA = [80 150]`, `minPhaseHz = 6`, `maxPhaseHz = 30`, so APC searches the same phase range as the scans. These are existing options of the unchanged code; all other options stay default. APC boundary flags become: fP within 0.05 Hz of 6 or 30 Hz. Everything else is unchanged: preprocessing, bouts, electrodes (the prep files from attempt 1 are reused), scans, endpoints, statistics, seeds and stop rules. Rule 9.4 still applies.
