@@ -1,0 +1,24 @@
+--- original fixed pipeline
++++ C:\Users\nghare\.brainstorm\process\revision_checks\v3_aperiodic\phaseC\POST_HOC_rodent2s\posthoc_2s_statistics.py
+@@ -1,7 +1,7 @@
+ """POST HOC 2-s statistics; same estimators and seed scheme as 5-s pipeline."""
+ from pathlib import Path
+ import sys, json, hashlib, warnings, time
+-ROOT=Path(r'C:\Users\nghare\.brainstorm\process'); OUT=Path(__file__).resolve().parent; PARENT=OUT.parent
++ROOT=Path(r'C:\Users\nghare\.brainstorm\process'); OUT=Path(__file__).resolve().parent; PARENT=OUT
+ sys.path.insert(0,str(ROOT/'pydeps'))
+ import numpy as np
+ import pandas as pd
+@@ -97,10 +97,10 @@
+ write(across,'across_session_statistics.csv')
+ paired=[]
+ for (analysis,animal,session,state),g in spread_table.groupby(['analysis','animal','session','state'],sort=True):
+-    reference=g[g.method=='APC-v1.0']
++    reference=g[g.method=='APC-v3.0']
+     if len(reference)!=1:continue
+     a=reference.iloc[0]
+-    for _,b in g[g.method!='APC-v1.0'].iterrows():
++    for _,b in g[g.method!='APC-v3.0'].iterrows():
+         for metric in ['fp_sd','fp_iqr','fp_mad']:
+             paired.append(dict(analysis=analysis,animal=animal,session=session,state=state,scan=b.method,spread_metric=metric,
+                 apc_spread=a[metric],scan_spread=b[metric],apc_minus_scan=a[metric]-b[metric]))

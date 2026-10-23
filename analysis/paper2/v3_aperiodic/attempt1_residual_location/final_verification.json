@@ -1,0 +1,27 @@
+{
+  "status": "STOPPED_GATE_FAILURE",
+  "failed_gate": "G1",
+  "gates": {
+    "G0": "PASS",
+    "G1": "FAIL",
+    "G2": "NOT_RUN",
+    "G3": "NOT_RUN"
+  },
+  "git_head": "8cabe20538b55f5185a20630f19fd7162b9bb269",
+  "protocol_sha256": "c2d8ede3fb994d6ef90f9757abbd993ed33e8e0a082288cb7501458d64a1bbb7",
+  "stopped_utc": "2026-10-23T18:14:47.653767+00:00",
+  "heldout_generated": false,
+  "freeze_commit_created": false,
+  "v3_tag_created": false,
+  "source_committed": false,
+  "method_redesign_after_gate": false,
+  "results_committed": false,
+  "phaseA_elapsed_seconds": 48.9086686,
+  "protocol_hash_unchanged": true,
+  "implementation_hashes_unchanged_since_gates": true,
+  "calc_MI_unchanged": true,
+  "default_v1_regression_passed": true,
+  "v2_regression_passed": true,
+  "new_diff_reverses_exact_baseline": true,
+  "current_git_worktree": "M src/bst_apc.m\n?? analysis/v3_aperiodic/\n?? src/apc_v3_spectral_peak.m\n?? src/sp_raw_fp.m"
+}

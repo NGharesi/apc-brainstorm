@@ -1,0 +1,10 @@
+{
+  "criterion": "ECoG rest median within 2 Hz of rest spectral peak in at least 9/18 eligible patients",
+  "n_patients": 18,
+  "v3_success": 13,
+  "v1_success": 5,
+  "SP_raw_success": 15,
+  "passed": true,
+  "freeze_commit": "1cb2056fb16eaf944857c8d3f11a51276d5b7a1f",
+  "protocol_sha256": "fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1"
+}

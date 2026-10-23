@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "freeze_commit": "1cb2056fb16eaf944857c8d3f11a51276d5b7a1f",
+  "protocol_sha256": "fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1",
+  "released_utc": "2026-10-23T18:57:36.153845+00:00",
+  "inputs": 675,
+  "complete_regenerated_cases_bit_identical": true,
+  "per_trial_fp_fa_score_status_route_exact": 675,
+  "comparison_reference": "original candidate_03 MAT tables (unrounded doubles)",
+  "provenance": "phaseB_implementation.json"
+}

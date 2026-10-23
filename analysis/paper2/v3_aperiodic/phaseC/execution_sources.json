@@ -1,0 +1,26 @@
+{
+  "freeze_commit": "1cb2056fb16eaf944857c8d3f11a51276d5b7a1f",
+  "protocol_sha256": "fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1",
+  "files": [
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\v3_real_worker.m",
+      "sha256": "5e0ae98e8bd3dd9281eaec0058407bf3ffb054eb0a6311f7d28ae91115f39135"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\v3_bout_features.m",
+      "sha256": "e8fec8db1723a55cb7332e45328de5bd3d7757bec7c94cd3ce3b4d5f3125c9d4"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\prepare_phaseC.py",
+      "sha256": "db35073a88a81dde3c3070425c73e6961c015fb089433146797d576d41b049f4"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\prepare_real_stats.py",
+      "sha256": "46c2c583b89859310220f1908a01feaf3979c6b0181f71de6bde20a6e09450ec"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\phaseC_analysis_plan.json",
+      "sha256": "04a7e8db616b381f0e45a74051840116455c54d6124bb9410374b9583b781713"
+    }
+  ]
+}

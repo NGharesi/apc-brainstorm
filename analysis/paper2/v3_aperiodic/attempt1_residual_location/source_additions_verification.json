@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "new_diff_reverses_exact_baseline": true,
+  "preexisting_v2_code_bytes_unchanged": true,
+  "metric_helper_bytes_unchanged": true,
+  "preexisting_v1_tag_additions": "Existing v2 additions are preserved in preexisting_v1_tag_diff.patch; the new delta is verified separately",
+  "git_head": "8cabe20538b55f5185a20630f19fd7162b9bb269",
+  "protocol_sha256": "c2d8ede3fb994d6ef90f9757abbd993ed33e8e0a082288cb7501458d64a1bbb7"
+}

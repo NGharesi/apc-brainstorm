@@ -1,0 +1,77 @@
+--- 8cabe20 before v3
++++ v3 additions and switch
+@@ -50,11 +50,15 @@
+ %   Refactored for publication packaging by OpenAI Codex, 2026
+ 
+     requestedVersion=lower(char(string(get_option(OPTIONS,'version','v1'))));
+-    if ~ismember(requestedVersion,{'v1','v1.0','v2'})
+-        error('bst_apc:Version','version must be v1, v1.0 or v2.');
++    if ~ismember(requestedVersion,{'v1','v1.0','v2','v3'})
++        error('bst_apc:Version','version must be v1, v1.0, v2 or v3.');
+     end
+     if strcmp(requestedVersion,'v2')
+         [sApc,runInfo]=compute_matrix_apc_v2(sMatrix,OPTIONS);
++        return;
++    end
++    if strcmp(requestedVersion,'v3')
++        [sApc,runInfo]=compute_matrix_apc_v3(sMatrix,OPTIONS);
+         return;
+     end
+     options = normalize_options(OPTIONS);
+@@ -195,7 +199,11 @@
+     diagnostics.burst_average = burstAverage;
+ 
+     % Estimate the slow carrier directly from the burst-triggered average.
++    if isfield(localOptions,'version') && strcmp(localOptions.version,'v3')
++        [phaseFreq,diagnostics.aperiodic]=estimate_phase_frequency_v3(burstAverage,fs,localOptions,numel(signal)/fs);
++    else
+     phaseFreq = estimate_phase_frequency(burstAverage, fs, localOptions);
++    end
+     if ~isfinite(phaseFreq) || phaseFreq < options.minPhaseHz || phaseFreq >= localOptions.fA(1)
+         metrics.status_code = 3;
+         return;
+@@ -1222,3 +1230,44 @@
+ phases=phases(isfinite(phases));n=numel(phases);
+ if n<2,value=nan;else,value=(abs(sum(exp(1i*phases)))^2-n)/(n*(n-1));end
+ end
++
++function [sApc,runInfo]=compute_matrix_apc_v3(sMatrix,optionsIn)
++% v3 changes only the Step-2 spectral peak rule in the shared v1 pipeline.
++options=normalize_options(optionsIn);options.version='v3';
++[data,time]=validate_input_matrix(sMatrix);n=size(data,1);
++runInfo=struct('version','v3.0','options',options,'route',strings(n,1), ...
++ 'candidate_half_width_hz',nan(n,1),'final_half_width_hz',nan(n,1), ...
++ 'effective_half_width_hz',nan(n,1),'final_band_hz',nan(n,2), ...
++ 'aperiodic_exponent',nan(n,1),'aperiodic_offset',nan(n,1), ...
++ 'aperiodic_peak_height',nan(n,1),'aperiodic_sigma',nan(n,1), ...
++ 'f_lo_hz',nan(n,1),'f_hi_hz',nan(n,1),'diagnostics',{cell(n,1)});
++names={'pac_strength','phase_frequency_hz','amplitude_frequency_hz','preferred_phase_deg','n_bursts','n_phase_events','status_code'};
++units={'a.u.','Hz','Hz','deg','count','count','code'};values=nan(n,numel(names));
++for j=1:n
++ [m,d]=compute_signal_apc(data(j,:),time,options);
++ for k=1:numel(names),values(j,k)=m.(names{k});end
++ runInfo.route(j)=m.route;runInfo.candidate_half_width_hz(j)=m.candidate_half_width_hz;
++ runInfo.final_half_width_hz(j)=m.final_half_width_hz;runInfo.effective_half_width_hz(j)=m.final_half_width_hz;
++ runInfo.final_band_hz(j,:)=m.final_band_hz;runInfo.diagnostics{j}=d;
++ if isfield(d,'aperiodic')
++  a=d.aperiodic;runInfo.aperiodic_exponent(j)=a.exponent;runInfo.aperiodic_offset(j)=a.offset;
++  runInfo.aperiodic_peak_height(j)=a.peak_height;runInfo.aperiodic_sigma(j)=a.sigma;
++  runInfo.f_lo_hz(j)=a.f_lo_hz;runInfo.f_hi_hz(j)=a.f_hi_hz;
++ end
++ if options.showPlots,plot_signal_diagnostics(j,d,m,options);end
++end
++for k=1:numel(names),sApc.(names{k})=pack_feature(values(:,k),units{k},['APC v3: ' names{k}]);end
++extra={'aperiodic_exponent','aperiodic_offset','aperiodic_peak_height','aperiodic_sigma'};
++for k=1:numel(extra),sApc.(extra{k})=pack_feature(runInfo.(extra{k}),'log10-power diagnostics',['APC v3 Step 2: ' extra{k}]);end
++end
++
++function [phaseFreq,d]=estimate_phase_frequency_v3(epochSignal,fs,options,T)
++% Same v1 BTA demeaning, Welch call and refined spectral-bin spacing.
++signal=epochSignal(:)-mean(epochSignal,'omitnan');
++nfft=max(256,2^nextpow2(numel(signal)));
++nfft=max(nfft,2^nextpow2(ceil(fs/options.fPMaxBinSpacingHz)));
++[pxx,f]=pwelch(signal,[],[],nfft,fs);
++flo=max(options.minPhaseHz,7/T);fhi=min([options.maxPhaseHz,fs/3,options.fA(1)-.5]);
++[phaseFreq,d]=apc_v3_spectral_peak(pxx,f,flo,fhi);
++d.nfft=nfft;d.fs_hz=fs;d.duration_s=T;d.spectrum='v1 BTA Welch';
++end

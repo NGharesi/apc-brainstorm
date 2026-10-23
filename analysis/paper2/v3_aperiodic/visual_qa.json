@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "freeze_commit": "1cb2056fb16eaf944857c8d3f11a51276d5b7a1f",
+  "protocol_sha256": "fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1",
+  "figures": [
+    "HA_joint_recovery.png",
+    "HA_fp_recovery.png",
+    "ECoG_rest_fp_spectral_peak.png"
+  ],
+  "inspection": "All three PNGs inspected at displayed resolution: legible axes/legends, no clipped labels, no internal title/footer; matching SVG and 300-dpi metadata verified by final audit.",
+  "method_or_data_changes": false
+}

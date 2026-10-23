@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "ecog_statistics.py",
+      "sha256": "6b7fba3ca630b44a3024422d1b42c147d1a2a69872fe1ea65c33334f03dc5974"
+    },
+    {
+      "path": "ecog_statistics.csv",
+      "sha256": "27f8fc75c70dc2b696bf8d067eef87f679d65f40a297a8f78e8822f264a90d78"
+    },
+    {
+      "path": "patient_differences.csv",
+      "sha256": "1459abae830ee1e397affbcc2f09fdf4eef9a4efd0f1d8c2f09d2e6f69a1d31b"
+    },
+    {
+      "path": "statistics_runtime.json",
+      "sha256": "46e4a62bce534b44f1f5d3e093d03b04b62d8491644931234fcd403017feeebc"
+    }
+  ],
+  "numeric_v3_primary2_differences_verified_against_saved_patient_SD": true,
+  "numerical_outputs_changed": false,
+  "method_calls": 0,
+  "bootstrap_reruns": 0
+}

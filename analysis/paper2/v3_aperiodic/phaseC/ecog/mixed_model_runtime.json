@@ -1,0 +1,1 @@
+{"status":"COMPLETE","formula":"outcome ~ state + (1 + state | patient)","fit_method":"ML (fitlme default)","elapsed_seconds":0.3849622,"patients":18,"bouts":1786,"warning_id":"","warning_message":"","git_head":"1cb2056fb16eaf944857c8d3f11a51276d5b7a1f","protocol_sha256":"fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1","seed":2.0261024E+7}

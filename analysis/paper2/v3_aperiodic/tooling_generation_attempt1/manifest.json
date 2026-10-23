@@ -1,0 +1,24 @@
+{
+  "recorded_utc": "2026-10-23T18:53:12.635035+00:00",
+  "reason": "A missing newline while copying helper functions concatenated end and function write_json into endfunction. The Poisson helper raised Undefined function endfunction before any input bank or method output was saved. Inserted one newline; original HB signal formulas, draw order and helper source now match the frozen generator exactly. Generation restarts from its fixed streams; no reportable result is recomputed.",
+  "method_source_changed": false,
+  "heldout_bank_saved_before_error": false,
+  "files": [
+    {
+      "path": "generate_v3_hb.m",
+      "sha256": "e8dd466a251bef369361ccfb6e226ba7382c14ed3f7508581acfbdb2c2f3eb18"
+    },
+    {
+      "path": "phaseB_generate_matlab.log",
+      "sha256": "849da6f2d8ebe84e9f80bbeac3f07b82cfb46596a1b9e661d9020189807b3945"
+    },
+    {
+      "path": "prepare_phaseB.py",
+      "sha256": "48f2c17a27576aabc2515747215b29219229ad18eda1fcee804a2599a047baf5"
+    },
+    {
+      "path": "HB_generator_wrapper.diff",
+      "sha256": "22ba60595d32ad4b87c07041d44416d552332d5b79569660212bcc75a1cc5309"
+    }
+  ]
+}

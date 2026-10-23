@@ -1,0 +1,152 @@
+{
+  "git_head": "c6b669962369cc97e3ab2635e583b48386152472",
+  "protocol_sha256": "fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1",
+  "moved_files": [
+    {
+      "original_path": "final_verification.json",
+      "archived_path": "attempt1_residual_location\\final_verification.json",
+      "sha256": "d022fb981ca467c6d2efb8f22eefea4dcc144956225918fcf5158fa8adaca851",
+      "bytes": 969
+    },
+    {
+      "original_path": "G0.json",
+      "archived_path": "attempt1_residual_location\\G0.json",
+      "sha256": "7dd6e5a39ff66962d6aa588c1630273c932aeae5ce3fbf51ef919e4d98f040a7",
+      "bytes": 14227
+    },
+    {
+      "original_path": "G0.mat",
+      "archived_path": "attempt1_residual_location\\G0.mat",
+      "sha256": "69e9af1166ca50521f957a2a5108e3d692c4c48fd47a07a8ef25368add73ac74",
+      "bytes": 4692383
+    },
+    {
+      "original_path": "G0_v2_reproduction.csv",
+      "archived_path": "attempt1_residual_location\\G0_v2_reproduction.csv",
+      "sha256": "d7dbeb491b444f9fd7543d6e99c5a69962994d156fe2ec030ebc7db90d0185de",
+      "bytes": 590
+    },
+    {
+      "original_path": "G1.mat",
+      "archived_path": "attempt1_residual_location\\G1.mat",
+      "sha256": "bafab10183b1a13373f6a69853b9a1d92281d2ce8d934ba0929d80c48c4e6e88",
+      "bytes": 497235
+    },
+    {
+      "original_path": "G1_curve.csv",
+      "archived_path": "attempt1_residual_location\\G1_curve.csv",
+      "sha256": "c49ed70904568155ed240f25f08cef7da6c0abaf05e8b71dd9bf2a71c07a29f0",
+      "bytes": 197136
+    },
+    {
+      "original_path": "gate_results.json",
+      "archived_path": "attempt1_residual_location\\gate_results.json",
+      "sha256": "00aaba187a6eaf9803d4e069e2634267b2a08b9c9205e1517877eef92ccf167f",
+      "bytes": 13974
+    },
+    {
+      "original_path": "gate_summary.csv",
+      "archived_path": "attempt1_residual_location\\gate_summary.csv",
+      "sha256": "6dbca320b13a820dad0391aea6235948e0f2fd0ebd8b55966724111baef9676d",
+      "bytes": 504
+    },
+    {
+      "original_path": "gate_trials.csv",
+      "archived_path": "attempt1_residual_location\\gate_trials.csv",
+      "sha256": "fe48af24608873ac9689a56529f780722230133f507da63f5d65f7fcd7dcd611",
+      "bytes": 510
+    },
+    {
+      "original_path": "output_manifest.json",
+      "archived_path": "attempt1_residual_location\\output_manifest.json",
+      "sha256": "9bf954fa7e679305fc45dc578f53255556502bede6ada983ef800ca8a184c891",
+      "bytes": 6192
+    },
+    {
+      "original_path": "phaseA_implementation.json",
+      "archived_path": "attempt1_residual_location\\phaseA_implementation.json",
+      "sha256": "08ff8e55641ad2c482ff789a81ca03e8e74a3d7008fce175d69487fdb33dea89",
+      "bytes": 19656
+    },
+    {
+      "original_path": "phaseA_matlab.log",
+      "archived_path": "attempt1_residual_location\\phaseA_matlab.log",
+      "sha256": "3efeea9165569b6b6f166bc9ee44f135dc93b470e7a80eda817447062f4338cf",
+      "bytes": 8264
+    },
+    {
+      "original_path": "phaseA_source_snapshot\\apc_v3_spectral_peak.m",
+      "archived_path": "attempt1_residual_location\\phaseA_source_snapshot\\apc_v3_spectral_peak.m",
+      "sha256": "dccc59ff7d1666b10da0e57abfdbc9357b0c951ccff105682b90d098719414e2",
+      "bytes": 1651
+    },
+    {
+      "original_path": "phaseA_source_snapshot\\bst_apc.m",
+      "archived_path": "attempt1_residual_location\\phaseA_source_snapshot\\bst_apc.m",
+      "sha256": "99e0f35d7780c4927c103b1047ffaa7e2d5a3811d74ba691c47dfc9a425dcd66",
+      "bytes": 56265
+    },
+    {
+      "original_path": "phaseA_source_snapshot\\run_v3_gates.m",
+      "archived_path": "attempt1_residual_location\\phaseA_source_snapshot\\run_v3_gates.m",
+      "sha256": "c2e5d3b21a5408468c5d3cb0a3b80298d5e37b2bbff4d79c2e3d9234c0e7aa6c",
+      "bytes": 9356
+    },
+    {
+      "original_path": "phaseA_source_snapshot\\sp_raw_fp.m",
+      "archived_path": "attempt1_residual_location\\phaseA_source_snapshot\\sp_raw_fp.m",
+      "sha256": "af45ee52f70bc737add791575ca9a344eb852496bec2b79f740337c02160365f",
+      "bytes": 842
+    },
+    {
+      "original_path": "phaseA_source_snapshot\\v3_development_generator.m",
+      "archived_path": "attempt1_residual_location\\phaseA_source_snapshot\\v3_development_generator.m",
+      "sha256": "477b26d5f230fd5228655aeff6125f30f8d64ebd384df29e7b2dacf4a6c82463",
+      "bytes": 1802
+    },
+    {
+      "original_path": "provenance.json",
+      "archived_path": "attempt1_residual_location\\provenance.json",
+      "sha256": "5b0cf778aab7dd26a4e2d80e2e6c43caa03037ab475812cdb8180c16da9028ba",
+      "bytes": 19744
+    },
+    {
+      "original_path": "RESULTS_v3.md",
+      "archived_path": "attempt1_residual_location\\RESULTS_v3.md",
+      "sha256": "5e4b4f2e095a8c5feaa563fafd60d4782e15afaaa8ab24e37dc438a8a3ac2586",
+      "bytes": 7722
+    },
+    {
+      "original_path": "source_additions_verification.json",
+      "archived_path": "attempt1_residual_location\\source_additions_verification.json",
+      "sha256": "9c9adcc3ad4ab0ceabfbc4351d88326ac8801f5a31e551378c50062b298ee346",
+      "bytes": 451
+    },
+    {
+      "original_path": "STATUS.json",
+      "archived_path": "attempt1_residual_location\\STATUS.json",
+      "sha256": "c72549d3569cd1f5c4c6d67afc3f4a06b33ff4c66d0a3d61073a9671a5b25bd8",
+      "bytes": 604
+    },
+    {
+      "original_path": "STOPPED.md",
+      "archived_path": "attempt1_residual_location\\STOPPED.md",
+      "sha256": "e65df77d2f26a58f5f9c80ba70e6f84aa98396b82171f417c9225e7b64de488b",
+      "bytes": 911
+    },
+    {
+      "original_path": "v3_implementation.diff",
+      "archived_path": "attempt1_residual_location\\v3_implementation.diff",
+      "sha256": "6cac5e13f658e5c830b7e856e813dd4af39321ebadbcc943630a33c5debdc262",
+      "bytes": 4185
+    }
+  ],
+  "source_snapshot_sha256": {
+    "apc_v3_spectral_peak.m": "dccc59ff7d1666b10da0e57abfdbc9357b0c951ccff105682b90d098719414e2",
+    "bst_apc.m": "99e0f35d7780c4927c103b1047ffaa7e2d5a3811d74ba691c47dfc9a425dcd66",
+    "bst_apc_uncommitted.patch": "3c9777462b26538d8dc7a08a85ae2ce2d06e123ceca13a4d0d340ef3317a53af",
+    "run_v3_gates.m": "c2e5d3b21a5408468c5d3cb0a3b80298d5e37b2bbff4d79c2e3d9234c0e7aa6c",
+    "sp_raw_fp.m": "af45ee52f70bc737add791575ca9a344eb852496bec2b79f740337c02160365f",
+    "v3_development_generator.m": "477b26d5f230fd5228655aeff6125f30f8d64ebd384df29e7b2dacf4a6c82463"
+  }
+}

@@ -1,0 +1,15 @@
+bout_set,analysis,animal,state,n,valid,status3,status3_rate,fp_near_flo,fp_near_flo_rate_all,status_counts,freeze_commit,v3_protocol_sha256,provenance_record
+POST_HOC_2s,CA1,EC013,rest,555,553,2,0.0036036036036036037,0,0,"{""0"": 553, ""3"": 2}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+POST_HOC_2s,CA1,EC013,run,431,431,0,0,0,0,"{""0"": 431}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+POST_HOC_2s,E1_sensitivity,EC013,rest,555,555,0,0,0,0,"{""0"": 555}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+POST_HOC_2s,E1_sensitivity,EC013,run,431,431,0,0,0,0,"{""0"": 431}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+POST_HOC_2s,EC,EC012,rest,333,333,0,0,0,0,"{""0"": 333}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+POST_HOC_2s,EC,EC012,run,355,355,0,0,0,0,"{""0"": 355}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+POST_HOC_2s,EC,EC013,rest,555,555,0,0,0,0,"{""0"": 555}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+POST_HOC_2s,EC,EC013,run,431,431,0,0,0,0,"{""0"": 431}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+prespecified_5s,CA1,EC013,rest,92,91,1,0.010869565217391304,0,0,"{""0"": 91, ""3"": 1}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+prespecified_5s,CA1,EC013,run,20,20,0,0,0,0,"{""0"": 20}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+prespecified_5s,E1_sensitivity,EC013,rest,92,92,0,0,0,0,"{""0"": 92}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+prespecified_5s,E1_sensitivity,EC013,run,20,20,0,0,0,0,"{""0"": 20}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+prespecified_5s,EC,EC013,rest,92,92,0,0,0,0,"{""0"": 92}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+prespecified_5s,EC,EC013,run,20,20,0,0,0,0,"{""0"": 20}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json

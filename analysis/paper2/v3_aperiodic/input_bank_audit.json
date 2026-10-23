@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "freeze_commit": "1cb2056fb16eaf944857c8d3f11a51276d5b7a1f",
+  "protocol_sha256": "fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1",
+  "seed": 20261101,
+  "HA_cells": 18,
+  "coupled_trials": 450,
+  "paired_timing_nulls": 450,
+  "all_cell_counts_25": true,
+  "all_fs_1000": true,
+  "all_durations_and_frequency_bounds_correct": true,
+  "maximum_pair_component_residual": 8.881784197001252e-16,
+  "maximum_noise_sd_error": 8.881784197001252e-16,
+  "all_signals_finite": true,
+  "provenance": "phaseB_implementation.json"
+}

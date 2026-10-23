@@ -1,0 +1,11 @@
+{
+  "stage": "Fixed before Phase-C statistical analysis",
+  "freeze_commit": "1cb2056fb16eaf944857c8d3f11a51276d5b7a1f",
+  "protocol_sha256": "fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1",
+  "rodent": "Reuse the original regional and post-hoc statistics without changing formulas, group order, 10000 bootstrap resamples or seed 20261022; add new v3 rows to the unchanged v1/scan rows. Fit the same region-specific REML mixed models for v3; show the saved v1 fits alongside.",
+  "ecog": "Use the original patient-level statistics and seed 20261024, restricted to Primary 1, Primary 2, secondary 1 and sensitivity a. The eligible patients and flagged-patient exclusions are unchanged. Reuse the original scan estimates and rest spectral peaks.",
+  "SP_raw_agreement_descriptive": "On identical rest bouts: finite paired count, median absolute fP difference, and proportion within 1 Hz of v3. Also show patient rest medians and their agreement within 2 Hz of the unchanged rest spectral peak. No new decision criterion.",
+  "status_and_floor": "Per patient, recording and state: all status counts; status-3 fraction over all bouts; fP within 0.05 Hz of max(1,7/T) over all bouts and over valid estimates.",
+  "ecog_success": "At least 9 of the fixed 18 eligible patients have v3 median movement-recording rest fP within 2 Hz of the original analysed-rest spectral peak. A missing median counts as not meeting this criterion.",
+  "method_settings": "Unchanged frozen v3.0; fA [80,150], minPhaseHz 1, maxPhaseHz 30; other defaults. No new source modification or tuning."
+}

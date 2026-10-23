@@ -1,0 +1,40 @@
+{
+  "deviations": [
+    {
+      "type": "Read-only git inspection working directory",
+      "reason": "One exploratory git diff used the parent process folder and failed to resolve the tag. It was repeated in the repository; no file, code or signal was changed."
+    },
+    {
+      "type": "Pre-gate source-verifier line endings",
+      "reason": "The verifier initially assumed LF but the source checkout uses CRLF. It now detects the original newline, reverses the permitted edits, restores that newline and requires exact original bytes. The v2 block is compared as bytes directly. No method source was altered by this fix and no gate or signal output had been computed. The initial read-only diagnostic also failed before printing the new-source branch; it made no file changes."
+    },
+    {
+      "type": "Pre-gate provenance JSON field names",
+      "reason": "MATLAB jsondecode sanitised filename keys containing dots in the initial provenance struct. The source verifier now compares directly with the preserved baseline bytes and records file hashes as path/sha256 array records, avoiding filename-as-key rewriting. This metadata-reader fix occurred before any gate output; no method code or setting changed."
+    },
+    {
+      "type": "Phase-B generator wrapper newline (tooling)",
+      "reason": "A missing newline while copying helper functions concatenated end and function write_json into endfunction. The Poisson helper raised Undefined function endfunction before any input bank or method output was saved. Inserted one newline; original HB signal formulas, draw order and helper source now match the frozen generator exactly. Generation restarts from its fixed streams; no reportable result is recomputed."
+    },
+    {
+      "type": "Matplotlib font-cache path (tooling)",
+      "reason": "The initial report-only import could not write its font cache under the user profile due to sandbox permissions. No figure or estimator failed. MPLCONFIGDIR now points inside the work folder; no method or setting changed."
+    },
+    {
+      "type": "Wilson error-bar round-off (tooling)",
+      "reason": "Figure export rejected a negative error-bar length caused by floating-point round-off at a zero/one proportion. Plot lengths alone are bounded below by zero. Saved Wilson intervals, recovery counts, criteria and estimates are unchanged. The cached prespecified exact-test results are reused during report/export recovery; no method is rerun."
+    },
+    {
+      "type": "Phase-C wrapper setup quoting (tooling)",
+      "reason": "A PowerShell parsing error rejected an inline Python wrapper-copy command before it executed. The same literal replacement is performed by this saved UTF-8 Python script. No input, method source, option or estimate was changed by the failed command."
+    },
+    {
+      "type": "ECoG copied Primary-2 label (tooling)",
+      "reason": "The copied statistics code computed the v3-minus-scan SD difference correctly but retained the literal v1-minus-scan output label. Verified all saved patient differences against the v3 patient SD table, archived original labelled files with hashes, and replaced only that full label in the script/CSV/JSON. No number, bootstrap or method output was recomputed."
+    },
+    {
+      "type": "Post-hoc CSV metadata dtype warning",
+      "reason": "Pandas emitted a mixed-type warning for metadata-only columns that are missing on the reused old rows and strings on new v3 rows. The numeric analysis columns were unaffected; the statistics completed once with unchanged formulas. No retry or setting change was made."
+    }
+  ]
+}

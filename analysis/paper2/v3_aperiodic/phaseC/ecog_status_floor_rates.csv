@@ -1,0 +1,52 @@
+patient,recording,state,eligible,n,n_valid,status3,status3_rate,status4,fp_near_flo,fp_near_flo_rate_all,fp_near_flo_rate_valid,status_counts,freeze_commit,v3_protocol_sha256,provenance_record
+bp,imagery,move,True,60,59,1,0.016666666666666666,0,0,0,0,"{""0"": 59, ""3"": 1}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+bp,imagery,rest,True,59,58,1,0.016949152542372881,0,0,0,0,"{""0"": 58, ""3"": 1}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+bp,movement,move,True,60,56,4,0.066666666666666666,0,0,0,0,"{""0"": 56, ""3"": 4}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+bp,movement,rest,True,59,59,0,0,0,0,0,0,"{""0"": 59}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+ca,movement,move,True,60,60,0,0,0,0,0,0,"{""0"": 60}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+ca,movement,rest,True,29,29,0,0,0,0,0,0,"{""0"": 29}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+cc,movement,move,True,30,30,0,0,0,0,0,0,"{""0"": 30}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+cc,movement,rest,True,14,13,1,0.071428571428571425,0,0,0,0,"{""0"": 13, ""3"": 1}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+de,movement,move,True,60,60,0,0,0,0,0,0,"{""0"": 60}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+de,movement,rest,True,29,29,0,0,0,0,0,0,"{""0"": 29}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+fp,imagery,move,True,60,60,0,0,0,0,0,0,"{""0"": 60}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+fp,imagery,rest,True,59,59,0,0,0,0,0,0,"{""0"": 59}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+fp,movement,move,True,60,60,0,0,0,0,0,0,"{""0"": 60}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+fp,movement,rest,True,59,59,0,0,0,0,0,0,"{""0"": 59}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+gc,movement,move,True,60,60,0,0,0,0,0,0,"{""0"": 60}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+gc,movement,rest,True,29,29,0,0,0,0,0,0,"{""0"": 29}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+gf,movement,move,True,60,60,0,0,0,0,0,0,"{""0"": 60}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+gf,movement,rest,True,45,45,0,0,0,0,0,0,"{""0"": 45}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+hh,imagery,move,True,60,60,0,0,0,0,0,0,"{""0"": 60}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+hh,imagery,rest,True,59,59,0,0,0,0,0,0,"{""0"": 59}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+hh,movement,move,True,60,60,0,0,0,0,0,0,"{""0"": 60}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+hh,movement,rest,True,59,59,0,0,0,0,0,0,"{""0"": 59}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+hl,movement,move,True,60,59,1,0.016666666666666666,0,1,0.016666666666666666,0.016949152542372881,"{""0"": 59, ""3"": 1}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+hl,movement,rest,True,29,29,0,0,0,0,0,0,"{""0"": 29}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+jc,imagery,move,True,60,60,0,0,0,0,0,0,"{""0"": 60}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+jc,imagery,rest,True,59,59,0,0,0,1,0.016949152542372881,0.016949152542372881,"{""0"": 59}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+jc,movement,move,True,60,57,3,0.050000000000000003,0,0,0,0,"{""0"": 57, ""3"": 3}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+jc,movement,rest,True,59,57,2,0.033898305084745763,0,0,0,0,"{""0"": 57, ""3"": 2}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+jf,movement,rest,False,6,6,0,0,0,0,0,0,"{""0"": 6}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+jm,imagery,move,True,60,59,1,0.016666666666666666,0,0,0,0,"{""0"": 59, ""3"": 1}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+jm,imagery,rest,True,59,57,2,0.033898305084745763,0,0,0,0,"{""0"": 57, ""3"": 2}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+jm,movement,move,True,60,60,0,0,0,0,0,0,"{""0"": 60}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+jm,movement,rest,True,59,58,1,0.016949152542372881,0,0,0,0,"{""0"": 58, ""3"": 1}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+jp,movement,move,True,37,37,0,0,0,0,0,0,"{""0"": 37}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+jp,movement,rest,True,18,18,0,0,0,0,0,0,"{""0"": 18}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+jt,movement,move,True,60,60,0,0,0,0,0,0,"{""0"": 60}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+jt,movement,rest,True,29,29,0,0,0,0,0,0,"{""0"": 29}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+rh,imagery,move,True,60,60,0,0,0,0,0,0,"{""0"": 60}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+rh,imagery,rest,True,59,58,1,0.016949152542372881,0,0,0,0,"{""0"": 58, ""3"": 1}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+rh,movement,move,True,60,59,0,0,1,0,0,0,"{""0"": 59, ""4"": 1}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+rh,movement,rest,True,59,57,2,0.033898305084745763,0,0,0,0,"{""0"": 57, ""3"": 2}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+rr,imagery,move,True,60,59,1,0.016666666666666666,0,0,0,0,"{""0"": 59, ""3"": 1}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+rr,imagery,rest,True,59,59,0,0,0,0,0,0,"{""0"": 59}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+rr,movement,move,True,60,60,0,0,0,0,0,0,"{""0"": 60}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+rr,movement,rest,True,59,59,0,0,0,0,0,0,"{""0"": 59}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+ug,movement,move,True,90,89,1,0.011111111111111112,0,0,0,0,"{""0"": 89, ""3"": 1}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+ug,movement,rest,True,44,44,0,0,0,0,0,0,"{""0"": 44}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+wc,movement,move,True,60,57,3,0.050000000000000003,0,0,0,0,"{""0"": 57, ""3"": 3}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+wc,movement,rest,True,29,28,1,0.034482758620689655,0,0,0,0,"{""0"": 28, ""3"": 1}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+zt,movement,move,True,60,57,3,0.050000000000000003,0,0,0,0,"{""0"": 57, ""3"": 3}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json
+zt,movement,rest,True,44,44,0,0,0,0,0,0,"{""0"": 44}",1cb2056fb16eaf944857c8d3f11a51276d5b7a1f,fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1,phaseC/provenance.json

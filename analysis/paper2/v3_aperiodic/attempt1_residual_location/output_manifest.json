@@ -1,0 +1,136 @@
+{
+  "git_head": "8cabe20538b55f5185a20630f19fd7162b9bb269",
+  "protocol_sha256": "c2d8ede3fb994d6ef90f9757abbd993ed33e8e0a082288cb7501458d64a1bbb7",
+  "files": [
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\deviations.json",
+      "bytes": 1246,
+      "sha256": "773342e660c80d3a80e3b18e0e32cbbadfe19724c30870f2a42ff53d2d9bcaee"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\environment_matlab.log",
+      "bytes": 8211,
+      "sha256": "58d0f9d06a5512345452a3430a826ecaab9333e0b77c61f2e042a7ad3fc2e8d7"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\final_verification.json",
+      "bytes": 969,
+      "sha256": "d022fb981ca467c6d2efb8f22eefea4dcc144956225918fcf5158fa8adaca851"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\G0.json",
+      "bytes": 14227,
+      "sha256": "7dd6e5a39ff66962d6aa588c1630273c932aeae5ce3fbf51ef919e4d98f040a7"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\G0.mat",
+      "bytes": 4692383,
+      "sha256": "69e9af1166ca50521f957a2a5108e3d692c4c48fd47a07a8ef25368add73ac74"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\G0_v2_reproduction.csv",
+      "bytes": 590,
+      "sha256": "d7dbeb491b444f9fd7543d6e99c5a69962994d156fe2ec030ebc7db90d0185de"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\G1.mat",
+      "bytes": 497235,
+      "sha256": "bafab10183b1a13373f6a69853b9a1d92281d2ce8d934ba0929d80c48c4e6e88"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\G1_curve.csv",
+      "bytes": 197136,
+      "sha256": "c49ed70904568155ed240f25f08cef7da6c0abaf05e8b71dd9bf2a71c07a29f0"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\gate_results.json",
+      "bytes": 13974,
+      "sha256": "00aaba187a6eaf9803d4e069e2634267b2a08b9c9205e1517877eef92ccf167f"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\gate_summary.csv",
+      "bytes": 504,
+      "sha256": "6dbca320b13a820dad0391aea6235948e0f2fd0ebd8b55966724111baef9676d"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\gate_trials.csv",
+      "bytes": 510,
+      "sha256": "fe48af24608873ac9689a56529f780722230133f507da63f5d65f7fcd7dcd611"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\phaseA_implementation.json",
+      "bytes": 19656,
+      "sha256": "08ff8e55641ad2c482ff789a81ca03e8e74a3d7008fce175d69487fdb33dea89"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\phaseA_matlab.log",
+      "bytes": 8264,
+      "sha256": "3efeea9165569b6b6f166bc9ee44f135dc93b470e7a80eda817447062f4338cf"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\preexisting_v1_tag_diff.patch",
+      "bytes": 15051,
+      "sha256": "5744f1f6540ac061d97561d2d8942d5a7f4b7ca686a3dbfbc0bfb9e6b0b3cd59"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\provenance.json",
+      "bytes": 19744,
+      "sha256": "5b0cf778aab7dd26a4e2d80e2e6c43caa03037ab475812cdb8180c16da9028ba"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\record_environment.m",
+      "bytes": 446,
+      "sha256": "2c91b60fab6a55cb5bd4f4d280bee310e4df806db80945f94c9a741561a40595"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\report_gate_stop.py",
+      "bytes": 11399,
+      "sha256": "0b2041ff145e86acc5d2a5e0e30b75416423de68885ff88567cd68bf7398e13f"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\RESULTS_v3.md",
+      "bytes": 7722,
+      "sha256": "5e4b4f2e095a8c5feaa563fafd60d4782e15afaaa8ab24e37dc438a8a3ac2586"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\setup_v3.py",
+      "bytes": 2496,
+      "sha256": "f732cceb658581bdd699f27453606df04bc1ad3609f5e81bfebc7e796784750b"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\source_additions_verification.json",
+      "bytes": 451,
+      "sha256": "9c9adcc3ad4ab0ceabfbc4351d88326ac8801f5a31e551378c50062b298ee346"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\STATUS.json",
+      "bytes": 604,
+      "sha256": "c72549d3569cd1f5c4c6d67afc3f4a06b33ff4c66d0a3d61073a9671a5b25bd8"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\STOPPED.md",
+      "bytes": 911,
+      "sha256": "e65df77d2f26a58f5f9c80ba70e6f84aa98396b82171f417c9225e7b64de488b"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\v3_implementation.diff",
+      "bytes": 4185,
+      "sha256": "6cac5e13f658e5c830b7e856e813dd4af39321ebadbcc943630a33c5debdc262"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\verify_phaseA_source.py",
+      "bytes": 5871,
+      "sha256": "cef12d3324540f92246da19af9efe742367193c2e595f8b993d233c38efad5fe"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\verify_phaseA_source_before_json_key_fix.py.txt",
+      "bytes": 5293,
+      "sha256": "e13e7f7b75e7543a0a0291904dbb6119dcc72559f25f95b90b47b8597d345604"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\verify_phaseA_source_before_newline_fix.py.txt",
+      "bytes": 4691,
+      "sha256": "0d93328e370ad818ba84e7980bd44e5d6ad6b95f0b1898f21ba082e4b4f26a93"
+    }
+  ]
+}

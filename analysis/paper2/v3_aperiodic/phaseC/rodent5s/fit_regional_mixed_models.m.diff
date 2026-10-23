@@ -1,0 +1,11 @@
+--- original fixed pipeline
++++ C:\Users\nghare\.brainstorm\process\revision_checks\v3_aperiodic\phaseC\rodent5s\fit_regional_mixed_models.m
+@@ -5,7 +5,7 @@
+ T=readtable(fullfile(out,'regional_bout_estimates.csv'),'TextType','string','Delimiter',',','NumHeaderLines',0,'ReadVariableNames',true,'VariableNamingRule','preserve','Encoding','UTF-8');models={};coefficientRows={};
+ try
+  for analysis=["CA1","EC","E1_sensitivity"]
+-  D=T(T.analysis==analysis&T.method=="APC-v1.0",:);D.state_run=double(D.state=="run");D.animal=categorical(D.animal);D.session=categorical(D.session);
++  D=T(T.analysis==analysis&T.method=="APC-v3.0",:);D.state_run=double(D.state=="run");D.animal=categorical(D.animal);D.session=categorical(D.session);
+   if numel(unique(D.animal))>1,D.animal=reordercats(D.animal,{'EC012','EC013'});formula='outcome ~ state_run + animal + (1 + state_run | session)';constantAnimal=false;
+   else,formula='outcome ~ state_run + (1 + state_run | session)';constantAnimal=true;end
+   for name=["fP_hz","ozkurt_mvl"]

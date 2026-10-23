@@ -1,0 +1,27 @@
+{
+  "status": "COMPLETE",
+  "freeze_commit": "1cb2056fb16eaf944857c8d3f11a51276d5b7a1f",
+  "git_tag": "v3.0",
+  "protocol_sha256": "fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1",
+  "gates": {
+    "G0": "PASS",
+    "G1": "PASS",
+    "G2": "PASS",
+    "G3": "DESCRIPTIVE_COMPLETE"
+  },
+  "recommended": true,
+  "phaseB_complete": true,
+  "results_committed": false,
+  "updated_utc": "2026-10-23T19:34:32.238057+00:00",
+  "phaseC_complete": true,
+  "ecog_success_criterion": {
+    "criterion": "ECoG rest median within 2 Hz of rest spectral peak in at least 9/18 eligible patients",
+    "n_patients": 18,
+    "v3_success": 13,
+    "v1_success": 5,
+    "SP_raw_success": 15,
+    "passed": true,
+    "freeze_commit": "1cb2056fb16eaf944857c8d3f11a51276d5b7a1f",
+    "protocol_sha256": "fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1"
+  }
+}

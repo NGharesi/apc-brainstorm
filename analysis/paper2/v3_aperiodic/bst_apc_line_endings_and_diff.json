@@ -1,0 +1,12 @@
+{
+  "git_head": "c6b669962369cc97e3ab2635e583b48386152472",
+  "protocol_sha256": "fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1",
+  "committed_newline": "LF",
+  "original_CRLF": 1273,
+  "original_LF": 1273,
+  "restored_CRLF": 0,
+  "restored_LF": 1273,
+  "source_text_unchanged": true,
+  "unqualified_git_diff_stat_v1_tag": "src/bst_apc.m | 260 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n 1 file changed, 260 insertions(+)",
+  "unqualified_git_diff_numstat_v1_tag": "260\t0\tsrc/bst_apc.m"
+}

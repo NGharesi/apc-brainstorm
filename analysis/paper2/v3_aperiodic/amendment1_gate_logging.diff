@@ -1,0 +1,27 @@
+--- attempt1 gate driver
++++ Amendment1 branch logging
+@@ -15,6 +15,8 @@
+  assert(strcmpi(which('bst_apc'),fullfile(repo,'src','bst_apc.m')));
+  [currentV1,currentInfoV1]=bst_apc(input,options);explicit=options;explicit.version='v1';[explicitV1,explicitInfoV1]=bst_apc(input,explicit);
+  [currentV2,currentInfoV2]=bst_apc(input,optionsV2);
++ g0rows={pack('G0',0,20,1,'tag-v1.0',referenceV1,referenceInfoV1,8,120),pack('G0',0,20,1,'default-v1.0',currentV1,currentInfoV1,8,120),pack('G0',0,20,1,'explicit-v1',explicitV1,explicitInfoV1,8,120),pack('G0',0,20,1,'tag-v2.0',referenceV2,referenceInfoV2,8,120),pack('G0',0,20,1,'current-v2.0',currentV2,currentInfoV2,8,120)};
++ writetable(struct2table(vertcat(g0rows{:})),fullfile(O,'G0_trials.csv'));
+  expected=[7.99792313403792,122,.176907779165945,178.575795410875];observed=[currentV1.phase_frequency_hz.Value,currentV1.amplitude_frequency_hz.Value,currentV1.pac_strength.Value,currentV1.preferred_phase_deg.Value];delta=abs(observed-expected);
+  source=jsondecode(fileread(fullfile(O,'source_additions_verification.json')));
+  result=struct('canonical_expected',expected,'canonical_observed',observed,'canonical_absolute_differences',delta,'canonical_tolerance',1e-10, ...
+@@ -64,10 +66,13 @@
+  writejson(fullfile(O,'gate_execution_error.json'),struct('identifier',err.identifier,'message',err.message,'gates',gates,'elapsed_seconds',toc(start),'provenance',m));rethrow(err);
+ end
+ function row=pack(gate,beta,duration,trial,method,r,info,truthFP,truthFA)
+- exponent=NaN;offset=NaN;height=NaN;sigma=NaN;flo=NaN;
++ exponent=NaN;offset=NaN;height=NaN;sigma=NaN;flo=NaN;branch="not_applicable";
+  if isfield(info,'aperiodic_exponent'),exponent=info.aperiodic_exponent;offset=info.aperiodic_offset;height=info.aperiodic_peak_height;sigma=info.aperiodic_sigma;flo=info.f_lo_hz;end
++ if isfield(info,'diagnostics')&&strcmp(info.version,'v3.0')
++  branch="not_reached";if isfield(info.diagnostics{1},'aperiodic'),branch=string(info.diagnostics{1}.aperiodic.location_branch);end
++ end
+  fp=r.phase_frequency_hz.Value;fa=r.amplitude_frequency_hz.Value;status=r.status_code.Value;
+- row=struct('gate',string(gate),'beta',beta,'duration_s',duration,'trial',trial,'method',string(method),'true_fp_hz',truthFP,'true_fa_hz',truthFA,'fP_hz',fp,'fA_hz',fa,'score',r.pac_strength.Value,'status',status,'route',string(info.route),'n_bursts',r.n_bursts.Value,'fp_correct',status==0&&isfinite(fp)&&abs(fp-truthFP)<=1,'exponent',exponent,'offset',offset,'peak_height',height,'sigma',sigma,'f_lo_hz',flo,'git_head',string(m.git_head),'protocol_sha256',string(m.protocol_sha256),'seed',20261031,'implementation_record','phaseA_implementation.json');
++ row=struct('gate',string(gate),'beta',beta,'duration_s',duration,'trial',trial,'method',string(method),'true_fp_hz',truthFP,'true_fa_hz',truthFA,'fP_hz',fp,'fA_hz',fa,'score',r.pac_strength.Value,'status',status,'route',string(info.route),'n_bursts',r.n_bursts.Value,'fp_correct',status==0&&isfinite(fp)&&abs(fp-truthFP)<=1,'exponent',exponent,'offset',offset,'peak_height',height,'sigma',sigma,'f_lo_hz',flo,'location_branch',branch,'git_head',string(m.git_head),'protocol_sha256',string(m.protocol_sha256),'seed',20261031,'implementation_record','phaseA_implementation.json');
+ end
+ function write_curve(name,info)
+  if ~isfield(info,'diagnostics')||~isfield(info.diagnostics{1},'aperiodic'),return;end

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "git_head": "c6b669962369cc97e3ab2635e583b48386152472",
+  "protocol_sha256": "fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1",
+  "new_diff_reverses_exact_baseline_source_text": true,
+  "bst_apc_only_line_endings_changed_since_attempt1": true,
+  "committed_line_endings_restored": true,
+  "aperiodic_fit_sigma_candidates_unchanged": true,
+  "SP_raw_bytes_unchanged": true,
+  "development_generator_bytes_unchanged": true,
+  "metric_helper_unchanged": true,
+  "gate_criteria_unchanged": true
+}

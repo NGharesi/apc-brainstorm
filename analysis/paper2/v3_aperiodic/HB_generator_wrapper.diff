@@ -1,0 +1,21 @@
+--- frozen v2 generate_inputs
++++ v3 HB output-name wrapper
+@@ -1,5 +1,5 @@
+-function generate_inputs(out,meta)
+-file=fullfile(out,'heldout_inputs.mat');assert(~isfile(file),'v2:ExistingInputs','Preserve existing held-out inputs');
++function generate_v3_hb(out,meta)
++file=fullfile(out,'HB_inputs.mat');assert(~isfile(file),'v2:ExistingInputs','Preserve existing held-out inputs');
+ assert(~meta.tpac.available,'v2:TPACReview','Inspect available tPAC interface before deciding inclusion');
+ signalStream=new_stream(1);frequencyStream=new_stream(2);poissonStream=new_stream(3);RandStream.setGlobalStream(signalStream);
+ cases={};verification={};draws={};
+@@ -54,7 +54,7 @@
+  end
+ end
+ assert(numel(cases)==675 && numel(draws)==350 && numel(verification)==325);
+-save(file,'cases','meta','-v7.3');v1_write_csv(struct2table([draws{:}]),fullfile(out,'heldout_frequency_draws.csv'));
+-v1_write_csv(struct2table([verification{:}]),fullfile(out,'heldout_null_pair_verification.csv'));
+-write_json(fullfile(out,'heldout_input_manifest.json'),struct('inputs',675,'coupled',350,'timing_null',250,'no_coupled_burst',75,'metadata',meta));
++save(file,'cases','meta','-v7.3');v1_write_csv(struct2table([draws{:}]),fullfile(out,'HB_frequency_draws.csv'));
++v1_write_csv(struct2table([verification{:}]),fullfile(out,'HB_null_pair_verification.csv'));
++write_json(fullfile(out,'HB_input_manifest.json'),struct('inputs',675,'coupled',350,'timing_null',250,'no_coupled_burst',75,'metadata',meta));
+ end

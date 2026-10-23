@@ -1,0 +1,26 @@
+{
+  "freeze_commit": "1cb2056fb16eaf944857c8d3f11a51276d5b7a1f",
+  "protocol_sha256": "fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1",
+  "files": [
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\v3_worker.m",
+      "sha256": "121ee02a501f8e923e65e6f6ba3d92600e11a1c01d8a28bc7157fc778041114f"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\run_v3_generate.m",
+      "sha256": "877879397f95a4831d9ff4dece0c4ccd3855208b274ef32c3f745d8f8a4378d8"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\generate_v3_hb.m",
+      "sha256": "e6b25467d7b38b0a0ca7498d837cc2b08e2b15d451a432ed19657b654eff5e0d"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\v3_comparators.m",
+      "sha256": "5194a2efd955871e20c9036ffa9965c8fe0a07d24319465b3b120d087a7f5426"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\release_phaseB.py",
+      "sha256": "25fd927410e84273bb435b77d38bcf4fedae040067caaef61f5748979b1b49c6"
+    }
+  ]
+}

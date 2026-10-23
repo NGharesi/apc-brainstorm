@@ -1,0 +1,54 @@
+{
+  "status": "GATES_PASSED_READY_TO_FREEZE",
+  "recorded_utc": "2026-10-23T18:45:40.777143+00:00",
+  "git_head": "c6b669962369cc97e3ab2635e583b48386152472",
+  "protocol_sha256": "fda66faf93fb29bb8d84bb8fab89a7a051b474165c22b195ef92e24aeb91a8e1",
+  "gates": {
+    "G0": "PASS",
+    "G1": "PASS",
+    "G2": "PASS",
+    "G3": "DESCRIPTIVE_COMPLETE"
+  },
+  "heldout_generated": false,
+  "files": [
+    {
+      "path": "src/bst_apc.m",
+      "sha256": "2e8e37a58c3b53a5e999cb7e486acdeeab4ab83d50ac5dd848d91a82d1cf3636"
+    },
+    {
+      "path": "src/apc_v3_spectral_peak.m",
+      "sha256": "42565a27c6991b9a2eaa7b2b52552a3dc06c09f6acb84b927ba31f65dde4fa3d"
+    },
+    {
+      "path": "src/sp_raw_fp.m",
+      "sha256": "af45ee52f70bc737add791575ca9a344eb852496bec2b79f740337c02160365f"
+    },
+    {
+      "path": "analysis/v3_aperiodic/run_v3_gates.m",
+      "sha256": "81f860583f35b380179a4b060f1cbcb51e8f3eaf71b611574eec85b512037d60"
+    },
+    {
+      "path": "analysis/v3_aperiodic/v3_development_generator.m",
+      "sha256": "477b26d5f230fd5228655aeff6125f30f8d64ebd384df29e7b2dacf4a6c82463"
+    },
+    {
+      "path": "analysis/v3_aperiodic/v3_ha_generator.m",
+      "sha256": "f27d9599e674e062b57f2c448a9c24dc10f2b8b6afd8379d31d45f6dc23f33fe"
+    }
+  ],
+  "HA_conventions": {
+    "seed": 20261101,
+    "stream": "mrg32k3a",
+    "signal_substream": 1,
+    "frequency_substream": 2,
+    "poisson_substream": 3,
+    "cell_order": "beta, rhythm amplitude, duration, repeat; coupled then paired null",
+    "frequency_draw_order": "fP U(6,25), fA U(80,140)",
+    "signal_draw_order": "unit-SD powerlaw noise; Bernoulli cycle retention; Gaussian jitter; jittered-uniform background burst times",
+    "background": "development sparsity recipe: one jittered-uniform time per cycle, peak-normalized envelope, amplitude 1.5*0.18, same carrier",
+    "true_and_null_envelopes": "sum of 10-ms sigma Gaussian pulses, no peak normalization, amplitude 1.5",
+    "troughs": "0.75/fP + integer/fP within sampled record",
+    "null": "homogeneous Poisson rate 0.55*fP over [0,T), overlaps allowed, all other components identical"
+  },
+  "HB_conventions": "Exact existing v2 held-out generation and 20261022 mrg32k3a substreams; original v1 options fA [80,160] for saved per-trial equivalence; same range for v3; original A2-prime SOS grids"
+}

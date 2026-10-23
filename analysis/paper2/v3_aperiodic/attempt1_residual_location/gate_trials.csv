@@ -1,0 +1,2 @@
+gate,beta,duration_s,trial,method,true_fp_hz,true_fa_hz,fP_hz,fA_hz,score,status,route,n_bursts,fp_correct,exponent,offset,peak_height,sigma,f_lo_hz,git_head,protocol_sha256,seed,implementation_record
+G1,0,20,1,APC-v3.0,8,120,8.69026124904984,121,0.196770683265082,0,direct_envelope_scan,182,1,1.35571458693113,-3.07299921649303,3.02580281103187,0.337337868732962,1,8cabe20538b55f5185a20630f19fd7162b9bb269,c2d8ede3fb994d6ef90f9757abbd993ed33e8e0a082288cb7501458d64a1bbb7,20261031,phaseA_implementation.json
