@@ -1,0 +1,396 @@
+{
+  "status": "COMPLETE",
+  "build_seconds": 2.062000000005355,
+  "metadata": {
+    "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+    "git_tag": "v1.0",
+    "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+    "matlab_release": "2022b",
+    "seed": 20260618.0,
+    "computation_threads": 1,
+    "worktree_dirty": false,
+    "stage": "followup_a2",
+    "apc_source_git_blob": "04675a5d7acfe82b1e46431e5838e56ef056eab6",
+    "apc_configurations": [
+      {
+        "name": "v1.0",
+        "options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "diagm": false,
+          "surrogates": false,
+          "num_perm": 0,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "v1",
+          "fPRefine": true,
+          "fPMaxBinSpacingHz": 0.05
+        }
+      },
+      {
+        "name": "v1.0_no_flip",
+        "options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "diagm": false,
+          "surrogates": false,
+          "num_perm": 0,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": false,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "v1",
+          "fPRefine": true,
+          "fPMaxBinSpacingHz": 0.05
+        }
+      },
+      {
+        "name": "v1.0_no_fP_refine",
+        "options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "diagm": false,
+          "surrogates": false,
+          "num_perm": 0,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "v1",
+          "fPRefine": false,
+          "fPMaxBinSpacingHz": 0.05
+        }
+      }
+    ],
+    "comparator_settings": {
+      "phase_half_width_hz": 1.5,
+      "phase_grids": {
+        "main": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "random_1Hz": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "random_05Hz": [
+          4,
+          4.5,
+          5,
+          5.5,
+          6,
+          6.5,
+          7,
+          7.5,
+          8,
+          8.5,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          11.5,
+          12
+        ]
+      },
+      "amplitude_grid_hz": [
+        80,
+        88,
+        96,
+        104,
+        112,
+        120,
+        128,
+        136,
+        144,
+        152
+      ],
+      "A0_amplitude_half_width_hz": 6,
+      "A1_amplitude_half_width": "candidate fP",
+      "amplitude_clipping_hz": "[max(1,fA-halfWidth),min(fs/2-1,fA+halfWidth)]",
+      "filter": "butter(4,[low high]/(fs/2),bandpass), filtfilt (8th-order bandpass)",
+      "normalized_cutoff_clamps": [
+        0.0001,
+        0.999
+      ],
+      "phase_low_edge_min_hz": 0.5,
+      "metrics": [
+        "MVL-raw",
+        "MVL-Ozkurt",
+        "KLMI-scan",
+        "GLM-scan"
+      ],
+      "num_phase_bins": 18,
+      "raw_MVL": "abs(mean(A.*exp(1i*phase)))",
+      "Ozkurt_MVL": "abs(sum(A.*exp(1i*phase)))/sqrt(N*sum(A.^2))",
+      "GLM": "max(0,1-SSE/SST); X=[ones,sin(phase),cos(phase)]",
+      "selection": "independent full-grid argmax for each metric; MATLAB column-major first tie",
+      "surrogates": false,
+      "A2_amplitude_half_width_hz": 12,
+      "followup_phase_grids": [
+        [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          4,
+          4.5,
+          5,
+          5.5,
+          6,
+          6.5,
+          7,
+          7.5,
+          8,
+          8.5,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          11.5,
+          12
+        ]
+      ]
+    },
+    "null_settings": {
+      "primary": "timing_null",
+      "secondary": "no_coupled_burst",
+      "timing_null_coupling_level": 0.6,
+      "poisson_stream": "mt19937ar, separate stream seeded 20260618, reset per benchmark",
+      "poisson_rate_distractor": "true fP Hz",
+      "poisson_rate_sparsity": "keep_rate * true fP Hz",
+      "event_support": "[t(1)-1/fP,t(end)+1/fP], original generator event support; original APC epoch-edge rejection unchanged",
+      "overlap": "allowed; original Gaussian envelope sum handles overlap; no minimum gap",
+      "envelope_normalization": "divide by maximum on recording, same as original generator",
+      "paired_components": "same carrier, noise vector including original noise scale, distractor and background; only true-burst component replaced",
+      "verification_tolerance": 1e-12,
+      "secondary_coupling_level": 0
+    },
+    "random_fp_settings": {
+      "distribution": "uniform[5,11] Hz",
+      "stream": "separate mt19937ar stream seed 20260618, reset per benchmark",
+      "distractor_levels": [
+        0,
+        1.5,
+        3
+      ],
+      "sparsity_levels": [
+        0.15,
+        0.5,
+        1
+      ],
+      "repeats": 25
+    },
+    "generator_settings": {
+      "sparsity": {
+        "profile_name": "full",
+        "random_seed": 20260618.0,
+        "fs_hz": 500,
+        "duration_s": 8,
+        "true_fp_hz": 8,
+        "true_fa_hz": 120,
+        "phase_offset_deg": -90,
+        "low_amp": 1,
+        "true_high_amp": 1.3,
+        "base_hf_amp": 0.08,
+        "burst_sigma_s": 0.028,
+        "burst_phase_jitter_s": 0.01,
+        "snr_db": -3,
+        "broad_fa_band_hz": [
+          80,
+          150
+        ],
+        "phase_scan_hz": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "amplitude_scan_hz": [
+          80,
+          88,
+          96,
+          104,
+          112,
+          120,
+          128,
+          136,
+          144,
+          152
+        ],
+        "metric": "canolty",
+        "fa_tolerance_hz": 8,
+        "fp_tolerance_hz": 1,
+        "coupling_level": 0.6,
+        "background_burst_scale": 0.18,
+        "n_repeats": 25,
+        "burst_keep_rates": [
+          1,
+          0.85,
+          0.7,
+          0.55,
+          0.4,
+          0.25,
+          0.15
+        ]
+      },
+      "distractor": {
+        "profile_name": "reviewer_control",
+        "random_seed": 20260618.0,
+        "fs_hz": 500,
+        "duration_s": 6,
+        "true_fp_hz": 8,
+        "true_fa_hz": 120,
+        "distractor_fa_hz": 96,
+        "phase_offset_deg": -90,
+        "low_amp": 1,
+        "true_high_amp": 1.3,
+        "distractor_base_amp": 0.6,
+        "base_hf_amp": 0.08,
+        "burst_sigma_s": 0.028,
+        "coupling_level": 0.6,
+        "burst_phase_jitter_s": 0.01,
+        "snr_db": -3,
+        "broad_fa_band_hz": [
+          80,
+          150
+        ],
+        "phase_scan_hz": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "amplitude_scan_hz": [
+          80,
+          88,
+          96,
+          104,
+          112,
+          120,
+          128,
+          136,
+          144,
+          152
+        ],
+        "phase_band_half_width_hz": 1.5,
+        "amplitude_band_half_width_hz": 6,
+        "metric": "canolty",
+        "fa_tolerance_hz": 8,
+        "fp_tolerance_hz": 1,
+        "oracle_control_distractor_scale": 0,
+        "n_repeats": 25,
+        "distractor_scale_values": [
+          0,
+          0.5,
+          1,
+          1.5,
+          2,
+          2.5,
+          3
+        ]
+      }
+    },
+    "recovery_settings": {
+      "fp_tolerance_hz": 1,
+      "strict_fp_tolerance_hz": 0.5,
+      "fa_tolerance_hz": 8,
+      "boundary_values_hz": [
+        4,
+        12
+      ],
+      "invalid_outputs": "count as recovery failures; errors summarized over finite estimates with n_valid reported",
+      "AUC": "all coupled-vs-null score pairs, greater-than + half of ties; finite scores only; no score normalization or direction reversal"
+    },
+    "paths": {
+      "repository": "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish",
+      "workspace": "C:\\Users\\nghare\\.brainstorm\\process"
+    },
+    "followup_protocol": "# Analysis protocol, selected before follow-up outcomes\n\nFrozen APC source: v1.0, 71ebc16aed32ca38be73a800738b975e5806b330.\nAll additions are analysis scripts outside the tagged repository.\n\n1. A2 uses a fixed 12-Hz amplitude half-width, both 1-Hz and 0.5-Hz phase\ngrids, and otherwise the exact frozen comparator definitions. Reuse every\nsaved main, random-fP, timing-null and no-coupled-burst input. A1 arithmetic\nin the analysis copy must exactly reproduce the frozen comparator on a\nsaved input, on both grids, before the new scans begin.\n2. Instrument an external copy of APC with diagnostics only; require all\nexported results to equal frozen APC on every selected status-4 input.\nRecord both refined and unrefined intermediate frequency, band, pre/post\nedge counts, FFT bins and exact original source return condition. Test the\nrefined frequency against its own padded peak neighbors, unpadded peak\nneighbors, and the configured phase limits. Do not change any method.\n3. Slow-rhythm scenario derives from the frozen distractor generator: 6-Hz\nsinusoid, 120-Hz Gaussian bursts, coupling 0.60, original 10-ms burst-time\njitter, Gaussian sigma 28 ms, original carrier/noise formulas and -3 dB SNR.\nSet phase_offset_deg=180 so the generator's formula places burst centers\nat troughs of sin(2*pi*6*t), before the original jitter. Add an uncoupled\n10-Hz sinusoid with a trial-wise uniform phase from a separate mt19937ar\nstream seeded 20260618. Its amplitude is ratio*low_amp. Ratios, in order:\n[0,0.5,1,1.5,2,3], 25 repeats each. Reset the original simulation RNG to\n20260618; preserve its draw order, including unused legacy null draws.\nExplicitly omit the entire 96-Hz component, including its baseline.\nNoise uses the original mixed-noise recipe and the power of the new clean\nsignal. Save generated inputs and components once for all methods.\n4. Slow timing null at ratios [0,1,3] replaces only the true-burst component\nwith Poisson-timed Gaussian bursts, rate 6 Hz, separate mt19937ar stream\nseeded 20260618, original support [t(1)-1/6,t(end)+1/6]. Overlaps allowed,\nno minimum gap. Keep the coupled noise vector and scale unchanged; verify\nthe paired subtraction within 1e-12. All APC edge rejection stays unchanged.\n5. Slow methods: frozen APC default and flipTroughs=false; A1 and A2, four\nmetrics, both phase grids. Original method no-estimate statuses count as\nrecovery failures. They are not execution failures or grounds to retune.\nRecovery: |fP-true|<=1, |fA-120|<=8; strict joint uses phase tolerance 0.5.\nAbout-10 picks: |fP-10|<=1. Errors use finite estimates, with counts shown.\nAUC is all finite coupled/null score pairs (greater + half ties), without\nreversing score direction; report valid denominators. No normalization.\n6. Every output carries frozen commit, MATLAB version, full APC/comparator\noptions and seed, directly or in its embedded metadata. Hash all input MAT\nbanks and source/analysis scripts. Preserve previous outputs. Stop on\nmethod-relevant failure; record and resume pure tooling fixes.\n",
+    "input_source_manifest_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\input_source_manifest.json",
+    "analysis_sha256_manifest_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\analysis_manifest.json",
+    "followup_action": "a2"
+  },
+  "row_counts": {
+    "A2": 9600,
+    "slow": 4050,
+    "original_status4": 36,
+    "slow_status4": 122
+  }
+}

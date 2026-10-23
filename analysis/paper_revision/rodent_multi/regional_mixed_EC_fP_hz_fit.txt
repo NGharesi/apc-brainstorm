@@ -1,0 +1,35 @@
+Provenance: {"recorded_utc":"2026-10-22T20:35:11.074748+00:00","stage":"region-specific REML mixed models","git_tag":"v1.0","git_commit":"71ebc16aed32ca38be73a800738b975e5806b330","seed":2.0261022E+7,"protocol_sha256":"0c38139e23561665a8ca3998f61fe74b6946abf25c89f2ff06ba5e7679161e67","execution_sha256":"3553cfd37813fa40429fd2cdcaa84cd543151082d9d7dff8076ff5cc87d615d2","supersedes":"chunked historical-speed gate and unrestricted channel selection","tracking_fs_hz":39.0625,"matlab_version":"9.13.0.2105380 (R2022b) Update 2","fit_method":"REML"}
+
+
+<strong>Linear mixed-effects model fit by REML</strong>
+
+<strong>Model information:</strong>
+    Number of observations             112
+    Fixed effects coefficients           2
+    Random effects coefficients          6
+    Covariance parameters                4
+
+<strong>Formula:</strong>
+    outcome ~ 1 + state_run + (1 + state_run | session)
+
+<strong>Model fit statistics:</strong>
+    AIC       BIC       LogLikelihood    Deviance
+    336.65    352.86    -162.33          324.65  
+
+<strong>Fixed effects coefficients (95% CIs):</strong>
+    Name                   Estimate    SE         tStat     DF     pValue        Lower      Upper 
+    {'(Intercept)'}        6.2723      0.18242    34.385    110     1.124e-60     5.9108    6.6338
+    {'state_run'  }        1.2054       0.2619    4.6026    110    1.1248e-05    0.68641    1.7245
+
+<strong>Random effects covariance parameters (95% CIs):</strong>
+Group: session (3 Levels)
+    Name1                  Name2                  Type            Estimate    Lower       Upper 
+    {'(Intercept)'}        {'(Intercept)'}        {'std' }          0.25      0.063882    0.9784
+    {'state_run'  }        {'(Intercept)'}        {'corr'}            -1           NaN       NaN
+    {'state_run'  }        {'state_run'  }        {'std' }        0.1236           NaN       NaN
+
+Group: Error
+    Name               Estimate    Lower      Upper 
+    {'Res Std'}        1.0134      0.88699    1.1579
+
+

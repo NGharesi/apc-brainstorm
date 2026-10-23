@@ -1,0 +1,116 @@
+{
+  "repositories": [
+    {
+      "repository": "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish",
+      "exit_code": 0,
+      "stderr": "",
+      "log": [
+        "57bcd5d2f3a8812e6fb87d442f250ff348b73646|2026-10-20T03:06:25Z|2026-10-20T03:06:50Z|v1.1.0 analysis freeze: frozen APC phase rule, event-carrier extension, protocol amendment 2026-10-20",
+        "5903ac94ddd800d59c90242dbe59df3682b39dd2|2026-10-20T03:06:25Z|2026-10-20T03:06:25Z|Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com> Claude-Session: https://claude.ai/code/session_01XWWm8ZGpMVLfZnxBo7MdSo",
+        "82f7559fd570133bd05ec0a583299a50613ffc2a|2026-10-05T13:20:06-04:00|2026-10-05T13:20:06-04:00|Add APC process, analyses, and reproducibility outputs"
+      ],
+      "head": "57bcd5d2f3a8812e6fb87d442f250ff348b73646",
+      "all_commits": [
+        "57bcd5d2f3a8812e6fb87d442f250ff348b73646|2026-10-20T03:06:25Z|2026-10-20T03:06:50Z|v1.1.0 analysis freeze: frozen APC phase rule, event-carrier extension, protocol amendment 2026-10-20",
+        "82f7559fd570133bd05ec0a583299a50613ffc2a|2026-10-05T13:20:06-04:00|2026-10-05T13:20:06-04:00|Add APC process, analyses, and reproducibility outputs",
+        "49e05a9f540790b968099f1da657c7d9e39d3dc9|2026-10-05T13:04:48-04:00|2026-10-05T13:04:48-04:00|Initial commit"
+      ],
+      "unreachable_objects": [
+        "unreachable tag 4f8bd9abf5c68236a3f5ed273b0d6d0df78209a5",
+        "unreachable commit 5903ac94ddd800d59c90242dbe59df3682b39dd2"
+      ],
+      "fsck_stderr": ""
+    },
+    {
+      "repository": "C:\\Users\\nghare\\.brainstorm\\process\\APC_NeuroImage_Submission_Package_2026-10-10\\code\\apc-brainstorm",
+      "exit_code": 0,
+      "stderr": "",
+      "log": [
+        "82f7559fd570133bd05ec0a583299a50613ffc2a|2026-10-05T13:20:06-04:00|2026-10-05T13:20:06-04:00|Add APC process, analyses, and reproducibility outputs"
+      ],
+      "head": "82f7559fd570133bd05ec0a583299a50613ffc2a",
+      "all_commits": [
+        "82f7559fd570133bd05ec0a583299a50613ffc2a|2026-10-05T13:20:06-04:00|2026-10-05T13:20:06-04:00|Add APC process, analyses, and reproducibility outputs",
+        "49e05a9f540790b968099f1da657c7d9e39d3dc9|2026-10-05T13:04:48-04:00|2026-10-05T13:04:48-04:00|Initial commit"
+      ],
+      "unreachable_objects": [],
+      "fsck_stderr": ""
+    },
+    {
+      "repository": "C:\\Users\\nghare\\.brainstorm\\process\\APC_NeuroImage_Submission_Package_2026-10-10\\APC_NeuroImage_Submission_Package_2026-10-10\\code\\apc-brainstorm",
+      "exit_code": 0,
+      "stderr": "",
+      "log": [
+        "82f7559fd570133bd05ec0a583299a50613ffc2a|2026-10-05T13:20:06-04:00|2026-10-05T13:20:06-04:00|Add APC process, analyses, and reproducibility outputs"
+      ],
+      "head": "82f7559fd570133bd05ec0a583299a50613ffc2a",
+      "all_commits": [
+        "82f7559fd570133bd05ec0a583299a50613ffc2a|2026-10-05T13:20:06-04:00|2026-10-05T13:20:06-04:00|Add APC process, analyses, and reproducibility outputs",
+        "49e05a9f540790b968099f1da657c7d9e39d3dc9|2026-10-05T13:04:48-04:00|2026-10-05T13:04:48-04:00|Initial commit"
+      ],
+      "unreachable_objects": [],
+      "fsck_stderr": ""
+    }
+  ],
+  "relevant_commits": [
+    {
+      "hash": "57bcd5d2f3a8812e6fb87d442f250ff348b73646",
+      "author_date": "2026-10-20T03:06:25Z",
+      "committer_date": "2026-10-20T03:06:50Z",
+      "subject": "v1.1.0 analysis freeze: frozen APC phase rule, event-carrier extension, protocol amendment 2026-10-20",
+      "repositories": [
+        "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish"
+      ],
+      "files": {
+        "src/bst_apc.m": {
+          "copy": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\repro_diagnosis\\sources\\57bcd5d2f3a8_bst_apc.m",
+          "sha256": "4e7d11ac1af1d62af51d14edf1ac8851639767f78724ec8a58fbc5e88944ba78"
+        },
+        "src/calc_MI_all_methods.m": {
+          "copy": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\repro_diagnosis\\sources\\57bcd5d2f3a8_calc_MI_all_methods.m",
+          "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+        }
+      }
+    },
+    {
+      "hash": "5903ac94ddd800d59c90242dbe59df3682b39dd2",
+      "author_date": "2026-10-20T03:06:25Z",
+      "committer_date": "2026-10-20T03:06:25Z",
+      "subject": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com> Claude-Session: https://claude.ai/code/session_01XWWm8ZGpMVLfZnxBo7MdSo",
+      "repositories": [
+        "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish"
+      ],
+      "files": {
+        "src/bst_apc.m": {
+          "copy": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\repro_diagnosis\\sources\\5903ac94ddd8_bst_apc.m",
+          "sha256": "4e7d11ac1af1d62af51d14edf1ac8851639767f78724ec8a58fbc5e88944ba78"
+        },
+        "src/calc_MI_all_methods.m": {
+          "copy": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\repro_diagnosis\\sources\\5903ac94ddd8_calc_MI_all_methods.m",
+          "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+        }
+      }
+    },
+    {
+      "hash": "82f7559fd570133bd05ec0a583299a50613ffc2a",
+      "author_date": "2026-10-05T13:20:06-04:00",
+      "committer_date": "2026-10-05T13:20:06-04:00",
+      "subject": "Add APC process, analyses, and reproducibility outputs",
+      "repositories": [
+        "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish",
+        "C:\\Users\\nghare\\.brainstorm\\process\\APC_NeuroImage_Submission_Package_2026-10-10\\code\\apc-brainstorm",
+        "C:\\Users\\nghare\\.brainstorm\\process\\APC_NeuroImage_Submission_Package_2026-10-10\\APC_NeuroImage_Submission_Package_2026-10-10\\code\\apc-brainstorm"
+      ],
+      "files": {
+        "src/bst_apc.m": {
+          "copy": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\repro_diagnosis\\sources\\82f7559fd570_bst_apc.m",
+          "sha256": "6af6c8ce289c093e2a0b9460a3af180f26bebd896cd3a1da732b3e1c0acff750"
+        },
+        "src/calc_MI_all_methods.m": {
+          "copy": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\repro_diagnosis\\sources\\82f7559fd570_calc_MI_all_methods.m",
+          "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+        }
+      }
+    }
+  ]
+}

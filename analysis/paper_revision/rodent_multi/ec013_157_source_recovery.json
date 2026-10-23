@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "git_tag": "v1.0",
+    "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+    "current_repo_commit": "217fd8373759150cdeffe794d231a7cec2225f38",
+    "protocol_file": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\PROTOCOL_rodent.md",
+    "protocol_sha256": "66f917261c42c1294d3744d61a76626d06d599e3a9d2151faef1951bfe707113",
+    "stage": "read-only inventory and duration gate",
+    "tracking_fs_hz": 39.0625,
+    "duration_ratio_definition": "(tracking samples / 39.0625) / (LFP samples / fs)",
+    "mapping_tolerance": 0.05
+  },
+  "source_file": "D:\\APC_project\\2025\\Results_Behavior\\behavior_inter.mat",
+  "source_variable": "test",
+  "source_sha256": "74efbe26bfd8b5a3c5cb8b4546b58066dbd285d090b51e098ec07e4eee8fa653",
+  "channels": 65,
+  "n_samples": 789000,
+  "fs_hz": 1250.0000000029133,
+  "exact_full_E1_match_to_R2": true,
+  "exact_full_time_match_to_R2": true,
+  "exact_65_channel_crop_match": true,
+  "crop_R2_sample_indices_1_based": [
+    40800,
+    372501
+  ],
+  "history": "[['23-Jun-2021 15:58:58' 'import'\n  'Import from: /Users/lucwilson/Desktop/crcns/hc3/ec013/ec013.157/ec013.157.eeg (Time)']\n ['23-Jun-2021 15:58:58' 'import_epoch' '    1']\n ['23-Jun-2021 15:58:58' 'import_time' '    [0.000000, 631.199200]']\n ['22-Aug-2021 00:17:14' 'bad_channels'\n  'Added bad channels: 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 ']]",
+  "tracking_to_lfp_duration_ratio": 1.0000304182532813
+}

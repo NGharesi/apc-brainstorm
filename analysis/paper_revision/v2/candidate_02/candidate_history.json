@@ -1,0 +1,13 @@
+{
+  "candidate": 2,
+  "parent_candidate_commit": "7848af05ada722971769da856e970d0737820169",
+  "candidate1_failure": {
+    "gate": "a",
+    "fp_hz": 10.631999875603938,
+    "fa_hz": 120
+  },
+  "candidate1_cause": "User-supplied: PPC is flat across filter centers whose passband contains the coupled rhythm.",
+  "protocol_sha256": "dde7ee13cc940c4ae943e81b4fbe4c752be09c4c7d62d4455b946036ccaf8973",
+  "decision_criteria_sha256": "cf954c344291a5b5ccbd3450d1054bd249dbd405ca6da457372cdc36b96794de",
+  "heldout_generated": false
+}

@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "recorded_utc": "2026-10-22T20:35:11.074748+00:00",
+    "stage": "metadata and regional selection",
+    "git_tag": "v1.0",
+    "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+    "seed": 20261022,
+    "protocol_sha256": "0c38139e23561665a8ca3998f61fe74b6946abf25c89f2ff06ba5e7679161e67",
+    "execution_sha256": "3553cfd37813fa40429fd2cdcaa84cd543151082d9d7dff8076ff5cc87d615d2",
+    "supersedes": "chunked historical-speed gate and unrestricted channel selection",
+    "tracking_fs_hz": 39.0625,
+    "sources": {
+      "D:\\APC_project\\Previous_Computer\\RealData\\ec012ec.14\\ec012ec.269\\ec012ec.269.xml": "be3e5a748826a662a1e10fdfe6f06a1654a96e93e8a4a7f0e61a578c5ab3b42c",
+      "D:\\APC_project\\Previous_Computer\\RealData\\tPACPaper\\ElePosition.txt": "874eddf5bacdd4a258c030f9de92c37db340ed6e8296f993178ab41dca0ae37a",
+      "D:\\APC_project\\Previous_Computer\\RealData\\tPACPaper\\hc3-session.csv": "20de1f3ea7f197e6cdc0d230e461fd95aa0eeafbf9245aa22250e2cc56675839",
+      "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\channel_ratios.csv": "5e03e454134f175c33b5f58436224cf1997a0ed17030120c02bb3c13e70d1313"
+    }
+  },
+  "anatomical_groups_zero_based": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    [
+      32
+    ]
+  ],
+  "contiguous_eight_channel_blocks": true,
+  "auxiliary_raw_channel": 32,
+  "one_based_electrode_groups": [
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    [
+      33
+    ]
+  ]
+}

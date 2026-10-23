@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "recorded_utc": "2026-10-22T20:35:11.074748+00:00",
+    "stage": "regional figures",
+    "git_tag": "v1.0",
+    "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+    "seed": 20261022,
+    "protocol_sha256": "0c38139e23561665a8ca3998f61fe74b6946abf25c89f2ff06ba5e7679161e67",
+    "execution_sha256": "3553cfd37813fa40429fd2cdcaa84cd543151082d9d7dff8076ff5cc87d615d2",
+    "supersedes": "chunked historical-speed gate and unrestricted channel selection",
+    "tracking_fs_hz": 39.0625,
+    "plot_scan": "MVL-Ozkurt; prespecified independently of state effects",
+    "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+    "apc_options": {
+      "fA": [
+        80,
+        150
+      ],
+      "epoch": [
+        -0.6,
+        0.6
+      ],
+      "decomposition": "fft_peak",
+      "metric": "canolty",
+      "showPlots": false,
+      "useSurrogates": false,
+      "numPerm": 200,
+      "numPhaseBins": 18,
+      "burstTimeBandwidth": 5,
+      "phaseTimeBandwidth": 20,
+      "phaseEpochCycles": 3,
+      "minPhaseHz": 1,
+      "maxPhaseHz": 30,
+      "flipTroughs": true,
+      "burstProminenceScale": 0.75,
+      "surrogateMethod": "circular_shift",
+      "amplitudeBandWidthHz": 4,
+      "stepFourMode": "v1",
+      "fPRefine": true,
+      "fPMaxBinSpacingHz": 0.05
+    },
+    "comparators": {
+      "phase_grid": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12
+      ],
+      "phase_half_width": 1.5,
+      "amplitude_grid": [
+        80,
+        84,
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148
+      ],
+      "amplitude_half_width": 12,
+      "filter": "butter(4) zpk to SOS; filtfilt; pole and center gain guards",
+      "metrics": [
+        "MVL-raw",
+        "MVL-Ozkurt",
+        "KLMI",
+        "GLM"
+      ]
+    }
+  },
+  "figures": [
+    {
+      "stem": "regional_channel_selection",
+      "description": "Regional theta/delta maxima; filled squares meet >=5 run and >=5 rest eligibility",
+      "sources": [
+        "regional_session_eligibility.csv",
+        "regional_channel_map.csv"
+      ],
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_channel_selection.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_channel_selection.svg"
+    },
+    {
+      "stem": "regional_behavior_summary",
+      "description": "Tracking-rate scale, missingness and counts under the revised rules",
+      "sources": [
+        "regional_behavior_summary.csv"
+      ],
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_behavior_summary.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_behavior_summary.svg"
+    },
+    {
+      "stem": "regional_tracking_ec013_157",
+      "description": "Whole-recording tracking trace; blue run, orange rest; PCA center-zone shading",
+      "sources": [
+        "regional_bouts.csv",
+        "regional_behavior_summary.csv"
+      ],
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_tracking_ec013_157.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_tracking_ec013_157.svg"
+    },
+    {
+      "stem": "regional_CA1_run_rest",
+      "description": "Per-bout scatter and state means with 10,000-resample percentile 95% CIs",
+      "sources": [
+        "regional_bout_estimates.csv",
+        "regional_state_summary.csv"
+      ],
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_CA1_run_rest.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_CA1_run_rest.svg"
+    },
+    {
+      "stem": "regional_CA1_session_differences",
+      "description": "Session mean run-minus-rest effects; 10,000-resample percentile CIs",
+      "sources": [
+        "regional_session_statistics.csv"
+      ],
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_CA1_session_differences.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_CA1_session_differences.svg"
+    },
+    {
+      "stem": "regional_EC_run_rest",
+      "description": "Per-bout scatter and state means with 10,000-resample percentile 95% CIs",
+      "sources": [
+        "regional_bout_estimates.csv",
+        "regional_state_summary.csv"
+      ],
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_EC_run_rest.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_EC_run_rest.svg"
+    },
+    {
+      "stem": "regional_EC_session_differences",
+      "description": "Session mean run-minus-rest effects; 10,000-resample percentile CIs",
+      "sources": [
+        "regional_session_statistics.csv"
+      ],
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_EC_session_differences.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_EC_session_differences.svg"
+    },
+    {
+      "stem": "regional_E1_sensitivity_run_rest",
+      "description": "Per-bout scatter and state means with 10,000-resample percentile 95% CIs",
+      "sources": [
+        "regional_bout_estimates.csv",
+        "regional_state_summary.csv"
+      ],
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_E1_sensitivity_run_rest.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_E1_sensitivity_run_rest.svg"
+    },
+    {
+      "stem": "regional_E1_sensitivity_session_differences",
+      "description": "Session mean run-minus-rest effects; 10,000-resample percentile CIs",
+      "sources": [
+        "regional_session_statistics.csv"
+      ],
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_E1_sensitivity_session_differences.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_E1_sensitivity_session_differences.svg"
+    },
+    {
+      "stem": "regional_within_state_fp_spread",
+      "description": "Within-state sample SDs of APC and all four scans, per included session",
+      "sources": [
+        "regional_within_state_fp_spread.csv"
+      ],
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_within_state_fp_spread.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_within_state_fp_spread.svg"
+    }
+  ]
+}

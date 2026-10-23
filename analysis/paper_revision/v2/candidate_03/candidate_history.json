@@ -1,0 +1,14 @@
+{
+  "candidate": 3,
+  "candidate2_failure": {
+    "gate": "a",
+    "fp_hz": 7.9996901239320914,
+    "fa_hz": 115,
+    "failed_part": "fA"
+  },
+  "candidate2_diagnosis": "User-supplied: bimodal Butterworth Step-4 score with modulation sidebands at band edges.",
+  "protocol_sha256": "b089c6ede0d59ca62723a0dd8c015cf8f8390c3bb3f4c1c90c5ec90149d7d7ac",
+  "criteria_sha256": "cf954c344291a5b5ccbd3450d1054bd249dbd405ca6da457372cdc36b96794de",
+  "heldout_generated": false,
+  "no_further_candidates": true
+}

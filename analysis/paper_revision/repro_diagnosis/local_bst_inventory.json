@@ -1,0 +1,38 @@
+[
+  {
+    "path": "C:\\Users\\nghare\\.brainstorm\\process\\bst_apc.m",
+    "sha256": "4e7d11ac1af1d62af51d14edf1ac8851639767f78724ec8a58fbc5e88944ba78",
+    "modified_local": "2026-10-14T13:23:55.446757",
+    "size": 31832
+  },
+  {
+    "path": "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\bst_apc.m",
+    "sha256": "4e7d11ac1af1d62af51d14edf1ac8851639767f78724ec8a58fbc5e88944ba78",
+    "modified_local": "2026-10-19T22:48:13.992161",
+    "size": 31832
+  },
+  {
+    "path": "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-release\\src\\bst_apc.m",
+    "sha256": "6af6c8ce289c093e2a0b9460a3af180f26bebd896cd3a1da732b3e1c0acff750",
+    "modified_local": "2026-10-05T09:05:30.698495",
+    "size": 30873
+  },
+  {
+    "path": "C:\\Users\\nghare\\.brainstorm\\process\\APC_NeuroImage_Submission_Package_2026-10-10\\APC_NeuroImage_Submission_Package_2026-10-10\\code\\apc-brainstorm\\src\\bst_apc.m",
+    "sha256": "6af6c8ce289c093e2a0b9460a3af180f26bebd896cd3a1da732b3e1c0acff750",
+    "modified_local": "2026-10-05T09:05:30",
+    "size": 30873
+  },
+  {
+    "path": "C:\\Users\\nghare\\.brainstorm\\process\\APC_NeuroImage_Submission_Package_2026-10-10\\code\\apc-brainstorm\\src\\bst_apc.m",
+    "sha256": "6af6c8ce289c093e2a0b9460a3af180f26bebd896cd3a1da732b3e1c0acff750",
+    "modified_local": "2026-10-05T09:05:30.698495",
+    "size": 30873
+  },
+  {
+    "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\snapshot\\bst_apc.m",
+    "sha256": "6af6c8ce289c093e2a0b9460a3af180f26bebd896cd3a1da732b3e1c0acff750",
+    "modified_local": "2026-10-21T22:02:01.208215",
+    "size": 30873
+  }
+]

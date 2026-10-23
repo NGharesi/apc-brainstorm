@@ -1,0 +1,19 @@
+{
+  "historical_known_samples": 280903,
+  "historical_total_samples": 331701,
+  "known_agreeing_samples": 246695,
+  "known_disagreeing_samples": 34208,
+  "known_agreement_percent": 87.82213077112029,
+  "full_interval_agreement_lower_bound_percent": 74.37270312721397,
+  "full_interval_agreement_upper_bound_percent": 89.6870977175227,
+  "complete_validation": false,
+  "metadata": {
+    "recorded_utc": "2026-10-22T19:29:27.273054+00:00",
+    "protocol_sha256": "17738c5b8e9d360048d3e104f7da6ee83e65889fe159d6951c61bd8755e8e80f",
+    "execution_sha256": "0d4aab95a523e7e0f6af4033525b9585d2e6cff969239aca107003cff104f06b",
+    "original_protocol_sha256": "66f917261c42c1294d3744d61a76626d06d599e3a9d2151faef1951bfe707113",
+    "git_tag": "v1.0",
+    "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+    "stage": "user amendments recorded before chunked behaviour validation"
+  }
+}

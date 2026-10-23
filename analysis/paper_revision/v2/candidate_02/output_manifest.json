@@ -1,0 +1,295 @@
+{
+  "candidate": 2,
+  "status": "STOP_UNIT_GATE",
+  "metadata": {
+    "candidate": 2,
+    "git_commit": "7848af05ada722971769da856e970d0737820169",
+    "git_worktree_status": "M analysis/v2_revision/PROTOCOL_v2.md\n M analysis/v2_revision/run_v2_units.m\n M src/bst_apc.m",
+    "source_committed": false,
+    "tag": "not_created",
+    "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+    "signal_seed": 20260618.0,
+    "heldout_seed": 20261022.0,
+    "heldout_generated": false,
+    "apc_options": {
+      "fA": [
+        80,
+        160
+      ],
+      "epoch": [
+        -0.6,
+        0.6
+      ],
+      "decomposition": "fft_peak",
+      "metric": "canolty",
+      "diagm": false,
+      "surrogates": false,
+      "num_perm": 0,
+      "numPhaseBins": 18,
+      "burstTimeBandwidth": 5,
+      "phaseTimeBandwidth": 20,
+      "phaseEpochCycles": 3,
+      "minPhaseHz": 1,
+      "maxPhaseHz": 30,
+      "flipTroughs": true,
+      "burstProminenceScale": 0.75,
+      "surrogateMethod": "circular_shift",
+      "amplitudeBandWidthHz": 4,
+      "stepFourMode": "v1",
+      "fPRefine": true,
+      "fPMaxBinSpacingHz": 0.05,
+      "version": "v2",
+      "eventSurrogateSeed": 20260619.0,
+      "eventSurrogateSubstream": 2
+    },
+    "comparator_settings": {
+      "phase_grid_hz": [
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13,
+        13.5,
+        14
+      ],
+      "phase_half_width_hz": 1.5,
+      "amplitude_grid_hz": [
+        80,
+        84,
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148,
+        152,
+        156,
+        160
+      ],
+      "A2_prime_half_width_hz": 14,
+      "A1_prime_half_width": "candidate fP",
+      "metrics": [
+        "MVL-raw",
+        "MVL-Ozkurt",
+        "KLMI",
+        "GLM"
+      ]
+    },
+    "base_tag": "v1.0",
+    "base_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+    "apc_source_blob": "4a1e23c6324516be2bbe92543182c1be1a9e198b",
+    "protocol_git_blob": "197c1645e1f747959ccbb1e9bdaf8bd7af2171be",
+    "unit_profile": {
+      "profile_name": "reviewer_control",
+      "random_seed": 20260618.0,
+      "fs_hz": 500,
+      "duration_s": 6,
+      "true_fp_hz": 8,
+      "true_fa_hz": 120,
+      "distractor_fa_hz": 96,
+      "phase_offset_deg": 180,
+      "low_amp": 1,
+      "true_high_amp": 1.3,
+      "distractor_base_amp": 0,
+      "base_hf_amp": 0.08,
+      "burst_sigma_s": 0.028,
+      "coupling_level": 0.6,
+      "burst_phase_jitter_s": 0.01,
+      "snr_db": 20,
+      "broad_fa_band_hz": [
+        80,
+        160
+      ],
+      "phase_scan_hz": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "amplitude_scan_hz": [
+        80,
+        88,
+        96,
+        104,
+        112,
+        120,
+        128,
+        136,
+        144,
+        152
+      ],
+      "phase_band_half_width_hz": 1.5,
+      "amplitude_band_half_width_hz": 6,
+      "metric": "canolty",
+      "fa_tolerance_hz": 8,
+      "fp_tolerance_hz": 1,
+      "oracle_control_distractor_scale": 0,
+      "n_repeats": 25,
+      "distractor_scale_values": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3
+      ],
+      "slow_distractor_hz": 11,
+      "slow_amplitude_ratios": [
+        0,
+        3
+      ],
+      "slow_distractor_phase_rad": 0,
+      "slow_amplitude_ratio": 0,
+      "high_frequency_distractor_present": false
+    },
+    "surrogate_generator": "mrg32k3a",
+    "surrogate_seed": 20260619.0,
+    "surrogate_substream": 2,
+    "unit_poisson_seeds": [
+      20260618.0,
+      20260619.0,
+      20260620.0,
+      20260621.0,
+      20260622.0,
+      20260623.0,
+      20260624.0,
+      20260625.0,
+      20260626.0,
+      20260627.0
+    ],
+    "unit_poisson_generator": "mrg32k3a",
+    "unit_poisson_substream": 3,
+    "uncoupled_phase_seed": 20260619.0,
+    "uncoupled_phase_generator": "mrg32k3a",
+    "uncoupled_phase_substream": 1,
+    "repository": "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish"
+  },
+  "decision_criteria_unchanged": true,
+  "preserved_candidate1_files": [
+    {
+      "original_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\preimplementation_manifest.json",
+      "preserved_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\preimplementation_manifest.json",
+      "sha256": "e2bd388a098af750ebaa5eaaeb7e1165c7e0b53c63358146aae9cf0926f98dbe"
+    },
+    {
+      "original_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\prepare_unit_generator.py",
+      "preserved_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\prepare_unit_generator.py",
+      "sha256": "928977a820860468dd6bf5094c4ad6035f32781eef7f28afb32f750ea06e857b"
+    },
+    {
+      "original_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\prepare_v2.py",
+      "preserved_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\prepare_v2.py",
+      "sha256": "1e1f00bd3e392a95493cea00b0a6532578a9494ac984d19f09949cc890196c8c"
+    },
+    {
+      "original_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\preservation_verification.json",
+      "preserved_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\preservation_verification.json",
+      "sha256": "a97227754659169bb7101e89400e607de87cc0624e0dfd0dcda94c889eaed6b6"
+    },
+    {
+      "original_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\PROTOCOL_v2.md",
+      "preserved_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\candidate_01\\PROTOCOL_v2.md",
+      "sha256": "cf9f07acfc7cb359e1a027860b3443cbe0e6de7c479a06642beeb7e3cd6bac3d"
+    },
+    {
+      "original_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\RESULTS_v2.md",
+      "preserved_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\RESULTS_v2.md",
+      "sha256": "faf589416ac1bae69f874b7acaada78e420c0201dfe10f642f6a3c2644e2d55a"
+    },
+    {
+      "original_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\unit_attempt_01\\implementation_checks.json",
+      "preserved_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\unit_attempt_01\\implementation_checks.json",
+      "sha256": "8d464ebc5d7c5f1107b7587bc25ce07cc4ef1978c8ca44ca7319cc8f48b9a902"
+    },
+    {
+      "original_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\unit_attempt_01\\unit_a.mat",
+      "preserved_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\unit_attempt_01\\unit_a.mat",
+      "sha256": "07ae07d9bc85e355f7c669f7ea85c923e3f186781c1764b75ab6a1968b594034"
+    },
+    {
+      "original_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\unit_attempt_01\\unit_a_ppc_curve.csv",
+      "preserved_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\unit_attempt_01\\unit_a_ppc_curve.csv",
+      "sha256": "b88c17f1af53bdb52468bb32875335390985fcf6e1a0acb1791bf44368718174"
+    },
+    {
+      "original_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\unit_attempt_01\\unit_results.json",
+      "preserved_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\unit_attempt_01\\unit_results.json",
+      "sha256": "7af963c6ad96a54c91f8fe78ef300da86ee3d48d6f6fb87236e73e6917d8965b"
+    },
+    {
+      "original_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\unit_attempt_01\\unit_trials.csv",
+      "preserved_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\unit_attempt_01\\unit_trials.csv",
+      "sha256": "6b7dd43c0f2e0cf7cf243f2d68c26fb160301436b462ab23fca777b17bb1338f"
+    },
+    {
+      "original_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\unit_attempt_01\\v1_compatibility.json",
+      "preserved_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\unit_attempt_01\\v1_compatibility.json",
+      "sha256": "20f4bc191a9db07458650b4ed1b0da206df1c3a6dff0b8e84e951c03b6fff5f4"
+    },
+    {
+      "original_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\unit_attempt_01_matlab.log",
+      "preserved_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\unit_attempt_01_matlab.log",
+      "sha256": "3ba4a22fe3120abe62e4d941107d63766720bcd0f36a838771bcfe2eb7761b61"
+    },
+    {
+      "original_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\v2_v1_reference.m",
+      "preserved_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\v2_v1_reference.m",
+      "sha256": "9f0252b4f9b0f7ef1a5f32c43f18c703725dadbf1d30b56b748b2617cc032d64"
+    },
+    {
+      "original_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\verify_preservation.py",
+      "preserved_path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\verify_preservation.py",
+      "sha256": "31a9699b995f9f50155d894b66c8a4493010171010bd51121898dad5ccd137c0"
+    }
+  ],
+  "files": {
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\candidate_02\\candidate_history.json": "37bedd487d465ca2c05db8437ce262cdc1eac3e5968fabf448781c4b656e8868",
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\candidate_02\\final_verification.json": "9e748fb5f99e6995e45fd1650db10f98d189cb72836f167c444cc1daceb0ff5f",
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\candidate_02\\PROTOCOL_v2.md": "28bd8ce608ab89fc55a00d11e06bf438587f74c095cba3d5562968b150a8fb20",
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\candidate_02\\RESULTS_v2.md": "46c56555990329976718469a1b4865781c0802fc92b94febe8d1bad9b4daa28c",
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\candidate_02\\unit_attempt_01\\implementation_checks.json": "18f12b5e53342abc94d56937a9e764a3d00323ce8b61cd1c65724ef883d65a92",
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\candidate_02\\unit_attempt_01\\source_snapshot\\bst_apc.m": "b57447d12a3a407cfab6171de49cdf51d47f16d6f680e38fec359dd795a0c1b7",
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\candidate_02\\unit_attempt_01\\source_snapshot\\PROTOCOL_v2.md": "28bd8ce608ab89fc55a00d11e06bf438587f74c095cba3d5562968b150a8fb20",
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\candidate_02\\unit_attempt_01\\source_snapshot\\run_v2_units.m": "35468dc0df61e73ad05ca15d50075ef06423cfe206127fd272e5dd85d32de47e",
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\candidate_02\\unit_attempt_01\\source_snapshot\\v2_unit_generator.m": "0a90374cfe9ef068d91a962bc92ded6246b7ada1700de591cfd47817710e01e6",
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\candidate_02\\unit_attempt_01\\unit_a.mat": "b6e041456444b2adfd66e23478aa50b3ae4f9d7c7485d4f26bf0db399eb1edd3",
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\candidate_02\\unit_attempt_01\\unit_a_curves.csv": "42eaa8ce2701543fe53e6baf5f5275120e71ee39490572513ba8b1e0eb8c9621",
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\candidate_02\\unit_attempt_01\\unit_results.json": "97726fab89ee6cb59aeeeb7f90f3288ab221cb09fc828863f47423982cb19338",
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\candidate_02\\unit_attempt_01\\unit_trials.csv": "ac2bc9fd8964d5ea67d0f7c99330bb07464dfc0cbab1eb3cbd7de6438f8e5c14",
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\candidate_02\\unit_attempt_01\\v1_compatibility.json": "c89b23fa97ce42dcbc0da30a49c5425d16b78fe11749483b6b740dea0cf180ee",
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\candidate_02\\unit_attempt_01_matlab.log": "fb582f23ae0d1ddabd0f5bec1a6d9b6740c72aec66ef5242cec7841704c76a6a",
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v2\\candidate_02\\verify_final.py": "fa23f3b5615e3a6898f71fd7e4ab2f049647c951886cef85e14659228e0a9730"
+  }
+}

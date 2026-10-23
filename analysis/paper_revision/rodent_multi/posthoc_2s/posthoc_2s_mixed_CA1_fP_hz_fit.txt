@@ -1,0 +1,35 @@
+Provenance: {"recorded_utc":"2026-10-22T21:26:25.617316+00:00","stage":"POST HOC 2-s region-specific REML mixed models","git_tag":"v1.0","git_commit":"71ebc16aed32ca38be73a800738b975e5806b330","seed":2.0261022E+7,"protocol_sha256":"0c38139e23561665a8ca3998f61fe74b6946abf25c89f2ff06ba5e7679161e67","execution_sha256":"3553cfd37813fa40429fd2cdcaa84cd543151082d9d7dff8076ff5cc87d615d2","supersedes":"chunked historical-speed gate and unrestricted channel selection","tracking_fs_hz":39.0625,"python":"3.12.14","numpy":"2.5.2","pandas":"3.0.1","scipy":"1.18.1","matlab_version":"9.13.0.2105380 (R2022b) Update 2","apc_options":{"fA":[80,150],"epoch":[-0.6,0.6],"decomposition":"fft_peak","metric":"canolty","showPlots":false,"useSurrogates":false,"numPerm":200,"numPhaseBins":18,"burstTimeBandwidth":5,"phaseTimeBandwidth":20,"phaseEpochCycles":3,"minPhaseHz":1,"maxPhaseHz":30,"flipTroughs":true,"burstProminenceScale":0.75,"surrogateMethod":"circular_shift","amplitudeBandWidthHz":4,"stepFourMode":"v1","fPRefine":true,"fPMaxBinSpacingHz":0.05},"comparators":{"phase_grid":[4,4.5,5,5.5,6,6.5,7,7.5,8,8.5,9,9.5,10,10.5,11,11.5,12],"phase_half_width":1.5,"amplitude_grid":[80,84,88,92,96,100,104,108,112,116,120,124,128,132,136,140,144,148],"amplitude_half_width":12,"filter":"butter(4) zpk to SOS; filtfilt; pole and center gain guards","metrics":["MVL-raw","MVL-Ozkurt","KLMI","GLM"]},"frozen_source_sha256":{"bst_apc_m":"d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9","calc_MI_all_methods_m":"22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"},"reported_behavior":"revised tracking-rate procedure only","historical_behavior_role":"archival 12/12 and requested descriptive overlap only","analysis_type":"POST HOC sensitivity: 2-s minimum bouts","post_hoc":true,"minimum_bout_s":2,"inclusion_run_bouts":5,"inclusion_rest_bouts":5,"prespecified_minimum_bout_s":5,"parent_directory":"C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi","output_directory":"C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\posthoc_2s","prespecified_manifest_file":"posthoc_2s_prespecified_manifest.json","prespecified_file_count":429,"posthoc_protocol_sha256":"a0b94e8f0fe7c1266dfa89ac4a2989914d5891cc0580c450cc11a01143ddc949","prespecified_manifest_sha256":"c9545313f217a9d3f600e279d52acdc7bfd42ef4f2a51c8acc86ea39ec226ce0","prespecified_report_snapshot_sha256":"674550691e8cbdf9f0718dc2f1f089dde4211d2a9e039f1e09a8c305011b18fb","fit_method":"REML"}
+
+
+<strong>Linear mixed-effects model fit by REML</strong>
+
+<strong>Model information:</strong>
+    Number of observations             940
+    Fixed effects coefficients           2
+    Random effects coefficients         18
+    Covariance parameters                4
+
+<strong>Formula:</strong>
+    outcome ~ 1 + state_run + (1 + state_run | session)
+
+<strong>Model fit statistics:</strong>
+    AIC       BIC       LogLikelihood    Deviance
+    4842.7    4871.8    -2415.4          4830.7  
+
+<strong>Fixed effects coefficients (95% CIs):</strong>
+    Name                   Estimate    SE         tStat     DF     pValue        Lower      Upper 
+    {'(Intercept)'}         6.9267     0.41119    16.845    938    7.8868e-56     6.1197    7.7336
+    {'state_run'  }        0.89805     0.29668     3.027    938     0.0025377    0.31581    1.4803
+
+<strong>Random effects covariance parameters (95% CIs):</strong>
+Group: session (9 Levels)
+    Name1                  Name2                  Type            Estimate    Lower      Upper  
+    {'(Intercept)'}        {'(Intercept)'}        {'std' }         1.1359     0.91451     1.4108
+    {'state_run'  }        {'(Intercept)'}        {'corr'}             -1         NaN        NaN
+    {'state_run'  }        {'state_run'  }        {'std' }        0.62448     0.50301    0.77527
+
+Group: Error
+    Name               Estimate    Lower     Upper 
+    {'Res Std'}        3.128       2.9891    3.2733
+
+

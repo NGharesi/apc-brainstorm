@@ -1,0 +1,401 @@
+{
+  "status": "COMPLETE",
+  "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+  "git_tag": "v1.0",
+  "branch": "v1.0-revision",
+  "completed_local": "2026-10-22T00:05:53.497743",
+  "working_tree_clean": true,
+  "method_unchanged_after_tag": true,
+  "row_counts": {
+    "main_trials.csv": 4200,
+    "random_fp_trials.csv": 2700,
+    "null_trials.csv": 3500,
+    "main_summary.csv": 168,
+    "random_fp_summary.csv": 108,
+    "null_recovery_summary.csv": 140,
+    "null_specificity_auc.csv": 140
+  },
+  "markdown_tables_checked": 9,
+  "all_protected_saved_results_unchanged": true,
+  "tooling_fixes_recorded": "RESULTS_v1.md and tooling_deviations.json",
+  "metadata": {
+    "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+    "git_tag": "v1.0",
+    "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+    "matlab_release": "2022b",
+    "seed": 20260618.0,
+    "computation_threads": 1,
+    "worktree_dirty": false,
+    "stage": "main",
+    "apc_source_git_blob": "04675a5d7acfe82b1e46431e5838e56ef056eab6",
+    "apc_configurations": [
+      {
+        "name": "v1.0",
+        "options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "diagm": false,
+          "surrogates": false,
+          "num_perm": 0,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "v1",
+          "fPRefine": true,
+          "fPMaxBinSpacingHz": 0.05
+        }
+      },
+      {
+        "name": "oct2026",
+        "options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "diagm": false,
+          "surrogates": false,
+          "num_perm": 0,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "oct2026",
+          "fPRefine": false,
+          "fPMaxBinSpacingHz": 0.05
+        }
+      },
+      {
+        "name": "june2026_clipped",
+        "options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "diagm": false,
+          "surrogates": false,
+          "num_perm": 0,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "june2026_clipped",
+          "fPRefine": false,
+          "fPMaxBinSpacingHz": 0.05
+        }
+      },
+      {
+        "name": "v1.0_no_fP_refine",
+        "options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "diagm": false,
+          "surrogates": false,
+          "num_perm": 0,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "v1",
+          "fPRefine": false,
+          "fPMaxBinSpacingHz": 0.05
+        }
+      }
+    ],
+    "comparator_settings": {
+      "phase_half_width_hz": 1.5,
+      "phase_grids": {
+        "main": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "random_1Hz": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "random_05Hz": [
+          4,
+          4.5,
+          5,
+          5.5,
+          6,
+          6.5,
+          7,
+          7.5,
+          8,
+          8.5,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          11.5,
+          12
+        ]
+      },
+      "amplitude_grid_hz": [
+        80,
+        88,
+        96,
+        104,
+        112,
+        120,
+        128,
+        136,
+        144,
+        152
+      ],
+      "A0_amplitude_half_width_hz": 6,
+      "A1_amplitude_half_width": "candidate fP",
+      "amplitude_clipping_hz": "[max(1,fA-halfWidth),min(fs/2-1,fA+halfWidth)]",
+      "filter": "butter(4,[low high]/(fs/2),bandpass), filtfilt (8th-order bandpass)",
+      "normalized_cutoff_clamps": [
+        0.0001,
+        0.999
+      ],
+      "phase_low_edge_min_hz": 0.5,
+      "metrics": [
+        "MVL-raw",
+        "MVL-Ozkurt",
+        "KLMI-scan",
+        "GLM-scan"
+      ],
+      "num_phase_bins": 18,
+      "raw_MVL": "abs(mean(A.*exp(1i*phase)))",
+      "Ozkurt_MVL": "abs(sum(A.*exp(1i*phase)))/sqrt(N*sum(A.^2))",
+      "GLM": "max(0,1-SSE/SST); X=[ones,sin(phase),cos(phase)]",
+      "selection": "independent full-grid argmax for each metric; MATLAB column-major first tie",
+      "surrogates": false
+    },
+    "null_settings": {
+      "primary": "timing_null",
+      "secondary": "no_coupled_burst",
+      "timing_null_coupling_level": 0.6,
+      "poisson_stream": "mt19937ar, separate stream seeded 20260618, reset per benchmark",
+      "poisson_rate_distractor": "true fP Hz",
+      "poisson_rate_sparsity": "keep_rate * true fP Hz",
+      "event_support": "[t(1)-1/fP,t(end)+1/fP], original generator event support; original APC epoch-edge rejection unchanged",
+      "overlap": "allowed; original Gaussian envelope sum handles overlap; no minimum gap",
+      "envelope_normalization": "divide by maximum on recording, same as original generator",
+      "paired_components": "same carrier, noise vector including original noise scale, distractor and background; only true-burst component replaced",
+      "verification_tolerance": 1e-12,
+      "secondary_coupling_level": 0
+    },
+    "random_fp_settings": {
+      "distribution": "uniform[5,11] Hz",
+      "stream": "separate mt19937ar stream seed 20260618, reset per benchmark",
+      "distractor_levels": [
+        0,
+        1.5,
+        3
+      ],
+      "sparsity_levels": [
+        0.15,
+        0.5,
+        1
+      ],
+      "repeats": 25
+    },
+    "generator_settings": {
+      "sparsity": {
+        "profile_name": "full",
+        "random_seed": 20260618.0,
+        "fs_hz": 500,
+        "duration_s": 8,
+        "true_fp_hz": 8,
+        "true_fa_hz": 120,
+        "phase_offset_deg": -90,
+        "low_amp": 1,
+        "true_high_amp": 1.3,
+        "base_hf_amp": 0.08,
+        "burst_sigma_s": 0.028,
+        "burst_phase_jitter_s": 0.01,
+        "snr_db": -3,
+        "broad_fa_band_hz": [
+          80,
+          150
+        ],
+        "phase_scan_hz": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "amplitude_scan_hz": [
+          80,
+          88,
+          96,
+          104,
+          112,
+          120,
+          128,
+          136,
+          144,
+          152
+        ],
+        "metric": "canolty",
+        "fa_tolerance_hz": 8,
+        "fp_tolerance_hz": 1,
+        "coupling_level": 0.6,
+        "background_burst_scale": 0.18,
+        "n_repeats": 25,
+        "burst_keep_rates": [
+          1,
+          0.85,
+          0.7,
+          0.55,
+          0.4,
+          0.25,
+          0.15
+        ]
+      },
+      "distractor": {
+        "profile_name": "reviewer_control",
+        "random_seed": 20260618.0,
+        "fs_hz": 500,
+        "duration_s": 6,
+        "true_fp_hz": 8,
+        "true_fa_hz": 120,
+        "distractor_fa_hz": 96,
+        "phase_offset_deg": -90,
+        "low_amp": 1,
+        "true_high_amp": 1.3,
+        "distractor_base_amp": 0.6,
+        "base_hf_amp": 0.08,
+        "burst_sigma_s": 0.028,
+        "coupling_level": 0.6,
+        "burst_phase_jitter_s": 0.01,
+        "snr_db": -3,
+        "broad_fa_band_hz": [
+          80,
+          150
+        ],
+        "phase_scan_hz": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "amplitude_scan_hz": [
+          80,
+          88,
+          96,
+          104,
+          112,
+          120,
+          128,
+          136,
+          144,
+          152
+        ],
+        "phase_band_half_width_hz": 1.5,
+        "amplitude_band_half_width_hz": 6,
+        "metric": "canolty",
+        "fa_tolerance_hz": 8,
+        "fp_tolerance_hz": 1,
+        "oracle_control_distractor_scale": 0,
+        "n_repeats": 25,
+        "distractor_scale_values": [
+          0,
+          0.5,
+          1,
+          1.5,
+          2,
+          2.5,
+          3
+        ]
+      }
+    },
+    "recovery_settings": {
+      "fp_tolerance_hz": 1,
+      "strict_fp_tolerance_hz": 0.5,
+      "fa_tolerance_hz": 8,
+      "boundary_values_hz": [
+        4,
+        12
+      ],
+      "invalid_outputs": "count as recovery failures; errors summarized over finite estimates with n_valid reported",
+      "AUC": "all coupled-vs-null score pairs, greater-than + half of ties; finite scores only; no score normalization or direction reversal"
+    },
+    "paths": {
+      "repository": "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish",
+      "workspace": "C:\\Users\\nghare\\.brainstorm\\process"
+    }
+  }
+}

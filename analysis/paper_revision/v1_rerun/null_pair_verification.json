@@ -1,0 +1,3884 @@
+{
+  "trials": [
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 1,
+      "poisson_event_count": 59,
+      "poisson_events_in_recording": 57,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 2,
+      "poisson_event_count": 77,
+      "poisson_events_in_recording": 73,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 3.6082248300317588E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 3,
+      "poisson_event_count": 59,
+      "poisson_events_in_recording": 58,
+      "timing_null_residual": 7.4940054162198066E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 4,
+      "poisson_event_count": 75,
+      "poisson_events_in_recording": 71,
+      "timing_null_residual": 5.8286708792820718E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 5,
+      "poisson_event_count": 54,
+      "poisson_events_in_recording": 52,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 6,
+      "poisson_event_count": 71,
+      "poisson_events_in_recording": 71,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.0245584642661925E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 7,
+      "poisson_event_count": 67,
+      "poisson_events_in_recording": 65,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 8,
+      "poisson_event_count": 74,
+      "poisson_events_in_recording": 72,
+      "timing_null_residual": 6.8080808637944523E-16,
+      "no_coupled_burst_residual": 4.440715528502963E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 9,
+      "poisson_event_count": 74,
+      "poisson_events_in_recording": 69,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 10,
+      "poisson_event_count": 79,
+      "poisson_events_in_recording": 77,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 11,
+      "poisson_event_count": 63,
+      "poisson_events_in_recording": 61,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 3.3306690738754696E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 12,
+      "poisson_event_count": 77,
+      "poisson_events_in_recording": 74,
+      "timing_null_residual": 8.0491169285323849E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 13,
+      "poisson_event_count": 63,
+      "poisson_events_in_recording": 62,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 14,
+      "poisson_event_count": 61,
+      "poisson_events_in_recording": 60,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 15,
+      "poisson_event_count": 56,
+      "poisson_events_in_recording": 55,
+      "timing_null_residual": 7.1702357172902978E-16,
+      "no_coupled_burst_residual": 4.3241087576620492E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 16,
+      "poisson_event_count": 68,
+      "poisson_events_in_recording": 68,
+      "timing_null_residual": 4.9960036108132044E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 17,
+      "poisson_event_count": 72,
+      "poisson_events_in_recording": 72,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 18,
+      "poisson_event_count": 68,
+      "poisson_events_in_recording": 65,
+      "timing_null_residual": 7.1470607210244452E-16,
+      "no_coupled_burst_residual": 4.2327252813834093E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 19,
+      "poisson_event_count": 65,
+      "poisson_events_in_recording": 64,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 20,
+      "poisson_event_count": 66,
+      "poisson_events_in_recording": 66,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 3.7470027081099033E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 21,
+      "poisson_event_count": 57,
+      "poisson_events_in_recording": 56,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 22,
+      "poisson_event_count": 59,
+      "poisson_events_in_recording": 58,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 23,
+      "poisson_event_count": 73,
+      "poisson_events_in_recording": 72,
+      "timing_null_residual": 7.91033905045424E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 24,
+      "poisson_event_count": 73,
+      "poisson_events_in_recording": 72,
+      "timing_null_residual": 7.5633943552588789E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 1,
+      "repeat_index": 25,
+      "poisson_event_count": 65,
+      "poisson_events_in_recording": 64,
+      "timing_null_residual": 7.2986239609775434E-16,
+      "no_coupled_burst_residual": 3.7470027081099033E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 1,
+      "poisson_event_count": 53,
+      "poisson_events_in_recording": 51,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.7470027081099033E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 2,
+      "poisson_event_count": 55,
+      "poisson_events_in_recording": 53,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 3,
+      "poisson_event_count": 55,
+      "poisson_events_in_recording": 55,
+      "timing_null_residual": 5.2735593669694936E-16,
+      "no_coupled_burst_residual": 3.3306690738754696E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 4,
+      "poisson_event_count": 46,
+      "poisson_events_in_recording": 44,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 5,
+      "poisson_event_count": 62,
+      "poisson_events_in_recording": 60,
+      "timing_null_residual": 4.85722573273506E-16,
+      "no_coupled_burst_residual": 3.93348548177741E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 6,
+      "poisson_event_count": 56,
+      "poisson_events_in_recording": 53,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 7,
+      "poisson_event_count": 64,
+      "poisson_events_in_recording": 62,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 8,
+      "poisson_event_count": 54,
+      "poisson_events_in_recording": 53,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 4.2917581925661966E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 9,
+      "poisson_event_count": 56,
+      "poisson_events_in_recording": 54,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 4.3179706771950821E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 10,
+      "poisson_event_count": 48,
+      "poisson_events_in_recording": 46,
+      "timing_null_residual": 7.4940054162198066E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 11,
+      "poisson_event_count": 49,
+      "poisson_events_in_recording": 46,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 4.0939474033052647E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 12,
+      "poisson_event_count": 69,
+      "poisson_events_in_recording": 68,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 13,
+      "poisson_event_count": 51,
+      "poisson_events_in_recording": 50,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 3.8163916471489756E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 14,
+      "poisson_event_count": 63,
+      "poisson_events_in_recording": 61,
+      "timing_null_residual": 4.9960036108132044E-16,
+      "no_coupled_burst_residual": 4.0245584642661925E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 15,
+      "poisson_event_count": 51,
+      "poisson_events_in_recording": 49,
+      "timing_null_residual": 4.9960036108132044E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 16,
+      "poisson_event_count": 60,
+      "poisson_events_in_recording": 57,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.7929047963226594E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 17,
+      "poisson_event_count": 46,
+      "poisson_events_in_recording": 45,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 3.8152182500910385E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 18,
+      "poisson_event_count": 45,
+      "poisson_events_in_recording": 44,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 19,
+      "poisson_event_count": 45,
+      "poisson_events_in_recording": 43,
+      "timing_null_residual": 7.6327832942979512E-16,
+      "no_coupled_burst_residual": 4.3021142204224816E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 20,
+      "poisson_event_count": 58,
+      "poisson_events_in_recording": 56,
+      "timing_null_residual": 5.8286708792820718E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 21,
+      "poisson_event_count": 54,
+      "poisson_events_in_recording": 53,
+      "timing_null_residual": 4.9960036108132044E-16,
+      "no_coupled_burst_residual": 3.3827107781547738E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 22,
+      "poisson_event_count": 53,
+      "poisson_events_in_recording": 51,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 23,
+      "poisson_event_count": 38,
+      "poisson_events_in_recording": 37,
+      "timing_null_residual": 6.4531713306337224E-16,
+      "no_coupled_burst_residual": 3.3306690738754696E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 24,
+      "poisson_event_count": 70,
+      "poisson_events_in_recording": 69,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.85,
+      "repeat_index": 25,
+      "poisson_event_count": 69,
+      "poisson_events_in_recording": 65,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 1,
+      "poisson_event_count": 53,
+      "poisson_events_in_recording": 52,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 2,
+      "poisson_event_count": 38,
+      "poisson_events_in_recording": 35,
+      "timing_null_residual": 6.5225602696727947E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 3,
+      "poisson_event_count": 41,
+      "poisson_events_in_recording": 39,
+      "timing_null_residual": 5.8427655075243834E-16,
+      "no_coupled_burst_residual": 4.0809369772354387E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 4,
+      "poisson_event_count": 46,
+      "poisson_events_in_recording": 44,
+      "timing_null_residual": 6.106226635438361E-16,
+      "no_coupled_burst_residual": 3.6364140865163819E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 5,
+      "poisson_event_count": 44,
+      "poisson_events_in_recording": 44,
+      "timing_null_residual": 6.1756155744774333E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 6,
+      "poisson_event_count": 48,
+      "poisson_events_in_recording": 48,
+      "timing_null_residual": 5.2735593669694936E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 7,
+      "poisson_event_count": 38,
+      "poisson_events_in_recording": 37,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 3.3306690738754696E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 8,
+      "poisson_event_count": 61,
+      "poisson_events_in_recording": 59,
+      "timing_null_residual": 7.9276862852140084E-16,
+      "no_coupled_burst_residual": 4.412702842016003E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 9,
+      "poisson_event_count": 44,
+      "poisson_events_in_recording": 44,
+      "timing_null_residual": 4.49293380277993E-16,
+      "no_coupled_burst_residual": 3.6903663794873366E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 10,
+      "poisson_event_count": 44,
+      "poisson_events_in_recording": 44,
+      "timing_null_residual": 7.7498771289263857E-16,
+      "no_coupled_burst_residual": 3.9638431426070042E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 11,
+      "poisson_event_count": 43,
+      "poisson_events_in_recording": 43,
+      "timing_null_residual": 6.106226635438361E-16,
+      "no_coupled_burst_residual": 3.9875019639638989E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 12,
+      "poisson_event_count": 23,
+      "poisson_events_in_recording": 22,
+      "timing_null_residual": 6.106226635438361E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 13,
+      "poisson_event_count": 40,
+      "poisson_events_in_recording": 39,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 14,
+      "poisson_event_count": 51,
+      "poisson_events_in_recording": 49,
+      "timing_null_residual": 6.2450045135165055E-16,
+      "no_coupled_burst_residual": 4.163336342344337E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 15,
+      "poisson_event_count": 54,
+      "poisson_events_in_recording": 52,
+      "timing_null_residual": 6.2103100439969694E-16,
+      "no_coupled_burst_residual": 4.3541559247017858E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 16,
+      "poisson_event_count": 44,
+      "poisson_events_in_recording": 42,
+      "timing_null_residual": 5.3429483060085659E-16,
+      "no_coupled_burst_residual": 3.3306690738754696E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 17,
+      "poisson_event_count": 46,
+      "poisson_events_in_recording": 44,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 18,
+      "poisson_event_count": 38,
+      "poisson_events_in_recording": 37,
+      "timing_null_residual": 6.106226635438361E-16,
+      "no_coupled_burst_residual": 3.3306690738754696E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 19,
+      "poisson_event_count": 39,
+      "poisson_events_in_recording": 39,
+      "timing_null_residual": 8.3266726846886741E-16,
+      "no_coupled_burst_residual": 4.0939474033052647E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 20,
+      "poisson_event_count": 33,
+      "poisson_events_in_recording": 32,
+      "timing_null_residual": 4.163336342344337E-16,
+      "no_coupled_burst_residual": 3.6082248300317588E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 21,
+      "poisson_event_count": 46,
+      "poisson_events_in_recording": 45,
+      "timing_null_residual": 6.9388939039072284E-16,
+      "no_coupled_burst_residual": 4.2895895747182304E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 22,
+      "poisson_event_count": 51,
+      "poisson_events_in_recording": 50,
+      "timing_null_residual": 4.9960036108132044E-16,
+      "no_coupled_burst_residual": 2.7755575615628914E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 23,
+      "poisson_event_count": 46,
+      "poisson_events_in_recording": 46,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 4.3715031594615539E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 24,
+      "poisson_event_count": 49,
+      "poisson_events_in_recording": 48,
+      "timing_null_residual": 7.91033905045424E-16,
+      "no_coupled_burst_residual": 3.5431726996826285E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.7,
+      "repeat_index": 25,
+      "poisson_event_count": 54,
+      "poisson_events_in_recording": 54,
+      "timing_null_residual": 6.4878658001532585E-16,
+      "no_coupled_burst_residual": 3.3306690738754696E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 1,
+      "poisson_event_count": 33,
+      "poisson_events_in_recording": 33,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.7474384499942127E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 2,
+      "poisson_event_count": 44,
+      "poisson_events_in_recording": 44,
+      "timing_null_residual": 6.9085362430776343E-16,
+      "no_coupled_burst_residual": 2.6718565420578539E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 3,
+      "poisson_event_count": 37,
+      "poisson_events_in_recording": 36,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 4,
+      "poisson_event_count": 41,
+      "poisson_events_in_recording": 39,
+      "timing_null_residual": 5.5944832100252029E-16,
+      "no_coupled_burst_residual": 4.0505793164058446E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 5,
+      "poisson_event_count": 42,
+      "poisson_events_in_recording": 40,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.9766003832044752E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 6,
+      "poisson_event_count": 32,
+      "poisson_events_in_recording": 32,
+      "timing_null_residual": 6.8001160258290838E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 7,
+      "poisson_event_count": 46,
+      "poisson_events_in_recording": 46,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 8,
+      "poisson_event_count": 44,
+      "poisson_events_in_recording": 44,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 4.1204131152737735E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 9,
+      "poisson_event_count": 37,
+      "poisson_events_in_recording": 37,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 2.7755575615628914E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 10,
+      "poisson_event_count": 36,
+      "poisson_events_in_recording": 36,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 11,
+      "poisson_event_count": 33,
+      "poisson_events_in_recording": 33,
+      "timing_null_residual": 5.8969756161486586E-16,
+      "no_coupled_burst_residual": 4.056735905899791E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 12,
+      "poisson_event_count": 42,
+      "poisson_events_in_recording": 41,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.3232561627859489E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 13,
+      "poisson_event_count": 49,
+      "poisson_events_in_recording": 45,
+      "timing_null_residual": 4.7054374285870892E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 14,
+      "poisson_event_count": 32,
+      "poisson_events_in_recording": 32,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.0531133177191805E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 15,
+      "poisson_event_count": 35,
+      "poisson_events_in_recording": 34,
+      "timing_null_residual": 4.6837533851373792E-16,
+      "no_coupled_burst_residual": 3.2612801348363973E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 16,
+      "poisson_event_count": 37,
+      "poisson_events_in_recording": 35,
+      "timing_null_residual": 5.8286708792820718E-16,
+      "no_coupled_burst_residual": 4.163336342344337E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 17,
+      "poisson_event_count": 37,
+      "poisson_events_in_recording": 37,
+      "timing_null_residual": 6.7307270867900115E-16,
+      "no_coupled_burst_residual": 4.163336342344337E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 18,
+      "poisson_event_count": 35,
+      "poisson_events_in_recording": 35,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 3.3306690738754696E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 19,
+      "poisson_event_count": 38,
+      "poisson_events_in_recording": 37,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.7816971776294395E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 20,
+      "poisson_event_count": 32,
+      "poisson_events_in_recording": 31,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 3.3306690738754696E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 21,
+      "poisson_event_count": 29,
+      "poisson_events_in_recording": 27,
+      "timing_null_residual": 6.591949208711867E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 22,
+      "poisson_event_count": 37,
+      "poisson_events_in_recording": 35,
+      "timing_null_residual": 6.591949208711867E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 23,
+      "poisson_event_count": 31,
+      "poisson_events_in_recording": 31,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 4.1156314467549748E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 24,
+      "poisson_event_count": 42,
+      "poisson_events_in_recording": 42,
+      "timing_null_residual": 7.4940054162198066E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.55,
+      "repeat_index": 25,
+      "poisson_event_count": 36,
+      "poisson_events_in_recording": 34,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 1,
+      "poisson_event_count": 26,
+      "poisson_events_in_recording": 26,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 2,
+      "poisson_event_count": 19,
+      "poisson_events_in_recording": 16,
+      "timing_null_residual": 5.4123372450476381E-16,
+      "no_coupled_burst_residual": 3.7470027081099033E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 3,
+      "poisson_event_count": 30,
+      "poisson_events_in_recording": 30,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 4.3189193540960069E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 4,
+      "poisson_event_count": 25,
+      "poisson_events_in_recording": 24,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 4.1563106848689439E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 5,
+      "poisson_event_count": 24,
+      "poisson_events_in_recording": 24,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.6082248300317588E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 6,
+      "poisson_event_count": 22,
+      "poisson_events_in_recording": 21,
+      "timing_null_residual": 6.38378239159465E-16,
+      "no_coupled_burst_residual": 4.163336342344337E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 7,
+      "poisson_event_count": 26,
+      "poisson_events_in_recording": 26,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 8,
+      "poisson_event_count": 23,
+      "poisson_events_in_recording": 23,
+      "timing_null_residual": 6.106226635438361E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 9,
+      "poisson_event_count": 26,
+      "poisson_events_in_recording": 25,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2925454937205991E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 10,
+      "poisson_event_count": 33,
+      "poisson_events_in_recording": 31,
+      "timing_null_residual": 7.4246164771807344E-16,
+      "no_coupled_burst_residual": 4.1022247660998636E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 11,
+      "poisson_event_count": 21,
+      "poisson_events_in_recording": 21,
+      "timing_null_residual": 7.4766581814600386E-16,
+      "no_coupled_burst_residual": 3.7123082385903672E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 12,
+      "poisson_event_count": 35,
+      "poisson_events_in_recording": 33,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.5063098258181213E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 13,
+      "poisson_event_count": 24,
+      "poisson_events_in_recording": 24,
+      "timing_null_residual": 4.163336342344337E-16,
+      "no_coupled_burst_residual": 3.3306690738754696E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 14,
+      "poisson_event_count": 17,
+      "poisson_events_in_recording": 15,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 15,
+      "poisson_event_count": 36,
+      "poisson_events_in_recording": 34,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 4.3715031594615539E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 16,
+      "poisson_event_count": 24,
+      "poisson_events_in_recording": 24,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 17,
+      "poisson_event_count": 23,
+      "poisson_events_in_recording": 23,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 18,
+      "poisson_event_count": 27,
+      "poisson_events_in_recording": 26,
+      "timing_null_residual": 4.40619762898109E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 19,
+      "poisson_event_count": 27,
+      "poisson_events_in_recording": 26,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.6864807021719913E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 20,
+      "poisson_event_count": 31,
+      "poisson_events_in_recording": 29,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.8685278978535234E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 21,
+      "poisson_event_count": 25,
+      "poisson_events_in_recording": 25,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 22,
+      "poisson_event_count": 18,
+      "poisson_events_in_recording": 18,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.5128150388530344E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 23,
+      "poisson_event_count": 35,
+      "poisson_events_in_recording": 32,
+      "timing_null_residual": 5.2735593669694936E-16,
+      "no_coupled_burst_residual": 3.6082248300317588E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 24,
+      "poisson_event_count": 27,
+      "poisson_events_in_recording": 27,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.3306690738754696E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.4,
+      "repeat_index": 25,
+      "poisson_event_count": 28,
+      "poisson_events_in_recording": 27,
+      "timing_null_residual": 7.30615494904028E-16,
+      "no_coupled_burst_residual": 3.9725167599868882E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 1,
+      "poisson_event_count": 8,
+      "poisson_events_in_recording": 8,
+      "timing_null_residual": 6.4531713306337224E-16,
+      "no_coupled_burst_residual": 4.2153780466236412E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 2,
+      "poisson_event_count": 20,
+      "poisson_events_in_recording": 20,
+      "timing_null_residual": 3.8857805861880479E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 3,
+      "poisson_event_count": 13,
+      "poisson_events_in_recording": 13,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 4,
+      "poisson_event_count": 22,
+      "poisson_events_in_recording": 22,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.3237273727569397E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 5,
+      "poisson_event_count": 13,
+      "poisson_events_in_recording": 13,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 6,
+      "poisson_event_count": 15,
+      "poisson_events_in_recording": 14,
+      "timing_null_residual": 4.0939474033052647E-16,
+      "no_coupled_burst_residual": 2.9087490857139167E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 7,
+      "poisson_event_count": 22,
+      "poisson_events_in_recording": 21,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 8,
+      "poisson_event_count": 20,
+      "poisson_events_in_recording": 19,
+      "timing_null_residual": 7.0082828429463007E-16,
+      "no_coupled_burst_residual": 3.0531133177191805E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 9,
+      "poisson_event_count": 18,
+      "poisson_events_in_recording": 18,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 3.5041414214731503E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 10,
+      "poisson_event_count": 19,
+      "poisson_events_in_recording": 18,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 11,
+      "poisson_event_count": 17,
+      "poisson_events_in_recording": 17,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 12,
+      "poisson_event_count": 14,
+      "poisson_events_in_recording": 14,
+      "timing_null_residual": 4.163336342344337E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 13,
+      "poisson_event_count": 14,
+      "poisson_events_in_recording": 13,
+      "timing_null_residual": 4.9960036108132044E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 14,
+      "poisson_event_count": 12,
+      "poisson_events_in_recording": 12,
+      "timing_null_residual": 3.86843335142828E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 15,
+      "poisson_event_count": 15,
+      "poisson_events_in_recording": 14,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 16,
+      "poisson_event_count": 18,
+      "poisson_events_in_recording": 17,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 17,
+      "poisson_event_count": 22,
+      "poisson_events_in_recording": 22,
+      "timing_null_residual": 5.2067871911001348E-16,
+      "no_coupled_burst_residual": 2.6739662671849816E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 18,
+      "poisson_event_count": 19,
+      "poisson_events_in_recording": 19,
+      "timing_null_residual": 4.9960036108132044E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 19,
+      "poisson_event_count": 16,
+      "poisson_events_in_recording": 15,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 20,
+      "poisson_event_count": 17,
+      "poisson_events_in_recording": 16,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 4.0245584642661925E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 21,
+      "poisson_event_count": 21,
+      "poisson_events_in_recording": 21,
+      "timing_null_residual": 4.163336342344337E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 22,
+      "poisson_event_count": 17,
+      "poisson_events_in_recording": 17,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.66350423471511E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 23,
+      "poisson_event_count": 9,
+      "poisson_events_in_recording": 9,
+      "timing_null_residual": 4.5714379917336871E-16,
+      "no_coupled_burst_residual": 4.163336342344337E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 24,
+      "poisson_event_count": 10,
+      "poisson_events_in_recording": 9,
+      "timing_null_residual": 5.0220244629528565E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.25,
+      "repeat_index": 25,
+      "poisson_event_count": 17,
+      "poisson_events_in_recording": 17,
+      "timing_null_residual": 4.1234919125054947E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 1,
+      "poisson_event_count": 16,
+      "poisson_events_in_recording": 15,
+      "timing_null_residual": 4.0917789989602937E-16,
+      "no_coupled_burst_residual": 3.6106417064687268E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 2,
+      "poisson_event_count": 12,
+      "poisson_events_in_recording": 12,
+      "timing_null_residual": 5.5865838336986685E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 3,
+      "poisson_event_count": 10,
+      "poisson_events_in_recording": 10,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 4,
+      "poisson_event_count": 17,
+      "poisson_events_in_recording": 17,
+      "timing_null_residual": 3.8857805861880479E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 5,
+      "poisson_event_count": 11,
+      "poisson_events_in_recording": 11,
+      "timing_null_residual": 3.8857805861880479E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 6,
+      "poisson_event_count": 11,
+      "poisson_events_in_recording": 10,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 7,
+      "poisson_event_count": 9,
+      "poisson_events_in_recording": 9,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 8,
+      "poisson_event_count": 8,
+      "poisson_events_in_recording": 8,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 9,
+      "poisson_event_count": 13,
+      "poisson_events_in_recording": 13,
+      "timing_null_residual": 3.950595547311947E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 10,
+      "poisson_event_count": 13,
+      "poisson_events_in_recording": 13,
+      "timing_null_residual": 4.2153780466236412E-16,
+      "no_coupled_burst_residual": 4.0167657611514529E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 11,
+      "poisson_event_count": 7,
+      "poisson_events_in_recording": 7,
+      "timing_null_residual": 3.0531133177191805E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 12,
+      "poisson_event_count": 9,
+      "poisson_events_in_recording": 9,
+      "timing_null_residual": 7.5633943552588789E-16,
+      "no_coupled_burst_residual": 4.2625408411267607E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 13,
+      "poisson_event_count": 9,
+      "poisson_events_in_recording": 9,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 3.0916258151495058E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 14,
+      "poisson_event_count": 6,
+      "poisson_events_in_recording": 6,
+      "timing_null_residual": 3.9291486730874681E-16,
+      "no_coupled_burst_residual": 3.9291486730874681E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 15,
+      "poisson_event_count": 12,
+      "poisson_events_in_recording": 12,
+      "timing_null_residual": 3.6082248300317588E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 16,
+      "poisson_event_count": 12,
+      "poisson_events_in_recording": 11,
+      "timing_null_residual": 3.8857805861880479E-16,
+      "no_coupled_burst_residual": 2.7470972545351469E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 17,
+      "poisson_event_count": 7,
+      "poisson_events_in_recording": 6,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 18,
+      "poisson_event_count": 10,
+      "poisson_events_in_recording": 10,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.8781573971962388E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 19,
+      "poisson_event_count": 4,
+      "poisson_events_in_recording": 4,
+      "timing_null_residual": 3.3306690738754696E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 20,
+      "poisson_event_count": 10,
+      "poisson_events_in_recording": 9,
+      "timing_null_residual": 4.0939474033052647E-16,
+      "no_coupled_burst_residual": 2.7755575615628914E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 21,
+      "poisson_event_count": 6,
+      "poisson_events_in_recording": 6,
+      "timing_null_residual": 3.8755410166469275E-16,
+      "no_coupled_burst_residual": 3.8755410166469275E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 22,
+      "poisson_event_count": 10,
+      "poisson_events_in_recording": 10,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.2397162807296912E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 23,
+      "poisson_event_count": 11,
+      "poisson_events_in_recording": 11,
+      "timing_null_residual": 4.163336342344337E-16,
+      "no_coupled_burst_residual": 2.736495694214361E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 24,
+      "poisson_event_count": 10,
+      "poisson_events_in_recording": 10,
+      "timing_null_residual": 6.4531713306337224E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "sparsity",
+      "level": 0.15,
+      "repeat_index": 25,
+      "poisson_event_count": 14,
+      "poisson_events_in_recording": 14,
+      "timing_null_residual": 3.9725167599868882E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 1,
+      "poisson_event_count": 46,
+      "poisson_events_in_recording": 44,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 2,
+      "poisson_event_count": 51,
+      "poisson_events_in_recording": 49,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 4.163336342344337E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 3,
+      "poisson_event_count": 53,
+      "poisson_events_in_recording": 51,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 4,
+      "poisson_event_count": 46,
+      "poisson_events_in_recording": 44,
+      "timing_null_residual": 5.9674487573602164E-16,
+      "no_coupled_burst_residual": 4.163336342344337E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 5,
+      "poisson_event_count": 61,
+      "poisson_events_in_recording": 59,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 3.3306690738754696E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 6,
+      "poisson_event_count": 45,
+      "poisson_events_in_recording": 43,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.6082248300317588E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 7,
+      "poisson_event_count": 47,
+      "poisson_events_in_recording": 47,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 8,
+      "poisson_event_count": 49,
+      "poisson_events_in_recording": 48,
+      "timing_null_residual": 5.8286708792820718E-16,
+      "no_coupled_burst_residual": 2.6367796834847468E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 9,
+      "poisson_event_count": 53,
+      "poisson_events_in_recording": 50,
+      "timing_null_residual": 8.3266726846886741E-16,
+      "no_coupled_burst_residual": 4.3021142204224816E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 10,
+      "poisson_event_count": 51,
+      "poisson_events_in_recording": 49,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 3.3306690738754696E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 11,
+      "poisson_event_count": 71,
+      "poisson_events_in_recording": 67,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 12,
+      "poisson_event_count": 50,
+      "poisson_events_in_recording": 49,
+      "timing_null_residual": 6.3143934525555778E-16,
+      "no_coupled_burst_residual": 3.5388358909926865E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 13,
+      "poisson_event_count": 61,
+      "poisson_events_in_recording": 60,
+      "timing_null_residual": 5.2735593669694936E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 14,
+      "poisson_event_count": 44,
+      "poisson_events_in_recording": 43,
+      "timing_null_residual": 6.106226635438361E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 15,
+      "poisson_event_count": 59,
+      "poisson_events_in_recording": 57,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.3306690738754696E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 16,
+      "poisson_event_count": 55,
+      "poisson_events_in_recording": 50,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 17,
+      "poisson_event_count": 49,
+      "poisson_events_in_recording": 48,
+      "timing_null_residual": 7.0776717819853729E-16,
+      "no_coupled_burst_residual": 4.3021142204224816E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 18,
+      "poisson_event_count": 45,
+      "poisson_events_in_recording": 44,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 19,
+      "poisson_event_count": 37,
+      "poisson_events_in_recording": 36,
+      "timing_null_residual": 4.5796699765787707E-16,
+      "no_coupled_burst_residual": 4.163336342344337E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 20,
+      "poisson_event_count": 52,
+      "poisson_events_in_recording": 50,
+      "timing_null_residual": 6.106226635438361E-16,
+      "no_coupled_burst_residual": 3.1918911957973251E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 21,
+      "poisson_event_count": 50,
+      "poisson_events_in_recording": 47,
+      "timing_null_residual": 6.9388939039072284E-16,
+      "no_coupled_burst_residual": 3.3306690738754696E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 22,
+      "poisson_event_count": 51,
+      "poisson_events_in_recording": 47,
+      "timing_null_residual": 6.106226635438361E-16,
+      "no_coupled_burst_residual": 4.3715031594615539E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 23,
+      "poisson_event_count": 51,
+      "poisson_events_in_recording": 48,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 24,
+      "poisson_event_count": 56,
+      "poisson_events_in_recording": 55,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0,
+      "repeat_index": 25,
+      "poisson_event_count": 52,
+      "poisson_events_in_recording": 52,
+      "timing_null_residual": 7.4419637119405024E-16,
+      "no_coupled_burst_residual": 4.40619762898109E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 1,
+      "poisson_event_count": 51,
+      "poisson_events_in_recording": 50,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 2,
+      "poisson_event_count": 37,
+      "poisson_events_in_recording": 36,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 3,
+      "poisson_event_count": 40,
+      "poisson_events_in_recording": 40,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.2204460492503131E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 4,
+      "poisson_event_count": 55,
+      "poisson_events_in_recording": 52,
+      "timing_null_residual": 4.9960036108132044E-16,
+      "no_coupled_burst_residual": 4.163336342344337E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 5,
+      "poisson_event_count": 54,
+      "poisson_events_in_recording": 50,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 6,
+      "poisson_event_count": 56,
+      "poisson_events_in_recording": 55,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 7,
+      "poisson_event_count": 51,
+      "poisson_events_in_recording": 48,
+      "timing_null_residual": 6.1627707610805332E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 8,
+      "poisson_event_count": 46,
+      "poisson_events_in_recording": 46,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 2.7755575615628914E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 9,
+      "poisson_event_count": 50,
+      "poisson_events_in_recording": 49,
+      "timing_null_residual": 7.4940054162198066E-16,
+      "no_coupled_burst_residual": 4.163336342344337E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 10,
+      "poisson_event_count": 50,
+      "poisson_events_in_recording": 49,
+      "timing_null_residual": 8.1878948066105295E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 11,
+      "poisson_event_count": 53,
+      "poisson_events_in_recording": 52,
+      "timing_null_residual": 5.2735593669694936E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 12,
+      "poisson_event_count": 42,
+      "poisson_events_in_recording": 41,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 13,
+      "poisson_event_count": 48,
+      "poisson_events_in_recording": 47,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 14,
+      "poisson_event_count": 58,
+      "poisson_events_in_recording": 57,
+      "timing_null_residual": 6.106226635438361E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 15,
+      "poisson_event_count": 48,
+      "poisson_events_in_recording": 45,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 16,
+      "poisson_event_count": 66,
+      "poisson_events_in_recording": 62,
+      "timing_null_residual": 6.106226635438361E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 17,
+      "poisson_event_count": 37,
+      "poisson_events_in_recording": 36,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 18,
+      "poisson_event_count": 53,
+      "poisson_events_in_recording": 50,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.163336342344337E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 19,
+      "poisson_event_count": 36,
+      "poisson_events_in_recording": 35,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 20,
+      "poisson_event_count": 45,
+      "poisson_events_in_recording": 45,
+      "timing_null_residual": 7.4940054162198066E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 21,
+      "poisson_event_count": 64,
+      "poisson_events_in_recording": 60,
+      "timing_null_residual": 5.8286708792820718E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 22,
+      "poisson_event_count": 47,
+      "poisson_events_in_recording": 46,
+      "timing_null_residual": 8.3266726846886741E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 23,
+      "poisson_event_count": 51,
+      "poisson_events_in_recording": 50,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 24,
+      "poisson_event_count": 46,
+      "poisson_events_in_recording": 45,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 0.5,
+      "repeat_index": 25,
+      "poisson_event_count": 52,
+      "poisson_events_in_recording": 51,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.3306690738754696E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 1,
+      "poisson_event_count": 47,
+      "poisson_events_in_recording": 46,
+      "timing_null_residual": 7.4940054162198066E-16,
+      "no_coupled_burst_residual": 4.0245584642661925E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 2,
+      "poisson_event_count": 44,
+      "poisson_events_in_recording": 41,
+      "timing_null_residual": 4.9960036108132044E-16,
+      "no_coupled_burst_residual": 3.9658735153118936E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 3,
+      "poisson_event_count": 46,
+      "poisson_events_in_recording": 43,
+      "timing_null_residual": 7.0641656529096186E-16,
+      "no_coupled_burst_residual": 4.163336342344337E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 4,
+      "poisson_event_count": 35,
+      "poisson_events_in_recording": 35,
+      "timing_null_residual": 6.8001160258290838E-16,
+      "no_coupled_burst_residual": 3.3306690738754696E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 5,
+      "poisson_event_count": 50,
+      "poisson_events_in_recording": 49,
+      "timing_null_residual": 5.2735593669694936E-16,
+      "no_coupled_burst_residual": 2.4980018054066022E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 6,
+      "poisson_event_count": 54,
+      "poisson_events_in_recording": 53,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 7,
+      "poisson_event_count": 44,
+      "poisson_events_in_recording": 44,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.3021142204224816E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 8,
+      "poisson_event_count": 39,
+      "poisson_events_in_recording": 36,
+      "timing_null_residual": 6.106226635438361E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 9,
+      "poisson_event_count": 59,
+      "poisson_events_in_recording": 57,
+      "timing_null_residual": 4.5102810375396984E-16,
+      "no_coupled_burst_residual": 4.163336342344337E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 10,
+      "poisson_event_count": 60,
+      "poisson_events_in_recording": 59,
+      "timing_null_residual": 8.8817841970012523E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 11,
+      "poisson_event_count": 50,
+      "poisson_events_in_recording": 48,
+      "timing_null_residual": 4.6056908287184228E-16,
+      "no_coupled_burst_residual": 3.3306690738754696E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 12,
+      "poisson_event_count": 53,
+      "poisson_events_in_recording": 52,
+      "timing_null_residual": 4.9960036108132044E-16,
+      "no_coupled_burst_residual": 4.163336342344337E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 13,
+      "poisson_event_count": 46,
+      "poisson_events_in_recording": 45,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 14,
+      "poisson_event_count": 42,
+      "poisson_events_in_recording": 40,
+      "timing_null_residual": 7.3552275381416621E-16,
+      "no_coupled_burst_residual": 3.6082248300317588E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 15,
+      "poisson_event_count": 56,
+      "poisson_events_in_recording": 51,
+      "timing_null_residual": 8.0491169285323849E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 16,
+      "poisson_event_count": 48,
+      "poisson_events_in_recording": 48,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 17,
+      "poisson_event_count": 44,
+      "poisson_events_in_recording": 41,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 3.3306690738754696E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 18,
+      "poisson_event_count": 58,
+      "poisson_events_in_recording": 58,
+      "timing_null_residual": 7.1470607210244452E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 19,
+      "poisson_event_count": 49,
+      "poisson_events_in_recording": 47,
+      "timing_null_residual": 6.40730449636509E-16,
+      "no_coupled_burst_residual": 4.2327252813834093E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 20,
+      "poisson_event_count": 47,
+      "poisson_events_in_recording": 45,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 21,
+      "poisson_event_count": 44,
+      "poisson_events_in_recording": 44,
+      "timing_null_residual": 5.2735593669694936E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 22,
+      "poisson_event_count": 32,
+      "poisson_events_in_recording": 30,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 23,
+      "poisson_event_count": 49,
+      "poisson_events_in_recording": 46,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 24,
+      "poisson_event_count": 47,
+      "poisson_events_in_recording": 44,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 4.3021142204224816E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1,
+      "repeat_index": 25,
+      "poisson_event_count": 57,
+      "poisson_events_in_recording": 50,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.380595049303317E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 1,
+      "poisson_event_count": 40,
+      "poisson_events_in_recording": 40,
+      "timing_null_residual": 8.8817841970012523E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 2,
+      "poisson_event_count": 52,
+      "poisson_events_in_recording": 49,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 3,
+      "poisson_event_count": 43,
+      "poisson_events_in_recording": 41,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 4,
+      "poisson_event_count": 38,
+      "poisson_events_in_recording": 35,
+      "timing_null_residual": 8.0491169285323849E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 5,
+      "poisson_event_count": 44,
+      "poisson_events_in_recording": 41,
+      "timing_null_residual": 6.38378239159465E-16,
+      "no_coupled_burst_residual": 2.7755575615628914E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 6,
+      "poisson_event_count": 56,
+      "poisson_events_in_recording": 54,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 3.907356375459552E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 7,
+      "poisson_event_count": 51,
+      "poisson_events_in_recording": 49,
+      "timing_null_residual": 6.9388939039072284E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 8,
+      "poisson_event_count": 52,
+      "poisson_events_in_recording": 50,
+      "timing_null_residual": 5.759281940243E-16,
+      "no_coupled_burst_residual": 4.3021142204224816E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 9,
+      "poisson_event_count": 57,
+      "poisson_events_in_recording": 56,
+      "timing_null_residual": 6.9388939039072284E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 10,
+      "poisson_event_count": 49,
+      "poisson_events_in_recording": 49,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 11,
+      "poisson_event_count": 52,
+      "poisson_events_in_recording": 52,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 12,
+      "poisson_event_count": 57,
+      "poisson_events_in_recording": 54,
+      "timing_null_residual": 4.9960036108132044E-16,
+      "no_coupled_burst_residual": 4.0573174940030327E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 13,
+      "poisson_event_count": 44,
+      "poisson_events_in_recording": 42,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 14,
+      "poisson_event_count": 64,
+      "poisson_events_in_recording": 60,
+      "timing_null_residual": 6.9388939039072284E-16,
+      "no_coupled_burst_residual": 3.5388358909926865E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 15,
+      "poisson_event_count": 58,
+      "poisson_events_in_recording": 54,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.163336342344337E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 16,
+      "poisson_event_count": 48,
+      "poisson_events_in_recording": 48,
+      "timing_null_residual": 4.9266146717741321E-16,
+      "no_coupled_burst_residual": 4.3021142204224816E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 17,
+      "poisson_event_count": 52,
+      "poisson_events_in_recording": 51,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 18,
+      "poisson_event_count": 56,
+      "poisson_events_in_recording": 54,
+      "timing_null_residual": 4.9960036108132044E-16,
+      "no_coupled_burst_residual": 3.6082248300317588E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 19,
+      "poisson_event_count": 59,
+      "poisson_events_in_recording": 56,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 20,
+      "poisson_event_count": 49,
+      "poisson_events_in_recording": 47,
+      "timing_null_residual": 5.2735593669694936E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 21,
+      "poisson_event_count": 53,
+      "poisson_events_in_recording": 51,
+      "timing_null_residual": 8.0491169285323849E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 22,
+      "poisson_event_count": 46,
+      "poisson_events_in_recording": 44,
+      "timing_null_residual": 4.7184478546569153E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 23,
+      "poisson_event_count": 49,
+      "poisson_events_in_recording": 48,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 24,
+      "poisson_event_count": 43,
+      "poisson_events_in_recording": 43,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 1.5,
+      "repeat_index": 25,
+      "poisson_event_count": 48,
+      "poisson_events_in_recording": 47,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.0939474033052647E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 1,
+      "poisson_event_count": 49,
+      "poisson_events_in_recording": 46,
+      "timing_null_residual": 7.4940054162198066E-16,
+      "no_coupled_burst_residual": 3.8163916471489756E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 2,
+      "poisson_event_count": 54,
+      "poisson_events_in_recording": 51,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 3,
+      "poisson_event_count": 39,
+      "poisson_events_in_recording": 38,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.0245584642661925E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 4,
+      "poisson_event_count": 50,
+      "poisson_events_in_recording": 49,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 4.163336342344337E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 5,
+      "poisson_event_count": 46,
+      "poisson_events_in_recording": 45,
+      "timing_null_residual": 8.3266726846886741E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 6,
+      "poisson_event_count": 45,
+      "poisson_events_in_recording": 44,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 7,
+      "poisson_event_count": 45,
+      "poisson_events_in_recording": 41,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 8,
+      "poisson_event_count": 53,
+      "poisson_events_in_recording": 51,
+      "timing_null_residual": 8.8817841970012523E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 9,
+      "poisson_event_count": 57,
+      "poisson_events_in_recording": 56,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 10,
+      "poisson_event_count": 43,
+      "poisson_events_in_recording": 41,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 11,
+      "poisson_event_count": 52,
+      "poisson_events_in_recording": 48,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 12,
+      "poisson_event_count": 49,
+      "poisson_events_in_recording": 46,
+      "timing_null_residual": 8.0491169285323849E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 13,
+      "poisson_event_count": 55,
+      "poisson_events_in_recording": 54,
+      "timing_null_residual": 8.4654505627668186E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 14,
+      "poisson_event_count": 40,
+      "poisson_events_in_recording": 39,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.3150043607796574E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 15,
+      "poisson_event_count": 61,
+      "poisson_events_in_recording": 60,
+      "timing_null_residual": 6.106226635438361E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 16,
+      "poisson_event_count": 45,
+      "poisson_events_in_recording": 45,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 17,
+      "poisson_event_count": 54,
+      "poisson_events_in_recording": 51,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 18,
+      "poisson_event_count": 52,
+      "poisson_events_in_recording": 47,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 3.7976741783276197E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 19,
+      "poisson_event_count": 57,
+      "poisson_events_in_recording": 56,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.4036376431750834E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 20,
+      "poisson_event_count": 50,
+      "poisson_events_in_recording": 49,
+      "timing_null_residual": 7.91033905045424E-16,
+      "no_coupled_burst_residual": 4.163336342344337E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 21,
+      "poisson_event_count": 43,
+      "poisson_events_in_recording": 43,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 22,
+      "poisson_event_count": 57,
+      "poisson_events_in_recording": 55,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 23,
+      "poisson_event_count": 54,
+      "poisson_events_in_recording": 53,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 24,
+      "poisson_event_count": 38,
+      "poisson_events_in_recording": 37,
+      "timing_null_residual": 6.106226635438361E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2,
+      "repeat_index": 25,
+      "poisson_event_count": 62,
+      "poisson_events_in_recording": 57,
+      "timing_null_residual": 7.4940054162198066E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 1,
+      "poisson_event_count": 49,
+      "poisson_events_in_recording": 44,
+      "timing_null_residual": 6.9388939039072284E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 2,
+      "poisson_event_count": 51,
+      "poisson_events_in_recording": 49,
+      "timing_null_residual": 8.7430063189231078E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 3,
+      "poisson_event_count": 48,
+      "poisson_events_in_recording": 47,
+      "timing_null_residual": 6.9388939039072284E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 4,
+      "poisson_event_count": 42,
+      "poisson_events_in_recording": 38,
+      "timing_null_residual": 6.106226635438361E-16,
+      "no_coupled_burst_residual": 4.3021142204224816E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 5,
+      "poisson_event_count": 51,
+      "poisson_events_in_recording": 51,
+      "timing_null_residual": 8.3266726846886741E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 6,
+      "poisson_event_count": 45,
+      "poisson_events_in_recording": 45,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 7,
+      "poisson_event_count": 47,
+      "poisson_events_in_recording": 45,
+      "timing_null_residual": 6.106226635438361E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 8,
+      "poisson_event_count": 59,
+      "poisson_events_in_recording": 58,
+      "timing_null_residual": 7.4940054162198066E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 9,
+      "poisson_event_count": 47,
+      "poisson_events_in_recording": 47,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 10,
+      "poisson_event_count": 53,
+      "poisson_events_in_recording": 49,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 11,
+      "poisson_event_count": 57,
+      "poisson_events_in_recording": 55,
+      "timing_null_residual": 8.3266726846886741E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 12,
+      "poisson_event_count": 45,
+      "poisson_events_in_recording": 42,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 13,
+      "poisson_event_count": 49,
+      "poisson_events_in_recording": 47,
+      "timing_null_residual": 6.8001160258290838E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 14,
+      "poisson_event_count": 36,
+      "poisson_events_in_recording": 33,
+      "timing_null_residual": 8.3266726846886741E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 15,
+      "poisson_event_count": 45,
+      "poisson_events_in_recording": 44,
+      "timing_null_residual": 6.9388939039072284E-16,
+      "no_coupled_burst_residual": 4.2327252813834093E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 16,
+      "poisson_event_count": 51,
+      "poisson_events_in_recording": 48,
+      "timing_null_residual": 8.3266726846886741E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 17,
+      "poisson_event_count": 39,
+      "poisson_events_in_recording": 35,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 18,
+      "poisson_event_count": 41,
+      "poisson_events_in_recording": 39,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 3.8857805861880479E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 19,
+      "poisson_event_count": 53,
+      "poisson_events_in_recording": 52,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 20,
+      "poisson_event_count": 49,
+      "poisson_events_in_recording": 48,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.3021142204224816E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 21,
+      "poisson_event_count": 46,
+      "poisson_events_in_recording": 45,
+      "timing_null_residual": 8.3266726846886741E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 22,
+      "poisson_event_count": 35,
+      "poisson_events_in_recording": 32,
+      "timing_null_residual": 8.6042284408449632E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 23,
+      "poisson_event_count": 65,
+      "poisson_events_in_recording": 62,
+      "timing_null_residual": 4.4408920985006262E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 24,
+      "poisson_event_count": 50,
+      "poisson_events_in_recording": 48,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 2.5,
+      "repeat_index": 25,
+      "poisson_event_count": 40,
+      "poisson_events_in_recording": 37,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 1,
+      "poisson_event_count": 50,
+      "poisson_events_in_recording": 49,
+      "timing_null_residual": 8.3266726846886741E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 2,
+      "poisson_event_count": 46,
+      "poisson_events_in_recording": 46,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 3,
+      "poisson_event_count": 52,
+      "poisson_events_in_recording": 49,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 4,
+      "poisson_event_count": 54,
+      "poisson_events_in_recording": 54,
+      "timing_null_residual": 8.07819214226267E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 5,
+      "poisson_event_count": 46,
+      "poisson_events_in_recording": 45,
+      "timing_null_residual": 7.3552275381416621E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 6,
+      "poisson_event_count": 49,
+      "poisson_events_in_recording": 47,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 7,
+      "poisson_event_count": 52,
+      "poisson_events_in_recording": 52,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 8,
+      "poisson_event_count": 54,
+      "poisson_events_in_recording": 51,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.3021142204224816E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 9,
+      "poisson_event_count": 44,
+      "poisson_events_in_recording": 43,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 10,
+      "poisson_event_count": 45,
+      "poisson_events_in_recording": 45,
+      "timing_null_residual": 7.6327832942979512E-16,
+      "no_coupled_burst_residual": 4.3038601343124695E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 11,
+      "poisson_event_count": 66,
+      "poisson_events_in_recording": 61,
+      "timing_null_residual": 7.3552275381416621E-16,
+      "no_coupled_burst_residual": 4.0245584642661925E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 12,
+      "poisson_event_count": 39,
+      "poisson_events_in_recording": 38,
+      "timing_null_residual": 5.5511151231257827E-16,
+      "no_coupled_burst_residual": 4.163336342344337E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 13,
+      "poisson_event_count": 53,
+      "poisson_events_in_recording": 52,
+      "timing_null_residual": 8.0491169285323849E-16,
+      "no_coupled_burst_residual": 4.163336342344337E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 14,
+      "poisson_event_count": 58,
+      "poisson_events_in_recording": 56,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 15,
+      "poisson_event_count": 43,
+      "poisson_events_in_recording": 42,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 16,
+      "poisson_event_count": 53,
+      "poisson_events_in_recording": 53,
+      "timing_null_residual": 7.4940054162198066E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 17,
+      "poisson_event_count": 53,
+      "poisson_events_in_recording": 52,
+      "timing_null_residual": 8.8817841970012523E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 18,
+      "poisson_event_count": 58,
+      "poisson_events_in_recording": 56,
+      "timing_null_residual": 6.6613381477509392E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 19,
+      "poisson_event_count": 43,
+      "poisson_events_in_recording": 40,
+      "timing_null_residual": 7.2164496600635175E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 20,
+      "poisson_event_count": 57,
+      "poisson_events_in_recording": 56,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.3102264954043643E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 21,
+      "poisson_event_count": 35,
+      "poisson_events_in_recording": 35,
+      "timing_null_residual": 6.9388939039072284E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 22,
+      "poisson_event_count": 51,
+      "poisson_events_in_recording": 49,
+      "timing_null_residual": 7.4940054162198066E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 23,
+      "poisson_event_count": 55,
+      "poisson_events_in_recording": 55,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 24,
+      "poisson_event_count": 47,
+      "poisson_events_in_recording": 46,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    },
+    {
+      "benchmark": "distractor",
+      "level": 3,
+      "repeat_index": 25,
+      "poisson_event_count": 54,
+      "poisson_events_in_recording": 50,
+      "timing_null_residual": 7.7715611723760958E-16,
+      "no_coupled_burst_residual": 4.4408920985006262E-16,
+      "shared_components_exact": true
+    }
+  ],
+  "metadata": {
+    "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+    "git_tag": "v1.0",
+    "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+    "matlab_release": "2022b",
+    "seed": 2.0260618E+7,
+    "computation_threads": 1,
+    "worktree_dirty": false,
+    "stage": "null",
+    "apc_source_git_blob": "04675a5d7acfe82b1e46431e5838e56ef056eab6",
+    "apc_configurations": [
+      {
+        "name": "v1.0",
+        "options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "diagm": false,
+          "surrogates": false,
+          "num_perm": 0,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "v1",
+          "fPRefine": true,
+          "fPMaxBinSpacingHz": 0.05
+        }
+      },
+      {
+        "name": "oct2026",
+        "options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "diagm": false,
+          "surrogates": false,
+          "num_perm": 0,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "oct2026",
+          "fPRefine": false,
+          "fPMaxBinSpacingHz": 0.05
+        }
+      },
+      {
+        "name": "june2026_clipped",
+        "options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "diagm": false,
+          "surrogates": false,
+          "num_perm": 0,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "june2026_clipped",
+          "fPRefine": false,
+          "fPMaxBinSpacingHz": 0.05
+        }
+      },
+      {
+        "name": "v1.0_no_fP_refine",
+        "options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "diagm": false,
+          "surrogates": false,
+          "num_perm": 0,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "v1",
+          "fPRefine": false,
+          "fPMaxBinSpacingHz": 0.05
+        }
+      }
+    ],
+    "comparator_settings": {
+      "phase_half_width_hz": 1.5,
+      "phase_grids": {
+        "main": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "random_1Hz": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "random_05Hz": [
+          4,
+          4.5,
+          5,
+          5.5,
+          6,
+          6.5,
+          7,
+          7.5,
+          8,
+          8.5,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          11.5,
+          12
+        ]
+      },
+      "amplitude_grid_hz": [
+        80,
+        88,
+        96,
+        104,
+        112,
+        120,
+        128,
+        136,
+        144,
+        152
+      ],
+      "A0_amplitude_half_width_hz": 6,
+      "A1_amplitude_half_width": "candidate fP",
+      "amplitude_clipping_hz": "[max(1,fA-halfWidth),min(fs/2-1,fA+halfWidth)]",
+      "filter": "butter(4,[low high]/(fs/2),bandpass), filtfilt (8th-order bandpass)",
+      "normalized_cutoff_clamps": [
+        0.0001,
+        0.999
+      ],
+      "phase_low_edge_min_hz": 0.5,
+      "metrics": [
+        "MVL-raw",
+        "MVL-Ozkurt",
+        "KLMI-scan",
+        "GLM-scan"
+      ],
+      "num_phase_bins": 18,
+      "raw_MVL": "abs(mean(A.*exp(1i*phase)))",
+      "Ozkurt_MVL": "abs(sum(A.*exp(1i*phase)))/sqrt(N*sum(A.^2))",
+      "GLM": "max(0,1-SSE/SST); X=[ones,sin(phase),cos(phase)]",
+      "selection": "independent full-grid argmax for each metric; MATLAB column-major first tie",
+      "surrogates": false
+    },
+    "null_settings": {
+      "primary": "timing_null",
+      "secondary": "no_coupled_burst",
+      "timing_null_coupling_level": 0.6,
+      "poisson_stream": "mt19937ar, separate stream seeded 20260618, reset per benchmark",
+      "poisson_rate_distractor": "true fP Hz",
+      "poisson_rate_sparsity": "keep_rate * true fP Hz",
+      "event_support": "[t(1)-1/fP,t(end)+1/fP], original generator event support; original APC epoch-edge rejection unchanged",
+      "overlap": "allowed; original Gaussian envelope sum handles overlap; no minimum gap",
+      "envelope_normalization": "divide by maximum on recording, same as original generator",
+      "paired_components": "same carrier, noise vector including original noise scale, distractor and background; only true-burst component replaced",
+      "verification_tolerance": 1E-12,
+      "secondary_coupling_level": 0
+    },
+    "random_fp_settings": {
+      "distribution": "uniform[5,11] Hz",
+      "stream": "separate mt19937ar stream seed 20260618, reset per benchmark",
+      "distractor_levels": [
+        0,
+        1.5,
+        3
+      ],
+      "sparsity_levels": [
+        0.15,
+        0.5,
+        1
+      ],
+      "repeats": 25
+    },
+    "generator_settings": {
+      "sparsity": {
+        "profile_name": "full",
+        "random_seed": 2.0260618E+7,
+        "fs_hz": 500,
+        "duration_s": 8,
+        "true_fp_hz": 8,
+        "true_fa_hz": 120,
+        "phase_offset_deg": -90,
+        "low_amp": 1,
+        "true_high_amp": 1.3,
+        "base_hf_amp": 0.08,
+        "burst_sigma_s": 0.028,
+        "burst_phase_jitter_s": 0.01,
+        "snr_db": -3,
+        "broad_fa_band_hz": [
+          80,
+          150
+        ],
+        "phase_scan_hz": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "amplitude_scan_hz": [
+          80,
+          88,
+          96,
+          104,
+          112,
+          120,
+          128,
+          136,
+          144,
+          152
+        ],
+        "metric": "canolty",
+        "fa_tolerance_hz": 8,
+        "fp_tolerance_hz": 1,
+        "coupling_level": 0.6,
+        "background_burst_scale": 0.18,
+        "n_repeats": 25,
+        "burst_keep_rates": [
+          1,
+          0.85,
+          0.7,
+          0.55,
+          0.4,
+          0.25,
+          0.15
+        ]
+      },
+      "distractor": {
+        "profile_name": "reviewer_control",
+        "random_seed": 2.0260618E+7,
+        "fs_hz": 500,
+        "duration_s": 6,
+        "true_fp_hz": 8,
+        "true_fa_hz": 120,
+        "distractor_fa_hz": 96,
+        "phase_offset_deg": -90,
+        "low_amp": 1,
+        "true_high_amp": 1.3,
+        "distractor_base_amp": 0.6,
+        "base_hf_amp": 0.08,
+        "burst_sigma_s": 0.028,
+        "coupling_level": 0.6,
+        "burst_phase_jitter_s": 0.01,
+        "snr_db": -3,
+        "broad_fa_band_hz": [
+          80,
+          150
+        ],
+        "phase_scan_hz": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "amplitude_scan_hz": [
+          80,
+          88,
+          96,
+          104,
+          112,
+          120,
+          128,
+          136,
+          144,
+          152
+        ],
+        "phase_band_half_width_hz": 1.5,
+        "amplitude_band_half_width_hz": 6,
+        "metric": "canolty",
+        "fa_tolerance_hz": 8,
+        "fp_tolerance_hz": 1,
+        "oracle_control_distractor_scale": 0,
+        "n_repeats": 25,
+        "distractor_scale_values": [
+          0,
+          0.5,
+          1,
+          1.5,
+          2,
+          2.5,
+          3
+        ]
+      }
+    },
+    "recovery_settings": {
+      "fp_tolerance_hz": 1,
+      "strict_fp_tolerance_hz": 0.5,
+      "fa_tolerance_hz": 8,
+      "boundary_values_hz": [
+        4,
+        12
+      ],
+      "invalid_outputs": "count as recovery failures; errors summarized over finite estimates with n_valid reported",
+      "AUC": "all coupled-vs-null score pairs, greater-than + half of ties; finite scores only; no score normalization or direction reversal"
+    },
+    "paths": {
+      "repository": "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish",
+      "workspace": "C:\\Users\\nghare\\.brainstorm\\process"
+    }
+  }
+}

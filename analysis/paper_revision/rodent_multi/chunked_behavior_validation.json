@@ -1,0 +1,77 @@
+{
+  "historical_known_samples": 280903,
+  "historical_total_samples": 331701,
+  "known_agreeing_samples": 246695,
+  "known_disagreeing_samples": 34208,
+  "known_agreement_percent": 87.82213077112029,
+  "full_interval_agreement_lower_bound_percent": 74.37270312721397,
+  "full_interval_agreement_upper_bound_percent": 89.6870977175227,
+  "complete_validation": false,
+  "metadata": {
+    "recorded_utc": "2026-10-22T19:29:27.273054+00:00",
+    "protocol_sha256": "17738c5b8e9d360048d3e104f7da6ee83e65889fe159d6951c61bd8755e8e80f",
+    "execution_sha256": "0d4aab95a523e7e0f6af4033525b9585d2e6cff969239aca107003cff104f06b",
+    "original_protocol_sha256": "66f917261c42c1294d3744d61a76626d06d599e3a9d2151faef1951bfe707113",
+    "git_tag": "v1.0",
+    "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+    "stage": "user amendments recorded before chunked behaviour validation"
+  },
+  "status": "FAILED_STOP_CONCLUSIVE_UPPER_BOUND",
+  "passed": false,
+  "full_interval_agreement_percent": null,
+  "reference_known_global_indices": [
+    40800,
+    321702
+  ],
+  "uncomputed_reference_samples": 50798,
+  "all_known_reference_labels_valid": true,
+  "endpoint_comparisons": {
+    "run": {
+      "resolved_historical_bouts": 10,
+      "matched_among_resolved": 0,
+      "unresolved_historical_bouts": 2,
+      "full_12_bout_match_count_lower_bound": 0,
+      "full_12_bout_match_count_upper_bound": 2
+    },
+    "rest": {
+      "resolved_historical_bouts": 10,
+      "matched_among_resolved": 0,
+      "unresolved_historical_bouts": 2,
+      "full_12_bout_match_count_lower_bound": 0,
+      "full_12_bout_match_count_upper_bound": 2
+    }
+  },
+  "completed_chunk_seconds": 1768.5869671,
+  "peak_observed_private_bytes": 42450845696,
+  "peak_observed_working_set_bytes": 16500645888,
+  "incomplete_chunk": "chunk 2 stopped after proof of gate failure; no checkpoint",
+  "stop_action": "Only verified validation worker PID 46812 was terminated; launcher returned exit 1; user MATLAB PID 23860 untouched",
+  "raw_x1_missing_fraction": 0.0551973070527639,
+  "provenance": {
+    "recorded_utc": "2026-10-22T19:29:27.273054+00:00",
+    "protocol_sha256": "17738c5b8e9d360048d3e104f7da6ee83e65889fe159d6951c61bd8755e8e80f",
+    "execution_sha256": "0d4aab95a523e7e0f6af4033525b9585d2e6cff969239aca107003cff104f06b",
+    "original_protocol_sha256": "66f917261c42c1294d3744d61a76626d06d599e3a9d2151faef1951bfe707113",
+    "git_tag": "v1.0",
+    "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+    "stage": "conclusive reference-label failure from saved first chunk",
+    "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+    "seed": 0,
+    "source_checkpoint": "ec013.157_speed_chunk_01.mat",
+    "source_checkpoint_sha256": "b7eb08ad6e3aaf2f370d6b106a613e8205709f765007daee43be1067e96a0e88",
+    "historical_source": "behavior_reproduction.mat",
+    "historical_source_sha256": "c073167d359135f599c36aef9bca81410ba9fd9298e712441d488c65fe98e344",
+    "full_validation_complete": false,
+    "acceptance_threshold_percent": 95,
+    "settings": {
+      "chunk_samples": 331702,
+      "overlap_seconds": 20,
+      "internal_trim_seconds": 10,
+      "record_edge_trim_seconds": 2,
+      "tracking_fs_hz": 39.06,
+      "speed_threshold": 6,
+      "minimum_bout_seconds": 5,
+      "short_gap_limit_seconds": 0.5
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "base_tag": "v1.0",
+  "base_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+  "protocol_sha256": "6155f986f2427d2603472b6c87f1492aa8ed4cbc97338ca1b461455544be6059",
+  "request_sha256": "f3b47c47d747315a85d0c6c7f61aeaf509e93027be4b41390da62003d626b542",
+  "request_file": "C:\\Users\\nghare\\.codex\\attachments\\2b4f7cd7-11e9-4a76-a14d-93e254a7a50d\\Pasted text.txt",
+  "reference_change": "first function name only",
+  "heldout_generated": false,
+  "predeclared_unit_signal_seed": 20260618,
+  "heldout_seed": 20261022
+}

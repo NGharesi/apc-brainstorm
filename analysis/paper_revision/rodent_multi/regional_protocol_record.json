@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-10-22T20:35:11.074748+00:00",
+  "stage": "regional amendment before new regional analysis",
+  "git_tag": "v1.0",
+  "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+  "seed": 20261022,
+  "protocol_sha256": "0c38139e23561665a8ca3998f61fe74b6946abf25c89f2ff06ba5e7679161e67",
+  "execution_sha256": "3553cfd37813fa40429fd2cdcaa84cd543151082d9d7dff8076ff5cc87d615d2",
+  "supersedes": "chunked historical-speed gate and unrestricted channel selection",
+  "tracking_fs_hz": 39.0625
+}

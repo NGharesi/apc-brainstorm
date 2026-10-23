@@ -1,0 +1,22 @@
+{
+  "analysis_type": "POST HOC sensitivity: 2-s minimum bouts",
+  "post_hoc": true,
+  "deviations": [
+    {
+      "type": "resolved tooling service failure",
+      "detail": "The first escalated MATLAB launch was not executed because automatic approval review had reached its usage limit. After the user requested continuation, the same authorized launch passed automatic approval review. No approval check was bypassed and no method settings changed."
+    },
+    {
+      "type": "tooling MAT string decoding",
+      "detail": "The optional partial consistency-audit script could not decode MATLAB MCOS string metadata through scipy.io.loadmat. It now reads session/state/channel from checkpoint filenames, verifies numeric channel/bounds metadata, and uses the unchanged fixed metric order. No method result or computation changed; workers continued unaffected."
+    },
+    {
+      "type": "tooling process-monitor access",
+      "detail": "A read-only CIM process query was unavailable in the sandbox during mixed-model monitoring. Execution was monitored through the existing MATLAB session and log instead; no process or analysis setting was changed."
+    },
+    {
+      "type": "pre-existing MATLAB startup warnings",
+      "detail": "MATLAB startup reported missing historical Brainstorm directories. The frozen-method path assertions passed; no MATLAB installation or startup configuration was changed. Worker and mixed-model logs retain these warnings."
+    }
+  ]
+}

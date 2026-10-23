@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "recorded_utc": "2026-10-22T19:29:27.273054+00:00",
+    "protocol_sha256": "17738c5b8e9d360048d3e104f7da6ee83e65889fe159d6951c61bd8755e8e80f",
+    "execution_sha256": "0d4aab95a523e7e0f6af4033525b9585d2e6cff969239aca107003cff104f06b",
+    "original_protocol_sha256": "66f917261c42c1294d3744d61a76626d06d599e3a9d2151faef1951bfe707113",
+    "git_tag": "v1.0",
+    "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+    "stage": "conclusive reference-label failure from saved first chunk",
+    "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+    "seed": 0,
+    "source_checkpoint": "ec013.157_speed_chunk_01.mat",
+    "source_checkpoint_sha256": "b7eb08ad6e3aaf2f370d6b106a613e8205709f765007daee43be1067e96a0e88",
+    "historical_source": "behavior_reproduction.mat",
+    "historical_source_sha256": "c073167d359135f599c36aef9bca81410ba9fd9298e712441d488c65fe98e344",
+    "full_validation_complete": false,
+    "acceptance_threshold_percent": 95,
+    "settings": {
+      "chunk_samples": 331702,
+      "overlap_seconds": 20,
+      "internal_trim_seconds": 10,
+      "record_edge_trim_seconds": 2,
+      "tracking_fs_hz": 39.06,
+      "speed_threshold": 6,
+      "minimum_bout_seconds": 5,
+      "short_gap_limit_seconds": 0.5
+    }
+  },
+  "deviations": [
+    {
+      "type": "source path recovery",
+      "detail": "Requested ec013.157 data_block001.mat is absent. Local behavior_inter.mat/test supplies the exact full recording; full E1/Time and the entire 65-channel saved crop matched exactly. No input changed."
+    },
+    {
+      "type": "historical behavior limitation",
+      "detail": "Literal producer uses interpolated x1 only, no -1 sentinel handling, trenddecomp and threshold 6; no documented unit calibration. Exact historical gate passed."
+    },
+    {
+      "type": "startup tooling",
+      "detail": "MATLAB reports pre-existing missing Brainstorm startup directories. No installation or tagged code changed."
+    },
+    {
+      "type": "user-authorized amendments",
+      "detail": "Whole-recording interval, missing tracking, fixed-length chunks and >=95% gate were recorded before reference validation."
+    },
+    {
+      "type": "early computational termination",
+      "detail": "First chunk proves full-interval agreement <= 89.687097718% <95%; stopped second chunk and did not run third. Exact full percentage, unresolved endpoint matches and full gap-loss counts are not reported as known."
+    },
+    {
+      "type": "resource limitation",
+      "detail": "Fixed-length trenddecomp chunk still reached observed private allocation 42.451 GB on 32-GB host, with paging; no decomposition substitute used."
+    },
+    {
+      "type": "read-only tooling path correction",
+      "detail": "Initial SVD-source inspection tried matlab/matfun/svdsketch.m; located the installed file under matlab/sparfun/svdsketch.m. No analysis or settings changed."
+    }
+  ]
+}

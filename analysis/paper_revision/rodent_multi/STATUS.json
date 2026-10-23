@@ -1,0 +1,115 @@
+{
+  "status": "COMPLETE_REGIONAL_PLAN",
+  "metadata": {
+    "recorded_utc": "2026-10-22T20:35:11.074748+00:00",
+    "stage": "completed regional rodent report",
+    "git_tag": "v1.0",
+    "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+    "seed": 20261022,
+    "protocol_sha256": "0c38139e23561665a8ca3998f61fe74b6946abf25c89f2ff06ba5e7679161e67",
+    "execution_sha256": "3553cfd37813fa40429fd2cdcaa84cd543151082d9d7dff8076ff5cc87d615d2",
+    "supersedes": "chunked historical-speed gate and unrestricted channel selection",
+    "tracking_fs_hz": 39.0625,
+    "python": "3.12.14",
+    "numpy": "2.5.2",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+    "apc_options": {
+      "fA": [
+        80,
+        150
+      ],
+      "epoch": [
+        -0.6,
+        0.6
+      ],
+      "decomposition": "fft_peak",
+      "metric": "canolty",
+      "showPlots": false,
+      "useSurrogates": false,
+      "numPerm": 200,
+      "numPhaseBins": 18,
+      "burstTimeBandwidth": 5,
+      "phaseTimeBandwidth": 20,
+      "phaseEpochCycles": 3,
+      "minPhaseHz": 1,
+      "maxPhaseHz": 30,
+      "flipTroughs": true,
+      "burstProminenceScale": 0.75,
+      "surrogateMethod": "circular_shift",
+      "amplitudeBandWidthHz": 4,
+      "stepFourMode": "v1",
+      "fPRefine": true,
+      "fPMaxBinSpacingHz": 0.05
+    },
+    "comparators": {
+      "phase_grid": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12
+      ],
+      "phase_half_width": 1.5,
+      "amplitude_grid": [
+        80,
+        84,
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148
+      ],
+      "amplitude_half_width": 12,
+      "filter": "butter(4) zpk to SOS; filtfilt; pole and center gain guards",
+      "metrics": [
+        "MVL-raw",
+        "MVL-Ozkurt",
+        "KLMI",
+        "GLM"
+      ]
+    },
+    "frozen_source_sha256": {
+      "bst_apc.m": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9",
+      "calc_MI_all_methods.m": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+    },
+    "reported_behavior": "revised tracking-rate procedure only",
+    "historical_behavior_role": "archival 12/12 and requested descriptive overlap only"
+  },
+  "included_sessions": [
+    "ec013.156",
+    "ec013.157",
+    "ec013.375"
+  ],
+  "regional_analyses": [
+    "CA1",
+    "EC",
+    "E1_sensitivity"
+  ],
+  "method_rows": 1680,
+  "historical_speed_used_for_primary_results": false
+}

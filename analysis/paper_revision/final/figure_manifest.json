@@ -1,0 +1,2508 @@
+{
+  "metadata": {
+    "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+    "git_tag": "v1.0",
+    "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+    "frozen_files": [
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+        "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+        "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+      }
+    ],
+    "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+    "seed": 20261022.0,
+    "comparator_settings": {
+      "phase_grid_hz": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12
+      ],
+      "phase_half_width_hz": 1.5,
+      "amplitude_grid_hz": [
+        80,
+        84,
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148
+      ],
+      "amplitude_half_width_hz": 12,
+      "filter": "butter(4), filtfilt (8th-order bandpass)",
+      "metrics": [
+        "MVL-raw",
+        "MVL-Ozkurt",
+        "KLMI",
+        "GLM"
+      ],
+      "phase_bins": 18,
+      "selection": "independent full-grid maximum; first column-major tie",
+      "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+    },
+    "apc_options": {
+      "fA": [
+        80,
+        150
+      ],
+      "epoch": [
+        -0.6,
+        0.6
+      ],
+      "decomposition": "fft_peak",
+      "metric": "canolty",
+      "showPlots": false,
+      "useSurrogates": false,
+      "numPerm": 200,
+      "numPhaseBins": 18,
+      "burstTimeBandwidth": 5,
+      "phaseTimeBandwidth": 20,
+      "phaseEpochCycles": 3,
+      "minPhaseHz": 1,
+      "maxPhaseHz": 30,
+      "flipTroughs": true,
+      "burstProminenceScale": 0.75,
+      "surrogateMethod": "circular_shift",
+      "amplitudeBandWidthHz": 4,
+      "stepFourMode": "v1",
+      "fPRefine": true,
+      "fPMaxBinSpacingHz": 0.05
+    },
+    "correction": "SOS realization of the same fourth-order Butterworth prototype; no tagged code changes",
+    "filter_guard": {
+      "max_pole_radius": "<1 for zpk and each SOS section",
+      "absolute_center_gain_error": "<1e-3 at arithmetic midpoint of realized passband",
+      "failure": "stop"
+    },
+    "comparator_profiles": {
+      "heldout": {
+        "phase_grid": "3:0.5:14",
+        "amplitude_grid": "80:4:160",
+        "A2_prime_half_width": 14,
+        "A1_prime_half_width": "candidate fP"
+      },
+      "development": {
+        "phase_grid": "4:1:12 and 4:0.5:12 as originally run",
+        "amplitude_grid": "80:8:152",
+        "A0_half_width": 6,
+        "A1_half_width": "candidate fP",
+        "A2_half_width": 12
+      },
+      "rodent": {
+        "phase_grid_hz": [
+          4,
+          4.5,
+          5,
+          5.5,
+          6,
+          6.5,
+          7,
+          7.5,
+          8,
+          8.5,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          11.5,
+          12
+        ],
+        "phase_half_width_hz": 1.5,
+        "amplitude_grid_hz": [
+          80,
+          84,
+          88,
+          92,
+          96,
+          100,
+          104,
+          108,
+          112,
+          116,
+          120,
+          124,
+          128,
+          132,
+          136,
+          140,
+          144,
+          148
+        ],
+        "amplitude_half_width_hz": 12,
+        "filter": "butter(4), filtfilt (8th-order bandpass)",
+        "metrics": [
+          "MVL-raw",
+          "MVL-Ozkurt",
+          "KLMI",
+          "GLM"
+        ],
+        "phase_bins": 18,
+        "selection": "independent full-grid maximum; first column-major tie",
+        "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+      }
+    },
+    "analysis_sources": {
+      "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\final_sos_filter.m": "7134e5711485ff628a0dd980e722fc6e59205da43d17a80facdaa7724202743e",
+      "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\run_sos_correction.m": "be2f670101ed748b69402dc190f22545696574daa37208db89b80b12175feb6f",
+      "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\sos_comparators.m": "350562400dd5d24e3a6b3d8f8530d4c598286774d05440dc9679eb81acec69a7"
+    },
+    "canonical_generator": {
+      "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+      "git_tag": "v1.0",
+      "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+      "frozen_files": [
+        {
+          "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+          "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+        },
+        {
+          "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+          "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+        }
+      ],
+      "seed": 12345,
+      "poisson_seed": 20261022,
+      "generator": "apc_simulation_study.py",
+      "generator_sha256": "d44387ab8534c9c47364602ed02e97c3f1f792941d7ab282b3aa9a8148eac59e",
+      "parameters": {
+        "fs": 500.0,
+        "duration": 20.0,
+        "true_fp": 8.0,
+        "true_fa": 120.0,
+        "phase_offset_rad": -1.5707963267948966,
+        "burst_sigma_s": 0.03,
+        "burst_amp": 1.8,
+        "low_amp": 1.0,
+        "hf_base_amp": 0.15,
+        "noise_sd": 0.8,
+        "jitter_sd_s": 0.0,
+        "broad_fa_range": [
+          80.0,
+          150.0
+        ]
+      },
+      "jitter_sd_s": 0.02,
+      "poisson_rate_hz": 8,
+      "poisson_interval_s": [
+        0.5,
+        19.5
+      ],
+      "canonical_original_csv_reproduction": "all three retained conditions matched within 1e-14",
+      "timing_null_events": 174
+    },
+    "bootstrap": {
+      "seed": 20261022,
+      "resamples": 10000,
+      "sampling": "independent uniform bout resampling within each state; shared indices across methods/metrics",
+      "CI": "percentile 2.5/97.5",
+      "weighted": "resample bout values and durations together; normalize durations within each state",
+      "weighted_variance": "sum(p*(x-mean)^2)/(1-sum(p^2))",
+      "weighted_effective_n": "1/sum(p^2)",
+      "weighted_t": "Welch with unbiased weighted variances and Kish effective n",
+      "Hedges_g": "pooled SD; exact gamma correction J(df), df=n_run+n_rest-2, Kish n for weighted sensitivity"
+    }
+  },
+  "figures": [
+    {
+      "name": "Figure_1_workflow",
+      "title": "Figure 1. APC v1.0 canonical workflow",
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Figure_1_workflow.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Figure_1_workflow.svg",
+      "sources": [
+        "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\canonical_results_export_corrected.csv",
+        "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_traces.csv",
+        "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_spectrum.csv",
+        "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_fa_score.csv",
+        "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_tf.csv"
+      ],
+      "provenance": {
+        "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+        "git_tag": "v1.0",
+        "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+        "frozen_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+            "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+            "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+          }
+        ],
+        "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+        "seed": 20261022.0,
+        "comparator_settings": {
+          "phase_grid_hz": [
+            4,
+            4.5,
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5,
+            11,
+            11.5,
+            12
+          ],
+          "phase_half_width_hz": 1.5,
+          "amplitude_grid_hz": [
+            80,
+            84,
+            88,
+            92,
+            96,
+            100,
+            104,
+            108,
+            112,
+            116,
+            120,
+            124,
+            128,
+            132,
+            136,
+            140,
+            144,
+            148
+          ],
+          "amplitude_half_width_hz": 12,
+          "filter": "butter(4), filtfilt (8th-order bandpass)",
+          "metrics": [
+            "MVL-raw",
+            "MVL-Ozkurt",
+            "KLMI",
+            "GLM"
+          ],
+          "phase_bins": 18,
+          "selection": "independent full-grid maximum; first column-major tie",
+          "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+        },
+        "apc_options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "showPlots": false,
+          "useSurrogates": false,
+          "numPerm": 200,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "v1",
+          "fPRefine": true,
+          "fPMaxBinSpacingHz": 0.05
+        },
+        "correction": "SOS realization of the same fourth-order Butterworth prototype; no tagged code changes",
+        "filter_guard": {
+          "max_pole_radius": "<1 for zpk and each SOS section",
+          "absolute_center_gain_error": "<1e-3 at arithmetic midpoint of realized passband",
+          "failure": "stop"
+        },
+        "comparator_profiles": {
+          "heldout": {
+            "phase_grid": "3:0.5:14",
+            "amplitude_grid": "80:4:160",
+            "A2_prime_half_width": 14,
+            "A1_prime_half_width": "candidate fP"
+          },
+          "development": {
+            "phase_grid": "4:1:12 and 4:0.5:12 as originally run",
+            "amplitude_grid": "80:8:152",
+            "A0_half_width": 6,
+            "A1_half_width": "candidate fP",
+            "A2_half_width": 12
+          },
+          "rodent": {
+            "phase_grid_hz": [
+              4,
+              4.5,
+              5,
+              5.5,
+              6,
+              6.5,
+              7,
+              7.5,
+              8,
+              8.5,
+              9,
+              9.5,
+              10,
+              10.5,
+              11,
+              11.5,
+              12
+            ],
+            "phase_half_width_hz": 1.5,
+            "amplitude_grid_hz": [
+              80,
+              84,
+              88,
+              92,
+              96,
+              100,
+              104,
+              108,
+              112,
+              116,
+              120,
+              124,
+              128,
+              132,
+              136,
+              140,
+              144,
+              148
+            ],
+            "amplitude_half_width_hz": 12,
+            "filter": "butter(4), filtfilt (8th-order bandpass)",
+            "metrics": [
+              "MVL-raw",
+              "MVL-Ozkurt",
+              "KLMI",
+              "GLM"
+            ],
+            "phase_bins": 18,
+            "selection": "independent full-grid maximum; first column-major tie",
+            "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+          }
+        },
+        "analysis_sources": {
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\final_sos_filter.m": "7134e5711485ff628a0dd980e722fc6e59205da43d17a80facdaa7724202743e",
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\run_sos_correction.m": "be2f670101ed748b69402dc190f22545696574daa37208db89b80b12175feb6f",
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\sos_comparators.m": "350562400dd5d24e3a6b3d8f8530d4c598286774d05440dc9679eb81acec69a7"
+        },
+        "canonical_generator": {
+          "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+          "git_tag": "v1.0",
+          "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+          "frozen_files": [
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+              "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+            },
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+              "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+            }
+          ],
+          "seed": 12345,
+          "poisson_seed": 20261022,
+          "generator": "apc_simulation_study.py",
+          "generator_sha256": "d44387ab8534c9c47364602ed02e97c3f1f792941d7ab282b3aa9a8148eac59e",
+          "parameters": {
+            "fs": 500.0,
+            "duration": 20.0,
+            "true_fp": 8.0,
+            "true_fa": 120.0,
+            "phase_offset_rad": -1.5707963267948966,
+            "burst_sigma_s": 0.03,
+            "burst_amp": 1.8,
+            "low_amp": 1.0,
+            "hf_base_amp": 0.15,
+            "noise_sd": 0.8,
+            "jitter_sd_s": 0.0,
+            "broad_fa_range": [
+              80.0,
+              150.0
+            ]
+          },
+          "jitter_sd_s": 0.02,
+          "poisson_rate_hz": 8,
+          "poisson_interval_s": [
+            0.5,
+            19.5
+          ],
+          "canonical_original_csv_reproduction": "all three retained conditions matched within 1e-14",
+          "timing_null_events": 174
+        },
+        "bootstrap": {
+          "seed": 20261022,
+          "resamples": 10000,
+          "sampling": "independent uniform bout resampling within each state; shared indices across methods/metrics",
+          "CI": "percentile 2.5/97.5",
+          "weighted": "resample bout values and durations together; normalize durations within each state",
+          "weighted_variance": "sum(p*(x-mean)^2)/(1-sum(p^2))",
+          "weighted_effective_n": "1/sum(p^2)",
+          "weighted_t": "Welch with unbiased weighted variances and Kish effective n",
+          "Hedges_g": "pooled SD; exact gamma correction J(df), df=n_run+n_rest-2, Kish n for weighted sensitivity"
+        },
+        "source_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\canonical_results_export_corrected.csv",
+            "sha256": "74ac0be30564d8cf60dddeff016777046e5b480ae50091e3cc8832adb7704212"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_traces.csv",
+            "sha256": "cf2a9393a0d7726d210844671800f8ca37fa22c1ad84ad58384bf6aaa025b748"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_spectrum.csv",
+            "sha256": "cf0494522e9a30fbddb795f55879de8fc8464ea5680ad5df06a165a52039da12"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_fa_score.csv",
+            "sha256": "eb207d4763b49625f796d447b7bf4c572a3a852d56740f7a2fb9507b03f4437e"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_tf.csv",
+            "sha256": "57d9e64a18d37a47133bd553a617f5694725f53df3b25ba9a472300ea2a3cc9f"
+          }
+        ],
+        "heldout_evaluation_commit": "217fd8373759150cdeffe794d231a7cec2225f38"
+      }
+    },
+    {
+      "name": "Figure_2_canonical_conditions",
+      "title": "Figure 2. Four canonical conditions analyzed with frozen APC v1.0",
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Figure_2_canonical_conditions.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Figure_2_canonical_conditions.svg",
+      "sources": [
+        "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\canonical_results_export_corrected.csv",
+        "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_traces.csv",
+        "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\timing_null_traces.csv",
+        "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\jittered_traces.csv",
+        "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\continuous_pac_traces.csv"
+      ],
+      "provenance": {
+        "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+        "git_tag": "v1.0",
+        "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+        "frozen_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+            "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+            "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+          }
+        ],
+        "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+        "seed": 20261022.0,
+        "comparator_settings": {
+          "phase_grid_hz": [
+            4,
+            4.5,
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5,
+            11,
+            11.5,
+            12
+          ],
+          "phase_half_width_hz": 1.5,
+          "amplitude_grid_hz": [
+            80,
+            84,
+            88,
+            92,
+            96,
+            100,
+            104,
+            108,
+            112,
+            116,
+            120,
+            124,
+            128,
+            132,
+            136,
+            140,
+            144,
+            148
+          ],
+          "amplitude_half_width_hz": 12,
+          "filter": "butter(4), filtfilt (8th-order bandpass)",
+          "metrics": [
+            "MVL-raw",
+            "MVL-Ozkurt",
+            "KLMI",
+            "GLM"
+          ],
+          "phase_bins": 18,
+          "selection": "independent full-grid maximum; first column-major tie",
+          "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+        },
+        "apc_options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "showPlots": false,
+          "useSurrogates": false,
+          "numPerm": 200,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "v1",
+          "fPRefine": true,
+          "fPMaxBinSpacingHz": 0.05
+        },
+        "correction": "SOS realization of the same fourth-order Butterworth prototype; no tagged code changes",
+        "filter_guard": {
+          "max_pole_radius": "<1 for zpk and each SOS section",
+          "absolute_center_gain_error": "<1e-3 at arithmetic midpoint of realized passband",
+          "failure": "stop"
+        },
+        "comparator_profiles": {
+          "heldout": {
+            "phase_grid": "3:0.5:14",
+            "amplitude_grid": "80:4:160",
+            "A2_prime_half_width": 14,
+            "A1_prime_half_width": "candidate fP"
+          },
+          "development": {
+            "phase_grid": "4:1:12 and 4:0.5:12 as originally run",
+            "amplitude_grid": "80:8:152",
+            "A0_half_width": 6,
+            "A1_half_width": "candidate fP",
+            "A2_half_width": 12
+          },
+          "rodent": {
+            "phase_grid_hz": [
+              4,
+              4.5,
+              5,
+              5.5,
+              6,
+              6.5,
+              7,
+              7.5,
+              8,
+              8.5,
+              9,
+              9.5,
+              10,
+              10.5,
+              11,
+              11.5,
+              12
+            ],
+            "phase_half_width_hz": 1.5,
+            "amplitude_grid_hz": [
+              80,
+              84,
+              88,
+              92,
+              96,
+              100,
+              104,
+              108,
+              112,
+              116,
+              120,
+              124,
+              128,
+              132,
+              136,
+              140,
+              144,
+              148
+            ],
+            "amplitude_half_width_hz": 12,
+            "filter": "butter(4), filtfilt (8th-order bandpass)",
+            "metrics": [
+              "MVL-raw",
+              "MVL-Ozkurt",
+              "KLMI",
+              "GLM"
+            ],
+            "phase_bins": 18,
+            "selection": "independent full-grid maximum; first column-major tie",
+            "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+          }
+        },
+        "analysis_sources": {
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\final_sos_filter.m": "7134e5711485ff628a0dd980e722fc6e59205da43d17a80facdaa7724202743e",
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\run_sos_correction.m": "be2f670101ed748b69402dc190f22545696574daa37208db89b80b12175feb6f",
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\sos_comparators.m": "350562400dd5d24e3a6b3d8f8530d4c598286774d05440dc9679eb81acec69a7"
+        },
+        "canonical_generator": {
+          "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+          "git_tag": "v1.0",
+          "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+          "frozen_files": [
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+              "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+            },
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+              "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+            }
+          ],
+          "seed": 12345,
+          "poisson_seed": 20261022,
+          "generator": "apc_simulation_study.py",
+          "generator_sha256": "d44387ab8534c9c47364602ed02e97c3f1f792941d7ab282b3aa9a8148eac59e",
+          "parameters": {
+            "fs": 500.0,
+            "duration": 20.0,
+            "true_fp": 8.0,
+            "true_fa": 120.0,
+            "phase_offset_rad": -1.5707963267948966,
+            "burst_sigma_s": 0.03,
+            "burst_amp": 1.8,
+            "low_amp": 1.0,
+            "hf_base_amp": 0.15,
+            "noise_sd": 0.8,
+            "jitter_sd_s": 0.0,
+            "broad_fa_range": [
+              80.0,
+              150.0
+            ]
+          },
+          "jitter_sd_s": 0.02,
+          "poisson_rate_hz": 8,
+          "poisson_interval_s": [
+            0.5,
+            19.5
+          ],
+          "canonical_original_csv_reproduction": "all three retained conditions matched within 1e-14",
+          "timing_null_events": 174
+        },
+        "bootstrap": {
+          "seed": 20261022,
+          "resamples": 10000,
+          "sampling": "independent uniform bout resampling within each state; shared indices across methods/metrics",
+          "CI": "percentile 2.5/97.5",
+          "weighted": "resample bout values and durations together; normalize durations within each state",
+          "weighted_variance": "sum(p*(x-mean)^2)/(1-sum(p^2))",
+          "weighted_effective_n": "1/sum(p^2)",
+          "weighted_t": "Welch with unbiased weighted variances and Kish effective n",
+          "Hedges_g": "pooled SD; exact gamma correction J(df), df=n_run+n_rest-2, Kish n for weighted sensitivity"
+        },
+        "source_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\canonical_results_export_corrected.csv",
+            "sha256": "74ac0be30564d8cf60dddeff016777046e5b480ae50091e3cc8832adb7704212"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_traces.csv",
+            "sha256": "cf2a9393a0d7726d210844671800f8ca37fa22c1ad84ad58384bf6aaa025b748"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\timing_null_traces.csv",
+            "sha256": "e1050c721711ccafcbf3a156c2a4f65d60a584b27751b178fbb340d503844207"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\jittered_traces.csv",
+            "sha256": "3d155d96fc133be4de050c3cba678564ca9a0a9d9b152883f206be442c26abf7"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\continuous_pac_traces.csv",
+            "sha256": "05d22889cd67f7cfb11cc3f8e8271d01d7252cf59d6c7c605e3ff75d57fc6632"
+          }
+        ],
+        "heldout_evaluation_commit": "217fd8373759150cdeffe794d231a7cec2225f38"
+      }
+    },
+    {
+      "name": "Figure_3_H1_recovery",
+      "title": "Figure 3. Held-out H1 recovery: APC v1.0 and A2\u2032",
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Figure_3_H1_recovery.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Figure_3_H1_recovery.svg",
+      "sources": [
+        "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\heldout_v1_A2_recovery.csv"
+      ],
+      "provenance": {
+        "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+        "git_tag": "v1.0",
+        "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+        "frozen_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+            "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+            "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+          }
+        ],
+        "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+        "seed": 20261022.0,
+        "comparator_settings": {
+          "phase_grid_hz": [
+            4,
+            4.5,
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5,
+            11,
+            11.5,
+            12
+          ],
+          "phase_half_width_hz": 1.5,
+          "amplitude_grid_hz": [
+            80,
+            84,
+            88,
+            92,
+            96,
+            100,
+            104,
+            108,
+            112,
+            116,
+            120,
+            124,
+            128,
+            132,
+            136,
+            140,
+            144,
+            148
+          ],
+          "amplitude_half_width_hz": 12,
+          "filter": "butter(4), filtfilt (8th-order bandpass)",
+          "metrics": [
+            "MVL-raw",
+            "MVL-Ozkurt",
+            "KLMI",
+            "GLM"
+          ],
+          "phase_bins": 18,
+          "selection": "independent full-grid maximum; first column-major tie",
+          "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+        },
+        "apc_options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "showPlots": false,
+          "useSurrogates": false,
+          "numPerm": 200,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "v1",
+          "fPRefine": true,
+          "fPMaxBinSpacingHz": 0.05
+        },
+        "correction": "SOS realization of the same fourth-order Butterworth prototype; no tagged code changes",
+        "filter_guard": {
+          "max_pole_radius": "<1 for zpk and each SOS section",
+          "absolute_center_gain_error": "<1e-3 at arithmetic midpoint of realized passband",
+          "failure": "stop"
+        },
+        "comparator_profiles": {
+          "heldout": {
+            "phase_grid": "3:0.5:14",
+            "amplitude_grid": "80:4:160",
+            "A2_prime_half_width": 14,
+            "A1_prime_half_width": "candidate fP"
+          },
+          "development": {
+            "phase_grid": "4:1:12 and 4:0.5:12 as originally run",
+            "amplitude_grid": "80:8:152",
+            "A0_half_width": 6,
+            "A1_half_width": "candidate fP",
+            "A2_half_width": 12
+          },
+          "rodent": {
+            "phase_grid_hz": [
+              4,
+              4.5,
+              5,
+              5.5,
+              6,
+              6.5,
+              7,
+              7.5,
+              8,
+              8.5,
+              9,
+              9.5,
+              10,
+              10.5,
+              11,
+              11.5,
+              12
+            ],
+            "phase_half_width_hz": 1.5,
+            "amplitude_grid_hz": [
+              80,
+              84,
+              88,
+              92,
+              96,
+              100,
+              104,
+              108,
+              112,
+              116,
+              120,
+              124,
+              128,
+              132,
+              136,
+              140,
+              144,
+              148
+            ],
+            "amplitude_half_width_hz": 12,
+            "filter": "butter(4), filtfilt (8th-order bandpass)",
+            "metrics": [
+              "MVL-raw",
+              "MVL-Ozkurt",
+              "KLMI",
+              "GLM"
+            ],
+            "phase_bins": 18,
+            "selection": "independent full-grid maximum; first column-major tie",
+            "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+          }
+        },
+        "analysis_sources": {
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\final_sos_filter.m": "7134e5711485ff628a0dd980e722fc6e59205da43d17a80facdaa7724202743e",
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\run_sos_correction.m": "be2f670101ed748b69402dc190f22545696574daa37208db89b80b12175feb6f",
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\sos_comparators.m": "350562400dd5d24e3a6b3d8f8530d4c598286774d05440dc9679eb81acec69a7"
+        },
+        "canonical_generator": {
+          "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+          "git_tag": "v1.0",
+          "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+          "frozen_files": [
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+              "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+            },
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+              "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+            }
+          ],
+          "seed": 12345,
+          "poisson_seed": 20261022,
+          "generator": "apc_simulation_study.py",
+          "generator_sha256": "d44387ab8534c9c47364602ed02e97c3f1f792941d7ab282b3aa9a8148eac59e",
+          "parameters": {
+            "fs": 500.0,
+            "duration": 20.0,
+            "true_fp": 8.0,
+            "true_fa": 120.0,
+            "phase_offset_rad": -1.5707963267948966,
+            "burst_sigma_s": 0.03,
+            "burst_amp": 1.8,
+            "low_amp": 1.0,
+            "hf_base_amp": 0.15,
+            "noise_sd": 0.8,
+            "jitter_sd_s": 0.0,
+            "broad_fa_range": [
+              80.0,
+              150.0
+            ]
+          },
+          "jitter_sd_s": 0.02,
+          "poisson_rate_hz": 8,
+          "poisson_interval_s": [
+            0.5,
+            19.5
+          ],
+          "canonical_original_csv_reproduction": "all three retained conditions matched within 1e-14",
+          "timing_null_events": 174
+        },
+        "bootstrap": {
+          "seed": 20261022,
+          "resamples": 10000,
+          "sampling": "independent uniform bout resampling within each state; shared indices across methods/metrics",
+          "CI": "percentile 2.5/97.5",
+          "weighted": "resample bout values and durations together; normalize durations within each state",
+          "weighted_variance": "sum(p*(x-mean)^2)/(1-sum(p^2))",
+          "weighted_effective_n": "1/sum(p^2)",
+          "weighted_t": "Welch with unbiased weighted variances and Kish effective n",
+          "Hedges_g": "pooled SD; exact gamma correction J(df), df=n_run+n_rest-2, Kish n for weighted sensitivity"
+        },
+        "source_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\heldout_v1_A2_recovery.csv",
+            "sha256": "585ae4f81686b7acb96f2acfa34e6ae46e5c2eff680a7362f44a07e98c3d9e4f"
+          }
+        ],
+        "heldout_evaluation_commit": "217fd8373759150cdeffe794d231a7cec2225f38"
+      }
+    },
+    {
+      "name": "Figure_4_H2_recovery",
+      "title": "Figure 4. Held-out H2 recovery and distractor-frequency picks",
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Figure_4_H2_recovery.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Figure_4_H2_recovery.svg",
+      "sources": [
+        "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\heldout_v1_A2_recovery.csv"
+      ],
+      "provenance": {
+        "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+        "git_tag": "v1.0",
+        "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+        "frozen_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+            "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+            "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+          }
+        ],
+        "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+        "seed": 20261022.0,
+        "comparator_settings": {
+          "phase_grid_hz": [
+            4,
+            4.5,
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5,
+            11,
+            11.5,
+            12
+          ],
+          "phase_half_width_hz": 1.5,
+          "amplitude_grid_hz": [
+            80,
+            84,
+            88,
+            92,
+            96,
+            100,
+            104,
+            108,
+            112,
+            116,
+            120,
+            124,
+            128,
+            132,
+            136,
+            140,
+            144,
+            148
+          ],
+          "amplitude_half_width_hz": 12,
+          "filter": "butter(4), filtfilt (8th-order bandpass)",
+          "metrics": [
+            "MVL-raw",
+            "MVL-Ozkurt",
+            "KLMI",
+            "GLM"
+          ],
+          "phase_bins": 18,
+          "selection": "independent full-grid maximum; first column-major tie",
+          "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+        },
+        "apc_options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "showPlots": false,
+          "useSurrogates": false,
+          "numPerm": 200,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "v1",
+          "fPRefine": true,
+          "fPMaxBinSpacingHz": 0.05
+        },
+        "correction": "SOS realization of the same fourth-order Butterworth prototype; no tagged code changes",
+        "filter_guard": {
+          "max_pole_radius": "<1 for zpk and each SOS section",
+          "absolute_center_gain_error": "<1e-3 at arithmetic midpoint of realized passband",
+          "failure": "stop"
+        },
+        "comparator_profiles": {
+          "heldout": {
+            "phase_grid": "3:0.5:14",
+            "amplitude_grid": "80:4:160",
+            "A2_prime_half_width": 14,
+            "A1_prime_half_width": "candidate fP"
+          },
+          "development": {
+            "phase_grid": "4:1:12 and 4:0.5:12 as originally run",
+            "amplitude_grid": "80:8:152",
+            "A0_half_width": 6,
+            "A1_half_width": "candidate fP",
+            "A2_half_width": 12
+          },
+          "rodent": {
+            "phase_grid_hz": [
+              4,
+              4.5,
+              5,
+              5.5,
+              6,
+              6.5,
+              7,
+              7.5,
+              8,
+              8.5,
+              9,
+              9.5,
+              10,
+              10.5,
+              11,
+              11.5,
+              12
+            ],
+            "phase_half_width_hz": 1.5,
+            "amplitude_grid_hz": [
+              80,
+              84,
+              88,
+              92,
+              96,
+              100,
+              104,
+              108,
+              112,
+              116,
+              120,
+              124,
+              128,
+              132,
+              136,
+              140,
+              144,
+              148
+            ],
+            "amplitude_half_width_hz": 12,
+            "filter": "butter(4), filtfilt (8th-order bandpass)",
+            "metrics": [
+              "MVL-raw",
+              "MVL-Ozkurt",
+              "KLMI",
+              "GLM"
+            ],
+            "phase_bins": 18,
+            "selection": "independent full-grid maximum; first column-major tie",
+            "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+          }
+        },
+        "analysis_sources": {
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\final_sos_filter.m": "7134e5711485ff628a0dd980e722fc6e59205da43d17a80facdaa7724202743e",
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\run_sos_correction.m": "be2f670101ed748b69402dc190f22545696574daa37208db89b80b12175feb6f",
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\sos_comparators.m": "350562400dd5d24e3a6b3d8f8530d4c598286774d05440dc9679eb81acec69a7"
+        },
+        "canonical_generator": {
+          "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+          "git_tag": "v1.0",
+          "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+          "frozen_files": [
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+              "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+            },
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+              "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+            }
+          ],
+          "seed": 12345,
+          "poisson_seed": 20261022,
+          "generator": "apc_simulation_study.py",
+          "generator_sha256": "d44387ab8534c9c47364602ed02e97c3f1f792941d7ab282b3aa9a8148eac59e",
+          "parameters": {
+            "fs": 500.0,
+            "duration": 20.0,
+            "true_fp": 8.0,
+            "true_fa": 120.0,
+            "phase_offset_rad": -1.5707963267948966,
+            "burst_sigma_s": 0.03,
+            "burst_amp": 1.8,
+            "low_amp": 1.0,
+            "hf_base_amp": 0.15,
+            "noise_sd": 0.8,
+            "jitter_sd_s": 0.0,
+            "broad_fa_range": [
+              80.0,
+              150.0
+            ]
+          },
+          "jitter_sd_s": 0.02,
+          "poisson_rate_hz": 8,
+          "poisson_interval_s": [
+            0.5,
+            19.5
+          ],
+          "canonical_original_csv_reproduction": "all three retained conditions matched within 1e-14",
+          "timing_null_events": 174
+        },
+        "bootstrap": {
+          "seed": 20261022,
+          "resamples": 10000,
+          "sampling": "independent uniform bout resampling within each state; shared indices across methods/metrics",
+          "CI": "percentile 2.5/97.5",
+          "weighted": "resample bout values and durations together; normalize durations within each state",
+          "weighted_variance": "sum(p*(x-mean)^2)/(1-sum(p^2))",
+          "weighted_effective_n": "1/sum(p^2)",
+          "weighted_t": "Welch with unbiased weighted variances and Kish effective n",
+          "Hedges_g": "pooled SD; exact gamma correction J(df), df=n_run+n_rest-2, Kish n for weighted sensitivity"
+        },
+        "source_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\heldout_v1_A2_recovery.csv",
+            "sha256": "585ae4f81686b7acb96f2acfa34e6ae46e5c2eff680a7362f44a07e98c3d9e4f"
+          }
+        ],
+        "heldout_evaluation_commit": "217fd8373759150cdeffe794d231a7cec2225f38"
+      }
+    },
+    {
+      "name": "Figure_5_null_specificity",
+      "title": "Figure 5. Timing-null false recovery and score AUC",
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Figure_5_null_specificity.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Figure_5_null_specificity.svg",
+      "sources": [
+        "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\heldout_v1_A2_timing_null_auc.csv"
+      ],
+      "provenance": {
+        "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+        "git_tag": "v1.0",
+        "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+        "frozen_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+            "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+            "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+          }
+        ],
+        "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+        "seed": 20261022.0,
+        "comparator_settings": {
+          "phase_grid_hz": [
+            4,
+            4.5,
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5,
+            11,
+            11.5,
+            12
+          ],
+          "phase_half_width_hz": 1.5,
+          "amplitude_grid_hz": [
+            80,
+            84,
+            88,
+            92,
+            96,
+            100,
+            104,
+            108,
+            112,
+            116,
+            120,
+            124,
+            128,
+            132,
+            136,
+            140,
+            144,
+            148
+          ],
+          "amplitude_half_width_hz": 12,
+          "filter": "butter(4), filtfilt (8th-order bandpass)",
+          "metrics": [
+            "MVL-raw",
+            "MVL-Ozkurt",
+            "KLMI",
+            "GLM"
+          ],
+          "phase_bins": 18,
+          "selection": "independent full-grid maximum; first column-major tie",
+          "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+        },
+        "apc_options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "showPlots": false,
+          "useSurrogates": false,
+          "numPerm": 200,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "v1",
+          "fPRefine": true,
+          "fPMaxBinSpacingHz": 0.05
+        },
+        "correction": "SOS realization of the same fourth-order Butterworth prototype; no tagged code changes",
+        "filter_guard": {
+          "max_pole_radius": "<1 for zpk and each SOS section",
+          "absolute_center_gain_error": "<1e-3 at arithmetic midpoint of realized passband",
+          "failure": "stop"
+        },
+        "comparator_profiles": {
+          "heldout": {
+            "phase_grid": "3:0.5:14",
+            "amplitude_grid": "80:4:160",
+            "A2_prime_half_width": 14,
+            "A1_prime_half_width": "candidate fP"
+          },
+          "development": {
+            "phase_grid": "4:1:12 and 4:0.5:12 as originally run",
+            "amplitude_grid": "80:8:152",
+            "A0_half_width": 6,
+            "A1_half_width": "candidate fP",
+            "A2_half_width": 12
+          },
+          "rodent": {
+            "phase_grid_hz": [
+              4,
+              4.5,
+              5,
+              5.5,
+              6,
+              6.5,
+              7,
+              7.5,
+              8,
+              8.5,
+              9,
+              9.5,
+              10,
+              10.5,
+              11,
+              11.5,
+              12
+            ],
+            "phase_half_width_hz": 1.5,
+            "amplitude_grid_hz": [
+              80,
+              84,
+              88,
+              92,
+              96,
+              100,
+              104,
+              108,
+              112,
+              116,
+              120,
+              124,
+              128,
+              132,
+              136,
+              140,
+              144,
+              148
+            ],
+            "amplitude_half_width_hz": 12,
+            "filter": "butter(4), filtfilt (8th-order bandpass)",
+            "metrics": [
+              "MVL-raw",
+              "MVL-Ozkurt",
+              "KLMI",
+              "GLM"
+            ],
+            "phase_bins": 18,
+            "selection": "independent full-grid maximum; first column-major tie",
+            "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+          }
+        },
+        "analysis_sources": {
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\final_sos_filter.m": "7134e5711485ff628a0dd980e722fc6e59205da43d17a80facdaa7724202743e",
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\run_sos_correction.m": "be2f670101ed748b69402dc190f22545696574daa37208db89b80b12175feb6f",
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\sos_comparators.m": "350562400dd5d24e3a6b3d8f8530d4c598286774d05440dc9679eb81acec69a7"
+        },
+        "canonical_generator": {
+          "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+          "git_tag": "v1.0",
+          "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+          "frozen_files": [
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+              "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+            },
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+              "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+            }
+          ],
+          "seed": 12345,
+          "poisson_seed": 20261022,
+          "generator": "apc_simulation_study.py",
+          "generator_sha256": "d44387ab8534c9c47364602ed02e97c3f1f792941d7ab282b3aa9a8148eac59e",
+          "parameters": {
+            "fs": 500.0,
+            "duration": 20.0,
+            "true_fp": 8.0,
+            "true_fa": 120.0,
+            "phase_offset_rad": -1.5707963267948966,
+            "burst_sigma_s": 0.03,
+            "burst_amp": 1.8,
+            "low_amp": 1.0,
+            "hf_base_amp": 0.15,
+            "noise_sd": 0.8,
+            "jitter_sd_s": 0.0,
+            "broad_fa_range": [
+              80.0,
+              150.0
+            ]
+          },
+          "jitter_sd_s": 0.02,
+          "poisson_rate_hz": 8,
+          "poisson_interval_s": [
+            0.5,
+            19.5
+          ],
+          "canonical_original_csv_reproduction": "all three retained conditions matched within 1e-14",
+          "timing_null_events": 174
+        },
+        "bootstrap": {
+          "seed": 20261022,
+          "resamples": 10000,
+          "sampling": "independent uniform bout resampling within each state; shared indices across methods/metrics",
+          "CI": "percentile 2.5/97.5",
+          "weighted": "resample bout values and durations together; normalize durations within each state",
+          "weighted_variance": "sum(p*(x-mean)^2)/(1-sum(p^2))",
+          "weighted_effective_n": "1/sum(p^2)",
+          "weighted_t": "Welch with unbiased weighted variances and Kish effective n",
+          "Hedges_g": "pooled SD; exact gamma correction J(df), df=n_run+n_rest-2, Kish n for weighted sensitivity"
+        },
+        "source_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\heldout_v1_A2_timing_null_auc.csv",
+            "sha256": "1cc2cc9e2e8d584d13e52d11474cc408447b38e99c46a892e076c13835b8bf7e"
+          }
+        ],
+        "heldout_evaluation_commit": "217fd8373759150cdeffe794d231a7cec2225f38"
+      }
+    },
+    {
+      "name": "Supplement_S1_development_main",
+      "title": "Development suite: main, comparator fP step 1 Hz",
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Supplement_S1_development_main.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Supplement_S1_development_main.svg",
+      "sources": [
+        "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Supplement_S1_development_main_source.csv"
+      ],
+      "provenance": {
+        "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+        "git_tag": "v1.0",
+        "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+        "frozen_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+            "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+            "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+          }
+        ],
+        "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+        "seed": 20261022.0,
+        "comparator_settings": {
+          "phase_grid_hz": [
+            4,
+            4.5,
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5,
+            11,
+            11.5,
+            12
+          ],
+          "phase_half_width_hz": 1.5,
+          "amplitude_grid_hz": [
+            80,
+            84,
+            88,
+            92,
+            96,
+            100,
+            104,
+            108,
+            112,
+            116,
+            120,
+            124,
+            128,
+            132,
+            136,
+            140,
+            144,
+            148
+          ],
+          "amplitude_half_width_hz": 12,
+          "filter": "butter(4), filtfilt (8th-order bandpass)",
+          "metrics": [
+            "MVL-raw",
+            "MVL-Ozkurt",
+            "KLMI",
+            "GLM"
+          ],
+          "phase_bins": 18,
+          "selection": "independent full-grid maximum; first column-major tie",
+          "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+        },
+        "apc_options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "showPlots": false,
+          "useSurrogates": false,
+          "numPerm": 200,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "v1",
+          "fPRefine": true,
+          "fPMaxBinSpacingHz": 0.05
+        },
+        "correction": "SOS realization of the same fourth-order Butterworth prototype; no tagged code changes",
+        "filter_guard": {
+          "max_pole_radius": "<1 for zpk and each SOS section",
+          "absolute_center_gain_error": "<1e-3 at arithmetic midpoint of realized passband",
+          "failure": "stop"
+        },
+        "comparator_profiles": {
+          "heldout": {
+            "phase_grid": "3:0.5:14",
+            "amplitude_grid": "80:4:160",
+            "A2_prime_half_width": 14,
+            "A1_prime_half_width": "candidate fP"
+          },
+          "development": {
+            "phase_grid": "4:1:12 and 4:0.5:12 as originally run",
+            "amplitude_grid": "80:8:152",
+            "A0_half_width": 6,
+            "A1_half_width": "candidate fP",
+            "A2_half_width": 12
+          },
+          "rodent": {
+            "phase_grid_hz": [
+              4,
+              4.5,
+              5,
+              5.5,
+              6,
+              6.5,
+              7,
+              7.5,
+              8,
+              8.5,
+              9,
+              9.5,
+              10,
+              10.5,
+              11,
+              11.5,
+              12
+            ],
+            "phase_half_width_hz": 1.5,
+            "amplitude_grid_hz": [
+              80,
+              84,
+              88,
+              92,
+              96,
+              100,
+              104,
+              108,
+              112,
+              116,
+              120,
+              124,
+              128,
+              132,
+              136,
+              140,
+              144,
+              148
+            ],
+            "amplitude_half_width_hz": 12,
+            "filter": "butter(4), filtfilt (8th-order bandpass)",
+            "metrics": [
+              "MVL-raw",
+              "MVL-Ozkurt",
+              "KLMI",
+              "GLM"
+            ],
+            "phase_bins": 18,
+            "selection": "independent full-grid maximum; first column-major tie",
+            "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+          }
+        },
+        "analysis_sources": {
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\final_sos_filter.m": "7134e5711485ff628a0dd980e722fc6e59205da43d17a80facdaa7724202743e",
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\run_sos_correction.m": "be2f670101ed748b69402dc190f22545696574daa37208db89b80b12175feb6f",
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\sos_comparators.m": "350562400dd5d24e3a6b3d8f8530d4c598286774d05440dc9679eb81acec69a7"
+        },
+        "canonical_generator": {
+          "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+          "git_tag": "v1.0",
+          "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+          "frozen_files": [
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+              "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+            },
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+              "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+            }
+          ],
+          "seed": 12345,
+          "poisson_seed": 20261022,
+          "generator": "apc_simulation_study.py",
+          "generator_sha256": "d44387ab8534c9c47364602ed02e97c3f1f792941d7ab282b3aa9a8148eac59e",
+          "parameters": {
+            "fs": 500.0,
+            "duration": 20.0,
+            "true_fp": 8.0,
+            "true_fa": 120.0,
+            "phase_offset_rad": -1.5707963267948966,
+            "burst_sigma_s": 0.03,
+            "burst_amp": 1.8,
+            "low_amp": 1.0,
+            "hf_base_amp": 0.15,
+            "noise_sd": 0.8,
+            "jitter_sd_s": 0.0,
+            "broad_fa_range": [
+              80.0,
+              150.0
+            ]
+          },
+          "jitter_sd_s": 0.02,
+          "poisson_rate_hz": 8,
+          "poisson_interval_s": [
+            0.5,
+            19.5
+          ],
+          "canonical_original_csv_reproduction": "all three retained conditions matched within 1e-14",
+          "timing_null_events": 174
+        },
+        "bootstrap": {
+          "seed": 20261022,
+          "resamples": 10000,
+          "sampling": "independent uniform bout resampling within each state; shared indices across methods/metrics",
+          "CI": "percentile 2.5/97.5",
+          "weighted": "resample bout values and durations together; normalize durations within each state",
+          "weighted_variance": "sum(p*(x-mean)^2)/(1-sum(p^2))",
+          "weighted_effective_n": "1/sum(p^2)",
+          "weighted_t": "Welch with unbiased weighted variances and Kish effective n",
+          "Hedges_g": "pooled SD; exact gamma correction J(df), df=n_run+n_rest-2, Kish n for weighted sensitivity"
+        },
+        "source_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Supplement_S1_development_main_source.csv",
+            "sha256": "08dc05d73353bd3eea0bb9db5084638ce244c48dde754096d88451aeaa3b0111"
+          }
+        ],
+        "heldout_evaluation_commit": "217fd8373759150cdeffe794d231a7cec2225f38"
+      }
+    },
+    {
+      "name": "Supplement_S2_development_random_1Hz",
+      "title": "Development suite: random fp, comparator fP step 1 Hz",
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Supplement_S2_development_random_1Hz.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Supplement_S2_development_random_1Hz.svg",
+      "sources": [
+        "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Supplement_S2_development_random_1Hz_source.csv"
+      ],
+      "provenance": {
+        "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+        "git_tag": "v1.0",
+        "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+        "frozen_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+            "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+            "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+          }
+        ],
+        "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+        "seed": 20261022.0,
+        "comparator_settings": {
+          "phase_grid_hz": [
+            4,
+            4.5,
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5,
+            11,
+            11.5,
+            12
+          ],
+          "phase_half_width_hz": 1.5,
+          "amplitude_grid_hz": [
+            80,
+            84,
+            88,
+            92,
+            96,
+            100,
+            104,
+            108,
+            112,
+            116,
+            120,
+            124,
+            128,
+            132,
+            136,
+            140,
+            144,
+            148
+          ],
+          "amplitude_half_width_hz": 12,
+          "filter": "butter(4), filtfilt (8th-order bandpass)",
+          "metrics": [
+            "MVL-raw",
+            "MVL-Ozkurt",
+            "KLMI",
+            "GLM"
+          ],
+          "phase_bins": 18,
+          "selection": "independent full-grid maximum; first column-major tie",
+          "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+        },
+        "apc_options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "showPlots": false,
+          "useSurrogates": false,
+          "numPerm": 200,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "v1",
+          "fPRefine": true,
+          "fPMaxBinSpacingHz": 0.05
+        },
+        "correction": "SOS realization of the same fourth-order Butterworth prototype; no tagged code changes",
+        "filter_guard": {
+          "max_pole_radius": "<1 for zpk and each SOS section",
+          "absolute_center_gain_error": "<1e-3 at arithmetic midpoint of realized passband",
+          "failure": "stop"
+        },
+        "comparator_profiles": {
+          "heldout": {
+            "phase_grid": "3:0.5:14",
+            "amplitude_grid": "80:4:160",
+            "A2_prime_half_width": 14,
+            "A1_prime_half_width": "candidate fP"
+          },
+          "development": {
+            "phase_grid": "4:1:12 and 4:0.5:12 as originally run",
+            "amplitude_grid": "80:8:152",
+            "A0_half_width": 6,
+            "A1_half_width": "candidate fP",
+            "A2_half_width": 12
+          },
+          "rodent": {
+            "phase_grid_hz": [
+              4,
+              4.5,
+              5,
+              5.5,
+              6,
+              6.5,
+              7,
+              7.5,
+              8,
+              8.5,
+              9,
+              9.5,
+              10,
+              10.5,
+              11,
+              11.5,
+              12
+            ],
+            "phase_half_width_hz": 1.5,
+            "amplitude_grid_hz": [
+              80,
+              84,
+              88,
+              92,
+              96,
+              100,
+              104,
+              108,
+              112,
+              116,
+              120,
+              124,
+              128,
+              132,
+              136,
+              140,
+              144,
+              148
+            ],
+            "amplitude_half_width_hz": 12,
+            "filter": "butter(4), filtfilt (8th-order bandpass)",
+            "metrics": [
+              "MVL-raw",
+              "MVL-Ozkurt",
+              "KLMI",
+              "GLM"
+            ],
+            "phase_bins": 18,
+            "selection": "independent full-grid maximum; first column-major tie",
+            "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+          }
+        },
+        "analysis_sources": {
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\final_sos_filter.m": "7134e5711485ff628a0dd980e722fc6e59205da43d17a80facdaa7724202743e",
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\run_sos_correction.m": "be2f670101ed748b69402dc190f22545696574daa37208db89b80b12175feb6f",
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\sos_comparators.m": "350562400dd5d24e3a6b3d8f8530d4c598286774d05440dc9679eb81acec69a7"
+        },
+        "canonical_generator": {
+          "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+          "git_tag": "v1.0",
+          "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+          "frozen_files": [
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+              "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+            },
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+              "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+            }
+          ],
+          "seed": 12345,
+          "poisson_seed": 20261022,
+          "generator": "apc_simulation_study.py",
+          "generator_sha256": "d44387ab8534c9c47364602ed02e97c3f1f792941d7ab282b3aa9a8148eac59e",
+          "parameters": {
+            "fs": 500.0,
+            "duration": 20.0,
+            "true_fp": 8.0,
+            "true_fa": 120.0,
+            "phase_offset_rad": -1.5707963267948966,
+            "burst_sigma_s": 0.03,
+            "burst_amp": 1.8,
+            "low_amp": 1.0,
+            "hf_base_amp": 0.15,
+            "noise_sd": 0.8,
+            "jitter_sd_s": 0.0,
+            "broad_fa_range": [
+              80.0,
+              150.0
+            ]
+          },
+          "jitter_sd_s": 0.02,
+          "poisson_rate_hz": 8,
+          "poisson_interval_s": [
+            0.5,
+            19.5
+          ],
+          "canonical_original_csv_reproduction": "all three retained conditions matched within 1e-14",
+          "timing_null_events": 174
+        },
+        "bootstrap": {
+          "seed": 20261022,
+          "resamples": 10000,
+          "sampling": "independent uniform bout resampling within each state; shared indices across methods/metrics",
+          "CI": "percentile 2.5/97.5",
+          "weighted": "resample bout values and durations together; normalize durations within each state",
+          "weighted_variance": "sum(p*(x-mean)^2)/(1-sum(p^2))",
+          "weighted_effective_n": "1/sum(p^2)",
+          "weighted_t": "Welch with unbiased weighted variances and Kish effective n",
+          "Hedges_g": "pooled SD; exact gamma correction J(df), df=n_run+n_rest-2, Kish n for weighted sensitivity"
+        },
+        "source_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Supplement_S2_development_random_1Hz_source.csv",
+            "sha256": "d10a9b625f05577c2243977c5d91a3061e34181ebc2d4a1189cc7440b5afd364"
+          }
+        ],
+        "heldout_evaluation_commit": "217fd8373759150cdeffe794d231a7cec2225f38"
+      }
+    },
+    {
+      "name": "Supplement_S3_development_random_05Hz",
+      "title": "Development suite: random fp, comparator fP step 0.5 Hz",
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Supplement_S3_development_random_05Hz.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Supplement_S3_development_random_05Hz.svg",
+      "sources": [
+        "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Supplement_S3_development_random_05Hz_source.csv"
+      ],
+      "provenance": {
+        "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+        "git_tag": "v1.0",
+        "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+        "frozen_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+            "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+            "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+          }
+        ],
+        "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+        "seed": 20261022.0,
+        "comparator_settings": {
+          "phase_grid_hz": [
+            4,
+            4.5,
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5,
+            11,
+            11.5,
+            12
+          ],
+          "phase_half_width_hz": 1.5,
+          "amplitude_grid_hz": [
+            80,
+            84,
+            88,
+            92,
+            96,
+            100,
+            104,
+            108,
+            112,
+            116,
+            120,
+            124,
+            128,
+            132,
+            136,
+            140,
+            144,
+            148
+          ],
+          "amplitude_half_width_hz": 12,
+          "filter": "butter(4), filtfilt (8th-order bandpass)",
+          "metrics": [
+            "MVL-raw",
+            "MVL-Ozkurt",
+            "KLMI",
+            "GLM"
+          ],
+          "phase_bins": 18,
+          "selection": "independent full-grid maximum; first column-major tie",
+          "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+        },
+        "apc_options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "showPlots": false,
+          "useSurrogates": false,
+          "numPerm": 200,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "v1",
+          "fPRefine": true,
+          "fPMaxBinSpacingHz": 0.05
+        },
+        "correction": "SOS realization of the same fourth-order Butterworth prototype; no tagged code changes",
+        "filter_guard": {
+          "max_pole_radius": "<1 for zpk and each SOS section",
+          "absolute_center_gain_error": "<1e-3 at arithmetic midpoint of realized passband",
+          "failure": "stop"
+        },
+        "comparator_profiles": {
+          "heldout": {
+            "phase_grid": "3:0.5:14",
+            "amplitude_grid": "80:4:160",
+            "A2_prime_half_width": 14,
+            "A1_prime_half_width": "candidate fP"
+          },
+          "development": {
+            "phase_grid": "4:1:12 and 4:0.5:12 as originally run",
+            "amplitude_grid": "80:8:152",
+            "A0_half_width": 6,
+            "A1_half_width": "candidate fP",
+            "A2_half_width": 12
+          },
+          "rodent": {
+            "phase_grid_hz": [
+              4,
+              4.5,
+              5,
+              5.5,
+              6,
+              6.5,
+              7,
+              7.5,
+              8,
+              8.5,
+              9,
+              9.5,
+              10,
+              10.5,
+              11,
+              11.5,
+              12
+            ],
+            "phase_half_width_hz": 1.5,
+            "amplitude_grid_hz": [
+              80,
+              84,
+              88,
+              92,
+              96,
+              100,
+              104,
+              108,
+              112,
+              116,
+              120,
+              124,
+              128,
+              132,
+              136,
+              140,
+              144,
+              148
+            ],
+            "amplitude_half_width_hz": 12,
+            "filter": "butter(4), filtfilt (8th-order bandpass)",
+            "metrics": [
+              "MVL-raw",
+              "MVL-Ozkurt",
+              "KLMI",
+              "GLM"
+            ],
+            "phase_bins": 18,
+            "selection": "independent full-grid maximum; first column-major tie",
+            "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+          }
+        },
+        "analysis_sources": {
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\final_sos_filter.m": "7134e5711485ff628a0dd980e722fc6e59205da43d17a80facdaa7724202743e",
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\run_sos_correction.m": "be2f670101ed748b69402dc190f22545696574daa37208db89b80b12175feb6f",
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\sos_comparators.m": "350562400dd5d24e3a6b3d8f8530d4c598286774d05440dc9679eb81acec69a7"
+        },
+        "canonical_generator": {
+          "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+          "git_tag": "v1.0",
+          "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+          "frozen_files": [
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+              "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+            },
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+              "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+            }
+          ],
+          "seed": 12345,
+          "poisson_seed": 20261022,
+          "generator": "apc_simulation_study.py",
+          "generator_sha256": "d44387ab8534c9c47364602ed02e97c3f1f792941d7ab282b3aa9a8148eac59e",
+          "parameters": {
+            "fs": 500.0,
+            "duration": 20.0,
+            "true_fp": 8.0,
+            "true_fa": 120.0,
+            "phase_offset_rad": -1.5707963267948966,
+            "burst_sigma_s": 0.03,
+            "burst_amp": 1.8,
+            "low_amp": 1.0,
+            "hf_base_amp": 0.15,
+            "noise_sd": 0.8,
+            "jitter_sd_s": 0.0,
+            "broad_fa_range": [
+              80.0,
+              150.0
+            ]
+          },
+          "jitter_sd_s": 0.02,
+          "poisson_rate_hz": 8,
+          "poisson_interval_s": [
+            0.5,
+            19.5
+          ],
+          "canonical_original_csv_reproduction": "all three retained conditions matched within 1e-14",
+          "timing_null_events": 174
+        },
+        "bootstrap": {
+          "seed": 20261022,
+          "resamples": 10000,
+          "sampling": "independent uniform bout resampling within each state; shared indices across methods/metrics",
+          "CI": "percentile 2.5/97.5",
+          "weighted": "resample bout values and durations together; normalize durations within each state",
+          "weighted_variance": "sum(p*(x-mean)^2)/(1-sum(p^2))",
+          "weighted_effective_n": "1/sum(p^2)",
+          "weighted_t": "Welch with unbiased weighted variances and Kish effective n",
+          "Hedges_g": "pooled SD; exact gamma correction J(df), df=n_run+n_rest-2, Kish n for weighted sensitivity"
+        },
+        "source_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Supplement_S3_development_random_05Hz_source.csv",
+            "sha256": "f3c19bcf7693822c688eb1fd5a82829a066947d6a1f8067ae48a5fb787986a50"
+          }
+        ],
+        "heldout_evaluation_commit": "217fd8373759150cdeffe794d231a7cec2225f38"
+      }
+    },
+    {
+      "name": "Supplement_S4_v2_negative",
+      "title": "APC v2.0 held-out recovery \u2014 negative result",
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Supplement_S4_v2_negative.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Supplement_S4_v2_negative.svg",
+      "sources": [
+        "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\heldout_v2_negative_recovery.csv"
+      ],
+      "provenance": {
+        "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+        "git_tag": "v1.0",
+        "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+        "frozen_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+            "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+            "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+          }
+        ],
+        "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+        "seed": 20261022.0,
+        "comparator_settings": {
+          "phase_grid_hz": [
+            4,
+            4.5,
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5,
+            11,
+            11.5,
+            12
+          ],
+          "phase_half_width_hz": 1.5,
+          "amplitude_grid_hz": [
+            80,
+            84,
+            88,
+            92,
+            96,
+            100,
+            104,
+            108,
+            112,
+            116,
+            120,
+            124,
+            128,
+            132,
+            136,
+            140,
+            144,
+            148
+          ],
+          "amplitude_half_width_hz": 12,
+          "filter": "butter(4), filtfilt (8th-order bandpass)",
+          "metrics": [
+            "MVL-raw",
+            "MVL-Ozkurt",
+            "KLMI",
+            "GLM"
+          ],
+          "phase_bins": 18,
+          "selection": "independent full-grid maximum; first column-major tie",
+          "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+        },
+        "apc_options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "showPlots": false,
+          "useSurrogates": false,
+          "numPerm": 200,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "v1",
+          "fPRefine": true,
+          "fPMaxBinSpacingHz": 0.05
+        },
+        "correction": "SOS realization of the same fourth-order Butterworth prototype; no tagged code changes",
+        "filter_guard": {
+          "max_pole_radius": "<1 for zpk and each SOS section",
+          "absolute_center_gain_error": "<1e-3 at arithmetic midpoint of realized passband",
+          "failure": "stop"
+        },
+        "comparator_profiles": {
+          "heldout": {
+            "phase_grid": "3:0.5:14",
+            "amplitude_grid": "80:4:160",
+            "A2_prime_half_width": 14,
+            "A1_prime_half_width": "candidate fP"
+          },
+          "development": {
+            "phase_grid": "4:1:12 and 4:0.5:12 as originally run",
+            "amplitude_grid": "80:8:152",
+            "A0_half_width": 6,
+            "A1_half_width": "candidate fP",
+            "A2_half_width": 12
+          },
+          "rodent": {
+            "phase_grid_hz": [
+              4,
+              4.5,
+              5,
+              5.5,
+              6,
+              6.5,
+              7,
+              7.5,
+              8,
+              8.5,
+              9,
+              9.5,
+              10,
+              10.5,
+              11,
+              11.5,
+              12
+            ],
+            "phase_half_width_hz": 1.5,
+            "amplitude_grid_hz": [
+              80,
+              84,
+              88,
+              92,
+              96,
+              100,
+              104,
+              108,
+              112,
+              116,
+              120,
+              124,
+              128,
+              132,
+              136,
+              140,
+              144,
+              148
+            ],
+            "amplitude_half_width_hz": 12,
+            "filter": "butter(4), filtfilt (8th-order bandpass)",
+            "metrics": [
+              "MVL-raw",
+              "MVL-Ozkurt",
+              "KLMI",
+              "GLM"
+            ],
+            "phase_bins": 18,
+            "selection": "independent full-grid maximum; first column-major tie",
+            "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+          }
+        },
+        "analysis_sources": {
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\final_sos_filter.m": "7134e5711485ff628a0dd980e722fc6e59205da43d17a80facdaa7724202743e",
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\run_sos_correction.m": "be2f670101ed748b69402dc190f22545696574daa37208db89b80b12175feb6f",
+          "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\sos_comparators.m": "350562400dd5d24e3a6b3d8f8530d4c598286774d05440dc9679eb81acec69a7"
+        },
+        "canonical_generator": {
+          "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+          "git_tag": "v1.0",
+          "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+          "frozen_files": [
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+              "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+            },
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+              "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+            }
+          ],
+          "seed": 12345,
+          "poisson_seed": 20261022,
+          "generator": "apc_simulation_study.py",
+          "generator_sha256": "d44387ab8534c9c47364602ed02e97c3f1f792941d7ab282b3aa9a8148eac59e",
+          "parameters": {
+            "fs": 500.0,
+            "duration": 20.0,
+            "true_fp": 8.0,
+            "true_fa": 120.0,
+            "phase_offset_rad": -1.5707963267948966,
+            "burst_sigma_s": 0.03,
+            "burst_amp": 1.8,
+            "low_amp": 1.0,
+            "hf_base_amp": 0.15,
+            "noise_sd": 0.8,
+            "jitter_sd_s": 0.0,
+            "broad_fa_range": [
+              80.0,
+              150.0
+            ]
+          },
+          "jitter_sd_s": 0.02,
+          "poisson_rate_hz": 8,
+          "poisson_interval_s": [
+            0.5,
+            19.5
+          ],
+          "canonical_original_csv_reproduction": "all three retained conditions matched within 1e-14",
+          "timing_null_events": 174
+        },
+        "bootstrap": {
+          "seed": 20261022,
+          "resamples": 10000,
+          "sampling": "independent uniform bout resampling within each state; shared indices across methods/metrics",
+          "CI": "percentile 2.5/97.5",
+          "weighted": "resample bout values and durations together; normalize durations within each state",
+          "weighted_variance": "sum(p*(x-mean)^2)/(1-sum(p^2))",
+          "weighted_effective_n": "1/sum(p^2)",
+          "weighted_t": "Welch with unbiased weighted variances and Kish effective n",
+          "Hedges_g": "pooled SD; exact gamma correction J(df), df=n_run+n_rest-2, Kish n for weighted sensitivity"
+        },
+        "source_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\heldout_v2_negative_recovery.csv",
+            "sha256": "068be89c0d29e6048c2f52acaa4ad76b1ce0077fa101c4c9dbd8a6e40fe818c4"
+          }
+        ],
+        "heldout_evaluation_commit": "217fd8373759150cdeffe794d231a7cec2225f38"
+      }
+    }
+  ]
+}

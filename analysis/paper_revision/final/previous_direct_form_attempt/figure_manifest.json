@@ -1,0 +1,511 @@
+{
+  "metadata": {
+    "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+    "git_tag": "v1.0",
+    "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+    "frozen_files": [
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+        "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+        "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+      }
+    ],
+    "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+    "seed": 20261022.0,
+    "comparator_settings": {
+      "phase_grid_hz": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12
+      ],
+      "phase_half_width_hz": 1.5,
+      "amplitude_grid_hz": [
+        80,
+        84,
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148
+      ],
+      "amplitude_half_width_hz": 12,
+      "filter": "butter(4), filtfilt (8th-order bandpass)",
+      "metrics": [
+        "MVL-raw",
+        "MVL-Ozkurt",
+        "KLMI",
+        "GLM"
+      ],
+      "phase_bins": 18,
+      "selection": "independent full-grid maximum; first column-major tie",
+      "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+    },
+    "apc_options": {
+      "fA": [
+        80,
+        150
+      ],
+      "epoch": [
+        -0.6,
+        0.6
+      ],
+      "decomposition": "fft_peak",
+      "metric": "canolty",
+      "showPlots": false,
+      "useSurrogates": false,
+      "numPerm": 200,
+      "numPhaseBins": 18,
+      "burstTimeBandwidth": 5,
+      "phaseTimeBandwidth": 20,
+      "phaseEpochCycles": 3,
+      "minPhaseHz": 1,
+      "maxPhaseHz": 30,
+      "flipTroughs": true,
+      "burstProminenceScale": 0.75,
+      "surrogateMethod": "circular_shift",
+      "amplitudeBandWidthHz": 4,
+      "stepFourMode": "v1",
+      "fPRefine": true,
+      "fPMaxBinSpacingHz": 0.05
+    }
+  },
+  "status": "STOPPED_METHOD_RELEVANT_FAILURE",
+  "figures": [
+    {
+      "name": "Figure_1_workflow",
+      "status": "DRAFT: full package stopped; Figure 1 label issue documented",
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Figure_1_workflow.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Figure_1_workflow.svg",
+      "source_csvs": [
+        {
+          "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\canonical_results.csv",
+          "sha256": "71d6982535cdb989811367ff154016f021fff5b5c23f55f81c8ad7270e2a2b8e"
+        },
+        {
+          "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_traces.csv",
+          "sha256": "cf2a9393a0d7726d210844671800f8ca37fa22c1ad84ad58384bf6aaa025b748"
+        },
+        {
+          "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_spectrum.csv",
+          "sha256": "cf0494522e9a30fbddb795f55879de8fc8464ea5680ad5df06a165a52039da12"
+        },
+        {
+          "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_fa_score.csv",
+          "sha256": "eb207d4763b49625f796d447b7bf4c572a3a852d56740f7a2fb9507b03f4437e"
+        },
+        {
+          "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_tf.csv",
+          "sha256": "e726e13c42c0e51f0418ecf3706eb7c4fd39982c0195294233c0fcf3a9a96ef3"
+        }
+      ],
+      "metadata": {
+        "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+        "git_tag": "v1.0",
+        "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+        "frozen_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+            "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+            "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+          }
+        ],
+        "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+        "seed": 20261022.0,
+        "comparator_settings": {
+          "phase_grid_hz": [
+            4,
+            4.5,
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5,
+            11,
+            11.5,
+            12
+          ],
+          "phase_half_width_hz": 1.5,
+          "amplitude_grid_hz": [
+            80,
+            84,
+            88,
+            92,
+            96,
+            100,
+            104,
+            108,
+            112,
+            116,
+            120,
+            124,
+            128,
+            132,
+            136,
+            140,
+            144,
+            148
+          ],
+          "amplitude_half_width_hz": 12,
+          "filter": "butter(4), filtfilt (8th-order bandpass)",
+          "metrics": [
+            "MVL-raw",
+            "MVL-Ozkurt",
+            "KLMI",
+            "GLM"
+          ],
+          "phase_bins": 18,
+          "selection": "independent full-grid maximum; first column-major tie",
+          "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+        },
+        "apc_options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "showPlots": false,
+          "useSurrogates": false,
+          "numPerm": 200,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "v1",
+          "fPRefine": true,
+          "fPMaxBinSpacingHz": 0.05
+        },
+        "canonical_generator": {
+          "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+          "git_tag": "v1.0",
+          "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+          "frozen_files": [
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+              "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+            },
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+              "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+            }
+          ],
+          "seed": 12345,
+          "poisson_seed": 20261022,
+          "generator": "apc_simulation_study.py",
+          "generator_sha256": "d44387ab8534c9c47364602ed02e97c3f1f792941d7ab282b3aa9a8148eac59e",
+          "parameters": {
+            "fs": 500.0,
+            "duration": 20.0,
+            "true_fp": 8.0,
+            "true_fa": 120.0,
+            "phase_offset_rad": -1.5707963267948966,
+            "burst_sigma_s": 0.03,
+            "burst_amp": 1.8,
+            "low_amp": 1.0,
+            "hf_base_amp": 0.15,
+            "noise_sd": 0.8,
+            "jitter_sd_s": 0.0,
+            "broad_fa_range": [
+              80.0,
+              150.0
+            ]
+          },
+          "jitter_sd_s": 0.02,
+          "poisson_rate_hz": 8,
+          "poisson_interval_s": [
+            0.5,
+            19.5
+          ],
+          "canonical_original_csv_reproduction": "all three retained conditions matched within 1e-14",
+          "timing_null_events": 174
+        },
+        "bootstrap": {
+          "seed": 20261022,
+          "resamples": 10000,
+          "sampling": "independent uniform bout resampling within each state; shared indices across methods/metrics",
+          "CI": "percentile 2.5/97.5",
+          "weighted": "resample bout values and durations together; normalize durations within each state",
+          "weighted_variance": "sum(p*(x-mean)^2)/(1-sum(p^2))",
+          "weighted_effective_n": "1/sum(p^2)",
+          "weighted_t": "Welch with unbiased weighted variances and Kish effective n",
+          "Hedges_g": "pooled SD; exact gamma correction J(df), df=n_run+n_rest-2, Kish n for weighted sensitivity"
+        },
+        "source_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\canonical_results.csv",
+            "sha256": "71d6982535cdb989811367ff154016f021fff5b5c23f55f81c8ad7270e2a2b8e"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_traces.csv",
+            "sha256": "cf2a9393a0d7726d210844671800f8ca37fa22c1ad84ad58384bf6aaa025b748"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_spectrum.csv",
+            "sha256": "cf0494522e9a30fbddb795f55879de8fc8464ea5680ad5df06a165a52039da12"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_fa_score.csv",
+            "sha256": "eb207d4763b49625f796d447b7bf4c572a3a852d56740f7a2fb9507b03f4437e"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_tf.csv",
+            "sha256": "e726e13c42c0e51f0418ecf3706eb7c4fd39982c0195294233c0fcf3a9a96ef3"
+          }
+        ],
+        "heldout_evaluation_commit": "217fd8373759150cdeffe794d231a7cec2225f38"
+      }
+    },
+    {
+      "name": "Figure_2_canonical_conditions",
+      "status": "EXPORTED before stop; final approval pending",
+      "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Figure_2_canonical_conditions.png",
+      "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\Figure_2_canonical_conditions.svg",
+      "source_csvs": [
+        {
+          "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\canonical_results.csv",
+          "sha256": "71d6982535cdb989811367ff154016f021fff5b5c23f55f81c8ad7270e2a2b8e"
+        },
+        {
+          "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_traces.csv",
+          "sha256": "cf2a9393a0d7726d210844671800f8ca37fa22c1ad84ad58384bf6aaa025b748"
+        },
+        {
+          "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\timing_null_traces.csv",
+          "sha256": "e1050c721711ccafcbf3a156c2a4f65d60a584b27751b178fbb340d503844207"
+        },
+        {
+          "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\jittered_traces.csv",
+          "sha256": "3d155d96fc133be4de050c3cba678564ca9a0a9d9b152883f206be442c26abf7"
+        },
+        {
+          "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\continuous_pac_traces.csv",
+          "sha256": "05d22889cd67f7cfb11cc3f8e8271d01d7252cf59d6c7c605e3ff75d57fc6632"
+        }
+      ],
+      "metadata": {
+        "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+        "git_tag": "v1.0",
+        "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+        "frozen_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+            "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+            "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+          }
+        ],
+        "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+        "seed": 20261022.0,
+        "comparator_settings": {
+          "phase_grid_hz": [
+            4,
+            4.5,
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.5,
+            11,
+            11.5,
+            12
+          ],
+          "phase_half_width_hz": 1.5,
+          "amplitude_grid_hz": [
+            80,
+            84,
+            88,
+            92,
+            96,
+            100,
+            104,
+            108,
+            112,
+            116,
+            120,
+            124,
+            128,
+            132,
+            136,
+            140,
+            144,
+            148
+          ],
+          "amplitude_half_width_hz": 12,
+          "filter": "butter(4), filtfilt (8th-order bandpass)",
+          "metrics": [
+            "MVL-raw",
+            "MVL-Ozkurt",
+            "KLMI",
+            "GLM"
+          ],
+          "phase_bins": 18,
+          "selection": "independent full-grid maximum; first column-major tie",
+          "ozkurt": "raw_MVL/sqrt(mean(A.^2))"
+        },
+        "apc_options": {
+          "fA": [
+            80,
+            150
+          ],
+          "epoch": [
+            -0.6,
+            0.6
+          ],
+          "decomposition": "fft_peak",
+          "metric": "canolty",
+          "showPlots": false,
+          "useSurrogates": false,
+          "numPerm": 200,
+          "numPhaseBins": 18,
+          "burstTimeBandwidth": 5,
+          "phaseTimeBandwidth": 20,
+          "phaseEpochCycles": 3,
+          "minPhaseHz": 1,
+          "maxPhaseHz": 30,
+          "flipTroughs": true,
+          "burstProminenceScale": 0.75,
+          "surrogateMethod": "circular_shift",
+          "amplitudeBandWidthHz": 4,
+          "stepFourMode": "v1",
+          "fPRefine": true,
+          "fPMaxBinSpacingHz": 0.05
+        },
+        "canonical_generator": {
+          "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+          "git_tag": "v1.0",
+          "repo_head": "217fd8373759150cdeffe794d231a7cec2225f38",
+          "frozen_files": [
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\bst_apc.m",
+              "sha256": "d8e9d2ee82b0aa9784c0cabb1fcd2468adcd09f74bceaf833aeed8128094eee9"
+            },
+            {
+              "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\frozen_v1\\calc_MI_all_methods.m",
+              "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+            }
+          ],
+          "seed": 12345,
+          "poisson_seed": 20261022,
+          "generator": "apc_simulation_study.py",
+          "generator_sha256": "d44387ab8534c9c47364602ed02e97c3f1f792941d7ab282b3aa9a8148eac59e",
+          "parameters": {
+            "fs": 500.0,
+            "duration": 20.0,
+            "true_fp": 8.0,
+            "true_fa": 120.0,
+            "phase_offset_rad": -1.5707963267948966,
+            "burst_sigma_s": 0.03,
+            "burst_amp": 1.8,
+            "low_amp": 1.0,
+            "hf_base_amp": 0.15,
+            "noise_sd": 0.8,
+            "jitter_sd_s": 0.0,
+            "broad_fa_range": [
+              80.0,
+              150.0
+            ]
+          },
+          "jitter_sd_s": 0.02,
+          "poisson_rate_hz": 8,
+          "poisson_interval_s": [
+            0.5,
+            19.5
+          ],
+          "canonical_original_csv_reproduction": "all three retained conditions matched within 1e-14",
+          "timing_null_events": 174
+        },
+        "bootstrap": {
+          "seed": 20261022,
+          "resamples": 10000,
+          "sampling": "independent uniform bout resampling within each state; shared indices across methods/metrics",
+          "CI": "percentile 2.5/97.5",
+          "weighted": "resample bout values and durations together; normalize durations within each state",
+          "weighted_variance": "sum(p*(x-mean)^2)/(1-sum(p^2))",
+          "weighted_effective_n": "1/sum(p^2)",
+          "weighted_t": "Welch with unbiased weighted variances and Kish effective n",
+          "Hedges_g": "pooled SD; exact gamma correction J(df), df=n_run+n_rest-2, Kish n for weighted sensitivity"
+        },
+        "source_files": [
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\canonical_results.csv",
+            "sha256": "71d6982535cdb989811367ff154016f021fff5b5c23f55f81c8ad7270e2a2b8e"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\burst_coupled_traces.csv",
+            "sha256": "cf2a9393a0d7726d210844671800f8ca37fa22c1ad84ad58384bf6aaa025b748"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\timing_null_traces.csv",
+            "sha256": "e1050c721711ccafcbf3a156c2a4f65d60a584b27751b178fbb340d503844207"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\jittered_traces.csv",
+            "sha256": "3d155d96fc133be4de050c3cba678564ca9a0a9d9b152883f206be442c26abf7"
+          },
+          {
+            "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\continuous_pac_traces.csv",
+            "sha256": "05d22889cd67f7cfb11cc3f8e8271d01d7252cf59d6c7c605e3ff75d57fc6632"
+          }
+        ],
+        "heldout_evaluation_commit": "217fd8373759150cdeffe794d231a7cec2225f38"
+      }
+    }
+  ]
+}

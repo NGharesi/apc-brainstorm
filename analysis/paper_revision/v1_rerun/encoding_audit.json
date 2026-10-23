@@ -1,0 +1,26 @@
+{
+  "python_9d_occurrences": [
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\analysis\\v1_revision\\build_results.py",
+      "byte_offset": 11611,
+      "byte_hex": "9d",
+      "context": "ude \u00b18 Hz. \u201cfA-only\u201d and \u201cfP-only\u201d deno"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\analysis\\v1_revision\\build_results.py",
+      "byte_offset": 11629,
+      "byte_hex": "9d",
+      "context": "only\u201d and \u201cfP-only\u201d denote marginal criter"
+    }
+  ],
+  "ascii_matlab_edits": [],
+  "python_scripts_scanned": [
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\analysis\\analyze_apc_burst_sparsity_reviewer_control.py",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\analysis\\analyze_apc_distractor_reviewer_control.py",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\analysis\\analyze_apc_ec013_figure5_exact_stats.py",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\analysis\\analyze_apc_sleepedf_wideband_hierarchical.py",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\analysis\\v1_revision\\build_results.py",
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\prepare_implementation.py",
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\resume_encoding_audit.py"
+  ]
+}

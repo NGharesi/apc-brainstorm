@@ -1,0 +1,35 @@
+Provenance: {"recorded_utc":"2026-10-22T20:35:11.074748+00:00","stage":"region-specific REML mixed models","git_tag":"v1.0","git_commit":"71ebc16aed32ca38be73a800738b975e5806b330","seed":2.0261022E+7,"protocol_sha256":"0c38139e23561665a8ca3998f61fe74b6946abf25c89f2ff06ba5e7679161e67","execution_sha256":"3553cfd37813fa40429fd2cdcaa84cd543151082d9d7dff8076ff5cc87d615d2","supersedes":"chunked historical-speed gate and unrestricted channel selection","tracking_fs_hz":39.0625,"matlab_version":"9.13.0.2105380 (R2022b) Update 2","fit_method":"REML"}
+
+
+<strong>Linear mixed-effects model fit by REML</strong>
+
+<strong>Model information:</strong>
+    Number of observations             112
+    Fixed effects coefficients           2
+    Random effects coefficients          6
+    Covariance parameters                4
+
+<strong>Formula:</strong>
+    outcome ~ 1 + state_run + (1 + state_run | session)
+
+<strong>Model fit statistics:</strong>
+    AIC        BIC        LogLikelihood    Deviance
+    -501.42    -485.21    256.71           -513.42 
+
+<strong>Fixed effects coefficients (95% CIs):</strong>
+    Name                   Estimate    SE           tStat     DF     pValue        Lower       Upper   
+    {'(Intercept)'}        0.069359    0.0038255    18.131    110    7.9053e-35    0.061778     0.07694
+    {'state_run'  }        0.026403    0.0068598    3.8489    110    0.00019952    0.012808    0.039997
+
+<strong>Random effects covariance parameters (95% CIs):</strong>
+Group: session (3 Levels)
+    Name1                  Name2                  Type            Estimate     Lower         Upper    
+    {'(Intercept)'}        {'(Intercept)'}        {'std' }        0.0051623     0.0051611    0.0051635
+    {'state_run'  }        {'(Intercept)'}        {'corr'}                1           NaN          NaN
+    {'state_run'  }        {'state_run'  }        {'std' }        0.0069527    0.00067086     0.072056
+
+Group: Error
+    Name               Estimate    Lower       Upper   
+    {'Res Std'}        0.022366    0.019574    0.025557
+
+

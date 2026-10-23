@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "recorded_utc": "2026-10-22T20:35:11.074748+00:00",
+    "stage": "regional amendment before new regional analysis",
+    "git_tag": "v1.0",
+    "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+    "seed": 20261022,
+    "protocol_sha256": "0c38139e23561665a8ca3998f61fe74b6946abf25c89f2ff06ba5e7679161e67",
+    "execution_sha256": "3553cfd37813fa40429fd2cdcaa84cd543151082d9d7dff8076ff5cc87d615d2",
+    "supersedes": "chunked historical-speed gate and unrestricted channel selection",
+    "tracking_fs_hz": 39.0625
+  },
+  "deviations": [
+    {
+      "type": "tooling syntax correction",
+      "recorded_utc": "2026-10-22T20:40:30.562994+00:00",
+      "detail": "First MATLAB runner launch failed to parse multi-line struct calls because continuation ellipses were missing. Added ellipses in new runner and unrun mixed-model reporting script. No bout was analyzed before the parser error; method code and settings unchanged. Original log regional_bouts_matlab.log retained."
+    },
+    {
+      "type": "tooling CSV import correction",
+      "recorded_utc": "2026-10-22T20:41:51.106045+00:00",
+      "detail": "Second runner launch could not find included after automatic CSV import detection. Fixed comma delimiter, first-row headers, UTF-8, preserved variable names and explicit boolean interpretation. No bout analyzed before failure; original attempt2 log retained."
+    },
+    {
+      "type": "tooling MATLAB current-folder precedence",
+      "recorded_utc": "2026-10-22T20:42:41.997183+00:00",
+      "detail": "Third launch resolved the legacy one-output bst_apc in the process current folder ahead of addpath entries; call rejected with too many outputs before any method computation. Set analysis folder as current directory, clear function cache, and assert both method and metric resolve to frozen_v1 copies. No tagged source edited; no bout result existed before fix."
+    }
+  ]
+}

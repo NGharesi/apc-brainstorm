@@ -1,0 +1,242 @@
+{
+  "sparsity": {
+    "file": "C:\\Users\\nghare\\.brainstorm\\process\\apc_burst_sparsity_benchmark_full.mat",
+    "top_level_names": [
+      "cfg",
+      "runTable",
+      "summaryTable"
+    ],
+    "cfg": {
+      "profile_name": "full",
+      "random_seed": 2.0260618E+7,
+      "fs_hz": 500,
+      "duration_s": 8,
+      "true_fp_hz": 8,
+      "true_fa_hz": 120,
+      "phase_offset_deg": -90,
+      "low_amp": 1,
+      "true_high_amp": 1.3,
+      "base_hf_amp": 0.08,
+      "burst_sigma_s": 0.028,
+      "burst_phase_jitter_s": 0.01,
+      "snr_db": -3,
+      "broad_fa_band_hz": [
+        80,
+        150
+      ],
+      "phase_scan_hz": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "amplitude_scan_hz": [
+        80,
+        88,
+        96,
+        104,
+        112,
+        120,
+        128,
+        136,
+        144,
+        152
+      ],
+      "metric": "canolty",
+      "fa_tolerance_hz": 8,
+      "fp_tolerance_hz": 1,
+      "coupling_level": 0.6,
+      "background_burst_scale": 0.18,
+      "n_repeats": 25,
+      "burst_keep_rates": [
+        1,
+        0.85,
+        0.7,
+        0.55,
+        0.4,
+        0.25,
+        0.15
+      ]
+    },
+    "inventory": [
+      {
+        "name": "cfg",
+        "class": "struct",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 4246
+      },
+      {
+        "name": "runTable",
+        "class": "table",
+        "size": [],
+        "bytes": 118205
+      },
+      {
+        "name": "summaryTable",
+        "class": "table",
+        "size": [],
+        "bytes": 9955
+      }
+    ],
+    "runTable_variable_names": [
+      "method",
+      "burst_keep_rate",
+      "repeat_index",
+      "valid",
+      "status_code",
+      "recovered_fp_hz",
+      "recovered_fa_hz",
+      "preferred_phase_deg",
+      "score",
+      "fp_abs_error_hz",
+      "fa_abs_error_hz",
+      "fa_correct",
+      "fp_correct",
+      "pair_correct"
+    ],
+    "runTable_user_data": [],
+    "runTable_description": "",
+    "runTable_variable_descriptions": []
+  },
+  "distractor": {
+    "file": "C:\\Users\\nghare\\.brainstorm\\process\\apc_distractor_frequency_benchmark_reviewer_control.mat",
+    "top_level_names": [
+      "cfg",
+      "oracleAucTable",
+      "oracleSummaryTable",
+      "oracleTable",
+      "runTable",
+      "summaryTable"
+    ],
+    "cfg": {
+      "profile_name": "reviewer_control",
+      "random_seed": 2.0260618E+7,
+      "fs_hz": 500,
+      "duration_s": 6,
+      "true_fp_hz": 8,
+      "true_fa_hz": 120,
+      "distractor_fa_hz": 96,
+      "phase_offset_deg": -90,
+      "low_amp": 1,
+      "true_high_amp": 1.3,
+      "distractor_base_amp": 0.6,
+      "base_hf_amp": 0.08,
+      "burst_sigma_s": 0.028,
+      "coupling_level": 0.6,
+      "burst_phase_jitter_s": 0.01,
+      "snr_db": -3,
+      "broad_fa_band_hz": [
+        80,
+        150
+      ],
+      "phase_scan_hz": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "amplitude_scan_hz": [
+        80,
+        88,
+        96,
+        104,
+        112,
+        120,
+        128,
+        136,
+        144,
+        152
+      ],
+      "phase_band_half_width_hz": 1.5,
+      "amplitude_band_half_width_hz": 6,
+      "metric": "canolty",
+      "fa_tolerance_hz": 8,
+      "fp_tolerance_hz": 1,
+      "oracle_control_distractor_scale": 0,
+      "n_repeats": 25,
+      "distractor_scale_values": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3
+      ]
+    },
+    "inventory": [
+      {
+        "name": "cfg",
+        "class": "struct",
+        "size": [
+          1,
+          1
+        ],
+        "bytes": 4974
+      },
+      {
+        "name": "oracleAucTable",
+        "class": "table",
+        "size": [],
+        "bytes": 4157
+      },
+      {
+        "name": "oracleSummaryTable",
+        "class": "table",
+        "size": [],
+        "bytes": 10031
+      },
+      {
+        "name": "oracleTable",
+        "class": "table",
+        "size": [],
+        "bytes": 193313
+      },
+      {
+        "name": "runTable",
+        "class": "table",
+        "size": [],
+        "bytes": 124053
+      },
+      {
+        "name": "summaryTable",
+        "class": "table",
+        "size": [],
+        "bytes": 9957
+      }
+    ],
+    "runTable_variable_names": [
+      "method",
+      "distractor_scale",
+      "repeat_index",
+      "valid",
+      "status_code",
+      "recovered_fp_hz",
+      "recovered_fa_hz",
+      "preferred_phase_deg",
+      "score",
+      "fp_abs_error_hz",
+      "fa_abs_error_hz",
+      "fa_correct",
+      "fp_correct",
+      "pair_correct",
+      "phase_abs_error_deg"
+    ],
+    "runTable_user_data": [],
+    "runTable_description": "",
+    "runTable_variable_descriptions": []
+  }
+}

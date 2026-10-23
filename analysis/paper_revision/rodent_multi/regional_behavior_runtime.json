@@ -1,0 +1,37 @@
+{
+  "status": "COMPLETE",
+  "elapsed_seconds": 4.582942700013518,
+  "metadata": {
+    "recorded_utc": "2026-10-22T20:35:11.074748+00:00",
+    "stage": "regional tracking-rate behavior",
+    "git_tag": "v1.0",
+    "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+    "seed": 20261022,
+    "protocol_sha256": "0c38139e23561665a8ca3998f61fe74b6946abf25c89f2ff06ba5e7679161e67",
+    "execution_sha256": "3553cfd37813fa40429fd2cdcaa84cd543151082d9d7dff8076ff5cc87d615d2",
+    "supersedes": "chunked historical-speed gate and unrestricted channel selection",
+    "tracking_fs_hz": 39.0625,
+    "position_rule": "mean of valid LEDs; a valid LED requires both coordinates",
+    "gaussian_sd_seconds": 0.2,
+    "gaussian_radius_samples": 32,
+    "gaussian_mode": "reflect within finite segments",
+    "linear_position": "first PC before smoothing; robust 0.5-99.5 percentile extent",
+    "central_interval": [
+      0.15,
+      0.85
+    ],
+    "outer_zones": "below .15 or above .85 including percentile tails",
+    "speed": "2D central difference, cm/s",
+    "speed_threshold_cm_s": 6,
+    "minimum_bout_s": 5,
+    "edge_trim_s": 2
+  },
+  "sessions": 18,
+  "bouts": 202,
+  "included_sessions": 3,
+  "included_by_analysis": {
+    "CA1": 3,
+    "E1_sensitivity": 3,
+    "EC": 3
+  }
+}

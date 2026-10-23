@@ -1,0 +1,13 @@
+{
+  "status": "STOPPED_FOR_CHECKPOINT_RESUME",
+  "started_local": "2026-10-21 22:48:51",
+  "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+  "release": "2022b",
+  "computation_threads": 1,
+  "previous_thread_setting": 6,
+  "baseline_commit": "82f7559fd570133bd05ec0a583299a50613ffc2a",
+  "baseline_source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\repro_diagnosis\\sources\\bst_apc.m",
+  "instrumented_source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\repro_diagnosis\\sources\\rd_apc_instrumented.m",
+  "continuation": "runtime_cached.json",
+  "stopped_worker_pid": 34676
+}

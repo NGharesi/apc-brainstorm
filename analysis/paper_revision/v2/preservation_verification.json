@@ -1,0 +1,823 @@
+{
+  "passed": true,
+  "base_tag_unchanged": true,
+  "protected_file_checks": 125,
+  "checks": [
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\apc_burst_sparsity_benchmark_full.mat",
+      "sha256": "a2a64a53cfdfc33c100e6b8d7886becff73e216a2689a274674c413334a0a38c",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\apc_distractor_frequency_benchmark_reviewer_control.mat",
+      "sha256": "69f4ce2e0b4c13c8f9f35bb9849e7d70347ef48fcf923aaa3d5cb82eeee0c2da",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\apc_burst_sparsity_runs_full.csv",
+      "sha256": "24305acbc39f445d22c0f238cfa5e076dafff6a25ea87d5555e1b60cc7f737ea",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\apc_distractor_frequency_runs_reviewer_control.csv",
+      "sha256": "b9617070d0fcebe0fa1494843ab0f3bd3dd6719d4310274ab05397e7d4b37230",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\main_distractor_level_0.5.mat",
+      "sha256": "6f086b11980a71fa508b52bca425c87a98151964ccad0eedeb074a9546b9a77a",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\main_distractor_level_0.mat",
+      "sha256": "461fe9d8079732595c511d979fdf89a8e138b37567e189227f0de4f43fe191e6",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\main_distractor_level_1.5.mat",
+      "sha256": "a77094fa16631c61b84d92ac62dd8a971566de802e58af1f92b79876945b4b4a",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\main_distractor_level_1.mat",
+      "sha256": "03463718c39b08522c8bfd11491fb07c804a2f4aff940658d650520c9a46e3c9",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\main_distractor_level_2.5.mat",
+      "sha256": "6c7967ec080b9a9c2fb0ab73d11c178dc4137bcbbcb94ad963152e181e792c34",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\main_distractor_level_2.mat",
+      "sha256": "5552053b2c34908e0590515086f77a702d20d401523f1c5ccb2f1d591b6a9eb4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\main_distractor_level_3.mat",
+      "sha256": "7382c99b98a92ec5901af4e8e60989ebd723354f51bae700f0920e61442edd68",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\main_sparsity_level_0.15.mat",
+      "sha256": "8da0c463e068712d253147875b329431fd1eb85fd0c2097d4077639b7b0939f7",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\main_sparsity_level_0.25.mat",
+      "sha256": "65f01cb07a7db82609e13c7d28aad43ae5a84fd60dca00c04601496ad17f78ba",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\main_sparsity_level_0.4.mat",
+      "sha256": "4d1ff0622045b617a03e5235f50be18646e596e0047834cd82caaf94ee69ba53",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\main_sparsity_level_0.55.mat",
+      "sha256": "454e8daf4e2df7b3605e4811161e9891a34307966cd5da57cd1df9c0f2c6d099",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\main_sparsity_level_0.7.mat",
+      "sha256": "9322903524c01a0f8f6461225b7dbea5534115e5113123f86d287047bcc55e9f",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\main_sparsity_level_0.85.mat",
+      "sha256": "372f08b0302491072a0582e08ceda989401b01507e1f5748ce397b01cd73c3a2",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\main_sparsity_level_1.mat",
+      "sha256": "3427839b2786f5ec6128b1f65924e197773074a5c4f6a42e200131962cd50e90",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\null_distractor_level_0.5.mat",
+      "sha256": "0ec7eb17f7c3eb0289c7d95eae387c46f5e7a35a97225d7cf72ba23ffd38189f",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\null_distractor_level_0.mat",
+      "sha256": "feab765ae6af81ccb456a091f15b87bbeb8860ba18c94cb1a6c1aef9da5edf2f",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\null_distractor_level_1.5.mat",
+      "sha256": "ef92cf3861e191e571c58dd625a13fd60bbe93ef74f8e952b8b6c0d47dc49a05",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\null_distractor_level_1.mat",
+      "sha256": "f15495d4e5f4b8d4fde8b33253f273ae79e8c285ce51efae9a966245f0fed7fc",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\null_distractor_level_2.5.mat",
+      "sha256": "98b59fdeeea986b3a1ba83e5826932fc03633bf38309c15500e06c494ecec0cb",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\null_distractor_level_2.mat",
+      "sha256": "c1316f6bb64133f531eddc83367d42042ba0455fd422ef792d1f4cc84c496e2c",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\null_distractor_level_3.mat",
+      "sha256": "cbe7d3579ffa457944d679087d966413132cfc9dee29ee2a42bfa56304a7174a",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\null_sparsity_level_0.15.mat",
+      "sha256": "605d50f486e9ae46a6e82f47f67f63172e1b70dd7dc7354837e7ecd347f71b90",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\null_sparsity_level_0.25.mat",
+      "sha256": "0681d79f580ed0a875591c5ba5cfb88fbe06f96cd06c9ec1da9a38f4f9f5ce87",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\null_sparsity_level_0.4.mat",
+      "sha256": "7cf307cf25e75436e8d4ecd9f266f65ef6d9366663e95ef098dd073b028cefce",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\null_sparsity_level_0.55.mat",
+      "sha256": "00945501b9fec63e44d5bbb767e20cd59112703f9da2bb85b00924da9b18feb8",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\null_sparsity_level_0.7.mat",
+      "sha256": "636e87ab6469397e12e911a72e2491c270e9f187db8d6a8bffe315986a8ff1e2",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\null_sparsity_level_0.85.mat",
+      "sha256": "73fd7867db098e714659efae746244cfefbaac1bca08150c82ba3eb8a0a56991",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\null_sparsity_level_1.mat",
+      "sha256": "156cb9f604ff2ecddceacce5806bf7fc74ac3469943e7f64917d924057450867",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\random_fp_distractor_level_0.mat",
+      "sha256": "73a33d011ce8836799aceb249dc82f36127277328e9d3ae5f1736d535f00b045",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\random_fp_distractor_level_1.5.mat",
+      "sha256": "921a8ae1f219b620b8e744004f0cd795e5dac0b77b92669839db80634937b12c",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\random_fp_distractor_level_3.mat",
+      "sha256": "0b7cdada517940cc6d1e94106c6dc5e1b87cce11ad253420c7b923c5c2982520",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\random_fp_sparsity_level_0.15.mat",
+      "sha256": "521cc12e42a516a0f3aa9df0f9346b4facfbd6690526b0c1c5a5d3c0f3c5f628",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\random_fp_sparsity_level_0.5.mat",
+      "sha256": "a4698fb1fffd51758702086a4e3d9ab1ac94bf1954d32bf4aba46c263b1fb9c0",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_rerun\\random_fp_sparsity_level_1.mat",
+      "sha256": "c9e2fa064a79d9d094875fa6e365f33e5b39ffdeba3c6ffdee906382d0f2281b",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_main_distractor_level_0.5.mat",
+      "sha256": "9e32ef02b96ec90ed676b7684556579434e89dbe12249be34e02840f4d53229a",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_main_distractor_level_0.mat",
+      "sha256": "840a7684fbcf98b7399f154558f6b8a9dd6d7bad4e7d405c93b41dd88bd4a80e",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_main_distractor_level_1.5.mat",
+      "sha256": "0b5804f75105bb9ae00ce00f8a1d92c1796200650c7fe728ed739b227f3102b8",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_main_distractor_level_1.mat",
+      "sha256": "577aec94f69160469cbfea0c718fe2273d9aee1f4fabbc28d604f3b70bb11f85",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_main_distractor_level_2.5.mat",
+      "sha256": "1e04788ee7881b692f84ecdbcc565c2a28d6d89a255f0dd13731c07906e4fb92",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_main_distractor_level_2.mat",
+      "sha256": "44b0b3a447c3d544d14c4df7812bbab70d71a6a068aec72fc97641ca1d6de938",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_main_distractor_level_3.mat",
+      "sha256": "1149aac896d4d95abf998225ac5cc135c371b3f58eb143e078fc304a95bcc70e",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_main_sparsity_level_0.15.mat",
+      "sha256": "7e01ac549eb6ce1717e6e7aeb29742ab761c51ab4b1f161d2dada8d4d0c91ca4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_main_sparsity_level_0.25.mat",
+      "sha256": "67150e54af02f103e1028cd96dda0550189e41d8c70ee4e548cd4d1856bd3699",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_main_sparsity_level_0.4.mat",
+      "sha256": "d1ae631208e1c89c187928c53c5db19cf459adbb3aca7d0210047d5aa6eb56b2",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_main_sparsity_level_0.55.mat",
+      "sha256": "9ca9c8e16fa356db0ded1c57299d9679643073ccdf168ce690e9394322fa3ec8",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_main_sparsity_level_0.7.mat",
+      "sha256": "e898ddf065b6abf41d35cdb9ed17220763fdf5e7a48f8d1a301e55ec7f115472",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_main_sparsity_level_0.85.mat",
+      "sha256": "969525a94c69289eee6400dd40bdcad4e91b379b43ac6e250955fb812868d0e9",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_main_sparsity_level_1.mat",
+      "sha256": "1335ee0dc1f77244d4d2357f1eca0593527dfb8ec555033602125b278c5fbe0c",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_main_summary.csv",
+      "sha256": "86a0895df602dbc2cfb0a3b158854cc2d2efc83c8a98fca02bcbb2284a7c59b7",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_matlab.log",
+      "sha256": "1ef033abfab29de1ce12a723cfce53fa628f6d9e80776b25dbf25f6b908b7738",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_null_distractor_level_0.5.mat",
+      "sha256": "24139cac29e6cabf61d024cafacb42c977ad7ff4e8199cdaf1a638822a646eba",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_null_distractor_level_0.mat",
+      "sha256": "c135946b8832076232e3e195fe82b8ea657870a12db4999b691a8bb50d971a64",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_null_distractor_level_1.5.mat",
+      "sha256": "d1625209162d4eb1f040bee64c142c0ba8e28ac304c5d10c563526d6b878ebbf",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_null_distractor_level_1.mat",
+      "sha256": "c9a4fc20d96ac457ed8cec664eb9c357e384e67e65f145bbca72a2d5a32831fd",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_null_distractor_level_2.5.mat",
+      "sha256": "9ce99ee82ba0db5346ed60d9df24771accbb53308c235d37d9096bfc2a0fdae3",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_null_distractor_level_2.mat",
+      "sha256": "0cba31eb7077dda977d128da7496be35cafa7d77e29cdee4fd2b864d2b9ddb57",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_null_distractor_level_3.mat",
+      "sha256": "2f73579f70744406aa3d4b3d2b32245170ae40db392e941417b9c0e8b733a7d1",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_null_sparsity_level_0.15.mat",
+      "sha256": "1e126829c3d309ae0fd5a21bd5e2f315a8075b752ae0c16fce25fa73cb3adc27",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_null_sparsity_level_0.25.mat",
+      "sha256": "6933225b245d3bf442169544e6fef96df1762c0cd9b6cfe853e07bb4c67c4301",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_null_sparsity_level_0.4.mat",
+      "sha256": "323e389fbd6d659e1a620ac9588ad343c88d12dd4a7f82b939a99cbaf4c547ba",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_null_sparsity_level_0.55.mat",
+      "sha256": "cd7902bc46c40a013431bcff3826bf5eeb854ad8cb6cd0577f85f8696c99fbbc",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_null_sparsity_level_0.7.mat",
+      "sha256": "60e5162d554887d151c84b4da5c7c3a078130285f63e3013cccbdcf9860f1612",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_null_sparsity_level_0.85.mat",
+      "sha256": "7691fa3c6828783f8d9d87f5ee2565327e353c20977ea0e883ce9acc0e3fe821",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_null_sparsity_level_1.mat",
+      "sha256": "f7c5f80e9efa126d62566d84f6b6d8ca25d5dd3c9e11985a4fd3f272318f93f5",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_null_specificity_auc.csv",
+      "sha256": "dc06c56e2543b86eea09407a7d605c99699e7224958f501d7d5ca42da444205b",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_null_summary.csv",
+      "sha256": "8357bd5c8aa48583aca42dff0d5c9af4dd9b15cf115e95b8164cb40563893a84",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_random_fp_distractor_level_0.mat",
+      "sha256": "36491314761ac871cf608dbaa3475c4734afc2389498034f8f21de88be9050eb",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_random_fp_distractor_level_1.5.mat",
+      "sha256": "a2d676bb1e4fd66e120ce1ef90b4f3193c9689d6b0e9afe205f40648a40b77a7",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_random_fp_distractor_level_3.mat",
+      "sha256": "7299280045b41b329e4f0e51a1c4caa0c97466d46792012d5f29402e736cf1c0",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_random_fp_sparsity_level_0.15.mat",
+      "sha256": "406a47eeed41618a00aaf8d0709c876077bed60f62eed0351ea2c5a0229d4628",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_random_fp_sparsity_level_0.5.mat",
+      "sha256": "0e6d67b93b8e93d65e7e9428fc39ac3e8ead40ddbae1f0cef24ba04697e206fe",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_random_fp_sparsity_level_1.mat",
+      "sha256": "c213b31f87d1b5bb53608fa66a1a60b7fd629ea3e717080eb17547decd838f15",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_random_fp_summary.csv",
+      "sha256": "8d23cff18d1dd81f2083bc3ceece8c59982844140ce8aa9b01daa9acfa1e3168",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_runtime.json",
+      "sha256": "cde13a1ae1bf5f268da6cb481f521717611f4b4a913a66f52a0e18253ae26ea5",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_selected_fP_distribution.csv",
+      "sha256": "17f5b9626b67df897372c0f160352ee01387d71c1c1a259dd6cf737f1414ddbd",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\a2_trials.csv",
+      "sha256": "6137cd77cb98b9ae714f15c347e2e84fc87b38a2477520d1f7ca5ef374a675cc",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\analysis_final_manifest.json",
+      "sha256": "e4883a8dbd9cc7cd0905bb1cb8e0d591a67aa71de3fc6bcbcc37fe23535d2bcb",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\analysis_manifest.json",
+      "sha256": "c0549ef5f7674d7231bb58b29af0d03b6992f16f928215038e789f4cc77b5b6f",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\build_followup.py",
+      "sha256": "b56dd1a0f9e7ac2845920a8f4a6062081142f287cab874b22105d8dfd4a45dc4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\comparator_copy_check.json",
+      "sha256": "97e6877b8efb6984abf82e123364a95a3fa5ebb532771ac694b5f5c952b51b22",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\diagnose_slow_status4.m",
+      "sha256": "f007606b920c8bcb1224ea1a1503b8774b5d938646eb7512d32661433a38f6a3",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\diagnosis_matlab.log",
+      "sha256": "39bf9eb27c0f225b982b4c24385cc71fafb167531cb12390336f1f1ebfbfaef1",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\diagnosis_retry_matlab.log",
+      "sha256": "4b144e8e2d023e3d68871955045736ce9183e20df5039665564a87c032411ad4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\diagnosis_runtime.json",
+      "sha256": "770e40ef64a4d265f501df1faa09ce198e96bd8e643dc90a075f75b7146052c4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\fu_apc_diagnostic.m",
+      "sha256": "72f9681ffbee3ee9743a9834e49ea15cc91bfdec292bf02dd45dba6698abb50a",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\fu_comparators.m",
+      "sha256": "b2ab5a8a654ff25ab6ada9fb6fa30f02830b09b69be6acb18d0dc8c276b9cd21",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\fu_phase_trace.m",
+      "sha256": "2780991ad9c4cd4737b6357ce0a832901532bc6b6ee42ed44f59daccf5171dec",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\fu_slow_generator.m",
+      "sha256": "57852da5497abd6cb134fb84ea71dc7330faf96aed77db99dc8bffcbe0c9c19f",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\generated_inputs_manifest.json",
+      "sha256": "8a0fb2b4745e084076e01e3608ee8fda9e00dc9a54b900b73e65744068c02927",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\input_source_manifest.json",
+      "sha256": "708e02552b626ce8b3daa27fb570127e61b0c7c161a6e7fa71c5cb4165b5a361",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\input_verification_matlab.log",
+      "sha256": "fbf15ca588ab92a12144b1854ac08befe0b9d94cd1a89d54598aff2e094ef382",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\prepare_followup.py",
+      "sha256": "7d590b04343ce7aadfd76cc6b8697f9e4e67022e9e21e961ad143a405501eda8",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\prepare_slow_diagnosis.py",
+      "sha256": "82b739bb868136ab8fe2bb71c941f78c6cee3faebb7dca064d86ad9129dc623c",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\PROTOCOL_followup.md",
+      "sha256": "cd2c38518493e334410e5e4d9c9570caa91181c27fc9672456ccabdcc1ce5c15",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\record_manifests.py",
+      "sha256": "a21889e896d5525e168f7d184f22458a2b4ea19e8082a328fc9f264c47004397",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\report_runtime.json",
+      "sha256": "c073e7ed1d1947180bfd3396ced7b3fc193418fe887bca5b44c99b0711a5e73b",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\RESULTS_followup.md",
+      "sha256": "70eafe7b0f4cd0509965dc501b925e8dffe3b00df484e067fc3afb12afbc1a6a",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\run_followup.m",
+      "sha256": "5d1b490e99ecb11c5c47fd3efc3825b81b9a994d50dadabcd6a373a1cf2b47a4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\slow_diagnosis_matlab.log",
+      "sha256": "b4829618544a008cae6d8dab1b9fb7b8ffa99c264ea6fb8d6fffaa4f5890a672",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\slow_diagnosis_runtime.json",
+      "sha256": "0baf5ac60e365b4a894eb054888e6c5cb30e7a30917f081619436a123b1f0e47",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\slow_input_verification.csv",
+      "sha256": "2d37b40ab1773acd1ec1e39bef312ca9cbb42e89a8ef10ceb0eabe8212d41520",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\slow_input_verification.json",
+      "sha256": "d62b82f00ff1f7311f284550dd8427ad7705f5a99817f4d23df09208d9b08dc2",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\slow_input_verification.mat",
+      "sha256": "24289bc8a06784a20e51c29d78db36e2bff674a76e67b2a8804a0bfa3fb34a39",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\slow_inputs_level_0.5.mat",
+      "sha256": "d761ddd116f96831a8010f550f0b71623e91a1e9d49e84712d6be03f0fff57ca",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\slow_inputs_level_0.mat",
+      "sha256": "31ff877647b62f39152d0f77d9eff68bb68c96e82a8b2df524f64c25949734c1",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\slow_inputs_level_1.5.mat",
+      "sha256": "32ad3d18844780a64db3d8fe6a239d7fe930ef15b2fc95b4f1004eaecce822c5",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\slow_inputs_level_1.mat",
+      "sha256": "ccfa1c7918e388bfd1b3028024a2a12b75031db7330235f35eb3ee7838a84463",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\slow_inputs_level_2.mat",
+      "sha256": "928bb53ffbcbd75e1c66fb7962f012bd24fcc189750dbadde05f4440b37df7f1",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\slow_inputs_level_3.mat",
+      "sha256": "e9c04b9a86d4309ff6b8b1dcb2f2754d9232d6a32bb049097f7b091dae62995e",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\slow_matlab.log",
+      "sha256": "8a6f28523656c561112f4fde8461813b7af17cf5133f40c303f81d0235e952d0",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\slow_null_specificity_auc.csv",
+      "sha256": "854765161f5735a59095a5f6996f89789ed2189a2bc33d97d2f1ad620d3cf9ae",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\slow_runtime.json",
+      "sha256": "548c2a2c12828e0a79c1516b8d5cbdd8963546385e4cbee819a16ab68baa1112",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\slow_status4_diagnosis.csv",
+      "sha256": "777a95772024fb76a7e75621ce721905f67b1fc0196c2b10e2133388d38e2af8",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\slow_status4_diagnostics.mat",
+      "sha256": "efa53fe4f4852582a88173729910ccc7ec4f0547447b7fd40024434adfa443e1",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\slow_summary.csv",
+      "sha256": "6f08411a23984f10c0d783a30c68bbdd127fe4fc81c97876f0fda6258a72f70f",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\slow_trials.csv",
+      "sha256": "4e7f37b0f85bed7fe9dc9fce0e964a50b4d475dcd87d874511df24b8aeeb29e9",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\status4_diagnosis.csv",
+      "sha256": "b9c2fc2d292383d3ac7068b65a218a40e390b3d0b7125ecaad8cdda40dc003c0",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\status4_diagnostics.mat",
+      "sha256": "42531f66681f6927755d4d7972b3248fddd43e4d798b4fecab2e2dc4d7db0f42",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\status4_selection.json",
+      "sha256": "2dc4814616c6a7021b58a767b0a1048228ff1d9258df179c3d84757ad2acede6",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\verification.json",
+      "sha256": "271b41735a3917e04510dd30555538c781eb2bc353db29a79210cf880866681f",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v1_followup\\verify_followup_inputs.m",
+      "sha256": "68435dc3b1d78c07d3bde167b79434b2c7e6c015b1d15d121b821cb534eb5e18",
+      "unchanged": true
+    }
+  ],
+  "metadata": {
+    "git_commit": "7848af05ada722971769da856e970d0737820169",
+    "tag": "not_created",
+    "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+    "signal_seed": 20260618.0,
+    "heldout_seed": 20261022.0,
+    "heldout_generated": false,
+    "apc_options": {
+      "fA": [
+        80,
+        160
+      ],
+      "epoch": [
+        -0.6,
+        0.6
+      ],
+      "decomposition": "fft_peak",
+      "metric": "canolty",
+      "diagm": false,
+      "surrogates": false,
+      "num_perm": 0,
+      "numPhaseBins": 18,
+      "burstTimeBandwidth": 5,
+      "phaseTimeBandwidth": 20,
+      "phaseEpochCycles": 3,
+      "minPhaseHz": 1,
+      "maxPhaseHz": 30,
+      "flipTroughs": true,
+      "burstProminenceScale": 0.75,
+      "surrogateMethod": "circular_shift",
+      "amplitudeBandWidthHz": 4,
+      "stepFourMode": "v1",
+      "fPRefine": true,
+      "fPMaxBinSpacingHz": 0.05,
+      "version": "v2",
+      "eventSurrogateSeed": 20260619.0,
+      "eventSurrogateSubstream": 2
+    },
+    "comparator_settings": {
+      "phase_grid_hz": [
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13,
+        13.5,
+        14
+      ],
+      "phase_half_width_hz": 1.5,
+      "amplitude_grid_hz": [
+        80,
+        84,
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148,
+        152,
+        156,
+        160
+      ],
+      "A2_prime_half_width_hz": 14,
+      "A1_prime_half_width": "candidate fP",
+      "metrics": [
+        "MVL-raw",
+        "MVL-Ozkurt",
+        "KLMI",
+        "GLM"
+      ]
+    },
+    "base_tag": "v1.0",
+    "base_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+    "apc_source_blob": "6545166cbb7f7fe02d410f9c328e180a8de53f61",
+    "protocol_git_blob": "1d21051e52e1eb0fc936eaf78d8fa222db2c710a",
+    "unit_profile": {
+      "profile_name": "reviewer_control",
+      "random_seed": 20260618.0,
+      "fs_hz": 500,
+      "duration_s": 6,
+      "true_fp_hz": 8,
+      "true_fa_hz": 120,
+      "distractor_fa_hz": 96,
+      "phase_offset_deg": 180,
+      "low_amp": 1,
+      "true_high_amp": 1.3,
+      "distractor_base_amp": 0,
+      "base_hf_amp": 0.08,
+      "burst_sigma_s": 0.028,
+      "coupling_level": 0.6,
+      "burst_phase_jitter_s": 0.01,
+      "snr_db": 20,
+      "broad_fa_band_hz": [
+        80,
+        160
+      ],
+      "phase_scan_hz": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "amplitude_scan_hz": [
+        80,
+        88,
+        96,
+        104,
+        112,
+        120,
+        128,
+        136,
+        144,
+        152
+      ],
+      "phase_band_half_width_hz": 1.5,
+      "amplitude_band_half_width_hz": 6,
+      "metric": "canolty",
+      "fa_tolerance_hz": 8,
+      "fp_tolerance_hz": 1,
+      "oracle_control_distractor_scale": 0,
+      "n_repeats": 25,
+      "distractor_scale_values": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3
+      ],
+      "slow_distractor_hz": 11,
+      "slow_amplitude_ratios": [
+        0,
+        3
+      ],
+      "slow_distractor_phase_rad": 0,
+      "slow_amplitude_ratio": 0,
+      "high_frequency_distractor_present": false
+    },
+    "surrogate_generator": "mrg32k3a",
+    "surrogate_seed": 20260619.0,
+    "surrogate_substream": 2,
+    "unit_poisson_seeds": [
+      20260618.0,
+      20260619.0,
+      20260620.0,
+      20260621.0,
+      20260622.0,
+      20260623.0,
+      20260624.0,
+      20260625.0,
+      20260626.0,
+      20260627.0
+    ],
+    "unit_poisson_generator": "mrg32k3a",
+    "unit_poisson_substream": 3,
+    "uncoupled_phase_seed": 20260619.0,
+    "uncoupled_phase_generator": "mrg32k3a",
+    "uncoupled_phase_substream": 1
+  }
+}

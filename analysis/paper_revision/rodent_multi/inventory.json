@@ -1,0 +1,3725 @@
+{
+  "metadata": {
+    "git_tag": "v1.0",
+    "git_commit": "71ebc16aed32ca38be73a800738b975e5806b330",
+    "current_repo_commit": "217fd8373759150cdeffe794d231a7cec2225f38",
+    "protocol_file": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\PROTOCOL_rodent.md",
+    "protocol_sha256": "66f917261c42c1294d3744d61a76626d06d599e3a9d2151faef1951bfe707113",
+    "stage": "read-only inventory and duration gate",
+    "tracking_fs_hz": 39.0625,
+    "duration_ratio_definition": "(tracking samples / 39.0625) / (LFP samples / fs)",
+    "mapping_tolerance": 0.05
+  },
+  "sessions": [
+    {
+      "session": "ec013.156",
+      "folder": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.156.eeg",
+      "available_mat_files": [
+        "brainstormstudy.mat",
+        "channel.mat",
+        "data_block001.mat",
+        "matrix_concat_230102_0127.mat",
+        "timefreq_psd_230102_0128.mat",
+        "timefreq_tFOOOF_210822_0025.mat",
+        "timefreq_tFOOOF_210824_1442.mat",
+        "timefreq_tFOOOF_210825_2113.mat",
+        "timefreq_tFOOOF_211030_2031.mat"
+      ],
+      "requested_file_exists": true
+    },
+    {
+      "session": "ec013.157",
+      "folder": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.157.eeg",
+      "available_mat_files": [
+        "brainstormstudy.mat",
+        "channel.mat",
+        "data_230118_2215.mat",
+        "data_block001_resample.mat",
+        "data_rest_run_trial001.mat",
+        "data_rest_run_trial002.mat",
+        "data_rest_run_trial003.mat",
+        "data_rest_run_trial004.mat",
+        "data_rest_run_trial005.mat",
+        "data_rest_run_trial006.mat",
+        "data_rest_run_trial007.mat",
+        "data_rest_run_trial008.mat",
+        "data_rest_run_trial009.mat",
+        "data_rest_run_trial010.mat",
+        "data_rest_run_trial011.mat",
+        "data_rest_run_trial012.mat",
+        "data_rest_run_trial013.mat",
+        "data_run_rest_trial001.mat",
+        "data_run_rest_trial002.mat",
+        "data_run_rest_trial003.mat",
+        "data_run_rest_trial004.mat",
+        "data_run_rest_trial005.mat",
+        "data_run_rest_trial006.mat",
+        "data_run_rest_trial007.mat",
+        "data_run_rest_trial008.mat",
+        "data_run_rest_trial009.mat",
+        "data_run_rest_trial010.mat",
+        "data_run_rest_trial011.mat",
+        "data_run_rest_trial012.mat",
+        "matrix_concat_230102_0135.mat",
+        "timefreq_average_230118_2236.mat",
+        "timefreq_average_230118_2238.mat",
+        "timefreq_trial001_sprint_230118_2234.mat",
+        "timefreq_trial001_sprint_230118_2237.mat",
+        "timefreq_trial002_sprint_230118_2234.mat",
+        "timefreq_trial002_sprint_230118_2237.mat",
+        "timefreq_trial003_sprint_230118_2234.mat",
+        "timefreq_trial003_sprint_230118_2237.mat",
+        "timefreq_trial004_sprint_230118_2234.mat",
+        "timefreq_trial004_sprint_230118_2237.mat",
+        "timefreq_trial005_sprint_230118_2234.mat",
+        "timefreq_trial005_sprint_230118_2237.mat",
+        "timefreq_trial006_sprint_230118_2234.mat",
+        "timefreq_trial006_sprint_230118_2237.mat",
+        "timefreq_trial007_sprint_230118_2234.mat",
+        "timefreq_trial007_sprint_230118_2237.mat",
+        "timefreq_trial008_sprint_230118_2234.mat",
+        "timefreq_trial008_sprint_230118_2237.mat",
+        "timefreq_trial009_sprint_230118_2234.mat",
+        "timefreq_trial009_sprint_230118_2237.mat",
+        "timefreq_trial010_sprint_230118_2234.mat",
+        "timefreq_trial010_sprint_230118_2237.mat",
+        "timefreq_trial011_sprint_230118_2235.mat",
+        "timefreq_trial011_sprint_230118_2237.mat",
+        "timefreq_trial012_sprint_230118_2235.mat",
+        "timefreq_trial012_sprint_230118_2237.mat",
+        "timefreq_trial013_sprint_230118_2237.mat"
+      ],
+      "requested_file_exists": false
+    },
+    {
+      "session": "ec013.205",
+      "folder": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.205.eeg",
+      "available_mat_files": [
+        "brainstormstudy.mat",
+        "channel.mat",
+        "data_block001.mat",
+        "matrix_concat_230102_0135.mat",
+        "timefreq_tFOOOF_210822_0028.mat",
+        "timefreq_tFOOOF_210824_1446.mat",
+        "timefreq_tFOOOF_210825_2120.mat",
+        "timefreq_tFOOOF_211030_2045.mat"
+      ],
+      "requested_file_exists": true
+    },
+    {
+      "session": "ec013.206",
+      "folder": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.206.eeg",
+      "available_mat_files": [
+        "brainstormstudy.mat",
+        "channel.mat",
+        "data_block001.mat",
+        "matrix_concat_230102_0136.mat",
+        "timefreq_tFOOOF_210822_0032.mat",
+        "timefreq_tFOOOF_210824_1449.mat",
+        "timefreq_tFOOOF_210825_2126.mat",
+        "timefreq_tFOOOF_211030_2103.mat"
+      ],
+      "requested_file_exists": true
+    },
+    {
+      "session": "ec013.208",
+      "folder": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.208.eeg",
+      "available_mat_files": [
+        "brainstormstudy.mat",
+        "channel.mat",
+        "data_block001.mat",
+        "matrix_concat_230102_0137.mat",
+        "timefreq_tFOOOF_210822_0036.mat",
+        "timefreq_tFOOOF_210824_1451.mat",
+        "timefreq_tFOOOF_210825_2131.mat",
+        "timefreq_tFOOOF_211030_2111.mat"
+      ],
+      "requested_file_exists": true
+    },
+    {
+      "session": "ec013.251",
+      "folder": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.251.eeg",
+      "available_mat_files": [
+        "brainstormstudy.mat",
+        "channel.mat",
+        "data_block001.mat",
+        "matrix_concat_230102_0137.mat",
+        "timefreq_tFOOOF_210822_0041.mat",
+        "timefreq_tFOOOF_210824_1454.mat",
+        "timefreq_tFOOOF_210825_2136.mat",
+        "timefreq_tFOOOF_211030_2125.mat"
+      ],
+      "requested_file_exists": true
+    },
+    {
+      "session": "ec013.252",
+      "folder": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.252.eeg",
+      "available_mat_files": [
+        "brainstormstudy.mat",
+        "channel.mat",
+        "data_block001.mat",
+        "matrix_concat_230102_0137.mat",
+        "timefreq_tFOOOF_210822_0045.mat",
+        "timefreq_tFOOOF_210824_1457.mat",
+        "timefreq_tFOOOF_210825_2142.mat",
+        "timefreq_tFOOOF_211030_2136.mat"
+      ],
+      "requested_file_exists": true
+    },
+    {
+      "session": "ec013.374",
+      "folder": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.374.eeg",
+      "available_mat_files": [
+        "brainstormstudy.mat",
+        "channel.mat",
+        "data_block001.mat",
+        "matrix_concat_230102_0138.mat",
+        "timefreq_tFOOOF_210822_0050.mat",
+        "timefreq_tFOOOF_210824_1500.mat",
+        "timefreq_tFOOOF_210825_2148.mat",
+        "timefreq_tFOOOF_211030_2151.mat"
+      ],
+      "requested_file_exists": true
+    },
+    {
+      "session": "ec013.375",
+      "folder": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.375.eeg",
+      "available_mat_files": [
+        "brainstormstudy.mat",
+        "channel.mat",
+        "data_block001.mat",
+        "data_concat_230102_1225.mat",
+        "timefreq_psd_230104_0030.mat",
+        "timefreq_tFOOOF_210822_0055.mat",
+        "timefreq_tFOOOF_210824_1502.mat",
+        "timefreq_tFOOOF_210825_2158.mat",
+        "timefreq_tFOOOF_211030_2232.mat"
+      ],
+      "requested_file_exists": true
+    },
+    {
+      "session": "ec012ec.239",
+      "folder": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.239.eeg",
+      "available_mat_files": [
+        "brainstormstudy.mat",
+        "channel.mat",
+        "data_block001.mat",
+        "timefreq_tFOOOF_210821_1739.mat",
+        "timefreq_tFOOOF_210823_1823.mat",
+        "timefreq_tFOOOF_210823_1825.mat",
+        "timefreq_tFOOOF_210823_1829.mat",
+        "timefreq_tFOOOF_210824_1356.mat",
+        "timefreq_tFOOOF_210825_2012.mat",
+        "timefreq_tFOOOF_211030_1849.mat"
+      ],
+      "requested_file_exists": true
+    },
+    {
+      "session": "ec012ec.240",
+      "folder": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.240.eeg",
+      "available_mat_files": [
+        "brainstormstudy.mat",
+        "channel.mat",
+        "data_block001.mat",
+        "timefreq_tFOOOF_210821_1745.mat",
+        "timefreq_tFOOOF_210824_1402.mat",
+        "timefreq_tFOOOF_210825_2021.mat",
+        "timefreq_tFOOOF_211030_1902.mat"
+      ],
+      "requested_file_exists": true
+    },
+    {
+      "session": "ec012ec.269",
+      "folder": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.269.eeg",
+      "available_mat_files": [
+        "brainstormstudy.mat",
+        "channel.mat",
+        "data_block001.mat",
+        "timefreq_tFOOOF_210821_1750.mat",
+        "timefreq_tFOOOF_210824_1408.mat",
+        "timefreq_tFOOOF_210825_2027.mat",
+        "timefreq_tFOOOF_211030_1915.mat"
+      ],
+      "requested_file_exists": true
+    },
+    {
+      "session": "ec012ec.270",
+      "folder": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.270.eeg",
+      "available_mat_files": [
+        "brainstormstudy.mat",
+        "channel.mat",
+        "data_block001.mat",
+        "timefreq_tFOOOF_210821_1754.mat",
+        "timefreq_tFOOOF_210824_1413.mat",
+        "timefreq_tFOOOF_210825_2032.mat",
+        "timefreq_tFOOOF_211030_1924.mat"
+      ],
+      "requested_file_exists": true
+    },
+    {
+      "session": "ec012ec.271",
+      "folder": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.271.eeg",
+      "available_mat_files": [
+        "brainstormstudy.mat",
+        "channel.mat",
+        "data_block001.mat",
+        "timefreq_tFOOOF_210821_1757.mat",
+        "timefreq_tFOOOF_210824_1418.mat",
+        "timefreq_tFOOOF_210825_2036.mat",
+        "timefreq_tFOOOF_211030_1932.mat"
+      ],
+      "requested_file_exists": true
+    },
+    {
+      "session": "ec012ec.356",
+      "folder": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.356.eeg",
+      "available_mat_files": [
+        "brainstormstudy.mat",
+        "channel.mat",
+        "data_block001.mat",
+        "timefreq_tFOOOF_210821_1801.mat",
+        "timefreq_tFOOOF_210824_1423.mat",
+        "timefreq_tFOOOF_210825_2041.mat",
+        "timefreq_tFOOOF_211030_1940.mat"
+      ],
+      "requested_file_exists": true
+    },
+    {
+      "session": "ec012ec.357",
+      "folder": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.357.eeg",
+      "available_mat_files": [
+        "brainstormstudy.mat",
+        "channel.mat",
+        "data_block001.mat",
+        "timefreq_tFOOOF_210821_1806.mat",
+        "timefreq_tFOOOF_210824_1429.mat",
+        "timefreq_tFOOOF_210825_2048.mat",
+        "timefreq_tFOOOF_211030_1951.mat"
+      ],
+      "requested_file_exists": true
+    },
+    {
+      "session": "ec012ec.375",
+      "folder": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.375.eeg",
+      "available_mat_files": [
+        "brainstormstudy.mat",
+        "channel.mat",
+        "data_block001.mat",
+        "timefreq_tFOOOF_210821_1811.mat",
+        "timefreq_tFOOOF_210824_1434.mat",
+        "timefreq_tFOOOF_210825_2058.mat",
+        "timefreq_tFOOOF_211030_2005.mat"
+      ],
+      "requested_file_exists": true
+    },
+    {
+      "session": "ec012ec.444",
+      "folder": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.444.eeg",
+      "available_mat_files": [
+        "brainstormstudy.mat",
+        "channel.mat",
+        "data_block001.mat",
+        "timefreq_tFOOOF_210821_1815.mat",
+        "timefreq_tFOOOF_210824_1439.mat",
+        "timefreq_tFOOOF_210825_2105.mat",
+        "timefreq_tFOOOF_211030_2012.mat"
+      ],
+      "requested_file_exists": true
+    }
+  ],
+  "metadata_candidate_files": [
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\dataset_description.json",
+      "bytes": 1119
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\participants.tsv",
+      "bytes": 181
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\dataset_description.json",
+      "bytes": 1524
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\download_manifest.tsv",
+      "bytes": 71440
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\participants.json",
+      "bytes": 816
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\participants.tsv",
+      "bytes": 759
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Automatic_detection_excerpt1.txt",
+      "bytes": 3675
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Automatic_detection_excerpt2.txt",
+      "bytes": 2180
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Automatic_detection_excerpt3.txt",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Automatic_detection_excerpt4.txt",
+      "bytes": 1214
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Automatic_detection_excerpt5.txt",
+      "bytes": 1950
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Automatic_detection_excerpt6.txt",
+      "bytes": 2318
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Automatic_detection_excerpt7.txt",
+      "bytes": 777
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Automatic_detection_excerpt8.txt",
+      "bytes": 3031
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\DREAMS_databases_License.txt",
+      "bytes": 16125
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\excerpt1.txt",
+      "bytes": 2160009
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\excerpt2.txt",
+      "bytes": 4320009
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\excerpt3.txt",
+      "bytes": 1080009
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\excerpt4.txt",
+      "bytes": 4320009
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\excerpt5.txt",
+      "bytes": 4320009
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\excerpt6.txt",
+      "bytes": 4321681
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\excerpt7.txt",
+      "bytes": 4320009
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\excerpt8.txt",
+      "bytes": 4320009
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Hypnogram_excerpt1.txt",
+      "bytes": 1093
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Hypnogram_excerpt2.txt",
+      "bytes": 1093
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Hypnogram_excerpt3.txt",
+      "bytes": 1093
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Hypnogram_excerpt4.txt",
+      "bytes": 1093
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Hypnogram_excerpt5.txt",
+      "bytes": 1093
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Hypnogram_excerpt6.txt",
+      "bytes": 1093
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Hypnogram_excerpt7.txt",
+      "bytes": 1093
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Hypnogram_excerpt8.txt",
+      "bytes": 1093
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Visual_scoring1_excerpt1.txt",
+      "bytes": 1219
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Visual_scoring1_excerpt2.txt",
+      "bytes": 1403
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Visual_scoring1_excerpt3.txt",
+      "bytes": 138
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Visual_scoring1_excerpt4.txt",
+      "bytes": 1035
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Visual_scoring1_excerpt5.txt",
+      "bytes": 1311
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Visual_scoring1_excerpt6.txt",
+      "bytes": 1679
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Visual_scoring1_excerpt7.txt",
+      "bytes": 437
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Visual_scoring1_excerpt8.txt",
+      "bytes": 1127
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Visual_scoring2_excerpt1.txt",
+      "bytes": 2668
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Visual_scoring2_excerpt2.txt",
+      "bytes": 1219
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Visual_scoring2_excerpt3.txt",
+      "bytes": 1035
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Visual_scoring2_excerpt4.txt",
+      "bytes": 598
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Visual_scoring2_excerpt5.txt",
+      "bytes": 2001
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\DREAMS_Spindles\\extracted\\Visual_scoring2_excerpt6.txt",
+      "bytes": 2024
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\LFP_data\\Behavioral_Data\\Behavior_my_results.mat",
+      "bytes": 457969595
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\MEGRestingState\\APC_data_resting\\DataResting\\OMEGA-Jason-ottawa\\DataInformation.txt",
+      "bytes": 44
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OMEGA_APC_brainstorm_home\\AppData\\Roaming\\MathWorks\\MATLAB\\R2022b\\migratePref.txt",
+      "bytes": 1
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OMEGA_APC_brainstorm_home\\AppData\\Roaming\\MathWorks\\MATLAB\\R2022b\\MLintDefaultSettings.txt",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0002\\ses-0001\\sub-0002_ses-0001_scans.tsv",
+      "bytes": 80
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0002\\ses-0001\\meg\\sub-0002_ses-0001_coordsystem.json",
+      "bytes": 1726
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0002\\ses-0001\\meg\\sub-0002_ses-0001_task-rest_run-01_channels.tsv",
+      "bytes": 36918
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0002\\ses-0001\\meg\\sub-0002_ses-0001_task-rest_run-01_meg.json",
+      "bytes": 846
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0003\\ses-0001\\sub-0003_ses-0001_scans.tsv",
+      "bytes": 80
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0003\\ses-0001\\meg\\sub-0003_ses-0001_coordsystem.json",
+      "bytes": 1742
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0003\\ses-0001\\meg\\sub-0003_ses-0001_task-rest_run-01_channels.tsv",
+      "bytes": 36918
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0003\\ses-0001\\meg\\sub-0003_ses-0001_task-rest_run-01_meg.json",
+      "bytes": 846
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0004\\ses-0001\\sub-0004_ses-0001_scans.tsv",
+      "bytes": 80
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0004\\ses-0001\\meg\\sub-0004_ses-0001_coordsystem.json",
+      "bytes": 1742
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0004\\ses-0001\\meg\\sub-0004_ses-0001_task-rest_run-01_channels.tsv",
+      "bytes": 39648
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0004\\ses-0001\\meg\\sub-0004_ses-0001_task-rest_run-01_meg.json",
+      "bytes": 917
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0006\\ses-0001\\sub-0006_ses-0001_scans.tsv",
+      "bytes": 80
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0006\\ses-0001\\meg\\sub-0006_ses-0001_coordsystem.json",
+      "bytes": 1725
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0006\\ses-0001\\meg\\sub-0006_ses-0001_task-rest_run-01_channels.tsv",
+      "bytes": 39648
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0006\\ses-0001\\meg\\sub-0006_ses-0001_task-rest_run-01_meg.json",
+      "bytes": 917
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0007\\ses-0001\\sub-0007_ses-0001_scans.tsv",
+      "bytes": 80
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0007\\ses-0001\\meg\\sub-0007_ses-0001_coordsystem.json",
+      "bytes": 1725
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0007\\ses-0001\\meg\\sub-0007_ses-0001_task-rest_run-01_channels.tsv",
+      "bytes": 39648
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-0007\\ses-0001\\meg\\sub-0007_ses-0001_task-rest_run-01_meg.json",
+      "bytes": 918
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-emptyroom\\ses-18901014\\sub-emptyroom_ses-18901014_scans.tsv",
+      "bytes": 90
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-emptyroom\\ses-18901015\\sub-emptyroom_ses-18901015_scans.tsv",
+      "bytes": 90
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-emptyroom\\ses-18910228\\sub-emptyroom_ses-18910228_scans.tsv",
+      "bytes": 90
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-emptyroom\\ses-18910303\\sub-emptyroom_ses-18910303_scans.tsv",
+      "bytes": 90
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-emptyroom\\ses-18910512\\sub-emptyroom_ses-18910512_scans.tsv",
+      "bytes": 90
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-emptyroom\\ses-18901014\\meg\\sub-emptyroom_ses-18901014_task-noise_run-01_channels.tsv",
+      "bytes": 36774
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-emptyroom\\ses-18901014\\meg\\sub-emptyroom_ses-18901014_task-noise_run-01_meg.json",
+      "bytes": 741
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-emptyroom\\ses-18901015\\meg\\sub-emptyroom_ses-18901015_task-noise_run-01_channels.tsv",
+      "bytes": 36774
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-emptyroom\\ses-18901015\\meg\\sub-emptyroom_ses-18901015_task-noise_run-01_meg.json",
+      "bytes": 741
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-emptyroom\\ses-18910228\\meg\\sub-emptyroom_ses-18910228_task-noise_run-01_channels.tsv",
+      "bytes": 36774
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-emptyroom\\ses-18910228\\meg\\sub-emptyroom_ses-18910228_task-noise_run-01_meg.json",
+      "bytes": 741
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-emptyroom\\ses-18910303\\meg\\sub-emptyroom_ses-18910303_task-noise_run-01_channels.tsv",
+      "bytes": 36774
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-emptyroom\\ses-18910303\\meg\\sub-emptyroom_ses-18910303_task-noise_run-01_meg.json",
+      "bytes": 741
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-emptyroom\\ses-18910512\\meg\\sub-emptyroom_ses-18910512_task-noise_run-01_channels.tsv",
+      "bytes": 36774
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds000247\\sub-emptyroom\\ses-18910512\\meg\\sub-emptyroom_ses-18910512_task-noise_run-01_meg.json",
+      "bytes": 741
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\sub-01_sessions.tsv",
+      "bytes": 133
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\sub-02_sessions.tsv",
+      "bytes": 217
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\sub-03_sessions.tsv",
+      "bytes": 105
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\sub-04_sessions.tsv",
+      "bytes": 77
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\sub-05_sessions.tsv",
+      "bytes": 105
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\sub-06_sessions.tsv",
+      "bytes": 217
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\sub-07_sessions.tsv",
+      "bytes": 133
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\sub-08_sessions.tsv",
+      "bytes": 133
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\sub-09_sessions.tsv",
+      "bytes": 77
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\sub-10_sessions.tsv",
+      "bytes": 77
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\sub-11_sessions.tsv",
+      "bytes": 189
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\sub-12_sessions.tsv",
+      "bytes": 189
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\sub-13_sessions.tsv",
+      "bytes": 189
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\sub-14_sessions.tsv",
+      "bytes": 245
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\sub-15_sessions.tsv",
+      "bytes": 133
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-01\\sub-01_ses-01_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-02\\sub-01_ses-02_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-03\\sub-01_ses-03_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-04\\sub-01_ses-04_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-01\\eeg\\sub-01_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 534
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-01\\eeg\\sub-01_ses-01_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-01\\eeg\\sub-01_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-01\\eeg\\sub-01_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2304
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-01\\ieeg\\sub-01_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1483
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-01\\ieeg\\sub-01_ses-01_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-01\\ieeg\\sub-01_ses-01_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 5073
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-01\\ieeg\\sub-01_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-01\\ieeg\\sub-01_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2453
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-01\\ieeg\\sub-01_ses-01_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-02\\eeg\\sub-01_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 534
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-02\\eeg\\sub-01_ses-02_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-02\\eeg\\sub-01_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-02\\eeg\\sub-01_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2287
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-02\\ieeg\\sub-01_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1483
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-02\\ieeg\\sub-01_ses-02_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-02\\ieeg\\sub-01_ses-02_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 5073
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-02\\ieeg\\sub-01_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-02\\ieeg\\sub-01_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2436
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-02\\ieeg\\sub-01_ses-02_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-03\\eeg\\sub-01_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 534
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-03\\eeg\\sub-01_ses-03_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-03\\eeg\\sub-01_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-03\\eeg\\sub-01_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2317
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-03\\ieeg\\sub-01_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1483
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-03\\ieeg\\sub-01_ses-03_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-03\\ieeg\\sub-01_ses-03_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 5073
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-03\\ieeg\\sub-01_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-03\\ieeg\\sub-01_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2466
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-03\\ieeg\\sub-01_ses-03_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-04\\eeg\\sub-01_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 534
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-04\\eeg\\sub-01_ses-04_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-04\\eeg\\sub-01_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-04\\eeg\\sub-01_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 2338
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-04\\ieeg\\sub-01_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1483
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-04\\ieeg\\sub-01_ses-04_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-04\\ieeg\\sub-01_ses-04_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 5073
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-04\\ieeg\\sub-01_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-04\\ieeg\\sub-01_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 2487
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-01\\ses-04\\ieeg\\sub-01_ses-04_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-01\\sub-02_ses-01_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-02\\sub-02_ses-02_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-03\\sub-02_ses-03_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-04\\sub-02_ses-04_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-05\\sub-02_ses-05_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-06\\sub-02_ses-06_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-07\\sub-02_ses-07_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-01\\eeg\\sub-02_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 259
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-01\\eeg\\sub-02_ses-01_task-verbalWM_run-01_eeg.json",
+      "bytes": 1375
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-01\\eeg\\sub-02_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-01\\eeg\\sub-02_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2271
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-01\\ieeg\\sub-02_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-01\\ieeg\\sub-02_ses-01_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-01\\ieeg\\sub-02_ses-01_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6627
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-01\\ieeg\\sub-02_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-01\\ieeg\\sub-02_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2417
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-01\\ieeg\\sub-02_ses-01_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-02\\eeg\\sub-02_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 259
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-02\\eeg\\sub-02_ses-02_task-verbalWM_run-01_eeg.json",
+      "bytes": 1375
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-02\\eeg\\sub-02_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-02\\eeg\\sub-02_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2167
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-02\\ieeg\\sub-02_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-02\\ieeg\\sub-02_ses-02_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-02\\ieeg\\sub-02_ses-02_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6627
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-02\\ieeg\\sub-02_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-02\\ieeg\\sub-02_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2307
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-02\\ieeg\\sub-02_ses-02_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-03\\eeg\\sub-02_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 259
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-03\\eeg\\sub-02_ses-03_task-verbalWM_run-01_eeg.json",
+      "bytes": 1375
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-03\\eeg\\sub-02_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-03\\eeg\\sub-02_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2297
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-03\\ieeg\\sub-02_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-03\\ieeg\\sub-02_ses-03_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-03\\ieeg\\sub-02_ses-03_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6627
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-03\\ieeg\\sub-02_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-03\\ieeg\\sub-02_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2446
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-03\\ieeg\\sub-02_ses-03_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-04\\eeg\\sub-02_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 259
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-04\\eeg\\sub-02_ses-04_task-verbalWM_run-01_eeg.json",
+      "bytes": 1375
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-04\\eeg\\sub-02_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-04\\eeg\\sub-02_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 2217
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-04\\ieeg\\sub-02_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-04\\ieeg\\sub-02_ses-04_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-04\\ieeg\\sub-02_ses-04_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6627
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-04\\ieeg\\sub-02_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-04\\ieeg\\sub-02_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 2360
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-04\\ieeg\\sub-02_ses-04_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-05\\eeg\\sub-02_ses-05_task-verbalWM_run-01_channels.tsv",
+      "bytes": 259
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-05\\eeg\\sub-02_ses-05_task-verbalWM_run-01_eeg.json",
+      "bytes": 1375
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-05\\eeg\\sub-02_ses-05_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-05\\eeg\\sub-02_ses-05_task-verbalWM_run-01_events.tsv",
+      "bytes": 2112
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-05\\ieeg\\sub-02_ses-05_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-05\\ieeg\\sub-02_ses-05_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-05\\ieeg\\sub-02_ses-05_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6627
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-05\\ieeg\\sub-02_ses-05_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-05\\ieeg\\sub-02_ses-05_task-verbalWM_run-01_events.tsv",
+      "bytes": 2249
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-05\\ieeg\\sub-02_ses-05_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-06\\eeg\\sub-02_ses-06_task-verbalWM_run-01_channels.tsv",
+      "bytes": 259
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-06\\eeg\\sub-02_ses-06_task-verbalWM_run-01_eeg.json",
+      "bytes": 1375
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-06\\eeg\\sub-02_ses-06_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-06\\eeg\\sub-02_ses-06_task-verbalWM_run-01_events.tsv",
+      "bytes": 2291
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-06\\ieeg\\sub-02_ses-06_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-06\\ieeg\\sub-02_ses-06_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-06\\ieeg\\sub-02_ses-06_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6627
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-06\\ieeg\\sub-02_ses-06_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-06\\ieeg\\sub-02_ses-06_task-verbalWM_run-01_events.tsv",
+      "bytes": 2440
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-06\\ieeg\\sub-02_ses-06_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-07\\eeg\\sub-02_ses-07_task-verbalWM_run-01_channels.tsv",
+      "bytes": 259
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-07\\eeg\\sub-02_ses-07_task-verbalWM_run-01_eeg.json",
+      "bytes": 1375
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-07\\eeg\\sub-02_ses-07_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-07\\eeg\\sub-02_ses-07_task-verbalWM_run-01_events.tsv",
+      "bytes": 2255
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-07\\ieeg\\sub-02_ses-07_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-07\\ieeg\\sub-02_ses-07_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-07\\ieeg\\sub-02_ses-07_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6627
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-07\\ieeg\\sub-02_ses-07_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-07\\ieeg\\sub-02_ses-07_task-verbalWM_run-01_events.tsv",
+      "bytes": 2401
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-02\\ses-07\\ieeg\\sub-02_ses-07_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-01\\sub-03_ses-01_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-02\\sub-03_ses-02_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-03\\sub-03_ses-03_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-01\\eeg\\sub-03_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 259
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-01\\eeg\\sub-03_ses-01_task-verbalWM_run-01_eeg.json",
+      "bytes": 1375
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-01\\eeg\\sub-03_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-01\\eeg\\sub-03_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2149
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-01\\ieeg\\sub-03_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1251
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-01\\ieeg\\sub-03_ses-01_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-01\\ieeg\\sub-03_ses-01_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 4573
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-01\\ieeg\\sub-03_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-01\\ieeg\\sub-03_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2289
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-01\\ieeg\\sub-03_ses-01_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-02\\eeg\\sub-03_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 259
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-02\\eeg\\sub-03_ses-02_task-verbalWM_run-01_eeg.json",
+      "bytes": 1375
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-02\\eeg\\sub-03_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-02\\eeg\\sub-03_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2298
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-02\\ieeg\\sub-03_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1251
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-02\\ieeg\\sub-03_ses-02_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-02\\ieeg\\sub-03_ses-02_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 4573
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-02\\ieeg\\sub-03_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-02\\ieeg\\sub-03_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2447
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-02\\ieeg\\sub-03_ses-02_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-03\\eeg\\sub-03_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 259
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-03\\eeg\\sub-03_ses-03_task-verbalWM_run-01_eeg.json",
+      "bytes": 1375
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-03\\eeg\\sub-03_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-03\\eeg\\sub-03_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2298
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-03\\ieeg\\sub-03_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1251
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-03\\ieeg\\sub-03_ses-03_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-03\\ieeg\\sub-03_ses-03_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 4573
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-03\\ieeg\\sub-03_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-03\\ieeg\\sub-03_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2447
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-03\\ses-03\\ieeg\\sub-03_ses-03_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-01\\sub-04_ses-01_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-02\\sub-04_ses-02_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-01\\eeg\\sub-04_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 534
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-01\\eeg\\sub-04_ses-01_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-01\\eeg\\sub-04_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-01\\eeg\\sub-04_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2292
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-01\\ieeg\\sub-04_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-01\\ieeg\\sub-04_ses-01_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-01\\ieeg\\sub-04_ses-01_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6582
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-01\\ieeg\\sub-04_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-01\\ieeg\\sub-04_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2438
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-01\\ieeg\\sub-04_ses-01_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-02\\eeg\\sub-04_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 534
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-02\\eeg\\sub-04_ses-02_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-02\\eeg\\sub-04_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-02\\eeg\\sub-04_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2345
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-02\\ieeg\\sub-04_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-02\\ieeg\\sub-04_ses-02_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-02\\ieeg\\sub-04_ses-02_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6582
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-02\\ieeg\\sub-04_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-02\\ieeg\\sub-04_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2494
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-04\\ses-02\\ieeg\\sub-04_ses-02_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-01\\sub-05_ses-01_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-02\\sub-05_ses-02_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-03\\sub-05_ses-03_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-01\\eeg\\sub-05_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 561
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-01\\eeg\\sub-05_ses-01_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-01\\eeg\\sub-05_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-01\\eeg\\sub-05_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2302
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-01\\ieeg\\sub-05_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1011
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-01\\ieeg\\sub-05_ses-01_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-01\\ieeg\\sub-05_ses-01_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 3473
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-01\\ieeg\\sub-05_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-01\\ieeg\\sub-05_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2451
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-01\\ieeg\\sub-05_ses-01_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-02\\eeg\\sub-05_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 561
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-02\\eeg\\sub-05_ses-02_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-02\\eeg\\sub-05_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-02\\eeg\\sub-05_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2293
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-02\\ieeg\\sub-05_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1011
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-02\\ieeg\\sub-05_ses-02_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-02\\ieeg\\sub-05_ses-02_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 3473
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-02\\ieeg\\sub-05_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-02\\ieeg\\sub-05_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2442
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-02\\ieeg\\sub-05_ses-02_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-03\\eeg\\sub-05_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 561
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-03\\eeg\\sub-05_ses-03_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-03\\eeg\\sub-05_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-03\\eeg\\sub-05_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2291
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-03\\ieeg\\sub-05_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1011
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-03\\ieeg\\sub-05_ses-03_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-03\\ieeg\\sub-05_ses-03_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 3473
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-03\\ieeg\\sub-05_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-03\\ieeg\\sub-05_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2440
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-05\\ses-03\\ieeg\\sub-05_ses-03_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-01\\sub-06_ses-01_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-02\\sub-06_ses-02_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-03\\sub-06_ses-03_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-04\\sub-06_ses-04_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-05\\sub-06_ses-05_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-06\\sub-06_ses-06_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-07\\sub-06_ses-07_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-01\\eeg\\sub-06_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 311
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-01\\eeg\\sub-06_ses-01_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-01\\eeg\\sub-06_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-01\\eeg\\sub-06_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2301
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-01\\ieeg\\sub-06_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-01\\ieeg\\sub-06_ses-01_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-01\\ieeg\\sub-06_ses-01_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6889
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-01\\ieeg\\sub-06_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-01\\ieeg\\sub-06_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2450
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-01\\ieeg\\sub-06_ses-01_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-02\\eeg\\sub-06_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 311
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-02\\eeg\\sub-06_ses-02_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-02\\eeg\\sub-06_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-02\\eeg\\sub-06_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2300
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-02\\ieeg\\sub-06_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-02\\ieeg\\sub-06_ses-02_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-02\\ieeg\\sub-06_ses-02_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6889
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-02\\ieeg\\sub-06_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-02\\ieeg\\sub-06_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2449
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-02\\ieeg\\sub-06_ses-02_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-03\\eeg\\sub-06_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 311
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-03\\eeg\\sub-06_ses-03_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-03\\eeg\\sub-06_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-03\\eeg\\sub-06_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2253
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-03\\ieeg\\sub-06_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-03\\ieeg\\sub-06_ses-03_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-03\\ieeg\\sub-06_ses-03_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6889
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-03\\ieeg\\sub-06_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-03\\ieeg\\sub-06_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2399
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-03\\ieeg\\sub-06_ses-03_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-04\\eeg\\sub-06_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 311
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-04\\eeg\\sub-06_ses-04_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-04\\eeg\\sub-06_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-04\\eeg\\sub-06_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 2303
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-04\\ieeg\\sub-06_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-04\\ieeg\\sub-06_ses-04_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-04\\ieeg\\sub-06_ses-04_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6889
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-04\\ieeg\\sub-06_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-04\\ieeg\\sub-06_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 2452
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-04\\ieeg\\sub-06_ses-04_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-05\\eeg\\sub-06_ses-05_task-verbalWM_run-01_channels.tsv",
+      "bytes": 311
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-05\\eeg\\sub-06_ses-05_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-05\\eeg\\sub-06_ses-05_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-05\\eeg\\sub-06_ses-05_task-verbalWM_run-01_events.tsv",
+      "bytes": 2284
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-05\\ieeg\\sub-06_ses-05_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-05\\ieeg\\sub-06_ses-05_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-05\\ieeg\\sub-06_ses-05_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6889
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-05\\ieeg\\sub-06_ses-05_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-05\\ieeg\\sub-06_ses-05_task-verbalWM_run-01_events.tsv",
+      "bytes": 2433
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-05\\ieeg\\sub-06_ses-05_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-06\\eeg\\sub-06_ses-06_task-verbalWM_run-01_channels.tsv",
+      "bytes": 311
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-06\\eeg\\sub-06_ses-06_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-06\\eeg\\sub-06_ses-06_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-06\\eeg\\sub-06_ses-06_task-verbalWM_run-01_events.tsv",
+      "bytes": 2292
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-06\\ieeg\\sub-06_ses-06_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-06\\ieeg\\sub-06_ses-06_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-06\\ieeg\\sub-06_ses-06_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6889
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-06\\ieeg\\sub-06_ses-06_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-06\\ieeg\\sub-06_ses-06_task-verbalWM_run-01_events.tsv",
+      "bytes": 2441
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-06\\ieeg\\sub-06_ses-06_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-07\\eeg\\sub-06_ses-07_task-verbalWM_run-01_channels.tsv",
+      "bytes": 311
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-07\\eeg\\sub-06_ses-07_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-07\\eeg\\sub-06_ses-07_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-07\\eeg\\sub-06_ses-07_task-verbalWM_run-01_events.tsv",
+      "bytes": 2303
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-07\\ieeg\\sub-06_ses-07_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-07\\ieeg\\sub-06_ses-07_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-07\\ieeg\\sub-06_ses-07_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6889
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-07\\ieeg\\sub-06_ses-07_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-07\\ieeg\\sub-06_ses-07_task-verbalWM_run-01_events.tsv",
+      "bytes": 2452
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-06\\ses-07\\ieeg\\sub-06_ses-07_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-01\\sub-07_ses-01_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-02\\sub-07_ses-02_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-03\\sub-07_ses-03_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-04\\sub-07_ses-04_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-01\\eeg\\sub-07_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 259
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-01\\eeg\\sub-07_ses-01_task-verbalWM_run-01_eeg.json",
+      "bytes": 1375
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-01\\eeg\\sub-07_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-01\\eeg\\sub-07_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2255
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-01\\ieeg\\sub-07_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-01\\ieeg\\sub-07_ses-01_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-01\\ieeg\\sub-07_ses-01_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6945
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-01\\ieeg\\sub-07_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-01\\ieeg\\sub-07_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2401
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-01\\ieeg\\sub-07_ses-01_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-02\\eeg\\sub-07_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 259
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-02\\eeg\\sub-07_ses-02_task-verbalWM_run-01_eeg.json",
+      "bytes": 1375
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-02\\eeg\\sub-07_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-02\\eeg\\sub-07_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2198
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-02\\ieeg\\sub-07_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-02\\ieeg\\sub-07_ses-02_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-02\\ieeg\\sub-07_ses-02_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6945
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-02\\ieeg\\sub-07_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-02\\ieeg\\sub-07_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2341
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-02\\ieeg\\sub-07_ses-02_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-03\\eeg\\sub-07_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 259
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-03\\eeg\\sub-07_ses-03_task-verbalWM_run-01_eeg.json",
+      "bytes": 1375
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-03\\eeg\\sub-07_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-03\\eeg\\sub-07_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2281
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-03\\ieeg\\sub-07_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-03\\ieeg\\sub-07_ses-03_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-03\\ieeg\\sub-07_ses-03_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6945
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-03\\ieeg\\sub-07_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-03\\ieeg\\sub-07_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2430
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-03\\ieeg\\sub-07_ses-03_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-04\\eeg\\sub-07_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 259
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-04\\eeg\\sub-07_ses-04_task-verbalWM_run-01_eeg.json",
+      "bytes": 1375
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-04\\eeg\\sub-07_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-04\\eeg\\sub-07_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 2301
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-04\\ieeg\\sub-07_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-04\\ieeg\\sub-07_ses-04_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-04\\ieeg\\sub-07_ses-04_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6945
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-04\\ieeg\\sub-07_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-04\\ieeg\\sub-07_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 2450
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-07\\ses-04\\ieeg\\sub-07_ses-04_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-01\\sub-08_ses-01_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-02\\sub-08_ses-02_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-03\\sub-08_ses-03_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-04\\sub-08_ses-04_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-01\\eeg\\sub-08_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 534
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-01\\eeg\\sub-08_ses-01_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-01\\eeg\\sub-08_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-01\\eeg\\sub-08_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2298
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-01\\ieeg\\sub-08_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1903
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-01\\ieeg\\sub-08_ses-01_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-01\\ieeg\\sub-08_ses-01_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6821
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-01\\ieeg\\sub-08_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-01\\ieeg\\sub-08_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2447
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-01\\ieeg\\sub-08_ses-01_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-02\\eeg\\sub-08_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 534
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-02\\eeg\\sub-08_ses-02_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-02\\eeg\\sub-08_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-02\\eeg\\sub-08_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2286
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-02\\ieeg\\sub-08_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1903
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-02\\ieeg\\sub-08_ses-02_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-02\\ieeg\\sub-08_ses-02_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6821
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-02\\ieeg\\sub-08_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-02\\ieeg\\sub-08_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2435
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-02\\ieeg\\sub-08_ses-02_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-03\\eeg\\sub-08_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 534
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-03\\eeg\\sub-08_ses-03_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-03\\eeg\\sub-08_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-03\\eeg\\sub-08_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2293
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-03\\ieeg\\sub-08_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1903
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-03\\ieeg\\sub-08_ses-03_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-03\\ieeg\\sub-08_ses-03_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6821
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-03\\ieeg\\sub-08_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-03\\ieeg\\sub-08_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2442
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-03\\ieeg\\sub-08_ses-03_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-04\\eeg\\sub-08_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 534
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-04\\eeg\\sub-08_ses-04_task-verbalWM_run-01_eeg.json",
+      "bytes": 1376
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-04\\eeg\\sub-08_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-04\\eeg\\sub-08_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 2289
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-04\\ieeg\\sub-08_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1903
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-04\\ieeg\\sub-08_ses-04_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-04\\ieeg\\sub-08_ses-04_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6821
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-04\\ieeg\\sub-08_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-04\\ieeg\\sub-08_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 2438
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-08\\ses-04\\ieeg\\sub-08_ses-04_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-01\\sub-09_ses-01_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-02\\sub-09_ses-02_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-01\\eeg\\sub-09_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 259
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-01\\eeg\\sub-09_ses-01_task-verbalWM_run-01_eeg.json",
+      "bytes": 1375
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-01\\eeg\\sub-09_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-01\\eeg\\sub-09_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2205
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-01\\ieeg\\sub-09_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-01\\ieeg\\sub-09_ses-01_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-01\\ieeg\\sub-09_ses-01_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6982
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-01\\ieeg\\sub-09_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-01\\ieeg\\sub-09_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2348
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-01\\ieeg\\sub-09_ses-01_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-02\\eeg\\sub-09_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 259
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-02\\eeg\\sub-09_ses-02_task-verbalWM_run-01_eeg.json",
+      "bytes": 1375
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-02\\eeg\\sub-09_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-02\\eeg\\sub-09_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2248
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-02\\ieeg\\sub-09_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-02\\ieeg\\sub-09_ses-02_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-02\\ieeg\\sub-09_ses-02_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6982
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-02\\ieeg\\sub-09_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-02\\ieeg\\sub-09_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2394
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-09\\ses-02\\ieeg\\sub-09_ses-02_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-01\\sub-10_ses-01_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-02\\sub-10_ses-02_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-01\\eeg\\sub-10_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 659
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-01\\eeg\\sub-10_ses-01_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-01\\eeg\\sub-10_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-01\\eeg\\sub-10_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 1959
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-01\\ieeg\\sub-10_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 2523
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-01\\ieeg\\sub-10_ses-01_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-01\\ieeg\\sub-10_ses-01_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 8359
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-01\\ieeg\\sub-10_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-01\\ieeg\\sub-10_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 1959
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-01\\ieeg\\sub-10_ses-01_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1367
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-02\\eeg\\sub-10_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 659
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-02\\eeg\\sub-10_ses-02_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-02\\eeg\\sub-10_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-02\\eeg\\sub-10_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2490
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-02\\ieeg\\sub-10_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 2523
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-02\\ieeg\\sub-10_ses-02_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-02\\ieeg\\sub-10_ses-02_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 8359
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-02\\ieeg\\sub-10_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-02\\ieeg\\sub-10_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2490
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-10\\ses-02\\ieeg\\sub-10_ses-02_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1367
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-01\\sub-11_ses-01_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-02\\sub-11_ses-02_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-03\\sub-11_ses-03_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-04\\sub-11_ses-04_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-05\\sub-11_ses-05_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-06\\sub-11_ses-06_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-01\\eeg\\sub-11_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 607
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-01\\eeg\\sub-11_ses-01_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-01\\eeg\\sub-11_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-01\\eeg\\sub-11_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2658
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-01\\ieeg\\sub-11_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1151
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-01\\ieeg\\sub-11_ses-01_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-01\\ieeg\\sub-11_ses-01_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 3468
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-01\\ieeg\\sub-11_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-01\\ieeg\\sub-11_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2658
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-01\\ieeg\\sub-11_ses-01_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1367
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-02\\eeg\\sub-11_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 607
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-02\\eeg\\sub-11_ses-02_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-02\\eeg\\sub-11_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-02\\eeg\\sub-11_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2626
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-02\\ieeg\\sub-11_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1151
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-02\\ieeg\\sub-11_ses-02_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-02\\ieeg\\sub-11_ses-02_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 3468
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-02\\ieeg\\sub-11_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-02\\ieeg\\sub-11_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2626
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-02\\ieeg\\sub-11_ses-02_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1367
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-03\\eeg\\sub-11_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 607
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-03\\eeg\\sub-11_ses-03_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-03\\eeg\\sub-11_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-03\\eeg\\sub-11_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2640
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-03\\ieeg\\sub-11_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1151
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-03\\ieeg\\sub-11_ses-03_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-03\\ieeg\\sub-11_ses-03_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 3468
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-03\\ieeg\\sub-11_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-03\\ieeg\\sub-11_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2640
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-03\\ieeg\\sub-11_ses-03_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1367
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-04\\eeg\\sub-11_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 607
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-04\\eeg\\sub-11_ses-04_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-04\\eeg\\sub-11_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-04\\eeg\\sub-11_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 2637
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-04\\ieeg\\sub-11_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1151
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-04\\ieeg\\sub-11_ses-04_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-04\\ieeg\\sub-11_ses-04_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 3468
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-04\\ieeg\\sub-11_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-04\\ieeg\\sub-11_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 2637
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-04\\ieeg\\sub-11_ses-04_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1367
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-05\\eeg\\sub-11_ses-05_task-verbalWM_run-01_channels.tsv",
+      "bytes": 607
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-05\\eeg\\sub-11_ses-05_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-05\\eeg\\sub-11_ses-05_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-05\\eeg\\sub-11_ses-05_task-verbalWM_run-01_events.tsv",
+      "bytes": 2634
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-05\\ieeg\\sub-11_ses-05_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1151
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-05\\ieeg\\sub-11_ses-05_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-05\\ieeg\\sub-11_ses-05_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 3468
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-05\\ieeg\\sub-11_ses-05_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-05\\ieeg\\sub-11_ses-05_task-verbalWM_run-01_events.tsv",
+      "bytes": 2634
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-05\\ieeg\\sub-11_ses-05_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1367
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-06\\eeg\\sub-11_ses-06_task-verbalWM_run-01_channels.tsv",
+      "bytes": 607
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-06\\eeg\\sub-11_ses-06_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-06\\eeg\\sub-11_ses-06_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-06\\eeg\\sub-11_ses-06_task-verbalWM_run-01_events.tsv",
+      "bytes": 2638
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-06\\ieeg\\sub-11_ses-06_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1151
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-06\\ieeg\\sub-11_ses-06_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-06\\ieeg\\sub-11_ses-06_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 3468
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-06\\ieeg\\sub-11_ses-06_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-06\\ieeg\\sub-11_ses-06_task-verbalWM_run-01_events.tsv",
+      "bytes": 2638
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-11\\ses-06\\ieeg\\sub-11_ses-06_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1367
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-01\\sub-12_ses-01_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-02\\sub-12_ses-02_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-03\\sub-12_ses-03_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-04\\sub-12_ses-04_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-05\\sub-12_ses-05_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-06\\sub-12_ses-06_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-01\\eeg\\sub-12_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 581
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-01\\eeg\\sub-12_ses-01_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-01\\eeg\\sub-12_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-01\\eeg\\sub-12_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2658
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-01\\ieeg\\sub-12_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1425
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-01\\ieeg\\sub-12_ses-01_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-01\\ieeg\\sub-12_ses-01_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 4337
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-01\\ieeg\\sub-12_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-01\\ieeg\\sub-12_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2658
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-01\\ieeg\\sub-12_ses-01_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-02\\eeg\\sub-12_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 581
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-02\\eeg\\sub-12_ses-02_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-02\\eeg\\sub-12_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-02\\eeg\\sub-12_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2634
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-02\\ieeg\\sub-12_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1425
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-02\\ieeg\\sub-12_ses-02_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-02\\ieeg\\sub-12_ses-02_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 4337
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-02\\ieeg\\sub-12_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-02\\ieeg\\sub-12_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2634
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-02\\ieeg\\sub-12_ses-02_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-03\\eeg\\sub-12_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 581
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-03\\eeg\\sub-12_ses-03_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-03\\eeg\\sub-12_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-03\\eeg\\sub-12_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2635
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-03\\ieeg\\sub-12_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1425
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-03\\ieeg\\sub-12_ses-03_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-03\\ieeg\\sub-12_ses-03_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 4337
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-03\\ieeg\\sub-12_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-03\\ieeg\\sub-12_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2635
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-03\\ieeg\\sub-12_ses-03_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-04\\eeg\\sub-12_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 581
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-04\\eeg\\sub-12_ses-04_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-04\\eeg\\sub-12_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-04\\eeg\\sub-12_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 2639
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-04\\ieeg\\sub-12_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1425
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-04\\ieeg\\sub-12_ses-04_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-04\\ieeg\\sub-12_ses-04_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 4337
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-04\\ieeg\\sub-12_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-04\\ieeg\\sub-12_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 2639
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-04\\ieeg\\sub-12_ses-04_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-05\\eeg\\sub-12_ses-05_task-verbalWM_run-01_channels.tsv",
+      "bytes": 581
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-05\\eeg\\sub-12_ses-05_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-05\\eeg\\sub-12_ses-05_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-05\\eeg\\sub-12_ses-05_task-verbalWM_run-01_events.tsv",
+      "bytes": 2633
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-05\\ieeg\\sub-12_ses-05_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1425
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-05\\ieeg\\sub-12_ses-05_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-05\\ieeg\\sub-12_ses-05_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 4337
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-05\\ieeg\\sub-12_ses-05_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-05\\ieeg\\sub-12_ses-05_task-verbalWM_run-01_events.tsv",
+      "bytes": 2633
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-05\\ieeg\\sub-12_ses-05_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-06\\eeg\\sub-12_ses-06_task-verbalWM_run-01_channels.tsv",
+      "bytes": 581
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-06\\eeg\\sub-12_ses-06_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-06\\eeg\\sub-12_ses-06_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-06\\eeg\\sub-12_ses-06_task-verbalWM_run-01_events.tsv",
+      "bytes": 2639
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-06\\ieeg\\sub-12_ses-06_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1425
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-06\\ieeg\\sub-12_ses-06_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-06\\ieeg\\sub-12_ses-06_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 4337
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-06\\ieeg\\sub-12_ses-06_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-06\\ieeg\\sub-12_ses-06_task-verbalWM_run-01_events.tsv",
+      "bytes": 2639
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-12\\ses-06\\ieeg\\sub-12_ses-06_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-01\\sub-13_ses-01_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-02\\sub-13_ses-02_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-03\\sub-13_ses-03_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-04\\sub-13_ses-04_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-05\\sub-13_ses-05_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-06\\sub-13_ses-06_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-01\\eeg\\sub-13_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 581
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-01\\eeg\\sub-13_ses-01_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-01\\eeg\\sub-13_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-01\\eeg\\sub-13_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 3325
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-01\\ieeg\\sub-13_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 2007
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-01\\ieeg\\sub-13_ses-01_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-01\\ieeg\\sub-13_ses-01_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 7821
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-01\\ieeg\\sub-13_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-01\\ieeg\\sub-13_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 3325
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-01\\ieeg\\sub-13_ses-01_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1367
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-02\\eeg\\sub-13_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 581
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-02\\eeg\\sub-13_ses-02_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-02\\eeg\\sub-13_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-02\\eeg\\sub-13_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 3326
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-02\\ieeg\\sub-13_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 2007
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-02\\ieeg\\sub-13_ses-02_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-02\\ieeg\\sub-13_ses-02_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 7821
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-02\\ieeg\\sub-13_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-02\\ieeg\\sub-13_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 3326
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-02\\ieeg\\sub-13_ses-02_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1367
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-03\\eeg\\sub-13_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 581
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-03\\eeg\\sub-13_ses-03_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-03\\eeg\\sub-13_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-03\\eeg\\sub-13_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 3346
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-03\\ieeg\\sub-13_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 2007
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-03\\ieeg\\sub-13_ses-03_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-03\\ieeg\\sub-13_ses-03_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 7821
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-03\\ieeg\\sub-13_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-03\\ieeg\\sub-13_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 3346
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-03\\ieeg\\sub-13_ses-03_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1367
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-04\\eeg\\sub-13_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 581
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-04\\eeg\\sub-13_ses-04_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-04\\eeg\\sub-13_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-04\\eeg\\sub-13_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 3325
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-04\\ieeg\\sub-13_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 2007
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-04\\ieeg\\sub-13_ses-04_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-04\\ieeg\\sub-13_ses-04_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 7821
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-04\\ieeg\\sub-13_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-04\\ieeg\\sub-13_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 3325
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-04\\ieeg\\sub-13_ses-04_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1367
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-05\\eeg\\sub-13_ses-05_task-verbalWM_run-01_channels.tsv",
+      "bytes": 581
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-05\\eeg\\sub-13_ses-05_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-05\\eeg\\sub-13_ses-05_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-05\\eeg\\sub-13_ses-05_task-verbalWM_run-01_events.tsv",
+      "bytes": 3320
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-05\\ieeg\\sub-13_ses-05_task-verbalWM_run-01_channels.tsv",
+      "bytes": 2007
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-05\\ieeg\\sub-13_ses-05_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-05\\ieeg\\sub-13_ses-05_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 7821
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-05\\ieeg\\sub-13_ses-05_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-05\\ieeg\\sub-13_ses-05_task-verbalWM_run-01_events.tsv",
+      "bytes": 3320
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-05\\ieeg\\sub-13_ses-05_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1367
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-06\\eeg\\sub-13_ses-06_task-verbalWM_run-01_channels.tsv",
+      "bytes": 581
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-06\\eeg\\sub-13_ses-06_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-06\\eeg\\sub-13_ses-06_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-06\\eeg\\sub-13_ses-06_task-verbalWM_run-01_events.tsv",
+      "bytes": 3351
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-06\\ieeg\\sub-13_ses-06_task-verbalWM_run-01_channels.tsv",
+      "bytes": 2007
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-06\\ieeg\\sub-13_ses-06_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-06\\ieeg\\sub-13_ses-06_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 7821
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-06\\ieeg\\sub-13_ses-06_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-06\\ieeg\\sub-13_ses-06_task-verbalWM_run-01_events.tsv",
+      "bytes": 3351
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-13\\ses-06\\ieeg\\sub-13_ses-06_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1367
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-01\\sub-14_ses-01_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-02\\sub-14_ses-02_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-03\\sub-14_ses-03_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-04\\sub-14_ses-04_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-05\\sub-14_ses-05_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-06\\sub-14_ses-06_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-07\\sub-14_ses-07_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-08\\sub-14_ses-08_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-01\\eeg\\sub-14_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 607
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-01\\eeg\\sub-14_ses-01_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-01\\eeg\\sub-14_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-01\\eeg\\sub-14_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2638
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-01\\ieeg\\sub-14_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-01\\ieeg\\sub-14_ses-01_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-01\\ieeg\\sub-14_ses-01_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 7256
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-01\\ieeg\\sub-14_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-01\\ieeg\\sub-14_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 2638
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-01\\ieeg\\sub-14_ses-01_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-02\\eeg\\sub-14_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 607
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-02\\eeg\\sub-14_ses-02_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-02\\eeg\\sub-14_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-02\\eeg\\sub-14_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2635
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-02\\ieeg\\sub-14_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-02\\ieeg\\sub-14_ses-02_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-02\\ieeg\\sub-14_ses-02_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 7256
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-02\\ieeg\\sub-14_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-02\\ieeg\\sub-14_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 2635
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-02\\ieeg\\sub-14_ses-02_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-03\\eeg\\sub-14_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 607
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-03\\eeg\\sub-14_ses-03_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-03\\eeg\\sub-14_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-03\\eeg\\sub-14_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2635
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-03\\ieeg\\sub-14_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-03\\ieeg\\sub-14_ses-03_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-03\\ieeg\\sub-14_ses-03_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 7256
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-03\\ieeg\\sub-14_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-03\\ieeg\\sub-14_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 2635
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-03\\ieeg\\sub-14_ses-03_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-04\\eeg\\sub-14_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 607
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-04\\eeg\\sub-14_ses-04_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-04\\eeg\\sub-14_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-04\\eeg\\sub-14_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 2629
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-04\\ieeg\\sub-14_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-04\\ieeg\\sub-14_ses-04_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-04\\ieeg\\sub-14_ses-04_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 7256
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-04\\ieeg\\sub-14_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-04\\ieeg\\sub-14_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 2629
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-04\\ieeg\\sub-14_ses-04_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-05\\eeg\\sub-14_ses-05_task-verbalWM_run-01_channels.tsv",
+      "bytes": 607
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-05\\eeg\\sub-14_ses-05_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-05\\eeg\\sub-14_ses-05_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-05\\eeg\\sub-14_ses-05_task-verbalWM_run-01_events.tsv",
+      "bytes": 2517
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-05\\ieeg\\sub-14_ses-05_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-05\\ieeg\\sub-14_ses-05_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-05\\ieeg\\sub-14_ses-05_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 7256
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-05\\ieeg\\sub-14_ses-05_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-05\\ieeg\\sub-14_ses-05_task-verbalWM_run-01_events.tsv",
+      "bytes": 2517
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-05\\ieeg\\sub-14_ses-05_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-06\\eeg\\sub-14_ses-06_task-verbalWM_run-01_channels.tsv",
+      "bytes": 607
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-06\\eeg\\sub-14_ses-06_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-06\\eeg\\sub-14_ses-06_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-06\\eeg\\sub-14_ses-06_task-verbalWM_run-01_events.tsv",
+      "bytes": 2623
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-06\\ieeg\\sub-14_ses-06_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-06\\ieeg\\sub-14_ses-06_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-06\\ieeg\\sub-14_ses-06_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 7256
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-06\\ieeg\\sub-14_ses-06_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-06\\ieeg\\sub-14_ses-06_task-verbalWM_run-01_events.tsv",
+      "bytes": 2623
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-06\\ieeg\\sub-14_ses-06_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-07\\eeg\\sub-14_ses-07_task-verbalWM_run-01_channels.tsv",
+      "bytes": 607
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-07\\eeg\\sub-14_ses-07_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-07\\eeg\\sub-14_ses-07_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-07\\eeg\\sub-14_ses-07_task-verbalWM_run-01_events.tsv",
+      "bytes": 2615
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-07\\ieeg\\sub-14_ses-07_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-07\\ieeg\\sub-14_ses-07_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-07\\ieeg\\sub-14_ses-07_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 7256
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-07\\ieeg\\sub-14_ses-07_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-07\\ieeg\\sub-14_ses-07_task-verbalWM_run-01_events.tsv",
+      "bytes": 2615
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-07\\ieeg\\sub-14_ses-07_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-08\\eeg\\sub-14_ses-08_task-verbalWM_run-01_channels.tsv",
+      "bytes": 607
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-08\\eeg\\sub-14_ses-08_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-08\\eeg\\sub-14_ses-08_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-08\\eeg\\sub-14_ses-08_task-verbalWM_run-01_events.tsv",
+      "bytes": 2614
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-08\\ieeg\\sub-14_ses-08_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-08\\ieeg\\sub-14_ses-08_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-08\\ieeg\\sub-14_ses-08_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 7256
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-08\\ieeg\\sub-14_ses-08_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-08\\ieeg\\sub-14_ses-08_task-verbalWM_run-01_events.tsv",
+      "bytes": 2614
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-14\\ses-08\\ieeg\\sub-14_ses-08_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-01\\sub-15_ses-01_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-02\\sub-15_ses-02_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-03\\sub-15_ses-03_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-04\\sub-15_ses-04_scans.tsv",
+      "bytes": 87
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-01\\eeg\\sub-15_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 659
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-01\\eeg\\sub-15_ses-01_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-01\\eeg\\sub-15_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-01\\eeg\\sub-15_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 3333
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-01\\ieeg\\sub-15_ses-01_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1899
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-01\\ieeg\\sub-15_ses-01_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-01\\ieeg\\sub-15_ses-01_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6896
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-01\\ieeg\\sub-15_ses-01_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-01\\ieeg\\sub-15_ses-01_task-verbalWM_run-01_events.tsv",
+      "bytes": 3333
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-01\\ieeg\\sub-15_ses-01_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-02\\eeg\\sub-15_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 659
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-02\\eeg\\sub-15_ses-02_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-02\\eeg\\sub-15_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-02\\eeg\\sub-15_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 3339
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-02\\ieeg\\sub-15_ses-02_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1899
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-02\\ieeg\\sub-15_ses-02_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-02\\ieeg\\sub-15_ses-02_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6896
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-02\\ieeg\\sub-15_ses-02_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-02\\ieeg\\sub-15_ses-02_task-verbalWM_run-01_events.tsv",
+      "bytes": 3339
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-02\\ieeg\\sub-15_ses-02_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-03\\eeg\\sub-15_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 659
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-03\\eeg\\sub-15_ses-03_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-03\\eeg\\sub-15_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-03\\eeg\\sub-15_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 3332
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-03\\ieeg\\sub-15_ses-03_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1899
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-03\\ieeg\\sub-15_ses-03_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-03\\ieeg\\sub-15_ses-03_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6896
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-03\\ieeg\\sub-15_ses-03_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-03\\ieeg\\sub-15_ses-03_task-verbalWM_run-01_events.tsv",
+      "bytes": 3332
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-03\\ieeg\\sub-15_ses-03_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-04\\eeg\\sub-15_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 659
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-04\\eeg\\sub-15_ses-04_task-verbalWM_run-01_eeg.json",
+      "bytes": 1377
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-04\\eeg\\sub-15_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-04\\eeg\\sub-15_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 3318
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-04\\ieeg\\sub-15_ses-04_task-verbalWM_run-01_channels.tsv",
+      "bytes": 1899
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-04\\ieeg\\sub-15_ses-04_task-verbalWM_run-01_electrodes.json",
+      "bytes": 915
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-04\\ieeg\\sub-15_ses-04_task-verbalWM_run-01_electrodes.tsv",
+      "bytes": 6896
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-04\\ieeg\\sub-15_ses-04_task-verbalWM_run-01_events.json",
+      "bytes": 1732
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-04\\ieeg\\sub-15_ses-04_task-verbalWM_run-01_events.tsv",
+      "bytes": 3318
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752\\sub-15\\ses-04\\ieeg\\sub-15_ses-04_task-verbalWM_run-01_ieeg.json",
+      "bytes": 1366
+    }
+  ],
+  "duration_mismatches": [],
+  "missing_requested_LFP": [
+    "ec013.157"
+  ],
+  "elapsed_seconds": 2.5081377000024077
+}
