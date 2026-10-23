@@ -1,0 +1,21 @@
+{
+  "git_head": "f87ce24a8a7c5719023549d783db13da584d1423",
+  "protocol_sha256": "95b741822ac085bb96a01f1a5396674b83ecfaa827c199708e95490ad9f70ad3",
+  "seed": 20261023,
+  "checkpoints": 372,
+  "method_rows": 1860,
+  "all_checkpoint_feature_fields_match_CSV": true,
+  "per_trial_options_and_grids_verified": true,
+  "max_absolute_CSV_rounding_differences": {
+    "fP_hz": 4.884981308350689e-15,
+    "fA_hz": 0.0,
+    "score": 4.996003610813204e-16,
+    "raw_mvl": 4.996003610813204e-16,
+    "ozkurt_mvl": 4.996003610813204e-16,
+    "preferred_phase_deg": 5.115907697472721e-13,
+    "status": 0.0,
+    "n_bursts": 0.0,
+    "effective_half_width_hz": 4.884981308350689e-15
+  },
+  "signal_method_calls": 0
+}

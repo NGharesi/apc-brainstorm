@@ -1,0 +1,26 @@
+"""Freeze saved contact/mask tables and numerical wrappers before first PAC output."""
+from pathlib import Path
+from datetime import datetime,timezone
+import json,hashlib,sys,subprocess
+O=Path(__file__).resolve().parent;R=O.parent.parent;sys.path.insert(0,str(R/'pydeps'))
+import pandas as pd
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+m=json.loads((O/'provenance.json').read_text(encoding='utf-8'));s=json.loads((O/'selection_runtime.json').read_text(encoding='utf-8'));assert s['status']=='COMPLETE'
+assert not (O/'analysis_provenance.json').exists() and not (O/'ieeg_trial_estimates.csv').exists()
+c=pd.read_csv(O/'contacts.csv',encoding='utf-8');i=pd.read_csv(O/'trial_inclusion.csv',encoding='utf-8');se=pd.read_csv(O/'session_eligibility.csv',encoding='utf-8');pe=pd.read_csv(O/'patient_eligibility.csv',encoding='utf-8')
+for column in ['included','retained','session_eligible','patient_eligible']:i[column]=i[column].astype(bool)
+assert len(c)==15 and c.patient.nunique()==15 and not i.duplicated(['analysis','patient','session','trial']).any()
+assert i.included.equals(i.retained&i.session_eligible&i.patient_eligible)
+for _,x in c[c.patient!='sub-13'].iterrows():
+    rank=pd.read_csv(O/'candidate_rankings.csv',encoding='utf-8');v=rank[rank.patient==x.patient];assert x.theta_delta_ratio==v.theta_delta_ratio.max()
+assert i[i.analysis=='primary'].included.to_list()==i[i.analysis=='referential'].included.to_list()
+for r in m['file_sha256_records']:assert sha(Path(r['path']))==r['sha256']
+git=Path(r'C:\Users\nghare\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd\git.exe')
+assert subprocess.check_output([str(git),'-C',str(R/'apc-brainstorm-publish'),'status','--porcelain'],text=True,encoding='utf-8').strip()==''
+pin=['contacts.csv','trial_inclusion.csv','candidate_trial_counts.csv','candidate_rankings.csv','session_eligibility.csv','patient_eligibility.csv','session_spectral_peaks.csv','ieeg_run_worker.m','ieeg_selected_series.m','ieeg_comparators.m','ieeg_count_bursts.m','ieeg_select_contacts.m']
+m.update(stage='ANALYSIS_FROZEN_BEFORE_FIRST_DATASET_PAC',frozen_utc=datetime.now(timezone.utc).isoformat(),frozen_analysis_sha256={p:sha(O/p) for p in pin},common_preprocessing_protocol_sha256='6f457fd2a2ca714abec723728e1a6617ef23b938f3da03bd025030642d63ad58',common_preprocessing_reused_unchanged=True)
+included=i[i.included].copy();included['signal_type']=included.analysis.map(lambda a:'reference' if a=='referential' else 'bipolar');unique=included.drop_duplicates(['patient','session','trial','signal_type'])
+m['planned_analysis_counts']={a:dict(patients=int(g.patient.nunique()),sessions=int(g[['patient','session']].drop_duplicates().shape[0]),trials=len(g),method_rows=5*len(g)) for a,g in included.groupby('analysis')};m['unique_inputs']=len(unique);m['total_method_rows']=5*len(included);m['worker_count']=3
+(O/'analysis_provenance.json').write_text(json.dumps(m,indent=2),encoding='utf-8');(O/'provenance.json').write_text(json.dumps(m,indent=2),encoding='utf-8')
+(O/'STATUS.json').write_text(json.dumps(dict(status='RUNNING_FROZEN_ANALYSIS',provenance=m),indent=2),encoding='utf-8')
+print(json.dumps(dict(planned_analysis_counts=m['planned_analysis_counts'],unique_inputs=len(unique),method_rows=5*len(included))))

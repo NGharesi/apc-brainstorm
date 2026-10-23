@@ -1,0 +1,15 @@
+--- before_unit_fix
++++ ieeg_reading_gates.m
+@@ -19,8 +19,10 @@
+   for ci=1:height(C)
+    raw=TT.(TT.Properties.VariableNames{ci});if iscell(raw),raw=cellfun(@(a)double(a(:)),raw,'UniformOutput',false);x=vertcat(raw{:});else,x=double(raw(:));end
+    u=string(I.PhysicalDimensions(ci));u=strrep(strrep(strtrim(u),char(181),'u'),char(956),'u');
+-   unitsOK=strcmpi(u,'uV');finite=all(isfinite(x));v=var(x);med=median(abs(x));ok=unitsOK&&numel(x)==E.endSample(end)&&finite&&isfinite(v)&&v>0&&med<1e4;
+-   r=struct('file',string(path),'channel_index',ci,'channel',labels(ci),'physical_units',u,'samples',numel(x),'fs_hz',fs(ci),'nonfinite_samples',sum(~isfinite(x)),'variance_uv2',v,'median_absolute_uv',med,'min_uv',min(x),'max_uv',max(x),'passed',ok,'provenance_json',string(jsonencode(meta)));rows{end+1}=r;passed=passed&&ok; %#ok<AGROW>
++   declared=string(C.units(ci));declared=strrep(strrep(strtrim(declared),char(181),'u'),char(956),'u');
++   unitsOK=strcmpi(declared,'uV')&&(strlength(u)==0||strcmpi(u,'uV'));source="EDF and channels.tsv";if strlength(u)==0,source="channels.tsv; EDF dimension blank";u="<blank>";end
++   finite=all(isfinite(x));v=var(x);med=median(abs(x));ok=unitsOK&&numel(x)==E.endSample(end)&&finite&&isfinite(v)&&v>0&&med<1e4;
++   r=struct('file',string(path),'channel_index',ci,'channel',labels(ci),'physical_units',u,'declared_units',declared,'units_source',source,'samples',numel(x),'fs_hz',fs(ci),'nonfinite_samples',sum(~isfinite(x)),'variance_uv2',v,'median_absolute_uv',med,'min_uv',min(x),'max_uv',max(x),'passed',ok,'provenance_json',string(jsonencode(meta)));rows{end+1}=r;passed=passed&&ok; %#ok<AGROW>
+   end
+   one.passed=passed;fileRows{end+1}=one; %#ok<AGROW>
+   writetable(struct2table(vertcat(rows{:})),fullfile(out,'edf_channel_checks.csv'));writetable(struct2table(vertcat(fileRows{:})),fullfile(out,'edf_file_checks.csv'));

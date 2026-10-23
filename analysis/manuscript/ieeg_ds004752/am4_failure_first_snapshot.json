@@ -1,0 +1,119 @@
+{
+  "utc": "2026-10-23T14:25:51.707507+00:00",
+  "completed_full_run_sessions": 2,
+  "provenance": {
+    "git_head": "f87ce24a8a7c5719023549d783db13da584d1423",
+    "protocol_sha256": "95b741822ac085bb96a01f1a5396674b83ecfaa827c199708e95490ad9f70ad3",
+    "seed": 20261023,
+    "provenance_file": "analysis_provenance.json"
+  },
+  "rates": [
+    {
+      "analysis": "artifact_only",
+      "method": "APC-v1.0",
+      "n_completed": 199,
+      "invalid": 155,
+      "fraction_invalid": 0.7788944723618091
+    },
+    {
+      "analysis": "artifact_only",
+      "method": "GLM",
+      "n_completed": 199,
+      "invalid": 0,
+      "fraction_invalid": 0.0
+    },
+    {
+      "analysis": "artifact_only",
+      "method": "KLMI",
+      "n_completed": 199,
+      "invalid": 0,
+      "fraction_invalid": 0.0
+    },
+    {
+      "analysis": "artifact_only",
+      "method": "MVL-Ozkurt",
+      "n_completed": 199,
+      "invalid": 0,
+      "fraction_invalid": 0.0
+    },
+    {
+      "analysis": "artifact_only",
+      "method": "MVL-raw",
+      "n_completed": 199,
+      "invalid": 0,
+      "fraction_invalid": 0.0
+    },
+    {
+      "analysis": "primary",
+      "method": "APC-v1.0",
+      "n_completed": 135,
+      "invalid": 101,
+      "fraction_invalid": 0.7481481481481481
+    },
+    {
+      "analysis": "primary",
+      "method": "GLM",
+      "n_completed": 135,
+      "invalid": 0,
+      "fraction_invalid": 0.0
+    },
+    {
+      "analysis": "primary",
+      "method": "KLMI",
+      "n_completed": 135,
+      "invalid": 0,
+      "fraction_invalid": 0.0
+    },
+    {
+      "analysis": "primary",
+      "method": "MVL-Ozkurt",
+      "n_completed": 135,
+      "invalid": 0,
+      "fraction_invalid": 0.0
+    },
+    {
+      "analysis": "primary",
+      "method": "MVL-raw",
+      "n_completed": 135,
+      "invalid": 0,
+      "fraction_invalid": 0.0
+    },
+    {
+      "analysis": "referential",
+      "method": "APC-v1.0",
+      "n_completed": 35,
+      "invalid": 28,
+      "fraction_invalid": 0.8
+    },
+    {
+      "analysis": "referential",
+      "method": "GLM",
+      "n_completed": 35,
+      "invalid": 0,
+      "fraction_invalid": 0.0
+    },
+    {
+      "analysis": "referential",
+      "method": "KLMI",
+      "n_completed": 35,
+      "invalid": 0,
+      "fraction_invalid": 0.0
+    },
+    {
+      "analysis": "referential",
+      "method": "MVL-Ozkurt",
+      "n_completed": 35,
+      "invalid": 0,
+      "fraction_invalid": 0.0
+    },
+    {
+      "analysis": "referential",
+      "method": "MVL-raw",
+      "n_completed": 35,
+      "invalid": 0,
+      "fraction_invalid": 0.0
+    }
+  ],
+  "identifier": "IEEG:MostTrialsInvalid",
+  "message": "Most completed trials invalid for a method in an analysed signal set; protocol 6.4"
+}

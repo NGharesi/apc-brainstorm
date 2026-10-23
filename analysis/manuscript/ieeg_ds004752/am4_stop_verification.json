@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "git_head": "f87ce24a8a7c5719023549d783db13da584d1423",
+    "protocol_sha256": "95b741822ac085bb96a01f1a5396674b83ecfaa827c199708e95490ad9f70ad3",
+    "seed": 20261023,
+    "provenance_file": "analysis_provenance.json"
+  },
+  "archive_files_verified": 455,
+  "shared_hashes_verified": 12,
+  "protected_source_hashes_verified": true,
+  "frozen_input_code_hashes_verified": true,
+  "clean_repository": true,
+  "public_HEAD": "f87ce24a8a7c5719023549d783db13da584d1423",
+  "incremental_CSV_matches_workers": true,
+  "checkpoint_count_matches_rows": true,
+  "comparator_guards_passed": 41,
+  "method_reruns": 0,
+  "results_committed": false,
+  "worker_states": [
+    {
+      "worker": 0,
+      "status": "COMPLETE"
+    },
+    {
+      "worker": 1,
+      "status": "FAILED_STOP"
+    },
+    {
+      "worker": 2,
+      "status": "FAILED_STOP"
+    },
+    {
+      "worker": 3,
+      "status": "FAILED_STOP"
+    }
+  ]
+}

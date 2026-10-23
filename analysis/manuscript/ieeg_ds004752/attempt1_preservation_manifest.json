@@ -1,0 +1,1081 @@
+{
+  "provenance": {
+    "recorded_utc": "2026-10-23T03:57:58.610009+00:00",
+    "git_head": "63582a9926207d04629c8d30606be03d416c8baf",
+    "git_branch": "neuroimage-submission",
+    "git_clean": true,
+    "protocol_sha256": "eb4c0a6e143bcdb61a2a4ed248ec31c72a3686bb8c7349e6003e7b31f1b59e84",
+    "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+    "toolbox_versions": [
+      {
+        "Name": "5G Toolbox",
+        "Version": "2.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "AUTOSAR Blockset",
+        "Version": "3.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Aerospace Blockset",
+        "Version": "5.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Aerospace Toolbox",
+        "Version": "4.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Antenna Toolbox",
+        "Version": "5.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Audio Toolbox",
+        "Version": "3.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Automated Driving Toolbox",
+        "Version": "3.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Bioinformatics Toolbox",
+        "Version": "4.16.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Bluetooth Toolbox",
+        "Version": "1.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Communications Toolbox",
+        "Version": "7.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Computer Vision Toolbox",
+        "Version": "10.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Control System Toolbox",
+        "Version": "10.12",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Curve Fitting Toolbox",
+        "Version": "3.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "DDS Blockset",
+        "Version": "1.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "DSP HDL Toolbox",
+        "Version": "1.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "DSP System Toolbox",
+        "Version": "9.15",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Data Acquisition Toolbox",
+        "Version": "4.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Database Toolbox",
+        "Version": "10.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Datafeed Toolbox",
+        "Version": "6.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "DatapixxToolbox",
+        "Version": "0.9,",
+        "Release": "Aug",
+        "Date": "2009"
+      },
+      {
+        "Name": "Deep Learning HDL Toolbox",
+        "Version": "1.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Deep Learning Toolbox",
+        "Version": "14.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "EEGLAB Toolbox to process EEG data",
+        "Version": "-",
+        "Release": "see",
+        "Date": "eeg_getversion()"
+      },
+      {
+        "Name": "Econometrics Toolbox",
+        "Version": "6.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Embedded Coder",
+        "Version": "7.9",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Filter Design HDL Coder",
+        "Version": "3.1.12",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Financial Instruments Toolbox",
+        "Version": "3.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Financial Toolbox",
+        "Version": "6.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Fixed-Point Designer",
+        "Version": "7.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Fuzzy Logic Toolbox",
+        "Version": "3.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "GPU Coder",
+        "Version": "2.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Global Optimization Toolbox",
+        "Version": "4.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "HDL Coder",
+        "Version": "4.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "HDL Verifier",
+        "Version": "7.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Image Acquisition Toolbox",
+        "Version": "6.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Image Processing Toolbox",
+        "Version": "11.6",
+        "Release": "(R2022b)",
+        "Date": "24-May-2022"
+      },
+      {
+        "Name": "Industrial Communication Toolbox",
+        "Version": "6.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Instrument Control Toolbox",
+        "Version": "4.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "LTE Toolbox",
+        "Version": "3.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Lidar Toolbox",
+        "Version": "2.2",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "MATLAB",
+        "Version": "9.13",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "MATLAB Coder",
+        "Version": "5.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "MATLAB Compiler",
+        "Version": "8.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "MATLAB Compiler SDK",
+        "Version": "7.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "MATLAB Report Generator",
+        "Version": "5.13",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Mapping Toolbox",
+        "Version": "5.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Medical Imaging Toolbox",
+        "Version": "1.0",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Mixed-Signal Blockset",
+        "Version": "2.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Model Predictive Control Toolbox",
+        "Version": "8.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Model-Based Calibration Toolbox",
+        "Version": "5.13",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Motor Control Blockset",
+        "Version": "1.5",
+        "Release": "(R2022b)",
+        "Date": "24-May-2022"
+      },
+      {
+        "Name": "Navigation Toolbox",
+        "Version": "2.3",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Optimization Toolbox",
+        "Version": "9.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Parallel Computing Toolbox",
+        "Version": "7.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Partial Differential Equation Toolbox",
+        "Version": "3.9",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Phased Array System Toolbox",
+        "Version": "4.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Powertrain Blockset",
+        "Version": "1.12",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Predictive Maintenance Toolbox",
+        "Version": "2.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Psychtoolbox",
+        "Version": "3.0.19",
+        "Release": "17 February",
+        "Date": "2023"
+      },
+      {
+        "Name": "RF Blockset",
+        "Version": "8.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "RF PCB Toolbox",
+        "Version": "1.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "RF Toolbox",
+        "Version": "4.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "ROS Toolbox",
+        "Version": "1.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Radar Toolbox",
+        "Version": "1.3",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Reinforcement Learning Toolbox",
+        "Version": "2.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Requirements Toolbox",
+        "Version": "2.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Risk Management Toolbox",
+        "Version": "2.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Robotics System Toolbox",
+        "Version": "4.1",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Robust Control Toolbox",
+        "Version": "6.11.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Satellite Communications Toolbox",
+        "Version": "1.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Sensor Fusion and Tracking Toolbox",
+        "Version": "2.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "SerDes Toolbox",
+        "Version": "2.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Signal Integrity Toolbox",
+        "Version": "1.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Signal Processing Toolbox",
+        "Version": "9.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "SimBiology",
+        "Version": "6.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "SimEvents",
+        "Version": "5.13",
+        "Release": "(R2022b)",
+        "Date": "15-Jun-2022"
+      },
+      {
+        "Name": "Simscape",
+        "Version": "5.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simscape Battery",
+        "Version": "1.0",
+        "Release": "(R2022b)",
+        "Date": "21-Jun-2022"
+      },
+      {
+        "Name": "Simscape Driveline",
+        "Version": "3.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simscape Electrical",
+        "Version": "7.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simscape Fluids",
+        "Version": "3.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simscape Multibody",
+        "Version": "7.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink",
+        "Version": "10.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink 3D Animation",
+        "Version": "9.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Check",
+        "Version": "6.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Code Inspector",
+        "Version": "4.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Coder",
+        "Version": "9.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Compiler",
+        "Version": "1.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Control Design",
+        "Version": "6.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Coverage",
+        "Version": "5.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Design Optimization",
+        "Version": "3.12",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Design Verifier",
+        "Version": "4.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Desktop Real-Time",
+        "Version": "5.15",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink PLC Coder",
+        "Version": "3.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Real-Time",
+        "Version": "8.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Report Generator",
+        "Version": "5.13",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Test",
+        "Version": "3.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "SoC Blockset",
+        "Version": "1.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Spreadsheet Link",
+        "Version": "3.4.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Stateflow",
+        "Version": "10.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Statistical Parametric Mapping",
+        "Version": "7771",
+        "Release": "(SPM12)",
+        "Date": "13-Jan-20"
+      },
+      {
+        "Name": "Statistics and Machine Learning Toolbox",
+        "Version": "12.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Symbolic Math Toolbox",
+        "Version": "9.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "System Composer",
+        "Version": "2.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "System Identification Toolbox",
+        "Version": "10.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Text Analytics Toolbox",
+        "Version": "1.9",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "UAV Toolbox",
+        "Version": "1.4",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Vehicle Dynamics Blockset",
+        "Version": "1.9",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Vehicle Network Toolbox",
+        "Version": "5.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Vision HDL Toolbox",
+        "Version": "2.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "WLAN Toolbox",
+        "Version": "3.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Wavelet Toolbox",
+        "Version": "6.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Wireless HDL Toolbox",
+        "Version": "2.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Wireless Testbench",
+        "Version": "1.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      }
+    ],
+    "seed": 20261023,
+    "apc_options": {
+      "fA": [
+        80,
+        150
+      ],
+      "epoch": [
+        -0.6,
+        0.6
+      ],
+      "decomposition": "fft_peak",
+      "metric": "canolty",
+      "showPlots": false,
+      "useSurrogates": false,
+      "numPerm": 200,
+      "numPhaseBins": 18,
+      "burstTimeBandwidth": 5,
+      "phaseTimeBandwidth": 20,
+      "phaseEpochCycles": 3,
+      "minPhaseHz": 1,
+      "maxPhaseHz": 30,
+      "flipTroughs": true,
+      "burstProminenceScale": 0.75,
+      "surrogateMethod": "circular_shift",
+      "amplitudeBandWidthHz": 4,
+      "stepFourMode": "v1",
+      "fPRefine": true,
+      "fPMaxBinSpacingHz": 0.05
+    },
+    "comparator_settings": {
+      "profile": "ieeg",
+      "phase_grid_hz": [
+        2,
+        2.5,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12
+      ],
+      "phase_half_width_hz": 1.5,
+      "amplitude_grid_hz": [
+        80,
+        84,
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148
+      ],
+      "amplitude_half_width_hz": 12,
+      "mode": "ieeg_A2_prime"
+    },
+    "analysis_window_s": [
+      3,
+      6
+    ],
+    "data_root": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752",
+    "stage": "Amendment 1 public; resumed gates only",
+    "file_sha256_records": [
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\bst_apc.m",
+        "sha256": "282048ebfde8c9ba4a82095a85bea2503fbd5149677e18748169b83664e28c4a"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\calc_MI_all_methods.m",
+        "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\v1_bout_features.m",
+        "sha256": "51f469c196fe3a9ae63e0b23cef59690fe6a7da5d5d7ba1b06facc18edd1953f"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\sos_comparators.m",
+        "sha256": "350562400dd5d24e3a6b3d8f8530d4c598286774d05440dc9679eb81acec69a7"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\final_sos_filter.m",
+        "sha256": "7134e5711485ff628a0dd980e722fc6e59205da43d17a80facdaa7724202743e"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\protocol\\APC_ieeg_ds004752_protocol.md",
+        "sha256": "eb4c0a6e143bcdb61a2a4ed248ec31c72a3686bb8c7349e6003e7b31f1b59e84"
+      }
+    ],
+    "edf_header_copy_manifest": "edf_header_copies.json",
+    "status": "GATES_PENDING_AMENDMENT_1",
+    "git_clean_at_stop": true,
+    "push": {
+      "status": "SUCCEEDED",
+      "branch": "neuroimage-submission",
+      "public_head": "63582a9926207d04629c8d30606be03d416c8baf",
+      "output": "8183594..63582a9 neuroimage-submission -> neuroimage-submission",
+      "before_resumed_signal_analysis": true
+    },
+    "attempt": 2,
+    "resumed_utc": "2026-10-23T04:24:02.989943+00:00",
+    "previous_attempt_git_head": "81835945681cbbcb69eb61ce9c5f745acccbc297",
+    "previous_attempt_protocol_sha256": "8c613b0f8d8ea61fb2a922fbfb58531907d37f278c596ea946a165f75837a804",
+    "attempt1_archive": "attempt1_archive",
+    "resampling": {
+      "target_fs_hz": 2000,
+      "trialwise": true,
+      "function": "MATLAB resample default FIR",
+      "native_rate_pq": {
+        "2000": [
+          1,
+          1
+        ],
+        "4000": [
+          1,
+          2
+        ],
+        "4096": [
+          125,
+          256
+        ]
+      },
+      "output_samples_per_trial": 16000
+    }
+  },
+  "files": [
+    {
+      "path": "before_header_time_fix_edf_channel_checks.csv",
+      "sha256": "542fde65e4adf4bae8017981db02fc20680d4de281419f6ba2848972d4220b1a",
+      "bytes": 16424364
+    },
+    {
+      "path": "before_header_time_fix_edf_file_checks.csv",
+      "sha256": "0a1248a3fb47ed37cdf40953528c24ae93073e5dc5254d2d1028031e60621dfc",
+      "bytes": 305386
+    },
+    {
+      "path": "before_header_time_fix_reading_gate_failure.json",
+      "sha256": "10e9bbfd11300c34f4ca54e173644379cba0bb93bafbac90d98bac639f469e87",
+      "bytes": 12117
+    },
+    {
+      "path": "before_header_time_fix_reading_gates_matlab.log",
+      "sha256": "005f3b9326b10b288cb0225fb13ad6a2ed98d4829a99370467ba68784796e780",
+      "bytes": 10070
+    },
+    {
+      "path": "CODEX_PROMPT_ieeg.md",
+      "sha256": "7f913e0a53e9eef818709527a3976a4d9875f741e4c81ee8bad60d254151c30d",
+      "bytes": 4199
+    },
+    {
+      "path": "deviations.json",
+      "sha256": "b68d37300a6a7c8e3e8ec329cb1630258eb0d0aae4998cc369c3c985dadaca1c",
+      "bytes": 2231
+    },
+    {
+      "path": "earlier_screening_nan_cause.json",
+      "sha256": "91bcfd682870b0ed75ef8e1701e713a4600e3a86282adfc9f2209ab978a8a6cb",
+      "bytes": 20347
+    },
+    {
+      "path": "edf_channel_checks.csv",
+      "sha256": "28ca41a1358cb13d05ca91887cf3911684be22894f8a12d74eaad631852927ff",
+      "bytes": 34701765
+    },
+    {
+      "path": "edf_channel_checks_initial_unit_reader.csv",
+      "sha256": "13a14680707e89daf4a73506fb008dc3505c31482822eea083f1f73e0d7cc7f0",
+      "bytes": 668404
+    },
+    {
+      "path": "edf_file_checks.csv",
+      "sha256": "09b28eea306e15ae1acb6f5b8b1574a1a88d0521ac302e9ab1abf9a2d593ab23",
+      "bytes": 605106
+    },
+    {
+      "path": "edf_file_checks_initial_unit_reader.csv",
+      "sha256": "64f009977ee1105311f9d605977856eac40a4e513b0df6b9dfc19a2b2b939165",
+      "bytes": 14011
+    },
+    {
+      "path": "edf_header_copies.json",
+      "sha256": "28d4334ce008f05a44aad6abe2cae7a3667f8a67c3c11e52d955b7703684cb8b",
+      "bytes": 23176
+    },
+    {
+      "path": "equivalence_gate.json",
+      "sha256": "700353de23b685e68cae9f4a48cf6665bc7af5e2041371ff2f3760691b5c49da",
+      "bytes": 12647
+    },
+    {
+      "path": "equivalence_gate.mat",
+      "sha256": "fcafb2749b243c936e1f64574634acabb2d7b1ccb98615aceab28e004ea8f023",
+      "bytes": 263616
+    },
+    {
+      "path": "equivalence_matlab.log",
+      "sha256": "d809b40e28e880f1113d5eb1aa3159de86ee719ba5d2d00e6322aeb86c28f7e2",
+      "bytes": 8198
+    },
+    {
+      "path": "header_time_reader_fix.diff",
+      "sha256": "a287a900854da9e0cb93863c2d3b0c7d6202e1369d4cf76e6b3c43774c6c5b2b",
+      "bytes": 3513
+    },
+    {
+      "path": "ieeg_comparator_copy_verification.json",
+      "sha256": "e5149b25d05c0484dded9e06df060afb38421dbedc9633ec15e1c245ff147bff",
+      "bytes": 22382
+    },
+    {
+      "path": "ieeg_comparators.diff",
+      "sha256": "a052d01d214f75ab3e7be3875c401d0f789faddf4e6a384a4620e71a43e42a96",
+      "bytes": 1532
+    },
+    {
+      "path": "ieeg_comparators.m",
+      "sha256": "34386eb5c01f8dc0daeb773e6ef3cb946ace8c785ffd3233d27dc2ad5f4e2831",
+      "bytes": 2297
+    },
+    {
+      "path": "ieeg_equivalence_gate.m",
+      "sha256": "8119b0a07326d7a6b793684af8b465fb268c26af365c2b842129692543ac1fdd",
+      "bytes": 2024
+    },
+    {
+      "path": "ieeg_fix_header_times.py",
+      "sha256": "316ea84a97b4f75a7c8918ec0c461680104af3d451694d91891dcfa368616d2f",
+      "bytes": 3701
+    },
+    {
+      "path": "ieeg_gate_support.py",
+      "sha256": "5f4e65155f201c3c479e1012a70abb198229ff461d2a5e0d80f953667800e60b",
+      "bytes": 2050
+    },
+    {
+      "path": "ieeg_metadata_inventory.py",
+      "sha256": "77600308dafe1447478b9ffeae8c2dca085e0cb3f829d58312de9afe203d484f",
+      "bytes": 3055
+    },
+    {
+      "path": "ieeg_prepare_comparators.py",
+      "sha256": "f77af16c101d94db54bbf732694bc67396bf4a4bf9c54cbc065cbb04dbc2df23",
+      "bytes": 1757
+    },
+    {
+      "path": "ieeg_reading_gates.m",
+      "sha256": "25905c9d3d3920373613af951c5a343d8c47c620feb05e9130df7dc1cccd4a9a",
+      "bytes": 7396
+    },
+    {
+      "path": "ieeg_reading_gates_before_unit_fix.m.txt",
+      "sha256": "5c99541902c3afea8807d5bb3c0bb32e8a3a1ef2e8ebb05bb2b8b4906ee4b93c",
+      "bytes": 6640
+    },
+    {
+      "path": "ieeg_record_unit_fix.py",
+      "sha256": "2ecf03caccef34dbec37df0afff8c0688c6f2d44926793ee2e455ed722b829e0",
+      "bytes": 2303
+    },
+    {
+      "path": "ieeg_setup.py",
+      "sha256": "e1ece5b47f88be4fcf9a063cc28eb48bcec067bd69154d176f6333be91239897",
+      "bytes": 2147
+    },
+    {
+      "path": "ieeg_timeline_figure.py",
+      "sha256": "948c29c8efb305db129d66580bdfd37a9bb4a8575cc55ae98a44a30bfae9280e",
+      "bytes": 2121
+    },
+    {
+      "path": "ieeg_verify_stop.py",
+      "sha256": "0a1fd165ffea87b5878e4d9776924fa426f4422e61788bfafd99d8fdf679dee5",
+      "bytes": 3551
+    },
+    {
+      "path": "ieeg_write_stop.py",
+      "sha256": "eb6c66a973ba02495283175c3beb3e6c0cacc5a67ef134ce87d45f54b0455bc2",
+      "bytes": 12528
+    },
+    {
+      "path": "metadata_candidate_pairs.csv",
+      "sha256": "fde389001512d9722b195f3c384a84129f1a7633841746b57eb297bd7f854f3f",
+      "bytes": 1548360
+    },
+    {
+      "path": "metadata_file_inventory.csv",
+      "sha256": "5330932c6b992e6b0c5fc3e717d78880bbc3e89d7bd5a1582d28f2b9fba76988",
+      "bytes": 1078998
+    },
+    {
+      "path": "metadata_patient_counts_at_stop.csv",
+      "sha256": "937cdcce91607edfa5407e21d2ae480e30cc51672ac75d287650a2cdd850bb0a",
+      "bytes": 238168
+    },
+    {
+      "path": "output_manifest.json",
+      "sha256": "6b3f3321fe0a63711dcfcebaa69c68334cfbadf0d23b6c96aab8bd8eadd2d6a9",
+      "bytes": 30105
+    },
+    {
+      "path": "provenance.json",
+      "sha256": "0cb58f7bb085318d1eafc3c0e8383d260b11ef513a9766ead51c3c364ee2e18d",
+      "bytes": 20225
+    },
+    {
+      "path": "reading_gate_failure.json",
+      "sha256": "29627cb1c3d37214431d46e0ec1fcdb45329ae70881441a63310e297d9216f49",
+      "bytes": 13615
+    },
+    {
+      "path": "reading_gate_initial_unit_reader_failure.json",
+      "sha256": "c8bc9ac06b709cbf9686086ef76fb1bca0f1cfbb92a71358bda42cb79f8d37f6",
+      "bytes": 12077
+    },
+    {
+      "path": "reading_gates_initial_unit_reader.log",
+      "sha256": "f0bb6f6cb8aaa272d26258726599f343117917b1429c184eb707ffa9cb5f6f94",
+      "bytes": 8315
+    },
+    {
+      "path": "reading_gates_matlab.log",
+      "sha256": "1d6da3ffb4aa56e81fc69e417cbb8ec70c3b2da913320db0d035a9744bd3918c",
+      "bytes": 10548
+    },
+    {
+      "path": "RESULTS_ieeg.md",
+      "sha256": "fa1d7043083ec2cd520668c9f9faf9c142410d562f5ff4dbccfbb2c415579263",
+      "bytes": 16033
+    },
+    {
+      "path": "sampling_rate_failure_evidence.json",
+      "sha256": "c99527ebf9f4f18a438c2d9889f50b77e70e43d1a8367cbe9da366e6610c07ef",
+      "bytes": 23109
+    },
+    {
+      "path": "STATUS.json",
+      "sha256": "e7a15b0b1feb5ce5b9564e531f468e99daceb9d2c9d1e7e40826363b53465c26",
+      "bytes": 22666
+    },
+    {
+      "path": "stop_verification.json",
+      "sha256": "626c0e760adf98b7a76bcdad4948c5b863d79e2d8f3b21461af48b24c9dcb3aa",
+      "bytes": 22426
+    },
+    {
+      "path": "STOPPED.md",
+      "sha256": "8c48c62f4b8668a5a0e8f1d907fe9bcac51c67c770c46894e88ee423914dd804",
+      "bytes": 1719
+    },
+    {
+      "path": "timeline_paper_evidence.json",
+      "sha256": "ff7bbf6c7c249c4aa705e2043952190740caeaf4741a1c353cbba1f9eeee83a5",
+      "bytes": 20256
+    },
+    {
+      "path": "unit_reader_fix.diff",
+      "sha256": "a268418aed1946a7e7b8aed7d5a030afa5bd74d870365420dc8c97588a109534",
+      "bytes": 1884
+    }
+  ],
+  "archived_top_level_files": 47,
+  "header_copy_subtree_retained_in_place": true,
+  "renamed_stop": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ieeg_ds004752\\STOPPED_attempt1_sampling_rate.md"
+}

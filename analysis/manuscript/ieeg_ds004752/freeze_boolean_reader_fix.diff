@@ -1,0 +1,10 @@
+--- before_boolean_fix
++++ ieeg_freeze_analysis.py
+@@ -8,6 +8,7 @@
+ m=json.loads((O/'provenance.json').read_text(encoding='utf-8'));s=json.loads((O/'selection_runtime.json').read_text(encoding='utf-8'));assert s['status']=='COMPLETE'
+ assert not (O/'analysis_provenance.json').exists() and not (O/'ieeg_trial_estimates.csv').exists()
+ c=pd.read_csv(O/'contacts.csv',encoding='utf-8');i=pd.read_csv(O/'trial_inclusion.csv',encoding='utf-8');se=pd.read_csv(O/'session_eligibility.csv',encoding='utf-8');pe=pd.read_csv(O/'patient_eligibility.csv',encoding='utf-8')
++for column in ['included','retained','session_eligible','patient_eligible']:i[column]=i[column].astype(bool)
+ assert len(c)==15 and c.patient.nunique()==15 and not i.duplicated(['analysis','patient','session','trial']).any()
+ assert i.included.equals(i.retained&i.session_eligible&i.patient_eligible)
+ for _,x in c[c.patient!='sub-13'].iterrows():

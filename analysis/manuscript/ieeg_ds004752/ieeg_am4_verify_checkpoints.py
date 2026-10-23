@@ -1,0 +1,26 @@
+"""Compare completed checkpoint features to CSV; never call an estimator."""
+from pathlib import Path
+import json,sys,hashlib
+O=Path(__file__).resolve().parent;sys.path.insert(0,str(O.parent.parent/'pydeps'))
+import pandas as pd
+import numpy as np
+from scipy.io import loadmat
+m=json.loads((O/'analysis_provenance.json').read_text(encoding='utf-8'))
+d=pd.read_csv(O/'ieeg_trial_estimates.csv',encoding='utf-8');n=0
+fields=['fP_hz','fA_hz','score','raw_mvl','ozkurt_mvl','preferred_phase_deg','status','n_bursts','effective_half_width_hz']
+maxdiff={f:0. for f in fields}
+for path,g in d.groupby('checkpoint_file',sort=True):
+    D=loadmat(path,variable_names=['features','metadata'],squeeze_me=True,struct_as_record=False)
+    z=D['metadata'];assert z.protocol_sha256==m['protocol_sha256'] and z.git_head==m['git_head'];assert np.array_equal(z.window_s,[0,6]);assert z.samples==12000
+    assert z.apc_options.stepFourMode=='v1' and z.apc_options.fPRefine==1
+    assert np.array_equal(z.comparator_settings.phase_grid_hz,np.arange(1,12.01,.5))
+    assert len(g)==5 and len(D['features'])==5
+    for method,feature in zip(['APC-v1.0','MVL-raw','MVL-Ozkurt','KLMI','GLM'],D['features'],strict=True):
+        # MATLAB string scalars are opaque to scipy; order is fixed by the frozen worker.
+        r=g[g.method==method];assert len(r)==1;r=r.iloc[0]
+        for f in fields:
+            actual=float(getattr(feature,f));saved=float(r[f]);assert np.isclose(actual,saved,atol=1e-12,rtol=1e-12,equal_nan=True),(path,f,actual,saved)
+            if np.isfinite(actual):maxdiff[f]=max(maxdiff[f],abs(actual-saved))
+    n+=1
+result=dict(git_head=m['git_head'],protocol_sha256=m['protocol_sha256'],seed=20261023,checkpoints=n,method_rows=len(d),all_checkpoint_feature_fields_match_CSV=True,per_trial_options_and_grids_verified=True,max_absolute_CSV_rounding_differences=maxdiff,signal_method_calls=0)
+(O/'am4_checkpoint_verification.json').write_text(json.dumps(result,indent=2),encoding='utf-8');print(json.dumps(result))

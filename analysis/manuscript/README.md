@@ -21,6 +21,7 @@ scripts refer to the original analysis computer.
 | `rodent_multi/` | Regional channel map, tracking-rate behaviour, prespecified 5-s run/rest analysis | Figure 6, Figures S3-S4 |
 | `rodent_multi/posthoc_2s/` | Post hoc 2-s sensitivity analysis | Figure 7 |
 | `ec013_layout_check/` | Data-driven check of the EC013 channel-to-shank layout | Methods (Rodent recordings) |
+| `ieeg_ds004752/` | Prespecified human intracranial analysis (OpenNeuro ds004752): gates, contact selection, both stopped attempts (`attempt1_maintenance_3s/`, Amendment 4 run), stop records. Protocol: `protocol/APC_ieeg_ds004752_protocol.md`. Per-trial checkpoints and preprocessed signals are not included. | Methods and Results (Human intracranial recordings) |
 
 Comparator filters: fourth-order Butterworth band-pass, realized as second-order sections
 (`[z,p,k]=butter(4,...); [sos,g]=zp2sos(z,p,k); filtfilt(sos,g,x)`), with a pole-radius and

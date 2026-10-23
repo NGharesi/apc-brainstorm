@@ -1,0 +1,77 @@
+{
+  "deviations": [
+    {
+      "type": "resolved tooling path lookup",
+      "reason": "An initial read guessed a sidecar without the run-01 entity. File discovery established the actual BIDS names; no signal, setting or outcome was changed."
+    },
+    {
+      "type": "resolved EDF unit metadata reader defect",
+      "reason": "All 48 EDF physical-dimension fields in the first file are blank; the BIDS channels.tsv declares microvolts. The first reader incorrectly required an EDF unit label as well as numeric range checks. The corrected reader accepts the BIDS declaration when the EDF field is blank and still rejects conflicting nonblank units. No signal scaling, thresholds, methods or protocol text changed.",
+      "identified_without_method_outcomes": true,
+      "rerun": "Reading gates only, once after this correction",
+      "diff": "unit_reader_fix.diff",
+      "archived_initial_outputs": [
+        "edf_channel_checks_initial_unit_reader.csv",
+        "edf_file_checks_initial_unit_reader.csv",
+        "reading_gate_initial_unit_reader_failure.json",
+        "reading_gates_initial_unit_reader.log"
+      ]
+    },
+    {
+      "type": "pre-existing MATLAB startup path warnings",
+      "reason": "MATLAB startup lists nonexistent historical Brainstorm directories. Explicit source-path assertions passed. No startup or installation changes were made."
+    },
+    {
+      "type": "resolved EDF wall-clock header syntax",
+      "reason": "MATLAB rejects seconds=60. Two local analysis-folder copies carry the minute (10.28.60 to 10.29.00; 14.23.60 to 14.24.00). Only header bytes 176:184 changed; all bytes from offset 256 onward are SHA-256 identical. Originals remain untouched. Analysis uses events.tsv sample indices, not EDF wall-clock times.",
+      "identified_without_method_outcomes": true,
+      "manifest": "edf_header_copies.json",
+      "rerun": "EDF/scalp gates once after this header compatibility fix"
+    },
+    {
+      "type": "resolved JSON provenance serialization",
+      "reason": "MATLAB jsondecode sanitizes object keys containing full paths. Full path/hash records are additionally stored as an array; values and source files are unchanged."
+    },
+    {
+      "type": "resolved timeline peak structure packaging",
+      "reason": "After all 68 scalp inputs had been read and the complete grand-average CSV saved, appending fields to MATLAB struct([]) failed. The code now collects cells before concatenating. The same fixed peak rule was evaluated from the saved grand-average CSV in Python, without rereading or resampling any raw trial. The defect was identified before viewing the trace or PAC outcomes.",
+      "diff": "timeline_peak_structure_fix.diff",
+      "raw_trial_reruns": 0
+    },
+    {
+      "type": "resolved pre-analysis CSV boolean reader",
+      "reason": "MATLAB serialized logical inclusion columns as 0/1; pandas interpreted them as integers. The freeze verifier now explicitly converts those columns to bool. This failed before any analysis freeze or dataset PAC output. No selection table, setting or method changed.",
+      "diff": "freeze_boolean_reader_fix.diff"
+    },
+    {
+      "type": "post-stop filter-guard logging recovery",
+      "reason": "The worker registry export was after its normal completion path, so the shared stop prevented export. The 39 fixed comparator-band design checks are reconstructed after the stop using the unchanged final_sos_filter helper on zero input only. No dataset trial or PAC method is rerun; the CSV explicitly labels this recovery."
+    },
+    {
+      "type": "stop snapshot scope label correction",
+      "reason": "The initial monitor JSON hardcoded a three-session scope, although its contemporaneous displayed counts covered six sessions from two patients. The scope label is corrected without changing failure counts, and the original JSON is preserved."
+    },
+    {
+      "type": "Amendment-4 post-stop input-verification singleton dimension",
+      "reason": "The verification-only h5py reader assumed a three-dimensional saved candidate array. MATLAB omits the trailing singleton dimension for a single candidate. The reader now accepts that two-dimensional storage after asserting candidate index 1. No signal processing, estimator or endpoint was rerun.",
+      "error": "ValueError: 3 indexing arguments for 2 dimensions",
+      "diff": "am4_input_verification_singleton_fix.diff"
+    },
+    {
+      "type": "Amendment-4 post-stop checkpoint-verification MATLAB string decoding",
+      "reason": "SciPy loads saved MATLAB string scalars as opaque arrays, so direct pandas comparison failed. Verification now associates the five checkpoint feature entries by their fixed source-defined order (APC, MVL-raw, MVL-Ozkurt, KLMI, GLM), then compares every numeric feature to its named CSV row. No estimator or endpoint was rerun.",
+      "error": "ValueError: Lengths must match to compare (5,), (1,)",
+      "diff": "am4_checkpoint_verification_string_fix.diff"
+    }
+  ],
+  "amendment1_resumption": {
+    "public_commit": "63582a9926207d04629c8d30606be03d416c8baf",
+    "protocol_sha256": "eb4c0a6e143bcdb61a2a4ed248ec31c72a3686bb8c7349e6003e7b31f1b59e84",
+    "reason": "User-authorized committed Amendment 1 replaces the native-rate stop; no dataset PAC outcomes preceded amendment."
+  },
+  "amendment2_resumption": {
+    "public_commit": "2b2bb08ff17fd96b1e520f9125e46655cd69786b",
+    "protocol_sha256": "6f457fd2a2ca714abec723728e1a6617ef23b938f3da03bd025030642d63ad58",
+    "reason": "User committed scalp-specific 200-Hz timeline handling before resumed signal processing; equivalence rerun already passed on unchanged source."
+  }
+}

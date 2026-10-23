@@ -1,0 +1,4372 @@
+{
+  "status": "STOPPED_METHOD_RELEVANT",
+  "provenance": {
+    "recorded_utc": "2026-10-23T03:57:58.610009+00:00",
+    "git_head": "37c21dbe249881fdc021655a855c000434b3ac54",
+    "git_branch": "neuroimage-submission",
+    "git_clean": true,
+    "protocol_sha256": "087c51b1e5b930dca55e3c1ce63af15c891252399a3da1abc68407b27a2df308",
+    "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+    "toolbox_versions": [
+      {
+        "Name": "5G Toolbox",
+        "Version": "2.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "AUTOSAR Blockset",
+        "Version": "3.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Aerospace Blockset",
+        "Version": "5.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Aerospace Toolbox",
+        "Version": "4.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Antenna Toolbox",
+        "Version": "5.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Audio Toolbox",
+        "Version": "3.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Automated Driving Toolbox",
+        "Version": "3.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Bioinformatics Toolbox",
+        "Version": "4.16.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Bluetooth Toolbox",
+        "Version": "1.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Communications Toolbox",
+        "Version": "7.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Computer Vision Toolbox",
+        "Version": "10.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Control System Toolbox",
+        "Version": "10.12",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Curve Fitting Toolbox",
+        "Version": "3.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "DDS Blockset",
+        "Version": "1.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "DSP HDL Toolbox",
+        "Version": "1.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "DSP System Toolbox",
+        "Version": "9.15",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Data Acquisition Toolbox",
+        "Version": "4.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Database Toolbox",
+        "Version": "10.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Datafeed Toolbox",
+        "Version": "6.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "DatapixxToolbox",
+        "Version": "0.9,",
+        "Release": "Aug",
+        "Date": "2009"
+      },
+      {
+        "Name": "Deep Learning HDL Toolbox",
+        "Version": "1.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Deep Learning Toolbox",
+        "Version": "14.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "EEGLAB Toolbox to process EEG data",
+        "Version": "-",
+        "Release": "see",
+        "Date": "eeg_getversion()"
+      },
+      {
+        "Name": "Econometrics Toolbox",
+        "Version": "6.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Embedded Coder",
+        "Version": "7.9",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Filter Design HDL Coder",
+        "Version": "3.1.12",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Financial Instruments Toolbox",
+        "Version": "3.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Financial Toolbox",
+        "Version": "6.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Fixed-Point Designer",
+        "Version": "7.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Fuzzy Logic Toolbox",
+        "Version": "3.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "GPU Coder",
+        "Version": "2.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Global Optimization Toolbox",
+        "Version": "4.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "HDL Coder",
+        "Version": "4.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "HDL Verifier",
+        "Version": "7.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Image Acquisition Toolbox",
+        "Version": "6.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Image Processing Toolbox",
+        "Version": "11.6",
+        "Release": "(R2022b)",
+        "Date": "24-May-2022"
+      },
+      {
+        "Name": "Industrial Communication Toolbox",
+        "Version": "6.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Instrument Control Toolbox",
+        "Version": "4.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "LTE Toolbox",
+        "Version": "3.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Lidar Toolbox",
+        "Version": "2.2",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "MATLAB",
+        "Version": "9.13",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "MATLAB Coder",
+        "Version": "5.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "MATLAB Compiler",
+        "Version": "8.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "MATLAB Compiler SDK",
+        "Version": "7.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "MATLAB Report Generator",
+        "Version": "5.13",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Mapping Toolbox",
+        "Version": "5.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Medical Imaging Toolbox",
+        "Version": "1.0",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Mixed-Signal Blockset",
+        "Version": "2.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Model Predictive Control Toolbox",
+        "Version": "8.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Model-Based Calibration Toolbox",
+        "Version": "5.13",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Motor Control Blockset",
+        "Version": "1.5",
+        "Release": "(R2022b)",
+        "Date": "24-May-2022"
+      },
+      {
+        "Name": "Navigation Toolbox",
+        "Version": "2.3",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Optimization Toolbox",
+        "Version": "9.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Parallel Computing Toolbox",
+        "Version": "7.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Partial Differential Equation Toolbox",
+        "Version": "3.9",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Phased Array System Toolbox",
+        "Version": "4.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Powertrain Blockset",
+        "Version": "1.12",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Predictive Maintenance Toolbox",
+        "Version": "2.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Psychtoolbox",
+        "Version": "3.0.19",
+        "Release": "17 February",
+        "Date": "2023"
+      },
+      {
+        "Name": "RF Blockset",
+        "Version": "8.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "RF PCB Toolbox",
+        "Version": "1.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "RF Toolbox",
+        "Version": "4.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "ROS Toolbox",
+        "Version": "1.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Radar Toolbox",
+        "Version": "1.3",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Reinforcement Learning Toolbox",
+        "Version": "2.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Requirements Toolbox",
+        "Version": "2.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Risk Management Toolbox",
+        "Version": "2.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Robotics System Toolbox",
+        "Version": "4.1",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Robust Control Toolbox",
+        "Version": "6.11.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Satellite Communications Toolbox",
+        "Version": "1.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Sensor Fusion and Tracking Toolbox",
+        "Version": "2.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "SerDes Toolbox",
+        "Version": "2.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Signal Integrity Toolbox",
+        "Version": "1.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Signal Processing Toolbox",
+        "Version": "9.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "SimBiology",
+        "Version": "6.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "SimEvents",
+        "Version": "5.13",
+        "Release": "(R2022b)",
+        "Date": "15-Jun-2022"
+      },
+      {
+        "Name": "Simscape",
+        "Version": "5.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simscape Battery",
+        "Version": "1.0",
+        "Release": "(R2022b)",
+        "Date": "21-Jun-2022"
+      },
+      {
+        "Name": "Simscape Driveline",
+        "Version": "3.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simscape Electrical",
+        "Version": "7.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simscape Fluids",
+        "Version": "3.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simscape Multibody",
+        "Version": "7.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink",
+        "Version": "10.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink 3D Animation",
+        "Version": "9.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Check",
+        "Version": "6.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Code Inspector",
+        "Version": "4.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Coder",
+        "Version": "9.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Compiler",
+        "Version": "1.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Control Design",
+        "Version": "6.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Coverage",
+        "Version": "5.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Design Optimization",
+        "Version": "3.12",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Design Verifier",
+        "Version": "4.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Desktop Real-Time",
+        "Version": "5.15",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink PLC Coder",
+        "Version": "3.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Real-Time",
+        "Version": "8.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Report Generator",
+        "Version": "5.13",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Test",
+        "Version": "3.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "SoC Blockset",
+        "Version": "1.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Spreadsheet Link",
+        "Version": "3.4.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Stateflow",
+        "Version": "10.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Statistical Parametric Mapping",
+        "Version": "7771",
+        "Release": "(SPM12)",
+        "Date": "13-Jan-20"
+      },
+      {
+        "Name": "Statistics and Machine Learning Toolbox",
+        "Version": "12.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Symbolic Math Toolbox",
+        "Version": "9.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "System Composer",
+        "Version": "2.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "System Identification Toolbox",
+        "Version": "10.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Text Analytics Toolbox",
+        "Version": "1.9",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "UAV Toolbox",
+        "Version": "1.4",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Vehicle Dynamics Blockset",
+        "Version": "1.9",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Vehicle Network Toolbox",
+        "Version": "5.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Vision HDL Toolbox",
+        "Version": "2.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "WLAN Toolbox",
+        "Version": "3.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Wavelet Toolbox",
+        "Version": "6.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Wireless HDL Toolbox",
+        "Version": "2.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Wireless Testbench",
+        "Version": "1.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      }
+    ],
+    "seed": 20261023.0,
+    "apc_options": {
+      "fA": [
+        80,
+        150
+      ],
+      "epoch": [
+        -0.6,
+        0.6
+      ],
+      "decomposition": "fft_peak",
+      "metric": "canolty",
+      "showPlots": false,
+      "useSurrogates": false,
+      "numPerm": 200,
+      "numPhaseBins": 18,
+      "burstTimeBandwidth": 5,
+      "phaseTimeBandwidth": 20,
+      "phaseEpochCycles": 3,
+      "minPhaseHz": 1,
+      "maxPhaseHz": 30,
+      "flipTroughs": true,
+      "burstProminenceScale": 0.75,
+      "surrogateMethod": "circular_shift",
+      "amplitudeBandWidthHz": 4,
+      "stepFourMode": "v1",
+      "fPRefine": true,
+      "fPMaxBinSpacingHz": 0.05
+    },
+    "comparator_settings": {
+      "profile": "ieeg",
+      "phase_grid_hz": [
+        2,
+        2.5,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12
+      ],
+      "phase_half_width_hz": 1.5,
+      "amplitude_grid_hz": [
+        80,
+        84,
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148
+      ],
+      "amplitude_half_width_hz": 12,
+      "mode": "ieeg_A2_prime"
+    },
+    "analysis_window_s": [
+      3,
+      6
+    ],
+    "data_root": "D:\\APC_project\\RealDatasets\\OpenNeuro_ds004752",
+    "stage": "ANALYSIS_FROZEN_BEFORE_FIRST_DATASET_PAC",
+    "file_sha256_records": [
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\bst_apc.m",
+        "sha256": "282048ebfde8c9ba4a82095a85bea2503fbd5149677e18748169b83664e28c4a"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\calc_MI_all_methods.m",
+        "sha256": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\v1_bout_features.m",
+        "sha256": "51f469c196fe3a9ae63e0b23cef59690fe6a7da5d5d7ba1b06facc18edd1953f"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\sos_comparators.m",
+        "sha256": "350562400dd5d24e3a6b3d8f8530d4c598286774d05440dc9679eb81acec69a7"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\final_sos_filter.m",
+        "sha256": "7134e5711485ff628a0dd980e722fc6e59205da43d17a80facdaa7724202743e"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\protocol\\APC_ieeg_ds004752_protocol.md",
+        "sha256": "087c51b1e5b930dca55e3c1ce63af15c891252399a3da1abc68407b27a2df308"
+      }
+    ],
+    "edf_header_copy_manifest": "edf_header_copies.json",
+    "status": "FIXED_CONTACT_SELECTION_PENDING",
+    "git_clean_at_stop": true,
+    "push": {
+      "status": "SUCCEEDED",
+      "branch": "neuroimage-submission",
+      "public_head": "37c21dbe249881fdc021655a855c000434b3ac54",
+      "amendment1_head": "63582a9926207d04629c8d30606be03d416c8baf",
+      "before_resumed_signal_analysis": true
+    },
+    "attempt": 2,
+    "resumed_utc": "2026-10-23T04:24:02.989943+00:00",
+    "previous_attempt_git_head": "81835945681cbbcb69eb61ce9c5f745acccbc297",
+    "previous_attempt_protocol_sha256": "8c613b0f8d8ea61fb2a922fbfb58531907d37f278c596ea946a165f75837a804",
+    "attempt1_archive": "attempt1_archive",
+    "resampling": {
+      "function": "MATLAB resample default FIR",
+      "trialwise": true,
+      "ieeg": {
+        "target_fs_hz": 2000,
+        "output_samples": 16000,
+        "native_rates": [
+          2000,
+          4000,
+          4096
+        ],
+        "pq": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            125,
+            256
+          ]
+        ]
+      },
+      "scalp_timeline_only": {
+        "target_fs_hz": 200,
+        "output_samples": 1600,
+        "native_rates": [
+          200,
+          2000,
+          4000,
+          4096
+        ],
+        "pq": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            1,
+            20
+          ],
+          [
+            25,
+            512
+          ]
+        ],
+        "latency_resolution_ms": 5
+      }
+    },
+    "amendment2_public_utc": "2026-10-23T04:27:57.435059+00:00",
+    "amendment3_public_utc": "2026-10-23T12:56:20.969372+00:00",
+    "contact_selection_order": "Dataset artifact removal; independent candidate/session robust masks; rank candidate retained-trial Welch ratios; selected mask is final; apply eligibility",
+    "selection_numerical_details": {
+      "welch_window": "hann(2000), MATLAB symmetric default",
+      "welch_overlap_samples": 1000,
+      "welch_nfft": 2000,
+      "welch_fs_hz": 2000,
+      "power_integral": "trapz over inclusive 4-8 Hz and 1-4 Hz bins",
+      "trial_weights": "equal retained trials pooled across sessions",
+      "amplitude_reject": "any abs(x-session_median)>6*1.4826*MAD",
+      "difference_reject": "any abs(within-trial diff)>6*1.4826*MAD(diff)",
+      "robust_pool": "all maintenance samples of dataset-unflagged trials in the same candidate/session",
+      "sensitivity_a": "same selected pair, dataset flags only",
+      "sensitivity_b": "same selected pair and final bipolar mask, deeper-contact signal only",
+      "sensitivity_c": "primary paired endpoint restricted to native-2000-Hz patients"
+    },
+    "frozen_utc": "2026-10-23T13:02:39.499435+00:00",
+    "frozen_analysis_sha256": {
+      "contacts.csv": "8ddf9693b83b9ca8e9eaf69503c10f44e0c668ecc2a80299e0c0f5f2f463b1d9",
+      "trial_inclusion.csv": "3985d342b842fe45882231a9a36a3eb1b03220baf3d88b5ddad6d46a95af3524",
+      "candidate_trial_counts.csv": "245d5ab55c32b9362f4dfeee2f109447a6c8d3af036871b5888c032cb9ea01ee",
+      "candidate_rankings.csv": "d1ccc30eaa2718dbcdc9694c0cb30a994bbaafb389214212b92794e43a06c616",
+      "session_eligibility.csv": "ca2cfeb1fcf3d226e5074b7cbea694844ac4e5b517b055c26058748a5afb87a5",
+      "patient_eligibility.csv": "776c845cab94e508552c73f695e0cf618c9d6ac5a6e922d7a836907e50475dca",
+      "session_spectral_peaks.csv": "b8e8b5db130838ee9b36760984703be1e1a61f9762a00da95b5368cbc729c512",
+      "ieeg_run_worker.m": "640cddbe83c71c75d16324a5f74ad4ac4b176a861f0aee3a6572813fd78563c6",
+      "ieeg_selected_series.m": "1c91086e73477e1c923ca5fcc722ca712348ea19e53b07164da394fc6aa14460",
+      "ieeg_comparators.m": "34386eb5c01f8dc0daeb773e6ef3cb946ace8c785ffd3233d27dc2ad5f4e2831",
+      "ieeg_count_bursts.m": "73eea84ca45c62409595ce872e977c884202d99c854ff3ea40c5e198078bd956",
+      "ieeg_select_contacts.m": "9caa62c0f884b3c039fd5b5360639725ef8f51751cf6144666e9d2a4f4d6b7ad"
+    },
+    "common_preprocessing_protocol_sha256": "6f457fd2a2ca714abec723728e1a6617ef23b938f3da03bd025030642d63ad58",
+    "common_preprocessing_reused_unchanged": true,
+    "planned_analysis_counts": {
+      "artifact_only": {
+        "patients": 14,
+        "sessions": 62,
+        "trials": 2890,
+        "method_rows": 14450
+      },
+      "primary": {
+        "patients": 13,
+        "sessions": 52,
+        "trials": 2008,
+        "method_rows": 10040
+      },
+      "referential": {
+        "patients": 13,
+        "sessions": 52,
+        "trials": 2008,
+        "method_rows": 10040
+      }
+    },
+    "unique_inputs": 4898,
+    "total_method_rows": 34530,
+    "worker_count": 3
+  },
+  "files": [
+    {
+      "path": "analysis_provenance.json",
+      "bytes": 23443,
+      "sha256": "1b5548647c3e5a75d755d457143fa372c95ad052d8ee308b9ad82886e4199e98"
+    },
+    {
+      "path": "attempt1_preservation_manifest.json",
+      "bytes": 29636,
+      "sha256": "d72717d2d9cfd758b7c25f1205a667ee63aa780099965cff3caab8cadf0583a4"
+    },
+    {
+      "path": "before_header_time_fix_edf_channel_checks.csv",
+      "bytes": 16424364,
+      "sha256": "542fde65e4adf4bae8017981db02fc20680d4de281419f6ba2848972d4220b1a"
+    },
+    {
+      "path": "before_header_time_fix_edf_file_checks.csv",
+      "bytes": 305386,
+      "sha256": "0a1248a3fb47ed37cdf40953528c24ae93073e5dc5254d2d1028031e60621dfc"
+    },
+    {
+      "path": "before_header_time_fix_reading_gates_matlab.log",
+      "bytes": 10070,
+      "sha256": "005f3b9326b10b288cb0225fb13ad6a2ed98d4829a99370467ba68784796e780"
+    },
+    {
+      "path": "before_header_time_fix_reading_gate_failure.json",
+      "bytes": 12117,
+      "sha256": "10e9bbfd11300c34f4ca54e173644379cba0bb93bafbac90d98bac639f469e87"
+    },
+    {
+      "path": "burst_count_diagnostic_verification.json",
+      "bytes": 13736,
+      "sha256": "919a9187590180eec0beb9fc63f7614199ca630b68c022fa7c6a06cf24eeca92"
+    },
+    {
+      "path": "candidate_rankings.csv",
+      "bytes": 1648903,
+      "sha256": "d1ccc30eaa2718dbcdc9694c0cb30a994bbaafb389214212b92794e43a06c616"
+    },
+    {
+      "path": "candidate_trial_counts.csv",
+      "bytes": 7257830,
+      "sha256": "245d5ab55c32b9362f4dfeee2f109447a6c8d3af036871b5888c032cb9ea01ee"
+    },
+    {
+      "path": "CODEX_PROMPT_ieeg.md",
+      "bytes": 4199,
+      "sha256": "7f913e0a53e9eef818709527a3976a4d9875f741e4c81ee8bad60d254151c30d"
+    },
+    {
+      "path": "contacts.csv",
+      "bytes": 251412,
+      "sha256": "8ddf9693b83b9ca8e9eaf69503c10f44e0c668ecc2a80299e0c0f5f2f463b1d9"
+    },
+    {
+      "path": "contact_order_clarification_pending.json",
+      "bytes": 22958,
+      "sha256": "8ca54d2839ed8677d4c2bb86579ced5e59c9b29ec884dddc96091e25b94e6edc"
+    },
+    {
+      "path": "deviations.json",
+      "bytes": 4615,
+      "sha256": "1d8657e7243f59543219a1d45edaec70cff0544605a6395775c986a82a5f6d02"
+    },
+    {
+      "path": "earlier_screening_nan_cause.json",
+      "bytes": 20347,
+      "sha256": "91bcfd682870b0ed75ef8e1701e713a4600e3a86282adfc9f2209ab978a8a6cb"
+    },
+    {
+      "path": "edf_channel_checks.csv",
+      "bytes": 61600751,
+      "sha256": "2a64cbf3a172dbd24caaa53aae9652debbc7150e07fbc75340c8650df4fadbee"
+    },
+    {
+      "path": "edf_channel_checks_attempt2.csv",
+      "bytes": 61600751,
+      "sha256": "2a64cbf3a172dbd24caaa53aae9652debbc7150e07fbc75340c8650df4fadbee"
+    },
+    {
+      "path": "edf_channel_checks_initial_unit_reader.csv",
+      "bytes": 668404,
+      "sha256": "13a14680707e89daf4a73506fb008dc3505c31482822eea083f1f73e0d7cc7f0"
+    },
+    {
+      "path": "edf_file_checks.csv",
+      "bytes": 1071257,
+      "sha256": "d44a3e8132a2d94212ca0459fa3778e3fef4dfcc7536fc74fa7577150e8a76c5"
+    },
+    {
+      "path": "edf_file_checks_attempt2.csv",
+      "bytes": 1071257,
+      "sha256": "d44a3e8132a2d94212ca0459fa3778e3fef4dfcc7536fc74fa7577150e8a76c5"
+    },
+    {
+      "path": "edf_file_checks_initial_unit_reader.csv",
+      "bytes": 14011,
+      "sha256": "64f009977ee1105311f9d605977856eac40a4e513b0df6b9dfc19a2b2b939165"
+    },
+    {
+      "path": "edf_header_copies.json",
+      "bytes": 23176,
+      "sha256": "28d4334ce008f05a44aad6abe2cae7a3667f8a67c3c11e52d955b7703684cb8b"
+    },
+    {
+      "path": "edf_reading_gate_attempt2.json",
+      "bytes": 13649,
+      "sha256": "a0bad65c052a098c6d2bb02a23fa646441817f044301a79feb9bd969998556f2"
+    },
+    {
+      "path": "equivalence_attempt2_matlab.log",
+      "bytes": 8198,
+      "sha256": "d809b40e28e880f1113d5eb1aa3159de86ee719ba5d2d00e6322aeb86c28f7e2"
+    },
+    {
+      "path": "equivalence_both_attempts.csv",
+      "bytes": 127050,
+      "sha256": "9585eab0683e6a5eb1a0fc34e140e30846ff047368de6e98e0c7040eb9246627"
+    },
+    {
+      "path": "equivalence_both_attempts.json",
+      "bytes": 22950,
+      "sha256": "feb1561c8d3609ec111dc9b6314385ade2e061de5963b86974ed377decbc582b"
+    },
+    {
+      "path": "equivalence_gate.json",
+      "bytes": 14130,
+      "sha256": "ba8cb4d228196e549e5c211fc01621c71a3bbfef34b22af3515b7d648ce0c16b"
+    },
+    {
+      "path": "equivalence_gate.mat",
+      "bytes": 292024,
+      "sha256": "d7858ed10a32cbc413669292db7155bca80bcba1759f381d98ba189c7cd1ec94"
+    },
+    {
+      "path": "equivalence_gate_attempt2.json",
+      "bytes": 14130,
+      "sha256": "ba8cb4d228196e549e5c211fc01621c71a3bbfef34b22af3515b7d648ce0c16b"
+    },
+    {
+      "path": "equivalence_gate_attempt2.mat",
+      "bytes": 292024,
+      "sha256": "d7858ed10a32cbc413669292db7155bca80bcba1759f381d98ba189c7cd1ec94"
+    },
+    {
+      "path": "equivalence_matlab.log",
+      "bytes": 8198,
+      "sha256": "d809b40e28e880f1113d5eb1aa3159de86ee719ba5d2d00e6322aeb86c28f7e2"
+    },
+    {
+      "path": "EXECUTION_amendment3.md",
+      "bytes": 1351,
+      "sha256": "a520438437d66dd7fe8cad312876f5babcf419a1959cdc9a4f8d2ecbacf5f56f"
+    },
+    {
+      "path": "EXECUTION_notes_attempt2.md",
+      "bytes": 2267,
+      "sha256": "92de72a68f10e2580469fd37f442a9c99646f93f9127d59325ff4a12a1648dfc"
+    },
+    {
+      "path": "filter_guards.csv",
+      "bytes": 722503,
+      "sha256": "81a5dafbce5ab1510d04343a1bbfe54170468bd2af3d180e74ae8ec9a7920d99"
+    },
+    {
+      "path": "filter_guard_logging_recovery.log",
+      "bytes": 8225,
+      "sha256": "de9a75cf093adf19b3558e9772b4961189d26adc64ac35c42bfe71a3c3fc6673"
+    },
+    {
+      "path": "freeze_boolean_reader_fix.diff",
+      "bytes": 921,
+      "sha256": "340480ee816158cab84748a81e61aabc51688303d1ba6c5002d7891a4a203023"
+    },
+    {
+      "path": "gate_preparation_verification.json",
+      "bytes": 22874,
+      "sha256": "ccd91524372ce6f827637ed9a8112f987ebf3076db20dd95c0428f8e31c38b9f"
+    },
+    {
+      "path": "header_time_reader_fix.diff",
+      "bytes": 3513,
+      "sha256": "a287a900854da9e0cb93863c2d3b0c7d6202e1369d4cf76e6b3c43774c6c5b2b"
+    },
+    {
+      "path": "ieeg_amendment1_reading_gate.m",
+      "bytes": 6251,
+      "sha256": "8d2095bb1bae5661dc5bf64b125637fb359cfb4180bedf730d43c779cbd3aae7"
+    },
+    {
+      "path": "ieeg_amendment2_provenance.py",
+      "bytes": 3130,
+      "sha256": "6bd9c78eab612ae7a21061f8c6a8df324ddf001707ebde642fe9f667cf257953"
+    },
+    {
+      "path": "ieeg_amendment2_timeline_gate.m",
+      "bytes": 5469,
+      "sha256": "b5772eb345c450de335b2d4cb8bf321cccbf7f44c0b7c6ed7ba3b2b514d54151"
+    },
+    {
+      "path": "ieeg_amendment3_provenance.py",
+      "bytes": 3375,
+      "sha256": "298cb59712f1c82453bdcc39d1e3ec0f4a41ba84dfa9491a089fa16b32325602"
+    },
+    {
+      "path": "ieeg_collect_method_stop.py",
+      "bytes": 21103,
+      "sha256": "58e031b1785d399b993de790a6189c757083b37e9d0a909c99710977cf5f8012"
+    },
+    {
+      "path": "ieeg_comparators.diff",
+      "bytes": 1532,
+      "sha256": "a052d01d214f75ab3e7be3875c401d0f789faddf4e6a384a4620e71a43e42a96"
+    },
+    {
+      "path": "ieeg_comparators.m",
+      "bytes": 2297,
+      "sha256": "34386eb5c01f8dc0daeb773e6ef3cb946ace8c785ffd3233d27dc2ad5f4e2831"
+    },
+    {
+      "path": "ieeg_comparator_copy_verification.json",
+      "bytes": 22382,
+      "sha256": "e5149b25d05c0484dded9e06df060afb38421dbedc9633ec15e1c245ff147bff"
+    },
+    {
+      "path": "ieeg_confirm_timeline.py",
+      "bytes": 2304,
+      "sha256": "037d896b4a8f11bb3a57fdfad04ee2a6cc6709149491ebd9311c62141129c3a4"
+    },
+    {
+      "path": "ieeg_count_bursts.m",
+      "bytes": 1051,
+      "sha256": "73eea84ca45c62409595ce872e977c884202d99c854ff3ea40c5e198078bd956"
+    },
+    {
+      "path": "ieeg_equivalence_gate.m",
+      "bytes": 2024,
+      "sha256": "8119b0a07326d7a6b793684af8b465fb268c26af365c2b842129692543ac1fdd"
+    },
+    {
+      "path": "ieeg_finish_saved_timeline.py",
+      "bytes": 3171,
+      "sha256": "0244fc2f0afc39182d06cc45fad1c0c8c78d0d972c08ca73836bcde56a537cc0"
+    },
+    {
+      "path": "ieeg_fix_header_times.py",
+      "bytes": 3701,
+      "sha256": "316ea84a97b4f75a7c8918ec0c461680104af3d451694d91891dcfa368616d2f"
+    },
+    {
+      "path": "ieeg_freeze_analysis.py",
+      "bytes": 3288,
+      "sha256": "c6d38211bdbf0b66ad351e251bfc728d45b75eebdf0a3f5141eb0bc32177550a"
+    },
+    {
+      "path": "ieeg_freeze_before_boolean_fix.py.txt",
+      "bytes": 3179,
+      "sha256": "bc978e06c8e50c742ce1cac55e255b985179e0a6b9ca93eaa8bd63a6f56330ee"
+    },
+    {
+      "path": "ieeg_gate_summaries.py",
+      "bytes": 1524,
+      "sha256": "9c11e4a9d169e01fdd87fa1578beb685db8a94995e1d73ece0f05d128aec56a8"
+    },
+    {
+      "path": "ieeg_gate_support.py",
+      "bytes": 2050,
+      "sha256": "5f4e65155f201c3c479e1012a70abb198229ff461d2a5e0d80f953667800e60b"
+    },
+    {
+      "path": "ieeg_log_guards_after_stop.m",
+      "bytes": 1058,
+      "sha256": "ddd11f49efa424b61c7c4f8e7d73025461db70ddd9d3044b18b96d1cd62833b2"
+    },
+    {
+      "path": "ieeg_metadata_inventory.py",
+      "bytes": 3055,
+      "sha256": "77600308dafe1447478b9ffeae8c2dca085e0cb3f829d58312de9afe203d484f"
+    },
+    {
+      "path": "ieeg_prepare_comparators.py",
+      "bytes": 1757,
+      "sha256": "f77af16c101d94db54bbf732694bc67396bf4a4bf9c54cbc065cbb04dbc2df23"
+    },
+    {
+      "path": "ieeg_preprocess_candidates.m",
+      "bytes": 5299,
+      "sha256": "041197ece92dc5a41b576dec153146144057b72f66323bcca4a93a94bc6c62c2"
+    },
+    {
+      "path": "ieeg_reading_gates.m",
+      "bytes": 7396,
+      "sha256": "25905c9d3d3920373613af951c5a343d8c47c620feb05e9130df7dc1cccd4a9a"
+    },
+    {
+      "path": "ieeg_reading_gates_before_unit_fix.m.txt",
+      "bytes": 6640,
+      "sha256": "5c99541902c3afea8807d5bb3c0bb32e8a3a1ef2e8ebb05bb2b8b4906ee4b93c"
+    },
+    {
+      "path": "ieeg_record_unit_fix.py",
+      "bytes": 2303,
+      "sha256": "2ecf03caccef34dbec37df0afff8c0688c6f2d44926793ee2e455ed722b829e0"
+    },
+    {
+      "path": "ieeg_report_progress.py",
+      "bytes": 5476,
+      "sha256": "c5eacfb5aa2b06aff0af444d2c2d5dc6456f2b988b4054a98ed1ca839d758a3f"
+    },
+    {
+      "path": "ieeg_resume_amendment1.py",
+      "bytes": 3678,
+      "sha256": "cf5736450d8817d18010bf34cf54975b7b0354177b8ef30ab7f5eb2f31e89dc2"
+    },
+    {
+      "path": "ieeg_run_worker.m",
+      "bytes": 6642,
+      "sha256": "640cddbe83c71c75d16324a5f74ad4ac4b176a861f0aee3a6572813fd78563c6"
+    },
+    {
+      "path": "ieeg_selected_series.m",
+      "bytes": 1078,
+      "sha256": "1c91086e73477e1c923ca5fcc722ca712348ea19e53b07164da394fc6aa14460"
+    },
+    {
+      "path": "ieeg_select_contacts.m",
+      "bytes": 7863,
+      "sha256": "9caa62c0f884b3c039fd5b5360639725ef8f51751cf6144666e9d2a4f4d6b7ad"
+    },
+    {
+      "path": "ieeg_setup.py",
+      "bytes": 2147,
+      "sha256": "e1ece5b47f88be4fcf9a063cc28eb48bcec067bd69154d176f6333be91239897"
+    },
+    {
+      "path": "ieeg_timeline_figure.py",
+      "bytes": 2121,
+      "sha256": "948c29c8efb305db129d66580bdfd37a9bb4a8575cc55ae98a44a30bfae9280e"
+    },
+    {
+      "path": "ieeg_trial_estimates.csv",
+      "bytes": 6079572,
+      "sha256": "c97b5a9a0413b157a0522d581c268f80684e3d79a1503423376daf62fb173711"
+    },
+    {
+      "path": "ieeg_verify_burst_count.m",
+      "bytes": 962,
+      "sha256": "e1f4022333953f6dca72335e94c04e5b2276ec45087d5e7d458d8118f51a5beb"
+    },
+    {
+      "path": "ieeg_verify_gates_preparation.py",
+      "bytes": 5603,
+      "sha256": "28f9995b40de92ac9eebf3f3c383583a338a300e903c38f87edb14bd1e8d60ba"
+    },
+    {
+      "path": "ieeg_verify_method_stop.py",
+      "bytes": 6238,
+      "sha256": "78d4fc3b8597d5339976e3ea5f53db89126c2dbf2b50a4bb704b8b949a73e9c7"
+    },
+    {
+      "path": "ieeg_verify_stop.py",
+      "bytes": 3551,
+      "sha256": "0a1fd165ffea87b5878e4d9776924fa426f4422e61788bfafd99d8fdf679dee5"
+    },
+    {
+      "path": "ieeg_worker1_trial_estimates.csv",
+      "bytes": 1864227,
+      "sha256": "3f5f5e49125451c64082f66f8e5fcb96ca78341901abed76eb403d4b2bf9dd8b"
+    },
+    {
+      "path": "ieeg_worker2_trial_estimates.csv",
+      "bytes": 2208255,
+      "sha256": "60092b733bc751781372a63e4361dbcc2c7764795b50f461b795560477c34fa1"
+    },
+    {
+      "path": "ieeg_worker3_trial_estimates.csv",
+      "bytes": 2007718,
+      "sha256": "111259fac64701821f6d797e79a0193dea1e9bb71ccaa81f7cafb6573e6a110f"
+    },
+    {
+      "path": "ieeg_write_stop.py",
+      "bytes": 12528,
+      "sha256": "eb6c66a973ba02495283175c3beb3e6c0cacc5a67ef134ce87d45f54b0455bc2"
+    },
+    {
+      "path": "metadata_candidate_pairs.csv",
+      "bytes": 1548360,
+      "sha256": "fde389001512d9722b195f3c384a84129f1a7633841746b57eb297bd7f854f3f"
+    },
+    {
+      "path": "metadata_file_inventory.csv",
+      "bytes": 1078998,
+      "sha256": "5330932c6b992e6b0c5fc3e717d78880bbc3e89d7bd5a1582d28f2b9fba76988"
+    },
+    {
+      "path": "metadata_patient_counts_at_stop.csv",
+      "bytes": 238168,
+      "sha256": "937cdcce91607edfa5407e21d2ae480e30cc51672ac75d287650a2cdd850bb0a"
+    },
+    {
+      "path": "method_failure_first_snapshot.json",
+      "bytes": 26022,
+      "sha256": "35de04504b5bd468853f157ed8b7ae43188b93141cb9f6490c985e31fa8073a3"
+    },
+    {
+      "path": "method_failure_first_snapshot_original.json",
+      "bytes": 25763,
+      "sha256": "78878ba2a6b405f4873a2a7a1b81d4beb6f97b483763eee3b5ebb6f1ef2ad50c"
+    },
+    {
+      "path": "METHOD_STOP_FLAG.json",
+      "bytes": 25659,
+      "sha256": "946af0522081b27ca988830e0e0b027deddda7dc9eed5d4309419831a5000bbc"
+    },
+    {
+      "path": "method_stop_flag_last_worker.json",
+      "bytes": 16358,
+      "sha256": "48b29aebfef06c7f11a5f65af076cd50c07d93de5265f2b17ba12525176f97fc"
+    },
+    {
+      "path": "method_stop_verification.json",
+      "bytes": 26409,
+      "sha256": "62a3e9b577e8e3c4676ce86ec56fdc1490b1d9bb32de2d31cf906af26dc429a2"
+    },
+    {
+      "path": "native_ieeg_rate_summary.csv",
+      "bytes": 46865,
+      "sha256": "3eebbe2dccdfc03e845999b7a7adf5bd8404c789ee569361e88e7506ab7cd59d"
+    },
+    {
+      "path": "native_scalp_rate_summary.csv",
+      "bytes": 62489,
+      "sha256": "a3607b5e10668cab670ae6656e9641e0ba7599737c848c871f18490160f6ca73"
+    },
+    {
+      "path": "notch_filter_guards.csv",
+      "bytes": 47095,
+      "sha256": "495ac58c6ed82737a08444beef0cc8c253c010636f1b41a0a54c432135d7c1d9"
+    },
+    {
+      "path": "partial_boundary_rates.csv",
+      "bytes": 277957,
+      "sha256": "43278d954ca9b46c98bf6538124a3d8295affd0fc6e96d05fae77fcba73083f8"
+    },
+    {
+      "path": "partial_failure_rates.csv",
+      "bytes": 277737,
+      "sha256": "c9c10ae17c8d4d4c3095598b5106073719e148bfb073c7eb712118953084547d"
+    },
+    {
+      "path": "partial_session_progress.csv",
+      "bytes": 1145336,
+      "sha256": "fa67c0b17cae3e306261c6432ce926681ece7366dc270f841bd071ae862a396e"
+    },
+    {
+      "path": "partial_status_counts.csv",
+      "bytes": 665227,
+      "sha256": "85f1354d55fbd3c35e9f9a4a24fa5e0fc384f6d6f251b64b6ee22df796849034"
+    },
+    {
+      "path": "patient_eligibility.csv",
+      "bytes": 698766,
+      "sha256": "776c845cab94e508552c73f695e0cf618c9d6ac5a6e922d7a836907e50475dca"
+    },
+    {
+      "path": "preprocessing_attempt2_matlab.log",
+      "bytes": 11102,
+      "sha256": "5a8548b4c34f1494538145fc47edcb0e58ad90abe0291d14b553252102f72754"
+    },
+    {
+      "path": "preprocessing_progress.csv",
+      "bytes": 976477,
+      "sha256": "c3c2ea2d8a3de2a8254541757871b3a745e7c50f05a241226c3d9b7b5b90bc6c"
+    },
+    {
+      "path": "preprocessing_runtime.json",
+      "bytes": 13645,
+      "sha256": "c82a4860987d5d20b1bef14905e9b4a59273928751b6696b992c59ba7b10e688"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 23543,
+      "sha256": "ebb97a5b89e8c8556b586be9259a5b9011f9d5fb4de60479056bda70b662972d"
+    },
+    {
+      "path": "provenance_amendment1_before_reading.json",
+      "bytes": 13307,
+      "sha256": "f4158b537318da6f546680f913db5f22d38710fbefff88436038d40166a515ce"
+    },
+    {
+      "path": "provenance_before_amendment3.json",
+      "bytes": 20513,
+      "sha256": "b4f4a181df2aae04c68c92c87aea3818dbf66c63a31a3d0f30959325d8e31ce9"
+    },
+    {
+      "path": "reading_gates_initial_unit_reader.log",
+      "bytes": 8315,
+      "sha256": "f0bb6f6cb8aaa272d26258726599f343117917b1429c184eb707ffa9cb5f6f94"
+    },
+    {
+      "path": "reading_gates_matlab.log",
+      "bytes": 10548,
+      "sha256": "1d6da3ffb4aa56e81fc69e417cbb8ec70c3b2da913320db0d035a9744bd3918c"
+    },
+    {
+      "path": "reading_gate_attempt2_matlab.log",
+      "bytes": 13944,
+      "sha256": "a7f5b1b96b970f077958b2cc440587d521ec5c47629781abb5d4d3dafdfd6779"
+    },
+    {
+      "path": "reading_gate_failure.json",
+      "bytes": 13615,
+      "sha256": "29627cb1c3d37214431d46e0ec1fcdb45329ae70881441a63310e297d9216f49"
+    },
+    {
+      "path": "reading_gate_initial_unit_reader_failure.json",
+      "bytes": 12077,
+      "sha256": "c8bc9ac06b709cbf9686086ef76fb1bca0f1cfbb92a71358bda42cb79f8d37f6"
+    },
+    {
+      "path": "resampling_trial_checks_attempt2.csv",
+      "bytes": 52777730,
+      "sha256": "80b188da9be008ff59ee366a606d05535fb5887219625cac8b1db7924d09928c"
+    },
+    {
+      "path": "RESULTS_ieeg.md",
+      "bytes": 25995,
+      "sha256": "c57c3f7f81c7ca1f761a15d818db18c6bcf53bf350cd3758429a26bd450ff0cf"
+    },
+    {
+      "path": "sampling_rate_failure_evidence.json",
+      "bytes": 23109,
+      "sha256": "c99527ebf9f4f18a438c2d9889f50b77e70e43d1a8367cbe9da366e6610c07ef"
+    },
+    {
+      "path": "selected_session_spectra.mat",
+      "bytes": 4215165,
+      "sha256": "857dbb6b6319a106c8770e3409d8815d9d2f058285bc67962fb38f4524343fe6"
+    },
+    {
+      "path": "selection_matlab.log",
+      "bytes": 9030,
+      "sha256": "43a981a44cec3f6b10880bdee9a9a0f3e65879afc176c0b4a8e52c80a83a8db5"
+    },
+    {
+      "path": "selection_runtime.json",
+      "bytes": 14660,
+      "sha256": "cfb5f4000e29623cd14d30d95081d4a2b1fc1afa8aa0d1328b260cecd4aeaed9"
+    },
+    {
+      "path": "selection_sub-01.mat",
+      "bytes": 363152,
+      "sha256": "fb189dcb3219278307f85c7b9868c4123584177926d51e41f09338f3ea4ce0fa"
+    },
+    {
+      "path": "selection_sub-02.mat",
+      "bytes": 386712,
+      "sha256": "d9914e0a9734a4a75e0b8e18e28082fb05633de3ef711675a3bea4fe29e3d5d9"
+    },
+    {
+      "path": "selection_sub-03.mat",
+      "bytes": 402216,
+      "sha256": "2556fcbb8fbd20667550aca9e36b08549deeb12c8d4ff91be4bc0a575173e052"
+    },
+    {
+      "path": "selection_sub-04.mat",
+      "bytes": 353872,
+      "sha256": "11d86fb287e85ec44611bf10e6d966040b169827d8fb66604b6407582cdac3f2"
+    },
+    {
+      "path": "selection_sub-05.mat",
+      "bytes": 371472,
+      "sha256": "788e42e21fb9ede03d0058343dcbe28cdfe4fc363b5086737d0a981889f76328"
+    },
+    {
+      "path": "selection_sub-06.mat",
+      "bytes": 702048,
+      "sha256": "4d8f3ee87b368d71b86f168feeb8e60a0c4f01503388406bf1c2f23637161689"
+    },
+    {
+      "path": "selection_sub-07.mat",
+      "bytes": 528832,
+      "sha256": "76c5cc42e6b5756fe6a0fd22dfb82c43cec9146e568a00284ad33e07d45b5ae8"
+    },
+    {
+      "path": "selection_sub-08.mat",
+      "bytes": 402432,
+      "sha256": "48e7835e84b5129e9b3f1066f531d40eabc786dd9c6d6385438ed60aedff913f"
+    },
+    {
+      "path": "selection_sub-09.mat",
+      "bytes": 411576,
+      "sha256": "5150567a620b139c1d5374f1a2a2a7852d6711aa856bb98593f53d48edb32bdb"
+    },
+    {
+      "path": "selection_sub-10.mat",
+      "bytes": 334728,
+      "sha256": "85bcf85cce0c57699099cf95b45c3857bc54fefd99169f7cd0e9aa163e7294ec"
+    },
+    {
+      "path": "selection_sub-11.mat",
+      "bytes": 319800,
+      "sha256": "2ac339eb5f9b56d4b0f331eb43f72198ffeaa78de79eb9245623f1c38f9d8f3d"
+    },
+    {
+      "path": "selection_sub-12.mat",
+      "bytes": 403160,
+      "sha256": "8fa588121c2b8a2e2becaeffa4e7de8d551ac467ce0f21c7e9e146f51f576869"
+    },
+    {
+      "path": "selection_sub-14.mat",
+      "bytes": 689240,
+      "sha256": "490a7ae75b8365391b1fa7ddcba8986b08d96a3d09dc0a4bf9a2cc83d6a56e47"
+    },
+    {
+      "path": "selection_sub-15.mat",
+      "bytes": 380968,
+      "sha256": "bf58866fae9c497f302f62d6bac2b6ca9853fd5f3c4b0dca7b41ed77c4c141db"
+    },
+    {
+      "path": "session_eligibility.csv",
+      "bytes": 3096141,
+      "sha256": "ca2cfeb1fcf3d226e5074b7cbea694844ac4e5b517b055c26058748a5afb87a5"
+    },
+    {
+      "path": "session_spectral_peaks.csv",
+      "bytes": 3094823,
+      "sha256": "b8e8b5db130838ee9b36760984703be1e1a61f9762a00da95b5368cbc729c512"
+    },
+    {
+      "path": "STATUS.json",
+      "bytes": 26269,
+      "sha256": "633b9f943b61065b3d89f929ec7ac08f7cf6cb3a5d560e79c7d92985f62ee5ff"
+    },
+    {
+      "path": "STOPPED.md",
+      "bytes": 1768,
+      "sha256": "332fba84c520eb67bbb81a87de324cd9632f669dd54fcb887364ddf8c8cc5b08"
+    },
+    {
+      "path": "STOPPED_attempt1_sampling_rate.md",
+      "bytes": 1719,
+      "sha256": "8c48c62f4b8668a5a0e8f1d907fe9bcac51c67c770c46894e88ee423914dd804"
+    },
+    {
+      "path": "stop_verification.json",
+      "bytes": 22426,
+      "sha256": "626c0e760adf98b7a76bcdad4948c5b863d79e2d8f3b21461af48b24c9dcb3aa"
+    },
+    {
+      "path": "timeline_attempt2_matlab.log",
+      "bytes": 14141,
+      "sha256": "195dde0791e0960a934332877d1b861c78fa5c8685d45d9fd5c190c68c4f7e43"
+    },
+    {
+      "path": "timeline_file_checks.csv",
+      "bytes": 1069613,
+      "sha256": "592f354dfb1c06f0a9241c23339c0aefc3ce5cf7627b0a6c107f4cf8c03c52e4"
+    },
+    {
+      "path": "timeline_gate_before_peak_structure_fix.m.txt",
+      "bytes": 5465,
+      "sha256": "f7dd25ddfb60ca44ae585601a9d6178c737ce6e9103b97ef992a03cbe31fd84b"
+    },
+    {
+      "path": "timeline_gate_confirmation.json",
+      "bytes": 23462,
+      "sha256": "8962fcb42fa72ea6dbd69f9b20adb1b2c31fe4ed90ff81ff0defb9d57d70123b"
+    },
+    {
+      "path": "timeline_gate_failure.json",
+      "bytes": 22357,
+      "sha256": "312f61ce38ae065620d01298f6feb33f7d95b4c01bb002a4b06ee91569b161c6"
+    },
+    {
+      "path": "timeline_gate_measurements.json",
+      "bytes": 23299,
+      "sha256": "e448765bc6729f7be0c592552315246641e9bfba923528f933a81f61e4e84dff"
+    },
+    {
+      "path": "timeline_grand_average.csv",
+      "bytes": 25025988,
+      "sha256": "e5bc79699c661289fa99bbb8b9b84e3a4d445b82f7479677437f35f4e5814b78"
+    },
+    {
+      "path": "timeline_grand_average.png",
+      "bytes": 594127,
+      "sha256": "1d4af33abe82998aeacc3513223067116f47cf903edc9626f614669c199592a1"
+    },
+    {
+      "path": "timeline_grand_average.svg",
+      "bytes": 104580,
+      "sha256": "cf36cece396da289faef80177c051fb3b513ef0b969c10b6c76a46fd0935f54b"
+    },
+    {
+      "path": "timeline_paper_evidence.json",
+      "bytes": 20256,
+      "sha256": "ff7bbf6c7c249c4aa705e2043952190740caeaf4741a1c353cbba1f9eeee83a5"
+    },
+    {
+      "path": "timeline_peak_structure_fix.diff",
+      "bytes": 2492,
+      "sha256": "cad1a297fc5151d04b87514a3e2e19e1aa09bc18aa74e9817b58339fa24223a6"
+    },
+    {
+      "path": "timeline_peak_structure_initial_failure.json",
+      "bytes": 13717,
+      "sha256": "de0b0a2604469fe74035374d5adddb1c51e168806ed91f4ce5df21fd8b0e8173"
+    },
+    {
+      "path": "timeline_resampling_trial_checks.csv",
+      "bytes": 52732914,
+      "sha256": "d222f61465da55073e53dd8dc398d006d7aedd3527a2f44e1dfc1231c3b0718b"
+    },
+    {
+      "path": "trial_exclusion_summary.csv",
+      "bytes": 55763,
+      "sha256": "14c06b06ec67f1bc97edece50fb3e963cff591d881643b0951d45607e3cdd812"
+    },
+    {
+      "path": "trial_inclusion.csv",
+      "bytes": 153498315,
+      "sha256": "3985d342b842fe45882231a9a36a3eb1b03220baf3d88b5ddad6d46a95af3524"
+    },
+    {
+      "path": "unit_reader_fix.diff",
+      "bytes": 1884,
+      "sha256": "a268418aed1946a7e7b8aed7d5a030afa5bd74d870365420dc8c97588a109534"
+    },
+    {
+      "path": "worker1_matlab.log",
+      "bytes": 8965,
+      "sha256": "3ad58d844cc7fc128b14c371dc609caae505f44a14ec3e1400b7fe9fe4737f2a"
+    },
+    {
+      "path": "worker1_runtime.json",
+      "bytes": 16357,
+      "sha256": "18b66ebbb7016e575348e4f43cda7133bd00a6f684e9d8582a6ca1a7c1176bae"
+    },
+    {
+      "path": "worker2_matlab.log",
+      "bytes": 9031,
+      "sha256": "a1776bedfc189df39bba5449863d23b3e1c5155d211a40e669aacdfcb9e2ed56"
+    },
+    {
+      "path": "worker2_runtime.json",
+      "bytes": 16358,
+      "sha256": "e28a9aa024127a280e7edf66a17f8e32c0ae11ec9c699014c757f9bee78c1847"
+    },
+    {
+      "path": "worker3_matlab.log",
+      "bytes": 8937,
+      "sha256": "a1c06edfc703b12a932b6dbdc88ed8f5be4ed8dd1322c9019eb6977172fb907d"
+    },
+    {
+      "path": "worker3_runtime.json",
+      "bytes": 16358,
+      "sha256": "48b29aebfef06c7f11a5f65af076cd50c07d93de5265f2b17ba12525176f97fc"
+    },
+    {
+      "path": "attempt1_archive\\before_header_time_fix_edf_channel_checks.csv",
+      "bytes": 16424364,
+      "sha256": "542fde65e4adf4bae8017981db02fc20680d4de281419f6ba2848972d4220b1a"
+    },
+    {
+      "path": "attempt1_archive\\before_header_time_fix_edf_file_checks.csv",
+      "bytes": 305386,
+      "sha256": "0a1248a3fb47ed37cdf40953528c24ae93073e5dc5254d2d1028031e60621dfc"
+    },
+    {
+      "path": "attempt1_archive\\before_header_time_fix_reading_gates_matlab.log",
+      "bytes": 10070,
+      "sha256": "005f3b9326b10b288cb0225fb13ad6a2ed98d4829a99370467ba68784796e780"
+    },
+    {
+      "path": "attempt1_archive\\before_header_time_fix_reading_gate_failure.json",
+      "bytes": 12117,
+      "sha256": "10e9bbfd11300c34f4ca54e173644379cba0bb93bafbac90d98bac639f469e87"
+    },
+    {
+      "path": "attempt1_archive\\CODEX_PROMPT_ieeg.md",
+      "bytes": 4199,
+      "sha256": "7f913e0a53e9eef818709527a3976a4d9875f741e4c81ee8bad60d254151c30d"
+    },
+    {
+      "path": "attempt1_archive\\deviations.json",
+      "bytes": 2231,
+      "sha256": "b68d37300a6a7c8e3e8ec329cb1630258eb0d0aae4998cc369c3c985dadaca1c"
+    },
+    {
+      "path": "attempt1_archive\\earlier_screening_nan_cause.json",
+      "bytes": 20347,
+      "sha256": "91bcfd682870b0ed75ef8e1701e713a4600e3a86282adfc9f2209ab978a8a6cb"
+    },
+    {
+      "path": "attempt1_archive\\edf_channel_checks.csv",
+      "bytes": 34701765,
+      "sha256": "28ca41a1358cb13d05ca91887cf3911684be22894f8a12d74eaad631852927ff"
+    },
+    {
+      "path": "attempt1_archive\\edf_channel_checks_initial_unit_reader.csv",
+      "bytes": 668404,
+      "sha256": "13a14680707e89daf4a73506fb008dc3505c31482822eea083f1f73e0d7cc7f0"
+    },
+    {
+      "path": "attempt1_archive\\edf_file_checks.csv",
+      "bytes": 605106,
+      "sha256": "09b28eea306e15ae1acb6f5b8b1574a1a88d0521ac302e9ab1abf9a2d593ab23"
+    },
+    {
+      "path": "attempt1_archive\\edf_file_checks_initial_unit_reader.csv",
+      "bytes": 14011,
+      "sha256": "64f009977ee1105311f9d605977856eac40a4e513b0df6b9dfc19a2b2b939165"
+    },
+    {
+      "path": "attempt1_archive\\edf_header_copies.json",
+      "bytes": 23176,
+      "sha256": "28d4334ce008f05a44aad6abe2cae7a3667f8a67c3c11e52d955b7703684cb8b"
+    },
+    {
+      "path": "attempt1_archive\\equivalence_gate.json",
+      "bytes": 12647,
+      "sha256": "700353de23b685e68cae9f4a48cf6665bc7af5e2041371ff2f3760691b5c49da"
+    },
+    {
+      "path": "attempt1_archive\\equivalence_gate.mat",
+      "bytes": 263616,
+      "sha256": "fcafb2749b243c936e1f64574634acabb2d7b1ccb98615aceab28e004ea8f023"
+    },
+    {
+      "path": "attempt1_archive\\equivalence_matlab.log",
+      "bytes": 8198,
+      "sha256": "d809b40e28e880f1113d5eb1aa3159de86ee719ba5d2d00e6322aeb86c28f7e2"
+    },
+    {
+      "path": "attempt1_archive\\header_time_reader_fix.diff",
+      "bytes": 3513,
+      "sha256": "a287a900854da9e0cb93863c2d3b0c7d6202e1369d4cf76e6b3c43774c6c5b2b"
+    },
+    {
+      "path": "attempt1_archive\\ieeg_comparators.diff",
+      "bytes": 1532,
+      "sha256": "a052d01d214f75ab3e7be3875c401d0f789faddf4e6a384a4620e71a43e42a96"
+    },
+    {
+      "path": "attempt1_archive\\ieeg_comparators.m",
+      "bytes": 2297,
+      "sha256": "34386eb5c01f8dc0daeb773e6ef3cb946ace8c785ffd3233d27dc2ad5f4e2831"
+    },
+    {
+      "path": "attempt1_archive\\ieeg_comparator_copy_verification.json",
+      "bytes": 22382,
+      "sha256": "e5149b25d05c0484dded9e06df060afb38421dbedc9633ec15e1c245ff147bff"
+    },
+    {
+      "path": "attempt1_archive\\ieeg_equivalence_gate.m",
+      "bytes": 2024,
+      "sha256": "8119b0a07326d7a6b793684af8b465fb268c26af365c2b842129692543ac1fdd"
+    },
+    {
+      "path": "attempt1_archive\\ieeg_fix_header_times.py",
+      "bytes": 3701,
+      "sha256": "316ea84a97b4f75a7c8918ec0c461680104af3d451694d91891dcfa368616d2f"
+    },
+    {
+      "path": "attempt1_archive\\ieeg_gate_support.py",
+      "bytes": 2050,
+      "sha256": "5f4e65155f201c3c479e1012a70abb198229ff461d2a5e0d80f953667800e60b"
+    },
+    {
+      "path": "attempt1_archive\\ieeg_metadata_inventory.py",
+      "bytes": 3055,
+      "sha256": "77600308dafe1447478b9ffeae8c2dca085e0cb3f829d58312de9afe203d484f"
+    },
+    {
+      "path": "attempt1_archive\\ieeg_prepare_comparators.py",
+      "bytes": 1757,
+      "sha256": "f77af16c101d94db54bbf732694bc67396bf4a4bf9c54cbc065cbb04dbc2df23"
+    },
+    {
+      "path": "attempt1_archive\\ieeg_reading_gates.m",
+      "bytes": 7396,
+      "sha256": "25905c9d3d3920373613af951c5a343d8c47c620feb05e9130df7dc1cccd4a9a"
+    },
+    {
+      "path": "attempt1_archive\\ieeg_reading_gates_before_unit_fix.m.txt",
+      "bytes": 6640,
+      "sha256": "5c99541902c3afea8807d5bb3c0bb32e8a3a1ef2e8ebb05bb2b8b4906ee4b93c"
+    },
+    {
+      "path": "attempt1_archive\\ieeg_record_unit_fix.py",
+      "bytes": 2303,
+      "sha256": "2ecf03caccef34dbec37df0afff8c0688c6f2d44926793ee2e455ed722b829e0"
+    },
+    {
+      "path": "attempt1_archive\\ieeg_setup.py",
+      "bytes": 2147,
+      "sha256": "e1ece5b47f88be4fcf9a063cc28eb48bcec067bd69154d176f6333be91239897"
+    },
+    {
+      "path": "attempt1_archive\\ieeg_timeline_figure.py",
+      "bytes": 2121,
+      "sha256": "948c29c8efb305db129d66580bdfd37a9bb4a8575cc55ae98a44a30bfae9280e"
+    },
+    {
+      "path": "attempt1_archive\\ieeg_verify_stop.py",
+      "bytes": 3551,
+      "sha256": "0a1fd165ffea87b5878e4d9776924fa426f4422e61788bfafd99d8fdf679dee5"
+    },
+    {
+      "path": "attempt1_archive\\ieeg_write_stop.py",
+      "bytes": 12528,
+      "sha256": "eb6c66a973ba02495283175c3beb3e6c0cacc5a67ef134ce87d45f54b0455bc2"
+    },
+    {
+      "path": "attempt1_archive\\metadata_candidate_pairs.csv",
+      "bytes": 1548360,
+      "sha256": "fde389001512d9722b195f3c384a84129f1a7633841746b57eb297bd7f854f3f"
+    },
+    {
+      "path": "attempt1_archive\\metadata_file_inventory.csv",
+      "bytes": 1078998,
+      "sha256": "5330932c6b992e6b0c5fc3e717d78880bbc3e89d7bd5a1582d28f2b9fba76988"
+    },
+    {
+      "path": "attempt1_archive\\metadata_patient_counts_at_stop.csv",
+      "bytes": 238168,
+      "sha256": "937cdcce91607edfa5407e21d2ae480e30cc51672ac75d287650a2cdd850bb0a"
+    },
+    {
+      "path": "attempt1_archive\\provenance.json",
+      "bytes": 20225,
+      "sha256": "0cb58f7bb085318d1eafc3c0e8383d260b11ef513a9766ead51c3c364ee2e18d"
+    },
+    {
+      "path": "attempt1_archive\\reading_gates_initial_unit_reader.log",
+      "bytes": 8315,
+      "sha256": "f0bb6f6cb8aaa272d26258726599f343117917b1429c184eb707ffa9cb5f6f94"
+    },
+    {
+      "path": "attempt1_archive\\reading_gates_matlab.log",
+      "bytes": 10548,
+      "sha256": "1d6da3ffb4aa56e81fc69e417cbb8ec70c3b2da913320db0d035a9744bd3918c"
+    },
+    {
+      "path": "attempt1_archive\\reading_gate_failure.json",
+      "bytes": 13615,
+      "sha256": "29627cb1c3d37214431d46e0ec1fcdb45329ae70881441a63310e297d9216f49"
+    },
+    {
+      "path": "attempt1_archive\\reading_gate_initial_unit_reader_failure.json",
+      "bytes": 12077,
+      "sha256": "c8bc9ac06b709cbf9686086ef76fb1bca0f1cfbb92a71358bda42cb79f8d37f6"
+    },
+    {
+      "path": "attempt1_archive\\RESULTS_ieeg.md",
+      "bytes": 16033,
+      "sha256": "fa1d7043083ec2cd520668c9f9faf9c142410d562f5ff4dbccfbb2c415579263"
+    },
+    {
+      "path": "attempt1_archive\\sampling_rate_failure_evidence.json",
+      "bytes": 23109,
+      "sha256": "c99527ebf9f4f18a438c2d9889f50b77e70e43d1a8367cbe9da366e6610c07ef"
+    },
+    {
+      "path": "attempt1_archive\\STATUS.json",
+      "bytes": 22666,
+      "sha256": "e7a15b0b1feb5ce5b9564e531f468e99daceb9d2c9d1e7e40826363b53465c26"
+    },
+    {
+      "path": "attempt1_archive\\STOPPED.md",
+      "bytes": 1719,
+      "sha256": "8c48c62f4b8668a5a0e8f1d907fe9bcac51c67c770c46894e88ee423914dd804"
+    },
+    {
+      "path": "attempt1_archive\\stop_verification.json",
+      "bytes": 22426,
+      "sha256": "626c0e760adf98b7a76bcdad4948c5b863d79e2d8f3b21461af48b24c9dcb3aa"
+    },
+    {
+      "path": "attempt1_archive\\timeline_paper_evidence.json",
+      "bytes": 20256,
+      "sha256": "ff7bbf6c7c249c4aa705e2043952190740caeaf4741a1c353cbba1f9eeee83a5"
+    },
+    {
+      "path": "attempt1_archive\\unit_reader_fix.diff",
+      "bytes": 1884,
+      "sha256": "a268418aed1946a7e7b8aed7d5a030afa5bd74d870365420dc8c97588a109534"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial001_bipolar.mat",
+      "bytes": 550739,
+      "sha256": "297cdc94e42b6d20279334275b5be6056b4477e3a255016665130ee6a60032d0"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial001_reference.mat",
+      "bytes": 551219,
+      "sha256": "4da8d9381138c171ea7877d27e941d28af08c5827870371eae7326eadd26a1b9"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial002_bipolar.mat",
+      "bytes": 551375,
+      "sha256": "33a164cf84eecccd9149a6f4079b6a943b357bce47975ab48d77ebe8004e9c0c"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial002_reference.mat",
+      "bytes": 551449,
+      "sha256": "d065e922a7ec67a840043304763eefd6bd8e8e78879d1bdd70429ca3d8e1a8a2"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial003_bipolar.mat",
+      "bytes": 689269,
+      "sha256": "549a08aecbbe64577491b726fa622af459625133bb0d0e9ee9be5784b57c189f"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial003_reference.mat",
+      "bytes": 551398,
+      "sha256": "1c2c53a483e93cadbcf90c08116a150e9500cf8b137904b5b9e28b4db482f064"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial004_bipolar.mat",
+      "bytes": 551885,
+      "sha256": "a11b0e7cd7e1446006517ae4f4459dc9d690c37bbe520543f80d611c8f19783d"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial004_reference.mat",
+      "bytes": 551823,
+      "sha256": "ec805a7731c45f8866b4c86c30bc5199b8fda99cf3f00d61ce47526348023bb9"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial005_bipolar.mat",
+      "bytes": 551713,
+      "sha256": "f480ee0b3e9c15b9bcdd6885b578177702df097662e480f0dd08dd079ecf7f67"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial005_reference.mat",
+      "bytes": 551929,
+      "sha256": "2ec13b3e91f0c81afbffcb982bc3cf290806e88e50a7daa872b0541c2112313c"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial006_bipolar.mat",
+      "bytes": 551164,
+      "sha256": "f9ebf58f46954f5b0e03f16aafea87e299814c2d7b0974eda33bc8b831ca9d03"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial006_reference.mat",
+      "bytes": 553106,
+      "sha256": "cf8a2a744c7908fd70747b45f3bca86b33402e8d9c94f529ba273ecec35b8e35"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial007_bipolar.mat",
+      "bytes": 551800,
+      "sha256": "97ae6e6b69e1862befe357ca877d0562af0440cbcef36b4a826a0e0c41f3bbcf"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial007_reference.mat",
+      "bytes": 552595,
+      "sha256": "a6943e530ccab2c54e204d2d8da8292406df8a51a3c140de028a35de466df617"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial008_bipolar.mat",
+      "bytes": 548546,
+      "sha256": "75770cc3a2911fec30071466f7a3ef1ebbc1a5afa30364fa62a6817a4e01d446"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial009_bipolar.mat",
+      "bytes": 552445,
+      "sha256": "617c366385d947607b06e3151c996bf59417b2d66e32ec3890e67b8e92288e24"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial009_reference.mat",
+      "bytes": 687207,
+      "sha256": "07cced28c8cadde453d75cc3a67ccdf6d86fbe38ddf3ad1306d68c276eb801bb"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial010_bipolar.mat",
+      "bytes": 551826,
+      "sha256": "ad8fb5909fef83e7e5ef4299e976e78daa8e2619982ae57346612a6dc09c04b6"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial010_reference.mat",
+      "bytes": 552346,
+      "sha256": "811b00cdc6c3fa4608f0341ad2d2748d3b8a2d223b885c17cddb5cea88c01c5c"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial011_bipolar.mat",
+      "bytes": 688086,
+      "sha256": "afd5156f1aed76f351c69d514a4705f44a31361b4da434bc091365326ab228ed"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial011_reference.mat",
+      "bytes": 689226,
+      "sha256": "f553b5fbc547ba9854de148ba10929adbc60939c064b11ccd94c3d46b1ef9b9b"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial012_bipolar.mat",
+      "bytes": 550616,
+      "sha256": "c3f72e03b05b9339c5476be7bd7be86afcfaebc0e648adfc2ae59a679a83acc2"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial012_reference.mat",
+      "bytes": 550146,
+      "sha256": "100bc69a34bc77f0f8223102b8cde7f23422f9294c6e07ae8fdbaaed8d614905"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial013_bipolar.mat",
+      "bytes": 551734,
+      "sha256": "9eb9e64e26e8757a478b13d029b8a5241119a362ca9a2451ce3819f849f01705"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial013_reference.mat",
+      "bytes": 552273,
+      "sha256": "fda2792797fcab84571b6705b8be0748dce5b1b8472676b901a6f977f8527084"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial014_bipolar.mat",
+      "bytes": 687410,
+      "sha256": "09edcf2e5fc8a8e6e1252a6aa1af24ef3fad4df5a618e2c6a04f10d344a040d0"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial014_reference.mat",
+      "bytes": 549894,
+      "sha256": "5017199566ee3b90336487f4ec3af35be2a34695fd746239dcec45b589f356e8"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial015_bipolar.mat",
+      "bytes": 551436,
+      "sha256": "51dc861b0f433987648f46d858fb3fa236a7e49b8f388982afd73d4a026b42ce"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial015_reference.mat",
+      "bytes": 551458,
+      "sha256": "6200b71890a2a6fc44280f3cc8b50e8dfbc727980d5c20fbc205693c10a7a004"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial016_bipolar.mat",
+      "bytes": 686835,
+      "sha256": "b5a4db42de9efa6a72503d78a87d4239634db65a513bfceaeb9a0c2bea39cf3e"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial016_reference.mat",
+      "bytes": 553227,
+      "sha256": "26d59d7ac89977ef03b0e594dc41a45307a6fb9dfd9b279fdd2127a87636d1ee"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial017_bipolar.mat",
+      "bytes": 552592,
+      "sha256": "7bb4aa20749f5bd0fff0f889d12a6e869ab3ff49d376f0c97bfc95b6de38154a"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial017_reference.mat",
+      "bytes": 552701,
+      "sha256": "a5e8f75a8f9110f1d57b67eb60ab03df7ef7f57b6043dfa909bda1f8ab15fd93"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial018_bipolar.mat",
+      "bytes": 551729,
+      "sha256": "f9f71e3a71b347e1b63c80637f798eb4cde28f16bcc1290ffec465708511327a"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial018_reference.mat",
+      "bytes": 551856,
+      "sha256": "66bb3d5f32846b0ff8fc338d2b87d13f60bb9beaba92bb81ef99f0ce8f31ae81"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial019_bipolar.mat",
+      "bytes": 688622,
+      "sha256": "dc37da5f07ce8d661c124a2eeaf341b5cca292902f18a8f1e5f1a39e6e6284d3"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial019_reference.mat",
+      "bytes": 688295,
+      "sha256": "5cda59a5ed49c944ccb7f641fb2d6d91bc33336c7e0ac5ed140c43e8d3e70450"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial020_bipolar.mat",
+      "bytes": 552254,
+      "sha256": "07b09f7220f3d8f2d5f3a1eb59478bb0f3f3abf899c0a176ec989e584ad87738"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial020_reference.mat",
+      "bytes": 552073,
+      "sha256": "ab4988a72672d86763b0b7ca10e3bd2b5d294b630a36d84fa3a542253534a53a"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial021_bipolar.mat",
+      "bytes": 552630,
+      "sha256": "a70ff6ef1277fc91da5ef395227aa97643b366c31f7d6e415267b0b9491317e0"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial021_reference.mat",
+      "bytes": 553116,
+      "sha256": "e14222c18b8dd79980b3477a4cc19c0cf5ef451de994398b9d7ea1ca26b57e2c"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial022_bipolar.mat",
+      "bytes": 552940,
+      "sha256": "b26b77973dbf463183bf9d4f2258433f759de00359ee0fcf7640ca49abe2f723"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial022_reference.mat",
+      "bytes": 551246,
+      "sha256": "f733421a654377f5249bde4c8a2490e48cda6d200c0d69cc18ae3118ca6dfc2a"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial023_bipolar.mat",
+      "bytes": 551706,
+      "sha256": "eb2d6fabef18c5d02d72f419b6a992037532b30c486b1a7054e907219760ac6b"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial023_reference.mat",
+      "bytes": 550674,
+      "sha256": "31fc738554b826a73cc677ef7588bea86eaa802abbdff3921d4b69f45fce2272"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial025_bipolar.mat",
+      "bytes": 687443,
+      "sha256": "c9a1595ad99a21e3dd7632074800e939c074d62108259cfd7090b50acc484f03"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial025_reference.mat",
+      "bytes": 551880,
+      "sha256": "1fecae6881af17fc8f3b6aa0929713e380745209df52fcac47824d37e624e537"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial026_bipolar.mat",
+      "bytes": 686598,
+      "sha256": "b99403c7640456b00537f18df55c2071ba375277d0de9955138b267e90b81b89"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial026_reference.mat",
+      "bytes": 687529,
+      "sha256": "5099a1da40418e24f55d22ee5acf35d176ffdf8d44804fdad55dffafaaaeb43e"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial027_bipolar.mat",
+      "bytes": 551173,
+      "sha256": "a34c85471df921903a74d5db077a0a765cedeeb1fd6fb32a2a83fbc8f6bc1445"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial027_reference.mat",
+      "bytes": 552669,
+      "sha256": "e7ddd42c7acfe95b4adc38f76de758df0b05b8ccc690701625e2a9ef66e51df7"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial028_bipolar.mat",
+      "bytes": 688320,
+      "sha256": "78264aeb17302c820d6f9e21e81d2d531c0167008f3494a8719bb04814ab08f1"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial028_reference.mat",
+      "bytes": 687787,
+      "sha256": "fa631fb63e502534bee2f70c8f116cab2096a0f5f0e6aa28cb07dcd49b46336d"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial029_bipolar.mat",
+      "bytes": 550334,
+      "sha256": "f8dd233bbd56be63262fd2a8e5e66d73487ca8e9124e0cb3969377b2a7ae8e3a"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial029_reference.mat",
+      "bytes": 549744,
+      "sha256": "e39d835687bd5609ce4d67d9c709ce977226e564620a7ceec2646a2240e5baac"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial030_bipolar.mat",
+      "bytes": 551227,
+      "sha256": "8c49edd9bb44d12beaea9e34beb6cebb5a120f161b9772fdb507fdb63b11ae48"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial030_reference.mat",
+      "bytes": 551110,
+      "sha256": "a75107658d59c38d2acfc4e6368d90f23c0b96a7714b55205d7669ee0c09755a"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial031_bipolar.mat",
+      "bytes": 687631,
+      "sha256": "a069192513f74cf695d0ddf83186f797f21a9f196c718662b2d58300160bd360"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial031_reference.mat",
+      "bytes": 553428,
+      "sha256": "a65c147fdc29a2494b02c189f3facba5674fb49b11e5c76fe4166de491c9091b"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial032_bipolar.mat",
+      "bytes": 551770,
+      "sha256": "58bdafbbee43b14d2772019763ceb1226abbfeeccc7b82919b1781c763227ca1"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial032_reference.mat",
+      "bytes": 551716,
+      "sha256": "aa70898cfad1d6f962be9a3aa1abd3e116f287defeacab354bad1d7e7d13e074"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial033_bipolar.mat",
+      "bytes": 688083,
+      "sha256": "58e8a2ffe009146f3289be7cd2a8297aa5f4c25e515c0830808ed51341461da5"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial033_reference.mat",
+      "bytes": 551094,
+      "sha256": "e94a7102ac28e9315cabefd7a2a236ac1c4b9479b6b21522a0fbf21a369c22ce"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial034_bipolar.mat",
+      "bytes": 551713,
+      "sha256": "01a650d3be80804352db001fd9a3e68c1afc2f7934c6feb1075e81334cdf171b"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial034_reference.mat",
+      "bytes": 551599,
+      "sha256": "ecaa11ac02fbd9360042bb2b7b6a885f1c814f1c07b7b964ce98dfe2cf969ef8"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial035_bipolar.mat",
+      "bytes": 551782,
+      "sha256": "964fc341267ae218975a223c65f6997eb6269918d344133b9cfb0946ca5d0058"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial035_reference.mat",
+      "bytes": 552903,
+      "sha256": "44958c87d65a996236fea18486353b2e348f29e7818f78cc02720119bd67e04e"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial036_bipolar.mat",
+      "bytes": 551283,
+      "sha256": "24c3e28679980427aa64d08a0204b0c075ed2f16e40deee6aa286e157994c07e"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial036_reference.mat",
+      "bytes": 552197,
+      "sha256": "535b6ecee7e7231f492a7b09896dba15e3d20fb7216f87b6bcf5e2a7084d5aa9"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial037_bipolar.mat",
+      "bytes": 686340,
+      "sha256": "4c5e8512b07f8f65b919fc2874a1b5407f9fff6e9d1dbffa0374469b0eb05930"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial037_reference.mat",
+      "bytes": 688444,
+      "sha256": "808dfda41ec16b58ad1036ab10242b5d21040f92fbfe078b301a93ee5b1f9051"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial038_bipolar.mat",
+      "bytes": 551278,
+      "sha256": "7feb8a0c802075a3dd23f2a2c024e6d41b7d31ed8644679692586b2674eeeda6"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial038_reference.mat",
+      "bytes": 687921,
+      "sha256": "6ff456794d6c03a7f72134461f5c0fa1bab800a9707fc3b3aed1f05035a05cb5"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial039_bipolar.mat",
+      "bytes": 549394,
+      "sha256": "aeb5c2bd8e15a05cbe75379f510758273af916c44d4a807ec65bc3b5fa310b8a"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial039_reference.mat",
+      "bytes": 550750,
+      "sha256": "bad20c254fe0e9c39c6956d686badb20034f3285aea117f443ce8994462ae117"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial040_bipolar.mat",
+      "bytes": 549171,
+      "sha256": "9d1a25fe199dbd888e455e4a0bd8be7b15504f4148c689410272ee91bc667e7d"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial040_reference.mat",
+      "bytes": 552110,
+      "sha256": "d2f3fd7d1557d7a2f78bd6e0c094e738cbb021794c56acfdd2d0bf9612cbedb0"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial041_bipolar.mat",
+      "bytes": 550218,
+      "sha256": "a641a31bed33dc59403bac1eb2d5bc87ff4fcc52b9787cd89d2d791e4460b8ae"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial041_reference.mat",
+      "bytes": 551867,
+      "sha256": "889164899c85119d8db4f055f047d9793e8c4d46334998ca29488a75e623d22e"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial042_bipolar.mat",
+      "bytes": 552520,
+      "sha256": "85bea7dc8b70cf5983251dd71079492fd87aee9d757ef1db1c91ecc4f9bdafb3"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial042_reference.mat",
+      "bytes": 688297,
+      "sha256": "b05e33984c60c33523895a37840b1450fd474591d08de6f1592cc9dc2ae43582"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial043_bipolar.mat",
+      "bytes": 551247,
+      "sha256": "1d1bfd37a03eb6c6a915c83823054eda1da00e65c5a0c35217f31b31d95edef6"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial043_reference.mat",
+      "bytes": 552898,
+      "sha256": "97d5031729cf37447571b7d68dd763cc291d1599f95bc060afa9dd9e1bc2fdac"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial044_bipolar.mat",
+      "bytes": 550715,
+      "sha256": "729d9112609e4425c5ea75a7c120c1d129013961d5aa1223485ae3dac2ee03dc"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial044_reference.mat",
+      "bytes": 688286,
+      "sha256": "9b28e8b5333a8d147e31269f308a544b5ab8e635546ab684523e7b5b8d9b88dd"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial045_bipolar.mat",
+      "bytes": 550587,
+      "sha256": "295cc03422bf528e2fd71abf15e79c48b8d675c5e18e32d75f29f8247688421e"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial045_reference.mat",
+      "bytes": 552221,
+      "sha256": "c4f7025f577035e7c34a048d3e97c5a12f94831c83006cd3f54b5ec2b5c4edf8"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial046_bipolar.mat",
+      "bytes": 688655,
+      "sha256": "0c43046c95c293b596c91c6928e62976c49bf81af6d6e4fe7f6cafbff0b7452d"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial046_reference.mat",
+      "bytes": 552801,
+      "sha256": "e67b25522a5040580cce791e7ac9112973bbbc8c22a14d9a2d07a455b0d17287"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial047_bipolar.mat",
+      "bytes": 547962,
+      "sha256": "f85ccc0c80d817e70c21e6d5cacd733123631df1b319d3921679f3ecee3391d8"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial047_reference.mat",
+      "bytes": 688032,
+      "sha256": "7965a2b34a52a6e0fde0acd73eb06ea82e67ca5068842765f299d9ee7f114e5e"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial049_bipolar.mat",
+      "bytes": 552661,
+      "sha256": "89b15da61763dbf40bb8855d68c4558cf15e0294e7986328e66abbd984f18296"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial049_reference.mat",
+      "bytes": 686653,
+      "sha256": "0bd0db391bbfeac7249e1a55bccc7f5bde4ea3083ce3a68e6c3682c72993b691"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial050_bipolar.mat",
+      "bytes": 549743,
+      "sha256": "c5342e8a979e71ad84f73b5c3cf6aa5b03c3517ac08cfbb154f4af8621058cc3"
+    },
+    {
+      "path": "estimates\\sub-01_ses-01_trial050_reference.mat",
+      "bytes": 550916,
+      "sha256": "d0cced02d14421e5dc017259b79fc9d762015712e3d99d3b66f8c0136fa56f3c"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial002_bipolar.mat",
+      "bytes": 687558,
+      "sha256": "ff16d2029c099722d2dc32849a724534abd299055f01da91031e988b6d50c98d"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial002_reference.mat",
+      "bytes": 689506,
+      "sha256": "1e8495de466e2f0c731a25681c67081efdce4592df6d040cb8a67b2bbf3dc0cd"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial003_bipolar.mat",
+      "bytes": 551269,
+      "sha256": "dcb87314111dd899fdb5ab007617b234b5f46e18d8439b80237c4be91281e125"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial003_reference.mat",
+      "bytes": 688138,
+      "sha256": "2be24e4894875e3a63dcb38aa14d3ee397dea36695ca0efd8a5af419e73827eb"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial004_bipolar.mat",
+      "bytes": 552005,
+      "sha256": "d6d07095278dfc2b86064af4b1dea53d90673f6e7991e765523153e8553e9c0d"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial004_reference.mat",
+      "bytes": 552362,
+      "sha256": "fb84f1c4c880cfc9aa6912c70d9b4a1b7a8d748d676d533d1bbcbb9e961dff78"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial005_bipolar.mat",
+      "bytes": 687401,
+      "sha256": "bda797b1254ae5ab673dcf94bf75cfe13348a13c3e423588201c9c55efb39b9b"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial005_reference.mat",
+      "bytes": 550950,
+      "sha256": "4fda7bcf382cad74034ccf9b23aa58a4618d2af799affdbe31d4e52ee3c7696a"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial006_bipolar.mat",
+      "bytes": 687436,
+      "sha256": "bab76c6dc3ac3caca87694f4d755da967648162af308f17028009f219512d348"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial006_reference.mat",
+      "bytes": 552523,
+      "sha256": "6db867661d59dc5105a82ebc4cd120316729648262334b561eaaf30ee3d9e5ef"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial007_bipolar.mat",
+      "bytes": 552089,
+      "sha256": "3dbd7045ebbb9ca176a4105e52cfaac917702e2eaa138116b87db3d2cd65b13a"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial007_reference.mat",
+      "bytes": 551746,
+      "sha256": "cde3b1ae8f6ea983e6d295b40e34acb04143b78bfbd021b420c6e4e3d2762fda"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial010_bipolar.mat",
+      "bytes": 551554,
+      "sha256": "080e7c85d56316c092a723ac5eda15e3130f8cdf71fd4ff770ab375bd6288672"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial010_reference.mat",
+      "bytes": 553038,
+      "sha256": "7acfa9230971aaab5af89eaaf5d02cf4295070bbc3b9c67e1214b7104c72e706"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial011_bipolar.mat",
+      "bytes": 551912,
+      "sha256": "e548df097075f99a9345bf40907a55dd76b6435598ee064c864599fb432e3e9d"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial011_reference.mat",
+      "bytes": 553000,
+      "sha256": "b09f250adf2f144066cdab1810d76ecbd5ddf014bfd923c31c85f0df0d03e8ff"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial012_bipolar.mat",
+      "bytes": 551356,
+      "sha256": "c4022bd07af63ba29cb37a8e44f536ea5f5d3fbff413779953a671a2e160bb95"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial012_reference.mat",
+      "bytes": 551720,
+      "sha256": "700ac04d4a17df306684ed567bb10ce66757dcdabe31ab2c9f6e72e0d895047f"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial013_bipolar.mat",
+      "bytes": 552386,
+      "sha256": "b3e21404d8d84882f7334c9f605f908fb73594cc2822efaa38d2773f10797d0e"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial013_reference.mat",
+      "bytes": 552075,
+      "sha256": "6a9b8687ff0037f66a530aa71425f303eac0f0d39d3842b9ba688f45feb21a02"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial014_bipolar.mat",
+      "bytes": 688279,
+      "sha256": "ac1f6d9f4208b35131d7a12ba88b7204e62158db5ce962595bdffc4dcd322c69"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial014_reference.mat",
+      "bytes": 550588,
+      "sha256": "07b634f0ba9fd36348afc37fd61f503f9edb3366007f18daca2c37662138bc72"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial015_bipolar.mat",
+      "bytes": 551893,
+      "sha256": "8d02949081f477368b0abc0f78689ef38e8c35945a4172327af68f44c198f3e8"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial015_reference.mat",
+      "bytes": 688056,
+      "sha256": "cdf116bdfeb3c8881c09209a8ae59b9831a183605beef26053932ff04927d472"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial016_bipolar.mat",
+      "bytes": 551166,
+      "sha256": "227d17a7c7949f11910c055798cceea1098e47fce21b4a15b578a1a48211bd03"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial016_reference.mat",
+      "bytes": 552033,
+      "sha256": "0eac8880a5609bec193da12917221419ee5943f37462b52ee9933f2b4f9df6df"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial017_bipolar.mat",
+      "bytes": 550860,
+      "sha256": "6e175a1a19b8c2f4beb1948e06c013bb3e4203e1f964ea323f1c1f27ffcd5595"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial017_reference.mat",
+      "bytes": 551809,
+      "sha256": "314d2c269cbf219c77f71258f492e17458366d2c9c140f662c83ff2d02ec1ba1"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial018_bipolar.mat",
+      "bytes": 551524,
+      "sha256": "fcfcbb3bb3a6fab9ecd8fddc9f08f1a5fa1517347a87f69a7027ce5597da9fc4"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial018_reference.mat",
+      "bytes": 552536,
+      "sha256": "99552cd2c146e34344ae36c91c83ef66397d8a20b7e9d204a797c38e29e6d8a4"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial019_bipolar.mat",
+      "bytes": 551782,
+      "sha256": "b5017067912fe7bab8826c6e5d3a8546170ffa1dfbe39b13b5451b9709843a5f"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial019_reference.mat",
+      "bytes": 550891,
+      "sha256": "b6b37ddb8a0681fa6f39b3118408f48485e62e6e3eda7cee0be5ec4646dafb14"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial020_bipolar.mat",
+      "bytes": 687042,
+      "sha256": "fa1b2134c4f960e5286708ae0cb59bc53da87b460bd64c553e7628ce50630369"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial020_reference.mat",
+      "bytes": 688951,
+      "sha256": "549943e6874010e1bbbb5e3ee8b6eb2a14e7c3f223efaecc24c8b1ecefc3dff4"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial021_bipolar.mat",
+      "bytes": 687064,
+      "sha256": "4d18c10da45d9c7ebb06a100d2a4b44902a92a0474854901cee8e9dd76b242e0"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial021_reference.mat",
+      "bytes": 687756,
+      "sha256": "7c6b9e709e3d47412a5a4af3166beebd7ae83f772a9187c26e169f2d61ac7de4"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial022_bipolar.mat",
+      "bytes": 551923,
+      "sha256": "9e56ac43e2f1db60e0059014d6284fa956f952273b09febdc48b01c5a5c28ffb"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial022_reference.mat",
+      "bytes": 551163,
+      "sha256": "1afef7cd41dc9438b90ca2bbb083d93420b966049b20dd62fc5c4cf720756712"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial023_bipolar.mat",
+      "bytes": 551830,
+      "sha256": "0139915e0f6c3545080558fcdef2ca5d64e90b26f8f8b6b24bae07ec1d32ae2d"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial023_reference.mat",
+      "bytes": 552557,
+      "sha256": "2ade691b6304df5e43dc2926a18dc9315260743c37f157ac95083206f9f94ab8"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial024_bipolar.mat",
+      "bytes": 551746,
+      "sha256": "d09b06a0c77c8b397c08baaeb402029a4a7c2f79c47a278556f4e1f171b86968"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial024_reference.mat",
+      "bytes": 553539,
+      "sha256": "3533d4f8055d1f066cb4a1b55d46d2a4a88455fd96ba488fc220d0f627feade6"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial025_bipolar.mat",
+      "bytes": 688354,
+      "sha256": "172297b47388f260450e779b90202bf514b0f3e1b5a16f76bf679ac5d8389863"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial025_reference.mat",
+      "bytes": 550987,
+      "sha256": "811e3ba30bf4f30e2619815a10ee4018c0fb2d917418e9d1ba22f8ea5758410d"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial026_bipolar.mat",
+      "bytes": 550617,
+      "sha256": "b54e7b083cc0b970e65e39b06b65c6c582b7f892a26a1d645a759781be19ccff"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial026_reference.mat",
+      "bytes": 687334,
+      "sha256": "d9a98dd4b505425d1d0442b2dbb4b53ac895ac0e1609fc2dc7aa123238335cbb"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial027_bipolar.mat",
+      "bytes": 549688,
+      "sha256": "63a127b77cc851261e15f9d93c15548da2aa133697f1f2af75455fed22702dfa"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial027_reference.mat",
+      "bytes": 551181,
+      "sha256": "33d09280e72bc7e6e392b4b5521ada4ba24e5399caebb4cb9ef86caf2cd75de1"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial028_bipolar.mat",
+      "bytes": 687111,
+      "sha256": "aa087694a16840f91cd8e1a822e4df18697c2140e8d1c8f79290ca377d8c7f5e"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial028_reference.mat",
+      "bytes": 551804,
+      "sha256": "18fed7b8e4f24757ed2e73e37ffe42f73dc0a4ac1a01e7898e20f6375907e2d1"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial029_bipolar.mat",
+      "bytes": 551874,
+      "sha256": "bce5277d83394fd01497fc2d6093674a97ed81f2340ac8b6ce2ffa766ae016ef"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial029_reference.mat",
+      "bytes": 686326,
+      "sha256": "b69042f1d699cb879cb336c2c2e1edbabbb90677b6c98c90a72c644b00f4a304"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial030_bipolar.mat",
+      "bytes": 688174,
+      "sha256": "9d3240e3e505b5c5728482a0f1934538366cf6620eac221e8b3075253a78a6ad"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial030_reference.mat",
+      "bytes": 552512,
+      "sha256": "a842e6786011b388ffcbfcef81bbce37ff57bd452a7d2f3c67405412f1e5c62a"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial031_bipolar.mat",
+      "bytes": 551859,
+      "sha256": "80b0e8e4275f5b7827672f3559e387ce29f674f41dc820e2f557d2820fde545f"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial031_reference.mat",
+      "bytes": 552533,
+      "sha256": "e93a3fc720ba1294d9d2bcf3fc124422975342a6b1b9b4b689457d7708dfefc5"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial032_bipolar.mat",
+      "bytes": 551534,
+      "sha256": "fe8cd8a5e5d2d599f6a70fe189070c9a34d58ecf7ded7c292b60731ad93f1c97"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial032_reference.mat",
+      "bytes": 552785,
+      "sha256": "d41a5343de44a1c35d52e2de91d1442be3dd9c03614f227203aa80fc660cf2c1"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial033_bipolar.mat",
+      "bytes": 551702,
+      "sha256": "e7b8a8e3b1f1e84dd2cac2c6ba4b7df60e2a2ad1fffa7da730268b3aeeb05ae8"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial033_reference.mat",
+      "bytes": 552283,
+      "sha256": "6672dc343c6892cbe82b9be79d8d5dec3960b92bfce22a220dc15ffa07cd5652"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial034_bipolar.mat",
+      "bytes": 552496,
+      "sha256": "a35e5b3e38bbb4e9f387d7ddbbbe8f71a2457d256d56bac5f49becbeca9c0143"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial034_reference.mat",
+      "bytes": 553138,
+      "sha256": "0f4b889ef50b3aba5d3e2749c4b4bb36eed84a05ec25e0acdad9a80efb1be66d"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial035_bipolar.mat",
+      "bytes": 551622,
+      "sha256": "2f986b29dae1ab6855f4715235a554d7f6b3db4a858a7a3d0895a2a41769dc28"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial035_reference.mat",
+      "bytes": 551669,
+      "sha256": "fa93915cc2c0c1962df8544fec41070ad91845afa233b530ea6851426d8fdc7c"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial036_bipolar.mat",
+      "bytes": 687817,
+      "sha256": "4d03a79c7cabf54ecf1735bad2e8c8f4f701ab01d4d7d7f2902c389b7330a6cc"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial036_reference.mat",
+      "bytes": 687358,
+      "sha256": "af56d4a7f9f5331b5c48faeb557f2e2029bac87c41311218d85d54c54ae046f3"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial037_bipolar.mat",
+      "bytes": 686957,
+      "sha256": "62319c12bc664d685420e7f18f66a1d027146570a8585241588d3b3836d345da"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial037_reference.mat",
+      "bytes": 688401,
+      "sha256": "59af62824e42ab01313ffb0978d833b02405b94490c6e4c1258d3d13c1d68fc5"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial038_bipolar.mat",
+      "bytes": 551325,
+      "sha256": "6ec50499359dbfecd2c4576b6f01b97453de7deb93c99a120b70701991be4262"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial038_reference.mat",
+      "bytes": 552555,
+      "sha256": "4494e8ba1d1f6c33777e2c6f39a3fb328b243805b8fad4f4470ba07efa1e50a0"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial039_bipolar.mat",
+      "bytes": 551427,
+      "sha256": "427c9861cbb75bb4e6654f3defb97d882c558845887361b8b533a91e3ef79e6b"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial039_reference.mat",
+      "bytes": 552037,
+      "sha256": "a497bdf9e8191bb017af6113d407fa3f357c241248ff25b4059dabccebdf9a8d"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial040_bipolar.mat",
+      "bytes": 689280,
+      "sha256": "c92a38345a740934cbbb58552604ece600087f45033ddbcdf818de56ab96edfe"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial040_reference.mat",
+      "bytes": 552123,
+      "sha256": "e2e472f03f44393f56342a4bfd8a9ce75118f4a92840ce934ea7f9d47c9cdd3c"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial041_bipolar.mat",
+      "bytes": 552735,
+      "sha256": "274397e463be5defe67faa9dcd98c3a30b2ea5a278947f4507b3301d334bfef7"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial041_reference.mat",
+      "bytes": 552344,
+      "sha256": "78f3539f761150354f9f485654174dedcd17beea3b85dff318040fc25dc50b75"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial042_bipolar.mat",
+      "bytes": 687386,
+      "sha256": "241a122f972b0b4557968fbd372571f381318a4bd3454b7dda5301ef094fbef5"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial042_reference.mat",
+      "bytes": 551889,
+      "sha256": "3b35583a2b17a0a5059c07dcbc7c87d8c4f89c8bae3c638ee310bf92653ecc4a"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial043_bipolar.mat",
+      "bytes": 551036,
+      "sha256": "f7f00f225ac19ae56a70f351b6c8e22d61748803149d47efc552351e0dde9fc5"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial043_reference.mat",
+      "bytes": 552904,
+      "sha256": "d273ab2447a5b78d45f14957bdf10fcf117cead0f3534ccf03aad51884fcf9ed"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial044_bipolar.mat",
+      "bytes": 551324,
+      "sha256": "2db9d7cbeeb41def42b38d77cd5ec50a76305de5d8bcb679439175d024dda958"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial044_reference.mat",
+      "bytes": 551890,
+      "sha256": "1bd499179b1f5651dd4d4a8c4b2613e21b9be79fb6c8779213fbfad2273546e7"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial045_bipolar.mat",
+      "bytes": 688257,
+      "sha256": "98c1c7a772f5f7751205a77305b894c185ddc9a1f887de421552f5ff5f63da5d"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial045_reference.mat",
+      "bytes": 550721,
+      "sha256": "d06d1e2b8b3cf803730b397c8fa3f2d9c1c2bafb75624b2ce12df67a2054e429"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial046_bipolar.mat",
+      "bytes": 552800,
+      "sha256": "e7b27c6703f952bbaab111724187a44820a3a7f608beb29e0448a5e7940a46e4"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial046_reference.mat",
+      "bytes": 549720,
+      "sha256": "ad78dc605b649dece4f6050623bd235939c7587548def188f64ee2284aac37f3"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial047_bipolar.mat",
+      "bytes": 550967,
+      "sha256": "c9c21e265870113330846b30e77a69e55cff1b6ab8d01de7d7080cf2699ce679"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial047_reference.mat",
+      "bytes": 552213,
+      "sha256": "aab9d1dfac1d3b545fd067e1596d5e92296e0d9133eb679e2a68b523aa1e81f2"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial048_bipolar.mat",
+      "bytes": 552105,
+      "sha256": "1d72bd6c68b3fa198f7fca8d02b0be98735200c310f71efec43d383ffa7103e6"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial048_reference.mat",
+      "bytes": 552705,
+      "sha256": "7e9e8ee80811a3ac81a114c45f36cc74a64dcae33c7a5a2caf3c9fd42b69bebb"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial049_bipolar.mat",
+      "bytes": 551232,
+      "sha256": "b5b439c1134c6dc38d8aac1d20a7de18e517420334091ce0bfceb0a064404c30"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial049_reference.mat",
+      "bytes": 551931,
+      "sha256": "818b7c878d1bb6b6d82d4f7cade837d1fc08442a407b4d761595d37b2d3a731a"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial050_bipolar.mat",
+      "bytes": 551049,
+      "sha256": "0b23eb829a2ccbfae0c39664297804d907ae263b100f5289e3b1852b4609895a"
+    },
+    {
+      "path": "estimates\\sub-01_ses-02_trial050_reference.mat",
+      "bytes": 551987,
+      "sha256": "5565df69fca875c94cfa7cfa9c25bdd37d9b6e3fb75b23220d3a6c6512421941"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial003_bipolar.mat",
+      "bytes": 551070,
+      "sha256": "256ed32cfaba351b062af95883d94019dcaeffdfb800b2c225bff043b585fbb8"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial003_reference.mat",
+      "bytes": 552337,
+      "sha256": "b6a850a60da38bbdbb86e61af041ad1949e08f6b4d17ed6f0b8dac58e0b2eb1b"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial006_bipolar.mat",
+      "bytes": 687508,
+      "sha256": "7e958404e263dcc1d3cee810c72ab36896b48b6f037dde66f6fc919cb88a021a"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial006_reference.mat",
+      "bytes": 551728,
+      "sha256": "f55456b3ff1de68d6a0f21095d7807290d08b4a770ac4996069274f67afe4915"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial007_bipolar.mat",
+      "bytes": 687310,
+      "sha256": "a4d476c81217daffc230c5639fb43a0aad859574b76f274f38bac7cfb4c5ea29"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial007_reference.mat",
+      "bytes": 553147,
+      "sha256": "e552a14599105772a00d72abff7df35b05b23486f821db00bcd45de06ce523af"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial011_bipolar.mat",
+      "bytes": 551134,
+      "sha256": "689010c9b7f70b584d9fde64b6e2f48fd29ad72fe5901de2c9839acaf7d7f207"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial011_reference.mat",
+      "bytes": 689247,
+      "sha256": "4787bdc9e2a277cb354251696262476cea180a5eb9c35fd551fa6c5c21859845"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial012_bipolar.mat",
+      "bytes": 687813,
+      "sha256": "26074cd3c89309e58c5650c5dfe5640c2f7992dca1becc789884d3b15944fc4c"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial012_reference.mat",
+      "bytes": 552075,
+      "sha256": "be046a3b50b78284cc528e6009f89981864eb39b66da8a39b2ab6f0dfa863d99"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial013_bipolar.mat",
+      "bytes": 687993,
+      "sha256": "b534ce13a3287883e04198645cd65c6b391da3d20a13af74566e74c75b24c464"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial013_reference.mat",
+      "bytes": 688701,
+      "sha256": "afdbfc5d87c5e92db9d71300d14e9e050d12c09706daccde26ecd24d28ea0874"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial014_bipolar.mat",
+      "bytes": 552342,
+      "sha256": "e45cca98db41ddf9cb3228642777f836f0cf3d9e30e00830e322d5e1a8743173"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial014_reference.mat",
+      "bytes": 552825,
+      "sha256": "575c6362f6be9d5c81c1f861d621b4febcc3e7d97c2ad23eedc8a8e74b0c1124"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial015_bipolar.mat",
+      "bytes": 550876,
+      "sha256": "9ea28882060381d869ebab436607632c0e8372a670874704838de8738adf6fd9"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial015_reference.mat",
+      "bytes": 552151,
+      "sha256": "02d0bbf314733c3939b7aac20fafd54b9cd223fa5df43256f312b021a4d67df4"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial018_bipolar.mat",
+      "bytes": 688172,
+      "sha256": "a66d13d6f495011317f176a030f1d1a7ceb77def8b32dcdf711d57cf328d3da4"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial018_reference.mat",
+      "bytes": 687487,
+      "sha256": "1f320b9adb56d9e770a3665c95cb39ad17782025c6d0ec14a72ef51cc8e272c3"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial019_bipolar.mat",
+      "bytes": 551846,
+      "sha256": "44bd6312fa7afb58f18b5b8a76bf9c83cdaa178f5e32132917606b6c55f55ea8"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial019_reference.mat",
+      "bytes": 553301,
+      "sha256": "6e3bda369954505e86829f6bcd97d94839e31711fd399d95742522951f4a910f"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial020_bipolar.mat",
+      "bytes": 551999,
+      "sha256": "825e87b8e8ffb8cc022f0e487c8045f9eb47d511fbc8903d39676f8b6254472d"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial020_reference.mat",
+      "bytes": 689198,
+      "sha256": "941aca631c593355e6c5192a256b70ea2b1d1f96adb1060ee860c9e6351c900b"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial021_bipolar.mat",
+      "bytes": 688918,
+      "sha256": "2aad61dc5c6bbe45fa20a1f8e63852566524178215f4d307fd75694b5244af4f"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial021_reference.mat",
+      "bytes": 551494,
+      "sha256": "89a7ae30a1cf9d853b45995471fa27b8d7793bbaa14a9c58c1d045563d4ced01"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial022_bipolar.mat",
+      "bytes": 551643,
+      "sha256": "1d71d92be474bb807cbf4b767b06df58f06b8b1fb4872c712f4fdc21db9fa547"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial022_reference.mat",
+      "bytes": 552222,
+      "sha256": "9f1956b9e501a87fdec253579c4115be7e8546eb7b9680a1ebeba6fbeaa2b7ad"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial023_bipolar.mat",
+      "bytes": 687492,
+      "sha256": "989e9406015cb632d473c62ca8bd5288cc07e45a2f0ef803a4fc414a5782eee0"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial023_reference.mat",
+      "bytes": 552757,
+      "sha256": "5bdda585b1715025cf250be7f2ed6fbcd5ed6fcdffe1257f47d9b3da99b7a743"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial024_bipolar.mat",
+      "bytes": 687260,
+      "sha256": "6ee18135206ab0fb8174c62366e30e5099440caa29689edfff21b5490c3fd672"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial024_reference.mat",
+      "bytes": 552416,
+      "sha256": "329d9b05d1314a107575c7a8b77bfd6f256e8308f6ed0acca760cfdd5c8721ca"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial025_bipolar.mat",
+      "bytes": 552082,
+      "sha256": "bc0580567a77f07af3def8df0ad15d8ca4f1cf23d335cc3c259eb4f657fae5a5"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial025_reference.mat",
+      "bytes": 686837,
+      "sha256": "079830eb5fb82ab05e4069a74612caa74c204ea5c8838eb724e0c290501f52e8"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial026_bipolar.mat",
+      "bytes": 550964,
+      "sha256": "85727ebe850f970c6e5cd5b5363b0a8323184550302e3e33dc041f7908acb27d"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial026_reference.mat",
+      "bytes": 552296,
+      "sha256": "9259904d90bdf4e0897dfc459c61462f2f7aa733ecac5b7bcd477cef72f5efa5"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial027_bipolar.mat",
+      "bytes": 550778,
+      "sha256": "046aacb05fd78e98ebb5eaa26ac1755e168273bb34c0bbfa6f0cb56a6f9ffd4f"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial027_reference.mat",
+      "bytes": 553101,
+      "sha256": "2d13d4cc0d7c136ef48c3bcce4481b329d41f10bd1227495e9b8d12a94a4480b"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial028_bipolar.mat",
+      "bytes": 550254,
+      "sha256": "cbdbffe7ba38ee88e1d57f6cd51884242cd80e07fb4a4981ac11c44996382cf0"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial029_bipolar.mat",
+      "bytes": 685830,
+      "sha256": "ce9f19ad3e2cf17148f0b1441cf68abfe4b26a6295a0f2c9b77b8e50b43f25f7"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial029_reference.mat",
+      "bytes": 552823,
+      "sha256": "48654cb2a7a8cbdc8a3f2b74006b247a94887f834edb7256e7e3ae9454c5bf8b"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial030_bipolar.mat",
+      "bytes": 688327,
+      "sha256": "d70087f9e53b6a9d29be6d6e26d5ee1e833dedd9f6d9f9e143f33e0b8658c245"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial030_reference.mat",
+      "bytes": 553202,
+      "sha256": "499c21498df68e8e3dec264a792dbc4a7b9a172895b9e37d637d40e8ddaf3efb"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial031_bipolar.mat",
+      "bytes": 552155,
+      "sha256": "7d4f8f6a20a0b6e89a2df63d5e87f501100da770b02d6ffc74645aa63cede407"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial031_reference.mat",
+      "bytes": 551280,
+      "sha256": "d460e9e35ecc319ae54f9f0b8cb7708fbc71072c14e65a554bd2f6508c5c45e1"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial032_bipolar.mat",
+      "bytes": 550529,
+      "sha256": "c69749558348a9a300229b1e0310d73cf56eb69b76ec0d02f3eb3435c5738264"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial033_bipolar.mat",
+      "bytes": 553034,
+      "sha256": "f1e4337ef0e46263fa1c0071df3c3a426e3bf61afe397f3ff9d6773e2c111d86"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial033_reference.mat",
+      "bytes": 687747,
+      "sha256": "10e3766a7c896e0488db4745f43e37348bd703821843532e04fa86b21228853a"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial034_bipolar.mat",
+      "bytes": 552039,
+      "sha256": "0e3e9e6a3a94f47cc295314452809c696e62eaff6ce89e5c199121df7bd5c694"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial034_reference.mat",
+      "bytes": 553052,
+      "sha256": "c45f5853396448b17248ef8d5544778873ca27e190f6f790717426616c6a22b8"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial035_bipolar.mat",
+      "bytes": 551431,
+      "sha256": "b0648e5745f4641d1f2364c3a97f90606acf603fc829cdd7fe8fc08ba059a18a"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial035_reference.mat",
+      "bytes": 551929,
+      "sha256": "de8d5b52a6931d2cf32b47d018e7b4e709d7501bf55cc04cb7fe029fd290aeb1"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial036_bipolar.mat",
+      "bytes": 686647,
+      "sha256": "13368e3c377f68836b469113128a25a10b91671e8ecaca1f77420d981d813fd8"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial036_reference.mat",
+      "bytes": 689062,
+      "sha256": "4221ead13db0ec3703262c0da1a3fce0e5bef9ab5f6ce56ceb8ffd019f27399a"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial037_bipolar.mat",
+      "bytes": 687136,
+      "sha256": "4fdcc27d8b5fb5338508a78a4fbcaba6a2e3c48cd9fbf0cdd903c1659443d019"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial037_reference.mat",
+      "bytes": 553184,
+      "sha256": "fe786370ea14cfd28444c9fded077baeaf780934ec69851100a1dbd5dadd9838"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial038_bipolar.mat",
+      "bytes": 687058,
+      "sha256": "997424ad23f2777cb855e540cb886e580dcfbefd38164ab68a84b3e5972b1481"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial038_reference.mat",
+      "bytes": 688424,
+      "sha256": "1b351116058ba50bef4e4405300490e7870e8fcec109ee2d88fc7c2046801285"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial039_bipolar.mat",
+      "bytes": 551902,
+      "sha256": "728ee0f1848b347ce318c082b6ac034f126d8ef4f5655a60c3d4219ff5585142"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial039_reference.mat",
+      "bytes": 552921,
+      "sha256": "625306a87454efef30c1b65ff5ac53edffdf0532d25f4daa0f21c5dd0d046a46"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial040_bipolar.mat",
+      "bytes": 551939,
+      "sha256": "8f066b18e7a1c0c34425faeabe181d25d6baaba033fd3a44ab1ffe1dae7e547c"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial040_reference.mat",
+      "bytes": 552816,
+      "sha256": "4069368f705b157f63dc84a29b048055907d10f304c1da92399b430ac2ebd32e"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial041_bipolar.mat",
+      "bytes": 551495,
+      "sha256": "1e079969b41f8b553ad2d94cc5f48f533848a955f34e9011e452e636921b140b"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial041_reference.mat",
+      "bytes": 553120,
+      "sha256": "f5922f85d0e898b19331ad1b8eed99fad4cd5b68f09c634cc6f4707024360590"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial043_bipolar.mat",
+      "bytes": 551983,
+      "sha256": "63625c3f18d3fa2024a82945a233e1e9fd887bcaa7c7f73a9e8ca0a5988ec530"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial043_reference.mat",
+      "bytes": 551587,
+      "sha256": "d81011539375874ed28a74adb0877ac607b2f73177f7c83ac21764032f58148d"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial044_bipolar.mat",
+      "bytes": 550547,
+      "sha256": "096cf164f6a52f297eefe56d47e616c69154658931f252aee4e22d4657ea1971"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial044_reference.mat",
+      "bytes": 551865,
+      "sha256": "dd8422b18ada48d55effb5ec143a05fe3490182a8b7866551e7e535629f8dad2"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial045_bipolar.mat",
+      "bytes": 552824,
+      "sha256": "86a393a0be1921c15a54a5abf7836248466cce1b3a24cab813ceb91604fd7b2b"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial045_reference.mat",
+      "bytes": 552970,
+      "sha256": "51fb04a2c149ce76f01f47b09c03d43a885238a5043735252913203126676265"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial046_bipolar.mat",
+      "bytes": 552320,
+      "sha256": "3addde7999ba3a53f5ab0501283cc134efa709c09ea2312d722aa0b7afe8a3d2"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial046_reference.mat",
+      "bytes": 552994,
+      "sha256": "3af121e57c7d584059331ae3e99ccc575c24b2a79c5761816934d837f73be77d"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial047_bipolar.mat",
+      "bytes": 550989,
+      "sha256": "bf14d8344137ab7a78600d495caabf7a771fe9cb465463c99fecb395459429a6"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial047_reference.mat",
+      "bytes": 552889,
+      "sha256": "a7729ba22fec1309c3e2c561ac1f085c8a8756b08dbd0e603dda294bb003f01b"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial048_bipolar.mat",
+      "bytes": 551865,
+      "sha256": "7d6730dc2bf7cd4a066c68b1dbe84c5b3382dc9c37a8ee88f6e32a5fd4745be2"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial048_reference.mat",
+      "bytes": 551709,
+      "sha256": "4f67d2ad024330a44e8c1d07a4f9ae91b22caa86dfc87d2fc877febca2268fa1"
+    },
+    {
+      "path": "estimates\\sub-01_ses-03_trial049_bipolar.mat",
+      "bytes": 552514,
+      "sha256": "f4b77f3fdbf07b83bfa2b8645f9f4b92d70f8837f44f70ca92f83d1bd85e49a1"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial002_bipolar.mat",
+      "bytes": 688530,
+      "sha256": "cc0f7f8258d0099fa7912bd606231b657cdd459fba646985654ef1d90585ff2c"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial002_reference.mat",
+      "bytes": 552414,
+      "sha256": "ea38ca875216edb85b8429def7eb695a4a4771a6b4bb6ba3bce6f62128c547ca"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial003_bipolar.mat",
+      "bytes": 685921,
+      "sha256": "05032800fc814c849bfd7da19042e693a537badc5e26ba002a9cb15debad9617"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial003_reference.mat",
+      "bytes": 688861,
+      "sha256": "a66d157d2ea6620d2fed234c84a397cc4fb5740f91388d7b58b50a8f3c3913ca"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial004_bipolar.mat",
+      "bytes": 551534,
+      "sha256": "81ebe65be4768992788666e0217c49d7d6a252e1eb39be0d5d9439048584bf60"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial004_reference.mat",
+      "bytes": 688423,
+      "sha256": "cb3be17b687557bbedf4b36a41769375ea842ca1cdfe2be81536d65f78535da1"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial005_bipolar.mat",
+      "bytes": 686983,
+      "sha256": "687907862f575975d965336df9dd823bd69aeb594103980fec486499e8a0c462"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial005_reference.mat",
+      "bytes": 552126,
+      "sha256": "c2c1bbdd2e4026a4998d058d168ae15e186d401b18686956e602e14b5ce47c52"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial006_bipolar.mat",
+      "bytes": 551708,
+      "sha256": "d0dc0663eea1772d7c16c2ea706c04e69c1f6e79d46461d2209d3d91ca809fa6"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial006_reference.mat",
+      "bytes": 552158,
+      "sha256": "40689e7646d826e3ca50319f9b7250f4a70482691485ccab641a52dc05a004e3"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial007_bipolar.mat",
+      "bytes": 551787,
+      "sha256": "485d23afac2429b1b417c8944652f5f0be0b3286682fa713510be19ef003d0dd"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial007_reference.mat",
+      "bytes": 553501,
+      "sha256": "197b2bf3d1bfec90b0594586d3cf041ac15f7f7daeade23dd66168b99526d220"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial008_bipolar.mat",
+      "bytes": 687432,
+      "sha256": "ed5ad4ffe7c7cd79525d6b1af417a6c6f5c999e0377bc944419838a164774917"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial008_reference.mat",
+      "bytes": 553274,
+      "sha256": "8c5b6eff5935985ac721cf3d340a18778e1ee8cf6961d3c5c14fd81306dce232"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial009_bipolar.mat",
+      "bytes": 551245,
+      "sha256": "47e3dc49d263e2f8311df3a52ac1157b0ae6ce89b4e777d909b92abf59c45a44"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial009_reference.mat",
+      "bytes": 688232,
+      "sha256": "9c03043be0d1569d3011ca5b19a89edce2ea725339d5c4a97c3485a21b625ed0"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial010_bipolar.mat",
+      "bytes": 686802,
+      "sha256": "9ae47f21ab41d2a9b57b814038a3a63a2eea83d416a34b51a4625dfd036317e6"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial010_reference.mat",
+      "bytes": 687581,
+      "sha256": "acee83e948c8216d4c884c65fdb1645fa86b5cb3ef3941d6f2831fde43187f83"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial011_bipolar.mat",
+      "bytes": 686984,
+      "sha256": "17b7d8449468171cb1a4e143e3de7c35cea6621705f025623531cefff5ef3526"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial011_reference.mat",
+      "bytes": 553132,
+      "sha256": "ae1a5a9d47a3465520ad7f40a01b3ecd85dcdb0103a4919ace4eebcc98e2490c"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial012_bipolar.mat",
+      "bytes": 552298,
+      "sha256": "e24694e820d32ca32667023dd0b532f192ba2aa62c106445fa5f735b142063ea"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial012_reference.mat",
+      "bytes": 552885,
+      "sha256": "5c812fb4737b7f424683a0c9e55ea95e4e9444ec05cb5d1151c2ed3f9ffe9e28"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial013_bipolar.mat",
+      "bytes": 551278,
+      "sha256": "27fbd7de4a0cbde1695254ad3993c026093cb0b2d57e67963034c6ef3b0a1ffc"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial013_reference.mat",
+      "bytes": 688276,
+      "sha256": "15d6b05eb65bdeb2dff3f3541e1d8636358c528aea7a4f4f3ced44a2d3fbfa43"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial015_bipolar.mat",
+      "bytes": 552026,
+      "sha256": "dbe9ba0f40fba233eb00c1f4e330ec2d41bf4b990cb62ff37a2b84d4fb1a29e7"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial015_reference.mat",
+      "bytes": 688008,
+      "sha256": "449abc57d50a98d48bf44b755a5a17738d33c1312bd99788fc50d26c98d6b9f9"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial016_bipolar.mat",
+      "bytes": 687161,
+      "sha256": "906e40c2213fbed25183e1d3462ce7c4fedf5efabd7146944708ba8caec0c098"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial016_reference.mat",
+      "bytes": 552491,
+      "sha256": "7d0b6e29529613c21f48d7901478eb092d09f92a46c93e8ee10a43ec16a10a1e"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial017_bipolar.mat",
+      "bytes": 552336,
+      "sha256": "2e12c57df1bfc00b35bd829a6a349a895d29c4302a2398eea5f886a010abe6e6"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial017_reference.mat",
+      "bytes": 553388,
+      "sha256": "4676965bbdd879a7cfd0e9fb9a47c247b5147db7aefee54d3d10968ec1620244"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial019_bipolar.mat",
+      "bytes": 551184,
+      "sha256": "cd777e656f25d0640a059a86f0d8146a0f1075042b34919ee2d286e2e2398aa5"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial020_bipolar.mat",
+      "bytes": 553270,
+      "sha256": "222c28959981c5eef2ac1e144163a2af43940ed9d1abdc4a3b22ffac14c5ed89"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial020_reference.mat",
+      "bytes": 687797,
+      "sha256": "87a78dcb0eb29513e27bbf8d726bcb80b2a0860decdbfcea31fd27e576bdf036"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial022_bipolar.mat",
+      "bytes": 551392,
+      "sha256": "648830228b88053f9c6a961eba06968da7516518cf3d1b6ada90bd7b316725ce"
+    },
+    {
+      "path": "estimates\\sub-01_ses-04_trial022_reference.mat",
+      "bytes": 688971,
+      "sha256": "257053a5bfecac04b4e333798e2ed92cf583d31b32f82f0017ef1e8fad938ed6"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial001_bipolar.mat",
+      "bytes": 551971,
+      "sha256": "bd47c82933d5e4d16be5af1707f2e0d552d67aa46ff7ee0095e52750515a4ee8"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial001_reference.mat",
+      "bytes": 552517,
+      "sha256": "999cab0ef21887f285b2c8cee1ee3832825e1a4caeb94723085ce18f32b549d1"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial002_bipolar.mat",
+      "bytes": 552596,
+      "sha256": "4307338b8e1ba3d074886070a178157fd6c0e7de69a80fc8203f1302136b5d47"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial002_reference.mat",
+      "bytes": 552343,
+      "sha256": "834a97cf09622ef5be604865259bd4c0218b6d05564a1f07a43ed710fadfc4ff"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial003_bipolar.mat",
+      "bytes": 551024,
+      "sha256": "7e4a50104ffb5b0d8ca07633ca7efd4161045efeface4664d674a08d5d845316"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial003_reference.mat",
+      "bytes": 552136,
+      "sha256": "be0462bdbca4a81d5cd461ba69bd3fab7ac5f80d0157bbe4d85290fc8b5b2e9f"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial004_bipolar.mat",
+      "bytes": 551624,
+      "sha256": "0a571981ebf9784248f17e5633a162db7505a51d432a7cb3a18a0676f51b401a"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial004_reference.mat",
+      "bytes": 552512,
+      "sha256": "df631b445e5de43d6059f599800782474f79211fbdf2585bdd07415d95e3f81d"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial005_bipolar.mat",
+      "bytes": 552382,
+      "sha256": "6517b18d5a3de4b152da1e5693c12f04c7b23acb53ca32c31fd5cb432c5b7ae6"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial005_reference.mat",
+      "bytes": 689288,
+      "sha256": "26dc59f1008e55ee8521b99cb7e6a9ab985b3a30377f3eb1def1c60002b29e9f"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial006_bipolar.mat",
+      "bytes": 552178,
+      "sha256": "41f675eb9ac366854d1d500863ec793fb05073d13cfcba396058eb262f33970a"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial006_reference.mat",
+      "bytes": 553440,
+      "sha256": "da5d69e608290a966f78b70d06f1432d67496af525d78b5db37a2d23270be878"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial007_bipolar.mat",
+      "bytes": 549089,
+      "sha256": "158d86bea518235d50666e8266128a474d8c9e5537f944180f4e7bf2575857c7"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial008_bipolar.mat",
+      "bytes": 551753,
+      "sha256": "51f664a3868719e3519864c366b6696d3ff2a3c5d74b4263b61dc4c2d5252644"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial008_reference.mat",
+      "bytes": 553234,
+      "sha256": "e7eeb1e742dc4bce65dbb609214728b9b4bc438e44c5b39cc0f369521546a7b8"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial009_bipolar.mat",
+      "bytes": 552210,
+      "sha256": "c0ad023cf7a3c882d0a6119d9c20da4b9e7c592c24ccf43f6da44ea4efa162f7"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial009_reference.mat",
+      "bytes": 552984,
+      "sha256": "c77ec6814ef36fbe29b12fce061e2d68639f0ea188d3ef1ec96946c9192ad2c5"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial010_bipolar.mat",
+      "bytes": 550634,
+      "sha256": "5db0598a324a791e3daca7bd14597b055644652f0add757f6bb01fc74bf1c0ff"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial010_reference.mat",
+      "bytes": 554014,
+      "sha256": "d28ad6235f888a814232699b36ab73e0349a564c6f58283e27517f8deecdf908"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial011_bipolar.mat",
+      "bytes": 551131,
+      "sha256": "abd3de3364eab6ecd94fb6f56b2d25f440c432ee7f72fc5b2d312a1fa2cc2ff1"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial011_reference.mat",
+      "bytes": 553552,
+      "sha256": "6c87a4684f24e05f5cc1f39129bcac994d7eb1e415c3bcf5f36f54c1242b7abb"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial012_bipolar.mat",
+      "bytes": 551222,
+      "sha256": "95b3f24dc87e9a0c1b87d21366c59d7633dd1e0d01bce4d75e99b9cd2dc20369"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial012_reference.mat",
+      "bytes": 553426,
+      "sha256": "663d8af4915092cbae69609ea9301b9eb4f09117c751894e65037fa3c915dfcf"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial013_bipolar.mat",
+      "bytes": 551903,
+      "sha256": "d7171448e696282bd4a8834b5630d8eabe6deccae17a793657be94e37f38974d"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial013_reference.mat",
+      "bytes": 552606,
+      "sha256": "40ef77706798168323a9dbcc8b4e1cee1b27a2b2327d8e5eaaaa4f9ab60dbf07"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial014_bipolar.mat",
+      "bytes": 550839,
+      "sha256": "e03c7c192064dccc97330c6c3d3aa99b7254aa06303b623bc433e947baa6b152"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial014_reference.mat",
+      "bytes": 552010,
+      "sha256": "9fd6d4a8d407773b9f0c509cea20455d404bde63c3e3754d923b73bbb69399a2"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial015_bipolar.mat",
+      "bytes": 688008,
+      "sha256": "d00a0233244c97155c2dc8552124edc51cb17a0345ae2fa1d4a3564b790f9553"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial015_reference.mat",
+      "bytes": 553643,
+      "sha256": "3d5eefb3099e1ea30a5a279c326e2e1d8b704261945e0cdbbbc3d9197dbeaf0a"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial016_bipolar.mat",
+      "bytes": 552135,
+      "sha256": "15b26fe5129ef796058b0d77503f573a7d49f46ea7b0e4620f79dc0e58dd95c6"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial016_reference.mat",
+      "bytes": 553050,
+      "sha256": "faaba1a5f190163c0f5fec94de4900ca4e7530d4f5260bd9007515d18cd22270"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial017_bipolar.mat",
+      "bytes": 552396,
+      "sha256": "92b54a90e8b1c464f3c0925ffbdd055c1ae8f12e3c493e3990a3638f23a3cbea"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial017_reference.mat",
+      "bytes": 553318,
+      "sha256": "6449227c068135615409d3429dbb08d22a61b9f9cdc3e2603d426fb75e2a379e"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial018_bipolar.mat",
+      "bytes": 687513,
+      "sha256": "59cae2f2a80e447c72651a61c3250a5019a076aa8f94b4347432b3f0cb0e3fa8"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial018_reference.mat",
+      "bytes": 553177,
+      "sha256": "3848c021b9904f497d0ba44faff04de328e99c39a79035e8735781455e34c95b"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial019_bipolar.mat",
+      "bytes": 551573,
+      "sha256": "bd37e5d308b478f254cb6242def7e5d76347df567c6e2dcf6f22b7e83e83fbac"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial019_reference.mat",
+      "bytes": 551849,
+      "sha256": "e8b5105f59e4e1728a5e655a97abb13c495c5be2e61223b6e651603063b3d2af"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial020_bipolar.mat",
+      "bytes": 551789,
+      "sha256": "68fcfe2c897eaacf133dc7c1343b297915823586609a03e51aa24355d5c56144"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial021_bipolar.mat",
+      "bytes": 552128,
+      "sha256": "c79c5d44b00eac1ba2d6f7463d3c7ba67e871e49deab9d196491b20e667d7444"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial021_reference.mat",
+      "bytes": 553111,
+      "sha256": "974d5b5a23c557b89538ff33038442967030272586d1b6d72a11762348b809f6"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial022_bipolar.mat",
+      "bytes": 551705,
+      "sha256": "aa41ddb2338b889430388c586dc2893cb8683dc483dd83a62b26f2528bfb2fba"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial022_reference.mat",
+      "bytes": 552764,
+      "sha256": "3a6ee5066a661b51dad9d418316ff3254eb27993d959092a2e273dda5ce7e282"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial023_bipolar.mat",
+      "bytes": 552697,
+      "sha256": "947d8941edcff205c6a1d86bd381eff0e16038a1e49edecfcedded071ea6237c"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial023_reference.mat",
+      "bytes": 551430,
+      "sha256": "c8775f843fe9b578c42f20d3b4125cc9f3e8b4da7cbe0dad84e42b61eb3e325e"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial024_bipolar.mat",
+      "bytes": 550899,
+      "sha256": "f19caa4e17f3f62426a26bd635ea87d20c403b250506bd3304465dddfe865348"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial024_reference.mat",
+      "bytes": 688548,
+      "sha256": "85401357fbfa836fc9ee476dcf45b0b1b355a77f74676214471babc83c9fff59"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial025_bipolar.mat",
+      "bytes": 551655,
+      "sha256": "7f72e35d51999cd11bb00f19c41f54421c6686742b391a731fc8dfff6168e07c"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial025_reference.mat",
+      "bytes": 688486,
+      "sha256": "a38bed5465335c100acf7162ace6d95d98ebf3ccf458ca0bfe2558cb69416373"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial026_bipolar.mat",
+      "bytes": 552408,
+      "sha256": "25e5bcbcb171929dfcba72752cfbafba401c7c96083c1f6f563e15b23c63dcba"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial026_reference.mat",
+      "bytes": 552951,
+      "sha256": "048c88aeca301f6e8ab68716094a8a0a2bbffab6d51200318da75c7bb0a1c237"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial028_bipolar.mat",
+      "bytes": 547542,
+      "sha256": "83dc4005f0d286229b1aa1246f8db8a4c1befb529233d78652ff151571847340"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial029_bipolar.mat",
+      "bytes": 552021,
+      "sha256": "faa259d542a5a334b47034aadac91535d4c2306e972b1cd2c706949dcf0c13c0"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial029_reference.mat",
+      "bytes": 551584,
+      "sha256": "c3d5e2133865d43a20c2216a89caa3060b7934495134e02beff8d2928569dece"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial030_bipolar.mat",
+      "bytes": 551994,
+      "sha256": "10e4e32bdf49aa249a82abc71a64197dd81fcf96bb42dd97b0a16fed75b09dcb"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial030_reference.mat",
+      "bytes": 689592,
+      "sha256": "21d00dc8ed03579d929b9da5138d3f17deffc5c8592844ef1472731a0ea76345"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial031_bipolar.mat",
+      "bytes": 551761,
+      "sha256": "51c19e41ceef9bf5ffe281bf826a7e9d8278a8a98a7c5efd1d9173b04022d6af"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial031_reference.mat",
+      "bytes": 552170,
+      "sha256": "1fdd3c6f885e79dc5025345dfc44b80603f7fea7ec0d8dca98109f105c100a8b"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial032_bipolar.mat",
+      "bytes": 551838,
+      "sha256": "0b39b22e6e5ce802d13a50373b23007534f30840b13fef25d05b1107bf8f69f0"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial032_reference.mat",
+      "bytes": 552261,
+      "sha256": "3aaed74de938a3832b9ffb9797bcceadf58a54fb74170bfd4839ae188b4e6f3d"
+    },
+    {
+      "path": "estimates\\sub-02_ses-01_trial033_bipolar.mat",
+      "bytes": 552593,
+      "sha256": "dc3465388b728254b8a3341b32a80c91629ddc53259e84c9af2c54b12138b1d6"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial001_bipolar.mat",
+      "bytes": 687964,
+      "sha256": "711ddfca642362ca9f0600f3ecf9586abbf3db1103fe761b347d69f85ddc2f84"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial001_reference.mat",
+      "bytes": 552991,
+      "sha256": "7a5182202323afa1d23356be5fe8e3c4d4080d393389ea47df133754e2554e55"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial003_bipolar.mat",
+      "bytes": 552286,
+      "sha256": "989fade777cfa01db45ab9db6aa68c1ff2bd066027912ea7ae11538e6a272296"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial003_reference.mat",
+      "bytes": 552253,
+      "sha256": "db4d00aa59bc46d875978463a7a250d6c8c7c6b161a5cdac3da263cacaef7b23"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial004_bipolar.mat",
+      "bytes": 689624,
+      "sha256": "7d27410e22ec5854f624535f6f3607da7deb0b2780ba899415dfea5166c4545e"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial004_reference.mat",
+      "bytes": 553041,
+      "sha256": "ac1bf533a8d28e11bb0c497784d99f0b9539871fefed61657ad66995311f1ebb"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial005_bipolar.mat",
+      "bytes": 551295,
+      "sha256": "377afd4a364c1aa361639c30e8c9255135cc5227c0088c4363618dac15018b6a"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial005_reference.mat",
+      "bytes": 551697,
+      "sha256": "581f404b3fd59768c9f1f04eecb3cffe6d90a2d05823e3dcc103c8f1ef25b451"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial007_bipolar.mat",
+      "bytes": 551805,
+      "sha256": "fbb1de61872a9f5e8c7f64564a252449f52987968c26edf11a4e359cfd443b30"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial007_reference.mat",
+      "bytes": 553229,
+      "sha256": "928b424a82fe88d3ca21ed3c615503166db9e676749a241853db4441269c0624"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial008_bipolar.mat",
+      "bytes": 551261,
+      "sha256": "c8df244cb00516ca1bcd3dee3f622b3efcc85841ed0fc1f2172547bbed6aa304"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial009_bipolar.mat",
+      "bytes": 688123,
+      "sha256": "51c99fa9d1dea42541a705b15665dea253e6bff58086836d4ede2d61d3d7ec5e"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial009_reference.mat",
+      "bytes": 552655,
+      "sha256": "18e96351ada14263c18c58b093e710b6771d3a21294efbab4516c2079b5babdc"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial010_bipolar.mat",
+      "bytes": 550673,
+      "sha256": "740501a7fae5e6df98004caab93315ddc6853c0e65fe044582be94d1770d9e60"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial010_reference.mat",
+      "bytes": 687793,
+      "sha256": "34d1e8046ee6628edfcc737db84836297a6df4c91fa18de73232f148d0644c8c"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial011_bipolar.mat",
+      "bytes": 550825,
+      "sha256": "93e56ee99868d2fccc2a7b66ae4b7888d6a03a26f0d7d7e9b5dd1b3407dbe71c"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial012_bipolar.mat",
+      "bytes": 687932,
+      "sha256": "0edc7a4c5aff7067431db48713896032a2279cec0cbe6596c00b1ded4a8ca345"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial012_reference.mat",
+      "bytes": 688497,
+      "sha256": "3005afb88a1e8ad7bad32d19ae680cb54f9e8b0a020eaa1672d08d9bebb58823"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial013_bipolar.mat",
+      "bytes": 552778,
+      "sha256": "a634384bf21681774284a49c028b055481e5bc8bb80a676ec322357483b5c336"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial013_reference.mat",
+      "bytes": 553728,
+      "sha256": "b6f9d3e228d3f84415785940a5f3027f57ae82cc9c782160dd848c8aa7a55b5e"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial014_bipolar.mat",
+      "bytes": 550744,
+      "sha256": "1b7ff2e0c98d2455ba89af80c54001a6dc586023033f64b6eb9cf9d60742a11f"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial014_reference.mat",
+      "bytes": 553397,
+      "sha256": "72e73002fabda2d4de2857d22539181abbd2ceee40518e7cd0f6e5129939f4b5"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial015_bipolar.mat",
+      "bytes": 551284,
+      "sha256": "a16184aa92b2c56ac3eece3aef1f4600c6fdf798a358946b72f198c246bf548c"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial015_reference.mat",
+      "bytes": 551913,
+      "sha256": "229fe74cffbe78f500a8ab7da488eef449321634f1f5bb26fda0f8969dfffbee"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial016_bipolar.mat",
+      "bytes": 551154,
+      "sha256": "06dbe4a93e787a1afe4c82c9eab010444cebae95a388fa1928a2945f7b2bafd0"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial016_reference.mat",
+      "bytes": 552243,
+      "sha256": "76e7bc5c1fd6f800d5e723329f89e58ca2e5c19e27bac2db4403243e326bc468"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial017_bipolar.mat",
+      "bytes": 550656,
+      "sha256": "3281b3a14577a573e49d74e689891f39fb479008ae63c59f3d46bc8b5fdfb8b3"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial017_reference.mat",
+      "bytes": 552955,
+      "sha256": "0be32f7a774b0833de3ac747f8314fa72b8d39e64b8831139bd04b7712f34a11"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial018_bipolar.mat",
+      "bytes": 552085,
+      "sha256": "935dde257f95a543318b7ae381b7836f78a8ff091dde7d7ae4c269ef322afe73"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial018_reference.mat",
+      "bytes": 552178,
+      "sha256": "527f7f58a5d64cf6a64a40da7820f88fcec394d15749d5aaa01e8ca73cf16896"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial019_bipolar.mat",
+      "bytes": 551732,
+      "sha256": "6508a963a7af2296cb2ee3c6f42c3e461d52feb67e6b4ee87f9568f0ce2263dc"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial019_reference.mat",
+      "bytes": 553160,
+      "sha256": "a050fe23af9666dfb634abb062453ead9467b920354956634bc9456403e0a3ff"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial020_bipolar.mat",
+      "bytes": 553111,
+      "sha256": "d163aadec1ff69682760ea3df211e6de0caa2769f3c72a818a6f763ef94d090b"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial020_reference.mat",
+      "bytes": 552061,
+      "sha256": "690fb6bce910a1c35372c8287f94b615fae1498cb2a2bb98c9ba5c8a1a617988"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial021_bipolar.mat",
+      "bytes": 551396,
+      "sha256": "64e5c51d9546e36fed46eaeb54ac2352726d49f6090854ab17259bce9f9ec203"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial021_reference.mat",
+      "bytes": 550370,
+      "sha256": "f7be724a05d62308808173425fc270dd9557ff60633491d384e19385b0dba128"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial022_bipolar.mat",
+      "bytes": 552514,
+      "sha256": "9dd8dccc17f3500afabc7ff070d4ea5158a1865cc1e959aeb69a64432083fd82"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial022_reference.mat",
+      "bytes": 552337,
+      "sha256": "71dec61912ea7008fc901438baf8f117fccd0b8c0ebbf60a3a42350b69818af3"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial023_bipolar.mat",
+      "bytes": 687779,
+      "sha256": "2a82e3f0bfc577baf91002f4f43ea7922652da264f949755e714de136a41acfa"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial023_reference.mat",
+      "bytes": 688791,
+      "sha256": "09155d9440671a3870b4eee7022f8ee9ef031e599fad3ba0c5076d93ed1bfe42"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial024_bipolar.mat",
+      "bytes": 552283,
+      "sha256": "fcac6c7e08d9d46d7143704e647e7e6d8b640870b7f38083d17b12e2ea469df5"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial025_bipolar.mat",
+      "bytes": 550272,
+      "sha256": "c158d00975e2b30310b2e9ad7e167d79e36af405726436eda889a651d653fd7f"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial025_reference.mat",
+      "bytes": 552652,
+      "sha256": "eae35fe27d0c61b13b187781bb436a514486d997dcd4051d1d73603a94ac1c77"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial027_bipolar.mat",
+      "bytes": 550149,
+      "sha256": "64651d140b29ecf217a0985c1bdebd7c3170975965df451290c772fdee07d8d9"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial027_reference.mat",
+      "bytes": 552890,
+      "sha256": "db4d374c6cc775ec0d9b4170dc27b1269f831e50ffc9ba7a56b38229984c2353"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial028_bipolar.mat",
+      "bytes": 552479,
+      "sha256": "f5d1533f77438aa6f3507c95eeca88765cb6db7bdff9df61e07ebf155ba3896d"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial028_reference.mat",
+      "bytes": 553746,
+      "sha256": "ba1740b5dabca0679aca76bac9c82bf9bb3ab66f4703c596eb60fd83fc9f4c24"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial029_bipolar.mat",
+      "bytes": 553162,
+      "sha256": "1df5860d5af47041c1e77bbb2181f324f3046c8c0f0941e2b95d9def2634698c"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial029_reference.mat",
+      "bytes": 553318,
+      "sha256": "6fb84103e2c84ae06dd2a60c7c23b33bfafb01013278091792a178dce9d1f633"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial030_bipolar.mat",
+      "bytes": 551260,
+      "sha256": "43929a51fa7153bb56f2f72eaf3907a677917fa1b2cf154c5d7619183c0f9a59"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial030_reference.mat",
+      "bytes": 552987,
+      "sha256": "5b4bca7c06fd25006f118de81103779a3d5cf649972aca85ab79e2388285f925"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial031_bipolar.mat",
+      "bytes": 551749,
+      "sha256": "23d4ef3e1d4823f5293062de4684ea2033935f55f9623efefab606dcfb1386bf"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial031_reference.mat",
+      "bytes": 552245,
+      "sha256": "f0807dcfb9c477c324a7276b8a295d18815a6ab79e73f95b3b6cf0d07d3c614c"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial032_bipolar.mat",
+      "bytes": 552666,
+      "sha256": "70cb57abdeb82e8c97c4b4b97593cae68f2daf783e9504b29f1d4961d2575657"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial032_reference.mat",
+      "bytes": 551606,
+      "sha256": "1c5d70729e6140c21248c0ccce7ecf31a880cb1855edb0eb60e8fa909b6a8461"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial033_bipolar.mat",
+      "bytes": 552756,
+      "sha256": "3f26311e279ca6e6d771b6acd393e43ff7ecf1ec03e71c18d53802065bba133b"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial033_reference.mat",
+      "bytes": 551301,
+      "sha256": "593c3f9106f8049b09a61249378a0a6df66b34d57ca119beefef079555745086"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial034_bipolar.mat",
+      "bytes": 552241,
+      "sha256": "56c42f925f2aac7108a160edd40601defff5fd209ab30479c274f295a7f24073"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial034_reference.mat",
+      "bytes": 552146,
+      "sha256": "678d1be35a49ee4373aef21ddc362a440266e7976b86e7057a8a26cd51aa2cd5"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial035_bipolar.mat",
+      "bytes": 551569,
+      "sha256": "c094577e99b381ddde14d1e7c53b1e3b26c29fe68a4585e2919a2df76f0f5bef"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial035_reference.mat",
+      "bytes": 688446,
+      "sha256": "3c3236b324992dc3b227a09a3674225f6e284ad271bfd3109d3a9c2b46f36855"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial036_bipolar.mat",
+      "bytes": 552281,
+      "sha256": "abfb5b7a1b039ab5bcaa19817a4e509776459bade1c8cba2ce2b721e10540252"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial036_reference.mat",
+      "bytes": 551989,
+      "sha256": "453058bfd97c7d5f7b1cfbbd780de3728177e0dd0303f7537166995422b8edf0"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial037_bipolar.mat",
+      "bytes": 550986,
+      "sha256": "da66d25caef20403b926e712f51cc5ff09cdcd78684d2bb9284de94dbd46c7a0"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial037_reference.mat",
+      "bytes": 686854,
+      "sha256": "d6c5110137260d52b48ceb34924d9de57569586457a7431825e67a0924eff02c"
+    },
+    {
+      "path": "estimates\\sub-02_ses-02_trial038_bipolar.mat",
+      "bytes": 687448,
+      "sha256": "8d792f97863108989fddf94d4f7662c675835632cd1ef2957f391aaaa7b3b211"
+    },
+    {
+      "path": "preprocessing\\sub-01_ses-01.mat",
+      "bytes": 18833363,
+      "sha256": "03b7ba57c7115618fa7316ac0ba100a21c0559c661831947c38ceb16f9b1257e"
+    },
+    {
+      "path": "preprocessing\\sub-01_ses-02.mat",
+      "bytes": 18834749,
+      "sha256": "6808fbf8941112485a2711995abd8edc33f247c5bc6a1e90dfe238bbfa191d76"
+    },
+    {
+      "path": "preprocessing\\sub-01_ses-03.mat",
+      "bytes": 18810916,
+      "sha256": "96418b3def79c299621894d0ee817641d52292eebed0edb42a32eb7da0ff3a16"
+    },
+    {
+      "path": "preprocessing\\sub-01_ses-04.mat",
+      "bytes": 18812366,
+      "sha256": "3c717c4bfadc0737b5a87703acd660a3e34e121198d34bc9e69b38e0b5a23f9f"
+    },
+    {
+      "path": "preprocessing\\sub-02_ses-01.mat",
+      "bytes": 13921680,
+      "sha256": "e05adda573c25bfdcde2d11f9097779acd14f07b934791de63d92799a8625521"
+    },
+    {
+      "path": "preprocessing\\sub-02_ses-02.mat",
+      "bytes": 13362018,
+      "sha256": "23d9ece465d8e875cdddd1353f0f3b176a076daedf9c70e8e29c60ef437ce9ab"
+    },
+    {
+      "path": "preprocessing\\sub-02_ses-03.mat",
+      "bytes": 14200122,
+      "sha256": "f3838d6e06dfee5e88a03f6c82fb8b68599e781d12fb71265fd96f1979d0dbc5"
+    },
+    {
+      "path": "preprocessing\\sub-02_ses-04.mat",
+      "bytes": 13646653,
+      "sha256": "cb8e50be174b25c0d12a105f7be07c24985efceab1de483be45ba7352752dc20"
+    },
+    {
+      "path": "preprocessing\\sub-02_ses-05.mat",
+      "bytes": 13090267,
+      "sha256": "8f543a32d12656f7e542e185876f7152a165b238a3a2ce18b8a17b570dded7bf"
+    },
+    {
+      "path": "preprocessing\\sub-02_ses-06.mat",
+      "bytes": 14201161,
+      "sha256": "e107d9b6caf8c3bcb5ccfb24ab8ff8bfb8af648181d09c7568d7f7b86c76e4fe"
+    },
+    {
+      "path": "preprocessing\\sub-02_ses-07.mat",
+      "bytes": 13923579,
+      "sha256": "d2546bd128711a55fd00613844282119c09dc8b8986076099eb52d5e9e0281ff"
+    },
+    {
+      "path": "preprocessing\\sub-03_ses-01.mat",
+      "bytes": 35116087,
+      "sha256": "532a6edfbfc7a84a4cedddd39a0f401bab31a6737be5c18aedeb2ffc5afc1395"
+    },
+    {
+      "path": "preprocessing\\sub-03_ses-02.mat",
+      "bytes": 37353486,
+      "sha256": "d43d50203495647f2ef4a4905fbf0659a32a97fce2d4085c6134858fa15ec0ba"
+    },
+    {
+      "path": "preprocessing\\sub-03_ses-03.mat",
+      "bytes": 37343219,
+      "sha256": "f5c8a9e6d22562cc7f2552acd6aff7a53b2327816571b3f6dc9dbf20f13645d5"
+    },
+    {
+      "path": "preprocessing\\sub-04_ses-01.mat",
+      "bytes": 32028547,
+      "sha256": "2ecaf330da0f7b2b3ae094dbba7e9fd9d0dee996cb828c4761cf8d794e83f3a9"
+    },
+    {
+      "path": "preprocessing\\sub-04_ses-02.mat",
+      "bytes": 32674423,
+      "sha256": "2b881679e332b1856e62fce57f0fd750ee24bd0cffb2f42d84b211de03257083"
+    },
+    {
+      "path": "preprocessing\\sub-05_ses-01.mat",
+      "bytes": 28080972,
+      "sha256": "d7ad84c2f84c0e3658debd1299e3b3b9baa585a618d781af9573efaa2774b87b"
+    },
+    {
+      "path": "preprocessing\\sub-05_ses-02.mat",
+      "bytes": 28070283,
+      "sha256": "50ef4d8b2c016eb8bc3d80b141b5161e35870ce045143a3b5e43d80f11278564"
+    },
+    {
+      "path": "preprocessing\\sub-05_ses-03.mat",
+      "bytes": 28079480,
+      "sha256": "96a5eeacfbc8e3eed7b615c8045b9a17842d4331a6397abc53d90733ab44e5ba"
+    },
+    {
+      "path": "preprocessing\\sub-06_ses-01.mat",
+      "bytes": 60470185,
+      "sha256": "b7f356136ed82609990749016f0cd90d94f875f63e420181d1be148cab8732b4"
+    },
+    {
+      "path": "preprocessing\\sub-06_ses-02.mat",
+      "bytes": 60463351,
+      "sha256": "56b59341a66baa49dc4817b42fbc17ef219a695c90a2452f648e5c930c78773b"
+    },
+    {
+      "path": "preprocessing\\sub-06_ses-03.mat",
+      "bytes": 59261138,
+      "sha256": "016ca07c7df83da8a924a9846229926ca6255e121a2eb37b240a5ad236dfbe80"
+    },
+    {
+      "path": "preprocessing\\sub-06_ses-04.mat",
+      "bytes": 60483679,
+      "sha256": "2188c84de0502f92d7a8aeedf8820528d8bebfd5f157df6b61e7d4f0ec784e2d"
+    },
+    {
+      "path": "preprocessing\\sub-06_ses-05.mat",
+      "bytes": 60484295,
+      "sha256": "289a947da5b76c46692226933640fd44d17df4ccf8aa1af89942bc539875d619"
+    },
+    {
+      "path": "preprocessing\\sub-06_ses-06.mat",
+      "bytes": 60487446,
+      "sha256": "57cf21ffe3cc38266737fd4fd298fcb2dab56e0e09038ca5624d9f857e214a77"
+    },
+    {
+      "path": "preprocessing\\sub-06_ses-07.mat",
+      "bytes": 60488367,
+      "sha256": "eae7bcbc2f18882a4dbfbb2dd1dd9237dee8ed7ad86c4db4e02bc9f9848e9ac4"
+    },
+    {
+      "path": "preprocessing\\sub-07_ses-01.mat",
+      "bytes": 59361408,
+      "sha256": "bb7e37b332d800a7817092e542d5e49797c3ff10ec30e6589ba88c2f27d7a6f9"
+    },
+    {
+      "path": "preprocessing\\sub-07_ses-02.mat",
+      "bytes": 58128085,
+      "sha256": "9d188546bd207d506c6a171e19994d3fe8f61b9e4c4f98cbe7da82b5ebd0c832"
+    },
+    {
+      "path": "preprocessing\\sub-07_ses-03.mat",
+      "bytes": 60538333,
+      "sha256": "ab74bc8482156a39652256bfe978704ec834e34ce917c8a5de603d51b337ba19"
+    },
+    {
+      "path": "preprocessing\\sub-07_ses-04.mat",
+      "bytes": 60542383,
+      "sha256": "3fe7bf21ad6d6d0ad007fc49b95873a3d3cdcfdfed7f765c11703de3133b9247"
+    },
+    {
+      "path": "preprocessing\\sub-08_ses-01.mat",
+      "bytes": 28191830,
+      "sha256": "5aea498bd343128c0bd13d4e12096b6edb375a2fac46d15200ea6acd476c0281"
+    },
+    {
+      "path": "preprocessing\\sub-08_ses-02.mat",
+      "bytes": 28189067,
+      "sha256": "570c529dd041da1327d04b7f98db3204672a008d14d6357dee16db7adc6c64d6"
+    },
+    {
+      "path": "preprocessing\\sub-08_ses-03.mat",
+      "bytes": 28192298,
+      "sha256": "97b012b53cb99e1dcce63b097f7ea522df73af78abee531409ad11d0e22b295d"
+    },
+    {
+      "path": "preprocessing\\sub-08_ses-04.mat",
+      "bytes": 28187945,
+      "sha256": "6ab3c35cac01d0bc900ee4d962f06dded678cc4fc43ab1f27a7110bbaca197cc"
+    },
+    {
+      "path": "preprocessing\\sub-09_ses-01.mat",
+      "bytes": 58071517,
+      "sha256": "39ef0ed9202e19b7de80d0d4e4bc0b49df635ecd1b2c3dfb0e6d336acc7af3b1"
+    },
+    {
+      "path": "preprocessing\\sub-09_ses-02.mat",
+      "bytes": 59287443,
+      "sha256": "c915978997c87d9817bff943697c885749e5d451d398962ebf07dd4c6dfb23ca"
+    },
+    {
+      "path": "preprocessing\\sub-10_ses-01.mat",
+      "bytes": 16056728,
+      "sha256": "5eafd9bd0220c65ba3a782e2650274a8fde5f45a750fcce3defd4395e9f396ee"
+    },
+    {
+      "path": "preprocessing\\sub-10_ses-02.mat",
+      "bytes": 20216380,
+      "sha256": "6125b75b81c5d17e86b890b3992b1721132dd0b98f9c1c1cb35b2a37db55fe50"
+    },
+    {
+      "path": "preprocessing\\sub-11_ses-01.mat",
+      "bytes": 4921756,
+      "sha256": "4176bb3e883306c7bcb64b4a2bc5fd2e3ed3099c993634ac968c56ab02393f55"
+    },
+    {
+      "path": "preprocessing\\sub-11_ses-02.mat",
+      "bytes": 4923051,
+      "sha256": "d2da277d65b1d427b10643c41c95aa1000c453fc443c536a44de261d0193f9ae"
+    },
+    {
+      "path": "preprocessing\\sub-11_ses-03.mat",
+      "bytes": 4922747,
+      "sha256": "98de890795844214fa6619391a05806c16a3b25cb054f13cf21d942060de3758"
+    },
+    {
+      "path": "preprocessing\\sub-11_ses-04.mat",
+      "bytes": 4923012,
+      "sha256": "4dff99e664c4b84d6f48f7a0606584462a21fefc896de535eab046a063bb1b46"
+    },
+    {
+      "path": "preprocessing\\sub-11_ses-05.mat",
+      "bytes": 4927816,
+      "sha256": "8ab09686f44b375314bce31baadc214fb04cd8ed0acd032ee4b9c6de8482d9af"
+    },
+    {
+      "path": "preprocessing\\sub-11_ses-06.mat",
+      "bytes": 4928676,
+      "sha256": "3c9c63baab9ee49a8a3ebf71f290367a2376c3b0d7a3fde11081cd94d09d863b"
+    },
+    {
+      "path": "preprocessing\\sub-12_ses-01.mat",
+      "bytes": 18787585,
+      "sha256": "5ada7472155e0911804b323e8757920e2f5ec4339d07cea109423bda3d762463"
+    },
+    {
+      "path": "preprocessing\\sub-12_ses-02.mat",
+      "bytes": 18783265,
+      "sha256": "46fe7422cf8cfea61cff7e37944582bd3c9634308c1352a3e79a92b4b4ecf3be"
+    },
+    {
+      "path": "preprocessing\\sub-12_ses-03.mat",
+      "bytes": 18786799,
+      "sha256": "f323bedd0549a9502eccfb0b2fd6e324e83dc50e484a8ed8b87be3836d5791d7"
+    },
+    {
+      "path": "preprocessing\\sub-12_ses-04.mat",
+      "bytes": 18791399,
+      "sha256": "3e6250d02c96eedb0be747e7e1114eb76109590a15bbe4b7aae1103a73e1673d"
+    },
+    {
+      "path": "preprocessing\\sub-12_ses-05.mat",
+      "bytes": 18790431,
+      "sha256": "459568e94ca1f909fe4eb5eb2484b1de46c9102276bdfc67b0070f10d05cad76"
+    },
+    {
+      "path": "preprocessing\\sub-12_ses-06.mat",
+      "bytes": 18792265,
+      "sha256": "2ef670de2f76519d47a48aa123ffb37cace494d290b944dca40920ea69170607"
+    },
+    {
+      "path": "preprocessing\\sub-14_ses-01.mat",
+      "bytes": 51196341,
+      "sha256": "7f7a5ab2c1852b47a3be95ca2c0db0d682a7c80580ffe42495df5f9ea223440b"
+    },
+    {
+      "path": "preprocessing\\sub-14_ses-02.mat",
+      "bytes": 51187756,
+      "sha256": "34bcba6aae5a2c75f94b5b76517144c14d0ae128bde01bce950bcbf2bedfaace"
+    },
+    {
+      "path": "preprocessing\\sub-14_ses-03.mat",
+      "bytes": 51203999,
+      "sha256": "21d90891ce214428dec5d01824d1298418d56c4b6558b4b2de658e8bf4434351"
+    },
+    {
+      "path": "preprocessing\\sub-14_ses-04.mat",
+      "bytes": 51217385,
+      "sha256": "2134c0f99c0458cc83c03a3f27ee81e8e1d4a7adac4b51f8a2fa92b41fe899cd"
+    },
+    {
+      "path": "preprocessing\\sub-14_ses-05.mat",
+      "bytes": 49169244,
+      "sha256": "fdd279795c2938753fed5e88a274ee6c3ce7586894a7dd9316c8e5a989062b59"
+    },
+    {
+      "path": "preprocessing\\sub-14_ses-06.mat",
+      "bytes": 51204620,
+      "sha256": "b38a922a079f56aa0c4309a38d1fccc8b08aeee6aa40e374c3cf64ec0d0cb143"
+    },
+    {
+      "path": "preprocessing\\sub-14_ses-07.mat",
+      "bytes": 51206232,
+      "sha256": "597dfb99f4b16be65e0e0f6ee05aeb2a00e0e054b9bda30912c38c4b2d2fca43"
+    },
+    {
+      "path": "preprocessing\\sub-14_ses-08.mat",
+      "bytes": 51207851,
+      "sha256": "683854e357f56c0c8732892fd2232bc5a37dab3bf449143394b36671e5a2db45"
+    },
+    {
+      "path": "preprocessing\\sub-15_ses-01.mat",
+      "bytes": 23485637,
+      "sha256": "18312708230bf9f686affddf00b1cd844ad7eb00076135173e899044305449f3"
+    },
+    {
+      "path": "preprocessing\\sub-15_ses-02.mat",
+      "bytes": 23538896,
+      "sha256": "e589bd42de847896876247689b64dac4f41df04fa72334419e44f2ba3d6802e8"
+    },
+    {
+      "path": "preprocessing\\sub-15_ses-03.mat",
+      "bytes": 23561830,
+      "sha256": "55cd6396a19f968082f012fc87362e39fbce6a4b5570b10df53d6d1a45cae70c"
+    },
+    {
+      "path": "preprocessing\\sub-15_ses-04.mat",
+      "bytes": 23564749,
+      "sha256": "ff5ed0a7b46f99ffd47bbb90edd061f5c4362a7b618c75b89e8711196e39760d"
+    },
+    {
+      "path": "edf_header_copies\\sub-06\\ses-04\\ieeg\\sub-06_ses-04_task-verbalWM_run-01_ieeg.edf",
+      "bytes": 102416640,
+      "sha256": "f1746a188dd5f723a63349118385c69f6a0614412d183450dd0444d0cad92779"
+    },
+    {
+      "path": "edf_header_copies\\sub-14\\ses-06\\eeg\\sub-14_ses-06_task-verbalWM_run-01_eeg.edf",
+      "bytes": 67205632,
+      "sha256": "de5aa26a5bd4112f9c1407287687a2e4500c2cf5b5192316dcc6cb27cf237d62"
+    }
+  ]
+}

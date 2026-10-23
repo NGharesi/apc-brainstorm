@@ -1,0 +1,36 @@
+{
+  "deviations": [
+    {
+      "type": "resolved tooling path lookup",
+      "reason": "An initial read guessed a sidecar without the run-01 entity. File discovery established the actual BIDS names; no signal, setting or outcome was changed."
+    },
+    {
+      "type": "resolved EDF unit metadata reader defect",
+      "reason": "All 48 EDF physical-dimension fields in the first file are blank; the BIDS channels.tsv declares microvolts. The first reader incorrectly required an EDF unit label as well as numeric range checks. The corrected reader accepts the BIDS declaration when the EDF field is blank and still rejects conflicting nonblank units. No signal scaling, thresholds, methods or protocol text changed.",
+      "identified_without_method_outcomes": true,
+      "rerun": "Reading gates only, once after this correction",
+      "diff": "unit_reader_fix.diff",
+      "archived_initial_outputs": [
+        "edf_channel_checks_initial_unit_reader.csv",
+        "edf_file_checks_initial_unit_reader.csv",
+        "reading_gate_initial_unit_reader_failure.json",
+        "reading_gates_initial_unit_reader.log"
+      ]
+    },
+    {
+      "type": "pre-existing MATLAB startup path warnings",
+      "reason": "MATLAB startup lists nonexistent historical Brainstorm directories. Explicit source-path assertions passed. No startup or installation changes were made."
+    },
+    {
+      "type": "resolved EDF wall-clock header syntax",
+      "reason": "MATLAB rejects seconds=60. Two local analysis-folder copies carry the minute (10.28.60 to 10.29.00; 14.23.60 to 14.24.00). Only header bytes 176:184 changed; all bytes from offset 256 onward are SHA-256 identical. Originals remain untouched. Analysis uses events.tsv sample indices, not EDF wall-clock times.",
+      "identified_without_method_outcomes": true,
+      "manifest": "edf_header_copies.json",
+      "rerun": "EDF/scalp gates once after this header compatibility fix"
+    },
+    {
+      "type": "resolved JSON provenance serialization",
+      "reason": "MATLAB jsondecode sanitizes object keys containing full paths. Full path/hash records are additionally stored as an array; values and source files are unchanged."
+    }
+  ]
+}

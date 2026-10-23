@@ -1,0 +1,18 @@
+--- before_peak_structure_fix
++++ ieeg_amendment2_timeline_gate.m
+@@ -27,12 +27,12 @@
+  end
+  time=(0:1599)'/200;grand=total/count;sem=sqrt(max(0,(squares-total.^2/count)/(count-1))/count);
+  T=table(time,grand,sem,repmat(count,1600,1),repmat(string(jsonencode(meta)),1600,1),'VariableNames',{'time_s','grand_average_uv','trial_sem_uv','trial_count','provenance_json'});writetable(T,fullfile(out,'timeline_grand_average.csv'));
+- peaks=struct([]);
++ peaks={};
+  for onset=[1,6]
+   keep=find(time>=onset+.05&time<=onset+.25);baseline=mean(grand(time>=onset-.2&time<onset));[~,j]=max(abs(grand(keep)-baseline));idx=keep(j);
+-  peaks(end+1)=struct('expected_onset_s',onset,'peak_time_s',time(idx),'latency_ms',round(1000*(time(idx)-onset)/5)*5,'peak_uv',grand(idx),'preonset_mean_uv',baseline,'absolute_peak_difference_uv',abs(grand(idx)-baseline)); %#ok<AGROW>
++  peaks{end+1}=struct('expected_onset_s',onset,'peak_time_s',time(idx),'latency_ms',round(1000*(time(idx)-onset)/5)*5,'peak_uv',grand(idx),'preonset_mean_uv',baseline,'absolute_peak_difference_uv',abs(grand(idx)-baseline)); %#ok<AGROW>
+  end
+- writejson(fullfile(out,'timeline_gate_measurements.json'),struct('status','REQUIRES_VISUAL_AND_PAPER_CONFIRMATION','trials',count,'files',numel(files),'latency_resolution_ms',5,'peaks',peaks,'elapsed_seconds',toc(clockStart),'processing','Each scalp trial resampled to 200 Hz by Amendment 2; no additional filter; fixation-mean subtraction per trial/channel; O1/O2/Oz averaged per trial; equal trial weights','peak_rule','largest absolute deviation from preceding 200-ms mean within 50-250 ms after each prespecified onset','provenance',meta));
++ writejson(fullfile(out,'timeline_gate_measurements.json'),struct('status','REQUIRES_VISUAL_AND_PAPER_CONFIRMATION','trials',count,'files',numel(files),'latency_resolution_ms',5,'peaks',vertcat(peaks{:}),'elapsed_seconds',toc(clockStart),'processing','Each scalp trial resampled to 200 Hz by Amendment 2; no additional filter; fixation-mean subtraction per trial/channel; O1/O2/Oz averaged per trial; equal trial weights','peak_rule','largest absolute deviation from preceding 200-ms mean within 50-250 ms after each prespecified onset','provenance',meta));
+  fprintf('SCALP TIMELINE READY trials%d\n',count);
+ catch err
+  writejson(fullfile(out,'timeline_gate_failure.json'),struct('status','FAILED_STOP','identifier',err.identifier,'message',err.message,'elapsed_seconds',toc(clockStart),'provenance',meta));rethrow(err);

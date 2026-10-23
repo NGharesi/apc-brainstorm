@@ -1,0 +1,22 @@
+"""Verify unchanged preprocessing on the shared 3-6-s samples, without estimators."""
+from pathlib import Path
+import json,sys
+O=Path(__file__).resolve().parent;sys.path.insert(0,str(O.parent.parent/'pydeps'))
+import pandas as pd
+import numpy as np
+import h5py
+m=json.loads((O/'analysis_provenance.json').read_text(encoding='utf-8'))
+C=pd.read_csv(O/'am4_contacts.csv',encoding='utf-8').set_index('patient');rows=[]
+for p in sorted((O/'preprocessing_amendment4').glob('*.mat')):
+    patient,session=p.stem.split('_');k=int(C.loc[patient,'candidate_index'])-1
+    with h5py.File(p,'r') as new,h5py.File(O/'preprocessing'/p.name,'r') as old:
+        for signal in ['bipolar','reference']:
+            x=new[signal][:,6000:12000];source=old[signal]
+            if source.ndim==2:
+                assert k==0
+                y=source[:,:]
+            else:y=source[k,:,:]
+            diff=float(np.max(np.abs(x-y)));assert diff==0,(p,signal,diff)
+            rows.append(dict(patient=patient,session=session,signal=signal,trials=x.shape[0],shared_samples_per_trial=6000,max_absolute_difference_uv=diff,exact_equal=True,git_head=m['git_head'],protocol_sha256=m['protocol_sha256'],seed=20261023,provenance_file='analysis_provenance.json'))
+pd.DataFrame(rows).to_csv(O/'am4_shared_preprocessing_verification.csv',index=False,encoding='utf-8')
+print(json.dumps(dict(sessions=len(rows)//2,signals=len(rows),shared_samples_exact_equal=True,method_calls=0)))

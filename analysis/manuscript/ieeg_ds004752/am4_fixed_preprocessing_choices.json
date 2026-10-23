@@ -1,0 +1,17 @@
+{
+  "git_head": "f87ce24a8a7c5719023549d783db13da584d1423",
+  "protocol_sha256": "95b741822ac085bb96a01f1a5396674b83ecfaa827c199708e95490ad9f70ad3",
+  "seed": 20261023,
+  "choices": {
+    "robust_pool": "Selected analysed signal, all 0-6-s samples from dataset-unflagged trials, before evoked subtraction; first differences within trials only",
+    "robust_thresholds": "Same amplitude median/MAD and absolute first-difference threshold as Amendment 3",
+    "primary_mask": "Amendment-3 selected-pair retained mask AND selected bipolar 0-6-s robust mask",
+    "sensitivity_b_mask": "Amendment-3 selected-pair retained mask AND deeper-contact 0-6-s robust mask",
+    "sensitivity_a_mask": "Dataset artifact flags only: the unchanged sensitivity (a) omits robust amplitude/first-difference rejection at both stages",
+    "templates": "Separate included-trial mean waveform per analysis/patient/session/signal, computed after its own mask; no post-subtraction rejection; session/patient eligibility after masking",
+    "notch": "Full native trial cut and MATLAB resample, full 8-s mean removal, same fourth-order digital SOS notches at 50/100/150 +/-1 Hz, then samples 1:12000",
+    "welch": "Symmetric hann(2000), overlap1000, nfft2000, fs2000, equal-trial mean PSD after evoked subtraction",
+    "spectral_peak": "Largest residual over 1-12 Hz above ordinary log10(power)-on-log10(frequency) linear fit",
+    "progress_check": "sub-01 ses-01 all planned analysed signals first; counts logged, not a gate; automatic continuation without tuning"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "status": "STOPPED_METHOD_RELEVANT",
+  "reason": "Protocol 6.4: most completed Amendment-4 APC inputs invalid",
+  "stopped_utc": "2026-10-23T14:29:32.781469+00:00",
+  "provenance": {
+    "git_head": "f87ce24a8a7c5719023549d783db13da584d1423",
+    "protocol_sha256": "95b741822ac085bb96a01f1a5396674b83ecfaa827c199708e95490ad9f70ad3",
+    "seed": 20261023,
+    "provenance_file": "analysis_provenance.json"
+  },
+  "completed_inputs": 372,
+  "method_rows": 1860,
+  "completed_APC_status_counts": {
+    "0": 85,
+    "4": 287
+  },
+  "failure_fraction": 0.771505376344086,
+  "n_patients": 2,
+  "n_sessions": 6,
+  "planned_analysis_counts": {
+    "artifact_only": {
+      "patients": 14,
+      "sessions": 62,
+      "trials": 2890,
+      "method_rows": 14450
+    },
+    "primary": {
+      "patients": 12,
+      "sessions": 42,
+      "trials": 1532,
+      "method_rows": 7660
+    },
+    "referential": {
+      "patients": 8,
+      "sessions": 29,
+      "trials": 894,
+      "method_rows": 4470
+    }
+  },
+  "sub01_ses01_progress_check": "COMPLETED; counts logged; automatic full-run continuation performed unchanged",
+  "first_stop_snapshot": "am4_failure_first_snapshot.json",
+  "endpoints_computed": false,
+  "nulls_computed": false,
+  "exploratory_models_computed": false,
+  "method_settings_changed_after_start": false,
+  "results_committed": false
+}

@@ -1,0 +1,15 @@
+patient,deeper_contact,adjacent_contact,candidate_index,native_fs_hz
+sub-01,mPHL1,mPHL2,3.0,2000
+sub-02,mPHL1,mPHL2,2.0,2000
+sub-03,mPHL2,mPHL3,8.0,2000
+sub-04,mAHL2,mAHL3,2.0,2000
+sub-05,mAL1,mAL2,3.0,2000
+sub-06,mPHR2,mPHR3,13.0,2000
+sub-07,mAHR2,mAHR3,5.0,2000
+sub-08,mAR1,mAR2,3.0,2000
+sub-09,mAL2,mAL3,7.0,2000
+sub-10,_GL_H1,_GL_H2,3.0,2000
+sub-11,mPHL1,mPHL2,1.0,4000
+sub-12,mAHL1,mAHL2,1.0,4000
+sub-14,mAHL2,mAHL3,2.0,4000
+sub-15,AHR3,AHR4,4.0,4096
