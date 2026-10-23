@@ -13,7 +13,7 @@ scripts refer to the original analysis computer.
 
 | Folder | Content | Manuscript |
 | --- | --- | --- |
-| `repro_diagnosis/` | Reconstruction of the code versions behind earlier draft results | Version history |
+| `repro_diagnosis/` | Reconstruction of the code versions behind earlier draft results | Methods (Development and held-out evaluation) |
 | `v1_rerun/` | Freeze of v1.0 and development-suite rerun (main, random fP, nulls) | Supplementary Figure S1 |
 | `v1_followup/` | Fixed-width comparators, status-4 diagnosis, slow-rhythm scenario (development) | Methods; Supplement |
 | `v2/` | v2 protocol, candidate history, unit gates and held-out evaluation | Supplementary Note S1, Figure S2 |
