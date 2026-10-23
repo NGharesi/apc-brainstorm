@@ -133,3 +133,20 @@ If any of A1, A3 or A4 fails, v3.0 is not recommended, Phase C is not run, and t
 - figures as 300-dpi PNG and SVG, with no titles or footers inside the image:
   - HA recovery by cell for v1.0, v3.0, SP-raw and the best scan;
   - ECoG rest fP against spectral peak for v1.0 and v3.0, if Phase C runs.
+
+## Amendment 1 (2026-10-23): residual for peak detection, raw spectrum for peak location
+
+**Reason.** Gate G1 failed. On the canonical burst-coupled input, v3 returned fP = 8.690 Hz (fA 121 Hz). The BTA log-power maximum lies at 7.996 Hz and the residual maximum at 8.698 Hz (revision_checks/v3_aperiodic/G1_curve.csv). The BTA spectrum of the 1.2-s epoch has a broad peak. Subtracting a sloped aperiodic fit tilts it and moves its maximum upward; here the "aperiodic" slope is fitted mostly to the peak's skirt, because the canonical signal has a white-noise background. The residual is suited to deciding which peak is real, but not to locating it. G2 and G3 were not run, and no held-out signal exists. This amendment is made on development signals only. The failed attempt is kept and reported.
+
+**Change to section 2, Step 2 (items 4-5).** Candidate detection is unchanged (strict interior local maxima of r with r >= 2 x sigma). The selected candidate i is the one with the largest r. Its location is then found as follows:
+1. **Peak region:** the contiguous admissible bins around i with r > 0.
+2. **Hill climb:** starting at i, move one bin at a time toward the neighbour with higher log10 P, staying inside the region, until a strict local maximum of log10 P is reached.
+   - If one is reached, fP = that bin, refined by three-point parabolic interpolation of log10 P (exactly the v1.0 refinement rule).
+   - If the climb reaches the region boundary without a strict local maximum (the peak is only a shoulder on the aperiodic slope), fP = bin i, refined by parabolic interpolation of r.
+3. Record which branch was used (`"raw_local_max"` or `"residual_shoulder"`) in the diagnostics.
+
+SP-raw uses the same amended rule on the raw-signal spectrum. Everything else is unchanged: f_lo = max(minPhaseHz, 7/T), the two-pass fit, sigma, the 2 x sigma threshold, status 3, gates G0-G3 with their pass criteria, Phases B-C and criteria A1-A4.
+
+**Procedure.**
+- Gates G0-G3 are rerun from the start with the amended rule.
+- `src/bst_apc.m` must keep its original line endings, so that `git diff v1.0 -- src/bst_apc.m` shows only the v3 additions and the version switch without whitespace-ignoring options.
