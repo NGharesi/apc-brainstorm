@@ -135,3 +135,12 @@ Folder `C:\Users\nghare\.brainstorm\process\revision_checks\ieeg_ds004752\`:
 - Files at 2000 Hz are not resampled. All later steps are unchanged and operate on 2000-Hz trials.
 - Record the native rate per file in the outputs and report the number of patients and sessions at each native rate.
 - Sensitivity (c): repeat the primary endpoint without the patients recorded at a native rate other than 2000 Hz.
+
+## Amendment 2 (2026-10-23): scalp-EEG rates for the timeline check
+
+**Reason.** Codex asked how to handle the scalp-EEG files, which Amendment 1 did not cover correctly. From the metadata, scalp EEG is at 200 Hz in 36 files (sub-01 to sub-09), 2000 Hz in 2 files (sub-10), 4000 Hz in 20 files and 4096 Hz in 10 files. Scalp EEG is used only for the trial-timeline check (section 3.2) and never enters contact selection, APC, the scans or any endpoint. Written before any signal-derived quantity was computed.
+
+**Change.** Amendment 1's resampling of scalp EEG to 2000 Hz (16,000 samples per trial) is replaced by the following:
+- For the timeline check only, every scalp trial is resampled separately to 200 Hz with MATLAB resample(): p/q = 1/10 from 2000 Hz, 1/20 from 4000 Hz, 25/512 from 4096 Hz; 200-Hz trials are unchanged.
+- Assert exactly 1,600 samples per 8-s trial. Evoked-response latencies are reported at 5-ms resolution.
+- Resampling of iEEG to 2000 Hz under Amendment 1 is unchanged.
