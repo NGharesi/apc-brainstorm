@@ -73,3 +73,9 @@ This analysis separates APC into its two estimation stages and tests each agains
   - recovery by pipeline for HA and H1;
   - AUC by pipeline;
   - ECoG rest-fP agreement by pipeline.
+
+## Amendment 1 (2026-10-23): method count
+
+Codex flagged that section 1 lists nine methods but sections 2 and 4 say "eight". The correct number is nine: the six F x A pipelines, the full two-dimensional MVL-Ozkurt scan (A2'), APC v1.0 end-to-end and APC v3.0 end-to-end. All nine are reported as separate methods.
+
+F1 x A_APC and F2 x A_APC should equal APC v1.0 and v3.0 end-to-end by construction (gate in section 3). Their agreement is reported as a consistency check: the number of inputs with identical fP, fA and coupling, and any differences. Nothing else changes.
