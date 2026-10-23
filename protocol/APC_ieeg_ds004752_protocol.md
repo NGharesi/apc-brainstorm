@@ -144,3 +144,14 @@ Folder `C:\Users\nghare\.brainstorm\process\revision_checks\ieeg_ds004752\`:
 - For the timeline check only, every scalp trial is resampled separately to 200 Hz with MATLAB resample(): p/q = 1/10 from 2000 Hz, 1/20 from 4000 Hz, 25/512 from 4096 Hz; 200-Hz trials are unchanged.
 - Assert exactly 1,600 samples per 8-s trial. Evoked-response latencies are reported at 5-ms resolution.
 - Resampling of iEEG to 2000 Hz under Amendment 1 is unchanged.
+
+## Amendment 3 (2026-10-23): order of contact selection and trial rejection
+
+**Reason.** Section 3.3 ranks candidate pairs using "included trials (section 3.5)", but section 3.5 defines the robust rejection on the selected pair. The order is circular. Codex raised this before computing any contact spectrum or PAC output.
+
+**Fixed order.**
+1. Dataset artifact flags (Artifact = 1) are removed first, for all candidates.
+2. For each candidate pair separately: build the notch-filtered bipolar signal and apply the section 3.5 robust 6-SD amplitude and first-difference rules to its maintenance windows, per session. The robust SD for each session is computed on that candidate's own signal. This gives the candidate's own mask of retained trials.
+3. Compute each candidate's 4-8/1-4 Hz power ratio from its own retained trials across all sessions (section 3.3 Welch settings). Select the highest-ratio candidate; ties go to the deeper pair.
+4. The selected candidate's mask is the final trial inclusion for all later steps. Session (>= 20 trials) and patient (>= 2 sessions) eligibility are then applied.
+5. Report the retained-trial counts for every candidate and for the selected pair.
