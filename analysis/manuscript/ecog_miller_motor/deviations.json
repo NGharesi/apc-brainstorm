@@ -1,0 +1,42 @@
+{
+  "deviations": [
+    {
+      "type": "Undocumented state codes",
+      "reason": "Codes 13 in gf and 15 in zt were not analysed; only documented codes 0, 11 and 12 were used."
+    },
+    {
+      "type": "Bad-channel rule",
+      "reason": "The library supplies no bad-channel list; the prespecified recording-level variance rule (>5 or <0.2 times median channel variance) was applied."
+    },
+    {
+      "type": "Patient eligibility",
+      "reason": "jf is ineligible because its 2-s blocks leave less than the required 2 s after trimming 0.5 s per end."
+    },
+    {
+      "type": "Pre-run comparator-copy verification newline assumption",
+      "reason": "The setup verifier initially assumed CRLF, but both originals use LF. It was corrected to detect the actual newline before reversing the permitted profile addition. No comparator or protected source changed and no dataset estimates had been computed. The setup resumed from the already-preserved archive without repeating moves."
+    },
+    {
+      "type": "Progress-check cache",
+      "reason": "The first 10 bp APC results are saved and their four scans computed before seeding the worker-1 CSV. Its unchanged resume mechanism skips these complete keys; no reported bout is estimated twice."
+    },
+    {
+      "type": "Progress-check canonical CSV import",
+      "reason": "MATLAB automatic header detection did not expose the signal column in the canonical CSV. The import now explicitly sets comma delimiter, header line and variable-name reading. The error occurred before the synthetic estimator call and before any bp bout estimate. The failed log/runtime and script are preserved; no estimated bout was rerun.",
+      "error": "Unrecognized table variable name 'signal'",
+      "diff": "progress_csv_import_fix.diff"
+    },
+    {
+      "type": "Figure rendering tooling fixes",
+      "reason": "The initial render completed but its user-home font-cache write was denied. The plotting script now uses a cache under the work folder. Visual QA also showed boundary markers partly clipped by the panel-D axis at 6 Hz; display limits were padded to 5-31 Hz. The scientific grid, estimates, statistics and figure source CSVs are unchanged. Only the figure is rerendered.",
+      "diff": "figure_render_fixes.diff"
+    },
+    {
+      "type": "Mixed-model coefficient export",
+      "reason": "The prespecified fitlme fit completed, but R2022b returned coefficients as a dataset, so writetable failed before the model object was saved. The exporter now saves the fitted model before export and applies dataset2table. The identical model is refitted once with unchanged formula, data and default settings, under protocol 9.2. No APC/scan estimate or bootstrap endpoint is repeated. The failed script/log are preserved.",
+      "error": "writetable: First argument must be a table",
+      "diff": "mixed_export_fix.diff",
+      "model_fit_attempts": 2
+    }
+  ]
+}

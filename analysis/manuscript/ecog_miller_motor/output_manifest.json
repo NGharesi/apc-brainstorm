@@ -1,0 +1,422 @@
+{
+  "git_head": "c642a20b3081e2e36dfa148cc3da0b0747fca11e",
+  "protocol_sha256": "064d6651ccca2ad84954bbdea9cb2587d51bf8d4575ec7889d2fe32d5bd2dba4",
+  "seed": 20261024,
+  "files": [
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\amendment1_copy_verification.json",
+      "bytes": 516,
+      "sha256": "8fe3cc077fbd6e98f7a4f6dd4873d6f9253c7d429407ea83511e3c3de84d8aca"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\amendment1_runtime.json",
+      "bytes": 316,
+      "sha256": "bc29754e4fe883b163b58e1e547c7b61db3b630a15dea9aba4ab1fc38cc2fdd3"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\analysed_rest_spectral_peaks.csv",
+      "bytes": 4042,
+      "sha256": "166da34c35026c580bafd70faaa269fd012af3c62f5559ccf2eaf8a3d7205bfd"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\analysis_provenance.json",
+      "bytes": 23165,
+      "sha256": "1cdf33e30ba816535c3d02d6edcd68a36f9f9a2fe3ec711014f43d1c6db01a1c"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\attempt1_archive_manifest.json",
+      "bytes": 6160,
+      "sha256": "2695e7a437c9ab4a4d87d41b73b3242073dd91187bd0a20829102ab43ccfcc38"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\attempt1_status_summary.csv",
+      "bytes": 365,
+      "sha256": "7bc24a888fd633022a4a0579cbfb3369f30a0a658ed6139fcc40863af0ff661a"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\bad_channels.csv",
+      "bytes": 719,
+      "sha256": "067888db9d6e28ee68614088f2c1f9bc8c5ff3a2da44dd69f04c9044dae5272a"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\bout_burst_counts.csv",
+      "bytes": 354046,
+      "sha256": "8153f9686766fa6fb11e88436f4b4303f82e38ac07025a596cfb69f83fe8d46b"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\bouts.csv",
+      "bytes": 149822,
+      "sha256": "6bd2e8a7fb519596374495be931524312ae2afff55e892686c4043d01b233ea6"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\comparator_filter_guards.csv",
+      "bytes": 12983,
+      "sha256": "da7185e696ce26896fa05cfc8b879784746d8ec673453fbd14dc3a0e00fb13d4"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\deviations.json",
+      "bytes": 2967,
+      "sha256": "f0a803742cf92549ce26e597156db23e6b1ad17077ab75a9e6d9afc7395b44a5"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\ecog_bout_estimates.csv",
+      "bytes": 4306210,
+      "sha256": "49738429537eaeb79a71cc19f6290882e0cf2f16abb6b1321aa0c1e5f33e8544"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\ecog_comparators.m",
+      "bytes": 2310,
+      "sha256": "cf77ead75f634ce3e85909842fd82c6f4fa7f03b01f10e673839eb16026785ea"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\ecog_equivalence_gate.m",
+      "bytes": 2024,
+      "sha256": "0d24ace3196020ffe46c078838eacfccdd0055aa705bda780f58bbad1364bd68"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\ecog_figures.py",
+      "bytes": 3390,
+      "sha256": "e284010ca9f0f7d4591565c44ab20546764a3926a9740b61a8c848fa6168cf75"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\ecog_four_panel.png",
+      "bytes": 369782,
+      "sha256": "0140d34ef693d11e57eb1ea8c88e6bef61ea65d42f70aba3b8591cd1f796b5a3"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\ecog_four_panel.svg",
+      "bytes": 88781,
+      "sha256": "b69ea557145c4c909c6de30fcb961925ae7edbd1592aa4ec6fed4014a5e5bbc2"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\ecog_mixed_model.m",
+      "bytes": 1533,
+      "sha256": "69d018e04f72a86b6ed770e6d5fd46ccd0884e6acabc9b00d203c1428ad82db6"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\ecog_patient_summary.csv",
+      "bytes": 129148,
+      "sha256": "c2b80a9cd89faaa884fbdf9fb0fe384d4f1ed29a1c94c05275b44a61f0099cdf"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\ecog_postprocess.m",
+      "bytes": 3041,
+      "sha256": "fdd1568915359d101f49248b432a1a8305500528a20fa7f0722868e42e7775c9"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\ecog_prepare.m",
+      "bytes": 6874,
+      "sha256": "bf0a2c8e84cb02d546893a70c8f67b19057b189e9d4e3e1b96757355dcb163dc"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\ecog_progress_check.m",
+      "bytes": 3773,
+      "sha256": "28c7794685493049b5b6e5d034abb4aff81d7210e83c884a36c6d1eb0801bd60"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\ecog_report.py",
+      "bytes": 19566,
+      "sha256": "e5226def2b12fddfb631eef72179d1cf459d7a1d6e189d2d8e83efa8b6152474"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\ecog_statistics.csv",
+      "bytes": 31639,
+      "sha256": "30baf6e6a86ae0503f77c66e43020e4adbda91b80e50b368f08ef0bfe69974ce"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\ecog_statistics.py",
+      "bytes": 10647,
+      "sha256": "c85615b2893eaef1282948d4c4ac202a35ac0de1848e8d4a1665f36cef4a5d7c"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\ecog_worker.m",
+      "bytes": 3870,
+      "sha256": "4cc1fbe92e1c3b2977a742a94426c4de76416c57e1bad16c5494a6c76cbfe565"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\ecog_worker_amendment1.diff",
+      "bytes": 835,
+      "sha256": "a18a7bcc532ab620cd8b57f00ab6b13711a84ba873e9473f1c6a8209376706d3"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\electrodes.csv",
+      "bytes": 2672,
+      "sha256": "0014ee99ec3933d9abbf3b11766591f3edfd43684bd6c21fd2ef6a967e3c4fb1"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\embed.html",
+      "bytes": 54466,
+      "sha256": "1557e5ba62ce38271d7efb691c7d2885d8c9fca1c6d5a9b5b4158b9be069ce71"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\equivalence_gate.json",
+      "bytes": 12302,
+      "sha256": "7d0b15ac5aa5dad1692beff0258ad0b0e1af3849dbd84d00ae6175e54b4fecb7"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\equivalence_gate.mat",
+      "bytes": 258280,
+      "sha256": "fd7f57da83c84425f5e66a685c3522441cdf93d1b254a1d31c6893b34ff2c3d7"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\estimates_w1.csv",
+      "bytes": 660386,
+      "sha256": "81a05e2f2f96ab67b8d3cba57b6f767f2fad8542399b920e9bf0a0caff8463ca"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\estimates_w2.csv",
+      "bytes": 519466,
+      "sha256": "4bd9ee0067d5ecb8e9b22ecb4f29d183ffe13fee2b063242ddf83284daf2d2af"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\estimates_w3.csv",
+      "bytes": 434877,
+      "sha256": "e1131261236ceeacc8896c78e106ccd077b5f08e40629eb5373d0c4889d0b5ab"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\estimates_w4.csv",
+      "bytes": 700820,
+      "sha256": "358d6fee9609f9db43da385067ae6d1645fb7f50163bf56fbaa0c859d42f2aea"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\figure_patient_coupling_CIs.csv",
+      "bytes": 3953,
+      "sha256": "6fe7bc3b9543d69a6eda72ddce37578cd208d8266266d50f270c601034360183"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\figure_provenance.json",
+      "bytes": 455,
+      "sha256": "480044a144e96855d91bbb91e769d609cde51da0bedb2ab5eb5e5d6581e6f7b6"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\figure_render_fixes.diff",
+      "bytes": 2286,
+      "sha256": "8350d0882dff9ddd6d2de7748339da051251360e32361cc05eef61f33c79b00d"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\figure_script_before_render_fixes.py.txt",
+      "bytes": 3307,
+      "sha256": "1582e14ab04c964e86c5b0d1d640b595af94837fdc74a8222dde71fa32884ca1"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\filter_guards_progress.csv",
+      "bytes": 4994,
+      "sha256": "4353df62966231353975273e54ab5d119ff04b67fab5529539ef0c82c0895ada"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\filter_guards_w1.csv",
+      "bytes": 4994,
+      "sha256": "4353df62966231353975273e54ab5d119ff04b67fab5529539ef0c82c0895ada"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\filter_guards_w2.csv",
+      "bytes": 4994,
+      "sha256": "4353df62966231353975273e54ab5d119ff04b67fab5529539ef0c82c0895ada"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\filter_guards_w3.csv",
+      "bytes": 4994,
+      "sha256": "4353df62966231353975273e54ab5d119ff04b67fab5529539ef0c82c0895ada"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\filter_guards_w4.csv",
+      "bytes": 4994,
+      "sha256": "4353df62966231353975273e54ab5d119ff04b67fab5529539ef0c82c0895ada"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\final_verification.json",
+      "bytes": 875,
+      "sha256": "ecb139204ff37e91d28925a5ecc72cfe6b72ae2f8d2e4d0aa3ddde1597164e78"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\inventory.csv",
+      "bytes": 2531,
+      "sha256": "c040f1edfbadeac14426e4de1e5b7f7dc57c32c914bafd7abdc85c3238e29239"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\mixed_export_fix.diff",
+      "bytes": 2520,
+      "sha256": "949e2e268e782658af0a1015496938bdfc87a6cb5701f2e5b403f907d9d7f251"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\mixed_export_recovery_verification.json",
+      "bytes": 490,
+      "sha256": "cf01f0cc22089a972d8be33d59ff23aa2a0178d836c52edd164f5580fa68b6cc"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\mixed_model.mat",
+      "bytes": 896571,
+      "sha256": "04fae5f90a072cf0a2d735a2a460d4fd7c41addf5b2759f06b40074216326e86"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\mixed_model_coefficients.csv",
+      "bytes": 572,
+      "sha256": "1fdd7718a6d16a66861dc48dc3cd472e98c1c795ab88bfae5af0fa86233ea916"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\mixed_model_inputs.csv",
+      "bytes": 309029,
+      "sha256": "882be3bd50f677c7f48c8eaa1705dc0b6730808f1f8e9d5b805b6ed988a74f9c"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\mixed_model_runtime.json",
+      "bytes": 360,
+      "sha256": "2cea5376623593e8d427b3a0ac2a995752c76d5044c0aaebae3f9e50e8760c10"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\notch_filter_guards.csv",
+      "bytes": 2727,
+      "sha256": "f8d617a4133e42b6fad374ccefe5e9f63775056640ceacc4e35dcdcd70502f5f"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\patient_differences.csv",
+      "bytes": 180443,
+      "sha256": "91d6edb057f5aeb7a605f37c85c1bd4e0691301039e7c030acb06a5295839fdc"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\patient_eligibility.csv",
+      "bytes": 3030,
+      "sha256": "819c83c9a54c65336598ab1b46f32a3bcb4c7c75d83d8c6d67ebcae3fbb413ee"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\postprocess_runtime.json",
+      "bytes": 295,
+      "sha256": "138c467398f7310d2941145ca49e7bfeb9270bd9744a071870664850dbac3e9a"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\progress_check.json",
+      "bytes": 582,
+      "sha256": "8b9d3746d91a931d0f780e5400c300b483ed9de4ca1e98fa0439bcedc7956f85"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\progress_check.mat",
+      "bytes": 13456,
+      "sha256": "d2054c3dc3610650c39658f947ef82766d4bf001d8a9d6dcfdcbac59a767273c"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\progress_csv_import_fix.diff",
+      "bytes": 1282,
+      "sha256": "e6fcd5c68d57c5b44c0ea6118ab12ab29fb42cdbeaddaa70c722b68636945c29"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\provenance.json",
+      "bytes": 24009,
+      "sha256": "f2d831840b14498c39c4309a3ab2d1bffaa419559b7be13f9b2bf652c548c53f"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\purl.json",
+      "bytes": 24596,
+      "sha256": "ff5e2227325e0f8615dfc7ea386b7785fc8b30e2fb49023d37ee1a924aceb799"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\purl.xml",
+      "bytes": 15625,
+      "sha256": "cb9f2dfd68e1441b3f65f0bf0463efb71afa292b9ada984ca5f77e7c57c94c5d"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\purl_page.html",
+      "bytes": 24791,
+      "sha256": "b548a68eb1661f0fbc401ce5bafbbde178c6ee03ef4b979ebaa66c0fd1c4962d"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\README_motor_basic_dataset_notes_extracted.txt",
+      "bytes": 6339,
+      "sha256": "ce57858c94b4f720f4b13b92a4415445e76566dbbb251db88408b9a67355a690"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\rest_frequency_patient_table.csv",
+      "bytes": 79393,
+      "sha256": "bc99d82059fa66f9c90c54703713657ccbae787f5b68c0de2b754e9017763f5d"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\rest_frequency_statistics.csv",
+      "bytes": 6420,
+      "sha256": "3b68464102e652faa5191e7baa125eaba14edca005de4fca8757becc64dc03ce"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\RESULTS_ecog.md",
+      "bytes": 37381,
+      "sha256": "aee73965811965d12f469c583a19b9cd15e85a4b9acfaed89f9113799f153ebb"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\resume_setup.py",
+      "bytes": 7633,
+      "sha256": "65b8d38a04cd6ac859e76c1f4a40850c1f7f8ff1dfe060d19f431b50b799c499"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\run_amendment1.py",
+      "bytes": 2474,
+      "sha256": "0fde04b28be182345e97319a1ad7ef65e23b7a6ba7af44b591b49d4c3b45a0d4"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\runner.bat",
+      "bytes": 687,
+      "sha256": "a85009ae6670c9045c5505cee60f7e45b8faf4ee1df0d7a237d0543f0a61d42a"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\runner_v2.bat",
+      "bytes": 720,
+      "sha256": "cad3c9853673301df3ed7f0bbf84f35c621364b7fc10718bd2b76ac5681d86ce"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\statistics_analysis_plan.json",
+      "bytes": 1239,
+      "sha256": "7e85a93449e41b483e215faaaccef20fb98f98c5e1a61bff9f9cc962552a3f64"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\statistics_runtime.json",
+      "bytes": 2466,
+      "sha256": "a618b8aedb570ecfd753a5cf49415528b877f289ed03c3fcd34a5419cd994589"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\status_boundary_rates.csv",
+      "bytes": 5532,
+      "sha256": "573763efb842bc9fb730569756f43fb11d387a68b03ef3520326d7f271a0c233"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\status_w1.json",
+      "bytes": 46,
+      "sha256": "1a2cb6a8230002f9efb5a920e7ad1036772d26c00e25fad840ca0fdd20aeea19"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\status_w2.json",
+      "bytes": 46,
+      "sha256": "dc76d82c95cfb527eebfc8af5d6259ed11a55c31752b23a069e8692787944f3f"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\status_w3.json",
+      "bytes": 46,
+      "sha256": "7e1e6a3c1e1b564fcc5a0acd25df9faa037f578d3c3683f59cdcc38c7187a389"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\status_w4.json",
+      "bytes": 46,
+      "sha256": "2d29d9a6b674ed0f352b7f85bf8e419f4214b91b235a37a5d45b095906957f3c"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\step0.log",
+      "bytes": 321,
+      "sha256": "adf6c3bfdd4b020f10c7b0673462df222c4423eb7307dcfe6f9a750d4321c53b"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\step0_push_and_list.bat",
+      "bytes": 621,
+      "sha256": "01e0f239f9f99cee06578a9bad33be9d62da99ebddb7581d68223b5b4442e6a0"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\step1.log",
+      "bytes": 96,
+      "sha256": "0a5aff177541f17178fbe1a204c8f59c52ac3119d64804d05e276a8af38ba784"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\v1_bout_features_ecog.diff",
+      "bytes": 1080,
+      "sha256": "612ce9aad51ed54b072b3163e67e3a12041b084ce51be19b35db7b7cb22984d3"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\v1_bout_features_ecog.m",
+      "bytes": 1588,
+      "sha256": "9147e58a2db6e3d5c55164887964c5704f6cc3a29679a2c095fa3b2938a22827"
+    }
+  ]
+}

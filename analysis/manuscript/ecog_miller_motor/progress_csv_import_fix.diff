@@ -1,0 +1,11 @@
+--- before explicit CSV import
++++ after explicit CSV import
+@@ -5,7 +5,7 @@
+ assert(strcmpi(which('bst_apc'),fullfile(repo,'src','bst_apc.m')));assert(strcmpi(which('v1_bout_features_ecog'),fullfile(R,'v1_bout_features_ecog.m')));
+ m=jsondecode(fileread(fullfile(R,'provenance.json')));start=tic;
+ % Synthetic reconstruction check uses the exact copied asserts; no data setting changes.
+-T=readtable(fullfile(root,'revision_checks','final','burst_coupled_input.csv'),'VariableNamingRule','preserve','Encoding','UTF-8');[canonical,canonicalInfo]=v1_bout_features_ecog(T.signal,T.time_s);assert(canonical.status==0,'ECOG:ReconstructionCheck','Canonical wrapper check invalid');
++T=readtable(fullfile(root,'revision_checks','final','burst_coupled_input.csv'),'Delimiter',',','ReadVariableNames',true,'NumHeaderLines',0,'VariableNamingRule','preserve','Encoding','UTF-8');[canonical,canonicalInfo]=v1_bout_features_ecog(T.signal,T.time_s);assert(canonical.status==0,'ECOG:ReconstructionCheck','Canonical wrapper check invalid');
+ S=load(fullfile(R,'prep','bp.mat'));B=S.B(S.B.analysed,:);B=B(1:10,:);features=cell(10,1);infos=cell(10,1);
+ for b=1:10
+  seg=S.sig(B.start_sample(b):B.end_sample(b));t=(0:numel(seg)-1)/S.fs;[features{b},infos{b}]=v1_bout_features_ecog(seg,t);

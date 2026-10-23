@@ -1,0 +1,126 @@
+{
+  "git_head": "c642a20b3081e2e36dfa148cc3da0b0747fca11e",
+  "protocol_sha256": "064d6651ccca2ad84954bbdea9cb2587d51bf8d4575ec7889d2fe32d5bd2dba4",
+  "attempt1_executor": "Claude through a job runner on this computer",
+  "moved_files": [
+    {
+      "original_path": "STOPPED.md",
+      "archived_path": "attempt1_minphase1\\STOPPED.md",
+      "sha256": "687bf4b0f1e5eee341e902755df32cf725e820f1ab21c2d935193fac5abfb6b3",
+      "bytes": 1434
+    },
+    {
+      "original_path": "STOP_METHOD",
+      "archived_path": "attempt1_minphase1\\STOP_METHOD",
+      "sha256": "1b04e8e4b9662cd0b288178411297e8b6d379aa97c26452f4f82943c7609036b",
+      "bytes": 108
+    },
+    {
+      "original_path": "estimates_w1.csv",
+      "archived_path": "attempt1_minphase1\\estimates_w1.csv",
+      "sha256": "6db029aa262d7f2799ef942433384f06e906365db0a6e354ddd38430470bf715",
+      "bytes": 44461
+    },
+    {
+      "original_path": "estimates_w2.csv",
+      "archived_path": "attempt1_minphase1\\estimates_w2.csv",
+      "sha256": "4e209adb6485efee2d95e5a751106644a75b750d18f411388c820fcb86349008",
+      "bytes": 51387
+    },
+    {
+      "original_path": "estimates_w3.csv",
+      "archived_path": "attempt1_minphase1\\estimates_w3.csv",
+      "sha256": "8cff7d10cc0fccd556fbbaf21b94edcff752b3246ebfc0d85577e04ca91033d8",
+      "bytes": 42158
+    },
+    {
+      "original_path": "estimates_w4.csv",
+      "archived_path": "attempt1_minphase1\\estimates_w4.csv",
+      "sha256": "538e8b1ba4dbc6ab64af3c2f237287fdbff4463c4b429f4daa72d41aa077e7c8",
+      "bytes": 47508
+    },
+    {
+      "original_path": "status_w1.json",
+      "archived_path": "attempt1_minphase1\\status_w1.json",
+      "sha256": "6e2d03d763fca00e294dd5849e90fdff059fb9cbfb0e1d1d19321e6a55e65a37",
+      "bytes": 30
+    },
+    {
+      "original_path": "status_w2.json",
+      "archived_path": "attempt1_minphase1\\status_w2.json",
+      "sha256": "550ccd9336da0ec03ac01a9657eec70ba1dd07fbe301df8b6fc2458a2295f748",
+      "bytes": 30
+    },
+    {
+      "original_path": "status_w3.json",
+      "archived_path": "attempt1_minphase1\\status_w3.json",
+      "sha256": "3420ec26dcf8db799a37a6d2fb46d2416076fe79127fef0efcea9c6bec7e9285",
+      "bytes": 30
+    },
+    {
+      "original_path": "status_w4.json",
+      "archived_path": "attempt1_minphase1\\status_w4.json",
+      "sha256": "521d5c385921570edb22b01a5c1cbf50f8c502e51fb74e162b5f03e845724d56",
+      "bytes": 30
+    },
+    {
+      "original_path": "logs/worker1_matlab.log",
+      "archived_path": "attempt1_minphase1\\logs\\worker1_matlab.log",
+      "sha256": "dceacbf3d52dc77b3298d1198a7172b3c925267e4e2eb6a445adc364ffeec36c",
+      "bytes": 8269
+    },
+    {
+      "original_path": "logs/worker2_matlab.log",
+      "archived_path": "attempt1_minphase1\\logs\\worker2_matlab.log",
+      "sha256": "e9dee720b9b832f2f9b6f4f7c5f7797a2c77a074b899951a525d30de65e1067d",
+      "bytes": 8269
+    },
+    {
+      "original_path": "logs/worker3_matlab.log",
+      "archived_path": "attempt1_minphase1\\logs\\worker3_matlab.log",
+      "sha256": "50240b2e745d65e9fbf21e5374e7018a6c766abdba2adc00a5261c273175cde5",
+      "bytes": 8269
+    },
+    {
+      "original_path": "logs/worker4_matlab.log",
+      "archived_path": "attempt1_minphase1\\logs\\worker4_matlab.log",
+      "sha256": "b86208b83840d6fcb82afc9d84ef5d2dd9bca6c042785283aa15c07bc705fcdf",
+      "bytes": 8269
+    },
+    {
+      "original_path": "STOP_RUNNER",
+      "archived_path": "attempt1_minphase1\\STOP_RUNNER",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ],
+  "reused_unchanged_sha256": {
+    "prep\\bp.mat": "26e1e2b90d3fb52524b899a0c990e4dc85f4045fb625c21eaff7442232bc0ac3",
+    "prep\\ca.mat": "edf267e61aac765f5093f0c9e689d8b9ec29e5d5267a1dacdc7058768d858a51",
+    "prep\\cc.mat": "097e6a996714a5edd2ce3e21863a22603b844b7809c5fefc413ef3cdbf89ce51",
+    "prep\\de.mat": "553dfc23079d9143aa6564e492b7380ffff9477ca7acf128c5403c40e54ee3fd",
+    "prep\\fp.mat": "01f33ce233290bb206542660b25f505b26a4fa1494fb9b6d9603a77f6e96ae99",
+    "prep\\gc.mat": "9e19fff84e16e7433a4c729b1930a1ce450c81c1cab6b7a3ecf570b59c12591c",
+    "prep\\gf.mat": "6de17914ec4f9840d3c33e76cd735f8253be3addcf53a41d0e3c161e662f079b",
+    "prep\\hh.mat": "e05b29b059378ef786831c95a7a5d670609dc7f3accabd7c9f6034cb401edc2f",
+    "prep\\hl.mat": "9d1fe80989adda3725c71d46e3703fe0eadab35cd663442ae804cb0a9062a061",
+    "prep\\jc.mat": "e7ee1a61ae532bd77207b544d65ef50848a48a5f1948826eb6bd4a69aa6b9da7",
+    "prep\\jf.mat": "d1be0051cd964b8f8aa16bf67c0e9423d9d9857b3e3ba7adcda2a7efc434ee10",
+    "prep\\jm.mat": "db30a34b88a06b45b22cf168bacb46ffc858c278ecf7ea7f79e5d216dae13963",
+    "prep\\jp.mat": "d2c3c6686886b6af211ce12d1d34d8241ef3676cfb63030e42a3467a1b6dc037",
+    "prep\\jt.mat": "fbfa13fa4d25cf60de4eccd227841260e01bedeff01475797f4953ac0e1da839",
+    "prep\\rh.mat": "ac520d8232c7b76af86bbf50784ee80e481a293b79cc9c001e83b79c21ac6b79",
+    "prep\\rr.mat": "1dc166a6e3a7c0d64daf79b840e45df13e6d6c76a5f90e593f3a5413206aa38e",
+    "prep\\ug.mat": "f108058a2b27cc67c888e9820c043caae787fb8fa88a077f9b0bb96918bf8227",
+    "prep\\wc.mat": "51751bb9d5e1a535ba11fa1d30c102836bee94e9575a8270dc626afc7bc3bd32",
+    "prep\\zt.mat": "e2298eae82843928c0a131fd17f34bfb48c6db1f9c40f0bc42d865e29446c044",
+    "bouts.csv": "6bd2e8a7fb519596374495be931524312ae2afff55e892686c4043d01b233ea6",
+    "electrodes.csv": "0014ee99ec3933d9abbf3b11766591f3edfd43684bd6c21fd2ef6a967e3c4fb1",
+    "inventory.csv": "c040f1edfbadeac14426e4de1e5b7f7dc57c32c914bafd7abdc85c3238e29239",
+    "bad_channels.csv": "067888db9d6e28ee68614088f2c1f9bc8c5ff3a2da44dd69f04c9044dae5272a",
+    "notch_filter_guards.csv": "f8d617a4133e42b6fad374ccefe5e9f63775056640ceacc4e35dcdcd70502f5f",
+    "equivalence_gate.json": "7d0b15ac5aa5dad1692beff0258ad0b0e1af3849dbd84d00ae6175e54b4fecb7",
+    "ecog_comparators.m": "cf77ead75f634ce3e85909842fd82c6f4fa7f03b01f10e673839eb16026785ea",
+    "ecog_prepare.m": "bf0a2c8e84cb02d546893a70c8f67b19057b189e9d4e3e1b96757355dcb163dc"
+  }
+}

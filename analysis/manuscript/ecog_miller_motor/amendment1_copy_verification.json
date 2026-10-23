@@ -1,0 +1,10 @@
+{
+  "provenance_file": "provenance.json",
+  "git_head": "c642a20b3081e2e36dfa148cc3da0b0747fca11e",
+  "protocol_sha256": "064d6651ccca2ad84954bbdea9cb2587d51bf8d4575ec7889d2fe32d5bd2dba4",
+  "wrapper_reverse_edits_exact_original": true,
+  "worker_only_two_specified_edits": true,
+  "comparator_other_profiles_byte_identical": true,
+  "wrapper_sha256": "9147e58a2db6e3d5c55164887964c5704f6cc3a29679a2c095fa3b2938a22827",
+  "worker_sha256": "4cc1fbe92e1c3b2977a742a94426c4de76416c57e1bad16c5494a6c76cbfe565"
+}

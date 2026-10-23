@@ -1,0 +1,13 @@
+--- attempt1 ecog_worker.m
++++ Amendment1 ecog_worker.m
+@@ -29,8 +29,8 @@
+       if any(done==key), continue; end
+       if exist(fullfile(R,'STOP_METHOD'),'file'), fclose(fid); error('ECOG:Stopped','STOP_METHOD flag present'); end
+       seg=x(B.start_sample(b):B.end_sample(b)); t=(0:numel(seg)-1)/S.fs;
+-      [row,~]=v1_bout_features(seg,t);
+-      bf=[abs(row.fP_hz-1)<=.05, abs(row.fP_hz-30)<=.05, row.fA_hz==80, row.fA_hz==150];
++      [row,~]=v1_bout_features_ecog(seg,t);
++      bf=[abs(row.fP_hz-6)<=.05, abs(row.fP_hz-30)<=.05, row.fA_hz==80, row.fA_hz==150];
+       writeRow(fid,key,pt,recs{r},B(b,:),'APC-v1.0',row.fP_hz,row.fA_hz,row.score,row.raw_mvl,row.ozkurt_mvl,row.preferred_phase_deg,row.status,row.route,NaN,bf);
+       c=ecog_comparators(seg,S.fs,"ecog","ecog_A2_prime",.5);
+       for m=1:numel(c)

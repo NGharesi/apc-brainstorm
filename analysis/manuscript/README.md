@@ -22,6 +22,7 @@ scripts refer to the original analysis computer.
 | `rodent_multi/posthoc_2s/` | Post hoc 2-s sensitivity analysis | Figure 7 |
 | `ec013_layout_check/` | Data-driven check of the EC013 channel-to-shank layout | Methods (Rodent recordings) |
 | `ieeg_ds004752/` | Prespecified human intracranial analysis (OpenNeuro ds004752): gates, contact selection, both stopped attempts (`attempt1_maintenance_3s/`, Amendment 4 run), stop records. Protocol: `protocol/APC_ieeg_ds004752_protocol.md`. Per-trial checkpoints and preprocessed signals are not included. | Methods and Results (Human intracranial recordings) |
+| `ecog_miller_motor/` | Prespecified human ECoG analysis (Miller ECoG library, motor task): inventory, gates, electrode selection, both runs (`attempt1_minphase1/` and the Amendment 1 run), per-bout estimates, statistics and figure. Protocol: `protocol/APC_ecog_miller_motor_protocol.md`. Preprocessed signals (`prep/`) are not included. | Methods and Results (Human electrocorticography), Figure 8 |
 
 Comparator filters: fourth-order Butterworth band-pass, realized as second-order sections
 (`[z,p,k]=butter(4,...); [sos,g]=zp2sos(z,p,k); filtfilt(sos,g,x)`), with a pole-radius and

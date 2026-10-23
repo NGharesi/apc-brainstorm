@@ -1,0 +1,10 @@
+{
+  "displayed_model_results_identical_before_after_export_fix": true,
+  "fitlme_calls": 2,
+  "second_call_is_one_protocol_9_2_tooling_recovery": true,
+  "APC_scan_reruns": 0,
+  "comparison": "Exact equality of complete displayed model summary, fixed coefficients, model-fit statistics and covariance parameters",
+  "git_head": "c642a20b3081e2e36dfa148cc3da0b0747fca11e",
+  "protocol_sha256": "064d6651ccca2ad84954bbdea9cb2587d51bf8d4575ec7889d2fe32d5bd2dba4",
+  "seed": 20261024
+}

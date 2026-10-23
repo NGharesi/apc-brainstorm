@@ -1,0 +1,12 @@
+{
+  "git_head": "c642a20b3081e2e36dfa148cc3da0b0747fca11e",
+  "protocol_sha256": "064d6651ccca2ad84954bbdea9cb2587d51bf8d4575ec7889d2fe32d5bd2dba4",
+  "seed": 20261024,
+  "sources": [
+    "ecog_patient_summary.csv",
+    "figure_patient_coupling_CIs.csv",
+    "rest_frequency_patient_table.csv"
+  ],
+  "patient_CIs": "10000 independent within-state bout resamples, percentile 95%, seed20261024",
+  "provenance_file": "analysis_provenance.json"
+}

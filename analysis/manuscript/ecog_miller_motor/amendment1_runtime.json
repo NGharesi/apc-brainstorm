@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE",
+  "returncodes": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0
+  },
+  "elapsed_seconds": 503.4530000000377,
+  "git_head": "c642a20b3081e2e36dfa148cc3da0b0747fca11e",
+  "protocol_sha256": "064d6651ccca2ad84954bbdea9cb2587d51bf8d4575ec7889d2fe32d5bd2dba4",
+  "seed": 20261024
+}

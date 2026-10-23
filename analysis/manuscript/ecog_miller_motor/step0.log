@@ -1,0 +1,8 @@
+step0 start Fri 10/23/2026 11:04:51.88 
+To https://github.com/NGharesi/apc-brainstorm.git
+   f87ce24..230ec14  neuroimage-submission -> neuroimage-submission
+push_exit 0 
+230ec14d598c291fa35f29802f8b1979dbf3cc35	refs/heads/neuroimage-submission
+curl_exit 0 
+C:\Program Files\MATLAB\R2022b\bin\matlab.exe
+step0 done 

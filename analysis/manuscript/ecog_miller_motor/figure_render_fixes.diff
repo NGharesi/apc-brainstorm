@@ -1,0 +1,21 @@
+--- initial rendering
++++ font-cache location and marker padding
+@@ -1,7 +1,8 @@
+ """Protocol four-panel scientific figure; provenance is embedded as metadata."""
+ from pathlib import Path
+-import sys,json
++import sys,json,os
+ O=Path(__file__).resolve().parent;sys.path.insert(0,str(O.parent.parent/'pydeps'))
++os.environ['MPLCONFIGDIR']=str(O/'matplotlib_cache')
+ import numpy as np
+ import pandas as pd
+ import matplotlib
+@@ -19,7 +20,7 @@
+     ax.set_xticks(x,patients,rotation=90);ax.set_xlabel('Patient');ax.set_ylabel(ylabel)
+ axes[0,0].legend(frameon=False,fontsize=8,ncols=2)
+ g=D.set_index('patient').reindex(patients);ax=axes[1,0];valid=g.difference.notna();xx=x[valid];v=g[valid];ax.errorbar(xx,v.difference,yerr=np.vstack([v.difference-v.ci_low,v.ci_high-v.difference]),fmt='o',color=colors['APC-v1.0'],capsize=2);ax.axhline(0,color='0.5',linewidth=1);ax.set_xticks(x,patients,rotation=90);ax.set_xlabel('Patient');ax.set_ylabel('APC normalized MVL\nMovement minus rest (95% CI)')
+-ax=axes[1,1];ax.scatter(rest.rest_spectral_peak_hz,rest.median_fP_hz,color=colors['APC-v1.0']);ax.plot([6,30],[6,30],color='0.5',linestyle='--',linewidth=1);ax.set(xlim=(6,30),ylim=(6,30),xlabel='Analysed-rest spectral peak (Hz)',ylabel='Patient median rest APC fP (Hz)')
++ax=axes[1,1];ax.scatter(rest.rest_spectral_peak_hz,rest.median_fP_hz,color=colors['APC-v1.0']);ax.plot([5,31],[5,31],color='0.5',linestyle='--',linewidth=1);ax.set(xlim=(5,31),ylim=(5,31),xlabel='Analysed-rest spectral peak (Hz)',ylabel='Patient median rest APC fP (Hz)')
+ for label,ax in zip('ABCD',axes.flat):ax.text(-.13,1.02,label,transform=ax.transAxes,weight='bold',fontsize=12,va='bottom')
+ metadata=dict(git_head=m['git_head'],protocol_sha256=m['protocol_sha256'],seed=20261024,sources=['ecog_patient_summary.csv','figure_patient_coupling_CIs.csv','rest_frequency_patient_table.csv'],patient_CIs='10000 independent within-state bout resamples, percentile 95%, seed20261024',provenance_file='analysis_provenance.json')
+ desc=json.dumps(metadata,separators=(',',':'));fig.savefig(O/'ecog_four_panel.png',dpi=300,metadata={'Description':desc,'Software':'Matplotlib'});fig.savefig(O/'ecog_four_panel.svg',metadata={'Description':desc,'Creator':'APC prespecified ECoG analysis'});plt.close(fig)

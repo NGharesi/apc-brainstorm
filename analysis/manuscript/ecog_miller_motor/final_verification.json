@@ -1,0 +1,26 @@
+{
+  "status": "COMPLETE",
+  "git_head": "c642a20b3081e2e36dfa148cc3da0b0747fca11e",
+  "protocol_sha256": "064d6651ccca2ad84954bbdea9cb2587d51bf8d4575ec7889d2fe32d5bd2dba4",
+  "seed": 20261024,
+  "clean_repository": true,
+  "origin_matches_HEAD": true,
+  "archive_files_verified": 15,
+  "reused_files_verified": 27,
+  "protected_sources_verified": true,
+  "wrapper_worker_only_permitted_changes": true,
+  "analysed_bouts": 2648,
+  "method_rows": 13240,
+  "all_bouts_have_five_methods": true,
+  "duplicate_method_rows": 0,
+  "APC_scan_estimator_reruns": 0,
+  "mixed_model_fit_attempts": 2,
+  "mixed_model_second_fit_is_documented_export_recovery": true,
+  "comparator_guards": 67,
+  "results_committed": false,
+  "primary_decisions": {
+    "primary1": "Not shown",
+    "primary2": "Not shown"
+  },
+  "finished_utc": "2026-10-23T16:27:03.528493+00:00"
+}

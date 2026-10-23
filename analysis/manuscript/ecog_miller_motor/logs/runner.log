@@ -1,0 +1,10 @@
+Fri 10/23/2026 11:05:51.89 START step1_listing.bat 
+Fri 10/23/2026 11:05:51.89 END step1_listing.bat done 
+Fri 10/23/2026 11:06:34.19 START step2_download.bat 
+START step3_equivalence.bat 11:22:55.30 
+END step3_equivalence.bat 
+START step4_prepare.bat 11:26:05.15 
+END step4_prepare.bat 
+START step5_workers.bat 11:29:36.22 
+END step5_workers.bat 
+runner v2 stopped 

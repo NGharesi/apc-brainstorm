@@ -1,0 +1,18 @@
+{
+  "git_head": "c642a20b3081e2e36dfa148cc3da0b0747fca11e",
+  "protocol_sha256": "064d6651ccca2ad84954bbdea9cb2587d51bf8d4575ec7889d2fe32d5bd2dba4",
+  "seed": 20261024,
+  "frozen_utc": "2026-10-23T16:16:10.740056+00:00",
+  "bootstrap_resamples": 10000,
+  "rng": "NumPy MT19937, seed reset per endpoint",
+  "primary1": "Patient mean move minus rest normalized MVL; mean-bootstrap CI; two-sided t and Wilcoxon; fitlme ML default",
+  "primary2": "Mean of rest/move sample SD per patient, APC minus MVL-Ozkurt; median-bootstrap CI and two-sided Wilcoxon",
+  "decisions": "Supported if CI upper<0; Opposite if CI lower>0; Not shown otherwise. Not estimable denotes insufficient state data, not a decision.",
+  "sensitivity_b": "Keep >=2.5 s with all other rules unchanged; report unestimable paired endpoints if no movement data",
+  "code_sha256": {
+    "ecog_statistics.py": "c85615b2893eaef1282948d4c4ac202a35ac0de1848e8d4a1665f36cef4a5d7c",
+    "ecog_mixed_model.m": "057ef0f241c94d46638842295ff1cb7afc02ee94355f352a3ff1bceb6ea0e796",
+    "ecog_postprocess.m": "fdd1568915359d101f49248b432a1a8305500528a20fa7f0722868e42e7775c9",
+    "ecog_figures.py": "1582e14ab04c964e86c5b0d1d640b595af94837fdc74a8222dde71fa32884ca1"
+  }
+}
