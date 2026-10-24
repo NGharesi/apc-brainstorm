@@ -79,3 +79,16 @@ This analysis separates APC into its two estimation stages and tests each agains
 Codex flagged that section 1 lists nine methods but sections 2 and 4 say "eight". The correct number is nine: the six F x A pipelines, the full two-dimensional MVL-Ozkurt scan (A2'), APC v1.0 end-to-end and APC v3.0 end-to-end. All nine are reported as separate methods.
 
 F1 x A_APC and F2 x A_APC should equal APC v1.0 and v3.0 end-to-end by construction (gate in section 3). Their agreement is reported as a consistency check: the number of inputs with identical fP, fA and coupling, and any differences. Nothing else changes.
+
+## Amendment 2 (2026-10-24): F-stage when later APC steps fail; phase settings
+
+Codex asked how to treat fP when APC's later steps fail.
+
+- **F1 and F2** use the Step-2 fP whenever Step 2 returns one, even if APC end-to-end later fails (for example status 4 in Step 3). If Step 2 returns no fP (status 2 or 3), that source fails for both A rules.
+- **A_APC** run at a given fP fails whenever its Steps 3-4 fail, and the failure counts against it.
+- **A_SCAN** proceeds whenever an fP exists.
+- **Phase settings:** each dataset keeps the APC settings already used for it.
+  - HA and HB: v1.0 and v3.0 defaults, with the amplitude ranges used in the v3.0 run.
+  - ECoG: v1.0 with minPhaseHz 6 and maxPhaseHz 30 (ECoG Amendment 1); v3.0 with minPhaseHz 1 and maxPhaseHz 30 (v3 protocol section 5).
+  - SP-raw: the same range as v3.0 for each dataset.
+- Report the number of inputs per source in which Step 2 gave an fP but end-to-end APC failed.
