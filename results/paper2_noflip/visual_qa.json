@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "classification": "exploratory",
+  "utc": "2026-10-24T18:22:19.173313+00:00",
+  "figure": "exploratory_noflip.png",
+  "checks": [
+    "All six V3 reference-frequency cells and four dominant-rhythm cells present",
+    "Four series readable and legend does not cover bars",
+    "Labels and cell names not clipped",
+    "No titles or footers inside image"
+  ],
+  "git_commit": "146e03c995c7a0091ca265b6dba2528f7806cadb"
+}

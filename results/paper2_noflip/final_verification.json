@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "classification": "exploratory",
+  "utc": "2026-10-24T18:22:27.306458+00:00",
+  "git_commit": "146e03c995c7a0091ca265b6dba2528f7806cadb",
+  "protocol_sha256": "ffb5198537611b9a81e389ae7b53c316ed2506f0c2d9dad082cd782531a58132",
+  "clean_git_tree": true,
+  "saved_inputs_unchanged": true,
+  "src_unchanged": true,
+  "saved_flip_true_estimates_exactly_reused": true,
+  "inputs": 1875,
+  "rows": 7500,
+  "figure_dimensions": [
+    4500,
+    1500
+  ],
+  "results_committed": false
+}

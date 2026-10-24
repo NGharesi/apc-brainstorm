@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE",
+  "classification": "exploratory",
+  "utc": "2026-10-24T18:19:15.901236+00:00",
+  "inputs": 1875,
+  "rows": 7500,
+  "git_commit": "146e03c995c7a0091ca265b6dba2528f7806cadb",
+  "protocol_sha256": "ffb5198537611b9a81e389ae7b53c316ed2506f0c2d9dad082cd782531a58132",
+  "figure": {
+    "classification": "exploratory",
+    "git_commit": "146e03c995c7a0091ca265b6dba2528f7806cadb",
+    "protocol_sha256": "ffb5198537611b9a81e389ae7b53c316ed2506f0c2d9dad082cd782531a58132",
+    "source_csv": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_noflip\\summary.csv",
+    "source_sha256": "71f09d60b7619b881ed0d996ac723e8a07f471259830d1038172de036f3a3379"
+  }
+}
