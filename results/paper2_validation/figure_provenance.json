@@ -1,0 +1,70 @@
+[
+  {
+    "name": "figure1_recovery",
+    "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\figure1_recovery.png",
+    "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\figure1_recovery.svg",
+    "provenance": {
+      "git_commit": "dbc0d7901091602e146e4d28b22fdadb043daef4",
+      "protocol_sha256": "7b461e92a09d1a282225f07415d27ca7a4525984d3dab0ca5fc9c444700b6080",
+      "sources": [
+        {
+          "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\recovery_overall.csv",
+          "sha256": "c068af207226ae07930b32ea0f49e2be272a53c36dcc6079c7df0299f0bb089d"
+        }
+      ]
+    }
+  },
+  {
+    "name": "figure2_specificity",
+    "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\figure2_specificity.png",
+    "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\figure2_specificity.svg",
+    "provenance": {
+      "git_commit": "dbc0d7901091602e146e4d28b22fdadb043daef4",
+      "protocol_sha256": "7b461e92a09d1a282225f07415d27ca7a4525984d3dab0ca5fc9c444700b6080",
+      "sources": [
+        {
+          "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\coupling_auc.csv",
+          "sha256": "7cc09b8bc8f3956a30d89ea84fb055b08201c12e7ca3139aebc0688c34406333"
+        },
+        {
+          "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\calibrated_specificity.csv",
+          "sha256": "08ee149378dda321cf9e6e29e5e40e4a66c8c0fb9abb644911fe02358d312cd5"
+        }
+      ]
+    }
+  },
+  {
+    "name": "figure3_rodent_fp",
+    "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\figure3_rodent_fp.png",
+    "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\figure3_rodent_fp.svg",
+    "provenance": {
+      "git_commit": "dbc0d7901091602e146e4d28b22fdadb043daef4",
+      "protocol_sha256": "7b461e92a09d1a282225f07415d27ca7a4525984d3dab0ca5fc9c444700b6080",
+      "sources": [
+        {
+          "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\rodent_across_session_statistics.csv",
+          "sha256": "d5415243854306c6e4bb6ceef89798e49206ba13fa22faeeec0aa19966102605"
+        }
+      ]
+    }
+  },
+  {
+    "name": "figure4_ecog_rest",
+    "png": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\figure4_ecog_rest.png",
+    "svg": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\figure4_ecog_rest.svg",
+    "provenance": {
+      "git_commit": "dbc0d7901091602e146e4d28b22fdadb043daef4",
+      "protocol_sha256": "7b461e92a09d1a282225f07415d27ca7a4525984d3dab0ca5fc9c444700b6080",
+      "sources": [
+        {
+          "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\ecog_patient_summary.csv",
+          "sha256": "18e8b6866919d75e9d07d43ce4f01b7e2c688a134fcd1ae3ff712a9fd7a5e6f9"
+        },
+        {
+          "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\ecog_summary.csv",
+          "sha256": "06586c21d59426300026e5fada051a21f3f5502c1b03e837adf595b5efce1653"
+        }
+      ]
+    }
+  }
+]

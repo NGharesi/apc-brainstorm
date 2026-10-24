@@ -1,0 +1,9 @@
+# Validation calculations, report and visual QA complete
+
+All 1875 simulations, 3646 rodent physical inputs and 2642 ECoG bouts are complete. Both STOPPED.md and STOPPED_ACTIVE.md remain historical records; new active stop filename STOP_RUN.md. All protocol gates passed. ECoG reproduction audits passed every bout; maxima in ecog_reproduction_maxima.csv. Original 39 ECoG and all prior simulation/rodent checkpoints remain protected by hashes.
+
+Statistical tests and bootstraps executed once. Final table collation failed due duplicate endpoint column; metadata-only finalize_statistics.py recovered from unchanged computed CSVs. All 28 statistical CSV hashes preserved in tooling_statistics_collation_attempt1/computed_statistics_manifest.json. No estimation, hypothesis test or bootstrap repeated. Statistics complete metadata records 45.966493 seconds original subprocess wall and 0.6893 seconds collation recovery. Controller session45766 exited after collation error and is no longer active. No need to resume it.
+
+Four figures have passed visual QA. Rerender after moving Matplotlib font cache to the work folder produced identical pixels; no statistics repeated. Report RESULTS_validation.md includes all tables, literal decisions, audit maxima, runtime and every deviation. verify_final.py PASSED. Its result is recorded in final_verification.json and provenance.json; output_manifest.json records all files. No remaining analysis or QA work. Do not rerun methods/gates/statistics or commit results. User asks final answer pasting gates, primary tables/decisions, secondary tables, rodent/ECoG summaries, audit maxima and deviations.
+
+Branch paper2 HEAD/origin dbc0d7901091602e146e4d28b22fdadb043daef4. Protocol hash 7b461e92a09d1a282225f07415d27ca7a4525984d3dab0ca5fc9c444700b6080. Source methods unchanged. All logs, tooling fixes, diffs and prior stops preserved.

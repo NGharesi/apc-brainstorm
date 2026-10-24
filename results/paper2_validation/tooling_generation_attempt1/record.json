@@ -1,0 +1,27 @@
+{
+  "code": "GEN_METADATA_SEED_SCOPE",
+  "utc": "2026-10-24T11:32:42.720096+00:00",
+  "reason": "Seed was parameterized in a local metadata function but omitted from its formal/call arguments.",
+  "fix": "Pass unchanged seed to verification_row; preserve and compare the already-written configuration on resume.",
+  "identified_without_outcomes": true,
+  "method_outputs_computed": false,
+  "completed_suite_banks": 0,
+  "preserved": [
+    {
+      "file": "generation_matlab.log",
+      "sha256": "c4e34cbf9bc13d66a4078e322195768f64d5e32d0dd1dd963b68d7eac8ebf434"
+    },
+    {
+      "file": "validation_hb_cases.m",
+      "sha256": "331e0412081a384550cacffa606922e25fd1bb116fb183050fe2602253f2df77"
+    },
+    {
+      "file": "validation_generate.m",
+      "sha256": "afa3f1e0358119981fd9a08cea9b6c49d60f17722e9a12bdda62c5ee61bbbe59"
+    },
+    {
+      "file": "configuration.json",
+      "sha256": "e01d9cc47ee521cc402a61198d53218a7fb96b2ae1c6229aa59f5285592f59b2"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "status": "STOPPED_PROTOCOL_AMBIGUITY_BEFORE_GATES",
+  "git_head": "f66acb513fcc49f5bc4a2d7b426abe095be4dec8",
+  "branch": "paper2",
+  "initial_head": "e69a6eeebef2cc9314ad434d8b686d910543b8a0",
+  "protocol_sha256": "b33eae54cc93bbbfe3b806e4f785dc7de88501bd0366b3cea1343be33e8a0d94",
+  "protocol_public_on_origin": true,
+  "archive_commit": "f66acb513fcc49f5bc4a2d7b426abe095be4dec8",
+  "archive_files_verified": 73,
+  "file_sha256": {
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\bst_apc.m": "2e8e37a58c3b53a5e999cb7e486acdeeab4ab83d50ac5dd848d91a82d1cf3636",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\sp_raw_fp.m": "af45ee52f70bc737add791575ca9a344eb852496bec2b79f740337c02160365f",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\apc_v3_spectral_peak.m": "42565a27c6991b9a2eaa7b2b52552a3dc06c09f6acb84b927ba31f65dde4fa3d",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\apc_event_carrier.m": "76539dfa851a0701558730a903575e789b003c7694aa5c5a58a10948d120feca",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\calc_MI_all_methods.m": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\results\\paper2_ablation\\apc_fa_given_fp.m": "548cc4673a15cda8a7151bbcfae1719c7e60c1fb1bd5fa2e0ae633f79f42c430",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\results\\paper2_ablation\\scan_fa_given_fp.m": "86f8ee1c8bb10b3c8bcc9dcc071312038e0049873120feed7cc24bea9829b390",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\results\\paper2_ablation\\apc_fp_source.m": "4ce1f4196ca2381ecf82f4398a1272dab05f5918a1cf0882bcf5e197866643e0",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\results\\paper2_ablation\\paper2_coupling_at_pair.m": "191b3fe28ec4f7ec8002438a4ca7552dadffdf68213dcf94fdc6780fff740897"
+  },
+  "new_signal_generated": false,
+  "method_output_computed": false,
+  "gates_started": false,
+  "planned_seeds": {
+    "V1": 20261110,
+    "V2": 20261111,
+    "V3": 20261112,
+    "V4": 20261113,
+    "pair_bootstrap": 20261114,
+    "circular_shifts": 20261115,
+    "ecog_bootstrap": 20261024
+  },
+  "environment_reference": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\provenance.json",
+  "environment_reference_sha256": "745079299ffb4f67caeddf3f2a09aed90fdb95cfddf734d15a45ef3eed72b53c",
+  "environment_note": "No MATLAB process was started for validation; prior environment is referenced, not remeasured.",
+  "utc": "2026-10-24T11:21:13.530989+00:00"
+}

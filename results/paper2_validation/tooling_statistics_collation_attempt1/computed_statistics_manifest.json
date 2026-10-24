@@ -1,0 +1,142 @@
+[
+  {
+    "path": "P_A.csv",
+    "sha256": "e4942cc7f1f671db0328388e5588b241049a95a33ff1288968b6db9436adbb9a",
+    "bytes": 1451
+  },
+  {
+    "path": "P_B.csv",
+    "sha256": "a5c32aeebc04526678d0adf654845f54d300b61ba46702575d9182e26a8ca637",
+    "bytes": 1428
+  },
+  {
+    "path": "P_C.csv",
+    "sha256": "decc6d6ef85b68c175a7b1b2212e5759bbf3f926fc848c5931728fc1bb0a7e39",
+    "bytes": 724
+  },
+  {
+    "path": "primary_decisions.csv",
+    "sha256": "4fe528d43c9442976c6ddbebc3d0d42d461622434726bc7f5023399fd69d22dd",
+    "bytes": 601
+  },
+  {
+    "path": "P_C_source_recovery.csv",
+    "sha256": "dac55172c70530041838727c646b6eb982355e7d2a166b7d71b4f1469e2feb97",
+    "bytes": 5343
+  },
+  {
+    "path": "recovery_overall.csv",
+    "sha256": "c068af207226ae07930b32ea0f49e2be272a53c36dcc6079c7df0299f0bb089d",
+    "bytes": 22915
+  },
+  {
+    "path": "recovery_by_level.csv",
+    "sha256": "28632c8c97d72a6f5ccce3266e66daeebbb4be178049f35132ad7f95a8776808",
+    "bytes": 329046
+  },
+  {
+    "path": "false_joint_recovery.csv",
+    "sha256": "b7208e3b10ad88dbbf38b66f35435f4d74e1f58d1f166384574f7c8e3e4fe149",
+    "bytes": 16563
+  },
+  {
+    "path": "coupling_auc.csv",
+    "sha256": "7cc09b8bc8f3956a30d89ea84fb055b08201c12e7ca3139aebc0688c34406333",
+    "bytes": 5580
+  },
+  {
+    "path": "coupling_auc_bootstrap.csv",
+    "sha256": "6ca35975306a0b176c87ad3a1d30689fea9c3c24de2bbfdf77116ef4d20fb91a",
+    "bytes": 40743451
+  },
+  {
+    "path": "calibrated_trial_tests.csv",
+    "sha256": "b0899783e01106c06642677afab58ece538b2f6df7d99ebafc1c6320fa60a003",
+    "bytes": 396337
+  },
+  {
+    "path": "calibrated_specificity.csv",
+    "sha256": "08ee149378dda321cf9e6e29e5e40e4a66c8c0fb9abb644911fe02358d312cd5",
+    "bytes": 1729
+  },
+  {
+    "path": "endtoend_agreement.csv",
+    "sha256": "98a7311c71501607250af5c6a0125610233c8034e79349f9e65908356866c872",
+    "bytes": 1509
+  },
+  {
+    "path": "simulation_retained_step2_counts.csv",
+    "sha256": "11e85b9b3df25f0e135c74e57282cd8d64a2e489560f95e6ec0611ef0c5a9b97",
+    "bytes": 2184
+  },
+  {
+    "path": "simulation_trial_estimates.csv",
+    "sha256": "83efe9f3fc5184a7befdb84117f500364c686649272af55a4163b70b5ec0ebd9",
+    "bytes": 28223860
+  },
+  {
+    "path": "rodent_bout_estimates.csv",
+    "sha256": "fa480dfb7896f803c2fa40e4b2cb06f3706d967cc49865f916b64b509ab224f5",
+    "bytes": 7215290
+  },
+  {
+    "path": "rodent_session_statistics.csv",
+    "sha256": "1e6dc726c4a00eb1fb463305a6a60bf5da5578ebb548ffaedd8e649b959805af",
+    "bytes": 130889
+  },
+  {
+    "path": "rodent_state_summary.csv",
+    "sha256": "5d885fecb04276a7d1ec367b2da0e94b1fc9a93fb8ccc7f8afb639b7c961abeb",
+    "bytes": 163022
+  },
+  {
+    "path": "rodent_within_state_spread.csv",
+    "sha256": "86c7907851fdbe20416b46a5c4803389c98531453849172bc78f58732ab62d36",
+    "bytes": 81954
+  },
+  {
+    "path": "rodent_within_state_summary.csv",
+    "sha256": "fb5f6457b0d2061c5bf82752471e5f620d2d03cc4c5d259d96368530b50b7d63",
+    "bytes": 21564
+  },
+  {
+    "path": "rodent_across_session_statistics.csv",
+    "sha256": "d5415243854306c6e4bb6ceef89798e49206ba13fa22faeeec0aa19966102605",
+    "bytes": 33878
+  },
+  {
+    "path": "rodent_sources.csv",
+    "sha256": "70078b407658babad2b291c26fa14688978c3655f076630c909881d8077bc745",
+    "bytes": 1996884
+  },
+  {
+    "path": "ecog_bout_estimates.csv",
+    "sha256": "26fa75a477b6078b27985a5215a926c5833f4102f3cfa3cac7c8b01741ea88ab",
+    "bytes": 5305702
+  },
+  {
+    "path": "ecog_sources.csv",
+    "sha256": "17308f7bf75b248e067adb47d9501809a8c9ab07916eebd329d7e4e9423049ce",
+    "bytes": 1131950
+  },
+  {
+    "path": "ecog_patient_summary.csv",
+    "sha256": "18e8b6866919d75e9d07d43ce4f01b7e2c688a134fcd1ae3ff712a9fd7a5e6f9",
+    "bytes": 38126
+  },
+  {
+    "path": "ecog_summary.csv",
+    "sha256": "06586c21d59426300026e5fada051a21f3f5502c1b03e837adf595b5efce1653",
+    "bytes": 2963
+  },
+  {
+    "path": "ecog_patient_bootstrap.csv",
+    "sha256": "b575c6678aed449c7930c55e5561ba4e44afa1c2001993ab433233d4b18f4d51",
+    "bytes": 17808721
+  },
+  {
+    "path": "real_retained_step2_counts.csv",
+    "sha256": "e622e011f3b62914c372d9f4f8f35ca0a4b52d2ab2b04c348804f123ad6ec924",
+    "bytes": 2729
+  }
+]

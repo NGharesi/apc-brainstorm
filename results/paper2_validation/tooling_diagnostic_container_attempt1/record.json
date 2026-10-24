@@ -1,0 +1,46 @@
+{
+  "code": "DIAGNOSTIC_STRUCT_CONTAINER",
+  "utc": "2026-10-24T11:41:23.063433+00:00",
+  "reason": "MATLAB rejected subscripted assignment while building the diagnostic agreement structure.",
+  "fix": "Use a cell container for agreement metadata; no method computations, options or numeric criteria changed.",
+  "identified_without_inspecting_numeric_outcomes": true,
+  "completed_trial_checkpoints": 0,
+  "preserved": [
+    {
+      "file": "validation_estimate.m",
+      "sha256": "9c983bf8110bfde9da3f3b410c7a1477671750c37c2b6d248bd27cd4ac66e868"
+    },
+    {
+      "file": "worker1_error.json",
+      "sha256": "18107e971876a0bbdd757fd6f12071ba5c2756ffc67b0c952a9ed7ff47d4e6a6"
+    },
+    {
+      "file": "worker2_error.json",
+      "sha256": "2db28c3856aab450c5515509ce18cf42a767ffe34fb567dda7f1e4255eb02ffe"
+    },
+    {
+      "file": "worker3_error.json",
+      "sha256": "bb877dbe86d2355a874ff128696177d58f66b946822d4f7aa0ee58c8ec2617a9"
+    },
+    {
+      "file": "worker4_error.json",
+      "sha256": "ea972d6e79e5ad637509a00d045dd8308b9e70fa6e9609bde47bb4357a43f0f8"
+    },
+    {
+      "file": "worker1_matlab.log",
+      "sha256": "44cc1cd6fa59a94d012d907fd1055d61ca7d4f3d132c2b96c4b0e6aa934b50cd"
+    },
+    {
+      "file": "worker2_matlab.log",
+      "sha256": "cb46e2754c908b8a360b68f5773159fb821a71a09276b9ad696bd47818190ad7"
+    },
+    {
+      "file": "worker3_matlab.log",
+      "sha256": "44cc1cd6fa59a94d012d907fd1055d61ca7d4f3d132c2b96c4b0e6aa934b50cd"
+    },
+    {
+      "file": "worker4_matlab.log",
+      "sha256": "cb46e2754c908b8a360b68f5773159fb821a71a09276b9ad696bd47818190ad7"
+    }
+  ]
+}

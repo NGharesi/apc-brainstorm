@@ -1,0 +1,11 @@
+--- before/validation_statistics.py
++++ after/validation_statistics.py
+@@ -180,7 +180,7 @@
+   for prefix in ['worker','real_worker']:assert json.loads((O/f'{prefix}{w}_complete.json').read_text(encoding='utf-8'))['status']=='COMPLETE'
+  sim,decisions=simulations();rodent,ecog=real_data();combined=[]
+  for endpoint,file in [('P-A','P_A.csv'),('P-B','P_B.csv'),('P-C','P_C.csv'),('Recovery','recovery_overall.csv'),('Specificity','false_joint_recovery.csv'),('AUC','coupling_auc.csv'),('Calibrated','calibrated_specificity.csv'),('Rodent','rodent_across_session_statistics.csv'),('ECoG','ecog_summary.csv')]:
+-  q=read(O/file);q.insert(0,'endpoint',endpoint);combined.append(q)
++  q=read(O/file);q.insert(0,'endpoint_family',endpoint);combined.append(q)
+  write(pd.concat(combined,ignore_index=True,sort=False),'statistics.csv')
+  result=dict(status='COMPLETE',elapsed_seconds=time.perf_counter()-started,completed_utc=datetime.now(timezone.utc).isoformat(),simulation_inputs=sim.key.nunique(),simulation_rows=len(sim),rodent_analysis_rows=len(rodent),ecog_bouts=ecog.key.nunique(),decisions=decisions)
+  jw('statistics_complete.json',result);print(json.dumps(result,indent=2),flush=True)

@@ -1,0 +1,20 @@
+--- before/validation_real_worker.m
++++ after/validation_real_worker.m
+@@ -57,7 +57,7 @@
+    rows=cell(1,5);rows{1}=new(1);rows{2}=new(2);
+    names=["APC-v1.0","APC-v3.0","A2_prime_2D"];
+    for z=1:3
+-    a=saved(saved.method==names(z),:);assert(height(a)==1);row=new(1);row.method=names(z);row.source_fp_hz=a.source_fp_hz;row.source_status=a.source_status;row.recovered_fp_hz=a.recovered_fp_hz;row.recovered_fa_hz=a.recovered_fa_hz;row.raw_mvl=a.raw_mvl;row.coupling=a.coupling;row.preferred_phase_deg=a.preferred_phase_deg;row.status=a.status;row.valid=logical(a.valid);row.selection_score=nan;row.amplitude_band_low_hz=a.amplitude_band_low_hz;row.amplitude_band_high_hz=a.amplitude_band_high_hz;rows{2+z}=row;
++    a=saved(saved.method==names(z),:);assert(height(a)==1);row=new(1);row.method=names(z);row.source_fp_hz=a.source_fp_hz;row.source_status=a.source_status;row.recovered_fp_hz=a.recovered_fp_hz;row.recovered_fa_hz=a.recovered_fa_hz;row.raw_mvl=a.raw_mvl;row.coupling=a.coupling;row.preferred_phase_deg=a.preferred_phase_deg;row.status=a.status;row.valid=savedlogical(a.valid);row.selection_score=nan;row.amplitude_band_low_hz=a.amplitude_band_low_hz;row.amplitude_band_high_hz=a.amplitude_band_high_hz;rows{2+z}=row;
+    end
+    T=struct2table(vertcat(rows{:}));T.key=repmat(key,height(T),1);T.patient=repmat(pt,height(T),1);T.recording=repmat(b.recording,height(T),1);T.state=repmat(b.state,height(T),1);T.bout=repmat(b.bout,height(T),1);T.duration_s=repmat(b.duration_s,height(T),1);T.signal_sha256=repmat(string(signalsha(x)),height(T),1);T=stamp(T);
+    src={};for z=1:2,a=saved(saved.method=="F"+z+"_A_APC",:);r=saved(saved.method==names(z),:);src{z}=struct('key',key,'patient',pt,'recording',b.recording,'state',b.state,'source',"F"+z,'source_fp_hz',a.source_fp_hz,'endtoend_status',r.status,'finite_step2_later_failed',isfinite(a.source_fp_hz)&&r.status~=0);end %#ok<AGROW>
+@@ -78,3 +78,8 @@
+ end
+ function value=signalsha(x),md=java.security.MessageDigest.getInstance('SHA-256');md.update(typecast(double(x(:)),'uint8'));bytes=typecast(md.digest(),'uint8');value=lower(reshape(dec2hex(bytes,2).',1,[]));end
+ function writejson(file,v),f=fopen(file,'w','n','UTF-8');assert(f>=0);c=onCleanup(@()fclose(f));fprintf(f,'%s\n',jsonencode(v));end
++
++function value=savedlogical(x)
++if islogical(x)||isnumeric(x),assert(isscalar(x)&&ismember(x,[0 1]));value=logical(x);return;end
++s=lower(strtrim(string(x)));assert(isscalar(s)&&ismember(s,["true","false","1","0"]),'Validation:SavedBoolean','Unexpected saved boolean %s',s);value=ismember(s,["true","1"]);
++end

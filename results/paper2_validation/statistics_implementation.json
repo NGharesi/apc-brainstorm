@@ -1,0 +1,70 @@
+{
+  "stage": "Statistics/report scripts pinned before any new endpoint is computed",
+  "utc": "2026-10-24T11:47:37.561984+00:00",
+  "files": [
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_statistics.py",
+      "sha256": "2387729ab6b58b7bed18a2dad32f244e4e9f0f47c9cfd984b54d1b465265b9f1"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_report.py",
+      "sha256": "947258837f765998ce39a2733bd62af5a49c6a49a162dc9cd7561a14ad297b69"
+    }
+  ],
+  "primary_families": {
+    "P-A": 4,
+    "P-B": 4,
+    "P-C": 2
+  },
+  "mcnemar": "two-sided exact binomial on discordant pairs; Holm separately within primary family",
+  "recovery": "invalid outputs are failures; fP 1 Hz, fA 8 Hz; strict fP 0.5 Hz",
+  "bootstrap_repeats": 10000,
+  "auc_seed": 20261114,
+  "calibration_seed": 20261115,
+  "rodent_seed": 20261022,
+  "ecog_seed": 20261024,
+  "new_endpoint_results_inspected": false,
+  "pre_execution_review": {
+    "utc": "2026-10-24T11:52:13.943410+00:00",
+    "change": "Preserve saved APC values with dtype-specific column assignments; same values and statistics.",
+    "new_endpoints_inspected": false,
+    "files": [
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_statistics.py",
+        "sha256": "1f2c37d7cdbca560e9c6f3b6a67f135050465c2de0eeb63359efc76d3161c65f"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_report.py",
+        "sha256": "947258837f765998ce39a2733bd62af5a49c6a49a162dc9cd7561a14ad297b69"
+      }
+    ]
+  },
+  "primary_interval_reporting": {
+    "utc": "2026-10-24T11:58:11.114183+00:00",
+    "note": "Expose already-prespecified Wilson intervals alongside primary contrast counts. No endpoint computation has begun.",
+    "files": [
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_statistics.py",
+        "sha256": "b9abaaabe9775e0fe266677aaef4b2b4959fcd768117b1397906d386b63106ab"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_report.py",
+        "sha256": "947258837f765998ce39a2733bd62af5a49c6a49a162dc9cd7561a14ad297b69"
+      }
+    ]
+  },
+  "final_pre_execution_reporting": {
+    "utc": "2026-10-24T12:22:44.443897+00:00",
+    "note": "Expose required dominant-pick proportions and descriptive within-state rodent SD summaries. No endpoint computation has begun; no scientific settings changed.",
+    "files": [
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_statistics.py",
+        "sha256": "a154a7fb10b83d839ada6f8b38dc1ee4d225501a7affa016ebc216b6ca57c655"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_report.py",
+        "sha256": "5b68fe2e72d187513cbc554f4e69effe60be82d67d420a960ed22ad05c2c5ee1"
+      }
+    ]
+  }
+}

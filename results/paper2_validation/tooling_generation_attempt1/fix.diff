@@ -1,0 +1,28 @@
+--- before
++++ after
+@@ -40,14 +40,14 @@
+     n.poisson_times=times;n.parts.true_component=newTrue;n.parts.true_envelope=env;n.removed_true_component=parts.true_component;n.added_true_component=newTrue;
+     n.pair_residual=max(abs((c.signal-n.signal)-(parts.true_component-newTrue)));
+     assert(n.pair_residual<=1e-12,'v2:NullPair','Timing null changes more than true burst');
+-    cases{end+1}=n;verification{end+1}=verification_row(n,meta); %#ok<AGROW>
++    cases{end+1}=n;verification{end+1}=verification_row(n,meta,seed); %#ok<AGROW>
+    end
+    needAbsent=(scenario=="H1_sparsity" && ismember(level,[1 .15])) || (scenario=="H1_distractor" && level==3);
+    if needAbsent
+     n=c;n.input_id=numel(cases)+1;n.dataset="no_coupled_burst";n.signal=signal-parts.true_component;n.cfg.coupling_level=0;
+     n.parts.true_component=zeros(size(signal));n.removed_true_component=parts.true_component;n.added_true_component=zeros(size(signal));
+     n.pair_residual=max(abs((c.signal-n.signal)-parts.true_component));assert(n.pair_residual<=1e-12,'v2:NullPair','Absent control changes other components');
+-    cases{end+1}=n;verification{end+1}=verification_row(n,meta); %#ok<AGROW>
++    cases{end+1}=n;verification{end+1}=verification_row(n,meta,seed); %#ok<AGROW>
+    end
+   end
+   fprintf('GENERATED %s level%g 25 paired repeats; total inputs %d\n',scenario,level,numel(cases));
+@@ -59,7 +59,7 @@
+ write_json(fullfile(out,'HB_input_manifest.json'),struct('inputs',675,'coupled',350,'timing_null',250,'no_coupled_burst',75,'metadata',meta));
+ end
+ 
+-function r=verification_row(c,meta)
++function r=verification_row(c,meta,seed)
+ r=struct('input_id',c.input_id,'paired_coupled_id',c.paired_coupled_id,'scenario',c.scenario,'dataset',c.dataset,'level',c.level,'repeat_index',c.repeat_index, ...
+  'pair_residual',c.pair_residual,'poisson_events',numel(c.poisson_times),'git_commit',string(meta.git_commit),'matlab_version',string(version),'seed',seed, ...
+  'apc_options_json',string(jsonencode(meta.apc_configurations)),'comparator_settings_json',string(jsonencode(meta.comparator_settings)),'generator_settings_json',string(jsonencode(c.cfg)));

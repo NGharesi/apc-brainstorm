@@ -1,0 +1,216 @@
+{
+  "status": "PREPARED",
+  "rodent_physical_inputs": 3646,
+  "rodent_analysis_rows": 3982,
+  "ecog_bouts": 2642,
+  "eligible_ecog_patients": 18,
+  "source_files": [
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_bout_estimates.csv",
+      "sha256": "d192f894e666185753deaffd1ba0a431753c144222b62530b560003355331512"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\posthoc_2s\\posthoc_2s_bout_estimates.csv",
+      "sha256": "2d6f40c972d58921d78cf21781deed699ae5f1760429d1d00fdec23f8df8217a"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\bouts.csv",
+      "sha256": "6bd2e8a7fb519596374495be931524312ae2afff55e892686c4043d01b233ea6"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\electrodes.csv",
+      "sha256": "0014ee99ec3933d9abbf3b11766591f3edfd43684bd6c21fd2ef6a967e3c4fb1"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\patient_eligibility.csv",
+      "sha256": "819c83c9a54c65336598ab1b46f32a3bcb4c7c75d83d8c6d67ebcae3fbb413ee"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\analysed_rest_spectral_peaks.csv",
+      "sha256": "166da34c35026c580bafd70faaa269fd012af3c62f5559ccf2eaf8a3d7205bfd"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\ecog_bout_estimates.csv",
+      "sha256": "78e7fd2b21d57a6889212f90ec4ac559358b9cde409f295e4b34564af87c4a96"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\compute_rodent_statistics.py",
+      "sha256": "c2d9ae7226b1bbe26fdb92a47fa33312e001f1269d6a7ac96a2e9cb849637b49"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\compute_regional_statistics.py",
+      "sha256": "bccebd0cd17765135eeace94d709fcb7c09e7eedc098aaa661f9ff89a16b61a3"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\posthoc_2s\\posthoc_2s_statistics.py",
+      "sha256": "403f8c81a2ea61228e424d3728b8dbea6bb55d37aff279c888049c5581239ff8"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\bp.mat",
+      "sha256": "26e1e2b90d3fb52524b899a0c990e4dc85f4045fb625c21eaff7442232bc0ac3"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\ca.mat",
+      "sha256": "edf267e61aac765f5093f0c9e689d8b9ec29e5d5267a1dacdc7058768d858a51"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\cc.mat",
+      "sha256": "097e6a996714a5edd2ce3e21863a22603b844b7809c5fefc413ef3cdbf89ce51"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\de.mat",
+      "sha256": "553dfc23079d9143aa6564e492b7380ffff9477ca7acf128c5403c40e54ee3fd"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\fp.mat",
+      "sha256": "01f33ce233290bb206542660b25f505b26a4fa1494fb9b6d9603a77f6e96ae99"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\gc.mat",
+      "sha256": "9e19fff84e16e7433a4c729b1930a1ce450c81c1cab6b7a3ecf570b59c12591c"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\gf.mat",
+      "sha256": "6de17914ec4f9840d3c33e76cd735f8253be3addcf53a41d0e3c161e662f079b"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\hh.mat",
+      "sha256": "e05b29b059378ef786831c95a7a5d670609dc7f3accabd7c9f6034cb401edc2f"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\hl.mat",
+      "sha256": "9d1fe80989adda3725c71d46e3703fe0eadab35cd663442ae804cb0a9062a061"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\jc.mat",
+      "sha256": "e7ee1a61ae532bd77207b544d65ef50848a48a5f1948826eb6bd4a69aa6b9da7"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\jf.mat",
+      "sha256": "d1be0051cd964b8f8aa16bf67c0e9423d9d9857b3e3ba7adcda2a7efc434ee10"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\jm.mat",
+      "sha256": "db30a34b88a06b45b22cf168bacb46ffc858c278ecf7ea7f79e5d216dae13963"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\jp.mat",
+      "sha256": "d2c3c6686886b6af211ce12d1d34d8241ef3676cfb63030e42a3467a1b6dc037"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\jt.mat",
+      "sha256": "fbfa13fa4d25cf60de4eccd227841260e01bedeff01475797f4953ac0e1da839"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\rh.mat",
+      "sha256": "ac520d8232c7b76af86bbf50784ee80e481a293b79cc9c001e83b79c21ac6b79"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\rr.mat",
+      "sha256": "1dc166a6e3a7c0d64daf79b840e45df13e6d6c76a5f90e593f3a5413206aa38e"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\ug.mat",
+      "sha256": "f108058a2b27cc67c888e9820c043caae787fb8fa88a077f9b0bb96918bf8227"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\wc.mat",
+      "sha256": "51751bb9d5e1a535ba11fa1d30c102836bee94e9575a8270dc626afc7bc3bd32"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\zt.mat",
+      "sha256": "e2298eae82843928c0a131fd17f34bfb48c6db1f9c40f0bc42d865e29446c044"
+    },
+    {
+      "path": "D:\\APC_project\\2025\\Results_Behavior\\behavior_inter.mat",
+      "sha256": "74efbe26bfd8b5a3c5cb8b4546b58066dbd285d090b51e098ec07e4eee8fa653",
+      "bytes": 190375642
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.239.eeg\\data_block001.mat",
+      "sha256": "7e007faab6e661d1213e9a9c88aaea8eab73b0e2fad11dc619097fa80d2a5bd4",
+      "bytes": 161397665
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.240.eeg\\data_block001.mat",
+      "sha256": "8963128badd46094cd0fa4b1ee1dc6312a8657cb962869c61f621dee5075c30d",
+      "bytes": 217961356
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.269.eeg\\data_block001.mat",
+      "sha256": "ae0077a2dc5d4ce43f34e456497d93871b568f35678bbd7d3c47e72f23b0021f",
+      "bytes": 172584476
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.270.eeg\\data_block001.mat",
+      "sha256": "6f3ef3eed276ec7b922fc6dad271d791aab00f80cf17ba59c3511cdbce6a5022",
+      "bytes": 142856979
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.271.eeg\\data_block001.mat",
+      "sha256": "7e04c2622a9c1d9191abf7919ed2ef60642aaf55fccfbe7fed63cfa4805718cf",
+      "bytes": 137209951
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.356.eeg\\data_block001.mat",
+      "sha256": "e9847579b8a93ea0eaba60fa5c54797bda40951766f788afd7658c547de29020",
+      "bytes": 159687032
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.357.eeg\\data_block001.mat",
+      "sha256": "841a8440db45bd70b21d6c5e502eaf57d801f17fbfe75c5cb9d91d57c03acb93",
+      "bytes": 193381140
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.375.eeg\\data_block001.mat",
+      "sha256": "0784017445a0de3b5270341618a20bbb0c4f88321f9281b048d1b7835a94df38",
+      "bytes": 214702484
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.444.eeg\\data_block001.mat",
+      "sha256": "ef91ad697d09b6088beb9bef18a08bfa1fbc432f80dadce73128454539c8d7c6",
+      "bytes": 142463676
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.156.eeg\\data_block001.mat",
+      "sha256": "637b0445ac1118c83568d0bbd55c1db2d491723deeca787b5f824bf2d2635379",
+      "bytes": 682459474
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.205.eeg\\data_block001.mat",
+      "sha256": "f7a38aa55f774f601701725bd63061bdc537a765e3969501df655f2ee7a543e3",
+      "bytes": 125132288
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.206.eeg\\data_block001.mat",
+      "sha256": "8d3da95e1c245ab59040d459382ed8b2799a65c2d9267d1ba9de79ae7f76defb",
+      "bytes": 582716313
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.208.eeg\\data_block001.mat",
+      "sha256": "e0800a541542fb3fe47ffd8c09a1f8ddfd35f7dd2f8e55b8f4e2d3ad1bdbcd7a",
+      "bytes": 518203578
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.251.eeg\\data_block001.mat",
+      "sha256": "81d0a918f4cd24ba053e45ec1131cdf157bc4d6eddb55bd2363bb228c09ca0fb",
+      "bytes": 640375681
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.252.eeg\\data_block001.mat",
+      "sha256": "49001e6b874388d7eeaae4a83a5c7f633deb1a5ed683b9d2d2ed3991b3b61a9b",
+      "bytes": 636977338
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.374.eeg\\data_block001.mat",
+      "sha256": "7317d125a283b90b04494278660d4f0f4abb664823d985b2fee1c786f10d58e7",
+      "bytes": 714248073
+    },
+    {
+      "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.375.eeg\\data_block001.mat",
+      "sha256": "cd5cfd03b30c550bbec8489113d0a8c3a882eabbd2e03175562e431f5182fc1c",
+      "bytes": 1165388049
+    }
+  ],
+  "utc": "2026-10-24T11:37:32.998646+00:00"
+}

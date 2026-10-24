@@ -1,0 +1,29 @@
+--- before
++++ after
+@@ -12,7 +12,7 @@
+  if isfinite(fp(k)),sourceStatus(k)=0;end
+ end
+ [fp(3),sp,sourceStatus(3)]=sp_raw_fp(x,fs,opt3);sourceDetails{3}=sp;if isfinite(fp(3)),sourceStatus(3)=0;end
+-rows={};amplitudeDetails=cell(3,3);agreement=struct([]);
++rows={};amplitudeDetails=cell(3,3);agreement=cell(1,2);
+ for k=1:3
+  opt=opt1;if k>=2,opt=opt3;end
+  later=k<=2&&isfinite(fp(k))&&refs{k}.status_code.Value~=0;
+@@ -26,7 +26,7 @@
+   % A failed Step-1 source may expose a more specific source status; all finite-source outputs must agree.
+   pass=pattern&&delta<=1e-10&&(statusSame||~isfinite(fp(k)));
+   assert(pass,'Validation:APCAgreement','%s source%d extraction/reference mismatch; observed%s expected%s statuses[%g %g]',base.key,k,mat2str(observed,17),mat2str(expected,17),a.status,refs{k}.status_code.Value);
+-  agreement(k)=struct('source',k,'max_abs_error',delta,'nan_pattern_equal',pattern,'status_equal',statusSame,'pass',pass); %#ok<AGROW>
++  agreement{k}=struct('source',k,'max_abs_error',delta,'nan_pattern_equal',pattern,'status_equal',statusSame,'pass',pass); %#ok<AGROW>
+  end
+  rows{end+1}=pack("F"+k+"_A_APC",k,"A_APC",a,fp(k),sourceStatus(k),later,opt,cfg); %#ok<AGROW>
+  amplitudeDetails{k,1}=struct('metrics',z,'diagnostics',d,'options',o);
+@@ -52,7 +52,7 @@
+  a.status=refs{k}.status_code.Value;a.valid=a.status==0&&all(isfinite([a.recovered_fp_hz a.recovered_fa_hz a.coupling]));rows{end+1}=a; %#ok<AGROW>
+ end
+ calibration=validation_calibration(x,fs,fp(3),cfg,shifts);
+-T=struct2table(vertcat(rows{:}));detail=struct('r1',r1,'i1',i1,'r3',r3,'i3',i3,'source_fp_hz',fp,'source_status',sourceStatus,'source_details',{sourceDetails},'amplitude_details',{amplitudeDetails},'agreement',agreement,'a2_map',{maps},'calibration',calibration,'provenance',m);
++T=struct2table(vertcat(rows{:}));detail=struct('r1',r1,'i1',i1,'r3',r3,'i3',i3,'source_fp_hz',fp,'source_status',sourceStatus,'source_details',{sourceDetails},'amplitude_details',{amplitudeDetails},'agreement',{agreement},'a2_map',{maps},'calibration',calibration,'provenance',m);
+  function a=selected(f,fa,status,band,family,score)
+   a=struct('fp',f,'fa',fa,'raw',nan,'pref',nan,'coupling',nan,'status',status,'band',band,'route',"not_applicable",'selection_score',score);
+   if status==0&&all(isfinite([f fa band]))

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\nghare\.brainstorm\process\revision_checks\paper2_validation\validation_statistics.py", line 187, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\nghare\.brainstorm\process\revision_checks\paper2_validation\validation_statistics.py", line 183, in main
+    q=read(O/file);q.insert(0,'endpoint',endpoint);combined.append(q)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nghare\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pandas\core\frame.py", line 5621, in insert
+    raise ValueError(f"cannot insert {column}, already exists")
+ValueError: cannot insert endpoint, already exists

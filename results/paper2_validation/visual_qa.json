@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-24T17:02:01.348837+00:00",
+  "figures": [
+    {
+      "figure": "figure1_recovery",
+      "pixel_sha256": "a4c4f11ec65d5149cf71731f6293df1d7e86367e045a5abf5dcec3ff88560334",
+      "visual_qa": "PASS: labels, uncertainty bars, legends and panel boundaries readable; no titles or footers."
+    },
+    {
+      "figure": "figure2_specificity",
+      "pixel_sha256": "e716507a0bad807daa8da141e461d23fa50c4525c67f023d8b97486307ca37e7",
+      "visual_qa": "PASS: labels, uncertainty bars, legends and panel boundaries readable; no titles or footers."
+    },
+    {
+      "figure": "figure3_rodent_fp",
+      "pixel_sha256": "a84676fb935b980cf816e249fa0d5e29ebd0625a1bfdcd1beda5e49f9db050f0",
+      "visual_qa": "PASS: labels, uncertainty bars, legends and panel boundaries readable; no titles or footers."
+    },
+    {
+      "figure": "figure4_ecog_rest",
+      "pixel_sha256": "84a6078e0875bbf46071de72fa8e8ed3b0d2b1c98912e5dc81d3e237a202925a",
+      "visual_qa": "PASS: labels, uncertainty bars, legends and panel boundaries readable; no titles or footers."
+    }
+  ],
+  "rerender_pixel_identical": true
+}

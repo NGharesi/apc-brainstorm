@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE",
+  "initial_head": "e69a6eeebef2cc9314ad434d8b686d910543b8a0",
+  "branch": "paper2",
+  "protocol_sha256": "b33eae54cc93bbbfe3b806e4f785dc7de88501bd0366b3cea1343be33e8a0d94",
+  "protocol_worktree_sha256": "b33eae54cc93bbbfe3b806e4f785dc7de88501bd0366b3cea1343be33e8a0d94",
+  "archive_files": 73,
+  "archive_bytes": 212430798,
+  "new_signal_generated": false,
+  "utc": "2026-10-24T11:19:00.613959+00:00",
+  "pushed_commit": "f66acb513fcc49f5bc4a2d7b426abe095be4dec8",
+  "origin_paper2": "f66acb513fcc49f5bc4a2d7b426abe095be4dec8",
+  "clean_tree": true,
+  "archive_committed_blobs_verified": 73,
+  "git_process_check": "No matching git processes returned by Get-Process",
+  "git_lock_files_found": 0,
+  "git_lock_files_deleted": 0,
+  "push_succeeded": true,
+  "utc_completed": "2026-10-24T11:21:13.530989+00:00"
+}

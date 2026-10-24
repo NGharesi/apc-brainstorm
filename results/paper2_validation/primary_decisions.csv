@@ -1,0 +1,4 @@
+endpoint,decision,significant_first,significant_second,git_commit,protocol_sha256,provenance_file
+P-A,validated,4,0,dbc0d7901091602e146e4d28b22fdadb043daef4,7b461e92a09d1a282225f07415d27ca7a4525984d3dab0ca5fc9c444700b6080,provenance.json
+P-B,it does not,0,2,dbc0d7901091602e146e4d28b22fdadb043daef4,7b461e92a09d1a282225f07415d27ca7a4525984d3dab0ca5fc9c444700b6080,provenance.json
+P-C,"in these simulations, the burst-based fP was not shown to improve on the spectral peak",,,dbc0d7901091602e146e4d28b22fdadb043daef4,7b461e92a09d1a282225f07415d27ca7a4525984d3dab0ca5fc9c444700b6080,provenance.json

@@ -1,0 +1,12 @@
+{
+  "source": "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\analysis\\run_apc_premise_two_rhythm_benchmark.m",
+  "source_sha256": "10642c1297795b3b710dd8e25ba9627572f5220a27e4b366d5f21abe39f6f5e5",
+  "unchanged_function_sha256": {
+    "local_get_profile": "d4cd7de02bf905830ed95856483c2781f759429494cbdf86004a468763843761",
+    "local_cells": "8cf9fa03b7ce8b621cf0c38dd7464f04137026f740a7cbcb769efac7186aa58f",
+    "local_simulate_two_rhythm": "d1a5059ffcece23e669ff63607a411312a52b84bd32471dcc46af854b18f8e82",
+    "local_gaussian_burst_envelope": "1ba976ef557f4f3bb73a82a0e5de3d24a3fdfe78de1afc933d883b5207616b6e",
+    "local_add_mixed_noise": "d6694c025e0bd55e7c8553bc5d52542bb0baceaeda104dca891aa6fca1b199ff",
+    "local_powerlaw_noise": "4a810ef12be3d46406b8088976384d23e8f3a23d8bd46db509677dc74a008182"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "status": "COMPLETE",
+  "elapsed_seconds": 45.966493,
+  "elapsed_seconds_basis": "original statistics subprocess wall start to error-log modification; no statistical calculations repeated",
+  "collation_recovery_seconds": 0.6893069999641739,
+  "completed_utc": "2026-10-24T17:00:07.060657+00:00",
+  "simulation_inputs": 1875,
+  "simulation_rows": 22500,
+  "rodent_analysis_rows": 15928,
+  "ecog_bouts": 2642,
+  "decisions": [
+    {
+      "endpoint": "P-A",
+      "decision": "validated",
+      "significant_first": 4.0,
+      "significant_second": 0.0
+    },
+    {
+      "endpoint": "P-B",
+      "decision": "it does not",
+      "significant_first": 0.0,
+      "significant_second": 2.0
+    },
+    {
+      "endpoint": "P-C",
+      "decision": "in these simulations, the burst-based fP was not shown to improve on the spectral peak"
+    }
+  ],
+  "computed_statistics_csvs_unchanged": 28,
+  "git_commit": "dbc0d7901091602e146e4d28b22fdadb043daef4",
+  "protocol_sha256": "7b461e92a09d1a282225f07415d27ca7a4525984d3dab0ca5fc9c444700b6080"
+}

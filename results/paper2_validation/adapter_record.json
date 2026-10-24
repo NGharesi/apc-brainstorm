@@ -1,0 +1,10 @@
+{
+  "generator_adapter": "Only function/seed argument and references to the seed changed from generate_v3_hb.m.",
+  "scan_adapter": "Only function name and profile initialization changed; selection/filter/metric/tie body unchanged.",
+  "map_adapter": "Only function name and profile initialization changed; score/filter/metric/tie body unchanged.",
+  "source_hashes": {
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\v3_aperiodic\\generate_v3_hb.m": "e6b25467d7b38b0a0ca7498d837cc2b08e2b15d451a432ed19657b654eff5e0d",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\results\\paper2_ablation\\scan_fa_given_fp.m": "86f8ee1c8bb10b3c8bcc9dcc071312038e0049873120feed7cc24bea9829b390",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\results\\paper2_ablation\\a2_reference_map.m": "31094d8237bdd4f9cae202f3ba2da604f578f98ee11f99333f304ca277bfedda"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "n_bouts": 2642,
+  "preserved_checkpoint_bouts": 39,
+  "maxima": [
+    {
+      "quantity": "fp_absolute_difference_hz",
+      "maximum": 2.1671553440683056e-12,
+      "bout_at_maximum": "rh_movement_060",
+      "finite_comparisons": 2638,
+      "n_bouts": 2642,
+      "git_commit": "dbc0d7901091602e146e4d28b22fdadb043daef4",
+      "protocol_sha256": "7b461e92a09d1a282225f07415d27ca7a4525984d3dab0ca5fc9c444700b6080",
+      "provenance_file": "provenance.json"
+    },
+    {
+      "quantity": "fp_relative_difference",
+      "maximum": 1.1413725316114206e-13,
+      "bout_at_maximum": "jc_movement_060",
+      "finite_comparisons": 2638,
+      "n_bouts": 2642,
+      "git_commit": "dbc0d7901091602e146e4d28b22fdadb043daef4",
+      "protocol_sha256": "7b461e92a09d1a282225f07415d27ca7a4525984d3dab0ca5fc9c444700b6080",
+      "provenance_file": "provenance.json"
+    },
+    {
+      "quantity": "coupling_absolute_difference",
+      "maximum": 5.481826659270439e-09,
+      "bout_at_maximum": "gf_movement_085",
+      "finite_comparisons": 2638,
+      "n_bouts": 2642,
+      "git_commit": "dbc0d7901091602e146e4d28b22fdadb043daef4",
+      "protocol_sha256": "7b461e92a09d1a282225f07415d27ca7a4525984d3dab0ca5fc9c444700b6080",
+      "provenance_file": "provenance.json"
+    },
+    {
+      "quantity": "coupling_relative_difference",
+      "maximum": 9.202355708483052e-08,
+      "bout_at_maximum": "gf_movement_085",
+      "finite_comparisons": 2638,
+      "n_bouts": 2642,
+      "git_commit": "dbc0d7901091602e146e4d28b22fdadb043daef4",
+      "protocol_sha256": "7b461e92a09d1a282225f07415d27ca7a4525984d3dab0ca5fc9c444700b6080",
+      "provenance_file": "provenance.json"
+    }
+  ],
+  "relative_difference_denominator": "max(abs(saved), 1e-12) for each quantity",
+  "git_commit": "dbc0d7901091602e146e4d28b22fdadb043daef4",
+  "protocol_sha256": "7b461e92a09d1a282225f07415d27ca7a4525984d3dab0ca5fc9c444700b6080",
+  "utc": "2026-10-24T16:57:12.798611+00:00"
+}

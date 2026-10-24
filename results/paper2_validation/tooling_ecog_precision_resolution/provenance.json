@@ -1,0 +1,1784 @@
+{
+  "status": "STOPPED",
+  "git_head": "dbc0d7901091602e146e4d28b22fdadb043daef4",
+  "branch": "paper2",
+  "initial_head": "e69a6eeebef2cc9314ad434d8b686d910543b8a0",
+  "protocol_sha256": "7b461e92a09d1a282225f07415d27ca7a4525984d3dab0ca5fc9c444700b6080",
+  "protocol_public_on_origin": true,
+  "archive_commit": "f66acb513fcc49f5bc4a2d7b426abe095be4dec8",
+  "archive_files_verified": 73,
+  "file_sha256": {
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\bst_apc.m": "2e8e37a58c3b53a5e999cb7e486acdeeab4ab83d50ac5dd848d91a82d1cf3636",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\sp_raw_fp.m": "af45ee52f70bc737add791575ca9a344eb852496bec2b79f740337c02160365f",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\apc_v3_spectral_peak.m": "42565a27c6991b9a2eaa7b2b52552a3dc06c09f6acb84b927ba31f65dde4fa3d",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\apc_event_carrier.m": "76539dfa851a0701558730a903575e789b003c7694aa5c5a58a10948d120feca",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\calc_MI_all_methods.m": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\results\\paper2_ablation\\apc_fa_given_fp.m": "548cc4673a15cda8a7151bbcfae1719c7e60c1fb1bd5fa2e0ae633f79f42c430",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\results\\paper2_ablation\\scan_fa_given_fp.m": "86f8ee1c8bb10b3c8bcc9dcc071312038e0049873120feed7cc24bea9829b390",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\results\\paper2_ablation\\apc_fp_source.m": "4ce1f4196ca2381ecf82f4398a1272dab05f5918a1cf0882bcf5e197866643e0",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\results\\paper2_ablation\\paper2_coupling_at_pair.m": "191b3fe28ec4f7ec8002438a4ca7552dadffdf68213dcf94fdc6780fff740897"
+  },
+  "new_signal_generated": true,
+  "method_output_computed": true,
+  "gates_started": true,
+  "planned_seeds": {
+    "V1": 20261110,
+    "V2": 20261111,
+    "V3": 20261112,
+    "V4": 20261113,
+    "pair_bootstrap": 20261114,
+    "circular_shifts": 20261115,
+    "ecog_bootstrap": 20261024
+  },
+  "environment_reference": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\provenance.json",
+  "environment_reference_sha256": "745079299ffb4f67caeddf3f2a09aed90fdb95cfddf734d15a45ef3eed72b53c",
+  "environment_note": "MATLAB and toolbox versions were remeasured in environment.json during the successful gates.",
+  "utc": "2026-10-24T11:21:13.530989+00:00",
+  "amendment1_pushed_commit": "dbc0d7901091602e146e4d28b22fdadb043daef4",
+  "resume_utc": "2026-10-24T11:27:12.980681+00:00",
+  "amendment1_event_input": "minimal struct: status 0 iff finite source fP; otherwise source status",
+  "previous_stop_preserved_sha256": "2769fd0b4b6536b26dfa5be6ba1f38060d44c30e865c37ce2b13a57904e33ba0",
+  "gates_passed": true,
+  "environment": {
+    "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+    "toolbox_versions": [
+      {
+        "Name": "5G Toolbox",
+        "Version": "2.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "AUTOSAR Blockset",
+        "Version": "3.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Aerospace Blockset",
+        "Version": "5.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Aerospace Toolbox",
+        "Version": "4.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Antenna Toolbox",
+        "Version": "5.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Audio Toolbox",
+        "Version": "3.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Automated Driving Toolbox",
+        "Version": "3.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Bioinformatics Toolbox",
+        "Version": "4.16.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Bluetooth Toolbox",
+        "Version": "1.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Communications Toolbox",
+        "Version": "7.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Computer Vision Toolbox",
+        "Version": "10.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Control System Toolbox",
+        "Version": "10.12",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Curve Fitting Toolbox",
+        "Version": "3.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "DDS Blockset",
+        "Version": "1.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "DSP HDL Toolbox",
+        "Version": "1.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "DSP System Toolbox",
+        "Version": "9.15",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Data Acquisition Toolbox",
+        "Version": "4.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Database Toolbox",
+        "Version": "10.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Datafeed Toolbox",
+        "Version": "6.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "DatapixxToolbox",
+        "Version": "0.9,",
+        "Release": "Aug",
+        "Date": "2009"
+      },
+      {
+        "Name": "Deep Learning HDL Toolbox",
+        "Version": "1.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Deep Learning Toolbox",
+        "Version": "14.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "EEGLAB Toolbox to process EEG data",
+        "Version": "-",
+        "Release": "see",
+        "Date": "eeg_getversion()"
+      },
+      {
+        "Name": "Econometrics Toolbox",
+        "Version": "6.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Embedded Coder",
+        "Version": "7.9",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Filter Design HDL Coder",
+        "Version": "3.1.12",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Financial Instruments Toolbox",
+        "Version": "3.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Financial Toolbox",
+        "Version": "6.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Fixed-Point Designer",
+        "Version": "7.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Fuzzy Logic Toolbox",
+        "Version": "3.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "GPU Coder",
+        "Version": "2.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Global Optimization Toolbox",
+        "Version": "4.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "HDL Coder",
+        "Version": "4.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "HDL Verifier",
+        "Version": "7.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Image Acquisition Toolbox",
+        "Version": "6.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Image Processing Toolbox",
+        "Version": "11.6",
+        "Release": "(R2022b)",
+        "Date": "24-May-2022"
+      },
+      {
+        "Name": "Industrial Communication Toolbox",
+        "Version": "6.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Instrument Control Toolbox",
+        "Version": "4.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "LTE Toolbox",
+        "Version": "3.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Lidar Toolbox",
+        "Version": "2.2",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "MATLAB",
+        "Version": "9.13",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "MATLAB Coder",
+        "Version": "5.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "MATLAB Compiler",
+        "Version": "8.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "MATLAB Compiler SDK",
+        "Version": "7.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "MATLAB Report Generator",
+        "Version": "5.13",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Mapping Toolbox",
+        "Version": "5.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Medical Imaging Toolbox",
+        "Version": "1.0",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Mixed-Signal Blockset",
+        "Version": "2.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Model Predictive Control Toolbox",
+        "Version": "8.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Model-Based Calibration Toolbox",
+        "Version": "5.13",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Motor Control Blockset",
+        "Version": "1.5",
+        "Release": "(R2022b)",
+        "Date": "24-May-2022"
+      },
+      {
+        "Name": "Navigation Toolbox",
+        "Version": "2.3",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Optimization Toolbox",
+        "Version": "9.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Parallel Computing Toolbox",
+        "Version": "7.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Partial Differential Equation Toolbox",
+        "Version": "3.9",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Phased Array System Toolbox",
+        "Version": "4.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Powertrain Blockset",
+        "Version": "1.12",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Predictive Maintenance Toolbox",
+        "Version": "2.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Psychtoolbox",
+        "Version": "3.0.19",
+        "Release": "17 February",
+        "Date": "2023"
+      },
+      {
+        "Name": "RF Blockset",
+        "Version": "8.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "RF PCB Toolbox",
+        "Version": "1.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "RF Toolbox",
+        "Version": "4.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "ROS Toolbox",
+        "Version": "1.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Radar Toolbox",
+        "Version": "1.3",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Reinforcement Learning Toolbox",
+        "Version": "2.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Requirements Toolbox",
+        "Version": "2.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Risk Management Toolbox",
+        "Version": "2.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Robotics System Toolbox",
+        "Version": "4.1",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Robust Control Toolbox",
+        "Version": "6.11.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Satellite Communications Toolbox",
+        "Version": "1.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Sensor Fusion and Tracking Toolbox",
+        "Version": "2.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "SerDes Toolbox",
+        "Version": "2.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Signal Integrity Toolbox",
+        "Version": "1.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Signal Processing Toolbox",
+        "Version": "9.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "SimBiology",
+        "Version": "6.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "SimEvents",
+        "Version": "5.13",
+        "Release": "(R2022b)",
+        "Date": "15-Jun-2022"
+      },
+      {
+        "Name": "Simscape",
+        "Version": "5.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simscape Battery",
+        "Version": "1.0",
+        "Release": "(R2022b)",
+        "Date": "21-Jun-2022"
+      },
+      {
+        "Name": "Simscape Driveline",
+        "Version": "3.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simscape Electrical",
+        "Version": "7.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simscape Fluids",
+        "Version": "3.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simscape Multibody",
+        "Version": "7.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink",
+        "Version": "10.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink 3D Animation",
+        "Version": "9.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Check",
+        "Version": "6.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Code Inspector",
+        "Version": "4.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Coder",
+        "Version": "9.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Compiler",
+        "Version": "1.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Control Design",
+        "Version": "6.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Coverage",
+        "Version": "5.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Design Optimization",
+        "Version": "3.12",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Design Verifier",
+        "Version": "4.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Desktop Real-Time",
+        "Version": "5.15",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink PLC Coder",
+        "Version": "3.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Real-Time",
+        "Version": "8.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Report Generator",
+        "Version": "5.13",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Test",
+        "Version": "3.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "SoC Blockset",
+        "Version": "1.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Spreadsheet Link",
+        "Version": "3.4.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Stateflow",
+        "Version": "10.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Statistical Parametric Mapping",
+        "Version": "7771",
+        "Release": "(SPM12)",
+        "Date": "13-Jan-20"
+      },
+      {
+        "Name": "Statistics and Machine Learning Toolbox",
+        "Version": "12.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Symbolic Math Toolbox",
+        "Version": "9.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "System Composer",
+        "Version": "2.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "System Identification Toolbox",
+        "Version": "10.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Text Analytics Toolbox",
+        "Version": "1.9",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "UAV Toolbox",
+        "Version": "1.4",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Vehicle Dynamics Blockset",
+        "Version": "1.9",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Vehicle Network Toolbox",
+        "Version": "5.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Vision HDL Toolbox",
+        "Version": "2.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "WLAN Toolbox",
+        "Version": "3.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Wavelet Toolbox",
+        "Version": "6.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Wireless HDL Toolbox",
+        "Version": "2.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Wireless Testbench",
+        "Version": "1.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      }
+    ],
+    "bst_apc_path": "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\bst_apc.m",
+    "event_path": "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\apc_event_carrier.m",
+    "sp_path": "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\sp_raw_fp.m"
+  },
+  "configuration": {
+    "V1": {
+      "phase_fp_hz": 8,
+      "phase_half_width_hz": 1.5,
+      "amplitude_grid_hz": [
+        80,
+        84,
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148,
+        152,
+        156,
+        160
+      ],
+      "amplitude_half_width_hz": 14,
+      "filter": "original SOS-guarded butter(4), filtfilt",
+      "tie_rule": "first grid maximum",
+      "metric": "raw Canolty MVL / sqrt(mean(A.^2))",
+      "phase_grid_hz": [
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13,
+        13.5,
+        14
+      ],
+      "apc_options_v1": {
+        "fA": [
+          80,
+          160
+        ],
+        "epoch": [
+          -0.6,
+          0.6
+        ],
+        "decomposition": "fft_peak",
+        "metric": "canolty",
+        "diagm": false,
+        "surrogates": false,
+        "num_perm": 0,
+        "numPhaseBins": 18,
+        "burstTimeBandwidth": 5,
+        "phaseTimeBandwidth": 20,
+        "phaseEpochCycles": 3,
+        "minPhaseHz": 1,
+        "maxPhaseHz": 30,
+        "flipTroughs": true,
+        "burstProminenceScale": 0.75,
+        "surrogateMethod": "circular_shift",
+        "amplitudeBandWidthHz": 4,
+        "stepFourMode": "v1",
+        "fPRefine": true,
+        "fPMaxBinSpacingHz": 0.05,
+        "version": "v1"
+      },
+      "apc_options_v3": {
+        "fA": [
+          80,
+          160
+        ],
+        "epoch": [
+          -0.6,
+          0.6
+        ],
+        "decomposition": "fft_peak",
+        "metric": "canolty",
+        "diagm": false,
+        "surrogates": false,
+        "num_perm": 0,
+        "numPhaseBins": 18,
+        "burstTimeBandwidth": 5,
+        "phaseTimeBandwidth": 20,
+        "phaseEpochCycles": 3,
+        "minPhaseHz": 1,
+        "maxPhaseHz": 30,
+        "flipTroughs": true,
+        "burstProminenceScale": 0.75,
+        "surrogateMethod": "circular_shift",
+        "amplitudeBandWidthHz": 4,
+        "stepFourMode": "v1",
+        "fPRefine": true,
+        "fPMaxBinSpacingHz": 0.05,
+        "version": "v3"
+      }
+    },
+    "V2": {
+      "phase_fp_hz": 8,
+      "phase_half_width_hz": 1.5,
+      "amplitude_grid_hz": [
+        80,
+        84,
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148,
+        152,
+        156,
+        160
+      ],
+      "amplitude_half_width_hz": 30,
+      "filter": "original SOS-guarded butter(4), filtfilt",
+      "tie_rule": "first grid maximum",
+      "metric": "raw Canolty MVL / sqrt(mean(A.^2))",
+      "phase_grid_hz": [
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13,
+        13.5,
+        14,
+        14.5,
+        15,
+        15.5,
+        16,
+        16.5,
+        17,
+        17.5,
+        18,
+        18.5,
+        19,
+        19.5,
+        20,
+        20.5,
+        21,
+        21.5,
+        22,
+        22.5,
+        23,
+        23.5,
+        24,
+        24.5,
+        25,
+        25.5,
+        26,
+        26.5,
+        27,
+        27.5,
+        28,
+        28.5,
+        29,
+        29.5,
+        30
+      ],
+      "apc_options_v1": {
+        "fA": [
+          80,
+          150
+        ],
+        "version": "v1"
+      },
+      "apc_options_v3": {
+        "fA": [
+          80,
+          150
+        ],
+        "version": "v3",
+        "minPhaseHz": 1,
+        "maxPhaseHz": 30
+      }
+    },
+    "V4": {
+      "phase_fp_hz": 8,
+      "phase_half_width_hz": 1.5,
+      "amplitude_grid_hz": [
+        80,
+        84,
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148,
+        152,
+        156,
+        160
+      ],
+      "amplitude_half_width_hz": 14,
+      "filter": "original SOS-guarded butter(4), filtfilt",
+      "tie_rule": "first grid maximum",
+      "metric": "raw Canolty MVL / sqrt(mean(A.^2))",
+      "phase_grid_hz": [
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13,
+        13.5,
+        14
+      ],
+      "apc_options_v1": {
+        "fA": [
+          80,
+          160
+        ],
+        "epoch": [
+          -0.6,
+          0.6
+        ],
+        "decomposition": "fft_peak",
+        "metric": "canolty",
+        "diagm": false,
+        "surrogates": false,
+        "num_perm": 0,
+        "numPhaseBins": 18,
+        "burstTimeBandwidth": 5,
+        "phaseTimeBandwidth": 20,
+        "phaseEpochCycles": 3,
+        "minPhaseHz": 1,
+        "maxPhaseHz": 30,
+        "flipTroughs": true,
+        "burstProminenceScale": 0.75,
+        "surrogateMethod": "circular_shift",
+        "amplitudeBandWidthHz": 4,
+        "stepFourMode": "v1",
+        "fPRefine": true,
+        "fPMaxBinSpacingHz": 0.05,
+        "version": "v1"
+      },
+      "apc_options_v3": {
+        "fA": [
+          80,
+          160
+        ],
+        "epoch": [
+          -0.6,
+          0.6
+        ],
+        "decomposition": "fft_peak",
+        "metric": "canolty",
+        "diagm": false,
+        "surrogates": false,
+        "num_perm": 0,
+        "numPhaseBins": 18,
+        "burstTimeBandwidth": 5,
+        "phaseTimeBandwidth": 20,
+        "phaseEpochCycles": 3,
+        "minPhaseHz": 1,
+        "maxPhaseHz": 30,
+        "flipTroughs": true,
+        "burstProminenceScale": 0.75,
+        "surrogateMethod": "circular_shift",
+        "amplitudeBandWidthHz": 4,
+        "stepFourMode": "v1",
+        "fPRefine": true,
+        "fPMaxBinSpacingHz": 0.05,
+        "version": "v3"
+      }
+    },
+    "ecog": {
+      "phase_fp_hz": 8,
+      "phase_half_width_hz": 1.5,
+      "amplitude_grid_hz": [
+        80,
+        84,
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148
+      ],
+      "amplitude_half_width_hz": 30,
+      "filter": "original SOS-guarded butter(4), filtfilt",
+      "tie_rule": "first grid maximum",
+      "metric": "raw Canolty MVL / sqrt(mean(A.^2))",
+      "phase_grid_hz": [
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13,
+        13.5,
+        14,
+        14.5,
+        15,
+        15.5,
+        16,
+        16.5,
+        17,
+        17.5,
+        18,
+        18.5,
+        19,
+        19.5,
+        20,
+        20.5,
+        21,
+        21.5,
+        22,
+        22.5,
+        23,
+        23.5,
+        24,
+        24.5,
+        25,
+        25.5,
+        26,
+        26.5,
+        27,
+        27.5,
+        28,
+        28.5,
+        29,
+        29.5,
+        30
+      ],
+      "apc_options_v1": {
+        "fA": [
+          80,
+          150
+        ],
+        "minPhaseHz": 6,
+        "maxPhaseHz": 30,
+        "version": "v1"
+      },
+      "apc_options_v3": {
+        "fA": [
+          80,
+          150
+        ],
+        "minPhaseHz": 1,
+        "maxPhaseHz": 30,
+        "version": "v3"
+      }
+    },
+    "V3": {
+      "amplitude_grid_hz": [
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148
+      ],
+      "amplitude_half_width_hz": 14,
+      "phase_grid_hz": [
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13,
+        13.5,
+        14
+      ],
+      "apc_options_v1": {
+        "fA": [
+          80,
+          152
+        ],
+        "epoch": [
+          -0.6,
+          0.6
+        ],
+        "decomposition": "fft_peak",
+        "metric": "canolty",
+        "diagm": false,
+        "surrogates": false,
+        "num_perm": 0,
+        "numPhaseBins": 18,
+        "minPhaseCycles": 3,
+        "flipTroughs": true
+      },
+      "apc_options_v3": {
+        "fA": [
+          80,
+          152
+        ],
+        "epoch": [
+          -0.6,
+          0.6
+        ],
+        "decomposition": "fft_peak",
+        "metric": "canolty",
+        "diagm": false,
+        "surrogates": false,
+        "num_perm": 0,
+        "numPhaseBins": 18,
+        "minPhaseCycles": 3,
+        "flipTroughs": true,
+        "version": "v3",
+        "minPhaseHz": 1,
+        "maxPhaseHz": 30
+      }
+    },
+    "rodent": {
+      "amplitude_grid_hz": [
+        80,
+        84,
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148
+      ],
+      "amplitude_half_width_hz": 12,
+      "phase_grid_hz": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12
+      ],
+      "apc_options_v1": {
+        "fA": [
+          80,
+          150
+        ]
+      },
+      "apc_options_v3": {
+        "fA": [
+          80,
+          150
+        ],
+        "version": "v3",
+        "minPhaseHz": 1,
+        "maxPhaseHz": 30
+      }
+    }
+  },
+  "input_banks": [
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\V1_inputs.mat",
+      "bytes": 98523995,
+      "sha256": "a0d81ddbea3c37f57c617df20e224060052f23d377b78c9e35b6d9aee7aee9c8"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\V2_inputs.mat",
+      "bytes": 304274119,
+      "sha256": "04c53e4005334bcb0497852e16fb4234cfac1ada7e9720d2f2d58ef6836b7880"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\V3_inputs.mat",
+      "bytes": 40081207,
+      "sha256": "2a99ddff04d6841270d2df9a375f2738c21dedc45c5c3661810f6bf2ed98def4"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\V4_inputs.mat",
+      "bytes": 8676035,
+      "sha256": "e34a50562045577663b5c1eeb247ef89c1d05e7ac08baaf8404228aee4584bc8"
+    }
+  ],
+  "real_inputs": {
+    "status": "PREPARED",
+    "rodent_physical_inputs": 3646,
+    "rodent_analysis_rows": 3982,
+    "ecog_bouts": 2642,
+    "eligible_ecog_patients": 18,
+    "source_files": [
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\regional_bout_estimates.csv",
+        "sha256": "d192f894e666185753deaffd1ba0a431753c144222b62530b560003355331512"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\posthoc_2s\\posthoc_2s_bout_estimates.csv",
+        "sha256": "2d6f40c972d58921d78cf21781deed699ae5f1760429d1d00fdec23f8df8217a"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\bouts.csv",
+        "sha256": "6bd2e8a7fb519596374495be931524312ae2afff55e892686c4043d01b233ea6"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\electrodes.csv",
+        "sha256": "0014ee99ec3933d9abbf3b11766591f3edfd43684bd6c21fd2ef6a967e3c4fb1"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\patient_eligibility.csv",
+        "sha256": "819c83c9a54c65336598ab1b46f32a3bcb4c7c75d83d8c6d67ebcae3fbb413ee"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\analysed_rest_spectral_peaks.csv",
+        "sha256": "166da34c35026c580bafd70faaa269fd012af3c62f5559ccf2eaf8a3d7205bfd"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\ecog_bout_estimates.csv",
+        "sha256": "78e7fd2b21d57a6889212f90ec4ac559358b9cde409f295e4b34564af87c4a96"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\compute_rodent_statistics.py",
+        "sha256": "c2d9ae7226b1bbe26fdb92a47fa33312e001f1269d6a7ac96a2e9cb849637b49"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\compute_regional_statistics.py",
+        "sha256": "bccebd0cd17765135eeace94d709fcb7c09e7eedc098aaa661f9ff89a16b61a3"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\rodent_multi\\posthoc_2s\\posthoc_2s_statistics.py",
+        "sha256": "403f8c81a2ea61228e424d3728b8dbea6bb55d37aff279c888049c5581239ff8"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\bp.mat",
+        "sha256": "26e1e2b90d3fb52524b899a0c990e4dc85f4045fb625c21eaff7442232bc0ac3"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\ca.mat",
+        "sha256": "edf267e61aac765f5093f0c9e689d8b9ec29e5d5267a1dacdc7058768d858a51"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\cc.mat",
+        "sha256": "097e6a996714a5edd2ce3e21863a22603b844b7809c5fefc413ef3cdbf89ce51"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\de.mat",
+        "sha256": "553dfc23079d9143aa6564e492b7380ffff9477ca7acf128c5403c40e54ee3fd"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\fp.mat",
+        "sha256": "01f33ce233290bb206542660b25f505b26a4fa1494fb9b6d9603a77f6e96ae99"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\gc.mat",
+        "sha256": "9e19fff84e16e7433a4c729b1930a1ce450c81c1cab6b7a3ecf570b59c12591c"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\gf.mat",
+        "sha256": "6de17914ec4f9840d3c33e76cd735f8253be3addcf53a41d0e3c161e662f079b"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\hh.mat",
+        "sha256": "e05b29b059378ef786831c95a7a5d670609dc7f3accabd7c9f6034cb401edc2f"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\hl.mat",
+        "sha256": "9d1fe80989adda3725c71d46e3703fe0eadab35cd663442ae804cb0a9062a061"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\jc.mat",
+        "sha256": "e7ee1a61ae532bd77207b544d65ef50848a48a5f1948826eb6bd4a69aa6b9da7"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\jf.mat",
+        "sha256": "d1be0051cd964b8f8aa16bf67c0e9423d9d9857b3e3ba7adcda2a7efc434ee10"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\jm.mat",
+        "sha256": "db30a34b88a06b45b22cf168bacb46ffc858c278ecf7ea7f79e5d216dae13963"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\jp.mat",
+        "sha256": "d2c3c6686886b6af211ce12d1d34d8241ef3676cfb63030e42a3467a1b6dc037"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\jt.mat",
+        "sha256": "fbfa13fa4d25cf60de4eccd227841260e01bedeff01475797f4953ac0e1da839"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\rh.mat",
+        "sha256": "ac520d8232c7b76af86bbf50784ee80e481a293b79cc9c001e83b79c21ac6b79"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\rr.mat",
+        "sha256": "1dc166a6e3a7c0d64daf79b840e45df13e6d6c76a5f90e593f3a5413206aa38e"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\ug.mat",
+        "sha256": "f108058a2b27cc67c888e9820c043caae787fb8fa88a077f9b0bb96918bf8227"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\wc.mat",
+        "sha256": "51751bb9d5e1a535ba11fa1d30c102836bee94e9575a8270dc626afc7bc3bd32"
+      },
+      {
+        "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\ecog_miller_motor\\prep\\zt.mat",
+        "sha256": "e2298eae82843928c0a131fd17f34bfb48c6db1f9c40f0bc42d865e29446c044"
+      },
+      {
+        "path": "D:\\APC_project\\2025\\Results_Behavior\\behavior_inter.mat",
+        "sha256": "74efbe26bfd8b5a3c5cb8b4546b58066dbd285d090b51e098ec07e4eee8fa653",
+        "bytes": 190375642
+      },
+      {
+        "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.239.eeg\\data_block001.mat",
+        "sha256": "7e007faab6e661d1213e9a9c88aaea8eab73b0e2fad11dc619097fa80d2a5bd4",
+        "bytes": 161397665
+      },
+      {
+        "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.240.eeg\\data_block001.mat",
+        "sha256": "8963128badd46094cd0fa4b1ee1dc6312a8657cb962869c61f621dee5075c30d",
+        "bytes": 217961356
+      },
+      {
+        "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.269.eeg\\data_block001.mat",
+        "sha256": "ae0077a2dc5d4ce43f34e456497d93871b568f35678bbd7d3c47e72f23b0021f",
+        "bytes": 172584476
+      },
+      {
+        "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.270.eeg\\data_block001.mat",
+        "sha256": "6f3ef3eed276ec7b922fc6dad271d791aab00f80cf17ba59c3511cdbce6a5022",
+        "bytes": 142856979
+      },
+      {
+        "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.271.eeg\\data_block001.mat",
+        "sha256": "7e04c2622a9c1d9191abf7919ed2ef60642aaf55fccfbe7fed63cfa4805718cf",
+        "bytes": 137209951
+      },
+      {
+        "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.356.eeg\\data_block001.mat",
+        "sha256": "e9847579b8a93ea0eaba60fa5c54797bda40951766f788afd7658c547de29020",
+        "bytes": 159687032
+      },
+      {
+        "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.357.eeg\\data_block001.mat",
+        "sha256": "841a8440db45bd70b21d6c5e502eaf57d801f17fbfe75c5cb9d91d57c03acb93",
+        "bytes": 193381140
+      },
+      {
+        "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.375.eeg\\data_block001.mat",
+        "sha256": "0784017445a0de3b5270341618a20bbb0c4f88321f9281b048d1b7835a94df38",
+        "bytes": 214702484
+      },
+      {
+        "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC012\\ec012ec.444.eeg\\data_block001.mat",
+        "sha256": "ef91ad697d09b6088beb9bef18a08bfa1fbc432f80dadce73128454539c8d7c6",
+        "bytes": 142463676
+      },
+      {
+        "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.156.eeg\\data_block001.mat",
+        "sha256": "637b0445ac1118c83568d0bbd55c1db2d491723deeca787b5f824bf2d2635379",
+        "bytes": 682459474
+      },
+      {
+        "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.205.eeg\\data_block001.mat",
+        "sha256": "f7a38aa55f774f601701725bd63061bdc537a765e3969501df655f2ee7a543e3",
+        "bytes": 125132288
+      },
+      {
+        "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.206.eeg\\data_block001.mat",
+        "sha256": "8d3da95e1c245ab59040d459382ed8b2799a65c2d9267d1ba9de79ae7f76defb",
+        "bytes": 582716313
+      },
+      {
+        "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.208.eeg\\data_block001.mat",
+        "sha256": "e0800a541542fb3fe47ffd8c09a1f8ddfd35f7dd2f8e55b8f4e2d3ad1bdbcd7a",
+        "bytes": 518203578
+      },
+      {
+        "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.251.eeg\\data_block001.mat",
+        "sha256": "81d0a918f4cd24ba053e45ec1131cdf157bc4d6eddb55bd2363bb228c09ca0fb",
+        "bytes": 640375681
+      },
+      {
+        "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.252.eeg\\data_block001.mat",
+        "sha256": "49001e6b874388d7eeaae4a83a5c7f633deb1a5ed683b9d2d2ed3991b3b61a9b",
+        "bytes": 636977338
+      },
+      {
+        "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.374.eeg\\data_block001.mat",
+        "sha256": "7317d125a283b90b04494278660d4f0f4abb664823d985b2fee1c786f10d58e7",
+        "bytes": 714248073
+      },
+      {
+        "path": "D:\\APC_project\\RealDatasets\\LFP_data\\HC3\\data\\EC013\\ec013.375.eeg\\data_block001.mat",
+        "sha256": "cd5cfd03b30c550bbec8489113d0a8c3a882eabbd2e03175562e431f5182fc1c",
+        "bytes": 1165388049
+      }
+    ],
+    "utc": "2026-10-24T11:37:32.998646+00:00"
+  },
+  "implementation_files": [
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_a2_map.m",
+      "sha256": "64689a490996ce8ef0829ee67be9ffceff6f4367b8410f926a1a1d8cd3d024a1"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_ablation_gates.m",
+      "sha256": "c61583e9151e9e21f9e428908bcaab469ed47f438ae9bd39725048eeb839c1b7"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_calibration.m",
+      "sha256": "2dce738de836bec24b1ba0243d06ba4b377bdcb8529ab7678eb9419d8640a56c"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_estimate.m",
+      "sha256": "9c983bf8110bfde9da3f3b410c7a1477671750c37c2b6d248bd27cd4ac66e868"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_f3.m",
+      "sha256": "92a90c34e5d54a5b83862223cabc377d529a873ff544c1de062643b422f54a5c"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_gates.m",
+      "sha256": "a1c505c6417b5ebc9c2a5e614b3789c595aa209eba5c1abd480535e20b9ec832"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_generate.m",
+      "sha256": "afa3f1e0358119981fd9a08cea9b6c49d60f17722e9a12bdda62c5ee61bbbe59"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_ha_cases.m",
+      "sha256": "4c1a3053dfcdf0c6b93ad82078e0072be7677788e41e813d432cf10ac6bbe3fd"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_hb_cases.m",
+      "sha256": "6a3662e331fb90017188870e9ea860a1c81b469a091f4ddf329cb7b3e846e3b4"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_p1_generator.m",
+      "sha256": "828952d05e3cdf9725ac2886bb105d1e7d0788949a7cff72eaf219fc71d67be6"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_preflight.m",
+      "sha256": "0206581bfbc8dfa0ea2cf0e1155265c2e47691becf5c43eaa5286895eb02f27f"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_real_worker.m",
+      "sha256": "3421ba963137fd3895c00377c9c552e7f4840059aa8217158d6a3a6117495c14"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_scan_fa.m",
+      "sha256": "b990c2fd46225aa1483b0ff43d3e9c0b9fd97cfb7a674fc9d55bd90f1ff8e88c"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_settings.m",
+      "sha256": "b980de53c898c5cc518a9587eb879f312f710c632e289c1e74ca8422f5546fcb"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_worker.m",
+      "sha256": "9d810556c926b935851be061de91d39c5e81ba09e1a9c4112c34edcbdf90a1a6"
+    }
+  ],
+  "calibration_shift_rule": "round(N*(.25+.5*rand)), mrg32k3a, one stream, V1/V2/V3/V4 input order, 200 draws per input",
+  "coupling_rule": "Unchanged ablation common APC phase-band rule. APC/event use fourth-order amplitude band, scan uses original guarded SOS band; event half-width 6 Hz.",
+  "reference_policy": "Saved real-data selected pairs; ECoG ablation common coupling reused. Rodent saved A2 pairs are remeasured with common ablation phase rule; APC saved coupling retained.",
+  "method_start_prepared_utc": "2026-10-24T11:38:36.666654+00:00",
+  "diagnostic_container_fix": {
+    "code": "DIAGNOSTIC_STRUCT_CONTAINER",
+    "utc": "2026-10-24T11:41:23.063433+00:00",
+    "reason": "MATLAB rejected subscripted assignment while building the diagnostic agreement structure.",
+    "fix": "Use a cell container for agreement metadata; no method computations, options or numeric criteria changed.",
+    "identified_without_inspecting_numeric_outcomes": true,
+    "completed_trial_checkpoints": 0,
+    "preserved": [
+      {
+        "file": "validation_estimate.m",
+        "sha256": "9c983bf8110bfde9da3f3b410c7a1477671750c37c2b6d248bd27cd4ac66e868"
+      },
+      {
+        "file": "worker1_error.json",
+        "sha256": "18107e971876a0bbdd757fd6f12071ba5c2756ffc67b0c952a9ed7ff47d4e6a6"
+      },
+      {
+        "file": "worker2_error.json",
+        "sha256": "2db28c3856aab450c5515509ce18cf42a767ffe34fb567dda7f1e4255eb02ffe"
+      },
+      {
+        "file": "worker3_error.json",
+        "sha256": "bb877dbe86d2355a874ff128696177d58f66b946822d4f7aa0ee58c8ec2617a9"
+      },
+      {
+        "file": "worker4_error.json",
+        "sha256": "ea972d6e79e5ad637509a00d045dd8308b9e70fa6e9609bde47bb4357a43f0f8"
+      },
+      {
+        "file": "worker1_matlab.log",
+        "sha256": "44cc1cd6fa59a94d012d907fd1055d61ca7d4f3d132c2b96c4b0e6aa934b50cd"
+      },
+      {
+        "file": "worker2_matlab.log",
+        "sha256": "cb46e2754c908b8a360b68f5773159fb821a71a09276b9ad696bd47818190ad7"
+      },
+      {
+        "file": "worker3_matlab.log",
+        "sha256": "44cc1cd6fa59a94d012d907fd1055d61ca7d4f3d132c2b96c4b0e6aa934b50cd"
+      },
+      {
+        "file": "worker4_matlab.log",
+        "sha256": "cb46e2754c908b8a360b68f5773159fb821a71a09276b9ad696bd47818190ad7"
+      }
+    ]
+  },
+  "implementation_files_after_diagnostic_fix": [
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_a2_map.m",
+      "sha256": "64689a490996ce8ef0829ee67be9ffceff6f4367b8410f926a1a1d8cd3d024a1"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_ablation_gates.m",
+      "sha256": "c61583e9151e9e21f9e428908bcaab469ed47f438ae9bd39725048eeb839c1b7"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_calibration.m",
+      "sha256": "2dce738de836bec24b1ba0243d06ba4b377bdcb8529ab7678eb9419d8640a56c"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_estimate.m",
+      "sha256": "433b47be096d1a767087bec7b5a60ed379d1c055a68fefe7d8be2a7fa2554bb3"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_f3.m",
+      "sha256": "92a90c34e5d54a5b83862223cabc377d529a873ff544c1de062643b422f54a5c"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_gates.m",
+      "sha256": "a1c505c6417b5ebc9c2a5e614b3789c595aa209eba5c1abd480535e20b9ec832"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_generate.m",
+      "sha256": "afa3f1e0358119981fd9a08cea9b6c49d60f17722e9a12bdda62c5ee61bbbe59"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_ha_cases.m",
+      "sha256": "4c1a3053dfcdf0c6b93ad82078e0072be7677788e41e813d432cf10ac6bbe3fd"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_hb_cases.m",
+      "sha256": "6a3662e331fb90017188870e9ea860a1c81b469a091f4ddf329cb7b3e846e3b4"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_p1_generator.m",
+      "sha256": "828952d05e3cdf9725ac2886bb105d1e7d0788949a7cff72eaf219fc71d67be6"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_preflight.m",
+      "sha256": "0206581bfbc8dfa0ea2cf0e1155265c2e47691becf5c43eaa5286895eb02f27f"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_real_worker.m",
+      "sha256": "3421ba963137fd3895c00377c9c552e7f4840059aa8217158d6a3a6117495c14"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_scan_fa.m",
+      "sha256": "b990c2fd46225aa1483b0ff43d3e9c0b9fd97cfb7a674fc9d55bd90f1ff8e88c"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_settings.m",
+      "sha256": "b980de53c898c5cc518a9587eb879f312f710c632e289c1e74ca8422f5546fcb"
+    },
+    {
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_worker.m",
+      "sha256": "9d810556c926b935851be061de91d39c5e81ba09e1a9c4112c34edcbdf90a1a6"
+    }
+  ],
+  "real_io_preparation": {
+    "utc": "2026-10-24T11:52:13.924705+00:00",
+    "reason": "Low available system memory; restrict later LFP loads to the exact required F/Time or original test structure.",
+    "real_outputs_computed": false,
+    "sha256": "baef6cd78c2b96b42fa15a73fe63fb34a945fb36cd02c071742dd57b224063e9",
+    "concurrent_workers": 4
+  },
+  "configuration_template_note": "The phase_fp_hz=8 field retained in canonical scan-setting templates is gate metadata, not an analysis setting. validation_scan_fa always receives each source fP explicitly; validation_a2_map uses the stored phase grid. Actual per-trial fP and scan settings are recorded in trial rows.",
+  "saved_boolean_tooling_fix": {
+    "code": "SAVED_BOOLEAN_CSV_PARSE",
+    "utc": "2026-10-24T16:18:55.360821+00:00",
+    "reason": "MATLAB readtable returns saved True/False valid values as string; logical(string) is unsupported. All four workers stopped at their first ECoG reference row, before saving an ECoG checkpoint.",
+    "fix": "Parse saved true/false and 1/0 explicitly; numeric/logical values retain their original conversion. No estimator, options, reproduction assert or numerical criterion changed.",
+    "identified_without_inspecting_numeric_outcomes": true,
+    "completed_simulation_inputs": 1875,
+    "completed_rodent_inputs": 3646,
+    "completed_ecog_inputs": 0,
+    "preserved": [
+      {
+        "file": "validation_real_worker.m",
+        "sha256": "baef6cd78c2b96b42fa15a73fe63fb34a945fb36cd02c071742dd57b224063e9"
+      },
+      {
+        "file": "real_worker1_error.json",
+        "sha256": "e9ec05bf8935aecc73a8f321eed5967bf7e92edc73251995c089c43a89b1ead1"
+      },
+      {
+        "file": "real_worker2_error.json",
+        "sha256": "0ea9749c6aab419a7c8ccbd03246773598cfee982277834047910425822cb1c7"
+      },
+      {
+        "file": "real_worker3_error.json",
+        "sha256": "6688f70270984910d70eb7c2fa23effbea0fe17142102ee907add2353025b6d6"
+      },
+      {
+        "file": "real_worker4_error.json",
+        "sha256": "ecb0600d9ad8b34ed76dde7a56dad6df635bec14ac36bbe9c8f4649926600022"
+      },
+      {
+        "file": "worker1_resume_matlab.log",
+        "sha256": "c9807be5d0d305df0079730fae972599ddf726442ccf08660c46eb952fef0421"
+      },
+      {
+        "file": "worker2_resume_matlab.log",
+        "sha256": "ab3b6a86a00b466f5944fadff280f506d75d9751b1a58a23c2d58728b4edff21"
+      },
+      {
+        "file": "worker3_resume_matlab.log",
+        "sha256": "7387929d37bdc1ca4d3dbaa90bd3aabd39bb536cce7483e22d569d526bf017c7"
+      },
+      {
+        "file": "worker4_resume_matlab.log",
+        "sha256": "dfde99c79ada3f3bd3f2f89499c0a9749b065a187b69d0adde47ae500c3eb44e"
+      }
+    ],
+    "diff": "tooling_saved_boolean_attempt1/fix.diff",
+    "sha256_after": "56182a2ae954ea806efed288910de2da7d2aeb950afd2eb5885bb003195762a3"
+  },
+  "validation_complete": false,
+  "stop_utc": "2026-10-24T16:27:54.138745+00:00",
+  "stop_reason": "Saved ECoG F3/SCAN coupling reproduction exceeds fixed 1e-10 tolerance. No workaround attempted.",
+  "active_stop_record": "STOPPED_ACTIVE.md",
+  "stop_audit_file": "stop_audit.json",
+  "statistics_computed": false,
+  "results_committed": false
+}

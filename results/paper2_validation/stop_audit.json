@@ -1,0 +1,91 @@
+{
+  "status": "STOPPED",
+  "utc": "2026-10-24T16:27:54.138745+00:00",
+  "reason": "Saved ECoG F3/SCAN coupling reproduction exceeds fixed 1e-10 tolerance. No workaround attempted.",
+  "bout_key": "ca_movement_020",
+  "error_identifier": "Validation:EcogScanReproduction",
+  "source_file": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_validation\\validation_real_worker.m",
+  "source_line": 56,
+  "columns": [
+    "source_fp_hz",
+    "recovered_fa_hz",
+    "coupling"
+  ],
+  "observed": [
+    4.387077247328136,
+    116,
+    0.061318589373410254
+  ],
+  "saved": [
+    4.3870772473281425,
+    116,
+    0.06131858982354668
+  ],
+  "absolute_difference": [
+    6.217248937900877e-15,
+    0,
+    4.5013642813174215e-10
+  ],
+  "tolerance": 1e-10,
+  "simulation_checkpoints": {
+    "V1": 350,
+    "V2": 900,
+    "V3": 600,
+    "V4": 25
+  },
+  "real_checkpoints": {
+    "rodent_": 3646,
+    "ecog_": 39
+  },
+  "all_four_matlab_workers_exited": true,
+  "statistics_started": false,
+  "primary_decisions_computed": false,
+  "new_figures_generated": false,
+  "git_commit": "dbc0d7901091602e146e4d28b22fdadb043daef4",
+  "origin_paper2": "dbc0d7901091602e146e4d28b22fdadb043daef4",
+  "clean_git_tree": true,
+  "protocol_sha256": "7b461e92a09d1a282225f07415d27ca7a4525984d3dab0ca5fc9c444700b6080",
+  "original_STOPPED_md_unchanged": true,
+  "evidence": [
+    {
+      "file": "real_worker1_boolean_resume_matlab.log",
+      "sha256": "518556f66dfc8a7b5976a247072a4e9da508c7912195d0c6436a83080bff4f00"
+    },
+    {
+      "file": "real_worker1_error.json",
+      "sha256": "2c4065e661960d091f50a9fdeb2cc993d647f695eea68f651e33a350930bf592"
+    },
+    {
+      "file": "real_worker2_boolean_resume_matlab.log",
+      "sha256": "4bb0f8938313f33e3f35aac523c75cc64d9ef4a5bf1e3066b94bb5f7a9deb5bb"
+    },
+    {
+      "file": "real_worker2_error.json",
+      "sha256": "7769963169c716f11728bd9327276a5801c432c39c0a46b669c022955ccfd686"
+    },
+    {
+      "file": "real_worker3_boolean_resume_matlab.log",
+      "sha256": "518556f66dfc8a7b5976a247072a4e9da508c7912195d0c6436a83080bff4f00"
+    },
+    {
+      "file": "real_worker3_error.json",
+      "sha256": "00a687c181c5057b242189025fccdada9632f5732f33f8fe92947cfd1dc41e7d"
+    },
+    {
+      "file": "real_worker4_boolean_resume_matlab.log",
+      "sha256": "518556f66dfc8a7b5976a247072a4e9da508c7912195d0c6436a83080bff4f00"
+    },
+    {
+      "file": "real_worker4_error.json",
+      "sha256": "8f56f06a46188fba699706f7ff910d5cb35085e563abc57b24e821a916253c4d"
+    },
+    {
+      "file": "STOPPED_ACTIVE.md",
+      "sha256": "bf35b1dea8aa79e16e293b34a3ab386dade5c78fd0da9780014d1f8a2d1d7eaf"
+    },
+    {
+      "file": "validation_real_worker.m",
+      "sha256": "56182a2ae954ea806efed288910de2da7d2aeb950afd2eb5885bb003195762a3"
+    }
+  ]
+}

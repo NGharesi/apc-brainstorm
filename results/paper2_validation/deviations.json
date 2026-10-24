@@ -1,0 +1,183 @@
+{
+  "deviations": [
+    {
+      "code": "GEN_METADATA_SEED_SCOPE",
+      "utc": "2026-10-24T11:32:42.720096+00:00",
+      "reason": "Seed was parameterized in a local metadata function but omitted from its formal/call arguments.",
+      "fix": "Pass unchanged seed to verification_row; preserve and compare the already-written configuration on resume.",
+      "identified_without_outcomes": true,
+      "method_outputs_computed": false,
+      "completed_suite_banks": 0,
+      "preserved": [
+        {
+          "file": "generation_matlab.log",
+          "sha256": "c4e34cbf9bc13d66a4078e322195768f64d5e32d0dd1dd963b68d7eac8ebf434"
+        },
+        {
+          "file": "validation_hb_cases.m",
+          "sha256": "331e0412081a384550cacffa606922e25fd1bb116fb183050fe2602253f2df77"
+        },
+        {
+          "file": "validation_generate.m",
+          "sha256": "afa3f1e0358119981fd9a08cea9b6c49d60f17722e9a12bdda62c5ee61bbbe59"
+        },
+        {
+          "file": "configuration.json",
+          "sha256": "e01d9cc47ee521cc402a61198d53218a7fb96b2ae1c6229aa59f5285592f59b2"
+        }
+      ]
+    },
+    {
+      "code": "SAVED_RODENT_CSV_PRECISION",
+      "reason": "Exact deduplication of shared physical inputs incorrectly required equality of rounded raw/phase/coupling CSV fields. Shared physical bounds, fP, fA and status match exactly; raw values were written at different precision.",
+      "fix": "Preserve every original reference row by bout-set and analysis, keep one physical reference for computation, and audit all numeric CSV differences separately.",
+      "identified_without_new_outcomes": true,
+      "n_differences": 561,
+      "max_absolute_difference": 9.90960785651751e-17,
+      "audit_file": "rodent_saved_csv_precision_differences.csv"
+    },
+    {
+      "code": "DIAGNOSTIC_STRUCT_CONTAINER",
+      "utc": "2026-10-24T11:41:23.063433+00:00",
+      "reason": "MATLAB rejected subscripted assignment while building the diagnostic agreement structure.",
+      "fix": "Use a cell container for agreement metadata; no method computations, options or numeric criteria changed.",
+      "identified_without_inspecting_numeric_outcomes": true,
+      "completed_trial_checkpoints": 0,
+      "preserved": [
+        {
+          "file": "validation_estimate.m",
+          "sha256": "9c983bf8110bfde9da3f3b410c7a1477671750c37c2b6d248bd27cd4ac66e868"
+        },
+        {
+          "file": "worker1_error.json",
+          "sha256": "18107e971876a0bbdd757fd6f12071ba5c2756ffc67b0c952a9ed7ff47d4e6a6"
+        },
+        {
+          "file": "worker2_error.json",
+          "sha256": "2db28c3856aab450c5515509ce18cf42a767ffe34fb567dda7f1e4255eb02ffe"
+        },
+        {
+          "file": "worker3_error.json",
+          "sha256": "bb877dbe86d2355a874ff128696177d58f66b946822d4f7aa0ee58c8ec2617a9"
+        },
+        {
+          "file": "worker4_error.json",
+          "sha256": "ea972d6e79e5ad637509a00d045dd8308b9e70fa6e9609bde47bb4357a43f0f8"
+        },
+        {
+          "file": "worker1_matlab.log",
+          "sha256": "44cc1cd6fa59a94d012d907fd1055d61ca7d4f3d132c2b96c4b0e6aa934b50cd"
+        },
+        {
+          "file": "worker2_matlab.log",
+          "sha256": "cb46e2754c908b8a360b68f5773159fb821a71a09276b9ad696bd47818190ad7"
+        },
+        {
+          "file": "worker3_matlab.log",
+          "sha256": "44cc1cd6fa59a94d012d907fd1055d61ca7d4f3d132c2b96c4b0e6aa934b50cd"
+        },
+        {
+          "file": "worker4_matlab.log",
+          "sha256": "cb46e2754c908b8a360b68f5773159fb821a71a09276b9ad696bd47818190ad7"
+        }
+      ]
+    },
+    {
+      "code": "SAVED_BOOLEAN_CSV_PARSE",
+      "utc": "2026-10-24T16:18:55.360821+00:00",
+      "reason": "MATLAB readtable returns saved True/False valid values as string; logical(string) is unsupported. All four workers stopped at their first ECoG reference row, before saving an ECoG checkpoint.",
+      "fix": "Parse saved true/false and 1/0 explicitly; numeric/logical values retain their original conversion. No estimator, options, reproduction assert or numerical criterion changed.",
+      "identified_without_inspecting_numeric_outcomes": true,
+      "completed_simulation_inputs": 1875,
+      "completed_rodent_inputs": 3646,
+      "completed_ecog_inputs": 0,
+      "preserved": [
+        {
+          "file": "validation_real_worker.m",
+          "sha256": "baef6cd78c2b96b42fa15a73fe63fb34a945fb36cd02c071742dd57b224063e9"
+        },
+        {
+          "file": "real_worker1_error.json",
+          "sha256": "e9ec05bf8935aecc73a8f321eed5967bf7e92edc73251995c089c43a89b1ead1"
+        },
+        {
+          "file": "real_worker2_error.json",
+          "sha256": "0ea9749c6aab419a7c8ccbd03246773598cfee982277834047910425822cb1c7"
+        },
+        {
+          "file": "real_worker3_error.json",
+          "sha256": "6688f70270984910d70eb7c2fa23effbea0fe17142102ee907add2353025b6d6"
+        },
+        {
+          "file": "real_worker4_error.json",
+          "sha256": "ecb0600d9ad8b34ed76dde7a56dad6df635bec14ac36bbe9c8f4649926600022"
+        },
+        {
+          "file": "worker1_resume_matlab.log",
+          "sha256": "c9807be5d0d305df0079730fae972599ddf726442ccf08660c46eb952fef0421"
+        },
+        {
+          "file": "worker2_resume_matlab.log",
+          "sha256": "ab3b6a86a00b466f5944fadff280f506d75d9751b1a58a23c2d58728b4edff21"
+        },
+        {
+          "file": "worker3_resume_matlab.log",
+          "sha256": "7387929d37bdc1ca4d3dbaa90bd3aabd39bb536cce7483e22d569d526bf017c7"
+        },
+        {
+          "file": "worker4_resume_matlab.log",
+          "sha256": "dfde99c79ada3f3bd3f2f89499c0a9749b065a187b69d0adde47ae500c3eb44e"
+        }
+      ],
+      "diff": "tooling_saved_boolean_attempt1/fix.diff",
+      "sha256_after": "56182a2ae954ea806efed288910de2da7d2aeb950afd2eb5885bb003195762a3"
+    },
+    {
+      "code": "ECOG_EXECUTOR_REPRODUCTION_PRECISION",
+      "utc": "2026-10-24T16:32:01.640359+00:00",
+      "reason": "Executor-added saved-ablation F3/SCAN 1e-10 absolute tolerance was tighter than numerical precision. User resolved STOPPED_ACTIVE.md: floating-point propagation through the narrow low-frequency phase filter; not a protocol gate or method change.",
+      "fix": "fA, status, validity and NaN pattern identical; fP absolute difference <=1e-9 Hz; coupling absolute difference <=1e-6*max(abs(saved coupling),1e-12). Record per-bout absolute/relative fP and coupling differences. Use STOP_RUN.md for future stops while both earlier stop records remain unchanged.",
+      "identified_without_looking_at_any_new_endpoint": true,
+      "authorized_by": "Direct user resolution of STOPPED_ACTIVE.md",
+      "resume_utc": "2026-10-24T16:32:01.640359+00:00",
+      "preserved_stop_sha256": {
+        "STOPPED.md": "2769fd0b4b6536b26dfa5be6ba1f38060d44c30e865c37ce2b13a57904e33ba0",
+        "STOPPED_ACTIVE.md": "73f7ac63ce372387f98e9277a9644bb509e0ce48dd7db44dc24b03144815eed3"
+      },
+      "worker_sha256_after": "1ab322f8809929114ff01c512c70a406ae00bf54dab44c85d39f30bc2d5ced03",
+      "preserved_directory": "tooling_ecog_precision_resolution",
+      "diff": "tooling_ecog_precision_resolution\\validation_real_worker.diff"
+    },
+    {
+      "code": "REPORT_LITERAL_QUOTE_PRECHECK",
+      "utc": "2026-10-24T16:33:44.738124+00:00",
+      "reason": "The pre-execution Python parse check found an unescaped apostrophe in newly added report prose. No statistics or report had executed.",
+      "fix": "Spell A2-prime in that prose; all edited Python scripts now parse. No numerical code or output changed.",
+      "identified_without_looking_at_any_new_endpoint": true
+    },
+    {
+      "code": "STATISTICS_COLLATION_COLUMN_COLLISION",
+      "utc": "2026-10-24T16:59:36.043566+00:00",
+      "reason": "All simulations() and real_data() calculations completed and wrote their tables. Final collation attempted to insert endpoint into calibrated_specificity.csv, which already has its false_positive_rate/power endpoint field. Pandas raised cannot insert endpoint, already exists.",
+      "fix": "Use endpoint_family for the combined-table family label. Complete collation and completion metadata from the existing CSVs only. Do not rerun simulations(), real_data(), tests or bootstraps. Verify all 28 already computed CSV hashes remain unchanged.",
+      "identified_without_inspecting_numeric_outcomes": true,
+      "preserved_directory": "tooling_statistics_collation_attempt1",
+      "original_statistics_subprocess_start_utc": "2026-10-24T16:57:12.854190+00:00",
+      "original_statistics_error_log_mtime_utc": "2026-10-24T16:57:58.820683+00:00"
+    },
+    {
+      "code": "MATPLOTLIB_FONT_CACHE_PATH",
+      "utc": "2026-10-24T17:01:10.457841+00:00",
+      "reason": "Initial rendering succeeded but Matplotlib could not save its font cache under C:/Users/nghare/.matplotlib because that location was not writable.",
+      "fix": "Set MPLCONFIGDIR to the work-folder matplotlib_cache directory; rerender figures/report from the unchanged statistical CSVs only. No estimation, test or bootstrap repeated.",
+      "identified_without_changing_any_numerical_outcome": true
+    },
+    {
+      "code": "REVIEW_CONSOLE_ENCODING",
+      "utc": "2026-10-24T17:02:53.152981+00:00",
+      "reason": "The auxiliary condensed review table was written successfully as UTF-8, but printing a prime symbol to the default cp1252 console raised UnicodeEncodeError.",
+      "fix": "Use UTF-8 for console output; no table, figure, estimator, test or bootstrap calculation changed."
+    }
+  ],
+  "note": "Stopped under the explicit ambiguity rule; no analysis settings were selected or changed."
+}

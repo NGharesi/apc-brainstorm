@@ -1,0 +1,205 @@
+{
+  "status": "PASS",
+  "verified_utc": "2026-10-24T17:05:22.152446+00:00",
+  "pushed_commit": "dbc0d7901091602e146e4d28b22fdadb043daef4",
+  "clean_git_tree": true,
+  "tagged_source_unchanged": true,
+  "input_hashes_unchanged": true,
+  "initial_stopped_record_preserved": true,
+  "simulation_inputs": 1875,
+  "simulation_rows": 22500,
+  "rodent_rows": 15928,
+  "ecog_bouts": 2642,
+  "figures": [
+    {
+      "name": "figure1_recovery",
+      "dimensions_px": [
+        4800,
+        1800
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_sha256": "9edc4c8c7f68582ac41e0a5cec65c5296bf5d61849cba8689422caeb5db7fb39",
+      "svg_sha256": "e60715b71ff3d5d3115b96959f5b35e21fa177779438216a35f512294d6282f1"
+    },
+    {
+      "name": "figure2_specificity",
+      "dimensions_px": [
+        3900,
+        3000
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_sha256": "c2e4bc13a4a7118306827f06295a349f81505687415b311f81c32db704e20f30",
+      "svg_sha256": "58964841daecc29a4e3e96af30cf45a80f7adc26227cd0ee53b303a7b240fece"
+    },
+    {
+      "name": "figure3_rodent_fp",
+      "dimensions_px": [
+        4200,
+        2400
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_sha256": "f0bc7823855e2e17e47002b32d6ba4d079baf2055fead905a4be209f6938fb15",
+      "svg_sha256": "b41a1187d17e4ec554b5cac18438fe4c256c6b0f94a5060ec99344186b7b41c8"
+    },
+    {
+      "name": "figure4_ecog_rest",
+      "dimensions_px": [
+        4200,
+        1500
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_sha256": "8419aeffb7b15f0e1aecc000bf083e21d89f8d8ed4c0baf7262316bbb5ebfe81",
+      "svg_sha256": "3c11f2550957b450505d3f7404468e245e484ebe89da3996f316cd08abea9906"
+    }
+  ],
+  "guard_files": [
+    {
+      "file": "simulation_filter_guards_w1.csv",
+      "rows": 1355,
+      "columns": [
+        "fs_hz",
+        "low_hz",
+        "high_hz",
+        "center_hz",
+        "max_pole_radius",
+        "max_sos_section_pole_radius",
+        "center_gain",
+        "guard_passed",
+        "git_commit",
+        "protocol_sha256"
+      ]
+    },
+    {
+      "file": "simulation_filter_guards_w2.csv",
+      "rows": 1343,
+      "columns": [
+        "fs_hz",
+        "low_hz",
+        "high_hz",
+        "center_hz",
+        "max_pole_radius",
+        "max_sos_section_pole_radius",
+        "center_gain",
+        "guard_passed",
+        "git_commit",
+        "protocol_sha256"
+      ]
+    },
+    {
+      "file": "simulation_filter_guards_w3.csv",
+      "rows": 1355,
+      "columns": [
+        "fs_hz",
+        "low_hz",
+        "high_hz",
+        "center_hz",
+        "max_pole_radius",
+        "max_sos_section_pole_radius",
+        "center_gain",
+        "guard_passed",
+        "git_commit",
+        "protocol_sha256"
+      ]
+    },
+    {
+      "file": "simulation_filter_guards_w4.csv",
+      "rows": 1327,
+      "columns": [
+        "fs_hz",
+        "low_hz",
+        "high_hz",
+        "center_hz",
+        "max_pole_radius",
+        "max_sos_section_pole_radius",
+        "center_gain",
+        "guard_passed",
+        "git_commit",
+        "protocol_sha256"
+      ]
+    },
+    {
+      "file": "real_filter_guards_w1.csv",
+      "rows": 777,
+      "columns": [
+        "fs_hz",
+        "low_hz",
+        "high_hz",
+        "center_hz",
+        "max_pole_radius",
+        "max_sos_section_pole_radius",
+        "center_gain",
+        "guard_passed",
+        "git_commit",
+        "protocol_sha256",
+        "matlab_version",
+        "provenance_file"
+      ]
+    },
+    {
+      "file": "real_filter_guards_w2.csv",
+      "rows": 779,
+      "columns": [
+        "fs_hz",
+        "low_hz",
+        "high_hz",
+        "center_hz",
+        "max_pole_radius",
+        "max_sos_section_pole_radius",
+        "center_gain",
+        "guard_passed",
+        "git_commit",
+        "protocol_sha256",
+        "matlab_version",
+        "provenance_file"
+      ]
+    },
+    {
+      "file": "real_filter_guards_w3.csv",
+      "rows": 655,
+      "columns": [
+        "fs_hz",
+        "low_hz",
+        "high_hz",
+        "center_hz",
+        "max_pole_radius",
+        "max_sos_section_pole_radius",
+        "center_gain",
+        "guard_passed",
+        "git_commit",
+        "protocol_sha256",
+        "matlab_version",
+        "provenance_file"
+      ]
+    },
+    {
+      "file": "real_filter_guards_w4.csv",
+      "rows": 516,
+      "columns": [
+        "fs_hz",
+        "low_hz",
+        "high_hz",
+        "center_hz",
+        "max_pole_radius",
+        "max_sos_section_pole_radius",
+        "center_gain",
+        "guard_passed",
+        "git_commit",
+        "protocol_sha256",
+        "matlab_version",
+        "provenance_file"
+      ]
+    }
+  ]
+}
