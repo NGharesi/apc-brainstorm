@@ -1,0 +1,443 @@
+{
+  "source_head": "e69a6eeebef2cc9314ad434d8b686d910543b8a0",
+  "files": [
+    {
+      "file": "a2_reference_map.m",
+      "bytes": 2550,
+      "sha256": "31094d8237bdd4f9cae202f3ba2da604f578f98ee11f99333f304ca277bfedda",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\a2_reference_map.m"
+    },
+    {
+      "file": "apc_fa_given_fp.m",
+      "bytes": 24189,
+      "sha256": "548cc4673a15cda8a7151bbcfae1719c7e60c1fb1bd5fa2e0ae633f79f42c430",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\apc_fa_given_fp.m"
+    },
+    {
+      "file": "apc_fp_source.m",
+      "bytes": 14927,
+      "sha256": "4ce1f4196ca2381ecf82f4398a1272dab05f5918a1cf0882bcf5e197866643e0",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\apc_fp_source.m"
+    },
+    {
+      "file": "consistency.csv",
+      "bytes": 1199,
+      "sha256": "c73bc758a76cacd7d8055199567c28f8773bfc58512fd685a03be8e6c4517e3a",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\consistency.csv"
+    },
+    {
+      "file": "deviations.json",
+      "bytes": 4755,
+      "sha256": "63a4a0901e9b7aff8680cf96b75c553430663be1e9f9bd291842344dcb646719",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\deviations.json"
+    },
+    {
+      "file": "E1_decisions.csv",
+      "bytes": 394,
+      "sha256": "d7be381050b30631c5a5e6d254452c6e63421a09ef00f0520b7ddc498d49fdfb",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\E1_decisions.csv"
+    },
+    {
+      "file": "E1_primary.csv",
+      "bytes": 1416,
+      "sha256": "af6268d82db3fc7b86740c06c331bb63700c9e8091fafd32b1af58f99b9cbab7",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\E1_primary.csv"
+    },
+    {
+      "file": "E2_fp_sources.csv",
+      "bytes": 2335,
+      "sha256": "2ce419c2a36aa49d4854f6759f8a02111e9ec7f1682c4c5bb3dbbc3d705fd897",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\E2_fp_sources.csv"
+    },
+    {
+      "file": "E2_mcnemar.csv",
+      "bytes": 2790,
+      "sha256": "94d1edba785860ea1cc5ef6707117d607db9788ac9ff8cb8646d5dbb19628031",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\E2_mcnemar.csv"
+    },
+    {
+      "file": "E3_auc.csv",
+      "bytes": 4344,
+      "sha256": "20fce812dd7fecf456640ad06432f43f79905bb885cfe52fbef812ccf89ae969",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\E3_auc.csv"
+    },
+    {
+      "file": "E3_auc_bootstrap.csv",
+      "bytes": 30497622,
+      "sha256": "4cf16b96729368066630c2c4782569fbad9ac175bcd3db432ba4dba8f99b9ad8",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\E3_auc_bootstrap.csv"
+    },
+    {
+      "file": "E3_auc_difference.csv",
+      "bytes": 1667,
+      "sha256": "89d09c358a9d7c09ad23e4e32e1ae760f8d8e4283f581a579c494588fe6ea35d",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\E3_auc_difference.csv"
+    },
+    {
+      "file": "E3_false_joint_recovery.csv",
+      "bytes": 4769,
+      "sha256": "90bc93fd3217e4bbe378ebba3a35a903976e498d10c96049c5529e0aa01e3c29",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\E3_false_joint_recovery.csv"
+    },
+    {
+      "file": "E4_ecog_bootstrap.csv",
+      "bytes": 31970073,
+      "sha256": "def6281828c9138cb612eb58482966a6cfb4a7da49d01421809a23d2696f138c",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\E4_ecog_bootstrap.csv"
+    },
+    {
+      "file": "E4_ecog_patient_summary.csv",
+      "bytes": 68915,
+      "sha256": "2c4ba8e4f3ca92f76ae10373e9753f15d37f7781cdba7129c832b581ed0ffffb",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\E4_ecog_patient_summary.csv"
+    },
+    {
+      "file": "E4_ecog_summary.csv",
+      "bytes": 5198,
+      "sha256": "1e9efcdefd913ccf95c773ad6d10f75b189f60ea04cdbe3163a62282c108b6a6",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\E4_ecog_summary.csv"
+    },
+    {
+      "file": "ecog_ablation_estimates.csv",
+      "bytes": 25300209,
+      "sha256": "78e7fd2b21d57a6889212f90ec4ac559358b9cde409f295e4b34564af87c4a96",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\ecog_ablation_estimates.csv"
+    },
+    {
+      "file": "ecog_bout_estimates.csv",
+      "bytes": 25300209,
+      "sha256": "78e7fd2b21d57a6889212f90ec4ac559358b9cde409f295e4b34564af87c4a96",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\ecog_bout_estimates.csv"
+    },
+    {
+      "file": "ecog_status_boundaries.csv",
+      "bytes": 6019,
+      "sha256": "1bf557e35573394f61b3429cf086172f950155c394ec1a852d74f1d6033a5fb6",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\ecog_status_boundaries.csv"
+    },
+    {
+      "file": "ecog_v1_reproduction.csv",
+      "bytes": 1054156,
+      "sha256": "32ce96e082c8b769ffbd3485670e917e1f2ff777bef54d95f7d671eec28c496a",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\ecog_v1_reproduction.csv"
+    },
+    {
+      "file": "ecog_v1_reproduction_summary.csv",
+      "bytes": 963,
+      "sha256": "c60d2760d1110fce2cdb61f652c4b844b4a33cfe1228e42218e84542dd6a0ed9",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\ecog_v1_reproduction_summary.csv"
+    },
+    {
+      "file": "ecog_v1_reproduction_w1.csv",
+      "bytes": 305004,
+      "sha256": "33185647b25a3e8d2df78cc68215459cc589c4eb0382231c898624f0b0a962ec",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\ecog_v1_reproduction_w1.csv"
+    },
+    {
+      "file": "ecog_v1_reproduction_w2.csv",
+      "bytes": 310395,
+      "sha256": "18fb3c4a93d7e1b01c258db8e35bcfc04974000db66999ad87bb442e8c471454",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\ecog_v1_reproduction_w2.csv"
+    },
+    {
+      "file": "ecog_v1_reproduction_w3.csv",
+      "bytes": 256628,
+      "sha256": "4266951a411a0b1c302cf4b411ac25e470644a26a0a70f71b9d7996bd03225e7",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\ecog_v1_reproduction_w3.csv"
+    },
+    {
+      "file": "ecog_v1_reproduction_w4.csv",
+      "bytes": 212072,
+      "sha256": "3b5774d5bd42aeb7d1c64e5123f780180f97cc0bdc1585302d99c4bfb3996346",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\ecog_v1_reproduction_w4.csv"
+    },
+    {
+      "file": "ecog_worker1.csv",
+      "bytes": 7423614,
+      "sha256": "29b10cbeb8d0a16fdb5791d34af591fa7fde204407ea65fceafc090566611fac",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\ecog_worker1.csv"
+    },
+    {
+      "file": "ecog_worker2.csv",
+      "bytes": 7569639,
+      "sha256": "627f8e69b7e71fb4b29750c8f7aa062cc949179dde0e03b2887bbbd518184eb4",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\ecog_worker2.csv"
+    },
+    {
+      "file": "ecog_worker3.csv",
+      "bytes": 6247997,
+      "sha256": "89340cdbfd522d2493b751f48fec3830818d964f3bbb94cae33d2e94ee0e07bc",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\ecog_worker3.csv"
+    },
+    {
+      "file": "ecog_worker4.csv",
+      "bytes": 5159062,
+      "sha256": "d0d44516476d28f9cd075715709b4ba60a43aa312b068faa3b42bb677c6140c6",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\ecog_worker4.csv"
+    },
+    {
+      "file": "figure1_recovery.png",
+      "bytes": 101092,
+      "sha256": "eb120267edd08ca59c4ceac3699a6a58d55ad9000b187417383575d416f64731",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\figure1_recovery.png"
+    },
+    {
+      "file": "figure1_recovery.svg",
+      "bytes": 34001,
+      "sha256": "6db40f977d812fc413c194294d1419e23b382b1f7ca8d458853c5ce30529558b",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\figure1_recovery.svg"
+    },
+    {
+      "file": "figure2_auc.png",
+      "bytes": 103615,
+      "sha256": "1f3a2e8a27d9072a56d37a10b7642f648dda2f91139a2fee5ba6d94674f8d602",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\figure2_auc.png"
+    },
+    {
+      "file": "figure2_auc.svg",
+      "bytes": 37648,
+      "sha256": "2dfa972fda77344f4504eeb7458eae24934e75bc8d38c4a6e0f067fa8b695d29",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\figure2_auc.svg"
+    },
+    {
+      "file": "figure3_ecog_rest_agreement.png",
+      "bytes": 99893,
+      "sha256": "9366237cf37bc7d78c3c5949582802bf9105583977f4d022341658163dc26af8",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\figure3_ecog_rest_agreement.png"
+    },
+    {
+      "file": "figure3_ecog_rest_agreement.svg",
+      "bytes": 26493,
+      "sha256": "9dd831fce34bae4e3234e049a1035d56bd9be1ee788866a68a5cfc39cd104c31",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\figure3_ecog_rest_agreement.svg"
+    },
+    {
+      "file": "figure_provenance.json",
+      "bytes": 38134,
+      "sha256": "eb21ffc25b5e7231cb69a20c9e496f43c03093fe872e4533d115ed819a15a721",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\figure_provenance.json"
+    },
+    {
+      "file": "filter_guards_w1.csv",
+      "bytes": 441471,
+      "sha256": "376068c4726e254774d9fe593a420874138cacd910c8cc27958570bd4a938861",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\filter_guards_w1.csv"
+    },
+    {
+      "file": "filter_guards_w2.csv",
+      "bytes": 432053,
+      "sha256": "895b91602b76e89326ec1c9b684e73411b8e1d517fdd3742ec24d1a463f0db03",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\filter_guards_w2.csv"
+    },
+    {
+      "file": "filter_guards_w3.csv",
+      "bytes": 373945,
+      "sha256": "7ae347861f3a90491d759843f393095555668001cd6f592e4a1f53cba5a994d5",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\filter_guards_w3.csv"
+    },
+    {
+      "file": "filter_guards_w4.csv",
+      "bytes": 303274,
+      "sha256": "26c11f79e2921b2626222ae2a79f95767553436994c79b7cd1a8b5d740b81dd6",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\filter_guards_w4.csv"
+    },
+    {
+      "file": "final_verification.json",
+      "bytes": 35515,
+      "sha256": "179737727b66049894fe2581bbe1a861d91636d5b51f30cd76f4065b51db1391",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\final_verification.json"
+    },
+    {
+      "file": "gate_apc.csv",
+      "bytes": 11705,
+      "sha256": "3580eb4e1b14b5da8d1fe9fea23c7788f68ead0d491a4318d626a9abd03d42c3",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\gate_apc.csv"
+    },
+    {
+      "file": "gate_scan.csv",
+      "bytes": 10707,
+      "sha256": "be90f408a1d2cea3b4a68c3f07ba89607aa616bd0ffd4d2f3b4500215a59b59e",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\gate_scan.csv"
+    },
+    {
+      "file": "HA_ablation_estimates.csv",
+      "bytes": 10983798,
+      "sha256": "a405359ec69a143c2efce6f06a87f2f98596bed217327ddb5d0b5ee45cb3e44a",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\HA_ablation_estimates.csv"
+    },
+    {
+      "file": "HA_worker1.csv",
+      "bytes": 2809934,
+      "sha256": "d08e3e879635576bb722383f6b2277abbd7f0485b7fbe39d9b9c1bcf7ec54e1f",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\HA_worker1.csv"
+    },
+    {
+      "file": "HA_worker2.csv",
+      "bytes": 2817269,
+      "sha256": "728fca6400abcb284e26672c27df099329c8b9112e0a872bf3ee5827abd62f9d",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\HA_worker2.csv"
+    },
+    {
+      "file": "HA_worker3.csv",
+      "bytes": 2808698,
+      "sha256": "2d22d74c6fb32f78aefd8d25234a896d8e1905e8213498ae25a950df22154db1",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\HA_worker3.csv"
+    },
+    {
+      "file": "HA_worker4.csv",
+      "bytes": 2813858,
+      "sha256": "3d700eba63f814c2c428fb8d6dbcb7e7ffe253187982543d533a26a35c82fd16",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\HA_worker4.csv"
+    },
+    {
+      "file": "HB_ablation_estimates.csv",
+      "bytes": 11111351,
+      "sha256": "718fb7d4d3065b8af0ff746a1dc4f19bd824799ccca707801b193e831c02e8e8",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\HB_ablation_estimates.csv"
+    },
+    {
+      "file": "HB_frequency_draws.csv",
+      "bytes": 837311,
+      "sha256": "b7839c5c5a937b4f621b14d0d731e2515de5e34d42bb7147b38a4bf837d38677",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\HB_frequency_draws.csv"
+    },
+    {
+      "file": "HB_null_pair_verification.csv",
+      "bytes": 752874,
+      "sha256": "48b51fd41062e410de9625c8fde4f106a3252981642eb7b2ba69952911e652b1",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\HB_null_pair_verification.csv"
+    },
+    {
+      "file": "HB_worker1.csv",
+      "bytes": 2829702,
+      "sha256": "e63140f2e13f2ca2b16c10575fd65c4897fc3401ad65b4e2b88a5ada72409b44",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\HB_worker1.csv"
+    },
+    {
+      "file": "HB_worker2.csv",
+      "bytes": 2832449,
+      "sha256": "2ed5e46ea609794596d57be037460aaa2f0f0fea25194ce5e0b8e11aa7b55aef",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\HB_worker2.csv"
+    },
+    {
+      "file": "HB_worker3.csv",
+      "bytes": 2831309,
+      "sha256": "862a7634827f8efaaeeca81492719530cbcfbb170c2681276ba887aa778b4a48",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\HB_worker3.csv"
+    },
+    {
+      "file": "HB_worker4.csv",
+      "bytes": 2814814,
+      "sha256": "ec23125c3ddb0bb59fbcb597be9015f93986839fa8ee607aed133089ae5757e3",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\HB_worker4.csv"
+    },
+    {
+      "file": "paper2_assert.m",
+      "bytes": 938,
+      "sha256": "61068a3ed1a18c698dd4944d2d0cd09bb5f4997ba67df17759f995e4c8baefc4",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\paper2_assert.m"
+    },
+    {
+      "file": "paper2_coupling_at_pair.m",
+      "bytes": 3191,
+      "sha256": "191b3fe28ec4f7ec8002438a4ca7552dadffdf68213dcf94fdc6780fff740897",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\paper2_coupling_at_pair.m"
+    },
+    {
+      "file": "paper2_ecog_v1_reference.m",
+      "bytes": 2707,
+      "sha256": "0599bc041474463b78adea917d4d239f4c62f575498cad08f207ded3a56a6b52",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\paper2_ecog_v1_reference.m"
+    },
+    {
+      "file": "paper2_environment.m",
+      "bytes": 727,
+      "sha256": "a136f4a032b120544967410c91a08cb00e45e9287fa0475609d4def4130afedc",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\paper2_environment.m"
+    },
+    {
+      "file": "paper2_error_context.m",
+      "bytes": 961,
+      "sha256": "57a29678cbbd594513a5798cec2188c56b07e148f22c785cef8f615b1699f265",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\paper2_error_context.m"
+    },
+    {
+      "file": "paper2_estimate.m",
+      "bytes": 4711,
+      "sha256": "afcf5b53ca947e0a9c651760e1eed82e202c812c9df3a1d0ad7535efc9c22541",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\paper2_estimate.m"
+    },
+    {
+      "file": "paper2_gates.m",
+      "bytes": 6430,
+      "sha256": "dace2ffce23e6def5d98661a2cc022baa45c6b916817a5d107a68f950002aa7e",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\paper2_gates.m"
+    },
+    {
+      "file": "paper2_options.m",
+      "bytes": 4153,
+      "sha256": "244a0590953cf1f07f6863dc8b1584c5325420e35d47208d41fed6195eba4bef",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\paper2_options.m"
+    },
+    {
+      "file": "paper2_prepare_run.m",
+      "bytes": 2008,
+      "sha256": "0fb227464216bcb8ca687b54242e0cae9692062056c8da16aa3c52f499174934",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\paper2_prepare_run.m"
+    },
+    {
+      "file": "paper2_worker.m",
+      "bytes": 10368,
+      "sha256": "2b9701932ae90ad6ac005e710e256575886adf33f86e61430995461e08a04c15",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\paper2_worker.m"
+    },
+    {
+      "file": "provenance.json",
+      "bytes": 32985,
+      "sha256": "745079299ffb4f67caeddf3f2a09aed90fdb95cfddf734d15a45ef3eed72b53c",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\provenance.json"
+    },
+    {
+      "file": "recovery_by_level.csv",
+      "bytes": 152391,
+      "sha256": "3bf50113f00996b9667dc224fce1b043b80e9493cf4a08e4b820714fd9279968",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\recovery_by_level.csv"
+    },
+    {
+      "file": "recovery_overall.csv",
+      "bytes": 9214,
+      "sha256": "3baec45311f8f9e258c0dfe1eaa067dd7ec42973326127748d24985b53971cac",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\recovery_overall.csv"
+    },
+    {
+      "file": "RESULTS_ablation.md",
+      "bytes": 26193,
+      "sha256": "a3808e1636ea7f241ba9392485b7b8f8fb37fbf6b5716f0f4e659cb0398373ab",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\RESULTS_ablation.md"
+    },
+    {
+      "file": "retained_step2_after_apc_failure.csv",
+      "bytes": 4411,
+      "sha256": "9e2009222698ba8d16746e1fc871d1b5cf4ca1735b1f74cc18ffd190a6f15df4",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\retained_step2_after_apc_failure.csv"
+    },
+    {
+      "file": "scan_fa_given_fp.m",
+      "bytes": 1548,
+      "sha256": "86f8ee1c8bb10b3c8bcc9dcc071312038e0049873120feed7cc24bea9829b390",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\scan_fa_given_fp.m"
+    },
+    {
+      "file": "simulation_trial_estimates.csv",
+      "bytes": 22094665,
+      "sha256": "5fe75104286f3f2e0c62ab70aff844c05c7f15320dc0814f7e25de6a6c07d343",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\simulation_trial_estimates.csv"
+    },
+    {
+      "file": "statistics.csv",
+      "bytes": 27174,
+      "sha256": "af4f1450c16b11b9b8f732349036a98868b68122845e596a9d2d7b5df4b7d1ba",
+      "source": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\statistics.csv"
+    }
+  ]
+}

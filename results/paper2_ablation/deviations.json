@@ -1,0 +1,57 @@
+{
+  "deviations": [
+    {
+      "kind": "tooling",
+      "description": "Initial provenance guard detected concurrent protocol Amendment 1 before outputs were written. User subsequently authorized Amendments 1 and 2; both pushed before gates. No method output was computed under the old hash."
+    },
+    {
+      "kind": "tooling",
+      "description": "A PowerShell inspection combined incompatible Get-Content Raw and TotalCount parameters. Reissued inspection with TotalCount only; no scientific output affected."
+    },
+    {
+      "kind": "tooling",
+      "description": "Initial runtime provenance resolved root-folder bst_apc and metric copies because MATLAB current-folder precedence overrides addpath. No signal analysis was performed. Preserved environment_attempt0_wrong_cwd.json; cd to output folder and assert repository source paths before estimators."
+    },
+    {
+      "kind": "tooling",
+      "description": "Initial canonical CSV auto-detection did not expose signal column. Failed before any estimator. Preserved gate_import_error_attempt0.json and gates_import_attempt0.log; use explicit comma delimiter, header row, names and UTF-8 as in the previous v3 gate."
+    },
+    {
+      "kind": "tooling",
+      "description": "Read-only process inspection in the restricted shell could not access CIM; used escalated Get-Process to inspect the already-authorized MATLAB startup."
+    },
+    {
+      "kind": "tooling",
+      "description": "A PowerShell inline Python preparation command had a quoting parse error before execution. Replaced it with finish_static_helpers.py; no estimator ran and no scientific output changed."
+    },
+    {
+      "kind": "tooling",
+      "description": "All workers stopped on their first input before any completed trial checkpoint/CSV because metadata-only paper2_options omitted the original parse_flag dependency. Added that helper verbatim from tagged source, preserved worker errors/logs in tooling_metadata_dependency, and resumed. Estimator source and settings unchanged."
+    },
+    {
+      "kind": "tooling",
+      "description": "Several read-only file inspections referenced an absent historical script name or used the repository folder for output-log paths. Corrected the inspection paths; no signals or results were changed."
+    },
+    {
+      "kind": "tooling",
+      "description": "After all 1575 simulation checkpoints were complete, ECoG import stopped before its first estimate because the saved APC method is labeled APC-v1.0, not APC. Corrected only that row-lookup label, preserved all four errors/logs and simulation CSV hashes in tooling_ecog_row_label, then resumed from existing simulation checkpoints."
+    },
+    {
+      "kind": "tooling",
+      "description": "Whole-CSV rewriting made checkpoint restoration slow and would also repeat prior rows after every ECoG bout. Paused only the four paper2 workers during checkpoint-only restoration (no ECoG estimates existed), preserved logs/partial CSVs and a code diff in tooling_append_logging, and changed logging to a single startup rebuild plus per-input appends. Estimator calls/settings are unchanged; completed simulation CSV bytes are checked against the pre-resume hashes."
+    },
+    {
+      "kind": "tooling",
+      "description": "Shared-stop handling overwrote STOPPED.md with a cascade message. Preserved that file as STOPPED_worker_cascade.md and wrote the root ReferenceMVL condition from the existing worker error logs; no estimator was rerun."
+    },
+    {
+      "kind": "tooling",
+      "description": "User-authorized one-time section-5 fix, identified from code without inspecting any outcome: ECoG v1 csvref reconstructed an amplitude band not saved in the CSV. Recompute original v1 end-to-end once per identical bout (fA 80-150, phase 6-30), cache exact returned info.final_band_hz, and require saved fP/raw/phase agreement within 1e-10 and exact fA/status. Keep the raw-MVL reconstruction tolerance unchanged. Archive the two partial ECoG bouts unchanged in stopped_attempt1, keep STOPPED_attempt1.md, and add pre-raise observed/expected values, source k and bout key to wrapper assertion JSON. HA/HB and ECoG v3 references are unchanged.",
+      "diff": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\ecog_v1_reference_fix.diff",
+      "diff_sha256": "762bb8a056c4d89ff211280c7e91bf39a4b566656fc4ae3ef256b07f0559fcc2",
+      "identified_from_code_without_inspecting_outcomes": true,
+      "helper_diff": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_ablation\\ecog_v1_reference_helpers.diff",
+      "helper_diff_sha256": "3686b4bad17fd39c3c290f57cdaf5b761bf2eb488971584ab2e20e2e63e60687"
+    }
+  ]
+}
