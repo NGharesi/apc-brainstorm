@@ -132,3 +132,16 @@ Joint recovery = |fP error| <= 1 Hz and |fA error| <= 8 Hz; strict = |fP error| 
   - specificity (AUC and calibrated false-positive rate);
   - rodent run-rest fP by method;
   - ECoG rest-fP agreement by method.
+
+## Amendment 1 (2026-10-24): how fP is passed to A_EVENT
+
+Written after the ablation archive was pushed (f66acb5) and before any gate was run, any V-suite was generated or any method was computed. Raised by the executor: unchanged `src/apc_event_carrier.m` reads both `status_code` and fP from its input and returns at once if the status is nonzero, so "a copy of an APC output with only fP replaced" makes A_EVENT depend on which APC output is copied and on whether APC Steps 3-4 succeeded.
+
+Replacement for the A_EVENT input rule in section 2:
+
+- A_EVENT receives the minimal input structure that `apc_event_carrier.m` already accepts (the form used for the spectral-peak input in `run_apc_premise_two_rhythm_benchmark.m`): `struct('status_code', s, 'fp_hz', fP)`.
+- `fP` is the fP source's estimate. `s = 0` if the source returned a finite fP; otherwise `s` is the source's own status code (for example 3 for F2 or F3 with no admissible candidate) and A_EVENT is invalid for that trial.
+- So A_EVENT runs whenever its fP source succeeds, for F1, F2 and F3 alike. This matches A_SCAN and A_APC, which run at any finite fP, and ablation Amendment 2, under which F1 and F2 keep their Step-2 fP even if later APC steps fail. APC end-to-end status is not inherited.
+- `apc_event_carrier.m` is unchanged.
+- The G-event gate becomes: on the canonical input, the call with the minimal structure carrying APC v1.0's fP equals (to 1e-12) the call with APC v1.0's original output, and two identical calls agree.
+- Descriptive addition: for F1 and F2, report the number of trials or bouts in which the Step-2 fP is finite but APC end-to-end status is nonzero (the only trials in which F1 x A_EVENT can differ from the original APC-event-carrier, which inherited APC status).
