@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "classification": "confirmatory",
+  "utc": "2026-10-24T19:36:38.412908+00:00",
+  "archive_and_push_hash": "48b8f573c5a59539334f74c65eb4a2cb9b557c55",
+  "protocol_sha256": "e3a482fabe40bfd0c6a243d867df5dc919669a3b1400a637954ca0ce334f50b5",
+  "generator_checks": 7,
+  "inputs": 950,
+  "rows": 6650,
+  "src_unchanged": true,
+  "input_banks_unchanged": true,
+  "clean_git_tree": true,
+  "f2nf_source_fp_matches_apc_v3_noflip": true,
+  "paired_apc_options_differ_only_flip": true,
+  "selected_comparator_grids_match_validation": true,
+  "decision": "polarity alignment suppresses recovery of a coupled non-dominant rhythm (confirmed)",
+  "figure_dimensions": [
+    5700,
+    1800
+  ],
+  "filter_guard_files": [
+    {
+      "file": "filter_guards_w1.csv",
+      "rows": 517,
+      "sha256": "296dbb2008c125f75c45bf7ac29cc448e154ad8889fcd742c14e256eff1e143a"
+    },
+    {
+      "file": "filter_guards_w2.csv",
+      "rows": 518,
+      "sha256": "084d6f494cacd706015329d1d7320dbb3e369c40573ee59cc5b00a65e109ee9a"
+    },
+    {
+      "file": "filter_guards_w3.csv",
+      "rows": 516,
+      "sha256": "6ff25fb2711ecb9443bedaaddf2c4f439cd8b0a3199c576ef4fe8b42113e9114"
+    },
+    {
+      "file": "filter_guards_w4.csv",
+      "rows": 516,
+      "sha256": "2b445165bbf202f5cdc56bed0d1d7716b72eaf17ed63cacf096fb3c4c8ef3335"
+    }
+  ],
+  "results_committed": false
+}

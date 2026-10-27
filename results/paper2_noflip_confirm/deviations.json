@@ -1,0 +1,16 @@
+{
+  "classification": "confirmatory",
+  "deviations": [
+    {
+      "code": "ENVIRONMENT_VER_SYMBOL_SHADOW",
+      "utc": "2026-10-24T19:25:24.899319+00:00",
+      "reason": "Worker 1 failed in provenance logging before any trial: local variable ver, used later for version selection, shadowed the toolbox ver function. Other three workers were unaffected.",
+      "fix": "Use feval('ver') for toolbox metadata. Restart worker 1 only, with the same partition and options. Preserve all other completed checkpoints.",
+      "identified_without_looking_at_method_outcomes": true,
+      "failed_worker_completed_inputs": 0,
+      "before_sha256": "709827f3a9aeb53eceea580a76ab95bbdcfaaa86e4e001306f5d95254aac99a8",
+      "after_sha256": "dc5b11d766b8d404f6232e49620a3a00edfe305c85f7bcd71788b30ade6a049e",
+      "preserved_directory": "tooling_environment_ver_attempt1"
+    }
+  ]
+}

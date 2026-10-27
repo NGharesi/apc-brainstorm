@@ -1,0 +1,1380 @@
+{
+  "status": "COMPLETE",
+  "classification": "confirmatory",
+  "git_head": "48b8f573c5a59539334f74c65eb4a2cb9b557c55",
+  "archive_commit": "48b8f573c5a59539334f74c65eb4a2cb9b557c55",
+  "pushed_hash": "48b8f573c5a59539334f74c65eb4a2cb9b557c55",
+  "initial_protocol_commit": "92992c108333314a0abf36b555a68b90d58026da",
+  "protocol_sha256": "e3a482fabe40bfd0c6a243d867df5dc919669a3b1400a637954ca0ce334f50b5",
+  "push_succeeded_before_signal_generation": true,
+  "utc": "2026-10-24T19:14:01.504798+00:00",
+  "seeds": {
+    "W3": 20261120,
+    "W1": 20261121,
+    "check_V3": 20261112,
+    "check_V1": 20261110
+  },
+  "validation_configuration": {
+    "V1": {
+      "phase_fp_hz": 8,
+      "phase_half_width_hz": 1.5,
+      "amplitude_grid_hz": [
+        80,
+        84,
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148,
+        152,
+        156,
+        160
+      ],
+      "amplitude_half_width_hz": 14,
+      "filter": "original SOS-guarded butter(4), filtfilt",
+      "tie_rule": "first grid maximum",
+      "metric": "raw Canolty MVL / sqrt(mean(A.^2))",
+      "phase_grid_hz": [
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13,
+        13.5,
+        14
+      ],
+      "apc_options_v1": {
+        "fA": [
+          80,
+          160
+        ],
+        "epoch": [
+          -0.6,
+          0.6
+        ],
+        "decomposition": "fft_peak",
+        "metric": "canolty",
+        "diagm": false,
+        "surrogates": false,
+        "num_perm": 0,
+        "numPhaseBins": 18,
+        "burstTimeBandwidth": 5,
+        "phaseTimeBandwidth": 20,
+        "phaseEpochCycles": 3,
+        "minPhaseHz": 1,
+        "maxPhaseHz": 30,
+        "flipTroughs": true,
+        "burstProminenceScale": 0.75,
+        "surrogateMethod": "circular_shift",
+        "amplitudeBandWidthHz": 4,
+        "stepFourMode": "v1",
+        "fPRefine": true,
+        "fPMaxBinSpacingHz": 0.05,
+        "version": "v1"
+      },
+      "apc_options_v3": {
+        "fA": [
+          80,
+          160
+        ],
+        "epoch": [
+          -0.6,
+          0.6
+        ],
+        "decomposition": "fft_peak",
+        "metric": "canolty",
+        "diagm": false,
+        "surrogates": false,
+        "num_perm": 0,
+        "numPhaseBins": 18,
+        "burstTimeBandwidth": 5,
+        "phaseTimeBandwidth": 20,
+        "phaseEpochCycles": 3,
+        "minPhaseHz": 1,
+        "maxPhaseHz": 30,
+        "flipTroughs": true,
+        "burstProminenceScale": 0.75,
+        "surrogateMethod": "circular_shift",
+        "amplitudeBandWidthHz": 4,
+        "stepFourMode": "v1",
+        "fPRefine": true,
+        "fPMaxBinSpacingHz": 0.05,
+        "version": "v3"
+      }
+    },
+    "V2": {
+      "phase_fp_hz": 8,
+      "phase_half_width_hz": 1.5,
+      "amplitude_grid_hz": [
+        80,
+        84,
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148,
+        152,
+        156,
+        160
+      ],
+      "amplitude_half_width_hz": 30,
+      "filter": "original SOS-guarded butter(4), filtfilt",
+      "tie_rule": "first grid maximum",
+      "metric": "raw Canolty MVL / sqrt(mean(A.^2))",
+      "phase_grid_hz": [
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13,
+        13.5,
+        14,
+        14.5,
+        15,
+        15.5,
+        16,
+        16.5,
+        17,
+        17.5,
+        18,
+        18.5,
+        19,
+        19.5,
+        20,
+        20.5,
+        21,
+        21.5,
+        22,
+        22.5,
+        23,
+        23.5,
+        24,
+        24.5,
+        25,
+        25.5,
+        26,
+        26.5,
+        27,
+        27.5,
+        28,
+        28.5,
+        29,
+        29.5,
+        30
+      ],
+      "apc_options_v1": {
+        "fA": [
+          80,
+          150
+        ],
+        "version": "v1"
+      },
+      "apc_options_v3": {
+        "fA": [
+          80,
+          150
+        ],
+        "version": "v3",
+        "minPhaseHz": 1,
+        "maxPhaseHz": 30
+      }
+    },
+    "V4": {
+      "phase_fp_hz": 8,
+      "phase_half_width_hz": 1.5,
+      "amplitude_grid_hz": [
+        80,
+        84,
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148,
+        152,
+        156,
+        160
+      ],
+      "amplitude_half_width_hz": 14,
+      "filter": "original SOS-guarded butter(4), filtfilt",
+      "tie_rule": "first grid maximum",
+      "metric": "raw Canolty MVL / sqrt(mean(A.^2))",
+      "phase_grid_hz": [
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13,
+        13.5,
+        14
+      ],
+      "apc_options_v1": {
+        "fA": [
+          80,
+          160
+        ],
+        "epoch": [
+          -0.6,
+          0.6
+        ],
+        "decomposition": "fft_peak",
+        "metric": "canolty",
+        "diagm": false,
+        "surrogates": false,
+        "num_perm": 0,
+        "numPhaseBins": 18,
+        "burstTimeBandwidth": 5,
+        "phaseTimeBandwidth": 20,
+        "phaseEpochCycles": 3,
+        "minPhaseHz": 1,
+        "maxPhaseHz": 30,
+        "flipTroughs": true,
+        "burstProminenceScale": 0.75,
+        "surrogateMethod": "circular_shift",
+        "amplitudeBandWidthHz": 4,
+        "stepFourMode": "v1",
+        "fPRefine": true,
+        "fPMaxBinSpacingHz": 0.05,
+        "version": "v1"
+      },
+      "apc_options_v3": {
+        "fA": [
+          80,
+          160
+        ],
+        "epoch": [
+          -0.6,
+          0.6
+        ],
+        "decomposition": "fft_peak",
+        "metric": "canolty",
+        "diagm": false,
+        "surrogates": false,
+        "num_perm": 0,
+        "numPhaseBins": 18,
+        "burstTimeBandwidth": 5,
+        "phaseTimeBandwidth": 20,
+        "phaseEpochCycles": 3,
+        "minPhaseHz": 1,
+        "maxPhaseHz": 30,
+        "flipTroughs": true,
+        "burstProminenceScale": 0.75,
+        "surrogateMethod": "circular_shift",
+        "amplitudeBandWidthHz": 4,
+        "stepFourMode": "v1",
+        "fPRefine": true,
+        "fPMaxBinSpacingHz": 0.05,
+        "version": "v3"
+      }
+    },
+    "ecog": {
+      "phase_fp_hz": 8,
+      "phase_half_width_hz": 1.5,
+      "amplitude_grid_hz": [
+        80,
+        84,
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148
+      ],
+      "amplitude_half_width_hz": 30,
+      "filter": "original SOS-guarded butter(4), filtfilt",
+      "tie_rule": "first grid maximum",
+      "metric": "raw Canolty MVL / sqrt(mean(A.^2))",
+      "phase_grid_hz": [
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13,
+        13.5,
+        14,
+        14.5,
+        15,
+        15.5,
+        16,
+        16.5,
+        17,
+        17.5,
+        18,
+        18.5,
+        19,
+        19.5,
+        20,
+        20.5,
+        21,
+        21.5,
+        22,
+        22.5,
+        23,
+        23.5,
+        24,
+        24.5,
+        25,
+        25.5,
+        26,
+        26.5,
+        27,
+        27.5,
+        28,
+        28.5,
+        29,
+        29.5,
+        30
+      ],
+      "apc_options_v1": {
+        "fA": [
+          80,
+          150
+        ],
+        "minPhaseHz": 6,
+        "maxPhaseHz": 30,
+        "version": "v1"
+      },
+      "apc_options_v3": {
+        "fA": [
+          80,
+          150
+        ],
+        "minPhaseHz": 1,
+        "maxPhaseHz": 30,
+        "version": "v3"
+      }
+    },
+    "V3": {
+      "amplitude_grid_hz": [
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148
+      ],
+      "amplitude_half_width_hz": 14,
+      "phase_grid_hz": [
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13,
+        13.5,
+        14
+      ],
+      "apc_options_v1": {
+        "fA": [
+          80,
+          152
+        ],
+        "epoch": [
+          -0.6,
+          0.6
+        ],
+        "decomposition": "fft_peak",
+        "metric": "canolty",
+        "diagm": false,
+        "surrogates": false,
+        "num_perm": 0,
+        "numPhaseBins": 18,
+        "minPhaseCycles": 3,
+        "flipTroughs": true
+      },
+      "apc_options_v3": {
+        "fA": [
+          80,
+          152
+        ],
+        "epoch": [
+          -0.6,
+          0.6
+        ],
+        "decomposition": "fft_peak",
+        "metric": "canolty",
+        "diagm": false,
+        "surrogates": false,
+        "num_perm": 0,
+        "numPhaseBins": 18,
+        "minPhaseCycles": 3,
+        "flipTroughs": true,
+        "version": "v3",
+        "minPhaseHz": 1,
+        "maxPhaseHz": 30
+      }
+    },
+    "rodent": {
+      "amplitude_grid_hz": [
+        80,
+        84,
+        88,
+        92,
+        96,
+        100,
+        104,
+        108,
+        112,
+        116,
+        120,
+        124,
+        128,
+        132,
+        136,
+        140,
+        144,
+        148
+      ],
+      "amplitude_half_width_hz": 12,
+      "phase_grid_hz": [
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12
+      ],
+      "apc_options_v1": {
+        "fA": [
+          80,
+          150
+        ]
+      },
+      "apc_options_v3": {
+        "fA": [
+          80,
+          150
+        ],
+        "version": "v3",
+        "minPhaseHz": 1,
+        "maxPhaseHz": 30
+      }
+    }
+  },
+  "file_sha256": {
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\bst_apc.m": "2e8e37a58c3b53a5e999cb7e486acdeeab4ab83d50ac5dd848d91a82d1cf3636",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\sp_raw_fp.m": "af45ee52f70bc737add791575ca9a344eb852496bec2b79f740337c02160365f",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\apc_v3_spectral_peak.m": "42565a27c6991b9a2eaa7b2b52552a3dc06c09f6acb84b927ba31f65dde4fa3d",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\src\\calc_MI_all_methods.m": "22aed807d9c05fe528ed1c873481560c2392c41c5f6d7cc8af158da04dc193f9",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\results\\paper2_ablation\\apc_fp_source.m": "4ce1f4196ca2381ecf82f4398a1272dab05f5918a1cf0882bcf5e197866643e0",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\results\\paper2_ablation\\scan_fa_given_fp.m": "86f8ee1c8bb10b3c8bcc9dcc071312038e0049873120feed7cc24bea9829b390",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\results\\paper2_validation\\validation_scan_fa.m": "b990c2fd46225aa1483b0ff43d3e9c0b9fd97cfb7a674fc9d55bd90f1ff8e88c",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\results\\paper2_validation\\validation_a2_map.m": "64689a490996ce8ef0829ee67be9ffceff6f4367b8410f926a1a1d8cd3d024a1",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\results\\paper2_validation\\validation_settings.m": "b980de53c898c5cc518a9587eb879f312f710c632e289c1e74ca8422f5546fcb",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\results\\paper2_validation\\configuration.json": "e01d9cc47ee521cc402a61198d53218a7fb96b2ae1c6229aa59f5285592f59b2",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\results\\paper2_validation\\validation_hb_cases.m": "6a3662e331fb90017188870e9ea860a1c81b469a091f4ddf329cb7b3e846e3b4",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\results\\paper2_validation\\validation_p1_generator.m": "828952d05e3cdf9725ac2886bb105d1e7d0788949a7cff72eaf219fc71d67be6",
+    "C:\\Users\\nghare\\.brainstorm\\process\\apc-brainstorm-publish\\analysis\\v2_revision\\v2_heldout_generator.m": "7554a362bcdfad8d6432402bef415fb3035fc3579f45bb4fedb2ca5708c714a7",
+    "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\final\\final_sos_filter.m": "7134e5711485ff628a0dd980e722fc6e59205da43d17a80facdaa7724202743e"
+  },
+  "scan_implementation_note": "F2nf uses unchanged scan_fa_given_fp heldout helper. For W3 its score vector is restricted to the validation 88:4:148 candidates before the unchanged first-maximum tie rule; the extra computed centres are unused. Selected grids, bands and metric equal validation. W1 uses the helper directly.",
+  "src_modified": false,
+  "new_results_committed": false,
+  "input_banks": [
+    {
+      "suite": "W3",
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_noflip_confirm\\W3_inputs.mat",
+      "sha256": "0be8731d7e28c5e4bce75db2ab00958ba4cf445e6bf3f170495032b60ace4472"
+    },
+    {
+      "suite": "W1",
+      "path": "C:\\Users\\nghare\\.brainstorm\\process\\revision_checks\\paper2_noflip_confirm\\W1_inputs.mat",
+      "sha256": "df5e8c3e5daa9002a3c9df71970064dbb27ecd4d86b6995e5022278262a6be36"
+    }
+  ],
+  "implementation_sha256": {
+    "confirm_generate.m": "c30f66428c1fc7d7f1021fc87e189e2e713b6c6b6a39fd80cff1a90a13df17ce",
+    "confirm_worker.m": "499cb19f2e97f97332c8538bd6b9189b4f716b0af3be365e048b0d6de179dec5",
+    "confirm_analysis.py": "2cd32c74f7ac79a7696801ce2497bfc7e5bef935d31a32b03d2786343af08c14",
+    "await_confirm.py": "f56c1b439c50c7dedd51e6b2a6b9fadb4fe9da60de0a96bea2332919bf7c1d99"
+  },
+  "started_utc": "2026-10-24T19:20:22.178669+00:00",
+  "worker_count": 4,
+  "tooling_fixes": [
+    {
+      "code": "ENVIRONMENT_VER_SYMBOL_SHADOW",
+      "utc": "2026-10-24T19:25:24.899319+00:00",
+      "reason": "Worker 1 failed in provenance logging before any trial: local variable ver, used later for version selection, shadowed the toolbox ver function. Other three workers were unaffected.",
+      "fix": "Use feval('ver') for toolbox metadata. Restart worker 1 only, with the same partition and options. Preserve all other completed checkpoints.",
+      "identified_without_looking_at_method_outcomes": true,
+      "failed_worker_completed_inputs": 0,
+      "before_sha256": "709827f3a9aeb53eceea580a76ab95bbdcfaaa86e4e001306f5d95254aac99a8",
+      "after_sha256": "dc5b11d766b8d404f6232e49620a3a00edfe305c85f7bcd71788b30ade6a049e",
+      "preserved_directory": "tooling_environment_ver_attempt1"
+    }
+  ],
+  "implementation_sha256_after_tooling": {
+    "confirm_worker.m": "dc5b11d766b8d404f6232e49620a3a00edfe305c85f7bcd71788b30ade6a049e"
+  },
+  "completed_utc": "2026-10-24T19:36:38.412908+00:00",
+  "results_committed": false,
+  "environment": {
+    "matlab_version": "9.13.0.2105380 (R2022b) Update 2",
+    "toolbox_versions": [
+      {
+        "Name": "5G Toolbox",
+        "Version": "2.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "AUTOSAR Blockset",
+        "Version": "3.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Aerospace Blockset",
+        "Version": "5.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Aerospace Toolbox",
+        "Version": "4.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Antenna Toolbox",
+        "Version": "5.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Audio Toolbox",
+        "Version": "3.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Automated Driving Toolbox",
+        "Version": "3.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Bioinformatics Toolbox",
+        "Version": "4.16.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Bluetooth Toolbox",
+        "Version": "1.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Communications Toolbox",
+        "Version": "7.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Computer Vision Toolbox",
+        "Version": "10.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Control System Toolbox",
+        "Version": "10.12",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Curve Fitting Toolbox",
+        "Version": "3.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "DDS Blockset",
+        "Version": "1.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "DSP HDL Toolbox",
+        "Version": "1.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "DSP System Toolbox",
+        "Version": "9.15",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Data Acquisition Toolbox",
+        "Version": "4.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Database Toolbox",
+        "Version": "10.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Datafeed Toolbox",
+        "Version": "6.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "DatapixxToolbox",
+        "Version": "0.9,",
+        "Release": "Aug",
+        "Date": "2009"
+      },
+      {
+        "Name": "Deep Learning HDL Toolbox",
+        "Version": "1.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Deep Learning Toolbox",
+        "Version": "14.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "EEGLAB Toolbox to process EEG data",
+        "Version": "-",
+        "Release": "see",
+        "Date": "eeg_getversion()"
+      },
+      {
+        "Name": "Econometrics Toolbox",
+        "Version": "6.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Embedded Coder",
+        "Version": "7.9",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Filter Design HDL Coder",
+        "Version": "3.1.12",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Financial Instruments Toolbox",
+        "Version": "3.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Financial Toolbox",
+        "Version": "6.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Fixed-Point Designer",
+        "Version": "7.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Fuzzy Logic Toolbox",
+        "Version": "3.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "GPU Coder",
+        "Version": "2.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Global Optimization Toolbox",
+        "Version": "4.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "HDL Coder",
+        "Version": "4.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "HDL Verifier",
+        "Version": "7.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Image Acquisition Toolbox",
+        "Version": "6.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Image Processing Toolbox",
+        "Version": "11.6",
+        "Release": "(R2022b)",
+        "Date": "24-May-2022"
+      },
+      {
+        "Name": "Industrial Communication Toolbox",
+        "Version": "6.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Instrument Control Toolbox",
+        "Version": "4.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "LTE Toolbox",
+        "Version": "3.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Lidar Toolbox",
+        "Version": "2.2",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "MATLAB",
+        "Version": "9.13",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "MATLAB Coder",
+        "Version": "5.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "MATLAB Compiler",
+        "Version": "8.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "MATLAB Compiler SDK",
+        "Version": "7.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "MATLAB Report Generator",
+        "Version": "5.13",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Mapping Toolbox",
+        "Version": "5.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Medical Imaging Toolbox",
+        "Version": "1.0",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Mixed-Signal Blockset",
+        "Version": "2.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Model Predictive Control Toolbox",
+        "Version": "8.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Model-Based Calibration Toolbox",
+        "Version": "5.13",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Motor Control Blockset",
+        "Version": "1.5",
+        "Release": "(R2022b)",
+        "Date": "24-May-2022"
+      },
+      {
+        "Name": "Navigation Toolbox",
+        "Version": "2.3",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Optimization Toolbox",
+        "Version": "9.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Parallel Computing Toolbox",
+        "Version": "7.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Partial Differential Equation Toolbox",
+        "Version": "3.9",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Phased Array System Toolbox",
+        "Version": "4.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Powertrain Blockset",
+        "Version": "1.12",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Predictive Maintenance Toolbox",
+        "Version": "2.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Psychtoolbox",
+        "Version": "3.0.19",
+        "Release": "17 February",
+        "Date": "2023"
+      },
+      {
+        "Name": "RF Blockset",
+        "Version": "8.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "RF PCB Toolbox",
+        "Version": "1.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "RF Toolbox",
+        "Version": "4.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "ROS Toolbox",
+        "Version": "1.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Radar Toolbox",
+        "Version": "1.3",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Reinforcement Learning Toolbox",
+        "Version": "2.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Requirements Toolbox",
+        "Version": "2.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Risk Management Toolbox",
+        "Version": "2.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Robotics System Toolbox",
+        "Version": "4.1",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Robust Control Toolbox",
+        "Version": "6.11.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Satellite Communications Toolbox",
+        "Version": "1.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Sensor Fusion and Tracking Toolbox",
+        "Version": "2.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "SerDes Toolbox",
+        "Version": "2.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Signal Integrity Toolbox",
+        "Version": "1.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Signal Processing Toolbox",
+        "Version": "9.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "SimBiology",
+        "Version": "6.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "SimEvents",
+        "Version": "5.13",
+        "Release": "(R2022b)",
+        "Date": "15-Jun-2022"
+      },
+      {
+        "Name": "Simscape",
+        "Version": "5.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simscape Battery",
+        "Version": "1.0",
+        "Release": "(R2022b)",
+        "Date": "21-Jun-2022"
+      },
+      {
+        "Name": "Simscape Driveline",
+        "Version": "3.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simscape Electrical",
+        "Version": "7.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simscape Fluids",
+        "Version": "3.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simscape Multibody",
+        "Version": "7.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink",
+        "Version": "10.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink 3D Animation",
+        "Version": "9.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Check",
+        "Version": "6.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Code Inspector",
+        "Version": "4.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Coder",
+        "Version": "9.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Compiler",
+        "Version": "1.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Control Design",
+        "Version": "6.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Coverage",
+        "Version": "5.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Design Optimization",
+        "Version": "3.12",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Design Verifier",
+        "Version": "4.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Desktop Real-Time",
+        "Version": "5.15",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink PLC Coder",
+        "Version": "3.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Real-Time",
+        "Version": "8.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Report Generator",
+        "Version": "5.13",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Simulink Test",
+        "Version": "3.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "SoC Blockset",
+        "Version": "1.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Spreadsheet Link",
+        "Version": "3.4.8",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Stateflow",
+        "Version": "10.7",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Statistical Parametric Mapping",
+        "Version": "7771",
+        "Release": "(SPM12)",
+        "Date": "13-Jan-20"
+      },
+      {
+        "Name": "Statistics and Machine Learning Toolbox",
+        "Version": "12.4",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Symbolic Math Toolbox",
+        "Version": "9.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "System Composer",
+        "Version": "2.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "System Identification Toolbox",
+        "Version": "10.0",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Text Analytics Toolbox",
+        "Version": "1.9",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "UAV Toolbox",
+        "Version": "1.4",
+        "Release": "(R2022b)",
+        "Date": "25-Jul-2022"
+      },
+      {
+        "Name": "Vehicle Dynamics Blockset",
+        "Version": "1.9",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Vehicle Network Toolbox",
+        "Version": "5.3",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Vision HDL Toolbox",
+        "Version": "2.6",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "WLAN Toolbox",
+        "Version": "3.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Wavelet Toolbox",
+        "Version": "6.2",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Wireless HDL Toolbox",
+        "Version": "2.5",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      },
+      {
+        "Name": "Wireless Testbench",
+        "Version": "1.1",
+        "Release": "(R2022b)",
+        "Date": "13-May-2022"
+      }
+    ]
+  },
+  "verification": {
+    "status": "PASS",
+    "classification": "confirmatory",
+    "utc": "2026-10-24T19:36:38.412908+00:00",
+    "archive_and_push_hash": "48b8f573c5a59539334f74c65eb4a2cb9b557c55",
+    "protocol_sha256": "e3a482fabe40bfd0c6a243d867df5dc919669a3b1400a637954ca0ce334f50b5",
+    "generator_checks": 7,
+    "inputs": 950,
+    "rows": 6650,
+    "src_unchanged": true,
+    "input_banks_unchanged": true,
+    "clean_git_tree": true,
+    "f2nf_source_fp_matches_apc_v3_noflip": true,
+    "paired_apc_options_differ_only_flip": true,
+    "selected_comparator_grids_match_validation": true,
+    "decision": "polarity alignment suppresses recovery of a coupled non-dominant rhythm (confirmed)",
+    "figure_dimensions": [
+      5700,
+      1800
+    ],
+    "filter_guard_files": [
+      {
+        "file": "filter_guards_w1.csv",
+        "rows": 517,
+        "sha256": "296dbb2008c125f75c45bf7ac29cc448e154ad8889fcd742c14e256eff1e143a"
+      },
+      {
+        "file": "filter_guards_w2.csv",
+        "rows": 518,
+        "sha256": "084d6f494cacd706015329d1d7320dbb3e369c40573ee59cc5b00a65e109ee9a"
+      },
+      {
+        "file": "filter_guards_w3.csv",
+        "rows": 516,
+        "sha256": "6ff25fb2711ecb9443bedaaddf2c4f439cd8b0a3199c576ef4fe8b42113e9114"
+      },
+      {
+        "file": "filter_guards_w4.csv",
+        "rows": 516,
+        "sha256": "2b445165bbf202f5cdc56bed0d1d7716b72eaf17ed63cacf096fb3c4c8ef3335"
+      }
+    ],
+    "results_committed": false
+  }
+}

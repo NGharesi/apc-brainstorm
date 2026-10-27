@@ -1,0 +1,5067 @@
+{
+  "classification": "confirmatory",
+  "git_commit": "48b8f573c5a59539334f74c65eb4a2cb9b557c55",
+  "protocol_sha256": "e3a482fabe40bfd0c6a243d867df5dc919669a3b1400a637954ca0ce334f50b5",
+  "files": [
+    {
+      "path": "analysis.log",
+      "bytes": 1144,
+      "sha256": "a9730feced4eb9e1fcbd9f183ea56f3266b1cfa492b1ec47f2ab447a4bd731c1"
+    },
+    {
+      "path": "analysis_complete.json",
+      "bytes": 1080,
+      "sha256": "d049a61de08dc68b4aa6903093936a1c993d8a3043262b9f9ec0d9e0ad4644eb"
+    },
+    {
+      "path": "await_confirm.py",
+      "bytes": 923,
+      "sha256": "f56c1b439c50c7dedd51e6b2a6b9fadb4fe9da60de0a96bea2332919bf7c1d99"
+    },
+    {
+      "path": "BTA_power.csv",
+      "bytes": 2574,
+      "sha256": "93a071b8fbfe007eafa156860ab390c97afe60c836c54c31c53e561e8e5c4a7e"
+    },
+    {
+      "path": "checkpoints\\W1_1.mat",
+      "bytes": 675047,
+      "sha256": "6c0f24e74cba74d84d336e7ede6cd80184b98cfc31fea24b9ae14a69141a2752"
+    },
+    {
+      "path": "checkpoints\\W1_10.mat",
+      "bytes": 676653,
+      "sha256": "34c8443e53edc27eafd79f068776a74883245c445d1685aacdbc812304541f42"
+    },
+    {
+      "path": "checkpoints\\W1_100.mat",
+      "bytes": 653059,
+      "sha256": "3d99e8a9e90fff99b5984ffc4e3c53489968335731780ce721567cb88b554357"
+    },
+    {
+      "path": "checkpoints\\W1_101.mat",
+      "bytes": 777148,
+      "sha256": "a1d376818e1c8a4f1d7c1e8b2f97a7526102a01acf0707842de1853cd2d0d67f"
+    },
+    {
+      "path": "checkpoints\\W1_102.mat",
+      "bytes": 697428,
+      "sha256": "cad6ad5cb4c2cc15fe3b4d4195f3af6c92138980baa1da4745246ea6754a0baf"
+    },
+    {
+      "path": "checkpoints\\W1_103.mat",
+      "bytes": 819394,
+      "sha256": "f240257bc037c590b6a8018a86268368418bce83c92fbfc22f7f558c4d6c8527"
+    },
+    {
+      "path": "checkpoints\\W1_104.mat",
+      "bytes": 657411,
+      "sha256": "9209cd3f6fcf6306ea9a816ce285af45a1f2ce29e69d5847aeb882606b842141"
+    },
+    {
+      "path": "checkpoints\\W1_105.mat",
+      "bytes": 808302,
+      "sha256": "92049421b4079925130363f584b7794959d419eadc4d624aa98fd6f2109657bf"
+    },
+    {
+      "path": "checkpoints\\W1_106.mat",
+      "bytes": 663677,
+      "sha256": "115ad9934cf42b1f119dca037c58f40b72e0da1b0ca0fbd999058b2a059063a3"
+    },
+    {
+      "path": "checkpoints\\W1_107.mat",
+      "bytes": 656535,
+      "sha256": "8742b19f4388d4b38d8703fe64f02df093d1feab71d997bc9a448b469fdf641d"
+    },
+    {
+      "path": "checkpoints\\W1_108.mat",
+      "bytes": 693251,
+      "sha256": "b3ddf08a8b93633ed0ce5b091c062b343404077c4cc17f18adf842524e66729a"
+    },
+    {
+      "path": "checkpoints\\W1_109.mat",
+      "bytes": 804953,
+      "sha256": "fc2e21c0adcd9c63fd8c79a31a4b34e83685875ef9859b420c56987abdc041ad"
+    },
+    {
+      "path": "checkpoints\\W1_11.mat",
+      "bytes": 677260,
+      "sha256": "e3ad254a11703b7b6262f3eba51ba5dd7362655ce3cc8006e54dcaf97e34497a"
+    },
+    {
+      "path": "checkpoints\\W1_110.mat",
+      "bytes": 695647,
+      "sha256": "3408339ca08f4fb2c71fa0863f8b5d8656bc78314ecf281d0d93e1e8b046500d"
+    },
+    {
+      "path": "checkpoints\\W1_111.mat",
+      "bytes": 776112,
+      "sha256": "fcd2e98e5838f47da56ea13fdf1e1e35ffca151b719da8efbfae609888158491"
+    },
+    {
+      "path": "checkpoints\\W1_112.mat",
+      "bytes": 672161,
+      "sha256": "70e588e787a04cbb81444e8ec460118ea6ce24030eb7fca5f7dff8bb1e2cefb0"
+    },
+    {
+      "path": "checkpoints\\W1_113.mat",
+      "bytes": 672029,
+      "sha256": "2ed93bc7412a2c6c9e3ff13fecd4aae3d3264428003c2dc2319149aedd9c5a2c"
+    },
+    {
+      "path": "checkpoints\\W1_114.mat",
+      "bytes": 696698,
+      "sha256": "1076be629b11356d6e2f87edaaa82bd5fc838dd1a3a27f7a3e5517065048cdbe"
+    },
+    {
+      "path": "checkpoints\\W1_115.mat",
+      "bytes": 646944,
+      "sha256": "308ef3f9772bd4642b61a5a8af439f71bdb8398deca9cee389f6d91f59876ec7"
+    },
+    {
+      "path": "checkpoints\\W1_116.mat",
+      "bytes": 688102,
+      "sha256": "3b23bce0d6c816b7db57b021ecbe54d1991be861e159ed9c56371e4e5da1444e"
+    },
+    {
+      "path": "checkpoints\\W1_117.mat",
+      "bytes": 648227,
+      "sha256": "f812d1a4da192580a4e8caa2659cf84f97a5f734a84cdc877625db2ee1c6b142"
+    },
+    {
+      "path": "checkpoints\\W1_118.mat",
+      "bytes": 675826,
+      "sha256": "c8ae4e79f1bbda23bcd4a6aa4d606c599f94cfd19f7bccf19068f994bf5e177a"
+    },
+    {
+      "path": "checkpoints\\W1_119.mat",
+      "bytes": 669063,
+      "sha256": "8cff1bdd531c1502cce453fb22cf638dcbb4959c9b66011d5226cb057335b9fb"
+    },
+    {
+      "path": "checkpoints\\W1_120.mat",
+      "bytes": 675541,
+      "sha256": "3bb418e568c7d72b3ec46ef25624fdaf5a5ea9d7bbf9059ddb7cbf3541dd7fd0"
+    },
+    {
+      "path": "checkpoints\\W1_121.mat",
+      "bytes": 673400,
+      "sha256": "4a2ece1190f59190054bb9d499ffbdb1383be1cdae71dbee5c579c2a3258cde9"
+    },
+    {
+      "path": "checkpoints\\W1_122.mat",
+      "bytes": 688460,
+      "sha256": "2e4593654ac02f189cb1974fe95733049fab9191a6d14cbf27ce42235387c880"
+    },
+    {
+      "path": "checkpoints\\W1_123.mat",
+      "bytes": 786087,
+      "sha256": "d0022b5fe6956240dd2b178b982a901734bbd109379f49a9d1d4ea7e9a499c6c"
+    },
+    {
+      "path": "checkpoints\\W1_124.mat",
+      "bytes": 686824,
+      "sha256": "d91a35da61f352be70db3abdb74313aefe9b1150a9704e9263846f1941984b94"
+    },
+    {
+      "path": "checkpoints\\W1_125.mat",
+      "bytes": 679595,
+      "sha256": "ec6cb273ff5f437ff141371ab36a22ff05df54bced42facd04ec7404ee22ad9f"
+    },
+    {
+      "path": "checkpoints\\W1_126.mat",
+      "bytes": 696714,
+      "sha256": "b16bf365d16b4e2046d02572575cad476a1952646ed663f7cac7f41071ac947b"
+    },
+    {
+      "path": "checkpoints\\W1_127.mat",
+      "bytes": 650513,
+      "sha256": "3a68dcaf28bd7d30b151d84e5f01444759d0a97a67df509b9a7b37c45dda3d88"
+    },
+    {
+      "path": "checkpoints\\W1_128.mat",
+      "bytes": 666076,
+      "sha256": "2ac98e80b44d2afd4d6923f5d14440158ed5119caa4e0c5d6dc003c6438f2915"
+    },
+    {
+      "path": "checkpoints\\W1_129.mat",
+      "bytes": 842211,
+      "sha256": "27e13b211b327f7e4c4897eab147096974794afd81f706fe183f95d21b608185"
+    },
+    {
+      "path": "checkpoints\\W1_13.mat",
+      "bytes": 666749,
+      "sha256": "066827dac7c2d9e5f909ada2bd82b4929d6c025fae8776c351b4bda2d6e91986"
+    },
+    {
+      "path": "checkpoints\\W1_130.mat",
+      "bytes": 658061,
+      "sha256": "672eccec83c0c8bc6cfb837928e4c73c8c785adeda1828bef33047ef4272ee85"
+    },
+    {
+      "path": "checkpoints\\W1_131.mat",
+      "bytes": 650465,
+      "sha256": "c2ef8c062261e2a725d9eb3d235c0570b34e7979c06f58928478917d2caade64"
+    },
+    {
+      "path": "checkpoints\\W1_132.mat",
+      "bytes": 690801,
+      "sha256": "14b204a48c8b81cef918e08c266f95f6b4d552507563bb7f35651c81e15f1736"
+    },
+    {
+      "path": "checkpoints\\W1_133.mat",
+      "bytes": 649013,
+      "sha256": "8d0a36b7465b5de7c3096f232916d5638eefacd9109fc1a50836995ba2c7ed0f"
+    },
+    {
+      "path": "checkpoints\\W1_134.mat",
+      "bytes": 661973,
+      "sha256": "4a0ecbeea83662b73d36b242cff2fd9e30404c08db0a615c800d58ead5607ef1"
+    },
+    {
+      "path": "checkpoints\\W1_135.mat",
+      "bytes": 780699,
+      "sha256": "d5d7cf6a9a3a2f82dead9d4969ee63840a85ff8b9eec1f432feff5055ce8aebb"
+    },
+    {
+      "path": "checkpoints\\W1_136.mat",
+      "bytes": 659784,
+      "sha256": "c3eb4554abd52226073c748a523b0b83c87f8d1ca703d040e86b34d8ec9fb5de"
+    },
+    {
+      "path": "checkpoints\\W1_137.mat",
+      "bytes": 658924,
+      "sha256": "9b237d8d54ec654ae4cbeae1dc1800c7f87e172a187f395436b0fd3f5f9436c3"
+    },
+    {
+      "path": "checkpoints\\W1_138.mat",
+      "bytes": 665799,
+      "sha256": "2783271b35e3a9d789977cb817a27d05ce2e6e6e6dd732af222852112235b435"
+    },
+    {
+      "path": "checkpoints\\W1_139.mat",
+      "bytes": 658273,
+      "sha256": "dada20cc9902d656eb09081f2135e2d71b7ee7268ac782fe0c70cc47ec941418"
+    },
+    {
+      "path": "checkpoints\\W1_14.mat",
+      "bytes": 661063,
+      "sha256": "b3871e5e89634a34825c3be72333a6ef61eff77cf112676412b1e94c95418cd6"
+    },
+    {
+      "path": "checkpoints\\W1_140.mat",
+      "bytes": 666400,
+      "sha256": "d82775065e0916aa565c85a864c2894937e24b37523e30764cfb3bb556db0fef"
+    },
+    {
+      "path": "checkpoints\\W1_141.mat",
+      "bytes": 670700,
+      "sha256": "e4a949bddbb2f53e9c708d3c02d453b6046d87c16e2f145c37d75c563d0eeee5"
+    },
+    {
+      "path": "checkpoints\\W1_142.mat",
+      "bytes": 698817,
+      "sha256": "d584efb84fdb79c718157aa5b566eab50e32014247e2272305345afb2547e038"
+    },
+    {
+      "path": "checkpoints\\W1_143.mat",
+      "bytes": 691463,
+      "sha256": "0af9752a3e3a87553981fab5212abd46d1e15631404e38758d2eff478bfe705f"
+    },
+    {
+      "path": "checkpoints\\W1_144.mat",
+      "bytes": 647871,
+      "sha256": "da678edc3d593d24063419b37af22b39e2f17d6a0e75c0d5b55c822470a79a96"
+    },
+    {
+      "path": "checkpoints\\W1_145.mat",
+      "bytes": 647510,
+      "sha256": "4ace6d1bca51a43727e8bd28c2451b759df0b3296d1b582c9beb38027958cf28"
+    },
+    {
+      "path": "checkpoints\\W1_146.mat",
+      "bytes": 681579,
+      "sha256": "bfdc8f70bc0a2825ecafd7605760b9400f082b7c23d30462cb3bcea7fef78e8b"
+    },
+    {
+      "path": "checkpoints\\W1_147.mat",
+      "bytes": 674113,
+      "sha256": "4c7ae5ae5aceb0b1647c3dcb85b07daed46c76b75b75744d17c16d43aeb999b6"
+    },
+    {
+      "path": "checkpoints\\W1_148.mat",
+      "bytes": 710103,
+      "sha256": "ac79ed21eda321937a1917a47658faf42a36ceb74cb5a471b35cda49ac26fe9f"
+    },
+    {
+      "path": "checkpoints\\W1_149.mat",
+      "bytes": 711348,
+      "sha256": "a865dde87b0e837b31d25d290ae06e80796dd9bfbad8f5c59a2bc063a38cdfe9"
+    },
+    {
+      "path": "checkpoints\\W1_150.mat",
+      "bytes": 681405,
+      "sha256": "b9729f8e573f3464dc01282aa9b42bdf0bdac503a38511437a85ebe22f91cee8"
+    },
+    {
+      "path": "checkpoints\\W1_151.mat",
+      "bytes": 673726,
+      "sha256": "d6509192a665426860312174b99d560067fcd633956cc964c6c6450a90aa45ec"
+    },
+    {
+      "path": "checkpoints\\W1_152.mat",
+      "bytes": 670921,
+      "sha256": "4f027b13142f921debbf2e76d516d9156d47667eefdd78e32f2fb86b853bc422"
+    },
+    {
+      "path": "checkpoints\\W1_153.mat",
+      "bytes": 671068,
+      "sha256": "d0884579934a9debdf056d51882705e42cc7e40a8b29ef7780cddb8124cd3d1b"
+    },
+    {
+      "path": "checkpoints\\W1_154.mat",
+      "bytes": 669059,
+      "sha256": "073d381eae3cbf44ec73f48c40737d372d99468779659082b171af73c07e06ca"
+    },
+    {
+      "path": "checkpoints\\W1_155.mat",
+      "bytes": 907011,
+      "sha256": "67446d2a0273255f0734072ee31a583754aec12279f31d7a26e550e22c175e51"
+    },
+    {
+      "path": "checkpoints\\W1_156.mat",
+      "bytes": 688134,
+      "sha256": "4f6df446f423ca5123886ca9c7ce136b7da4290a218caa697ba4ff343989cdc8"
+    },
+    {
+      "path": "checkpoints\\W1_157.mat",
+      "bytes": 686895,
+      "sha256": "32f7c323c02aa7cf57c32e6f63d55e81f16365cbebe9ff034e1712b958a039dd"
+    },
+    {
+      "path": "checkpoints\\W1_158.mat",
+      "bytes": 694269,
+      "sha256": "f01be46e3feb2c918832ed37d1846c31882227cc66a98c7835caf4af58c476ad"
+    },
+    {
+      "path": "checkpoints\\W1_159.mat",
+      "bytes": 687447,
+      "sha256": "c6d5c210018fe3d511291877627ba31a7c1a7400ddc89b463f47dbc175998372"
+    },
+    {
+      "path": "checkpoints\\W1_16.mat",
+      "bytes": 649861,
+      "sha256": "d15cd40924c28a2ffd2e1c79514f8fa33ee0c8766fdd32fc43a63935c873da75"
+    },
+    {
+      "path": "checkpoints\\W1_160.mat",
+      "bytes": 654871,
+      "sha256": "78650fa9de13aaa21cbfcf4fa9edbd23b1697a6df408acf20efcebc76aa2df10"
+    },
+    {
+      "path": "checkpoints\\W1_161.mat",
+      "bytes": 798182,
+      "sha256": "3aeaaacfcafb863eff99ce51392f3ba18255ffbb9fc8b2028af6b3d98494b5d9"
+    },
+    {
+      "path": "checkpoints\\W1_162.mat",
+      "bytes": 677744,
+      "sha256": "91272e70b635f6483407f529d8e9331e6e8ed820e5b255b60b2c1e6c8d4f8e6a"
+    },
+    {
+      "path": "checkpoints\\W1_163.mat",
+      "bytes": 666213,
+      "sha256": "3a5de83bb793c729ba8820ae8b692bca866d32cb248372ec6cef49b81d859e69"
+    },
+    {
+      "path": "checkpoints\\W1_164.mat",
+      "bytes": 661258,
+      "sha256": "2d4bf631bfbee9317c4aa832f5a22d30a90dbfbb4448c87f112dce4ed0eb9e8c"
+    },
+    {
+      "path": "checkpoints\\W1_165.mat",
+      "bytes": 661487,
+      "sha256": "f75d801b618a92a3dff37ddb2b6419bb288652f1618676ca4563d283a06a74e3"
+    },
+    {
+      "path": "checkpoints\\W1_166.mat",
+      "bytes": 661876,
+      "sha256": "270c2f448bde119362df90e3291d608137db2d07bf5b8a1147ab6a346ba365cc"
+    },
+    {
+      "path": "checkpoints\\W1_167.mat",
+      "bytes": 654853,
+      "sha256": "8b69b751a7458ab2ebfe386518c1858cdbcff42c7c9251b8857aa58814acf609"
+    },
+    {
+      "path": "checkpoints\\W1_168.mat",
+      "bytes": 664848,
+      "sha256": "ee8cf86f2080571b1839a1c94fc4fe423aee75bddcab6759cd6011bef9cf0b3f"
+    },
+    {
+      "path": "checkpoints\\W1_169.mat",
+      "bytes": 705561,
+      "sha256": "d4e9eb1d6814b2a2d27a192490a4d16d52bf43dc83c06d6d35d84728c93d53ea"
+    },
+    {
+      "path": "checkpoints\\W1_17.mat",
+      "bytes": 649679,
+      "sha256": "4b20a93d2a7e5f0df41f030ed781955e5852d4578a372038e1ac4334cb11ea27"
+    },
+    {
+      "path": "checkpoints\\W1_170.mat",
+      "bytes": 669943,
+      "sha256": "94b01325cf8f2f4002725d597fa4d7074227730bdf26512679a1dfd4a2057a0d"
+    },
+    {
+      "path": "checkpoints\\W1_171.mat",
+      "bytes": 800468,
+      "sha256": "aa4f3498aee8db220aacd3ecf42ea47b13316264e37be2ee8b1d1c6d7e89925d"
+    },
+    {
+      "path": "checkpoints\\W1_172.mat",
+      "bytes": 860153,
+      "sha256": "9214233bef9c2440f7d91b26120eb70531519f71af30303e7f1d1f30a70f8947"
+    },
+    {
+      "path": "checkpoints\\W1_173.mat",
+      "bytes": 691537,
+      "sha256": "348e18a97b0ed65d775d07eeba4a66d55d91e670f498965cf64bdbb56fb62854"
+    },
+    {
+      "path": "checkpoints\\W1_174.mat",
+      "bytes": 654850,
+      "sha256": "c03b1c0257559afb9cf464b464050efda9688ee3143042477ef653183896dde2"
+    },
+    {
+      "path": "checkpoints\\W1_175.mat",
+      "bytes": 850865,
+      "sha256": "7b5b04037eb8773c9fd54f2cbb2671af5e259a21b2ea5253eb58c5ef58818ea2"
+    },
+    {
+      "path": "checkpoints\\W1_176.mat",
+      "bytes": 670823,
+      "sha256": "eb1d11f29b05d18282b32cd0d2c959e0cf687f222181c0268b6caf3b88b4a508"
+    },
+    {
+      "path": "checkpoints\\W1_177.mat",
+      "bytes": 651243,
+      "sha256": "a45db92d329fcf8c921c5b5476ee5ef0405732ec7e8b9f0caa5d979f25ba7b68"
+    },
+    {
+      "path": "checkpoints\\W1_179.mat",
+      "bytes": 717161,
+      "sha256": "e7df2085112e0a9e0045fcb1423809ac270e161fc370a1a3fb4285154035b61e"
+    },
+    {
+      "path": "checkpoints\\W1_180.mat",
+      "bytes": 706818,
+      "sha256": "5b1e1119bc327737af9dbbb0eb0b0a9617e71d1067eb2678e1581c8c91ba35e4"
+    },
+    {
+      "path": "checkpoints\\W1_182.mat",
+      "bytes": 663484,
+      "sha256": "137179593f9f0cb9f83955a721115b0fae767b7474bd02f80e4d0c5c76c41ba7"
+    },
+    {
+      "path": "checkpoints\\W1_183.mat",
+      "bytes": 635799,
+      "sha256": "a813b88d04b794a52027407aaaa473da99bf94833639edff8eaf6c9cadde8c43"
+    },
+    {
+      "path": "checkpoints\\W1_185.mat",
+      "bytes": 669979,
+      "sha256": "98ad26943c4e243108ad77463086dff66171fe82ba45a866d32a07ab110eb216"
+    },
+    {
+      "path": "checkpoints\\W1_186.mat",
+      "bytes": 772723,
+      "sha256": "0d40e68decb017630b2c5a33d87083806008a67f2b73413d26020a72608db1ef"
+    },
+    {
+      "path": "checkpoints\\W1_188.mat",
+      "bytes": 679862,
+      "sha256": "26154796d26a99c6de9196018a8c76eddcfc8a844906428bf4a6766bdab9a305"
+    },
+    {
+      "path": "checkpoints\\W1_189.mat",
+      "bytes": 680729,
+      "sha256": "d7493586a8b6211c2aada831121aa9a06c484414117c82e23d55506b7dac8e41"
+    },
+    {
+      "path": "checkpoints\\W1_19.mat",
+      "bytes": 665034,
+      "sha256": "23e2744f47aa1831144c39dfda3507dc58b141c39dbb1ce8b4680c791931d083"
+    },
+    {
+      "path": "checkpoints\\W1_191.mat",
+      "bytes": 646923,
+      "sha256": "660fa2d98a5a3eb856ee2ec6a34ac8f2d4c5b97e9941ae5111822b3a07246f8b"
+    },
+    {
+      "path": "checkpoints\\W1_192.mat",
+      "bytes": 664944,
+      "sha256": "65b79c74b170ec825afd7f3871668cfbc1c2c36154fda99885c533ace8540896"
+    },
+    {
+      "path": "checkpoints\\W1_194.mat",
+      "bytes": 668226,
+      "sha256": "8b3eedc2dea953723205549fafd8815191c9715bd2eb30ea7d94218dd9f4458c"
+    },
+    {
+      "path": "checkpoints\\W1_195.mat",
+      "bytes": 638396,
+      "sha256": "8a7923d933924571ebf6d8a4577061a67462dbb7bbd38a3f6ae130cca2eda6e2"
+    },
+    {
+      "path": "checkpoints\\W1_197.mat",
+      "bytes": 686758,
+      "sha256": "07be0e652b3e44f54db17ec0d649fd960b0337c247ae75674d5d3a1d50af0b68"
+    },
+    {
+      "path": "checkpoints\\W1_198.mat",
+      "bytes": 679733,
+      "sha256": "b201c9b3489628f0f95c348457f0d7f8e07764becf6aaf5214c03bd659dcc2be"
+    },
+    {
+      "path": "checkpoints\\W1_2.mat",
+      "bytes": 645473,
+      "sha256": "05e92866c1bb8bc053a7cebc17c552d5a801bcde082de470820859b51a4ab83e"
+    },
+    {
+      "path": "checkpoints\\W1_20.mat",
+      "bytes": 638077,
+      "sha256": "f2c38612f655752119593f1f51f653aad6078602962dfbbbc5b2cf77a5bfcc73"
+    },
+    {
+      "path": "checkpoints\\W1_200.mat",
+      "bytes": 654970,
+      "sha256": "27a1cfc82e899a2db1b6bfcf4e3aeeceb748d94753cc768d106f2e860231f5d0"
+    },
+    {
+      "path": "checkpoints\\W1_201.mat",
+      "bytes": 655107,
+      "sha256": "9f412471facad1311f2cea20d3598adf9258ee3a78a9d2b906a6e016f4c4502d"
+    },
+    {
+      "path": "checkpoints\\W1_203.mat",
+      "bytes": 676008,
+      "sha256": "30f2d786182a8cbdb5093c4adeb05f3e31fe8ac84a1bf16369d122e7a8ac3573"
+    },
+    {
+      "path": "checkpoints\\W1_204.mat",
+      "bytes": 667585,
+      "sha256": "8fc3cbae8808ed8f98a35309dc3944e6db6be67ad8f44b92b9388e3865dd5b06"
+    },
+    {
+      "path": "checkpoints\\W1_206.mat",
+      "bytes": 642272,
+      "sha256": "9ca4faeeffbe161925c893e0dac9d1ea38608ca18aded293ea2c12c26a1bd311"
+    },
+    {
+      "path": "checkpoints\\W1_207.mat",
+      "bytes": 645152,
+      "sha256": "78f145f8bd2a57da98f4cce292203c0da29405f23dadf3dcfb07501a6bba8be0"
+    },
+    {
+      "path": "checkpoints\\W1_209.mat",
+      "bytes": 658086,
+      "sha256": "afc12087e854061a508e5da48832c3494e5ea00579bdf3b4df5bb568d934f63d"
+    },
+    {
+      "path": "checkpoints\\W1_210.mat",
+      "bytes": 650409,
+      "sha256": "1a640805feb6e74173e030420014545a618ff438c4ea80cbaed0c3bfa0f0af09"
+    },
+    {
+      "path": "checkpoints\\W1_212.mat",
+      "bytes": 647590,
+      "sha256": "e4fae8bf972bcbe5d60086db52fda78021fd671cd6061a864ba1d62bfa7458a0"
+    },
+    {
+      "path": "checkpoints\\W1_213.mat",
+      "bytes": 647605,
+      "sha256": "33424bbbccfa6ce096f4ebc8e667214b5b67275f2cd10a28359df8ab36cc86c7"
+    },
+    {
+      "path": "checkpoints\\W1_215.mat",
+      "bytes": 691101,
+      "sha256": "e9a6d3fdf37b2d6809b75b8103f7d632f7963c7c7315b112b11a906fcb78bcfa"
+    },
+    {
+      "path": "checkpoints\\W1_216.mat",
+      "bytes": 687887,
+      "sha256": "5e2df080ea7d72902dcdc1b47a1ef6e932b6e54906259205b890a321f3fa7e04"
+    },
+    {
+      "path": "checkpoints\\W1_218.mat",
+      "bytes": 665647,
+      "sha256": "4d671ee9f26646333ecb2b518cb68bab72e7bfca6ee736e522e19c25119bc7ba"
+    },
+    {
+      "path": "checkpoints\\W1_219.mat",
+      "bytes": 643003,
+      "sha256": "c2165e7c37db085c7d15859b2b1eb4d6626c5e47c71613574242f8f157fb67bb"
+    },
+    {
+      "path": "checkpoints\\W1_22.mat",
+      "bytes": 657428,
+      "sha256": "b499b4d6848757e55f402482411f5fd0f1e37c7ee2fca3ad9c1b117f95b548d2"
+    },
+    {
+      "path": "checkpoints\\W1_221.mat",
+      "bytes": 662644,
+      "sha256": "45d83d5dae4b5ee73c582db77c874b954e4ec516c41df2868f8eedc6cdab181d"
+    },
+    {
+      "path": "checkpoints\\W1_222.mat",
+      "bytes": 655241,
+      "sha256": "8b0471135dcd2c8981ba9dcf34da3d2fe9233f086d647a73e0d833460780286d"
+    },
+    {
+      "path": "checkpoints\\W1_224.mat",
+      "bytes": 686792,
+      "sha256": "4947c5714d8d68abfb91e832fbfb2b340bc327a350684c50f7855ba00d92fbb1"
+    },
+    {
+      "path": "checkpoints\\W1_225.mat",
+      "bytes": 685873,
+      "sha256": "f2819d42064864ea296de04054cdfcbe3851c6c70ca8b93638d7b47a68a6ca85"
+    },
+    {
+      "path": "checkpoints\\W1_227.mat",
+      "bytes": 699616,
+      "sha256": "c1de095d6cd5269fb41b9357db57fa279e9dc746bb0f0ee1c2f71bfa49e2356c"
+    },
+    {
+      "path": "checkpoints\\W1_228.mat",
+      "bytes": 692777,
+      "sha256": "0978fb94ad1970045f854c2bd30d0c819346a7976974240414aceb220225882b"
+    },
+    {
+      "path": "checkpoints\\W1_23.mat",
+      "bytes": 637175,
+      "sha256": "81b71da249972336c5c032d1f64d59701c59206ec4dd351a15731de135081f2a"
+    },
+    {
+      "path": "checkpoints\\W1_230.mat",
+      "bytes": 693938,
+      "sha256": "908e346e56ed38dee57fd2082b402d2c4625a4af7b3454141539990315e18f61"
+    },
+    {
+      "path": "checkpoints\\W1_231.mat",
+      "bytes": 693576,
+      "sha256": "9dc1262a74ce31bf6e096e99662f107e6e97e574a9f228d5d850ea5caad53363"
+    },
+    {
+      "path": "checkpoints\\W1_233.mat",
+      "bytes": 659622,
+      "sha256": "bb3df025f1791a7d2e0b6325624dcac43eee9125c8974e1a074f0500c0936844"
+    },
+    {
+      "path": "checkpoints\\W1_234.mat",
+      "bytes": 653003,
+      "sha256": "c8acfa0d37f76e2dc13305f1dcdae75d66b13699fc70432c51c320c3d9b8c546"
+    },
+    {
+      "path": "checkpoints\\W1_236.mat",
+      "bytes": 777155,
+      "sha256": "96916f91c3a3f3a2e8604479c51bfab56b43ad88f308e149b0c646899516bfc7"
+    },
+    {
+      "path": "checkpoints\\W1_237.mat",
+      "bytes": 668400,
+      "sha256": "fe5b5255a02523487e0acb54c82c855a8151dd40106cd241db59d9fa2f7e2666"
+    },
+    {
+      "path": "checkpoints\\W1_239.mat",
+      "bytes": 670915,
+      "sha256": "f6a3d9efc78528b6608a884aa6e7388fed4ecbde078ce96decd0794a8fe89a02"
+    },
+    {
+      "path": "checkpoints\\W1_240.mat",
+      "bytes": 801486,
+      "sha256": "692ef655a0fb76d581cfabd5634bf70144ed1ce98fde1aff73119b4fe4923a39"
+    },
+    {
+      "path": "checkpoints\\W1_242.mat",
+      "bytes": 655058,
+      "sha256": "158ffdf52875b5349ce3e86672634c6f3a00b42f3a48190210e510deab1a4cd5"
+    },
+    {
+      "path": "checkpoints\\W1_243.mat",
+      "bytes": 685646,
+      "sha256": "8b0c7374f04fa7d5572cf46f682c5e67d0517c083b010c2ed5626fb7fd7671e1"
+    },
+    {
+      "path": "checkpoints\\W1_245.mat",
+      "bytes": 694422,
+      "sha256": "a643c50ccf78b6997ae65855d0511be9cb5b9995fe5e080150838aa184582d59"
+    },
+    {
+      "path": "checkpoints\\W1_246.mat",
+      "bytes": 686961,
+      "sha256": "9bf3b73aa1d43a12fc0bb8178729e24265caac55a206825b39c945fd54054875"
+    },
+    {
+      "path": "checkpoints\\W1_248.mat",
+      "bytes": 650618,
+      "sha256": "a67b1f51a322ceb557af042605f83e2912c924a0c468949db2a3c60d27e9c0f3"
+    },
+    {
+      "path": "checkpoints\\W1_249.mat",
+      "bytes": 719166,
+      "sha256": "e659d3437192aba7e13afeee2522a9aa7dfaf43c22864daca75b195a050c2b6c"
+    },
+    {
+      "path": "checkpoints\\W1_25.mat",
+      "bytes": 694724,
+      "sha256": "956bd9d367e530446047324bedd76b95806ccc84a3adca8b07da707ae5003503"
+    },
+    {
+      "path": "checkpoints\\W1_251.mat",
+      "bytes": 705701,
+      "sha256": "5693938881d09c1825c8e639505454342f84d0eb9ceb9b288c6afd0cb61e9c99"
+    },
+    {
+      "path": "checkpoints\\W1_252.mat",
+      "bytes": 704076,
+      "sha256": "282c0e6febd3b7371d37e35a65636ae232c17fd4656bc5c067000fc368a9602c"
+    },
+    {
+      "path": "checkpoints\\W1_253.mat",
+      "bytes": 662170,
+      "sha256": "8e7aa551b17f968c84e1fe544665ac09ef93fe43ddf6ec54128342f4e88f0cc8"
+    },
+    {
+      "path": "checkpoints\\W1_254.mat",
+      "bytes": 663060,
+      "sha256": "78207b498defef9c3e6d918ee060e024c707121605946198bf6f8e4c998ba100"
+    },
+    {
+      "path": "checkpoints\\W1_255.mat",
+      "bytes": 654024,
+      "sha256": "1a8e49a58205d7fb1d04e5b1907fa05b48a6dfbf19ec9b86205749b0a9fca870"
+    },
+    {
+      "path": "checkpoints\\W1_256.mat",
+      "bytes": 646438,
+      "sha256": "d3826812c3472c819569e0c2e7430fd2fb85d8ed01c22fba6118f6507a300a63"
+    },
+    {
+      "path": "checkpoints\\W1_257.mat",
+      "bytes": 666077,
+      "sha256": "6172cab88c800f939136370d07c4dac74946d7d6a30c7d0cf20d4434a17c9bcb"
+    },
+    {
+      "path": "checkpoints\\W1_258.mat",
+      "bytes": 664437,
+      "sha256": "4d7206fd635dc01d006c54b8ca0664a35d5fe622d8de52be3b5305d58da72cd3"
+    },
+    {
+      "path": "checkpoints\\W1_259.mat",
+      "bytes": 669260,
+      "sha256": "2c350db7b1a1ec4bbc8395c018b20fffcf17226a260f91d05dfdbfc1faca0e55"
+    },
+    {
+      "path": "checkpoints\\W1_26.mat",
+      "bytes": 687289,
+      "sha256": "c73d7b5e853ed9e5ad93080f32510e74b5874c1ff7036cdbdd51133b70d306aa"
+    },
+    {
+      "path": "checkpoints\\W1_260.mat",
+      "bytes": 662150,
+      "sha256": "e6a15689dace89f3a1fffd06650fe3cd9a26b7773169e393833bcba8d1d24ce0"
+    },
+    {
+      "path": "checkpoints\\W1_261.mat",
+      "bytes": 647284,
+      "sha256": "1afa48e8b95671e3ce2db97044a030722f428eafaf087992a22f25c52f7d333c"
+    },
+    {
+      "path": "checkpoints\\W1_262.mat",
+      "bytes": 647972,
+      "sha256": "1d3dc783c412619f3bce664ec5a317c28628d566a2b79c270d830774470cb8c9"
+    },
+    {
+      "path": "checkpoints\\W1_263.mat",
+      "bytes": 666871,
+      "sha256": "8e080eaaaac4b5c1c429c7cab47f38e9262ecf5a5412da7263b0b11bb5128dca"
+    },
+    {
+      "path": "checkpoints\\W1_264.mat",
+      "bytes": 659236,
+      "sha256": "c6aed18eafe04caac95587bcea2b27e8e4e124ec62d2493054a432c02815eed4"
+    },
+    {
+      "path": "checkpoints\\W1_265.mat",
+      "bytes": 647659,
+      "sha256": "8b709577f3277d338aff03bd3fe01f4826b22d5ac4c8793e242c2e36a14bffc6"
+    },
+    {
+      "path": "checkpoints\\W1_266.mat",
+      "bytes": 646914,
+      "sha256": "97b301737d38ee095a801da5a73c6c303b109fb608c60f77858aab76a5d9c078"
+    },
+    {
+      "path": "checkpoints\\W1_267.mat",
+      "bytes": 705123,
+      "sha256": "3ab0dc753760f107d68298b0a516f4e44880a1944820ea128b2b907bb8365baf"
+    },
+    {
+      "path": "checkpoints\\W1_268.mat",
+      "bytes": 776471,
+      "sha256": "08ae42e551176ea4eb7c365ce2359fb4c91ae2d6a2324a88bf33063692141b67"
+    },
+    {
+      "path": "checkpoints\\W1_269.mat",
+      "bytes": 675572,
+      "sha256": "6e24159db9934579a4560e7cda02f26479db24f85c92f0f35e0ea8b79f1f804d"
+    },
+    {
+      "path": "checkpoints\\W1_270.mat",
+      "bytes": 644813,
+      "sha256": "7f37fffea008c90d08e316d9d87ed1fa6d6d11ffe3c4049b6a0da1a80a6e9f45"
+    },
+    {
+      "path": "checkpoints\\W1_271.mat",
+      "bytes": 679498,
+      "sha256": "69440793bc227f7e8554e7207fa56c83a78625e703b2289a3a8f181b21237812"
+    },
+    {
+      "path": "checkpoints\\W1_272.mat",
+      "bytes": 673336,
+      "sha256": "ba9c5605efbc12e3c62a1027d596824558cba8a17f6de4faf4df8b8ce4a517de"
+    },
+    {
+      "path": "checkpoints\\W1_273.mat",
+      "bytes": 701357,
+      "sha256": "13398d0452c1ec3e23d1a6188694deb9ecbbe0f085c68b1c99f4063da6de92e5"
+    },
+    {
+      "path": "checkpoints\\W1_274.mat",
+      "bytes": 709190,
+      "sha256": "51ea1a094720dcb31542ee697f92fc6d7cc8b29ff4feb92c4662466860718594"
+    },
+    {
+      "path": "checkpoints\\W1_275.mat",
+      "bytes": 656981,
+      "sha256": "abd5758a716f0a0dfd2df6338398c64c85bbbe989303d62b15bc478f96b3a6a9"
+    },
+    {
+      "path": "checkpoints\\W1_276.mat",
+      "bytes": 739646,
+      "sha256": "741efaf2bb597a74b0a765185f92f44d1e7ff56bc3cbff2a627766fdd8e059c1"
+    },
+    {
+      "path": "checkpoints\\W1_277.mat",
+      "bytes": 656423,
+      "sha256": "4649797ec1206d7d3c32079faac97f03a44f5d3c2cb2bd11f1dc99ab46c18f5d"
+    },
+    {
+      "path": "checkpoints\\W1_278.mat",
+      "bytes": 657577,
+      "sha256": "049053da11d5b82292ddd22f1b1f78dece2d8e338e49451f7fe54954b12e1a85"
+    },
+    {
+      "path": "checkpoints\\W1_279.mat",
+      "bytes": 656673,
+      "sha256": "dab2b579aa7ad88398d2be7566a098aebcb3ff2204f3cacc5165608be16aad70"
+    },
+    {
+      "path": "checkpoints\\W1_28.mat",
+      "bytes": 656180,
+      "sha256": "0f4b7bbf92eb00cb9d0c2634e8426bc72e7ccc35944a24ac6fd713b7b7079713"
+    },
+    {
+      "path": "checkpoints\\W1_280.mat",
+      "bytes": 773603,
+      "sha256": "e5867f560f2f2ee9198772af7b3bf079cf807f9a8e9c9eb89b7ea65fabd8e71b"
+    },
+    {
+      "path": "checkpoints\\W1_281.mat",
+      "bytes": 642945,
+      "sha256": "395395ca2b8c6adcab09ef46c68c603ee3bd772c71bc87250bd05a1dc645b8ad"
+    },
+    {
+      "path": "checkpoints\\W1_282.mat",
+      "bytes": 645269,
+      "sha256": "147a118bf6a132b3ab39b06ddc362ce1ea4c79a6731a4efb04d8b4af0ec6f5d7"
+    },
+    {
+      "path": "checkpoints\\W1_283.mat",
+      "bytes": 702935,
+      "sha256": "d65e7bd5a30b89c5e0233452ab1f7d05b4862ccd8bf3c7879c1cbb4ca7f28219"
+    },
+    {
+      "path": "checkpoints\\W1_284.mat",
+      "bytes": 702091,
+      "sha256": "fc1da10f40e31d826b0b96dbe59ca3c399e88a627ddb6bfcbba918238ac8fc1b"
+    },
+    {
+      "path": "checkpoints\\W1_285.mat",
+      "bytes": 668095,
+      "sha256": "f2feccee42bc57376489b21271f32590c55a36346726b5203a44814b0b0a678f"
+    },
+    {
+      "path": "checkpoints\\W1_286.mat",
+      "bytes": 637174,
+      "sha256": "589c4de62988fa7abbd7fc2eef694eb40305e8764a78180c3b4a848f6d062809"
+    },
+    {
+      "path": "checkpoints\\W1_287.mat",
+      "bytes": 724047,
+      "sha256": "f46b981b700144dca7645a586e8ce26c7228f8f10e1a30d6c1c1d00d7c5b6567"
+    },
+    {
+      "path": "checkpoints\\W1_288.mat",
+      "bytes": 668915,
+      "sha256": "75390642b05e27ec25c50cb89ba879a0d16f0cd6c7fb5a265b54325b18fdacb5"
+    },
+    {
+      "path": "checkpoints\\W1_289.mat",
+      "bytes": 661911,
+      "sha256": "6f31cfb43bded2e0f5a0be300868dab5d6faa04c436bf099d63900b2ae20384b"
+    },
+    {
+      "path": "checkpoints\\W1_29.mat",
+      "bytes": 656849,
+      "sha256": "bd84adf6e7b35063fda59351b51632ab46ac5fe45f388f40892bcf5c091dbc18"
+    },
+    {
+      "path": "checkpoints\\W1_290.mat",
+      "bytes": 662039,
+      "sha256": "57b5a98930b95e742bd3c56302a170aecac4f53265f3aaa8b62906e9b55a6e52"
+    },
+    {
+      "path": "checkpoints\\W1_291.mat",
+      "bytes": 727878,
+      "sha256": "085342c5a2a57fea55bb8017067e10c31fe7da815e8bb5a48f05c416c1841fea"
+    },
+    {
+      "path": "checkpoints\\W1_292.mat",
+      "bytes": 715794,
+      "sha256": "0343f8a57d3f0591a8f82b90093f23386e29d3cb54fc8204d16f4d565c0a613f"
+    },
+    {
+      "path": "checkpoints\\W1_293.mat",
+      "bytes": 648865,
+      "sha256": "52644476c948739ce852d9bbdd245c5bd1f0b4830d8e3f7656731a27ad6b6cce"
+    },
+    {
+      "path": "checkpoints\\W1_294.mat",
+      "bytes": 649676,
+      "sha256": "412edaa4313f9f9bcc573fc147f301ad0b8de6a9975215afae7dbd3c42cf226e"
+    },
+    {
+      "path": "checkpoints\\W1_295.mat",
+      "bytes": 659451,
+      "sha256": "c5219699dc690538ec18acd491230eb72b4c0f0361480a87cdb4c852e93e5b3e"
+    },
+    {
+      "path": "checkpoints\\W1_296.mat",
+      "bytes": 652129,
+      "sha256": "233b3e68690902b58615498bf4fcd1ceae9a419e1153f908eb999d21518b0cc8"
+    },
+    {
+      "path": "checkpoints\\W1_297.mat",
+      "bytes": 673104,
+      "sha256": "b0543f7c8b5ea13dd22190fad2fbb946e13749552da1599c623918c15d0dad12"
+    },
+    {
+      "path": "checkpoints\\W1_298.mat",
+      "bytes": 645248,
+      "sha256": "9fa6d813389e0c9faea06b3afe2b2f8754da3ee3ba59f82be6ad6beea074fb12"
+    },
+    {
+      "path": "checkpoints\\W1_299.mat",
+      "bytes": 692769,
+      "sha256": "d8f4b25ff86e8d431efcc8db4491c0a74e048f8ef34c74328f431b15207df906"
+    },
+    {
+      "path": "checkpoints\\W1_300.mat",
+      "bytes": 763850,
+      "sha256": "145390a6573ac8bafc583514cd4bb59acd9c0774cb099379f9ad8cbc27f0667f"
+    },
+    {
+      "path": "checkpoints\\W1_301.mat",
+      "bytes": 651981,
+      "sha256": "532ffb2056e78e8fcf73fa66d3abe42dcb462e888163fa94310d4c9164e6225a"
+    },
+    {
+      "path": "checkpoints\\W1_302.mat",
+      "bytes": 652241,
+      "sha256": "4990d47368ff3fa5b97e6a75dcd64df74854686621dedd8fda2f74a83c3b1e2d"
+    },
+    {
+      "path": "checkpoints\\W1_303.mat",
+      "bytes": 867279,
+      "sha256": "c8f3c861ece1656a2523f024d58330216ae09e722c955307e94edd2c051d43aa"
+    },
+    {
+      "path": "checkpoints\\W1_304.mat",
+      "bytes": 629123,
+      "sha256": "a75cf275b09b0ff8d80dd51915925d123a98e58f3c1af38410161c2362380914"
+    },
+    {
+      "path": "checkpoints\\W1_305.mat",
+      "bytes": 647486,
+      "sha256": "01ce5cf8c078dbd2d11b7d8a36883b10bbf5ed3ec0d195c6d34437b640c2984b"
+    },
+    {
+      "path": "checkpoints\\W1_306.mat",
+      "bytes": 788410,
+      "sha256": "7b8d015d871d6f031d13592f112288c167ad9e2b38ab2436826cae9ad911e6c5"
+    },
+    {
+      "path": "checkpoints\\W1_307.mat",
+      "bytes": 659816,
+      "sha256": "6214967b0dc74d92c6474787e836e3e74f8da7dd6b49f545582f503b02f2f9ab"
+    },
+    {
+      "path": "checkpoints\\W1_308.mat",
+      "bytes": 652509,
+      "sha256": "a1aeb28a5ee985806a820e19bbffd557676e78390944dca57dc06534c843ca76"
+    },
+    {
+      "path": "checkpoints\\W1_309.mat",
+      "bytes": 657310,
+      "sha256": "54fad4a4ba74d8da016ea1398664863895afcaee4cfd270d9a9a860d1718d69a"
+    },
+    {
+      "path": "checkpoints\\W1_31.mat",
+      "bytes": 706721,
+      "sha256": "bf38e5d0df69019a88ca84cc400ff09d1d1d5467637a3833626b9b10062d3e65"
+    },
+    {
+      "path": "checkpoints\\W1_310.mat",
+      "bytes": 655593,
+      "sha256": "dd118035e5ae29398ccf59b978cabbcc4d95348c116b272a767cd029060c528f"
+    },
+    {
+      "path": "checkpoints\\W1_311.mat",
+      "bytes": 667271,
+      "sha256": "69f1920fe7b6f6a715f26febfdb28dfd3f0e7222beaef0c64252c0c8e8c4e896"
+    },
+    {
+      "path": "checkpoints\\W1_312.mat",
+      "bytes": 825437,
+      "sha256": "545e74f9b175f503e7c7efb77896ab670513808f3db829d0f98a5bfe02e392bc"
+    },
+    {
+      "path": "checkpoints\\W1_313.mat",
+      "bytes": 661192,
+      "sha256": "8975adbfb50ee7ef61b97f126e61fc5685d0536df5d1567b51e33c2c19f9bd0c"
+    },
+    {
+      "path": "checkpoints\\W1_314.mat",
+      "bytes": 661335,
+      "sha256": "d72cd20170ef160b823622d0669a14329fc471e4b790eaf3b7f42b8afb190f31"
+    },
+    {
+      "path": "checkpoints\\W1_315.mat",
+      "bytes": 685182,
+      "sha256": "4e0389e7f55bc56648313295c2ca3845b2cf5ca0b01b750b6bf52a5866979def"
+    },
+    {
+      "path": "checkpoints\\W1_316.mat",
+      "bytes": 677516,
+      "sha256": "eff76adae78f4251bf830aefd0fa8860b4b62863ae606ab2b6c43bc39507771b"
+    },
+    {
+      "path": "checkpoints\\W1_317.mat",
+      "bytes": 675925,
+      "sha256": "ae96a7baa226f39daca484a6c20da97e12a844c3064c4342fafb87cbc4b06756"
+    },
+    {
+      "path": "checkpoints\\W1_318.mat",
+      "bytes": 654285,
+      "sha256": "0d327bfa1af79823a32071401bac0c6823bd53eef7618c0e435a3a8143a4dac5"
+    },
+    {
+      "path": "checkpoints\\W1_319.mat",
+      "bytes": 682065,
+      "sha256": "91749320d2bafc7a6f52b37acc51c7fa6c76e31af9337dfd91960fb852d3f10f"
+    },
+    {
+      "path": "checkpoints\\W1_32.mat",
+      "bytes": 659108,
+      "sha256": "c7a58bf717ffc42b9812e32bbc879e87a4b4001b46a2ee1a7ad361741a84890a"
+    },
+    {
+      "path": "checkpoints\\W1_320.mat",
+      "bytes": 752031,
+      "sha256": "a2c8500f98e92e85d52f55ea1133ad7d05ba9cc1a94c52afd5f9cc1a735a7fae"
+    },
+    {
+      "path": "checkpoints\\W1_321.mat",
+      "bytes": 648292,
+      "sha256": "e0bac04ce3912413d258ed9ca2283738b3681ade0c775805651fc34a8878305d"
+    },
+    {
+      "path": "checkpoints\\W1_322.mat",
+      "bytes": 648725,
+      "sha256": "6a3bf65a5209fa5b6a2bf4a1f6e21617f353424baadf24f08b2050f51d350b47"
+    },
+    {
+      "path": "checkpoints\\W1_323.mat",
+      "bytes": 667333,
+      "sha256": "3a84a0e300e019e4d8b060f9f3533c3dc6bdc95eb727dfc722c17e18e1348abe"
+    },
+    {
+      "path": "checkpoints\\W1_324.mat",
+      "bytes": 661267,
+      "sha256": "ba6ac5a5577b3305d75ff0fcc24a5cd4488460cf136d4f5b274bd835e2608b46"
+    },
+    {
+      "path": "checkpoints\\W1_325.mat",
+      "bytes": 645236,
+      "sha256": "ce6e0c960d7777698178c4de13a928f70bac5e3affa5ad75f1bcf24ef5a4eee5"
+    },
+    {
+      "path": "checkpoints\\W1_326.mat",
+      "bytes": 646056,
+      "sha256": "a6f81170c6e3b8afa808f53a4002433693b11fb2b1e72d8d4f4faf95b60de7db"
+    },
+    {
+      "path": "checkpoints\\W1_327.mat",
+      "bytes": 718696,
+      "sha256": "683a0562a74acf38155c8ab1b8239d7da9b767bcb9dfde778b6df767518917d7"
+    },
+    {
+      "path": "checkpoints\\W1_328.mat",
+      "bytes": 665267,
+      "sha256": "71fbdef0fef0bdca1e6ab77f81070f9dc7f67473e4c4c602fc01be7a3bfc901b"
+    },
+    {
+      "path": "checkpoints\\W1_329.mat",
+      "bytes": 663962,
+      "sha256": "a4e5a95c12c4348200c8bf2b7a5a813b57eb0107b1830aa2b2b2059a150719e2"
+    },
+    {
+      "path": "checkpoints\\W1_330.mat",
+      "bytes": 663792,
+      "sha256": "d83ea00c9f6a7bbbc96d1fdd42047b4bd02418f164730091c029b5f550173f9c"
+    },
+    {
+      "path": "checkpoints\\W1_331.mat",
+      "bytes": 656828,
+      "sha256": "c813a058c28607181a7ec9a0b7920efb7543d91f7dc60efb2f80f92b7946a433"
+    },
+    {
+      "path": "checkpoints\\W1_332.mat",
+      "bytes": 649518,
+      "sha256": "b37cf9ae0df8f262a4437e193b4539504dfbcc198c1c1da14f2f949b704c1f0b"
+    },
+    {
+      "path": "checkpoints\\W1_333.mat",
+      "bytes": 674390,
+      "sha256": "415f148c8d8c5ef5eaf67f6cf428f75781084e73444fed6c3e429570a54ea170"
+    },
+    {
+      "path": "checkpoints\\W1_334.mat",
+      "bytes": 673959,
+      "sha256": "bf5c2e2a2b407fb345738f04c148ccebf1d9372b17773d9e811605de2d6ccf7f"
+    },
+    {
+      "path": "checkpoints\\W1_335.mat",
+      "bytes": 679625,
+      "sha256": "8e5942b8a2d7bff7f1e4363033bbfd3825c1ab16755da62c8210a19d98bf09ed"
+    },
+    {
+      "path": "checkpoints\\W1_336.mat",
+      "bytes": 642414,
+      "sha256": "623c25dba6de9f4b83cb630cd4f267dac889239154ad24184170d833e9a101b0"
+    },
+    {
+      "path": "checkpoints\\W1_337.mat",
+      "bytes": 655384,
+      "sha256": "6b103fa67c5ead2b13ba50ddd88967aecb1df4345e6a2498a9a4922f81a4ad2a"
+    },
+    {
+      "path": "checkpoints\\W1_338.mat",
+      "bytes": 701993,
+      "sha256": "05e3ca526f14d3ee895d58209546d5d1bd498b9d2987b6bfd6078609efd93233"
+    },
+    {
+      "path": "checkpoints\\W1_339.mat",
+      "bytes": 665017,
+      "sha256": "c654f885185061a02819be75569afa12201a92ca08f94ac910fdd37b37086ec0"
+    },
+    {
+      "path": "checkpoints\\W1_34.mat",
+      "bytes": 689975,
+      "sha256": "7aa816783cb09b765b6e7af2812b7c8b6945444bf00fc3cf66780d4025045f26"
+    },
+    {
+      "path": "checkpoints\\W1_340.mat",
+      "bytes": 636414,
+      "sha256": "49df56be640f029dc4d752dc4f164eb97ca74449597636f5ca816199f1d044c1"
+    },
+    {
+      "path": "checkpoints\\W1_341.mat",
+      "bytes": 654081,
+      "sha256": "8857e2a06b77035686512a95ccb1d5301f6335597ea4319b5983c919b5dbe7c8"
+    },
+    {
+      "path": "checkpoints\\W1_342.mat",
+      "bytes": 655051,
+      "sha256": "036cfb7659e67fe91b8ff3a492a18be0828b27b7bad85907b282a17c9decf5c5"
+    },
+    {
+      "path": "checkpoints\\W1_343.mat",
+      "bytes": 653152,
+      "sha256": "340f32194d68ed381b1c8ec96f42a66940fbc469e0a2b1d5322f0df8d2277397"
+    },
+    {
+      "path": "checkpoints\\W1_344.mat",
+      "bytes": 644725,
+      "sha256": "3e008c32e2fe2e591990291c147ecafa3e36e2430563bd6bd0fa6f86aaf217f7"
+    },
+    {
+      "path": "checkpoints\\W1_345.mat",
+      "bytes": 654566,
+      "sha256": "b30c84119f8be36c09a23d06d73dab0c7568a74f8916f7b541ae96ebf6ee0710"
+    },
+    {
+      "path": "checkpoints\\W1_346.mat",
+      "bytes": 630937,
+      "sha256": "c044d517e8e12162e51f4a4761c7c2981cae5d9ba2d2a7cf9653e605519a9d92"
+    },
+    {
+      "path": "checkpoints\\W1_347.mat",
+      "bytes": 666565,
+      "sha256": "249fa16adcf960c1073f3a70ff509c43dbc68d95dcebd5e41c14d618cf959f23"
+    },
+    {
+      "path": "checkpoints\\W1_348.mat",
+      "bytes": 659267,
+      "sha256": "e1e3f7bc771a2dc02c90175f85b0b33b678a68f29545c84ebb32d9718914c2b7"
+    },
+    {
+      "path": "checkpoints\\W1_349.mat",
+      "bytes": 703275,
+      "sha256": "e1604cc09017edc42db64ff721f554b0f5eece207797cd252a9a04809701ffd5"
+    },
+    {
+      "path": "checkpoints\\W1_35.mat",
+      "bytes": 656015,
+      "sha256": "c59930263b9561ff4a9718a6ce2b6800281b05c8721c2c0f7f0774696a3708f0"
+    },
+    {
+      "path": "checkpoints\\W1_350.mat",
+      "bytes": 660553,
+      "sha256": "69749d817b16c246d6b385a998552f9a720e2a158ea135bbdd61e913fa27eda2"
+    },
+    {
+      "path": "checkpoints\\W1_351.mat",
+      "bytes": 676942,
+      "sha256": "f1543d285bfa84210ec2cbaba178114b00d7a729fd5b761d188d57831a9d06af"
+    },
+    {
+      "path": "checkpoints\\W1_352.mat",
+      "bytes": 668878,
+      "sha256": "485873a6e75514a25895e7c1603c8231d97f6f649c45c4df4d11cb2d3cc6f468"
+    },
+    {
+      "path": "checkpoints\\W1_354.mat",
+      "bytes": 823807,
+      "sha256": "27b17ee8e66d640fedda9b01a558ef7bd23897eb3166a777cd0fb5de448d3571"
+    },
+    {
+      "path": "checkpoints\\W1_355.mat",
+      "bytes": 697731,
+      "sha256": "b7161f7a4679ca79b3045cda320f6066b2899b7135412cbe05c349eda266d9f2"
+    },
+    {
+      "path": "checkpoints\\W1_357.mat",
+      "bytes": 672794,
+      "sha256": "bd8e4529fd45b15083a8cb6c21f51eb7d9a74035a4cefdbc1439d9b01b779819"
+    },
+    {
+      "path": "checkpoints\\W1_358.mat",
+      "bytes": 662235,
+      "sha256": "064ceff217107504cfb54bd304d506045f5e441cdc4cb679776a3d2f1890cd3c"
+    },
+    {
+      "path": "checkpoints\\W1_360.mat",
+      "bytes": 648697,
+      "sha256": "6e6ac8c9419b34c8a6dacb2d318959735a141b52769147480c89f2172dbd7dae"
+    },
+    {
+      "path": "checkpoints\\W1_361.mat",
+      "bytes": 648106,
+      "sha256": "9c187dfede655bd95b107bea699ea7341d62f0330ce0259b8ea8b3b8b8c3bc71"
+    },
+    {
+      "path": "checkpoints\\W1_363.mat",
+      "bytes": 714961,
+      "sha256": "6b2aeb302f19dfe6d7337c9adfd8cfa6b4da7c4958b7b33fbc12b4b676664627"
+    },
+    {
+      "path": "checkpoints\\W1_364.mat",
+      "bytes": 663179,
+      "sha256": "a80bff684ae2e4836c6b3a13e9e88355f7add49693071fb7ae2f4bed486f3b1e"
+    },
+    {
+      "path": "checkpoints\\W1_366.mat",
+      "bytes": 672132,
+      "sha256": "46cf5438c30ae24cbf418d7bbc6299650c079cfa95e11f557f1c61ba1baee23c"
+    },
+    {
+      "path": "checkpoints\\W1_367.mat",
+      "bytes": 671480,
+      "sha256": "476e9304d8c2a24372566e6abbe9285de51d98104b839045c3f5c54a5c75e4e0"
+    },
+    {
+      "path": "checkpoints\\W1_369.mat",
+      "bytes": 641584,
+      "sha256": "9fe2cadcbf380bdf346aa39c7b2c4e85ce63ca4c946aee1ecde852e8f34b7f5a"
+    },
+    {
+      "path": "checkpoints\\W1_37.mat",
+      "bytes": 667760,
+      "sha256": "83e45d93ce73c093999e14a3c004f47e2e488490cecc4928cd37a8f7e315950c"
+    },
+    {
+      "path": "checkpoints\\W1_370.mat",
+      "bytes": 654475,
+      "sha256": "8226b75187cfaab534237f9c9ef901981efebeb9fc7b3c81e1c11bdf25442f30"
+    },
+    {
+      "path": "checkpoints\\W1_372.mat",
+      "bytes": 680028,
+      "sha256": "5add8c791934d612fafc55a3796209f6c57ad66b4a3912e7dc8e308287f7825c"
+    },
+    {
+      "path": "checkpoints\\W1_373.mat",
+      "bytes": 680075,
+      "sha256": "fab3dacd76f4d608513ff7c147e5802b594ee9bce1f7966a2c49594a943478e6"
+    },
+    {
+      "path": "checkpoints\\W1_375.mat",
+      "bytes": 672166,
+      "sha256": "5e2d545035f2f0040996e3c78924dc054cb6a98ac136957c9f41a1d467d68da8"
+    },
+    {
+      "path": "checkpoints\\W1_376.mat",
+      "bytes": 665276,
+      "sha256": "edae480e064434cf70578acb5905deece644f88741146e360ef730f03492bb81"
+    },
+    {
+      "path": "checkpoints\\W1_378.mat",
+      "bytes": 675310,
+      "sha256": "10b514ab79a6822e41c0ab3a6c9c82bc456c4ae69108c6b5f29f309981983f80"
+    },
+    {
+      "path": "checkpoints\\W1_379.mat",
+      "bytes": 675762,
+      "sha256": "76bb4129fba519138c47a4f9ba491b7ea621d8581344834843bc9652448334cf"
+    },
+    {
+      "path": "checkpoints\\W1_38.mat",
+      "bytes": 655823,
+      "sha256": "a6decf08d028100e150cb468eae495f6b6ff7d846e8460e0a569159f6105accb"
+    },
+    {
+      "path": "checkpoints\\W1_381.mat",
+      "bytes": 699872,
+      "sha256": "e8e12b493ac45548dd6e38a24cfccc9bd2b954d2c033532c951df4f368b812dd"
+    },
+    {
+      "path": "checkpoints\\W1_382.mat",
+      "bytes": 682888,
+      "sha256": "c58b5bdcc088b4201f460ea6098ba58613de4b5736a068227d02919abad6bd1a"
+    },
+    {
+      "path": "checkpoints\\W1_384.mat",
+      "bytes": 665100,
+      "sha256": "45f07c6629554815cd5745ea98e30a37bfdf6bb590f70a84c753036b149c3c55"
+    },
+    {
+      "path": "checkpoints\\W1_385.mat",
+      "bytes": 664718,
+      "sha256": "504a8057f43df9298896beec7cafb252d60d961bfe8d650fad4315cc03ef67f8"
+    },
+    {
+      "path": "checkpoints\\W1_387.mat",
+      "bytes": 697899,
+      "sha256": "6ed8e155214bcfa6b33aed52b8a89f7c8d98bcaf46a23857eaed1a430b612210"
+    },
+    {
+      "path": "checkpoints\\W1_388.mat",
+      "bytes": 648993,
+      "sha256": "f66fb77849de12beebc9faf807d20212680216ec81e156712d85bde1bd5de8de"
+    },
+    {
+      "path": "checkpoints\\W1_390.mat",
+      "bytes": 654883,
+      "sha256": "8c0d586fd11f75b464ca18f7542faa6a3293f4b00d3a47567c0cca24f5ae0ad2"
+    },
+    {
+      "path": "checkpoints\\W1_391.mat",
+      "bytes": 654858,
+      "sha256": "a6543cb7a3f0a55ad38fe93500d44c19ae058f1ada4e793eff3bcfac0e7b87e4"
+    },
+    {
+      "path": "checkpoints\\W1_393.mat",
+      "bytes": 686650,
+      "sha256": "a2ee2e39365ce22ca16a6b97d6e2e694ca0cb23e7c20da2f96d5aa13a60093b5"
+    },
+    {
+      "path": "checkpoints\\W1_394.mat",
+      "bytes": 680347,
+      "sha256": "bf457cb729f6a6212f1de67a7999ff245645356e7cbb7373adaf8dc527773a61"
+    },
+    {
+      "path": "checkpoints\\W1_396.mat",
+      "bytes": 635662,
+      "sha256": "ef9b1e01d6a20a85201de730d55aca18fe3b627cfcce8d04ee0a62d8ac2d0f65"
+    },
+    {
+      "path": "checkpoints\\W1_397.mat",
+      "bytes": 655693,
+      "sha256": "9b1cdeb463e0ab6bb536486e52e7e060f7f402fd9d4406668c3e0238dce8f8dd"
+    },
+    {
+      "path": "checkpoints\\W1_399.mat",
+      "bytes": 686940,
+      "sha256": "e7061ab69fe3cf1f5faf135c81b19bb8ad0ded9fc853d56130fde41abfbfbe7c"
+    },
+    {
+      "path": "checkpoints\\W1_4.mat",
+      "bytes": 649357,
+      "sha256": "92277329bf4e6d312c48911f7ba74da862bb3b5ceba9c090abed1ecddfd488b5"
+    },
+    {
+      "path": "checkpoints\\W1_40.mat",
+      "bytes": 704479,
+      "sha256": "10941b9ced55f2e887d5de89282ac54f02570318f34b0e75369c505bfbeb73f5"
+    },
+    {
+      "path": "checkpoints\\W1_400.mat",
+      "bytes": 681332,
+      "sha256": "e0efd6f92e698ec8264486eeb3921b04aecb38cc03e5893c05198ae29fe72d22"
+    },
+    {
+      "path": "checkpoints\\W1_402.mat",
+      "bytes": 695076,
+      "sha256": "bc5266ecf498808892bff7c041c49fa424c149bd3ce2d22e7d642b8426ce2158"
+    },
+    {
+      "path": "checkpoints\\W1_403.mat",
+      "bytes": 858123,
+      "sha256": "9e27dc27eb6c202dd8132f4e54294712817aaf650e4b6b4d064bb542f107d0fd"
+    },
+    {
+      "path": "checkpoints\\W1_405.mat",
+      "bytes": 676165,
+      "sha256": "e2b09fe474442665624d9ecc5dffe5831f84e7eff393f0efe94a82f185498564"
+    },
+    {
+      "path": "checkpoints\\W1_406.mat",
+      "bytes": 687967,
+      "sha256": "951eefdb0caba71a059d6467f12a6a03e7c84df96114c44e982105d6c64c241d"
+    },
+    {
+      "path": "checkpoints\\W1_408.mat",
+      "bytes": 659354,
+      "sha256": "4d2f41c33461380c5568c316ce60c73d07429d69836d5acfa576cf201876f0db"
+    },
+    {
+      "path": "checkpoints\\W1_409.mat",
+      "bytes": 659720,
+      "sha256": "e9beb7a7a19365eb5baada48335a758f7699b19dd9dc500bd25597a68ed9687b"
+    },
+    {
+      "path": "checkpoints\\W1_41.mat",
+      "bytes": 701318,
+      "sha256": "b05fbe4a99b3ad3c155423217bf2f492a5030c40aaba813a21c92fde356b3d27"
+    },
+    {
+      "path": "checkpoints\\W1_411.mat",
+      "bytes": 700936,
+      "sha256": "242f065e36969b79f8038c042d7c420804204bf43410f5a9057582dd96c950e1"
+    },
+    {
+      "path": "checkpoints\\W1_412.mat",
+      "bytes": 689372,
+      "sha256": "975a4ebf311bab86e1884db7de33323367107af6f2d890ab94f8b2f2f68fa29c"
+    },
+    {
+      "path": "checkpoints\\W1_414.mat",
+      "bytes": 678208,
+      "sha256": "1da8b6be988d7dd33be1485f075e5f8eca3c89147ad446eb6206d29b762b7ba1"
+    },
+    {
+      "path": "checkpoints\\W1_415.mat",
+      "bytes": 676733,
+      "sha256": "81c79915e1a16a9e25b2f24ea5ef9efa021833ca32e36a05658ca86f72d4f173"
+    },
+    {
+      "path": "checkpoints\\W1_417.mat",
+      "bytes": 660827,
+      "sha256": "8c81609109c0fee95137296612c4eddb4a68557f6369755d746a4c66951d1fdd"
+    },
+    {
+      "path": "checkpoints\\W1_418.mat",
+      "bytes": 736526,
+      "sha256": "8345240535efcaf43522c0754004da5a224f5c9c5f04478434ea8cf1ef411a0e"
+    },
+    {
+      "path": "checkpoints\\W1_420.mat",
+      "bytes": 658352,
+      "sha256": "90f10133d2a071794179beaf7f5946e8d654917c366ca92f4622521ebb9418a5"
+    },
+    {
+      "path": "checkpoints\\W1_421.mat",
+      "bytes": 658401,
+      "sha256": "6d4875fd404c48846eafbc06c42f92f30e5a05c55afa10b5767238ce0042212e"
+    },
+    {
+      "path": "checkpoints\\W1_423.mat",
+      "bytes": 701298,
+      "sha256": "9b9df0523b88d01f0a22ddc4839226d7d32cecd3a5de708b74d7729503f58a02"
+    },
+    {
+      "path": "checkpoints\\W1_424.mat",
+      "bytes": 692009,
+      "sha256": "0d77688d563df224c12c2b8d3e771c586fb9e7dc253ddffb5005ab78802ebe37"
+    },
+    {
+      "path": "checkpoints\\W1_43.mat",
+      "bytes": 661146,
+      "sha256": "301137e267bbcc9f3a572314213225b76e6768d29baaea96e83c70f0851574b1"
+    },
+    {
+      "path": "checkpoints\\W1_44.mat",
+      "bytes": 630766,
+      "sha256": "03956fdfe1ef4a3149665d18327ca121e2e217f0072cbb2e862e2466c4626bc4"
+    },
+    {
+      "path": "checkpoints\\W1_46.mat",
+      "bytes": 678623,
+      "sha256": "dedb27b6f4b2ffb92257d07d9ba442ec5bc0db9771953129e68914edf4a6eca5"
+    },
+    {
+      "path": "checkpoints\\W1_47.mat",
+      "bytes": 651282,
+      "sha256": "792085c7360165a45b8887e9e4370e09b68baa68580a6ca2b87d3ff08fca1c63"
+    },
+    {
+      "path": "checkpoints\\W1_49.mat",
+      "bytes": 700675,
+      "sha256": "d0cb4b2fddf2d3fe102283b9722700e6d340ab4419d47e70907184c9eae0d85a"
+    },
+    {
+      "path": "checkpoints\\W1_5.mat",
+      "bytes": 648490,
+      "sha256": "5e3d482a64df645330a45ec1dd6d7cf326ad58fb3083820473a943c012e6c7a0"
+    },
+    {
+      "path": "checkpoints\\W1_50.mat",
+      "bytes": 853038,
+      "sha256": "be4ccc7a0114a123a7d09448c4ddf52bed03cfb480070659480474c54d9ed774"
+    },
+    {
+      "path": "checkpoints\\W1_52.mat",
+      "bytes": 669518,
+      "sha256": "49e321d09227a6708e382c2bd692f36a061bffd8d7ae9ca357b1150657673a9a"
+    },
+    {
+      "path": "checkpoints\\W1_53.mat",
+      "bytes": 669197,
+      "sha256": "c9b211748eeea8bbc03bb1ad955cc9815d39f86e83fb2b9ab83ea769734d4312"
+    },
+    {
+      "path": "checkpoints\\W1_55.mat",
+      "bytes": 659258,
+      "sha256": "029e1c8edaf25aa9eac50b0549b5b9fa7e6935092d93952b82e6fee2f26de1f5"
+    },
+    {
+      "path": "checkpoints\\W1_56.mat",
+      "bytes": 884320,
+      "sha256": "b139cb47022c63960ee1a1bf0242eedff5a36d9bff849432c5440ee344a664f6"
+    },
+    {
+      "path": "checkpoints\\W1_58.mat",
+      "bytes": 675937,
+      "sha256": "7cf64a1a34a790a40e10b0eb19c38ac064c58b8aa178599383f22327cebb8760"
+    },
+    {
+      "path": "checkpoints\\W1_59.mat",
+      "bytes": 656748,
+      "sha256": "70f4e45628dc7f6bb8107dcdb7de06aab4599d88376d54fd39ea6cc90d2b9cd1"
+    },
+    {
+      "path": "checkpoints\\W1_61.mat",
+      "bytes": 668500,
+      "sha256": "818445001e148196c0d473a6dc32a7e8c4e1201d5d53a9b51ff69026b260a599"
+    },
+    {
+      "path": "checkpoints\\W1_62.mat",
+      "bytes": 660259,
+      "sha256": "2382c0bde0c5808f62c2cdc5c0f69fce42e0c49c9e73d82d61e865d2b6d9b85d"
+    },
+    {
+      "path": "checkpoints\\W1_64.mat",
+      "bytes": 676063,
+      "sha256": "e63a198121e3ad267bd9ae6eb32e834788e6b23aafa84e18e9eb31810cc42e3d"
+    },
+    {
+      "path": "checkpoints\\W1_65.mat",
+      "bytes": 678077,
+      "sha256": "e11eac97ec7b6dfe641dde66983c433d5d7fb2aff295a00457d0ed053069fe34"
+    },
+    {
+      "path": "checkpoints\\W1_67.mat",
+      "bytes": 724164,
+      "sha256": "7e08d19344c4ef6dc61b679facc8fee69ed4400cac9a10e8771af5ae50ef585c"
+    },
+    {
+      "path": "checkpoints\\W1_68.mat",
+      "bytes": 714060,
+      "sha256": "3e4cfbb7f5b09b23aa4612ee4bdbfdaac806fb501ad076831c2b47b47b1c2fe1"
+    },
+    {
+      "path": "checkpoints\\W1_7.mat",
+      "bytes": 695867,
+      "sha256": "3ebe6b59171abbc7269fe6b34d8552d890e629f803a3d45a2b023a2713c3dd34"
+    },
+    {
+      "path": "checkpoints\\W1_70.mat",
+      "bytes": 658762,
+      "sha256": "878599e69087ae365296e884f79036ff2326ec9e7c608924712b16ba0680a6e5"
+    },
+    {
+      "path": "checkpoints\\W1_71.mat",
+      "bytes": 776527,
+      "sha256": "c7017dae5a96406e8471509999cf91911404a72bda94a762b9a6ed9bf18646c5"
+    },
+    {
+      "path": "checkpoints\\W1_73.mat",
+      "bytes": 668231,
+      "sha256": "57fed7b8adbe19e1b505b021579a16fb41897ea58251e24dfcc2c66566daa156"
+    },
+    {
+      "path": "checkpoints\\W1_74.mat",
+      "bytes": 641484,
+      "sha256": "2f16d858a03bdb7d38e8be32f8c95516530ccaaca4f7fcf64e2551d5f3311b19"
+    },
+    {
+      "path": "checkpoints\\W1_76.mat",
+      "bytes": 676503,
+      "sha256": "d6038b9bae8a5c96f538e73fa0eb2ae9a6d580e8704940921a9b834d53a834f0"
+    },
+    {
+      "path": "checkpoints\\W1_77.mat",
+      "bytes": 677167,
+      "sha256": "0ac1b5f01504d58c86bd0eaa277b0150ada2cbeac88b3f983c1eeefd1c73f297"
+    },
+    {
+      "path": "checkpoints\\W1_78.mat",
+      "bytes": 677104,
+      "sha256": "0914bf6ae4869b0fe5ea94c6a566e57b6160e5639792f6f9588bca66cd13cc89"
+    },
+    {
+      "path": "checkpoints\\W1_79.mat",
+      "bytes": 638805,
+      "sha256": "42be12a6cfa58e5a4f93d731eda907da38ee2433a7259312fe1f3f1c4165e0e7"
+    },
+    {
+      "path": "checkpoints\\W1_8.mat",
+      "bytes": 687417,
+      "sha256": "e49cf297baccea844d5bef3de85f5f942b5474f2004db4f4b2ddaf44bf904cb3"
+    },
+    {
+      "path": "checkpoints\\W1_80.mat",
+      "bytes": 682609,
+      "sha256": "23160bdf7dde03c06421c3a9006d1033a9abca4f0f82f4208431622494f25d8e"
+    },
+    {
+      "path": "checkpoints\\W1_81.mat",
+      "bytes": 681794,
+      "sha256": "56440f996d6371a8e6f49ac8b1b68606f04917fd7a61325db003aaef3f996b81"
+    },
+    {
+      "path": "checkpoints\\W1_82.mat",
+      "bytes": 685832,
+      "sha256": "3c850457fca468941c7ba1a9f855e05d4d37edef1ea0bbc428298463e69a49a3"
+    },
+    {
+      "path": "checkpoints\\W1_83.mat",
+      "bytes": 648690,
+      "sha256": "75332a89f37565f389144fd4bb121fd5d2860775a333313a58aae54edbab1725"
+    },
+    {
+      "path": "checkpoints\\W1_84.mat",
+      "bytes": 656368,
+      "sha256": "edaa8e35255c11044d61afcd84595018a817d85d683bfc8bf11d0a7e0420c9c8"
+    },
+    {
+      "path": "checkpoints\\W1_85.mat",
+      "bytes": 652396,
+      "sha256": "a59a4d73b7f73fe8e3dfa9f034ec3d284e8e52e266f5fa27a1aec77c80152642"
+    },
+    {
+      "path": "checkpoints\\W1_86.mat",
+      "bytes": 664885,
+      "sha256": "d357947692baf3e1160c32289cdd8094b3961e7103882109d66b80a7ac045850"
+    },
+    {
+      "path": "checkpoints\\W1_87.mat",
+      "bytes": 657412,
+      "sha256": "e19b9a503d4ba7de18319d97081d9acda4a457a378bffc32690e4d8822521117"
+    },
+    {
+      "path": "checkpoints\\W1_88.mat",
+      "bytes": 660695,
+      "sha256": "8680418bc791e9fa0ece8c7d77c70ad0f8b9cf2857558a41d524eb6c6ae53bbc"
+    },
+    {
+      "path": "checkpoints\\W1_89.mat",
+      "bytes": 659521,
+      "sha256": "05ac87267803d4fbc09fe7027447e142245d9042e838a7ca7cfe61791a576091"
+    },
+    {
+      "path": "checkpoints\\W1_90.mat",
+      "bytes": 703003,
+      "sha256": "28e4579479b375fab62aeb4fdd55252ddcd9fe557cd0d59a208c159c78a90523"
+    },
+    {
+      "path": "checkpoints\\W1_91.mat",
+      "bytes": 656355,
+      "sha256": "d790f498adb7bd4bea14dc9faee4ee953977abf516391b99a174aaafbb0b51df"
+    },
+    {
+      "path": "checkpoints\\W1_92.mat",
+      "bytes": 649702,
+      "sha256": "6d06255cdb13ede1e6baefabe0f50c1a46d722a37b585723f88d5a893657a47c"
+    },
+    {
+      "path": "checkpoints\\W1_93.mat",
+      "bytes": 645931,
+      "sha256": "982c2f277b56d8d2f9536944caebfb58149c07bd255f1051ef6c8bb6d50e8922"
+    },
+    {
+      "path": "checkpoints\\W1_94.mat",
+      "bytes": 673818,
+      "sha256": "d2e79b42da393bee2addbc3d5d9a962186ee1c8bcb919f97e64787d1d7c2bc42"
+    },
+    {
+      "path": "checkpoints\\W1_95.mat",
+      "bytes": 642346,
+      "sha256": "398a86ea79e437dda140a768c1e2c0c392668cd7260cdcf65027c2c70744870c"
+    },
+    {
+      "path": "checkpoints\\W1_96.mat",
+      "bytes": 646583,
+      "sha256": "4d72e185f0f2efb6f08dd4b75ed2c58eb77abdfa597be6a378303b82f1596379"
+    },
+    {
+      "path": "checkpoints\\W1_97.mat",
+      "bytes": 646792,
+      "sha256": "a028c37d40916c959bbc01c61b1f780d9dff98cd341d257fec9596616cb882e7"
+    },
+    {
+      "path": "checkpoints\\W1_98.mat",
+      "bytes": 663137,
+      "sha256": "409d3050671e9166f8ace21686e88344edf4d4666c7ca59f70de334c6688622d"
+    },
+    {
+      "path": "checkpoints\\W1_99.mat",
+      "bytes": 656295,
+      "sha256": "6ea9040179676b8c9e4c385b61ecff1ed3c0a60d12a02bf1d8cb030f69a94067"
+    },
+    {
+      "path": "checkpoints\\W3_1.mat",
+      "bytes": 645196,
+      "sha256": "d0e39cd6b98f436cdc6cc8e1465776183582b7b17da8144da87999a9d52b71d7"
+    },
+    {
+      "path": "checkpoints\\W3_10.mat",
+      "bytes": 637007,
+      "sha256": "ca5a7900e7885a03b827516956f5f7e96d8bf56a6ee860717e8aaec46e6e7bbf"
+    },
+    {
+      "path": "checkpoints\\W3_100.mat",
+      "bytes": 636737,
+      "sha256": "3c66330bbb3537855bf80a12d6e00e3e2251d7a2a1109f701927335e890dd034"
+    },
+    {
+      "path": "checkpoints\\W3_101.mat",
+      "bytes": 644119,
+      "sha256": "1663b035952ab8977af000684c9a5694fd99508996f02c1808db4b35dc648006"
+    },
+    {
+      "path": "checkpoints\\W3_102.mat",
+      "bytes": 638095,
+      "sha256": "f4cea64f383fa28f0604505e22f1eb9c3c6549c5d06fee6ea6589e37c3bf6059"
+    },
+    {
+      "path": "checkpoints\\W3_103.mat",
+      "bytes": 636924,
+      "sha256": "0ee2d237ed36a08a199c778fb7d3f0ff43a47e82e2aed70bb01390b2fb3ab3fb"
+    },
+    {
+      "path": "checkpoints\\W3_104.mat",
+      "bytes": 636688,
+      "sha256": "23ec09ba73a4d5f8cc1e8ed7b7139a0477be702d5275d50b74e2182397179fb0"
+    },
+    {
+      "path": "checkpoints\\W3_105.mat",
+      "bytes": 630900,
+      "sha256": "4f3ead33cb0256f15f49092b9d15da075f3759d6c8edd033f8c3fc88b4c277aa"
+    },
+    {
+      "path": "checkpoints\\W3_106.mat",
+      "bytes": 637329,
+      "sha256": "d16595e3ef584f827765a785341d6170af49f5629cbd477324a0dc2aa2cc1670"
+    },
+    {
+      "path": "checkpoints\\W3_107.mat",
+      "bytes": 637349,
+      "sha256": "4676851eb374f95712089f9adb113ea1fbabaea139b089aefa11fed6078e7da7"
+    },
+    {
+      "path": "checkpoints\\W3_108.mat",
+      "bytes": 624065,
+      "sha256": "e73d31f8eb179c60a19541a8c38aad7e7af83157dd21098de0904d4ea7bd8cc4"
+    },
+    {
+      "path": "checkpoints\\W3_109.mat",
+      "bytes": 643875,
+      "sha256": "c8eedf6ec160ec9b2f8855e165fec0a7ccead98f13ece46d1650e1a1a3732c8e"
+    },
+    {
+      "path": "checkpoints\\W3_11.mat",
+      "bytes": 672291,
+      "sha256": "2b376e7f9612ec43a7f73cceade28f2b49f297f4c7f2d6a080f06105b1d458c6"
+    },
+    {
+      "path": "checkpoints\\W3_110.mat",
+      "bytes": 637529,
+      "sha256": "7ea50b10b72d79c13c327dfe2e48c3b2d95c7e0b32de53754d8c5a3a994be1bd"
+    },
+    {
+      "path": "checkpoints\\W3_111.mat",
+      "bytes": 636730,
+      "sha256": "55dee531c2de9043ebb40d7f9a530f3cb76ee79438a0abf586d931009c0623cc"
+    },
+    {
+      "path": "checkpoints\\W3_112.mat",
+      "bytes": 737121,
+      "sha256": "e1ff03b848b80ce045b3bb15e91b56f2d69d5c3294c53cdfc159ceb6ee615e6c"
+    },
+    {
+      "path": "checkpoints\\W3_113.mat",
+      "bytes": 644730,
+      "sha256": "5658a0e14b309df302690628b9d776a650bc7096b6f436e02719d428b586ad14"
+    },
+    {
+      "path": "checkpoints\\W3_114.mat",
+      "bytes": 636995,
+      "sha256": "999049204d0a71834d2fc95dec3c3bb55b21be3aa061d58ad01955214441f999"
+    },
+    {
+      "path": "checkpoints\\W3_115.mat",
+      "bytes": 637804,
+      "sha256": "e94be5531df8ec33ebf34f0749eb614a88301be2d73bde8b89e163d03d23c6cb"
+    },
+    {
+      "path": "checkpoints\\W3_116.mat",
+      "bytes": 765100,
+      "sha256": "67d434fb4f8b93435d56dffb00c3deb48c485ebc6621c8a8f810fe05bf0ca43c"
+    },
+    {
+      "path": "checkpoints\\W3_117.mat",
+      "bytes": 644397,
+      "sha256": "fb02476677921021df42fc473afdbb645c4b6c9f2f2b0697aec7aad12cd5ff60"
+    },
+    {
+      "path": "checkpoints\\W3_118.mat",
+      "bytes": 637255,
+      "sha256": "16735fbe5a2b0db0529105a5acbe4de7ec82403fff58ed65ad0922bfd30ee704"
+    },
+    {
+      "path": "checkpoints\\W3_119.mat",
+      "bytes": 636804,
+      "sha256": "77ca011239326b72a6c58f44eaa67822e10a27d273e698ed3662c3ce93b3a4e8"
+    },
+    {
+      "path": "checkpoints\\W3_12.mat",
+      "bytes": 665937,
+      "sha256": "de4be9b8be1d5cbd431da3e6fc99ea7fe00df08e280e4dc06a0cb5f31431a192"
+    },
+    {
+      "path": "checkpoints\\W3_120.mat",
+      "bytes": 636860,
+      "sha256": "841e3ea7850157f43612a3aa871ecd9479f9a3c49015ef6dcdb327c12a481d03"
+    },
+    {
+      "path": "checkpoints\\W3_121.mat",
+      "bytes": 644318,
+      "sha256": "e824d47ab45daaec53c3e8ff51d7ac1659303cf62988c90ab18f7a3352d253d0"
+    },
+    {
+      "path": "checkpoints\\W3_122.mat",
+      "bytes": 637754,
+      "sha256": "c5b4a8c104d75abb9005e70d520fd9745088adcb9412569eb18328cd24f6eb8b"
+    },
+    {
+      "path": "checkpoints\\W3_123.mat",
+      "bytes": 637965,
+      "sha256": "4c1ec19e82ad90a20b7508989d5a10d885d73901733b3ff160e7c2ab7c21c0ca"
+    },
+    {
+      "path": "checkpoints\\W3_124.mat",
+      "bytes": 620274,
+      "sha256": "139b4d5702731eabf242acc1831a9f51e729edae51df21855a6050e69098da0b"
+    },
+    {
+      "path": "checkpoints\\W3_125.mat",
+      "bytes": 645162,
+      "sha256": "cad57f0f28536daf571804a738ce0cb055c338278c3e76fa02b0a9c790a31b3b"
+    },
+    {
+      "path": "checkpoints\\W3_126.mat",
+      "bytes": 636976,
+      "sha256": "a3667e91dd7614e8b9e0289f773a5430a435ad3205f440d14f7a077bd744b489"
+    },
+    {
+      "path": "checkpoints\\W3_127.mat",
+      "bytes": 637807,
+      "sha256": "94c089f765671635b11fed65e8c77fe149725e7ab8f35c2a92a908b6b1a6e8a9"
+    },
+    {
+      "path": "checkpoints\\W3_128.mat",
+      "bytes": 637510,
+      "sha256": "c1810cd62b0d3d2db0ae1a0629b5b60c950281037111e86e9f9ae6940a1765a6"
+    },
+    {
+      "path": "checkpoints\\W3_129.mat",
+      "bytes": 633111,
+      "sha256": "191c3e93c64e5e371487b91b5542b049bbb09468ecec66b64db2c7f020e6d17f"
+    },
+    {
+      "path": "checkpoints\\W3_13.mat",
+      "bytes": 644428,
+      "sha256": "e2e6ad5459f09ea576b036abf2a18e5de119d4a8e9c3f44e9e549de05aaf4b85"
+    },
+    {
+      "path": "checkpoints\\W3_130.mat",
+      "bytes": 636588,
+      "sha256": "efe2987b23507142462c72780d2599d7149d072228a5fb2edde1486431589ae0"
+    },
+    {
+      "path": "checkpoints\\W3_131.mat",
+      "bytes": 636233,
+      "sha256": "e259b576212c844eebac7135a99ff391d00f8ec56bccff12d1ef416c5692de1e"
+    },
+    {
+      "path": "checkpoints\\W3_132.mat",
+      "bytes": 636804,
+      "sha256": "62f3e5f0235f35ea73b702e05a3aca1d4c918369711712e595154266c18c0da8"
+    },
+    {
+      "path": "checkpoints\\W3_133.mat",
+      "bytes": 644493,
+      "sha256": "ef12e968790032e53d6dfa71c3599f338b5f81e0b268198e12101c719997fae2"
+    },
+    {
+      "path": "checkpoints\\W3_134.mat",
+      "bytes": 637786,
+      "sha256": "b2f5a5905e582ba4077c5fb945519f6a094398734d5c1a56cb425f84a8656102"
+    },
+    {
+      "path": "checkpoints\\W3_135.mat",
+      "bytes": 637025,
+      "sha256": "45af7ba9e8b1eb0de70b565c43c2c84159cc2ad881490f53d6aff656b6ed494f"
+    },
+    {
+      "path": "checkpoints\\W3_136.mat",
+      "bytes": 636965,
+      "sha256": "f3692717b4b99b7cbbf0fa216acb73d66e7fbafba1b040d2a5fd06f8af1f7de0"
+    },
+    {
+      "path": "checkpoints\\W3_137.mat",
+      "bytes": 645109,
+      "sha256": "a42aec652b875dee99ce3a47c928b32c926d51ba5360ca5385d23bc05ff1fda8"
+    },
+    {
+      "path": "checkpoints\\W3_138.mat",
+      "bytes": 672443,
+      "sha256": "d6552f7793095041ea2129f8114fe9d3db0a3a06eb9841e22481764a560fb3ed"
+    },
+    {
+      "path": "checkpoints\\W3_139.mat",
+      "bytes": 620738,
+      "sha256": "19935b68fb723bb60d40433d84c8f8d46aff74fa941ec4afa328f5b390cd7283"
+    },
+    {
+      "path": "checkpoints\\W3_14.mat",
+      "bytes": 637567,
+      "sha256": "21f409e4bd31b24f532939a78ba368401939331fdb79388b4e0c07ebadcbb857"
+    },
+    {
+      "path": "checkpoints\\W3_140.mat",
+      "bytes": 637310,
+      "sha256": "cabc45fb007c8245a87976dd988e7cf7ef8e84794560af9810d55cf9bf520764"
+    },
+    {
+      "path": "checkpoints\\W3_141.mat",
+      "bytes": 646010,
+      "sha256": "c715c1a065c3f15af2328816bd198436fdaff30d47deb5349e7b4f484dbd7208"
+    },
+    {
+      "path": "checkpoints\\W3_142.mat",
+      "bytes": 637015,
+      "sha256": "56951778f73e4305afab862ce497e1b31fa91a1446b49c08bf30b61ae607554d"
+    },
+    {
+      "path": "checkpoints\\W3_143.mat",
+      "bytes": 636838,
+      "sha256": "03ea6f2baeee541301a29cbc5a32f773d0369d73d36289e0837303d3768154c1"
+    },
+    {
+      "path": "checkpoints\\W3_144.mat",
+      "bytes": 637027,
+      "sha256": "1895fc5c7835b40d13578a39d0218eb5f67f7d25554db8df76dbea4ebfe0ea98"
+    },
+    {
+      "path": "checkpoints\\W3_145.mat",
+      "bytes": 644711,
+      "sha256": "b326cddb4632bada2a69a809d05cc3dc0d48b55b4efecbedf15c7a1fea272871"
+    },
+    {
+      "path": "checkpoints\\W3_146.mat",
+      "bytes": 637175,
+      "sha256": "9233110d1995ecbe04ae615345eaf730599fea44597089785cf1f0343c885083"
+    },
+    {
+      "path": "checkpoints\\W3_147.mat",
+      "bytes": 637199,
+      "sha256": "03d919a8b70e533adca08e86e0153c4776df04e25244226507b75ad21000988f"
+    },
+    {
+      "path": "checkpoints\\W3_148.mat",
+      "bytes": 636782,
+      "sha256": "1ec720263b8cdb172ce85565449bd51f395a43873e5998405f05834d38d85338"
+    },
+    {
+      "path": "checkpoints\\W3_149.mat",
+      "bytes": 644242,
+      "sha256": "d0cf66b8f3f24c1f8c49461072c27d0377d4e6e91b766b61a0eab83d9ee0ab14"
+    },
+    {
+      "path": "checkpoints\\W3_15.mat",
+      "bytes": 637182,
+      "sha256": "b2463dbb679fe1ff11ee59ab8b4200f8ceb94f246007aabb3a995a59f32f5c5e"
+    },
+    {
+      "path": "checkpoints\\W3_150.mat",
+      "bytes": 637027,
+      "sha256": "1efd669e67b8cce95efc6ad26af1842c443534ddfa6cd902f7968e215d3b1883"
+    },
+    {
+      "path": "checkpoints\\W3_151.mat",
+      "bytes": 624029,
+      "sha256": "dd03258f212e5097f39ed53ae8757553d658c3c9a93776005a1daf17f5553151"
+    },
+    {
+      "path": "checkpoints\\W3_152.mat",
+      "bytes": 637418,
+      "sha256": "1a4fe911c44aa92e76e9c45742113c47c1c543fd1c6e3836cc430b43b2ae0bdc"
+    },
+    {
+      "path": "checkpoints\\W3_153.mat",
+      "bytes": 644829,
+      "sha256": "194bbfcf2f6917e3e312ca51ea069cf50c95994f700f347934fa1988f0541655"
+    },
+    {
+      "path": "checkpoints\\W3_154.mat",
+      "bytes": 636825,
+      "sha256": "ca368cb89c0d08eef5e57b0fd6d1c6582d37dd8fd8724982e2329baaad2bf5ab"
+    },
+    {
+      "path": "checkpoints\\W3_155.mat",
+      "bytes": 636790,
+      "sha256": "0f7d02d7cc86136250555c24cf2a94b9ed28543d29447f7cf6b6424ace921c68"
+    },
+    {
+      "path": "checkpoints\\W3_156.mat",
+      "bytes": 637579,
+      "sha256": "462ea1f7a9489e788493d2e675afdba58e63eda255d1a154153e1e98e347a49f"
+    },
+    {
+      "path": "checkpoints\\W3_157.mat",
+      "bytes": 674166,
+      "sha256": "867319e9f57b617b3a3381b7a318e2d7093e26f50e404b75b351841edb284167"
+    },
+    {
+      "path": "checkpoints\\W3_158.mat",
+      "bytes": 636915,
+      "sha256": "10a316b0332686b24a412fd8d1d5927e779b2496ef4caf28d52a3a62ddfbe386"
+    },
+    {
+      "path": "checkpoints\\W3_159.mat",
+      "bytes": 636971,
+      "sha256": "93dbeb9508e75a9f74524fab4fce983a2f692291872c67a3f4c9f5de90104bf0"
+    },
+    {
+      "path": "checkpoints\\W3_16.mat",
+      "bytes": 867126,
+      "sha256": "5926a9578d67d006b561c99e3531a43a793bfe506c093f2b0d2399845f7337da"
+    },
+    {
+      "path": "checkpoints\\W3_160.mat",
+      "bytes": 636875,
+      "sha256": "f04b270301cc1de013634f80707190504a4a2c9c1fc929344a7ab1a6536cce6e"
+    },
+    {
+      "path": "checkpoints\\W3_161.mat",
+      "bytes": 645057,
+      "sha256": "0b7abcb871859473184a3ba3dc5c8dc6efe1a3690637f22ea3922c14a1531bc3"
+    },
+    {
+      "path": "checkpoints\\W3_162.mat",
+      "bytes": 637286,
+      "sha256": "a7dcc325bd3faee23a30592dc325674598c13bce3f83d0d0cd76c181b4d7ec93"
+    },
+    {
+      "path": "checkpoints\\W3_163.mat",
+      "bytes": 637304,
+      "sha256": "7106a54696065f1aba80b42f801a2bf21e6e80b58228823d8bd925b2515f9ed5"
+    },
+    {
+      "path": "checkpoints\\W3_164.mat",
+      "bytes": 627927,
+      "sha256": "1d0713553be9e9fc0338adf4d9a476c9a32d15962785a0463c30bb3f19561d14"
+    },
+    {
+      "path": "checkpoints\\W3_165.mat",
+      "bytes": 644453,
+      "sha256": "fecdb7cfa89e69a60d1bcad181a4287c575874c4170b23517990a3c85f20bfa3"
+    },
+    {
+      "path": "checkpoints\\W3_166.mat",
+      "bytes": 636846,
+      "sha256": "051df1a22ef8c47fd972c9a1fb074f3ead608b0457ac29cebedfd849a74fa037"
+    },
+    {
+      "path": "checkpoints\\W3_167.mat",
+      "bytes": 637224,
+      "sha256": "6d85c752b7b12f32a55173f44da64013ae39262e128b0cb1b51f4919c4c863b1"
+    },
+    {
+      "path": "checkpoints\\W3_168.mat",
+      "bytes": 636478,
+      "sha256": "24bcc71aa7f2df53cf1d54be93b626b9a788e2e869d347aae7019c6fba7ff5bc"
+    },
+    {
+      "path": "checkpoints\\W3_169.mat",
+      "bytes": 643690,
+      "sha256": "44015b168f236a9aa6082bee0bc2d501c098b02a52d602a4c09df2cf2ce4385f"
+    },
+    {
+      "path": "checkpoints\\W3_17.mat",
+      "bytes": 644707,
+      "sha256": "7088db37673261e46d6d7ba54b0d7d9ca10123979f0fa8048e843cd1dffcff5d"
+    },
+    {
+      "path": "checkpoints\\W3_170.mat",
+      "bytes": 636778,
+      "sha256": "9a58cc8b633701175394d7aaf3ddb748b10386b727791085ee3044f6d9b11e9b"
+    },
+    {
+      "path": "checkpoints\\W3_171.mat",
+      "bytes": 636964,
+      "sha256": "6b9723d052bcedb6831b67b2061580ede4c7c12f001ddc90795900338cbb803a"
+    },
+    {
+      "path": "checkpoints\\W3_172.mat",
+      "bytes": 636963,
+      "sha256": "d05df1e8a7496afe1b9c5459ebd96604e84b3c9c89c3f1d892d71a67c10e2295"
+    },
+    {
+      "path": "checkpoints\\W3_173.mat",
+      "bytes": 761186,
+      "sha256": "94506f9f210c62b84f92ae2875b7db6973d519e017754f5c8b5678da202bd83c"
+    },
+    {
+      "path": "checkpoints\\W3_174.mat",
+      "bytes": 637131,
+      "sha256": "c0c6baa241172d6929ad7534cfbb8675e4d0dfa1b2ba69df6af26c5d6269cd03"
+    },
+    {
+      "path": "checkpoints\\W3_175.mat",
+      "bytes": 636265,
+      "sha256": "9c16c959b9f4ee21419a9becbdfa5db2ef00ae0d3bcb5236ffd0ea739a9f1229"
+    },
+    {
+      "path": "checkpoints\\W3_176.mat",
+      "bytes": 636959,
+      "sha256": "e3eb04d1eb6f7f96d2e46f0b913657751aa265f4e97a18e229db432182558ff7"
+    },
+    {
+      "path": "checkpoints\\W3_177.mat",
+      "bytes": 645323,
+      "sha256": "e1549320fbe7da3af954771e573c1edc944bab63d946f5a0383899d7834efff0"
+    },
+    {
+      "path": "checkpoints\\W3_178.mat",
+      "bytes": 637616,
+      "sha256": "910db1b3d6e9a9d6fa36c1efc8069ec2d0e126a386d93a7f7b7c243b3334030c"
+    },
+    {
+      "path": "checkpoints\\W3_179.mat",
+      "bytes": 631759,
+      "sha256": "2f837cbc6e6d636c145b8e6091c42363543b73baaa3d33eddb59a62ba9019cb5"
+    },
+    {
+      "path": "checkpoints\\W3_18.mat",
+      "bytes": 637106,
+      "sha256": "2c8debbb48e3eb84c6e1e8ab1e2bb1dc36f8f931a8774885561db8a7ee1cc4ba"
+    },
+    {
+      "path": "checkpoints\\W3_180.mat",
+      "bytes": 619008,
+      "sha256": "f32831bb7b32edae4683b62af0b3fa8434af0c4167e2fb8ed491b83835716ab8"
+    },
+    {
+      "path": "checkpoints\\W3_181.mat",
+      "bytes": 645031,
+      "sha256": "b1ba31921a9da8a20c3d1c47cd4cbf2306239bc459498ee179578307161dd003"
+    },
+    {
+      "path": "checkpoints\\W3_182.mat",
+      "bytes": 637959,
+      "sha256": "78df099e61f6e67c86edcdfcc79de612cabd7cd96ebecbef5b6e7313d66da760"
+    },
+    {
+      "path": "checkpoints\\W3_183.mat",
+      "bytes": 639071,
+      "sha256": "ecbae5fd264757c1ce53c9c463cb03247e4b83c0bc1349a2b166385f77864cc9"
+    },
+    {
+      "path": "checkpoints\\W3_184.mat",
+      "bytes": 637493,
+      "sha256": "1967f8d243d3bec5be55949eda742cca523cf63091ca36a7e969830933417a83"
+    },
+    {
+      "path": "checkpoints\\W3_185.mat",
+      "bytes": 616724,
+      "sha256": "ff2638fa26014982306cff839a92422884631125d1edf90c7aa79870dff88fca"
+    },
+    {
+      "path": "checkpoints\\W3_186.mat",
+      "bytes": 636807,
+      "sha256": "d855ae687e53dc3c06c32ef3786a1c347030961ac2b6096b38616a1080f6cea0"
+    },
+    {
+      "path": "checkpoints\\W3_187.mat",
+      "bytes": 637225,
+      "sha256": "b408aeebe00a3279ff45caaa9b998c367c4d996b5614230c47685ccfa11e63ed"
+    },
+    {
+      "path": "checkpoints\\W3_188.mat",
+      "bytes": 667624,
+      "sha256": "3d55c3045615c3a2775216dff75e50cadbd449dc7ecf0f4d13b05f06a6ed2a1a"
+    },
+    {
+      "path": "checkpoints\\W3_189.mat",
+      "bytes": 644351,
+      "sha256": "f0ebc43c763a2cb6daf31e066a2159850be7efd885a404d450b5540f693e388e"
+    },
+    {
+      "path": "checkpoints\\W3_19.mat",
+      "bytes": 626574,
+      "sha256": "ead6cedc90f00d943d78c83702e3987a4dc168c171339632a62af955d55edbff"
+    },
+    {
+      "path": "checkpoints\\W3_190.mat",
+      "bytes": 648439,
+      "sha256": "e170e4c2999887291cae3dcae00e2f2d32d2baf4d637d65942d494b987eaea14"
+    },
+    {
+      "path": "checkpoints\\W3_191.mat",
+      "bytes": 737102,
+      "sha256": "954a457bc37b664e18b278a5f93dc93eaa1f76bcff010574ef824b27baa27afb"
+    },
+    {
+      "path": "checkpoints\\W3_192.mat",
+      "bytes": 636948,
+      "sha256": "07d1dea7e08c373fc15367aedcd106864517405bd38806a80744f5f5a5339d08"
+    },
+    {
+      "path": "checkpoints\\W3_193.mat",
+      "bytes": 644700,
+      "sha256": "0ca64fefe77d1ad92fbebcf998efe41180d502866b51743d0b7c9e5997a84381"
+    },
+    {
+      "path": "checkpoints\\W3_194.mat",
+      "bytes": 637594,
+      "sha256": "10246d27be2e4f911ee37ad2d32f00c5cd9caf7721ffabc90af4a5f1493d3c17"
+    },
+    {
+      "path": "checkpoints\\W3_195.mat",
+      "bytes": 637265,
+      "sha256": "cd5f651df9ca51233732e1124084c15f497fe399c3d5129a0dc78d54a1e35a2f"
+    },
+    {
+      "path": "checkpoints\\W3_196.mat",
+      "bytes": 637544,
+      "sha256": "d4a60e97704a3dc7e53c799d5eebc4760cd4e499caa9d70eea927c55500a8a42"
+    },
+    {
+      "path": "checkpoints\\W3_197.mat",
+      "bytes": 645134,
+      "sha256": "3cde119f249bc8f2ed0dfda6011585f68b977b56af360b212dcd13e6593efb2d"
+    },
+    {
+      "path": "checkpoints\\W3_198.mat",
+      "bytes": 637614,
+      "sha256": "e85a9d1223e3ea577a870f0576afd81773fe767b86b6b0565db5b820a159193f"
+    },
+    {
+      "path": "checkpoints\\W3_199.mat",
+      "bytes": 625801,
+      "sha256": "e6ee0e94333c817bc3a7db12a8229c17710f816d8a200c6f1c02757088f3ee9c"
+    },
+    {
+      "path": "checkpoints\\W3_2.mat",
+      "bytes": 637172,
+      "sha256": "6fa4e196b9985d92eb7ca6e8a0e7bfdedc30864a62c4c9a53d9b1e56431ce86e"
+    },
+    {
+      "path": "checkpoints\\W3_20.mat",
+      "bytes": 637219,
+      "sha256": "d7822f2dd29197157e472aaea37d5925be0cc5d41eb80dff4409162c386b3989"
+    },
+    {
+      "path": "checkpoints\\W3_200.mat",
+      "bytes": 636751,
+      "sha256": "e1fdb09abe4e573200f629a062cdaab9cbc9664526d1db1892b9cb4ea7e5053f"
+    },
+    {
+      "path": "checkpoints\\W3_201.mat",
+      "bytes": 679423,
+      "sha256": "ae4bd3e80aec2ed94a486adce59949e6d5ac324d00de885a378167b59433812f"
+    },
+    {
+      "path": "checkpoints\\W3_202.mat",
+      "bytes": 667831,
+      "sha256": "e0b4dc7306e1231d6e12d7a8fca0568a92219a36bc48a0da6dd4d902f4c02a1b"
+    },
+    {
+      "path": "checkpoints\\W3_203.mat",
+      "bytes": 671252,
+      "sha256": "9870e70c270710e53f6b63bafac09b2649c53b2ad4266fdc5c1b17bc521d41c5"
+    },
+    {
+      "path": "checkpoints\\W3_204.mat",
+      "bytes": 671519,
+      "sha256": "8ce13632973902640068f75601d7da56b106dab23d08bc496c596a5a9111bd53"
+    },
+    {
+      "path": "checkpoints\\W3_205.mat",
+      "bytes": 678442,
+      "sha256": "f467445fd2a9d822698b08cfdc69d841373fb07b1127ed9b960fe44950168e28"
+    },
+    {
+      "path": "checkpoints\\W3_206.mat",
+      "bytes": 667879,
+      "sha256": "ef2b81060850096dc3856a9e2d91d8ada5b4b98f0a1b3ffda0a8345083bf6536"
+    },
+    {
+      "path": "checkpoints\\W3_207.mat",
+      "bytes": 667520,
+      "sha256": "566937241caba6d169fc23ef923787a36d8f43a4bffb180173d8b5d7a06ec6dc"
+    },
+    {
+      "path": "checkpoints\\W3_208.mat",
+      "bytes": 650787,
+      "sha256": "cb382c9329e92ef9479aaee91608af8fdee60d06344a3125e3cb8474b1fbe1cd"
+    },
+    {
+      "path": "checkpoints\\W3_209.mat",
+      "bytes": 678514,
+      "sha256": "e045fd095a08afc49801d8d5550e0661b12bdf234a058fa4f473b7bb5853e675"
+    },
+    {
+      "path": "checkpoints\\W3_21.mat",
+      "bytes": 626341,
+      "sha256": "d58a080c1aa7e2f13d9346f0bb81a24c43a756aea9f5211bc92979c1ba75ab91"
+    },
+    {
+      "path": "checkpoints\\W3_210.mat",
+      "bytes": 701077,
+      "sha256": "28b02b7ec017f062cec496936e170911088945e3e0aa384597abd15e6547e5ee"
+    },
+    {
+      "path": "checkpoints\\W3_211.mat",
+      "bytes": 668464,
+      "sha256": "2c4c53c83963d58de8639aa4a22f1e23711df1a5c67cc9e786f858645456dced"
+    },
+    {
+      "path": "checkpoints\\W3_212.mat",
+      "bytes": 668728,
+      "sha256": "bce4a14cbd1edbe3ea25ed57a3d7f40a3a3c816bffa9baf7b1cf07988d5c014a"
+    },
+    {
+      "path": "checkpoints\\W3_213.mat",
+      "bytes": 676385,
+      "sha256": "dec805c89e41c59f07791bc4a226dfa765eb988a131a2712ec1c4ee3c3db8c65"
+    },
+    {
+      "path": "checkpoints\\W3_214.mat",
+      "bytes": 669446,
+      "sha256": "a5116786250484125f1a11e1a130c1e365f25e034e8d669778ee449b975319b3"
+    },
+    {
+      "path": "checkpoints\\W3_215.mat",
+      "bytes": 669251,
+      "sha256": "4b175eade608e20ebe3a612294b5aabb5d7690cb928678884ea7e8511b7eecc6"
+    },
+    {
+      "path": "checkpoints\\W3_216.mat",
+      "bytes": 667919,
+      "sha256": "8ccad3d3fcd06119deecd25f02625aa1093e47fff1972db4dc2220058de757ec"
+    },
+    {
+      "path": "checkpoints\\W3_217.mat",
+      "bytes": 680806,
+      "sha256": "aff9f8da8f304a553174b4f64d8f840d19c1a5b90232986cbc897e8fe5a75317"
+    },
+    {
+      "path": "checkpoints\\W3_218.mat",
+      "bytes": 667413,
+      "sha256": "b74f070392a6d0b5b80ac52377a7f0745c7cd90c03099bf7b3498794158e770e"
+    },
+    {
+      "path": "checkpoints\\W3_219.mat",
+      "bytes": 705401,
+      "sha256": "ae95e84402b1c51007d005ee263da52a739f02a279743871dc5e02d7a4986aeb"
+    },
+    {
+      "path": "checkpoints\\W3_22.mat",
+      "bytes": 636430,
+      "sha256": "a4233a671a45c5d492ba30b0a09edef4726542ffcc5bd4cc6f7c162e62bb07e4"
+    },
+    {
+      "path": "checkpoints\\W3_220.mat",
+      "bytes": 905311,
+      "sha256": "e32431d700667ffc16c68ff1be2a8693e1908fe19ef8a3c18d8cf51d1a867b56"
+    },
+    {
+      "path": "checkpoints\\W3_221.mat",
+      "bytes": 716386,
+      "sha256": "b6291b91ddb5a2d7cb0894266c24cc378026a87f2b40e7dc9502ed5bd17ae89a"
+    },
+    {
+      "path": "checkpoints\\W3_222.mat",
+      "bytes": 651219,
+      "sha256": "b1dba2a0b13120d65b02ab260ef6e003d7c6ba997a394a625a004ab96efa92c6"
+    },
+    {
+      "path": "checkpoints\\W3_223.mat",
+      "bytes": 706123,
+      "sha256": "c9746136b82b03a13d8b4f8d3d69567fc72408ea1f17cc54300112b4a5141876"
+    },
+    {
+      "path": "checkpoints\\W3_224.mat",
+      "bytes": 669954,
+      "sha256": "e92def8726615c62445ba9b7e011eafed2dfa55ebf1c6a7118747a788be7dd57"
+    },
+    {
+      "path": "checkpoints\\W3_225.mat",
+      "bytes": 676365,
+      "sha256": "0c3a124f3548444342aef1616f7f4462df88b867285ba6f802f8415d95c00a85"
+    },
+    {
+      "path": "checkpoints\\W3_226.mat",
+      "bytes": 670138,
+      "sha256": "fb9a98036d20fb4b6d82eb108476851eb6396685a9b37cec4867f2eecc0475f8"
+    },
+    {
+      "path": "checkpoints\\W3_227.mat",
+      "bytes": 672384,
+      "sha256": "b62c03627d71d21dfbc091c7cddd6acb919c8df3b4f63954d738eaf2d8546ab0"
+    },
+    {
+      "path": "checkpoints\\W3_228.mat",
+      "bytes": 667644,
+      "sha256": "67f75648db268498ec39449ed4c27b42e7f5c257b3b80b99fc8032626fdbe591"
+    },
+    {
+      "path": "checkpoints\\W3_229.mat",
+      "bytes": 679058,
+      "sha256": "4c8ccd4e9305faa9de309b9815a4b6fba228e52162017c4cbed84eaf73e6b776"
+    },
+    {
+      "path": "checkpoints\\W3_23.mat",
+      "bytes": 636683,
+      "sha256": "8d92efa31c9ee81ef4361d1bb72b6a33dc9bb9fb08db410c391571e6f2676d26"
+    },
+    {
+      "path": "checkpoints\\W3_230.mat",
+      "bytes": 668136,
+      "sha256": "44ac5b6a855a1add66e8f3216ea00445307d2e2f017c53d3a610eb5e17f123a3"
+    },
+    {
+      "path": "checkpoints\\W3_231.mat",
+      "bytes": 668731,
+      "sha256": "540320872114697b1e12d5e2fb691d6ea05151e7fb758212d58ca889c854cb7c"
+    },
+    {
+      "path": "checkpoints\\W3_232.mat",
+      "bytes": 709904,
+      "sha256": "9d9e7532e673979801a666de2179bc4aecc74ea3dc439dbfd00f699ff4e4b55b"
+    },
+    {
+      "path": "checkpoints\\W3_233.mat",
+      "bytes": 678571,
+      "sha256": "41ef604deb7aef255f1b0ee3b422519943e091cf604b4994f2a04b1290dffc83"
+    },
+    {
+      "path": "checkpoints\\W3_234.mat",
+      "bytes": 669732,
+      "sha256": "2d80ccf005265dffa8499fcea3d824900857cc0f855fa287e0dc55ef1c675d94"
+    },
+    {
+      "path": "checkpoints\\W3_235.mat",
+      "bytes": 669328,
+      "sha256": "4e2908cf63ddccf11a40a81bfefb9f2e460d796fa12a64340c79a0cc85f3cfa1"
+    },
+    {
+      "path": "checkpoints\\W3_236.mat",
+      "bytes": 668833,
+      "sha256": "30033bf9f0b3925e9dfbad7af2cef9cefbf1f6bd7c80214d8b5d97d5ba66c2a2"
+    },
+    {
+      "path": "checkpoints\\W3_237.mat",
+      "bytes": 675050,
+      "sha256": "e42a0968fd46180bf44fb1f9932b940b98d2f3a03f84eaf292140db696091264"
+    },
+    {
+      "path": "checkpoints\\W3_238.mat",
+      "bytes": 656892,
+      "sha256": "577ffbbfdf05f417dee572d2a6f4bd2380e19553fb8a8392bfe7b0c2fbe025cf"
+    },
+    {
+      "path": "checkpoints\\W3_239.mat",
+      "bytes": 668931,
+      "sha256": "eb2fcd46f06f94075c4ee2041b6efbd4304a2a33d249ef254d6f9d5a91324a83"
+    },
+    {
+      "path": "checkpoints\\W3_24.mat",
+      "bytes": 638538,
+      "sha256": "a344041d6b799fa1987226ccd98fcafed7c1806fbe53fb819a53db108124c502"
+    },
+    {
+      "path": "checkpoints\\W3_240.mat",
+      "bytes": 670069,
+      "sha256": "9a54e5f8f52c0d3d07dd9cc1a440c336ab608dc16e9203377dc3be82f07d85ff"
+    },
+    {
+      "path": "checkpoints\\W3_241.mat",
+      "bytes": 676521,
+      "sha256": "b99c83f2ab5b9b4ad66e76f9f807c38439e7199001ca133c595db0677bf3489f"
+    },
+    {
+      "path": "checkpoints\\W3_242.mat",
+      "bytes": 668086,
+      "sha256": "25c1570319c4379fb39ae86f7f1c6db1c19821f5115ac5d2c255aba2382d5d63"
+    },
+    {
+      "path": "checkpoints\\W3_243.mat",
+      "bytes": 672764,
+      "sha256": "41c5263a587a3c16a3234fda07f7713897b90f4e31ef692e6fe31bbe9ff30f80"
+    },
+    {
+      "path": "checkpoints\\W3_244.mat",
+      "bytes": 670146,
+      "sha256": "197e998ff0e4bb6294504ea056dde139273af3f4f94b5660764e33ab1bb486a9"
+    },
+    {
+      "path": "checkpoints\\W3_245.mat",
+      "bytes": 718004,
+      "sha256": "4aa3c41f8eb9771f8a1670b08f53c68761331ba99fae83daaa107cd2d9220b3d"
+    },
+    {
+      "path": "checkpoints\\W3_246.mat",
+      "bytes": 668515,
+      "sha256": "530a3e8a864fd5dccf0b59c884816c70d0c9d1796b29eefb6125c9dea03f0b53"
+    },
+    {
+      "path": "checkpoints\\W3_247.mat",
+      "bytes": 651257,
+      "sha256": "9ad669f6e7d97adb869ad0af64c98cd628bf3ca84ed12b274f52deeb05c87510"
+    },
+    {
+      "path": "checkpoints\\W3_248.mat",
+      "bytes": 815713,
+      "sha256": "cd9140e75d5198ea262728a226134bc5c5f60cea965d67c03e60b426a51dac94"
+    },
+    {
+      "path": "checkpoints\\W3_249.mat",
+      "bytes": 658003,
+      "sha256": "711efb64eee440dd512bc19bd965c6d87329c5e450c2299fa40441cf14fe9352"
+    },
+    {
+      "path": "checkpoints\\W3_25.mat",
+      "bytes": 644771,
+      "sha256": "d8b536d1f0cbbcf970d0cbbfc6d0448109a315ab3307378527a25c16aa886e0f"
+    },
+    {
+      "path": "checkpoints\\W3_250.mat",
+      "bytes": 671942,
+      "sha256": "1d0daf966bec44dcb4230085eb08475b6380156e86e6bef6f35fe33e9191fa9e"
+    },
+    {
+      "path": "checkpoints\\W3_251.mat",
+      "bytes": 641412,
+      "sha256": "63cf76d0b97826fc8f4df6cffa9afc469f05a13cd9e3b9f4f031f77a9cf16101"
+    },
+    {
+      "path": "checkpoints\\W3_252.mat",
+      "bytes": 670624,
+      "sha256": "e442686d87494e226a947f87985500cda315050cb9dd4b9049385ca5b99493ce"
+    },
+    {
+      "path": "checkpoints\\W3_253.mat",
+      "bytes": 676670,
+      "sha256": "dfbacda57166e36ff01055b59efde955379573acbcfd00c0c64b0c671fb073ff"
+    },
+    {
+      "path": "checkpoints\\W3_254.mat",
+      "bytes": 671810,
+      "sha256": "861a207dbd8d49c15ebd11d8a08d95cf92104938732ab6fcd1496670096890dd"
+    },
+    {
+      "path": "checkpoints\\W3_255.mat",
+      "bytes": 650454,
+      "sha256": "2494bbbe4eaa99c611137a80baa96f81d2b320f57a67c810e09dbbb5fb70a714"
+    },
+    {
+      "path": "checkpoints\\W3_256.mat",
+      "bytes": 667323,
+      "sha256": "5b111ada455594876bc750fa5ca18e7d9f34cbc92a34be2602768f0654ba9d25"
+    },
+    {
+      "path": "checkpoints\\W3_257.mat",
+      "bytes": 682964,
+      "sha256": "60878fb4e04088dc6a97d4933b4fed4a6755cc4c46ad5de579123294a32a90a1"
+    },
+    {
+      "path": "checkpoints\\W3_258.mat",
+      "bytes": 668446,
+      "sha256": "4cf2636cc7dbc7aa24d6ceb20711c61676a99f7e2d7014fd9e64b46d88e967cb"
+    },
+    {
+      "path": "checkpoints\\W3_259.mat",
+      "bytes": 668626,
+      "sha256": "baa905b53c091b00b82277defe4d4b1c8397e64bad73d9b70883f96f293a320e"
+    },
+    {
+      "path": "checkpoints\\W3_26.mat",
+      "bytes": 637050,
+      "sha256": "8fd8230a3aabea77b6ce2af9a9fd86c52feef05b57f8bc629938045fd9ebe3dd"
+    },
+    {
+      "path": "checkpoints\\W3_260.mat",
+      "bytes": 668114,
+      "sha256": "4f0e5c18a550f546f8ddf7966d1004adc43b671e796a90adcc1d30c163223366"
+    },
+    {
+      "path": "checkpoints\\W3_261.mat",
+      "bytes": 645754,
+      "sha256": "f33644b9783fa754d759a2d53d9eb8e264f15834b4ace4a701d2986c78eb1c31"
+    },
+    {
+      "path": "checkpoints\\W3_262.mat",
+      "bytes": 670165,
+      "sha256": "a4d5e9b12cacc5ab537dbcc61aeb06ff3da33266f60eb31ba20421431cc587d5"
+    },
+    {
+      "path": "checkpoints\\W3_263.mat",
+      "bytes": 669831,
+      "sha256": "e9df0c8521db3533dd4942786efb1e6d89b842d3ad143272a5846bd4685be0d4"
+    },
+    {
+      "path": "checkpoints\\W3_264.mat",
+      "bytes": 651156,
+      "sha256": "6ff3f9e09fa7e57313f2c05496247d65dbc6e9d16b40e5801b076a19caa28da3"
+    },
+    {
+      "path": "checkpoints\\W3_265.mat",
+      "bytes": 675198,
+      "sha256": "76da383e349296956d1a78024cf1f0acaaf67ae28052fa393bb84de12b92ff6c"
+    },
+    {
+      "path": "checkpoints\\W3_266.mat",
+      "bytes": 652945,
+      "sha256": "bc40a12a0414bb5611cd95ad12d3c048e62ab0b50ebbf1de5bee47ca56236df0"
+    },
+    {
+      "path": "checkpoints\\W3_267.mat",
+      "bytes": 703792,
+      "sha256": "d2016f2bb26eb3606252a4bed368d583f6c6241865c422f76934c873a0d3a81d"
+    },
+    {
+      "path": "checkpoints\\W3_268.mat",
+      "bytes": 670572,
+      "sha256": "dfaf68b28afb2a9397cc13a02a28eab9f6743f30eb78f81cfb9982994c4d6906"
+    },
+    {
+      "path": "checkpoints\\W3_269.mat",
+      "bytes": 676333,
+      "sha256": "b49be9521d2d92b5066ebda4b5f42790b20e0200f6c43871d5cc31015e94cb22"
+    },
+    {
+      "path": "checkpoints\\W3_27.mat",
+      "bytes": 637518,
+      "sha256": "adc6fcffe91cee7689e4aee1e33382a01546fbd3175db9ae38c621534882cccd"
+    },
+    {
+      "path": "checkpoints\\W3_270.mat",
+      "bytes": 644131,
+      "sha256": "b9d52950d31d096880febe7a31f2ae369d5d10950d7065423703e31a2c66dd2c"
+    },
+    {
+      "path": "checkpoints\\W3_271.mat",
+      "bytes": 670560,
+      "sha256": "f4f7cce01e753652c79e14e9a6921ff8c2a9a1ea979ba7196e349c8a24504405"
+    },
+    {
+      "path": "checkpoints\\W3_272.mat",
+      "bytes": 701150,
+      "sha256": "368852869eaf09f2d9ebf980d26d971ea2b3df8aededf0b7660e5b06859fd7aa"
+    },
+    {
+      "path": "checkpoints\\W3_273.mat",
+      "bytes": 645470,
+      "sha256": "435e3dfd36f6ce2df306362569d084180d808d8bff374d56b13b8e243f2d61e6"
+    },
+    {
+      "path": "checkpoints\\W3_274.mat",
+      "bytes": 669404,
+      "sha256": "7a82f12f83bf034d86cbd72826f311cbbd34c0f8f83f0aad85c176954922814a"
+    },
+    {
+      "path": "checkpoints\\W3_275.mat",
+      "bytes": 670477,
+      "sha256": "82c5e8e42850a04c585be37eb19ed046be095489ee44c7f3234f7933bf5f5740"
+    },
+    {
+      "path": "checkpoints\\W3_276.mat",
+      "bytes": 667275,
+      "sha256": "fd824d8fb1cb0c8264d86a8f3617bd6e14735b08429a88341195e6841c9b2b8d"
+    },
+    {
+      "path": "checkpoints\\W3_277.mat",
+      "bytes": 658861,
+      "sha256": "06ef0fe7af20529bc4f646e28445f0088b0556f918aa24d85cf24a0ed317f17d"
+    },
+    {
+      "path": "checkpoints\\W3_278.mat",
+      "bytes": 669451,
+      "sha256": "b483652d60756cbf4c11645a4df62f274877db99638d0d9a3df1edf74b832188"
+    },
+    {
+      "path": "checkpoints\\W3_279.mat",
+      "bytes": 672586,
+      "sha256": "0511836ce8d07992a10caaad273a99b2da59d9d9390f1d7e6ca675198746ef95"
+    },
+    {
+      "path": "checkpoints\\W3_28.mat",
+      "bytes": 637470,
+      "sha256": "8909c7f722b14ca4205af3502c6af605ff24e10b4d6a3e36f6b88db873708d3d"
+    },
+    {
+      "path": "checkpoints\\W3_280.mat",
+      "bytes": 668966,
+      "sha256": "add3ba5ff0c05957dbc56ec6b752d72e35fb8deb396641164a16b2a1023696fa"
+    },
+    {
+      "path": "checkpoints\\W3_281.mat",
+      "bytes": 684214,
+      "sha256": "6797dc476046424e42fc2b11e846e19fea5c027fedf9f16d2e7a84fab0a984cd"
+    },
+    {
+      "path": "checkpoints\\W3_282.mat",
+      "bytes": 669224,
+      "sha256": "344389630b96f3ee6fb9ec4c44fea59c6d128dfedd272b9d4adf8776dbce5245"
+    },
+    {
+      "path": "checkpoints\\W3_283.mat",
+      "bytes": 673949,
+      "sha256": "0796a8bfed3ffaf20f629920f8f8abe58758440d440f67c87308a8c6f7a2dd44"
+    },
+    {
+      "path": "checkpoints\\W3_284.mat",
+      "bytes": 668788,
+      "sha256": "929bab9387c437b6dd7a3f955c72190d7f0cdf2001b92f9e850fc84f81c54910"
+    },
+    {
+      "path": "checkpoints\\W3_285.mat",
+      "bytes": 686731,
+      "sha256": "e6493a96c801d7446d3ee085b8ec4b87d81e301c43c5eaa15f6eb8c073b59b01"
+    },
+    {
+      "path": "checkpoints\\W3_286.mat",
+      "bytes": 704290,
+      "sha256": "11a20b40acabf884b20a285c19b954cd5d422f3ee7aa119226ac0db3c47cce41"
+    },
+    {
+      "path": "checkpoints\\W3_287.mat",
+      "bytes": 669193,
+      "sha256": "e239db05592a756db48432ab11606c74c2afcdbd37972fb1e56d876df1799c85"
+    },
+    {
+      "path": "checkpoints\\W3_288.mat",
+      "bytes": 669789,
+      "sha256": "c112baaab3824f9dc98231e494a321c58f48f1019153dd4a720d9030e7e7dbf8"
+    },
+    {
+      "path": "checkpoints\\W3_289.mat",
+      "bytes": 677175,
+      "sha256": "a4f185fa5a806a919670985dd95ed5204b98564b969add891a16c6144900c482"
+    },
+    {
+      "path": "checkpoints\\W3_29.mat",
+      "bytes": 645304,
+      "sha256": "e7cfb195a09e25aeac0ddca70308b8de18701a7231f9f5de2d334040a71c93a0"
+    },
+    {
+      "path": "checkpoints\\W3_290.mat",
+      "bytes": 668971,
+      "sha256": "b52543e127be771fa36b11612d8e0ffd701857212c5d2351b01cea68a94c073c"
+    },
+    {
+      "path": "checkpoints\\W3_291.mat",
+      "bytes": 637374,
+      "sha256": "8521472c8e30b33a73b4aeedbcf3649bd6075c4ac52a4800da03e05e55a90459"
+    },
+    {
+      "path": "checkpoints\\W3_292.mat",
+      "bytes": 675206,
+      "sha256": "6a08d7f8fd5028f760a10b04e4bd0adde52420cceadc00f608120a88caacfc1d"
+    },
+    {
+      "path": "checkpoints\\W3_293.mat",
+      "bytes": 675670,
+      "sha256": "1ac44fab5f6458e41878b40b4154bcedb2bffc3239af300330acbd5351520722"
+    },
+    {
+      "path": "checkpoints\\W3_294.mat",
+      "bytes": 671780,
+      "sha256": "c398a9f3f3887751ad89053bebfc4a4027f11aec705474e92f6fab2a5f4c7977"
+    },
+    {
+      "path": "checkpoints\\W3_295.mat",
+      "bytes": 669564,
+      "sha256": "bd1ba468ac3b9e31795e1e6bab3b58c2a5d62def4bdfabd704527dffb6a499e2"
+    },
+    {
+      "path": "checkpoints\\W3_296.mat",
+      "bytes": 652136,
+      "sha256": "f620c60bc12cf95e28a2e1275d1010e31db27b317e087b7a793745ac73f5d37b"
+    },
+    {
+      "path": "checkpoints\\W3_297.mat",
+      "bytes": 676179,
+      "sha256": "4cf9b5f9b4485f4e65d46232607197cd67933a863bc8f60ffe6d15556b8ad5ef"
+    },
+    {
+      "path": "checkpoints\\W3_298.mat",
+      "bytes": 800923,
+      "sha256": "56b611ab56cf2442e4388d249f92762e9a82d47fcf115ba39a2136698cf94e6b"
+    },
+    {
+      "path": "checkpoints\\W3_299.mat",
+      "bytes": 653518,
+      "sha256": "17a10cd553d3aa00aa8c911aea5dba7e03940291759f3e52d1ed38bdef08c9cb"
+    },
+    {
+      "path": "checkpoints\\W3_3.mat",
+      "bytes": 636904,
+      "sha256": "d22b0d4878e75b5ccf6ebe4e3624f94cf91e070c6280c79250f1817338a03d22"
+    },
+    {
+      "path": "checkpoints\\W3_30.mat",
+      "bytes": 824968,
+      "sha256": "8eb2fe97f41236d96990058add2a02312f8ce3a28a96484f9497bc1d2ea0542e"
+    },
+    {
+      "path": "checkpoints\\W3_300.mat",
+      "bytes": 790927,
+      "sha256": "5d53aea1888645674cc7deba3696c3cc57a136331f5a5a5c387012f44e2128bd"
+    },
+    {
+      "path": "checkpoints\\W3_301.mat",
+      "bytes": 675873,
+      "sha256": "2382b966c67eaf84988b5160f1e4089d7a04b123d01280d515f7824c178e4731"
+    },
+    {
+      "path": "checkpoints\\W3_302.mat",
+      "bytes": 670406,
+      "sha256": "c62245bac2ac32bce119ec2465105753fa22aeacf0ef78d1fc07a886de95920f"
+    },
+    {
+      "path": "checkpoints\\W3_303.mat",
+      "bytes": 670061,
+      "sha256": "2032523240b6a5de3e17ef2af72878ff3522755a6e867a015da2f75104efb1af"
+    },
+    {
+      "path": "checkpoints\\W3_304.mat",
+      "bytes": 668405,
+      "sha256": "648c9e5660522f7132d488ce3060daeeaa2ef57a4a2e541b290f9e60c4ed6749"
+    },
+    {
+      "path": "checkpoints\\W3_305.mat",
+      "bytes": 698975,
+      "sha256": "59a80427f8177659afde3d4b7f6269f61fdf02dfcb57c1fb9cd37cf6943539fe"
+    },
+    {
+      "path": "checkpoints\\W3_306.mat",
+      "bytes": 679459,
+      "sha256": "d003967d43786072f15f61ed94d5b647706f02062fc68a1cd202a27547bf85db"
+    },
+    {
+      "path": "checkpoints\\W3_307.mat",
+      "bytes": 664693,
+      "sha256": "e61b2809c87acd05f1ea43588b386a0ff5184e62184527d59de1edbd2c8eb4c5"
+    },
+    {
+      "path": "checkpoints\\W3_308.mat",
+      "bytes": 656576,
+      "sha256": "e4fcab9f72417bcbc1a92cb98d58937e1c96a9f6d003710271d28dc8b49a169c"
+    },
+    {
+      "path": "checkpoints\\W3_309.mat",
+      "bytes": 675342,
+      "sha256": "4f8cac7952ca1d465acf50f60abb871ad5e83a6d5e07084e1ab8130e5b0f0c13"
+    },
+    {
+      "path": "checkpoints\\W3_31.mat",
+      "bytes": 637338,
+      "sha256": "159e47bf4ada4494b40e63b2e082440d13caadc0428049fc0ac19992833c9462"
+    },
+    {
+      "path": "checkpoints\\W3_310.mat",
+      "bytes": 669567,
+      "sha256": "af140269dc6f3346ada953df7a6aaeaab75188e379bd37e0865fdefea3f6c718"
+    },
+    {
+      "path": "checkpoints\\W3_311.mat",
+      "bytes": 668588,
+      "sha256": "bc0f5ca545e36ebddbe431149492fd175b89517215b2fde65c8612e58c5a62bc"
+    },
+    {
+      "path": "checkpoints\\W3_312.mat",
+      "bytes": 667429,
+      "sha256": "b7261f2f28d90ca347119ed1d75b12b52a12683554d5859d3dbd8a5cf10cf310"
+    },
+    {
+      "path": "checkpoints\\W3_313.mat",
+      "bytes": 713560,
+      "sha256": "e1ba2b9119cb86a715784200bab794e1e52a58faf4447532f21942694682e4c6"
+    },
+    {
+      "path": "checkpoints\\W3_314.mat",
+      "bytes": 662490,
+      "sha256": "1ef05c54e0bb1d8c49c468c81ca510f48fc3e28e115410590ea2e6e9b2d52114"
+    },
+    {
+      "path": "checkpoints\\W3_315.mat",
+      "bytes": 670477,
+      "sha256": "fb06f980c6602ab6e6898a420af7c14c5f8de84e9e79c216b4a1dfe96ff4970d"
+    },
+    {
+      "path": "checkpoints\\W3_316.mat",
+      "bytes": 667795,
+      "sha256": "a5666b82ca59df994ee1d9496812f6e4857eb9f3893ca0de0dca450940c12f27"
+    },
+    {
+      "path": "checkpoints\\W3_317.mat",
+      "bytes": 647542,
+      "sha256": "e9ac9c086d7c60a872a49bc1c3b021cd7ff7b115c721430d12e12234155ca61d"
+    },
+    {
+      "path": "checkpoints\\W3_318.mat",
+      "bytes": 668057,
+      "sha256": "3ccec4cb1bf521886d28b2ea4a58e8accfadc06a15665332abf19aefda0e43d1"
+    },
+    {
+      "path": "checkpoints\\W3_319.mat",
+      "bytes": 796419,
+      "sha256": "f483c61fd36336f6d827637216fabbac2d488197a398d7a3f028e33d5ea3217f"
+    },
+    {
+      "path": "checkpoints\\W3_32.mat",
+      "bytes": 636861,
+      "sha256": "49ae0be0f71e74f386bcc1e12c5a525dfa8c893aaea50cd0bfad9ab9fa7fc9d7"
+    },
+    {
+      "path": "checkpoints\\W3_320.mat",
+      "bytes": 707310,
+      "sha256": "568848cdbbde6fb53a45a6ca67ea468229dce8211f8ec3c62274cc6fb5f728a8"
+    },
+    {
+      "path": "checkpoints\\W3_321.mat",
+      "bytes": 711581,
+      "sha256": "b7f66cb7698a652e2b921677974299adb14824f9419cc12a98b11d0e9a7f55c9"
+    },
+    {
+      "path": "checkpoints\\W3_322.mat",
+      "bytes": 654937,
+      "sha256": "5d92eef99d1dbf202aa85bca4a80c39fefdb10b2e7b88fa151672be66313d8fe"
+    },
+    {
+      "path": "checkpoints\\W3_323.mat",
+      "bytes": 767024,
+      "sha256": "b2c57930500d4de077b3d91363118124dd29c8bfd490d7bd90afcca2cecbdab6"
+    },
+    {
+      "path": "checkpoints\\W3_324.mat",
+      "bytes": 671218,
+      "sha256": "a4e7e030e2c670eaab735699d877b6dbdd53a0dba40c0091ccdcafd24c54247f"
+    },
+    {
+      "path": "checkpoints\\W3_325.mat",
+      "bytes": 716591,
+      "sha256": "6f13b6a8c5f141d574ef1e8b0be1b4fdd8d52f6394d0b91d7d425ef98fd69a95"
+    },
+    {
+      "path": "checkpoints\\W3_326.mat",
+      "bytes": 795539,
+      "sha256": "af4bb15366d96a15d222cd662da0b931885e1b9171c1f60cea08f2a7666862a9"
+    },
+    {
+      "path": "checkpoints\\W3_327.mat",
+      "bytes": 667542,
+      "sha256": "029d1ea4a9d9457a13ebee09a8b3b6bf9fef959cd9b75db6a3d6ebc6a3541df4"
+    },
+    {
+      "path": "checkpoints\\W3_328.mat",
+      "bytes": 640833,
+      "sha256": "5f0baeeef9a23414050f172a5819bc61cf08b25ab5c1f7a2ccc08a7878a302b3"
+    },
+    {
+      "path": "checkpoints\\W3_329.mat",
+      "bytes": 675316,
+      "sha256": "c7f2fddaa6139f37389c6b19cc9c0a5d80faca249e20b7fd0c0c63d6938e2907"
+    },
+    {
+      "path": "checkpoints\\W3_33.mat",
+      "bytes": 644003,
+      "sha256": "179dfb84fd4ff0ce3abd1afdffea00e4a91211fc090e006ee0a54977342eaf41"
+    },
+    {
+      "path": "checkpoints\\W3_330.mat",
+      "bytes": 671944,
+      "sha256": "acc2a23e6b0d8e8b63c4475c1106b38eaa006158ac93d3b09b5a7a9d9a432009"
+    },
+    {
+      "path": "checkpoints\\W3_331.mat",
+      "bytes": 669177,
+      "sha256": "1028c3855c7f813ea6102b948084c02b1a5a343eafb1de89217fdc6ea17fb7f4"
+    },
+    {
+      "path": "checkpoints\\W3_332.mat",
+      "bytes": 669101,
+      "sha256": "bd02f2164f12296ca7de7a0281be33eaada3ed35613436f0d0d3bc4819d2d65d"
+    },
+    {
+      "path": "checkpoints\\W3_333.mat",
+      "bytes": 675198,
+      "sha256": "bdf980706fb9d83e98ef125c9a4aac485e6d5dcdb1ad60b47869f900929f40cc"
+    },
+    {
+      "path": "checkpoints\\W3_334.mat",
+      "bytes": 653762,
+      "sha256": "5ab922e87eb0da42d6399fab187614d6e29e80c08b854cec15c0124bdc052221"
+    },
+    {
+      "path": "checkpoints\\W3_335.mat",
+      "bytes": 666582,
+      "sha256": "a98ee862fc8dbf83208473d7be523c6da7f5c660497f7c8035a09cd859c5f191"
+    },
+    {
+      "path": "checkpoints\\W3_336.mat",
+      "bytes": 868645,
+      "sha256": "af80879c9ee70d1cf722fb4538a3bca2d47fde95975acbaa742dcfa60554b3cb"
+    },
+    {
+      "path": "checkpoints\\W3_337.mat",
+      "bytes": 712613,
+      "sha256": "234502d5e58b632f1d2f79af416be3313b9128727bb49cf5319e99a92f12c6ef"
+    },
+    {
+      "path": "checkpoints\\W3_338.mat",
+      "bytes": 669536,
+      "sha256": "7144b0db09cee3bfed1c96cc4ea811928ddfc3ab26bcb4e968492d320b8565c0"
+    },
+    {
+      "path": "checkpoints\\W3_339.mat",
+      "bytes": 705456,
+      "sha256": "57b5844c90f9041c7af73d42ba7ad2ed6ec271e958e698c62732060d124c2edb"
+    },
+    {
+      "path": "checkpoints\\W3_34.mat",
+      "bytes": 636975,
+      "sha256": "4bd95eb805b41c1d3423e6289eaec8b52a583ebcd90ae3081ddd6a27bd09a463"
+    },
+    {
+      "path": "checkpoints\\W3_340.mat",
+      "bytes": 656299,
+      "sha256": "f32a187f18bb66104c96fad3da65a946ef0b58b712db4ec348b32a6730c5c5b6"
+    },
+    {
+      "path": "checkpoints\\W3_341.mat",
+      "bytes": 674884,
+      "sha256": "d35a8c379fe55a01e042320d1ac3e8bb188d1b2b0643c1290e0059c9c95abb1a"
+    },
+    {
+      "path": "checkpoints\\W3_342.mat",
+      "bytes": 669946,
+      "sha256": "08626704750743adb8a18aa93e8822953c1ce6a8c7abe6e3c3d8eb6db1f6982a"
+    },
+    {
+      "path": "checkpoints\\W3_343.mat",
+      "bytes": 669834,
+      "sha256": "b2338849c96e9113da2de1c727864bd5b473deac824c6165e26914ea59928928"
+    },
+    {
+      "path": "checkpoints\\W3_344.mat",
+      "bytes": 654252,
+      "sha256": "5cd1463a9e7892678dc7667d5772476daeb960b6de2f90da3aef724e38867fc5"
+    },
+    {
+      "path": "checkpoints\\W3_345.mat",
+      "bytes": 662730,
+      "sha256": "1387ccf51a8e5a0cee5fea35ce071b32604226fc7e6004cce804b9784e524efa"
+    },
+    {
+      "path": "checkpoints\\W3_346.mat",
+      "bytes": 708654,
+      "sha256": "1be22db5e529c12713eaa7661f75b452a621215a9e1153f3acfb573a64c577f0"
+    },
+    {
+      "path": "checkpoints\\W3_347.mat",
+      "bytes": 676479,
+      "sha256": "6a6234bf28d11b50a17481052783b8d8d794f85074284fcda07b2bbbccf14dc3"
+    },
+    {
+      "path": "checkpoints\\W3_348.mat",
+      "bytes": 697503,
+      "sha256": "375d394b6ec75b578359ea01e862316740818787b503b02efc8c938e4345b73a"
+    },
+    {
+      "path": "checkpoints\\W3_349.mat",
+      "bytes": 660999,
+      "sha256": "ef91c588635002b8608c592c630bdf64ed57a56199e7baa9cab3d0339300bf9f"
+    },
+    {
+      "path": "checkpoints\\W3_35.mat",
+      "bytes": 637646,
+      "sha256": "c9b76da153e4e793d8d2030734dfee4d75d1e056a7948c7491bd3a07618cca9b"
+    },
+    {
+      "path": "checkpoints\\W3_350.mat",
+      "bytes": 667136,
+      "sha256": "564c20a4df0fb0234a7d4d303759c4ed0a7348da7c7042946c1664c64529025d"
+    },
+    {
+      "path": "checkpoints\\W3_351.mat",
+      "bytes": 699505,
+      "sha256": "dd67fc6d1949803b97cc0910a4ee1dc2d126b6ed8c149fa02d8c276c83912b55"
+    },
+    {
+      "path": "checkpoints\\W3_352.mat",
+      "bytes": 781333,
+      "sha256": "e8a5c32a96e34e6dea9b2aee8ddcf8a6876d2373bad3d710063e6ccdf2d0767c"
+    },
+    {
+      "path": "checkpoints\\W3_353.mat",
+      "bytes": 676778,
+      "sha256": "657ba8295360d54c3c30920c3b776475952f3ba5aeded4ffa81f24c57890fcd1"
+    },
+    {
+      "path": "checkpoints\\W3_354.mat",
+      "bytes": 674086,
+      "sha256": "cbfa78b4baeb5c53f6241845591176a8b23b433da90590e91e040513cdb67077"
+    },
+    {
+      "path": "checkpoints\\W3_355.mat",
+      "bytes": 668648,
+      "sha256": "6acf4ec7b8819d574780a520bbab957f01e5f46ca39af535e2f6d9fe6ae25dc3"
+    },
+    {
+      "path": "checkpoints\\W3_356.mat",
+      "bytes": 667995,
+      "sha256": "67dac4a27951b50b12dbc2259aa128120a6cbc866645de06925835b36f16bf12"
+    },
+    {
+      "path": "checkpoints\\W3_357.mat",
+      "bytes": 675094,
+      "sha256": "ae63442386a4d4d2f9ddbe67096ed1391e3e9ea79d6ece4587560ea19e88c79c"
+    },
+    {
+      "path": "checkpoints\\W3_358.mat",
+      "bytes": 706180,
+      "sha256": "1c06c3d2a27ddc68b2ac201a2cd83feb1db6aea7f27dc630cc5ea4fd490407a1"
+    },
+    {
+      "path": "checkpoints\\W3_359.mat",
+      "bytes": 668172,
+      "sha256": "8524063000bd4cc02d9b12bcf22d701b5956242706213e31941ed894d4fe4501"
+    },
+    {
+      "path": "checkpoints\\W3_36.mat",
+      "bytes": 619665,
+      "sha256": "7e89bd523bb48a7e13a1cf7c8963ffe2fcbea8de9c717a4ec87fbe451d305034"
+    },
+    {
+      "path": "checkpoints\\W3_360.mat",
+      "bytes": 673558,
+      "sha256": "dba2788c7b82ca699a2c91174bfe6a3cc201af38617b609f219f638561e701c5"
+    },
+    {
+      "path": "checkpoints\\W3_361.mat",
+      "bytes": 676636,
+      "sha256": "f5d651d2c79ecd565fc3ccb7759d4689550604a68c4c1421ff893216c5083c90"
+    },
+    {
+      "path": "checkpoints\\W3_362.mat",
+      "bytes": 694634,
+      "sha256": "749507191b2056d0f8f2b58fa38fd11bcc44f43ac9cdc7e3bd0da875c2d3612a"
+    },
+    {
+      "path": "checkpoints\\W3_363.mat",
+      "bytes": 696767,
+      "sha256": "968ee6cd3d1caaa498d27f403e41575dfaafbb2ebc2984a41c0ece4a3a17342c"
+    },
+    {
+      "path": "checkpoints\\W3_364.mat",
+      "bytes": 699945,
+      "sha256": "228320e2bbcaf36db81f886ea8e24c911cf8be0bd068033ad8a20e24adbae962"
+    },
+    {
+      "path": "checkpoints\\W3_365.mat",
+      "bytes": 705150,
+      "sha256": "afe088ae4fe5345635e1013cfb24a9d6b116a9296597e7ef5540624aeaf39e64"
+    },
+    {
+      "path": "checkpoints\\W3_366.mat",
+      "bytes": 691717,
+      "sha256": "5b661d8e4f957d16ebc3b140053fd5e8600f23a03503ed2054015d7f572e185d"
+    },
+    {
+      "path": "checkpoints\\W3_367.mat",
+      "bytes": 669379,
+      "sha256": "9f533caf8c97489e476b187743ba94d1bb08ab9d9220bc65c998f22a133d3784"
+    },
+    {
+      "path": "checkpoints\\W3_368.mat",
+      "bytes": 669819,
+      "sha256": "84aa2038ec68266879d9d75785ff21bf655487bae04273a19a4884b06baa4bd7"
+    },
+    {
+      "path": "checkpoints\\W3_369.mat",
+      "bytes": 722429,
+      "sha256": "b42cf59df4fc8f0dae5ee1bb64fa4e27c748f8d54fc9a9d57ef2bcad25acc3e7"
+    },
+    {
+      "path": "checkpoints\\W3_37.mat",
+      "bytes": 645435,
+      "sha256": "83db499b8ed6894056bbbf1ca1b35baa307a859339379f213df68bbfb159eef3"
+    },
+    {
+      "path": "checkpoints\\W3_370.mat",
+      "bytes": 669546,
+      "sha256": "9741907eff4c965daae5f1346da03cdc430b47ab42ef43ecf9703598d431c49e"
+    },
+    {
+      "path": "checkpoints\\W3_371.mat",
+      "bytes": 668404,
+      "sha256": "bde10c7bfc0fdf8bc0d103a4dd5e7453dfbb758f23f8cadcc560070a92c1787a"
+    },
+    {
+      "path": "checkpoints\\W3_372.mat",
+      "bytes": 702550,
+      "sha256": "143f74e63d0edac3d2bcb0a3e7bc8396a871307f2f506e2fe7a72972318ee8f8"
+    },
+    {
+      "path": "checkpoints\\W3_373.mat",
+      "bytes": 671647,
+      "sha256": "3c4d7195a090ad352290f0f698b1bacce3efb349e14fdf85c41415f1c49b89af"
+    },
+    {
+      "path": "checkpoints\\W3_374.mat",
+      "bytes": 669049,
+      "sha256": "dc67a11fff547bbf959e27a132f9f8320681dc53f4d22fab8395b957968ae6cd"
+    },
+    {
+      "path": "checkpoints\\W3_375.mat",
+      "bytes": 883466,
+      "sha256": "fa220c88dab26c2ea89b0bfc6426c7fa8fe2e5c7a1d0d962c40dfc2f8fd850bd"
+    },
+    {
+      "path": "checkpoints\\W3_376.mat",
+      "bytes": 769292,
+      "sha256": "95ecafd99229e022421af82151ab1d44b5ff6e732e08f1a4f5605ba12ac558ff"
+    },
+    {
+      "path": "checkpoints\\W3_377.mat",
+      "bytes": 657594,
+      "sha256": "39aedda8a00604a08bdf4c29bd46ef4d492eb5516a9588b0ade09a032ff1d9c8"
+    },
+    {
+      "path": "checkpoints\\W3_378.mat",
+      "bytes": 668358,
+      "sha256": "09c117463e7b86fa015db7437db42a3d869d6ef9338145a3c8862205fc8a323b"
+    },
+    {
+      "path": "checkpoints\\W3_379.mat",
+      "bytes": 700629,
+      "sha256": "d8ad31e72e0744bc2b8bf449bb80604feb8ea3320c31f8cd92fae8d984d63295"
+    },
+    {
+      "path": "checkpoints\\W3_38.mat",
+      "bytes": 637135,
+      "sha256": "65111db87e645749ed70b4169696e2455ff5db73dc5a6429491d6a4312025021"
+    },
+    {
+      "path": "checkpoints\\W3_380.mat",
+      "bytes": 693333,
+      "sha256": "4e216fe93fed46fee0cd5351a5ce3ce886acf945caba7f55cda0af8e032a11e8"
+    },
+    {
+      "path": "checkpoints\\W3_381.mat",
+      "bytes": 703993,
+      "sha256": "73090c5cf6e7edba84546ad4a3759438d8f6a606a1f94dea9b200a0470fdeb5c"
+    },
+    {
+      "path": "checkpoints\\W3_382.mat",
+      "bytes": 656709,
+      "sha256": "52a0e4e32b8b4ed21bf314b6e2169a012789e67fcc7573b54a8a1280168568a6"
+    },
+    {
+      "path": "checkpoints\\W3_383.mat",
+      "bytes": 703290,
+      "sha256": "e7e35b602bf4cacab446137824e490cc81685e942dcd545e051fc5c555868cf2"
+    },
+    {
+      "path": "checkpoints\\W3_384.mat",
+      "bytes": 669528,
+      "sha256": "7c69ac6e5b8e2987123bdb6e8ed5e268b7d531fb7f1fd2561809bf5d70b0f053"
+    },
+    {
+      "path": "checkpoints\\W3_385.mat",
+      "bytes": 721213,
+      "sha256": "02439894da54eb7174002c9b1cc50eed5c8c6b186ae4c0ccc0452a69b7b6ac01"
+    },
+    {
+      "path": "checkpoints\\W3_386.mat",
+      "bytes": 665651,
+      "sha256": "bbb4a864bb73f5f85c142069e4a5cf7def37ef42594e0081364aac5005b05841"
+    },
+    {
+      "path": "checkpoints\\W3_387.mat",
+      "bytes": 662471,
+      "sha256": "679d2c1153022fd59f0124b4e29fda9beb6719fafedd45398dfe5517389bf44d"
+    },
+    {
+      "path": "checkpoints\\W3_388.mat",
+      "bytes": 668430,
+      "sha256": "3c6810505b3f23bab03832b38c52d63acf83075a15fcbdef65a80292aadacb47"
+    },
+    {
+      "path": "checkpoints\\W3_389.mat",
+      "bytes": 677714,
+      "sha256": "b41f76a53ae1247d42a60f13d0d8cc249ecb65f1a8fbf3824544d506383886c2"
+    },
+    {
+      "path": "checkpoints\\W3_39.mat",
+      "bytes": 637161,
+      "sha256": "635bdc0df5a5e7d3ec7be1de493cf1347f60dddcf2ade54fb2104ff6a445e23e"
+    },
+    {
+      "path": "checkpoints\\W3_390.mat",
+      "bytes": 671954,
+      "sha256": "bc56edf2874479eaa3cdf7583da69e7df509026c36df9cfe718e9489d86f0a33"
+    },
+    {
+      "path": "checkpoints\\W3_391.mat",
+      "bytes": 669975,
+      "sha256": "38765ebeff95b5a9abba36cee7f8682dfde82bf7458ab514bacf5b4243f7f329"
+    },
+    {
+      "path": "checkpoints\\W3_392.mat",
+      "bytes": 655899,
+      "sha256": "67dbf4b617a629856cdf994d9b2b106ef0269cbbd061db0c7c7273ea4d511af4"
+    },
+    {
+      "path": "checkpoints\\W3_393.mat",
+      "bytes": 663610,
+      "sha256": "7793b68643e652698ce6d69bdf126932bcbf2d4545b293a3a1fd6e0041b8b5a5"
+    },
+    {
+      "path": "checkpoints\\W3_394.mat",
+      "bytes": 670247,
+      "sha256": "d7adb02fdf7b4a71837f1b9a82db4381fe74c0ba68e3aa492e538962ba8562bf"
+    },
+    {
+      "path": "checkpoints\\W3_395.mat",
+      "bytes": 668300,
+      "sha256": "623dddfa24f54de98a622110c00fcabf9d4ad220fb703123f480a5e21295315d"
+    },
+    {
+      "path": "checkpoints\\W3_396.mat",
+      "bytes": 668185,
+      "sha256": "edad40dd829f5c32c414430feb86fbd2adaa3f90bacc4f824ae05688987eea83"
+    },
+    {
+      "path": "checkpoints\\W3_397.mat",
+      "bytes": 676433,
+      "sha256": "d43a326c8c2af3fc72417f850ab06235675852cc93ce51b9525d89a6a326a2e8"
+    },
+    {
+      "path": "checkpoints\\W3_398.mat",
+      "bytes": 658931,
+      "sha256": "651a923dda1780b5e8f4c5655c503cb4d50de2c941eaa0cf7152c4678e4d17ec"
+    },
+    {
+      "path": "checkpoints\\W3_399.mat",
+      "bytes": 670945,
+      "sha256": "5ea3ffbf31aeccbe2046cb920ecc26515c8e9314fa3f826fba15132c4c6dd053"
+    },
+    {
+      "path": "checkpoints\\W3_4.mat",
+      "bytes": 637309,
+      "sha256": "b472354e76301b3f5377726eee29aa11b6a7d3b4a03d52acbfe4b340e4b51b06"
+    },
+    {
+      "path": "checkpoints\\W3_40.mat",
+      "bytes": 676812,
+      "sha256": "910fbcd0a19a3052abde5895891b7c43403948746965b4e189b2ee44d123541b"
+    },
+    {
+      "path": "checkpoints\\W3_400.mat",
+      "bytes": 706477,
+      "sha256": "576791414156519f0fc8a7bc2e306a69085f50731d0a145733bb5fa1052215bb"
+    },
+    {
+      "path": "checkpoints\\W3_401.mat",
+      "bytes": 663345,
+      "sha256": "11ee547b1aecce47f9dbd3dd1d381ba132055692970ef776a9a4ee6f770227a2"
+    },
+    {
+      "path": "checkpoints\\W3_402.mat",
+      "bytes": 655788,
+      "sha256": "3549fb33562ae8038644f06e1a71b336dd74b4a6a3a6449a2010ce0b0d20c8ae"
+    },
+    {
+      "path": "checkpoints\\W3_403.mat",
+      "bytes": 655931,
+      "sha256": "b4e7b409f708415d663442f8d0700984ad341968954bd0ec5bb7375a956badb0"
+    },
+    {
+      "path": "checkpoints\\W3_404.mat",
+      "bytes": 655683,
+      "sha256": "1628ba2dc465f7ac13a0ab7caaa1dd4300961c554d9091179b455bce4d8d27a6"
+    },
+    {
+      "path": "checkpoints\\W3_405.mat",
+      "bytes": 663244,
+      "sha256": "d8bcfa3d3884d2337d532c65da649ee16fc05b163caffa4c9867cee085fb8088"
+    },
+    {
+      "path": "checkpoints\\W3_406.mat",
+      "bytes": 655537,
+      "sha256": "aca123b23c8e3ec36ff71e51da00057d397e1018fdb19979fe75e9f12a841ed1"
+    },
+    {
+      "path": "checkpoints\\W3_407.mat",
+      "bytes": 656220,
+      "sha256": "056f6867baaa4ae45be354dbd35a4e5218796b2cd66607b858eca833311ab5be"
+    },
+    {
+      "path": "checkpoints\\W3_408.mat",
+      "bytes": 655305,
+      "sha256": "feb63ba9d9b7846e2ef57b1bb11de7e6c695d895b035de16e187fd3b4ff07625"
+    },
+    {
+      "path": "checkpoints\\W3_409.mat",
+      "bytes": 663586,
+      "sha256": "b96ea075abbc4e74168fcb8a51c6b7077cf7f82efa0a6ac5b4d28adaaafd024f"
+    },
+    {
+      "path": "checkpoints\\W3_41.mat",
+      "bytes": 644503,
+      "sha256": "4ebcd8d3c48b4f8dfe44d2f3712f9df0d6f953c160d38adb08bb59abecb742f2"
+    },
+    {
+      "path": "checkpoints\\W3_410.mat",
+      "bytes": 656509,
+      "sha256": "9ef7ff71b9866e336326cc9355466b14a6ac0acbc929b64dac3c16c1b59dec5b"
+    },
+    {
+      "path": "checkpoints\\W3_411.mat",
+      "bytes": 655872,
+      "sha256": "ded4931fc9848f54dfff61f4a01cded3057e51d8e44da367ef67f77b59501613"
+    },
+    {
+      "path": "checkpoints\\W3_412.mat",
+      "bytes": 655336,
+      "sha256": "0ae611f788130b4a3ceed08d7258345f9fd7bfb614d6a0c0770555aeb936a332"
+    },
+    {
+      "path": "checkpoints\\W3_413.mat",
+      "bytes": 663079,
+      "sha256": "ffd0887d02ef87fe3db17802a96d2a68deaa9bacede35aa14a0cf4a50465f60c"
+    },
+    {
+      "path": "checkpoints\\W3_414.mat",
+      "bytes": 655867,
+      "sha256": "e02ff919b437053a03da886491f66d18b5107c204fbcf2d5d29dc36acdafcc02"
+    },
+    {
+      "path": "checkpoints\\W3_415.mat",
+      "bytes": 656074,
+      "sha256": "6116961a9b10a5145d3bfe55742e1e94251dda03b69fe7aa325070ed4db20729"
+    },
+    {
+      "path": "checkpoints\\W3_416.mat",
+      "bytes": 655744,
+      "sha256": "bff721edf58cc61e6ff894648aa1eca206bc524b0115f0a233ecfb50a74f2a79"
+    },
+    {
+      "path": "checkpoints\\W3_417.mat",
+      "bytes": 662950,
+      "sha256": "769e50e3db78b5e171183efb7e1bb34c48395d4ba094a9e251d0f93c3385a8c5"
+    },
+    {
+      "path": "checkpoints\\W3_418.mat",
+      "bytes": 655670,
+      "sha256": "14ffb1360a6cfef45ba6bb6dc0f167b9e8f0ef009fba5f9a4d1947f0ac9f3f2a"
+    },
+    {
+      "path": "checkpoints\\W3_419.mat",
+      "bytes": 655718,
+      "sha256": "df37b96971d9e986c5e4ab8fbef327ecea8c1b0628d6e13e0fab312db9b2ccac"
+    },
+    {
+      "path": "checkpoints\\W3_42.mat",
+      "bytes": 620452,
+      "sha256": "002612e016df56ebeb8fb0b3c64697859a4d9fa33a33c8c4bac8e054b93cc845"
+    },
+    {
+      "path": "checkpoints\\W3_420.mat",
+      "bytes": 655901,
+      "sha256": "6ddd3eb62a246428ce9b7d919bca460984ecdbf0e554bb9aec983b4adaa849f4"
+    },
+    {
+      "path": "checkpoints\\W3_421.mat",
+      "bytes": 663258,
+      "sha256": "995296fd05fac88726668826840a70c8b6c69ab39a504b4aff3b5b2bbaa18d28"
+    },
+    {
+      "path": "checkpoints\\W3_422.mat",
+      "bytes": 656097,
+      "sha256": "bf7b9fcfdc5641b04858b7320ff12f525d73528bb7f691ebe80c4a23b7fa30c0"
+    },
+    {
+      "path": "checkpoints\\W3_423.mat",
+      "bytes": 655682,
+      "sha256": "ef90fd053f0ed020ba7b461824f785e8432a21aba350428c37595ef13d1ab525"
+    },
+    {
+      "path": "checkpoints\\W3_424.mat",
+      "bytes": 655768,
+      "sha256": "9a95a14d5e9800de87fb309392eb668000b56732fb4202c731a298685fba82b4"
+    },
+    {
+      "path": "checkpoints\\W3_425.mat",
+      "bytes": 664048,
+      "sha256": "ebd7314d5b423acf6d20415ac12709c995c3efe84a216a80c0260050096d9dde"
+    },
+    {
+      "path": "checkpoints\\W3_426.mat",
+      "bytes": 655956,
+      "sha256": "204c287a131cad2027999b6c4526281c204a2fd7fdd9ee36b8390991293ac5ff"
+    },
+    {
+      "path": "checkpoints\\W3_427.mat",
+      "bytes": 655581,
+      "sha256": "90a8ca43e4386bcdb9dfd860b5320543968eb43d9a63c317d9bd02287f8d2ba7"
+    },
+    {
+      "path": "checkpoints\\W3_428.mat",
+      "bytes": 655763,
+      "sha256": "5629cbd37c77340620c384b00f136892a488a8d8622def2d546fae866639233d"
+    },
+    {
+      "path": "checkpoints\\W3_429.mat",
+      "bytes": 663296,
+      "sha256": "b0c9ada118698fc55e22eb6b3daf0c6406b20cb831ad098647ac03b75929dcc6"
+    },
+    {
+      "path": "checkpoints\\W3_43.mat",
+      "bytes": 636411,
+      "sha256": "3c8310bbcb8b3aa7bcbb523ac86f930c7ae9b9ac2c68b5d14ebe844b248c56ce"
+    },
+    {
+      "path": "checkpoints\\W3_430.mat",
+      "bytes": 655531,
+      "sha256": "654e28e44ab9e8cbce38aef0e34b69198ffae13ade4b91b2bce7e85584d4e29f"
+    },
+    {
+      "path": "checkpoints\\W3_431.mat",
+      "bytes": 655593,
+      "sha256": "a3d3616a30067b44499b8cff979281918a8af327c82c7f86ff6dc87c4418287b"
+    },
+    {
+      "path": "checkpoints\\W3_432.mat",
+      "bytes": 655369,
+      "sha256": "96f10e2abf870cc40a7edcc597afb1fbcc9406f2333ae0702a959420e71139d0"
+    },
+    {
+      "path": "checkpoints\\W3_433.mat",
+      "bytes": 664013,
+      "sha256": "80d32ded0fbefc3bcdb7ebeabea22426c80b7b22902146298fb87853b33e0a69"
+    },
+    {
+      "path": "checkpoints\\W3_434.mat",
+      "bytes": 655838,
+      "sha256": "1d94f2c43422557b44b4334f3751fb403dce167cfacb97d33eb780a2589d9084"
+    },
+    {
+      "path": "checkpoints\\W3_435.mat",
+      "bytes": 656008,
+      "sha256": "03aadc514ae001f9cf8cf6cd9b7f511b45b9e0fc314f37a87f7b390aeee26b05"
+    },
+    {
+      "path": "checkpoints\\W3_436.mat",
+      "bytes": 656024,
+      "sha256": "95accb6bc1627ee6aef8565a244d7233d84631bc1df3fb8e3d886d25a65aea9c"
+    },
+    {
+      "path": "checkpoints\\W3_437.mat",
+      "bytes": 663049,
+      "sha256": "65b4eec65cc648e27fdb4f1807da2c54bdbec263d8b4f4923ad5a3ad22ea085c"
+    },
+    {
+      "path": "checkpoints\\W3_438.mat",
+      "bytes": 655870,
+      "sha256": "c09d8c0baa47068d3ef380d9f5d3efc3a236557c909f584a30ea4e5dac2041af"
+    },
+    {
+      "path": "checkpoints\\W3_439.mat",
+      "bytes": 655479,
+      "sha256": "6945372135cec5a43273ff406b24351207b75eaf20ab42b39c89d68359d57814"
+    },
+    {
+      "path": "checkpoints\\W3_44.mat",
+      "bytes": 637242,
+      "sha256": "c17db77cd72e107e3b1b901efb864b9b3d0bb2bd7459d3e8b25605bd909e3847"
+    },
+    {
+      "path": "checkpoints\\W3_440.mat",
+      "bytes": 656138,
+      "sha256": "1917ee3926bb5a0a32b43c1a0a625f947ae8840c46238f4cb6931bf4049654b0"
+    },
+    {
+      "path": "checkpoints\\W3_441.mat",
+      "bytes": 662757,
+      "sha256": "c0dac7544b468607c19a0ee60ce0028e9b8c1616f7b4150c81efcb3c03903c8c"
+    },
+    {
+      "path": "checkpoints\\W3_442.mat",
+      "bytes": 655538,
+      "sha256": "b50357bcd74c0b8b5d448bee213a08ed2a6bb9ec346e5a389fa8e11d6df1fb6d"
+    },
+    {
+      "path": "checkpoints\\W3_443.mat",
+      "bytes": 656519,
+      "sha256": "0f434200727570c1ab5ebdb61438a8937fac9c4905ba1b5e3379180f34d3cf99"
+    },
+    {
+      "path": "checkpoints\\W3_444.mat",
+      "bytes": 655781,
+      "sha256": "20eae92b3d4e7d1378cb3c1ae4b238106db270b5adbd48e2b9e85f3c19a9fd1d"
+    },
+    {
+      "path": "checkpoints\\W3_445.mat",
+      "bytes": 663262,
+      "sha256": "9f04619b356aa2103680b68c700479d4c713d30ad273f0bc5d945260a5be70b6"
+    },
+    {
+      "path": "checkpoints\\W3_446.mat",
+      "bytes": 655481,
+      "sha256": "990d17fb18b36015b4deb8612095094a1a0dfdfc3432ba207b1fa47900284381"
+    },
+    {
+      "path": "checkpoints\\W3_447.mat",
+      "bytes": 655792,
+      "sha256": "d90dd6acaaae6fc1bebf5c743b700995b56b47fb63ba9ba930fbd1e27dd452cc"
+    },
+    {
+      "path": "checkpoints\\W3_448.mat",
+      "bytes": 656238,
+      "sha256": "de440d31fc6b288257a5f0ce523802970260bc801e152a16c6f648e28d4f89de"
+    },
+    {
+      "path": "checkpoints\\W3_449.mat",
+      "bytes": 663665,
+      "sha256": "b7be096676a1a5ed7d83eed4685b54d5e5c67edb86823381fbb956959207f307"
+    },
+    {
+      "path": "checkpoints\\W3_45.mat",
+      "bytes": 644295,
+      "sha256": "9b2de39f25eafacad42ff0351423e68e8f6cd100839f9fc950a9325b1e74e8ab"
+    },
+    {
+      "path": "checkpoints\\W3_450.mat",
+      "bytes": 655112,
+      "sha256": "2143d8075730602e7300137ff3310098ecdd932c37e8558364319658f0a18206"
+    },
+    {
+      "path": "checkpoints\\W3_451.mat",
+      "bytes": 655619,
+      "sha256": "2f42bd1117fd1cd35c03f8459f3751b8b6624f0d05f7f7550d94fa6b79c65797"
+    },
+    {
+      "path": "checkpoints\\W3_452.mat",
+      "bytes": 656258,
+      "sha256": "4dd966b0573346da9a5f69426e26359a2010d2af3962090b8700aa9cd921b888"
+    },
+    {
+      "path": "checkpoints\\W3_453.mat",
+      "bytes": 663097,
+      "sha256": "7de76cebedd6db832c11dc11c58d6e6fc313bdb276115331153a5532f7edd387"
+    },
+    {
+      "path": "checkpoints\\W3_454.mat",
+      "bytes": 656407,
+      "sha256": "50c55b8c322a6c66734643b6fda8c7e48cc982cb4d9a7a6d5263b6a1b4c0adea"
+    },
+    {
+      "path": "checkpoints\\W3_455.mat",
+      "bytes": 655819,
+      "sha256": "28eb6006f04216e2b4f93b28beff968f0bbcd4aa2af215044957cc550e531296"
+    },
+    {
+      "path": "checkpoints\\W3_456.mat",
+      "bytes": 655540,
+      "sha256": "a0fa1f18bda2b374814472e8c03b0779020b28d95a26d393cf6c3739a2f4a101"
+    },
+    {
+      "path": "checkpoints\\W3_457.mat",
+      "bytes": 663469,
+      "sha256": "83291ffb515742c2d054f910c7eaf8d72b074eead8c17c9525e68d100ee40222"
+    },
+    {
+      "path": "checkpoints\\W3_458.mat",
+      "bytes": 655533,
+      "sha256": "1ed173c2fbdb5def73c8d50b5cc39eb2f3d57ba78643743f3e09947d9fc72d3e"
+    },
+    {
+      "path": "checkpoints\\W3_459.mat",
+      "bytes": 655658,
+      "sha256": "fdf909993ec5a1eea1a8fe6327656c5572714c3b578a58a38b6168bc37413933"
+    },
+    {
+      "path": "checkpoints\\W3_46.mat",
+      "bytes": 637058,
+      "sha256": "7cad2d372b6505d7c7b7649e6bf3a0703784e474e939e969b27e303209bb3620"
+    },
+    {
+      "path": "checkpoints\\W3_460.mat",
+      "bytes": 656163,
+      "sha256": "08e0a85b345ba3b6153a91c8c99950049f48aa70adef5cc0d02c39d1c30cd9a4"
+    },
+    {
+      "path": "checkpoints\\W3_461.mat",
+      "bytes": 664094,
+      "sha256": "b193a8c9d14863f683ce33d38acf036111754c8410ecee89a13146c774198a47"
+    },
+    {
+      "path": "checkpoints\\W3_462.mat",
+      "bytes": 655543,
+      "sha256": "56f183ece07db727be961cbdbf83a0f8be040d6b40c6f9dcff5e01def00e48f0"
+    },
+    {
+      "path": "checkpoints\\W3_463.mat",
+      "bytes": 655308,
+      "sha256": "1031f6af937e328bd99d88ae289349c09d11182a391b7f70d1a63721277a17bc"
+    },
+    {
+      "path": "checkpoints\\W3_464.mat",
+      "bytes": 655561,
+      "sha256": "2b1f175f27acf7ba4e51313aef0341ba64ec90043ca1fc900f71965fcda68650"
+    },
+    {
+      "path": "checkpoints\\W3_465.mat",
+      "bytes": 663170,
+      "sha256": "270a778a13797d8a24bca0d02a04b3ad033c934c99172eeb954e844fc037faf8"
+    },
+    {
+      "path": "checkpoints\\W3_466.mat",
+      "bytes": 656448,
+      "sha256": "27cdf849ce3be3b3a7c04fc940d157908ffc625e158f243715b4e405aefd90a8"
+    },
+    {
+      "path": "checkpoints\\W3_467.mat",
+      "bytes": 655655,
+      "sha256": "33833bcf138d2423a5e29110a3427da07e3ad9e0c3c6d0a2f59b2d6b799fac1f"
+    },
+    {
+      "path": "checkpoints\\W3_468.mat",
+      "bytes": 655649,
+      "sha256": "b151f48184d599fbb74a1c520ab867556f928517506e912f27f4a5bd66cd0542"
+    },
+    {
+      "path": "checkpoints\\W3_469.mat",
+      "bytes": 663196,
+      "sha256": "d9fc482f401ea13f2122bebaa178f052e601fb31d2fc47ada29cd76f12872e2c"
+    },
+    {
+      "path": "checkpoints\\W3_47.mat",
+      "bytes": 636240,
+      "sha256": "bb8e3d1315b8e0d267c5c2ba97749598bc4f5c051c2ec31b134eb0a7f0b17aeb"
+    },
+    {
+      "path": "checkpoints\\W3_470.mat",
+      "bytes": 655661,
+      "sha256": "02e9711ca0f5a074a5c8c0e6d0871cee694ea610c7abe3ce4490d92a8b1751b7"
+    },
+    {
+      "path": "checkpoints\\W3_471.mat",
+      "bytes": 655671,
+      "sha256": "954bb2d3b4f5c77d15ad1b748e05f9b200a86f9d27976a1e26896cf33d0ce1b5"
+    },
+    {
+      "path": "checkpoints\\W3_472.mat",
+      "bytes": 656195,
+      "sha256": "07ed0d24bb23e4213371586d14886fc4610f5aa9e988f115d833fd099c53767c"
+    },
+    {
+      "path": "checkpoints\\W3_473.mat",
+      "bytes": 663336,
+      "sha256": "e76262b5f1ee998b463c11203fd8cbc7dbc9d648ba1619b8e85dbfd8a1774f1d"
+    },
+    {
+      "path": "checkpoints\\W3_474.mat",
+      "bytes": 655881,
+      "sha256": "de865f99673e02a76f80e2396ecdd7e04725f718fc038ceb760b92fecb200834"
+    },
+    {
+      "path": "checkpoints\\W3_475.mat",
+      "bytes": 655783,
+      "sha256": "51e1bfa7ce2164c4fc2739b7054206a3c9bcb998d2ee41320ef6a9f2313a971b"
+    },
+    {
+      "path": "checkpoints\\W3_476.mat",
+      "bytes": 656112,
+      "sha256": "6e4924bc3cb72be75194b373a51fd6f4efe6e90136dc0cf4cebc00736e1f82d5"
+    },
+    {
+      "path": "checkpoints\\W3_477.mat",
+      "bytes": 663287,
+      "sha256": "adff202f42ea745fb4e57d6a12134c944e037187292c3b418a3826f20a396bd8"
+    },
+    {
+      "path": "checkpoints\\W3_478.mat",
+      "bytes": 656091,
+      "sha256": "195b0d2c1e797864c58e6df5fefea069eb6e1649ad5f733f20c4885dfac60ab2"
+    },
+    {
+      "path": "checkpoints\\W3_479.mat",
+      "bytes": 655873,
+      "sha256": "2e4b61105891728e4d400de7d30f3d6247af42581d18ec936c3ea1d4c84a40ba"
+    },
+    {
+      "path": "checkpoints\\W3_48.mat",
+      "bytes": 637178,
+      "sha256": "1c6497f93ce8f082600768d32aa1fcbfb85e46a183ae3ea20de62bdc3bc0266d"
+    },
+    {
+      "path": "checkpoints\\W3_480.mat",
+      "bytes": 655647,
+      "sha256": "e121e3a723a1c26877b343648bad9dabbb09ae39a15a7df8ce32d190987cd799"
+    },
+    {
+      "path": "checkpoints\\W3_481.mat",
+      "bytes": 663889,
+      "sha256": "f371d4dc5a09d16da6848fa3e1d9bd2a259019ad4913d699808ea4bd22d1b9f0"
+    },
+    {
+      "path": "checkpoints\\W3_482.mat",
+      "bytes": 655377,
+      "sha256": "4e515fbc2ef9a69351d9540480f38fca426db2c6e515df778004be58ae345b7a"
+    },
+    {
+      "path": "checkpoints\\W3_483.mat",
+      "bytes": 655658,
+      "sha256": "d65f79a4f2e0b992168ede177f281c470884e28f5ea84a56fb4391f21451465d"
+    },
+    {
+      "path": "checkpoints\\W3_484.mat",
+      "bytes": 656059,
+      "sha256": "e68dd498dbd10cad1678111dfd05cc96193a863b0ac425a3c62000296225c5f1"
+    },
+    {
+      "path": "checkpoints\\W3_485.mat",
+      "bytes": 663970,
+      "sha256": "240280eed48fc442614bb157bbc5a66c38e36245588d30537003a132ac86ef54"
+    },
+    {
+      "path": "checkpoints\\W3_486.mat",
+      "bytes": 656049,
+      "sha256": "de16582b8f9ac3e73bd67865edcc89572ceff67af78900ca40d11d4b747aab03"
+    },
+    {
+      "path": "checkpoints\\W3_487.mat",
+      "bytes": 655696,
+      "sha256": "50e8a4657599359e50601b2120a5c0545aeee49c5bae523cd12b280d131c02be"
+    },
+    {
+      "path": "checkpoints\\W3_488.mat",
+      "bytes": 655872,
+      "sha256": "65d384586763f9fe0b4ce31acb06926b0f5d0eaa30391ecb40a2052c1b38b600"
+    },
+    {
+      "path": "checkpoints\\W3_489.mat",
+      "bytes": 663186,
+      "sha256": "4393f07e66dd93cd900f32a42fd8c692415bb418a2b0583a9c080135f41745e0"
+    },
+    {
+      "path": "checkpoints\\W3_49.mat",
+      "bytes": 671785,
+      "sha256": "2f84340d4f1c3c7a51989e80c59bf419bead847903f83c3c6fc888e6c4f4d359"
+    },
+    {
+      "path": "checkpoints\\W3_490.mat",
+      "bytes": 655714,
+      "sha256": "6392ecb942adc0a1e4f98bc7cac840f688ebce832884218f0f2e630a82dafa1c"
+    },
+    {
+      "path": "checkpoints\\W3_491.mat",
+      "bytes": 655681,
+      "sha256": "9070d2540f0e6cd2be8f9077fa42ea5ab81e1ea37b4cd9756a91a6e3c236a252"
+    },
+    {
+      "path": "checkpoints\\W3_492.mat",
+      "bytes": 656136,
+      "sha256": "6e2a6232b2e76a6857979ddc2965a171a7122cdd13614644c893b98bcd240b23"
+    },
+    {
+      "path": "checkpoints\\W3_493.mat",
+      "bytes": 663124,
+      "sha256": "2ac2618570b4deae02f5b0cfe216333315878ae2d177783987eca9775771aebd"
+    },
+    {
+      "path": "checkpoints\\W3_494.mat",
+      "bytes": 655649,
+      "sha256": "66598b079efb4c80ca1a44a9e6dd1127621badc7804b929ab08c2a92760cf2c4"
+    },
+    {
+      "path": "checkpoints\\W3_495.mat",
+      "bytes": 655656,
+      "sha256": "ee7ba7850868bddbec7e28414c3056185afcee5a8fc594e765b210441622eb1d"
+    },
+    {
+      "path": "checkpoints\\W3_496.mat",
+      "bytes": 655773,
+      "sha256": "fe902cd33b871ac56de50f172d63d2c96813ce1b1087f5cf087c5ca18c5503c3"
+    },
+    {
+      "path": "checkpoints\\W3_497.mat",
+      "bytes": 663215,
+      "sha256": "a6f930f13373dac7575af21a5e3221256452bae32ece82a920e9714052665d87"
+    },
+    {
+      "path": "checkpoints\\W3_498.mat",
+      "bytes": 655524,
+      "sha256": "52f8b362386a08cccc79e4f93a786b6557633d83109233451d19bc9e040c30b7"
+    },
+    {
+      "path": "checkpoints\\W3_499.mat",
+      "bytes": 656002,
+      "sha256": "e2a957ada80c03c505cb58714bf3c4475dfeb33a04dfceb04a45157c05864def"
+    },
+    {
+      "path": "checkpoints\\W3_5.mat",
+      "bytes": 645290,
+      "sha256": "b98cb8a99829237c6725f467b41eff12f3a4870e029274b7adba1fa1b4184458"
+    },
+    {
+      "path": "checkpoints\\W3_50.mat",
+      "bytes": 637951,
+      "sha256": "8d386d13457d2aa1f65ca1428ac2fe95e7dd0835f6802269bf2f617c07e695af"
+    },
+    {
+      "path": "checkpoints\\W3_500.mat",
+      "bytes": 656064,
+      "sha256": "78d8567af844ebd66ac01ef66f5191571d02a4d44b0fa0546d223d1ec6cb8382"
+    },
+    {
+      "path": "checkpoints\\W3_501.mat",
+      "bytes": 663789,
+      "sha256": "07607feb6311083cdd2c8f1f2cf727f669b8a7695fffc9e3fb0e482b5c01629f"
+    },
+    {
+      "path": "checkpoints\\W3_502.mat",
+      "bytes": 655089,
+      "sha256": "b99584fc713868bc8d03fc2598faa94020a7f34395c9cbe2685952cf6bc41842"
+    },
+    {
+      "path": "checkpoints\\W3_503.mat",
+      "bytes": 629599,
+      "sha256": "f65b7ee8ca02701b8fe107eeb1eae36dab9b41ca6d794aa5b71946cd7480d560"
+    },
+    {
+      "path": "checkpoints\\W3_504.mat",
+      "bytes": 634194,
+      "sha256": "0ad2b56b5626ca132b16ef048b40157c1a46caafc92c5e9bebb8f3b75ec46723"
+    },
+    {
+      "path": "checkpoints\\W3_505.mat",
+      "bytes": 663780,
+      "sha256": "745b02dce8027fcc8c1381c66a4ebdc91ba5ecae39c477edbffd8a7d3830664a"
+    },
+    {
+      "path": "checkpoints\\W3_506.mat",
+      "bytes": 628409,
+      "sha256": "1b37fbdfa630e89f87fb6e13a48a459cbe9de0c400051c9c3510bb9796c95e98"
+    },
+    {
+      "path": "checkpoints\\W3_507.mat",
+      "bytes": 656650,
+      "sha256": "210053330670de1eb550ea844fa33dc45111416447c6b9f8455f91f319520b31"
+    },
+    {
+      "path": "checkpoints\\W3_508.mat",
+      "bytes": 656309,
+      "sha256": "9d1944e222b821777212fdc6ddbf2a33323feab0b1491b0bfef5e1e36f7571b7"
+    },
+    {
+      "path": "checkpoints\\W3_509.mat",
+      "bytes": 757822,
+      "sha256": "a721286ec60c39e38ba19b360d7a7b6ae2fdbbe2297f9e0e2c4499234cc82607"
+    },
+    {
+      "path": "checkpoints\\W3_51.mat",
+      "bytes": 659872,
+      "sha256": "719254f42ceb5f2d029690b9dbd03cacb5b30da22bcea537b99b2d7c0b32e2da"
+    },
+    {
+      "path": "checkpoints\\W3_510.mat",
+      "bytes": 654324,
+      "sha256": "57b4489f615c4ecf6ab479e24e95d4a049053aeb5bab8835225eb03f20f5c0fc"
+    },
+    {
+      "path": "checkpoints\\W3_511.mat",
+      "bytes": 641430,
+      "sha256": "309ef41c70966af85d036d98362f8fcb64f23c4faa863d941c2147b358efe74d"
+    },
+    {
+      "path": "checkpoints\\W3_512.mat",
+      "bytes": 636904,
+      "sha256": "7f6df55b7335d0860d06a336b6b8537e300f2ee8173180f80435b396f6b18473"
+    },
+    {
+      "path": "checkpoints\\W3_513.mat",
+      "bytes": 662537,
+      "sha256": "4e31d1197c703bda5a127c962d083d234c038f9bec9f1d893f8f7693dd3755c0"
+    },
+    {
+      "path": "checkpoints\\W3_514.mat",
+      "bytes": 739674,
+      "sha256": "a9f7f68489d9cfa74fa25c9b89c19ab06cf848ac9c39a56c4c6f5e5c27b8b445"
+    },
+    {
+      "path": "checkpoints\\W3_515.mat",
+      "bytes": 654667,
+      "sha256": "06192e074fab1293210ee2fee28318fea8611d4b644976cfd919a489d2380edc"
+    },
+    {
+      "path": "checkpoints\\W3_516.mat",
+      "bytes": 655247,
+      "sha256": "5db8ff568391156eb99cb7f91c4102375e79aae30e012aafd1701eaced876127"
+    },
+    {
+      "path": "checkpoints\\W3_517.mat",
+      "bytes": 774572,
+      "sha256": "9e5ea840ca0cbdcc4711c2062426727986d2cdc9c3504212eb71ee8402aa66ec"
+    },
+    {
+      "path": "checkpoints\\W3_518.mat",
+      "bytes": 655471,
+      "sha256": "daea76467a2bb4a5dd7e6b2f253e854796e40fdc269ca264a9a32f5c14d570d0"
+    },
+    {
+      "path": "checkpoints\\W3_519.mat",
+      "bytes": 655278,
+      "sha256": "01edef55a34d38908b986714394fe7b580f459d0f8e28093927a1446566aedb2"
+    },
+    {
+      "path": "checkpoints\\W3_52.mat",
+      "bytes": 636357,
+      "sha256": "d1ddb169ae15fe400850be544ef084c089be0dbcfce1a6365f24e77a3990ff44"
+    },
+    {
+      "path": "checkpoints\\W3_520.mat",
+      "bytes": 655642,
+      "sha256": "e0c83beb13ff3731ce67dd0c31d144bf467dec598e4d0ed90e28aa4dec9f672b"
+    },
+    {
+      "path": "checkpoints\\W3_521.mat",
+      "bytes": 662585,
+      "sha256": "35030177284c5552221779d4030095e4dc8f8deb862f9295b20847dd19f40a5d"
+    },
+    {
+      "path": "checkpoints\\W3_522.mat",
+      "bytes": 655801,
+      "sha256": "27fe20a2be507978637878408b93fa59e0a6996a831a19c9c7dc7f449c6f29cb"
+    },
+    {
+      "path": "checkpoints\\W3_523.mat",
+      "bytes": 656047,
+      "sha256": "f2d21a61fb9d90680a8ed5b538b63fdefe817554238534d680fb09384904906d"
+    },
+    {
+      "path": "checkpoints\\W3_524.mat",
+      "bytes": 656096,
+      "sha256": "7228b4a43e392956b29d705c1e2691ec9c5dea1961ed59b75e5a5608737ebdfc"
+    },
+    {
+      "path": "checkpoints\\W3_525.mat",
+      "bytes": 661439,
+      "sha256": "907940c092bce51c0ed74866511fe149d64c84113031f2187ab004bfd24da576"
+    },
+    {
+      "path": "checkpoints\\W3_526.mat",
+      "bytes": 788222,
+      "sha256": "0bcf7cb2a96e2c67e9021ae934f652c38dee80a59ed2ac721d8353a945e464df"
+    },
+    {
+      "path": "checkpoints\\W3_527.mat",
+      "bytes": 657327,
+      "sha256": "26b2687788b268c31e72c5c181a677a95c158d1bb1746cd9a1bb9f301389e1bc"
+    },
+    {
+      "path": "checkpoints\\W3_528.mat",
+      "bytes": 655069,
+      "sha256": "80e1d7e34b1f700228f728f044c9a65734881a0f34a117da3b5357175b3a2bda"
+    },
+    {
+      "path": "checkpoints\\W3_529.mat",
+      "bytes": 663557,
+      "sha256": "35506c1098de4a404b3aeb47065d073be968e3dcbd2d5c7e0b77dfa4d1bb3be0"
+    },
+    {
+      "path": "checkpoints\\W3_53.mat",
+      "bytes": 748368,
+      "sha256": "68e107b4abf4a79bd0efaba80beb57fc29ff81c43ed50f2c1bc06666ddcfb7ab"
+    },
+    {
+      "path": "checkpoints\\W3_530.mat",
+      "bytes": 628867,
+      "sha256": "304a2e544268c9ae195c362a905a3c2b6b05064271b2112062a544723dedd2a2"
+    },
+    {
+      "path": "checkpoints\\W3_531.mat",
+      "bytes": 656325,
+      "sha256": "dcd2e77f8f45244fd3626554876cb7a1a2b3cb664b7261684e3e78449628c8c3"
+    },
+    {
+      "path": "checkpoints\\W3_532.mat",
+      "bytes": 628455,
+      "sha256": "8de23147327f362aa390ba5815d9ce0d6d9b187407fa6bf8b1ad95cf4860ec75"
+    },
+    {
+      "path": "checkpoints\\W3_533.mat",
+      "bytes": 663947,
+      "sha256": "c70b07916bf503004b54035c3303b36e8db1cdc101439ac44841255709eec689"
+    },
+    {
+      "path": "checkpoints\\W3_534.mat",
+      "bytes": 655678,
+      "sha256": "ca56597e6b8dd7c08177fde1130d7244559f0f7709587ff664d1bd95466aae65"
+    },
+    {
+      "path": "checkpoints\\W3_535.mat",
+      "bytes": 653541,
+      "sha256": "6f5419c0fbeca1870ab7d80d3f0e00f8ee85f18661d2573fb928c1c445542c6b"
+    },
+    {
+      "path": "checkpoints\\W3_536.mat",
+      "bytes": 630106,
+      "sha256": "dd61a11917b8d94053b44301eedf9726ab304ac3f23766348881a8ba02b709e8"
+    },
+    {
+      "path": "checkpoints\\W3_537.mat",
+      "bytes": 640644,
+      "sha256": "2c8cd48e991388e94864e76bb7ed4c0df7856be5ffed739ee8426e608953065c"
+    },
+    {
+      "path": "checkpoints\\W3_538.mat",
+      "bytes": 656552,
+      "sha256": "0d746ebc9525addf7416ea9afd9beaff4d9c2766b1c94416cd88a11be3acd617"
+    },
+    {
+      "path": "checkpoints\\W3_539.mat",
+      "bytes": 629795,
+      "sha256": "43f6d423a73aec4f241f292247f51f0e77081ee8c14d2d6a74adfad167cb03dc"
+    },
+    {
+      "path": "checkpoints\\W3_54.mat",
+      "bytes": 637023,
+      "sha256": "09eebf2dcb6ec6665537ae0584e58f5dc515eec5fde707be41f07336a0cb9b13"
+    },
+    {
+      "path": "checkpoints\\W3_540.mat",
+      "bytes": 634107,
+      "sha256": "e94078d453a8cd2ac9acdac7b22f31e258c511c3c2cf23cb4a93b45d64d29734"
+    },
+    {
+      "path": "checkpoints\\W3_541.mat",
+      "bytes": 666230,
+      "sha256": "a5556df8ebabd4fe7f8dd91afe60c38f022d0e3499932f22b1b0d7c86855409f"
+    },
+    {
+      "path": "checkpoints\\W3_542.mat",
+      "bytes": 858207,
+      "sha256": "0b0a61c56286bda145377c886f11a2c4ba9c76a6000f736005d8c320cac45d8d"
+    },
+    {
+      "path": "checkpoints\\W3_543.mat",
+      "bytes": 656027,
+      "sha256": "42bc3ded6177e769c7e8e36a5a4aed44235fd9b50e4b9ea035dfcc0f2b40fd6c"
+    },
+    {
+      "path": "checkpoints\\W3_544.mat",
+      "bytes": 655843,
+      "sha256": "568905f722429da88b9a1ea1835b4b29f910a5a962e7d5bf34254710e195a44a"
+    },
+    {
+      "path": "checkpoints\\W3_545.mat",
+      "bytes": 666601,
+      "sha256": "5a6425e010d385821709c4b2ce89715a19624d8c4f6c8ad4f9314af3b5c456a8"
+    },
+    {
+      "path": "checkpoints\\W3_546.mat",
+      "bytes": 656592,
+      "sha256": "627e3c48d8f8a0e56a6caee92d4cfb8865f65771ef38dbe0c30d14798582ea5d"
+    },
+    {
+      "path": "checkpoints\\W3_547.mat",
+      "bytes": 833533,
+      "sha256": "9e1e4a8dac34e189238b84ad44ac56da3a2c223d3bbdac5af9e4a73266997cba"
+    },
+    {
+      "path": "checkpoints\\W3_548.mat",
+      "bytes": 770985,
+      "sha256": "ab35e9ee9306d10274495e1da22ca36c3ed5686c9cead4bd0233ccb552093733"
+    },
+    {
+      "path": "checkpoints\\W3_549.mat",
+      "bytes": 665172,
+      "sha256": "3e056f87ac1a38429275bf2372720ac14c46d5eac6e92046d9ed38dd19499f6e"
+    },
+    {
+      "path": "checkpoints\\W3_55.mat",
+      "bytes": 635862,
+      "sha256": "c948e5635b5e704b4e8f04b7591cbd6ac0b2201e8e97a112e008d24ebaadecef"
+    },
+    {
+      "path": "checkpoints\\W3_550.mat",
+      "bytes": 767123,
+      "sha256": "55f79f344866c1df1d39c0f970f7009bb6aa19eff440c7a9221e485c52027485"
+    },
+    {
+      "path": "checkpoints\\W3_551.mat",
+      "bytes": 657040,
+      "sha256": "9337ce3b29bce74d889ac00630cc16893cb2e7a42a2bb3e4513ae8d254adea61"
+    },
+    {
+      "path": "checkpoints\\W3_552.mat",
+      "bytes": 656239,
+      "sha256": "ab948604b66121f061764545966e63adb2c4ca16d9784f65b249e28e7a8911a4"
+    },
+    {
+      "path": "checkpoints\\W3_553.mat",
+      "bytes": 635843,
+      "sha256": "c0e4a409e51d12c2d96fac6602d9ee7441f620078138e92b76db22f7991238c8"
+    },
+    {
+      "path": "checkpoints\\W3_554.mat",
+      "bytes": 656010,
+      "sha256": "be1e245f375cbbc59bfcabb612f40c7bd83ea3649445f2c8e87adfe990653ccd"
+    },
+    {
+      "path": "checkpoints\\W3_555.mat",
+      "bytes": 657130,
+      "sha256": "df220dacbeab453ab61d329007c62a37debadfcf0d0455da70cc97b0dba8b095"
+    },
+    {
+      "path": "checkpoints\\W3_556.mat",
+      "bytes": 655025,
+      "sha256": "e7765b0c2e29e8441443e0b023a817fb87289d674556dd0fd7c97d7806559e90"
+    },
+    {
+      "path": "checkpoints\\W3_557.mat",
+      "bytes": 663415,
+      "sha256": "abf700c7994c31f05c5dbba7357792e0a45c74861497a1958d3546095961af46"
+    },
+    {
+      "path": "checkpoints\\W3_558.mat",
+      "bytes": 819382,
+      "sha256": "db40603349412fff3b718a9821c41fae29226d90f70ca2481adfb0117cc4559e"
+    },
+    {
+      "path": "checkpoints\\W3_559.mat",
+      "bytes": 628312,
+      "sha256": "49290ae4de2cef53a56dc7e8be8faa473b78c27ec00191bba2955de1e7c6212a"
+    },
+    {
+      "path": "checkpoints\\W3_56.mat",
+      "bytes": 759241,
+      "sha256": "71fb96cd900d3a12582a1dff12bed3fa162d91d2ec5503bdca38f3071da08f15"
+    },
+    {
+      "path": "checkpoints\\W3_560.mat",
+      "bytes": 656001,
+      "sha256": "e42e522a6f1ac3f31fec0147f4b2b3f459de770d409b21f3ef204858245719ce"
+    },
+    {
+      "path": "checkpoints\\W3_561.mat",
+      "bytes": 663415,
+      "sha256": "65529d0641d825641451c8073f1cbc888225815706e2f70b32ab69be74e3158a"
+    },
+    {
+      "path": "checkpoints\\W3_562.mat",
+      "bytes": 655506,
+      "sha256": "f3a4215cc998d657340391fa0db30a2fb59d1a253e88addf265eeebe97c50b31"
+    },
+    {
+      "path": "checkpoints\\W3_563.mat",
+      "bytes": 635254,
+      "sha256": "2c818ad7a1d5e43c13e64016a9c9ae8ce61e9e98052895ea8a43f1dad6c7033e"
+    },
+    {
+      "path": "checkpoints\\W3_564.mat",
+      "bytes": 628728,
+      "sha256": "7c89accc444fd348864e229cbb1d444a6d542da1205234b9734a395e6c5c10a7"
+    },
+    {
+      "path": "checkpoints\\W3_565.mat",
+      "bytes": 664273,
+      "sha256": "5a84ec204b3c7acfe829f4af1dddd384e65e69e1df3f90ae2ca2e6829d6f073b"
+    },
+    {
+      "path": "checkpoints\\W3_566.mat",
+      "bytes": 654368,
+      "sha256": "80f52314f3023cd99b0f6ac4b5bf4c8d549f861bd072c5486b66c9d4a5075124"
+    },
+    {
+      "path": "checkpoints\\W3_567.mat",
+      "bytes": 655369,
+      "sha256": "feb90ef393e01abef37575f91be195230e0d2960570970bfd37ab8bebbc804bd"
+    },
+    {
+      "path": "checkpoints\\W3_568.mat",
+      "bytes": 771233,
+      "sha256": "cc0f36bc8b6468c77658480a3b3769e646fc745284df29d28f3f751280df52a0"
+    },
+    {
+      "path": "checkpoints\\W3_569.mat",
+      "bytes": 664003,
+      "sha256": "2b6e69422d284828f09cfd2efbede8558f23a7fb874a5a615f824454cc5029e4"
+    },
+    {
+      "path": "checkpoints\\W3_57.mat",
+      "bytes": 644702,
+      "sha256": "c111ab5ee3b17af526aab7428effc85b41a59fbdc77016d0736f3f913f7c839b"
+    },
+    {
+      "path": "checkpoints\\W3_570.mat",
+      "bytes": 656149,
+      "sha256": "9fd9ce550a3edf34c3c6e855a578e33841795e4605a43c8541efba7738a0928f"
+    },
+    {
+      "path": "checkpoints\\W3_571.mat",
+      "bytes": 655979,
+      "sha256": "207a518b6254b24d6d3d91a0e09a43260a96683a97b0566a5a7f76672c1059fd"
+    },
+    {
+      "path": "checkpoints\\W3_572.mat",
+      "bytes": 655276,
+      "sha256": "b3e11d3a7080cdd5b030d710a856c98913f5cc2d8a417fd4765d0aed8cbc0541"
+    },
+    {
+      "path": "checkpoints\\W3_573.mat",
+      "bytes": 663100,
+      "sha256": "4219a40d3de8e3561d922c59972c2ad7413be2f6c1f08bd23ccaa2f5e6164886"
+    },
+    {
+      "path": "checkpoints\\W3_574.mat",
+      "bytes": 638918,
+      "sha256": "97a3a7492a571dbfee432e17a87dc7faa861b63ef6496c5253c0b079e50739c6"
+    },
+    {
+      "path": "checkpoints\\W3_575.mat",
+      "bytes": 656662,
+      "sha256": "9bddc0daf3ebfa115614b5651d3c81b9ec2c8ffc8a9e8364c27d97924051143d"
+    },
+    {
+      "path": "checkpoints\\W3_576.mat",
+      "bytes": 657022,
+      "sha256": "54b634f3e22884fa163e715715e9854ac4b9924ea3ed5a3ef99428122e8c281e"
+    },
+    {
+      "path": "checkpoints\\W3_577.mat",
+      "bytes": 643323,
+      "sha256": "52f71a3d288774ba9dd2448c758c2c856a83c8d278a49d10725224285d4f70fc"
+    },
+    {
+      "path": "checkpoints\\W3_578.mat",
+      "bytes": 655702,
+      "sha256": "56e99a0ea232e132198e74752a827e77d4a1921a56cb454a44f3a358ebe87d77"
+    },
+    {
+      "path": "checkpoints\\W3_579.mat",
+      "bytes": 655609,
+      "sha256": "bbb7798e28c703833548b9ed71e4dc26cb4ad46e753e950439b5271407be2b73"
+    },
+    {
+      "path": "checkpoints\\W3_58.mat",
+      "bytes": 637663,
+      "sha256": "10ee5cb95e84b8e9983b5dccad0163c2bdbd768d00095f1e8dc010f163f7825f"
+    },
+    {
+      "path": "checkpoints\\W3_580.mat",
+      "bytes": 655793,
+      "sha256": "85bf5ea61c215e4d20eeebd7ccca96fa73fc5599896e0f9b386ae5de0c8f7832"
+    },
+    {
+      "path": "checkpoints\\W3_581.mat",
+      "bytes": 661861,
+      "sha256": "860212edb44416968fb3184f17bb3dad8c20886af59190abd805a7eb4a22118a"
+    },
+    {
+      "path": "checkpoints\\W3_582.mat",
+      "bytes": 657232,
+      "sha256": "38ac83c8ee5126f020bdccc788ff37ceeda9d554723dee04d191e4ab31df1e66"
+    },
+    {
+      "path": "checkpoints\\W3_583.mat",
+      "bytes": 654624,
+      "sha256": "376c239381b640815914a31d2917a0696c6715beaad54fde9d8652994c4027e2"
+    },
+    {
+      "path": "checkpoints\\W3_584.mat",
+      "bytes": 865769,
+      "sha256": "fa3d4bb5bda516754d6ecda541072b6023562ae0150a04ca9aef3c19f29a592a"
+    },
+    {
+      "path": "checkpoints\\W3_585.mat",
+      "bytes": 663583,
+      "sha256": "3be24cfde9eafafd17d8ba628d0b11be645a91cdba65fac4f3f9391bb5477f96"
+    },
+    {
+      "path": "checkpoints\\W3_586.mat",
+      "bytes": 633144,
+      "sha256": "524b048496e3129156e911195a5a989c0e28c46927acaf476278e291679161d9"
+    },
+    {
+      "path": "checkpoints\\W3_587.mat",
+      "bytes": 775406,
+      "sha256": "4f527bfa5c576181fdcaab85861c4c81257a14a3a54cc595c5b6a72dd4db388e"
+    },
+    {
+      "path": "checkpoints\\W3_588.mat",
+      "bytes": 654336,
+      "sha256": "761a1d169d6ce37ba5c374675babc1ca938600a3a8c2d56eb6c9c74c19a44dd4"
+    },
+    {
+      "path": "checkpoints\\W3_589.mat",
+      "bytes": 663358,
+      "sha256": "cd14c1c3871a770d25ad3cc7ef06881a36243b91e4b6affd29f0530f00776d4a"
+    },
+    {
+      "path": "checkpoints\\W3_59.mat",
+      "bytes": 624953,
+      "sha256": "931cc4b1bf6cdda9591744e3e9f3b83653a9d3b957c228d7cdf01db5677314f8"
+    },
+    {
+      "path": "checkpoints\\W3_590.mat",
+      "bytes": 656317,
+      "sha256": "2e595079089e210967eff1bcc980448dc04b3411a4cc96e99ee4a3c0747582c6"
+    },
+    {
+      "path": "checkpoints\\W3_591.mat",
+      "bytes": 656958,
+      "sha256": "310bf30bd3376f3851859551475d6645a3c61d7e9a573f41aefd75d89072c1da"
+    },
+    {
+      "path": "checkpoints\\W3_592.mat",
+      "bytes": 739795,
+      "sha256": "f6d5493a9a13743d7337da8a5f3022493555c3a861b80de802ef742f7a95e39f"
+    },
+    {
+      "path": "checkpoints\\W3_593.mat",
+      "bytes": 662791,
+      "sha256": "960436ed60ae709eec9c4c0db696d3352fcf0ab08c6dff615b7de288617655aa"
+    },
+    {
+      "path": "checkpoints\\W3_594.mat",
+      "bytes": 618253,
+      "sha256": "a40feb917738e30f6ea47905fbd3193cd6474b0ed8323bc44dc70f6155a38faa"
+    },
+    {
+      "path": "checkpoints\\W3_595.mat",
+      "bytes": 656434,
+      "sha256": "509d01e7738a266c297e75ab38fa1415162b3715c7cc034927439a83d3799ebf"
+    },
+    {
+      "path": "checkpoints\\W3_596.mat",
+      "bytes": 628751,
+      "sha256": "f4e9233f09c2b2beaac25391a31777a77fdc12175bc9484f69555dbaec69c7f9"
+    },
+    {
+      "path": "checkpoints\\W3_597.mat",
+      "bytes": 662808,
+      "sha256": "b206d8d4016ed2d7c8851a60cdf1d15c2d8a9461789eb9a651e8961babab7f6b"
+    },
+    {
+      "path": "checkpoints\\W3_598.mat",
+      "bytes": 656185,
+      "sha256": "c57a22a89eb74d5b75dc1e1cb04b1658935d7a267b3a31a684ff5786080e2701"
+    },
+    {
+      "path": "checkpoints\\W3_599.mat",
+      "bytes": 635734,
+      "sha256": "890a5f435ecc7ec48db028072abcdab0b616d58b9db59e137ad04e559f554be7"
+    },
+    {
+      "path": "checkpoints\\W3_6.mat",
+      "bytes": 637425,
+      "sha256": "dbda2e11ea9b8b782f8dbd782889a6633559da33f4a1d3047643d313a487fb6a"
+    },
+    {
+      "path": "checkpoints\\W3_60.mat",
+      "bytes": 608903,
+      "sha256": "416c39d34df1d247fc63829043c3459472214e291c7f33e7d5c512ee1ff38668"
+    },
+    {
+      "path": "checkpoints\\W3_600.mat",
+      "bytes": 655447,
+      "sha256": "d84fad7997dde502b62b29f717ecc5f938c3a155a1fe3d28d0e78778df0321db"
+    },
+    {
+      "path": "checkpoints\\W3_61.mat",
+      "bytes": 644477,
+      "sha256": "5bcf9e0a5a1d4cdfdcadcdce8a06a79bc25314b485a00421101e572fe0656e3d"
+    },
+    {
+      "path": "checkpoints\\W3_62.mat",
+      "bytes": 637229,
+      "sha256": "de1b34240adc77f439f5f7600d9c81ec09e92d3ad4949a8b0bcc22e31b770125"
+    },
+    {
+      "path": "checkpoints\\W3_63.mat",
+      "bytes": 637347,
+      "sha256": "2256f047b61afccfcbdc0f32e946d0b9c4c6ed99e6c9b5dee35c763a71d6f61b"
+    },
+    {
+      "path": "checkpoints\\W3_64.mat",
+      "bytes": 620107,
+      "sha256": "d907d702455619ffd4b4e01ba89f56999f8509e546f3a79c1a6c448a3909f227"
+    },
+    {
+      "path": "checkpoints\\W3_65.mat",
+      "bytes": 701220,
+      "sha256": "0f1033e084dfac3a11dda0daf4f3802eaf4109534b20b0f12e1480f42eb1b857"
+    },
+    {
+      "path": "checkpoints\\W3_66.mat",
+      "bytes": 620397,
+      "sha256": "a49edccea5a287f689772d75fc0ceffad6bbd46edcc4574b90e82624f6a52087"
+    },
+    {
+      "path": "checkpoints\\W3_67.mat",
+      "bytes": 637025,
+      "sha256": "6a188c67100cd08466a90fb4f5c153ea6b8800db18f7aff20d68d1692abae398"
+    },
+    {
+      "path": "checkpoints\\W3_68.mat",
+      "bytes": 636872,
+      "sha256": "69fbeafc038824a9dacaa31aa33b96e17887e7c1ef90b105da30729bd6bd3291"
+    },
+    {
+      "path": "checkpoints\\W3_69.mat",
+      "bytes": 616547,
+      "sha256": "3d6082392e9af3e85203fed4df66b3cd2b92be3ac329039b0a37a88a84a71ee4"
+    },
+    {
+      "path": "checkpoints\\W3_7.mat",
+      "bytes": 636731,
+      "sha256": "fc29551712f63c90883350cc311216ba0e3db510e18d685bebe8039cb43e421b"
+    },
+    {
+      "path": "checkpoints\\W3_70.mat",
+      "bytes": 635505,
+      "sha256": "6d534d5b505a0b69b3d932faf7d6a4b56838c90dd7775720c36dab899ac3ab9b"
+    },
+    {
+      "path": "checkpoints\\W3_71.mat",
+      "bytes": 636480,
+      "sha256": "03a5927bda135465f96fbcf1308d55702d03b3380abbfb70e880169e21033c37"
+    },
+    {
+      "path": "checkpoints\\W3_72.mat",
+      "bytes": 636727,
+      "sha256": "836430f4c512eaff1d98231a207e67d446694df109803e664455ce324b1b6b1c"
+    },
+    {
+      "path": "checkpoints\\W3_73.mat",
+      "bytes": 644685,
+      "sha256": "23a341a8035d8867686c7e3de36b4de4449d696aed424c5ea18ab698980ed064"
+    },
+    {
+      "path": "checkpoints\\W3_74.mat",
+      "bytes": 637118,
+      "sha256": "238b2d8e10b15b7d34fb13f29fff430ee32838d5b6df3a9d998f3bc23292ea90"
+    },
+    {
+      "path": "checkpoints\\W3_75.mat",
+      "bytes": 636228,
+      "sha256": "c07af891b33ec3e067714c9329b794ae2d0eadf9f63b377c4b8a70d3ab8b1079"
+    },
+    {
+      "path": "checkpoints\\W3_76.mat",
+      "bytes": 638165,
+      "sha256": "4a13cac4c8df3734d585c9bc5bf928ea883a4711d86ff4b16ce91d349e1738ff"
+    },
+    {
+      "path": "checkpoints\\W3_77.mat",
+      "bytes": 644755,
+      "sha256": "824bdfdc9c4436184f9ce11c6d368e16b7718fb15a7dc74359ed59516ae2c717"
+    },
+    {
+      "path": "checkpoints\\W3_78.mat",
+      "bytes": 637399,
+      "sha256": "114b806082c3f69017cbbb4ef48b9fd4e2a799c67de2244f94459edb625e8dd0"
+    },
+    {
+      "path": "checkpoints\\W3_79.mat",
+      "bytes": 625403,
+      "sha256": "ddf2902291ec1a6b3f7e01a17de8b0f987f9a94829a79e68a55fa3ee5eccc962"
+    },
+    {
+      "path": "checkpoints\\W3_8.mat",
+      "bytes": 637560,
+      "sha256": "7c8f86aa980366e21655fe6b62348877c303ab91942abb19673a79375af85ac6"
+    },
+    {
+      "path": "checkpoints\\W3_80.mat",
+      "bytes": 637207,
+      "sha256": "0732d4f52695028e2dd2f0587bbc12dcb98c79c281c7bc4b320d670f94e3225c"
+    },
+    {
+      "path": "checkpoints\\W3_81.mat",
+      "bytes": 675555,
+      "sha256": "568311b886b5e3d905df272b0236fc39895a146af6cf2a59c950d56b579df61e"
+    },
+    {
+      "path": "checkpoints\\W3_82.mat",
+      "bytes": 635021,
+      "sha256": "01fcfbaac161e194e2b7f5752bbccfdbccf73724cffe381fd8c31d5481805d9f"
+    },
+    {
+      "path": "checkpoints\\W3_83.mat",
+      "bytes": 636813,
+      "sha256": "74fa7ddbaffa4827d4d581c42e7c44cedf1252316953a70cab848cd5c304de87"
+    },
+    {
+      "path": "checkpoints\\W3_84.mat",
+      "bytes": 637752,
+      "sha256": "7b9cafe2146d7c1fa0216b321dfbf3387bc29a94398221bc9ef2b6c191b412ae"
+    },
+    {
+      "path": "checkpoints\\W3_85.mat",
+      "bytes": 637033,
+      "sha256": "6bc2f3b8a015c6d4c1223099232741f99e563db6481da25b2275f193b80a67c5"
+    },
+    {
+      "path": "checkpoints\\W3_86.mat",
+      "bytes": 636989,
+      "sha256": "2d6aaff1ad817605c2a041edf1e32b64e76b6992b8de812524d39d6b028cd420"
+    },
+    {
+      "path": "checkpoints\\W3_87.mat",
+      "bytes": 636779,
+      "sha256": "f597ded2c64b8f9a6d8528a4a95b055a0f8e4bf36d01ac9c723fd3775d8f05e9"
+    },
+    {
+      "path": "checkpoints\\W3_88.mat",
+      "bytes": 636613,
+      "sha256": "7f909636302807d7af931236367e370a46f62114378f2a4e8bcc54b32cfb8a28"
+    },
+    {
+      "path": "checkpoints\\W3_89.mat",
+      "bytes": 633324,
+      "sha256": "19983ddc99931dc5d0731ddce9b6895c3f42eea292e0d56a3905e304ca1b9638"
+    },
+    {
+      "path": "checkpoints\\W3_9.mat",
+      "bytes": 644711,
+      "sha256": "deb2fa15f28864757abec8b44d5e7efd4c86cc9ab53cae3768eb4b7f5d260760"
+    },
+    {
+      "path": "checkpoints\\W3_90.mat",
+      "bytes": 636981,
+      "sha256": "61a28b998c9a84064dbd126493c4b9daa2ca345ed8d2d92c42a36d42a5729a11"
+    },
+    {
+      "path": "checkpoints\\W3_91.mat",
+      "bytes": 637518,
+      "sha256": "e92aae1f3829c778d9e390c3157f7877c2a547dcec55184bc4d8319490abcb61"
+    },
+    {
+      "path": "checkpoints\\W3_92.mat",
+      "bytes": 637280,
+      "sha256": "5a0827a38a59dc3a12e1fef3b991eb69b9eee62f01cf9c35eb237689b1967a2e"
+    },
+    {
+      "path": "checkpoints\\W3_93.mat",
+      "bytes": 853817,
+      "sha256": "2431f472e4e9e4bd63aaa5ce5baed93abe05e8bac1fe17474a67255ce1798dea"
+    },
+    {
+      "path": "checkpoints\\W3_94.mat",
+      "bytes": 636686,
+      "sha256": "bebe21c3708e088871f561b16fd9f19dcf765b4d9a0bbe1336c7d49bd17a64df"
+    },
+    {
+      "path": "checkpoints\\W3_95.mat",
+      "bytes": 677075,
+      "sha256": "21da357f0db025c2789e97b8aaaffb61ec0a230b86ae642723c85a5d74d132a7"
+    },
+    {
+      "path": "checkpoints\\W3_96.mat",
+      "bytes": 637448,
+      "sha256": "30713053116fdf6e9e4994ce05acfc1dc94b24ec5245ed19767145f06ea8c72d"
+    },
+    {
+      "path": "checkpoints\\W3_97.mat",
+      "bytes": 631691,
+      "sha256": "73adcd54e3c6a869b4fa70fd00988d7415b06dfe82bc113883cd83466b2bfeab"
+    },
+    {
+      "path": "checkpoints\\W3_98.mat",
+      "bytes": 673771,
+      "sha256": "5e39234af5e15b1877e0d6db481da5ec3155a556aa9751925460496b6c87338c"
+    },
+    {
+      "path": "checkpoints\\W3_99.mat",
+      "bytes": 624333,
+      "sha256": "c6df4d24c86e253169670589b12e3f1c3d1a4772c3615126d62521d2fde10515"
+    },
+    {
+      "path": "confirm_analysis.py",
+      "bytes": 12247,
+      "sha256": "2cd32c74f7ac79a7696801ce2497bfc7e5bef935d31a32b03d2786343af08c14"
+    },
+    {
+      "path": "confirm_generate.m",
+      "bytes": 5249,
+      "sha256": "c30f66428c1fc7d7f1021fc87e189e2e713b6c6b6a39fd80cff1a90a13df17ce"
+    },
+    {
+      "path": "confirm_worker.m",
+      "bytes": 6946,
+      "sha256": "dc5b11d766b8d404f6232e49620a3a00edfe305c85f7bcd71788b30ade6a049e"
+    },
+    {
+      "path": "confirmation.png",
+      "bytes": 216563,
+      "sha256": "6a45cc4984082ae5862aeb2a0a3afe99200a60088447490d9908e361a87245ea"
+    },
+    {
+      "path": "confirmation.svg",
+      "bytes": 75063,
+      "sha256": "4c39029562d6bd9679d966a5b6692d78cb307e9fdd6e94b905800abf1a90d9b4"
+    },
+    {
+      "path": "deviations.json",
+      "bytes": 893,
+      "sha256": "f8cf5f96277ae7e3188ff23934f1668b44afd10ddf592b7b46a4e70e4bdbd3c5"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 10287,
+      "sha256": "fabc6d8d2cd9cc63f95497a8c4168bfb1addffaeacd7fb81e2d2d720a59da026"
+    },
+    {
+      "path": "filter_guards_w1.csv",
+      "bytes": 133677,
+      "sha256": "296dbb2008c125f75c45bf7ac29cc448e154ad8889fcd742c14e256eff1e143a"
+    },
+    {
+      "path": "filter_guards_w2.csv",
+      "bytes": 133713,
+      "sha256": "084d6f494cacd706015329d1d7320dbb3e369c40573ee59cc5b00a65e109ee9a"
+    },
+    {
+      "path": "filter_guards_w3.csv",
+      "bytes": 133344,
+      "sha256": "6ff25fb2711ecb9443bedaaddf2c4f439cd8b0a3199c576ef4fe8b42113e9114"
+    },
+    {
+      "path": "filter_guards_w4.csv",
+      "bytes": 133210,
+      "sha256": "2b445165bbf202f5cdc56bed0d1d7716b72eaf17ed63cacf096fb3c4c8ef3335"
+    },
+    {
+      "path": "final_verification.json",
+      "bytes": 1421,
+      "sha256": "1b2a02af78af5db3478c963fce24109eda3146b0fd18c3720b4f13634aee2db6"
+    },
+    {
+      "path": "generation_complete.json",
+      "bytes": 237,
+      "sha256": "9fe2944b23ec4d7e091484dd1f788c01c72fd650b18a8f4b0cefa01857462c9f"
+    },
+    {
+      "path": "generation_matlab.log",
+      "bytes": 9926,
+      "sha256": "f922a13ddff8c1e4fa55587ac0d7df6b4bdfdd210001e7c6cbe12df14997f94a"
+    },
+    {
+      "path": "generator_check.json",
+      "bytes": 2281,
+      "sha256": "0dffd6ddf7174975d046a4bed9e65b48aa8c1064e92cb5498a0c411b1837f4a9"
+    },
+    {
+      "path": "generator_check_source\\HB_frequency_draws.csv",
+      "bytes": 836920,
+      "sha256": "1289751a7388fbf0224bfd435efef55e1177bc8c7f27daf69cc797ac38c97679"
+    },
+    {
+      "path": "generator_check_source\\HB_input_manifest.json",
+      "bytes": 27774,
+      "sha256": "4f7164282f31a17d391fed4cdd550253d6d527c3e5af03c3e4ccfe195182f08d"
+    },
+    {
+      "path": "generator_check_source\\HB_inputs.mat",
+      "bytes": 184360697,
+      "sha256": "0a1f8f98729d874745578cd5e18fe274bc3d6e84e9af38901b41352b3b0c33f5"
+    },
+    {
+      "path": "generator_check_source\\HB_null_pair_verification.csv",
+      "bytes": 752518,
+      "sha256": "379711cd841e40015b7b44d167a026556f5e5d2d4022d159c1fccfefdd5d5b96"
+    },
+    {
+      "path": "matplotlib_cache\\fontlist-v3.11.0.json",
+      "bytes": 216566,
+      "sha256": "ad2c6ad3aae4cebf59f25dbbdbbb39569774e7ed38b6e8e9b993bda1fa61a4f7"
+    },
+    {
+      "path": "primary_C1_C2.csv",
+      "bytes": 900,
+      "sha256": "7aa3175f482ece42b822fefcd35cd73253291e0ac35329886962d6c49a3e7b75"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 34999,
+      "sha256": "15371a39b92777666e53cfab4f75e2b441fe7f904edcd5482f413520a68258b0"
+    },
+    {
+      "path": "recovery_by_level.csv",
+      "bytes": 44251,
+      "sha256": "d750a036365d083c0801e5c394a2e39e89d9471d3865a9ce12d425cc55c11111"
+    },
+    {
+      "path": "RESULTS_confirm.md",
+      "bytes": 17826,
+      "sha256": "9996b31bdce34a3f2d5af2d269279cd83716a3451fb49724f3fb3fa3edf5649b"
+    },
+    {
+      "path": "secondary_tests.csv",
+      "bytes": 4158,
+      "sha256": "3d5bf3bd5c2711290f27a9d96d58d8160960c7864ed1c6d5efceb9ed9759d7ff"
+    },
+    {
+      "path": "statistics.csv",
+      "bytes": 4871,
+      "sha256": "36d0a70bd475007024889a4df2b0cf25d0b1c50044ba858d583d8da6a00b56a1"
+    },
+    {
+      "path": "tooling_environment_ver_attempt1\\confirm_worker.m",
+      "bytes": 6937,
+      "sha256": "499cb19f2e97f97332c8538bd6b9189b4f716b0af3be365e048b0d6de179dec5"
+    },
+    {
+      "path": "tooling_environment_ver_attempt1\\fix.diff",
+      "bytes": 1827,
+      "sha256": "ade29ee4b5dfa8f5f7873daa270b774b5da2b8c00e40e2928e0411a65a99fef3"
+    },
+    {
+      "path": "tooling_environment_ver_attempt1\\worker1_matlab.log",
+      "bytes": 8732,
+      "sha256": "2151378b50922f4428483f2e076cb7d646d7edf9040e1f25318635dff409f875"
+    },
+    {
+      "path": "trial_estimates.csv",
+      "bytes": 6405329,
+      "sha256": "65b6bdff12cc334bb9c41fb02b79e4687d6f74e44f84a3f1b0c83b091ef17a14"
+    },
+    {
+      "path": "truths.csv",
+      "bytes": 951120,
+      "sha256": "ea57566e28f7b0cc77af9e4877116f41e0e8049204265e07daf73af228f79f89"
+    },
+    {
+      "path": "verify_confirm.py",
+      "bytes": 5609,
+      "sha256": "b93f8e5c531dc5f1648f53394b4e44c5212d190fb5c27ad52a8d339473f19078"
+    },
+    {
+      "path": "visual_qa.json",
+      "bytes": 424,
+      "sha256": "e8ae425e63836f6a46de60a92aeaaa0ffe47d9fe96972c3d8ae502201fd8533d"
+    },
+    {
+      "path": "W1_counts.csv",
+      "bytes": 4417,
+      "sha256": "780f2cb12e8d80be91df0ca8091b783a3dee6c07aef73e1932790292d6ee1138"
+    },
+    {
+      "path": "W1_inputs.mat",
+      "bytes": 97835484,
+      "sha256": "df5e8c3e5daa9002a3c9df71970064dbb27ecd4d86b6995e5022278262a6be36"
+    },
+    {
+      "path": "W1_source\\HB_frequency_draws.csv",
+      "bytes": 837272,
+      "sha256": "8e34ec9164a85b515a807c613463b1c69c1a0a458c19c59082dfa488025f01bd"
+    },
+    {
+      "path": "W1_source\\HB_input_manifest.json",
+      "bytes": 27774,
+      "sha256": "4f7164282f31a17d391fed4cdd550253d6d527c3e5af03c3e4ccfe195182f08d"
+    },
+    {
+      "path": "W1_source\\HB_inputs.mat",
+      "bytes": 184340133,
+      "sha256": "9abc2a1d8c43dd881a29f8bec6c8b9abcf0a4ceb2d4a6f0bfa20daf1f11cf12c"
+    },
+    {
+      "path": "W1_source\\HB_null_pair_verification.csv",
+      "bytes": 752839,
+      "sha256": "c4145a265bace80ef285995ac801fa9788768f81ae7cbd42e59829549761d312"
+    },
+    {
+      "path": "W1_worker1.csv",
+      "bytes": 668493,
+      "sha256": "c2061789d4e85b132fadb954dbeea458ed8c25c13befc4b5e48aa11f921f4075"
+    },
+    {
+      "path": "W1_worker2.csv",
+      "bytes": 670603,
+      "sha256": "3271a9f61469ff79805d4056e907bbcf466a598f03b8bd99fb91f9bb7d421735"
+    },
+    {
+      "path": "W1_worker3.csv",
+      "bytes": 661170,
+      "sha256": "85cf78a5f3e1483a8409cecbe4e50da2528bde74b0f4ed16dab65ccf9e0517e6"
+    },
+    {
+      "path": "W1_worker4.csv",
+      "bytes": 663507,
+      "sha256": "b84306348ea3fda1ab710ebd6acc70ba66a39c61dc735be7324ae9b2205b74c3"
+    },
+    {
+      "path": "W3_counts.csv",
+      "bytes": 15772,
+      "sha256": "3a9a1f7a214ea8637d5ac2f84601c61f6a3b027a653dd3bbd4eda90ee2e4bef9"
+    },
+    {
+      "path": "W3_inputs.mat",
+      "bytes": 39012259,
+      "sha256": "0be8731d7e28c5e4bce75db2ab00958ba4cf445e6bf3f170495032b60ace4472"
+    },
+    {
+      "path": "W3_worker1.csv",
+      "bytes": 1009954,
+      "sha256": "64f116c2b2c49cb971e3c684c9928423297f316040e7b1df5c567dd3aa33044d"
+    },
+    {
+      "path": "W3_worker2.csv",
+      "bytes": 1010142,
+      "sha256": "139a786d16560fe4aa705262857c553b18d65b050aeff9a940efead7c9819715"
+    },
+    {
+      "path": "W3_worker3.csv",
+      "bytes": 1010172,
+      "sha256": "7932d5a05ed326849344abdfad9cec4f1667e012fbcb8ad6b31c6bcaff961d69"
+    },
+    {
+      "path": "W3_worker4.csv",
+      "bytes": 1010138,
+      "sha256": "2a63036c4e649736a647fe59d5ad033b7b3c629618875e0072fa85cf56eac15a"
+    },
+    {
+      "path": "worker1_complete.json",
+      "bytes": 225,
+      "sha256": "0898b31448bfbe20bf42f44bd35dc6d5aac9aaea1fbfffaacf1fe7a2e43a6e8d"
+    },
+    {
+      "path": "worker1_environment_resume_matlab.log",
+      "bytes": 8286,
+      "sha256": "396740ec3135cf5483422af94a0223c31a6f17c48dd83206a7fb356eed4e35ff"
+    },
+    {
+      "path": "worker1_matlab.log",
+      "bytes": 8732,
+      "sha256": "2151378b50922f4428483f2e076cb7d646d7edf9040e1f25318635dff409f875"
+    },
+    {
+      "path": "worker2_complete.json",
+      "bytes": 225,
+      "sha256": "6c69a4940611119b596489c466c7493821364d9555bcf9e438ea3e57aeed07da"
+    },
+    {
+      "path": "worker2_matlab.log",
+      "bytes": 8286,
+      "sha256": "594d78429b6d44b2f14f42a6fc128ac4e36f9c6011f96b856e814262ab3d8f23"
+    },
+    {
+      "path": "worker3_complete.json",
+      "bytes": 225,
+      "sha256": "d3880e4c1cf07d62e9ece682fd7921f871550dcdab4a14925804061d9da22c37"
+    },
+    {
+      "path": "worker3_matlab.log",
+      "bytes": 8286,
+      "sha256": "3ac441d9d2d92ffc38f6b62ecbfd8a9807353dd4c303dd47f4260c1669858dea"
+    },
+    {
+      "path": "worker4_complete.json",
+      "bytes": 225,
+      "sha256": "94642f807c070fa675d548df79e9a6ccc1e668056f3d1cba901c0c649f67a89f"
+    },
+    {
+      "path": "worker4_matlab.log",
+      "bytes": 8286,
+      "sha256": "88b1a5da26f85f67f3cc215a7acf7838f9fff1e40d414d3ab44265c1ce1e8046"
+    }
+  ]
+}

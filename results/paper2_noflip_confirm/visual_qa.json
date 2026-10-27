@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "classification": "confirmatory",
+  "utc": "2026-10-24T19:36:33.606531+00:00",
+  "figure": "confirmation.png",
+  "checks": [
+    "All seven methods shown across W3 cells and W1 cohorts",
+    "Wilson interval bars visible",
+    "Legend is clear of data",
+    "Labels not clipped",
+    "No titles or footers inside image"
+  ],
+  "git_commit": "48b8f573c5a59539334f74c65eb4a2cb9b557c55"
+}

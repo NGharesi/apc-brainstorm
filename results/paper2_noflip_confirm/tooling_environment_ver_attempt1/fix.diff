@@ -1,0 +1,11 @@
+--- before/confirm_worker.m
++++ after/confirm_worker.m
+@@ -2,7 +2,7 @@
+ if nargin<2,nworkers=4;end
+ O=fileparts(mfilename('fullpath'));R=fileparts(fileparts(O));repo=fullfile(R,'apc-brainstorm-publish');cd(O);
+ addpath(fullfile(repo,'analysis','v1_revision'),'-begin');addpath(fullfile(repo,'results','paper2_ablation'),'-begin');addpath(fullfile(R,'revision_checks','final'),'-begin');addpath(fullfile(repo,'results','paper2_validation'),'-begin');addpath(fullfile(repo,'src'),'-begin');
+-assert(strcmpi(which('bst_apc'),fullfile(repo,'src','bst_apc.m')));if worker==1,writejson(fullfile(O,'environment.json'),struct('matlab_version',version,'toolbox_versions',ver));end;m=jsondecode(fileread(fullfile(O,'provenance.json')));G=jsondecode(fileread(fullfile(O,'generator_check.json')));gen=jsondecode(fileread(fullfile(O,'generation_complete.json')));assert(strcmp(G.status,'PASS')&&strcmp(gen.status,'COMPLETE'));dest=fullfile(O,'checkpoints');if ~isfolder(dest),mkdir(dest);end;start=tic;key="";
++assert(strcmpi(which('bst_apc'),fullfile(repo,'src','bst_apc.m')));if worker==1,writejson(fullfile(O,'environment.json'),struct('matlab_version',version,'toolbox_versions',feval('ver')));end;m=jsondecode(fileread(fullfile(O,'provenance.json')));G=jsondecode(fileread(fullfile(O,'generator_check.json')));gen=jsondecode(fileread(fullfile(O,'generation_complete.json')));assert(strcmp(G.status,'PASS')&&strcmp(gen.status,'COMPLETE'));dest=fullfile(O,'checkpoints');if ~isfolder(dest),mkdir(dest);end;start=tic;key="";
+ try
+ for suite=["W3","W1"]
+  profile="V3";if suite=="W1",profile="V1";end;cfg=validation_settings(profile);bank=load(fullfile(O,char(suite+"_inputs.mat")),'cases','bankmeta');ids=worker:nworkers:numel(bank.cases);csv=fullfile(O,sprintf('%s_worker%d.csv',suite,worker));done=false(size(ids));parts={};
